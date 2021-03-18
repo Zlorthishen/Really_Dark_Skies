@@ -9,9 +9,9 @@ In short, this Dark Skies is much much more difficult than vanilla DDA, and reco
  - Invasive alien species prowl the wilderness, some hostile some are not. 
  - If you survive long enough, you may even see the Xenoid's emissaries to humanity.
  
- -WIP Map: "Peach Trees" Arcology by Zenture Industries®
- -WIP Map: The Alien Hive Structure
- -WIP Map: The Xenoid Fortress
+ - WIP Map: "Peach Trees" Arcology by Zenture Industries®
+ - WIP Map: The Alien Hive Structure
+ - WIP Map: The Xenoid Fortress
  
 
 # Meta
