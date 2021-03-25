@@ -82,7 +82,7 @@
   {
     "id": "dkz_mon_mossliz",
     "type": "MONSTER",
-    "name": "moss-cow lizard",
+    "name": "mossy cow lizard",
     "description": "A cow-sized reptoid, covered in what appears to be a thick layer of mossy vegetation and rocks.  It trudges about the landscape on sturdy legs, foraging whatever flora it can reach with sharp little teeth.  It doesn't seem to mind you too much.",
     "default_faction": "packliz",
     "bodytype": "gator",
