@@ -107,7 +107,7 @@
     "vision_night": 35,
     "harvest": "mutant_animal_large_noskin",
     "path_settings": { "max_dist": 5 },
-    "special_attacks": [ { "type": "bite", "cooldown": 6 }, [ "EAT_CROP", 40 ] ],
+    "special_attacks": [ { "type": "bite", "cooldown": 6 }, [ "EAT_FOOD", 40 ] ],
     "anger_triggers": [ "HURT" ],
     "fear_triggers": [ "FIRE" ],
     "placate_triggers": [ "MEAT", "PLAYER_WEAK" ],
@@ -128,7 +128,7 @@
   {
     "id": "dkz_mon_packliz",
     "type": "MONSTER",
-    "name": "dog lizard",
+    "name": "blue dog lizard",
     "description": "A slim reptoid about the size of a big dog, with a thick mane of what looks like rather pretty orange-blue 'feathers' around its head.  Frond-like protrusions grow from the top of its head down to the base of its tail, glowing faintly when in the presence of other members of its pack.",
     "default_faction": "packliz",
     "bodytype": "gator",
