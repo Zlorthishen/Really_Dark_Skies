@@ -1,17 +1,13 @@
 [
   {
     "type": "mod_tileset",
-    "compatibility": [
-      "UNDEAD_PEOPLE",
-      "UNDEAD_PEOPLE_BASE",
-      "UNDEAD_PEOPLE_LEGACY"
-    ],
+    "compatibility": [ [ "UNDEAD_PEOPLE_BASE", "UNDEAD_PEOPLE", "MshockXottoplus", "UNDEAD_PEOPLE_LIGHT", "MSX++DEAD_PEOPLE" ] ],
     "tiles-new": [
       {
         "file": "Real_Dark_Skies_Above_normal.png",
         "tiles": [
-		  { "id": "bg_shadow_normal", "fg": 1, "rotates": false },
-		  { "id": "dkz_xenoid_ranger", "fg": 6, "bg": 1, "rotates": false },
+          { "id": "bg_shadow_normal", "fg": 1, "rotates": false },
+          { "id": "dkz_xenoid_ranger", "fg": 6, "bg": 1, "rotates": false },
           { "id": "corpse_dkz_xenoid_ranger", "fg": 7, "rotates": false },
           { "id": "dkz_xenoid_hunter", "fg": 6, "bg": 1, "rotates": false },
           { "id": "corpse_dkz_xenoid_hunter", "fg": 7, "rotates": false },
