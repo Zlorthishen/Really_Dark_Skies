@@ -439,7 +439,7 @@
       {
         "type": "spell",
         "spell_data": { "id": "dkz_monspell_halluc" },
-        "cooldown": 7,
+        "cooldown": 13,
         "monster_message": "<color_pink>%1$s gesticulates at %3$s and a pulse of mind-bending psionic energy ripples through the air!</color>"
       },
       {
@@ -455,7 +455,7 @@
         "description": "<color_light_green>The %1$s fires a stream of flowery, sweet-smelling gas!</color>"
       }
     ],
-    "death_drops": "dkz_mon_xenoid_enforcer",
+    "death_drops": "dkz_xenoid_fumigator",
     "path_settings": { "max_dist": 5 },
     "death_function": [ "NORMAL" ],
     "flags": [
