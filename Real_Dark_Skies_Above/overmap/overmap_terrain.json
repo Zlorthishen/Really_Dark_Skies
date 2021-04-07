@@ -1,0 +1,146 @@
+[
+  {
+    "type": "overmap_terrain",
+    "id": "arcology_z0_1_1",
+    "name": "arcology",
+    "sym": "m",
+    "color": "i_light_green",
+    "extras": "build",
+    "see_cost": 99
+  },
+    {
+    "type": "overmap_terrain",
+    "id": "arcology_z0_1_2",
+    "name": "arcology",
+    "sym": "m",
+    "color": "i_light_green",
+    "extras": "build",
+    "see_cost": 99
+  },
+    {
+    "type": "overmap_terrain",
+    "id": "arcology_z0_1_3",
+    "name": "arcology",
+    "sym": "m",
+    "color": "i_light_green",
+    "extras": "build",
+    "see_cost": 99
+  },
+    {
+    "type": "overmap_terrain",
+    "id": "arcology_z0_1_4",
+    "name": "arcology",
+    "sym": "m",
+    "color": "i_light_green",
+    "extras": "build",
+    "see_cost": 99
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "arcology_z0_2_1",
+    "name": "arcology",
+    "sym": "m",
+    "color": "i_light_green",
+    "extras": "build",
+    "see_cost": 99
+  },
+    {
+    "type": "overmap_terrain",
+    "id": "arcology_z0_2_2",
+    "name": "arcology",
+    "sym": "m",
+    "color": "i_light_green",
+    "extras": "build",
+    "see_cost": 99
+  },
+    {
+    "type": "overmap_terrain",
+    "id": "arcology_z0_2_3",
+    "name": "arcology",
+    "sym": "m",
+    "color": "i_light_green",
+    "extras": "build",
+    "see_cost": 99
+  },
+    {
+    "type": "overmap_terrain",
+    "id": "arcology_z0_2_4",
+    "name": "arcology",
+    "sym": "m",
+    "color": "i_light_green",
+    "extras": "build",
+    "see_cost": 99
+  },  
+  {
+    "type": "overmap_terrain",
+    "id": "arcology_z0_3_1",
+    "name": "arcology",
+    "sym": "m",
+    "color": "i_light_green",
+    "extras": "build",
+    "see_cost": 99
+  },
+    {
+    "type": "overmap_terrain",
+    "id": "arcology_z0_3_2",
+    "name": "arcology",
+    "sym": "m",
+    "color": "i_light_green",
+    "extras": "build",
+    "see_cost": 99
+  },
+    {
+    "type": "overmap_terrain",
+    "id": "arcology_z0_3_3",
+    "name": "arcology",
+    "sym": "m",
+    "color": "i_light_green",
+    "extras": "build",
+    "see_cost": 99
+  },
+    {
+    "type": "overmap_terrain",
+    "id": "arcology_z0_3_4",
+    "name": "arcology",
+    "sym": "m",
+    "color": "i_light_green",
+    "extras": "build",
+    "see_cost": 99
+  },  
+  {
+    "type": "overmap_terrain",
+    "id": "arcology_z0_4_1",
+    "name": "arcology",
+    "sym": "m",
+    "color": "i_light_green",
+    "extras": "build",
+    "see_cost": 99
+  },
+    {
+    "type": "overmap_terrain",
+    "id": "arcology_z0_4_2",
+    "name": "arcology",
+    "sym": "m",
+    "color": "i_light_green",
+    "extras": "build",
+    "see_cost": 99
+  },
+    {
+    "type": "overmap_terrain",
+    "id": "arcology_z0_4_3",
+    "name": "arcology",
+    "sym": "m",
+    "color": "i_light_green",
+    "extras": "build",
+    "see_cost": 99
+  },
+    {
+    "type": "overmap_terrain",
+    "id": "arcology_z0_4_4",
+    "name": "arcology",
+    "sym": "m",
+    "color": "i_light_green",
+    "extras": "build",
+    "see_cost": 99
+  }  
+]
