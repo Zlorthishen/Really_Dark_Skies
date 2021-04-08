@@ -133,9 +133,10 @@
     "dynamic_line": [
       "I don't have forever to chat, whatchya need?",
 	  "Yes, what do you want?",
-	  "I'm pretty busy but could probably help."
+	  "I'm pretty busy but could probably help.",
+	  "Whats up?",
       "What is broken now?",
-      { "u_male": [ "Buddy, what do you want?" ], "no": [ "Girl, want do you want?" ] }
+      { "u_male": [ "Buddy, what do you want?", "Dude, what?" ], "no": [ "Girl, want do you want?" ] }
     ],
     "responses": [
       {
@@ -155,7 +156,7 @@
       { "text": "So how did you end up here?", "topic": "TALK_RANDY_ERIKSON_BACKGROUND" },
       { "text": "So what are you doing here?", "topic": "TALK_RANDY_ERIKSON_GENERATOR" },
       { "text": "Is there anything I can do to help you out?", "topic": "TALK_MISSION_LIST" },
-      { "text": "About one of those missions…", "condition": { "has_assigned_mission" }, "topic": "TALK_MISSION_LIST_ASSIGNED" },	  
+      { "text": "About that quest…", "condition": { "has_assigned_mission": "true" }, "topic": "TALK_MISSION_LIST_ASSIGNED" },	  
       { "text": "Don't mind me…", "topic": "TALK_DONE" }
     ]
   },
