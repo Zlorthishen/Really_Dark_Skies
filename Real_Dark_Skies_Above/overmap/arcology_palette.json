@@ -5,6 +5,7 @@
     "terrain": {
       " ": "t_sidewalk",
       ".": "t_open_air",
+
       "'": "t_pavement",
       "-": "t_concrete_railing",
       "u": "t_sidewalk_ramp_up_low",
