@@ -3,9 +3,9 @@
     "type": "palette",
     "id": "arcology_palette",
     "terrain": {
-      " ": "t_sidewalk",
       ".": "t_open_air",
-
+      ";": "t_concrete",
+      ":": "t_sidewalk",
       "'": "t_pavement",
       "-": "t_concrete_railing",
       "u": "t_sidewalk_ramp_up_low",
@@ -29,11 +29,8 @@
       "^": "t_column",
       "2": "t_machinery_light",
       "3": "t_machinery_heavy",
-      "4": "t_machinery_electronic",
       "5": "t_palisade_pulley",
       "6": "t_console",
-      "7": "t_console_broken",
-      "0": "t_window_empty",
       "e": "t_elevator",
       "E": "t_elevator_control_off",
       "f": "t_chainfence_h",
@@ -47,6 +44,9 @@
     },
     "furniture": {
       "s": "f_sink",
+	  "4": "f_server",
+      "1": "f_small_satelitte_dish",
+      "v": "f_roof_turbine_vent",	  
       "&": "f_toilet"
     },	
     "toilets": { "&": { "amount": [ 0, 50 ] } },
