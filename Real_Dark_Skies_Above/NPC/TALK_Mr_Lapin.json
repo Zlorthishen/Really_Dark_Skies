@@ -4,7 +4,7 @@
     "type": "talk_topic",
     "responses": [
       {
-        "text": "What can you tell me about the Xenoids?",
+        "text": "Have you seen any hostile Xenoids?",
         "effect": { "u_add_var": "u_Talk_To_MrLapin_about_Xenoids", "type": "general", "context": "meeting", "value": "yes" },
         "condition": { "not": { "u_has_var": "u_Talk_To_MrLapin_about_Xenoids", "type": "general", "context": "meeting", "value": "yes" } },
         "topic": "TALK_WARRENER_XENOIDS"
@@ -14,7 +14,7 @@
   {
     "id": "TALK_WARRENER_XENOIDS",
     "type": "talk_topic",
-    "dynamic_line": "I'm not worried maybe they'll like rabbits too.  Has anyone bothered to try to talk to them?",
+    "dynamic_line": "I'm not worried about them, maybe they'll like rabbits too.  Has anyone bothered to try to talk to them?",
     "responses": [ { "text": "Yeah, they'll like to kill rabbits.", "topic": "TALK_WARRENER" } ]
   }
 ]
