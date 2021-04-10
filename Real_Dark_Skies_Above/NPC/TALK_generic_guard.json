@@ -2,7 +2,7 @@
   {
     "id": "TALK_GUARD",
     "type": "talk_topic",
-    "responses": [ { "text": "What can you tell me about these 'Xenoids'?", "topic": "TALK_GUARD_XENOIDS" } ]
+    "responses": [ { "text": "What can you tell me about the Xenoids?", "topic": "TALK_GUARD_XENOIDS" } ]
   },
   {
     "id": "TALK_GUARD_XENOIDS",
@@ -13,7 +13,7 @@
       "If you hear their weird radio, go in the opposite direction.",
       "Don't look into their eyes!"
     ],
-    "responses": [ { "text": "What about the 'Strays'?", "topic": "TALK_GUARD_STRAYS" } ]
+    "responses": [ { "text": "What about the Strays?", "topic": "TALK_GUARD_STRAYS" } ]
   },
   {
     "id": "TALK_GUARD_STRAYS",
