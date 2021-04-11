@@ -19,7 +19,7 @@
       ">": "t_stairs_down",
       "]": "t_door_metal_locked",
       "[": "t_door_metal_locked",
-      "=": "t_chaingate_c",
+      "=": "t_chainfence",
       "*": "t_bars",
       "%": "t_card_reader_broken",
       "!": "t_door_metal_c",
