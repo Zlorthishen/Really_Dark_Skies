@@ -44,7 +44,7 @@
       "G": "t_reinforced_glass",
       "M": "t_door_metal_locked",
       "c": "t_gates_mech_control",	  
-      "P": "t_palisade_gate",
+      "P": "t_palisade_gate"
     },
     "furniture": {
       "s": "f_sink",
