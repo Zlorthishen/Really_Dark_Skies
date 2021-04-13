@@ -20,7 +20,7 @@
     "armor_bash": 10,
     "armor_stab": 13,
     "armor_cut": 12,
-	"armor_bullet": 15,
+    "armor_bullet": 7,
     "luminance": 10,
     "vision_night": 5,
     "special_attacks": [
@@ -71,7 +71,7 @@
     "armor_bash": 10,
     "armor_stab": 13,
     "armor_cut": 12,
-	"armor_bullet": 15,	
+    "armor_bullet": 7,
     "luminance": 10,
     "vision_night": 5,
     "special_attacks": [
@@ -132,7 +132,7 @@
     "armor_bash": 5,
     "armor_stab": 7,
     "armor_cut": 5,
-    "armor_bullet": 11,
+    "armor_bullet": 5,
     "harvest": "dkz_mhuman_chipped",
     "special_attacks": [
       [ "PARROT", 5 ],
@@ -160,7 +160,7 @@
     "path_settings": { "max_dist": 20 },
     "anger_triggers": [ "PLAYER_CLOSE", "PLAYER_WEAK", "STALK" ],
     "death_function": [ "NORMAL" ],
-    "upgrades": { "half_life": 30, "into_group": "DKZ_GROUP_RANGER_UPGRADE" },	
+    "upgrades": { "half_life": 30, "into_group": "DKZ_GROUP_RANGER_UPGRADE" },
     "flags": [
       "SEES",
       "SMELLS",
@@ -207,7 +207,7 @@
     "armor_bash": 5,
     "armor_stab": 7,
     "armor_cut": 5,
-    "armor_bullet": 11,
+    "armor_bullet": 5,
     "harvest": "dkz_mhuman_chipped",
     "special_attacks": [
       [ "PARROT", 5 ],
@@ -234,11 +234,11 @@
     "death_drops": "dkz_mon_xenoid_hunter",
     "path_settings": { "max_dist": 20 },
     "anger_triggers": [ "PLAYER_CLOSE", "PLAYER_WEAK", "STALK" ],
-    "death_function": [ "NORMAL" ],	
+    "death_function": [ "NORMAL" ],
     "flags": [
       "SEES",
       "SMELLS",
-	  "KEENNOSE",
+      "KEENNOSE",
       "HEARS",
       "GOODHEARING",
       "NO_BREATHE",
@@ -253,7 +253,7 @@
       "HIT_AND_RUN",
       "CAN_OPEN_DOORS"
     ]
-  },  
+  },
   {
     "id": "dkz_xenoid_enforcer",
     "type": "MONSTER",
@@ -283,7 +283,7 @@
     "armor_bash": 5,
     "armor_stab": 7,
     "armor_cut": 5,
-    "armor_bullet": 11,
+    "armor_bullet": 5,
     "harvest": "dkz_mhuman_chipped",
     "special_attacks": [
       [ "PARROT", 5 ],
@@ -311,7 +311,7 @@
     "death_drops": "dkz_mon_xenoid_enforcer",
     "path_settings": { "max_dist": 5 },
     "death_function": [ "NORMAL" ],
-    "upgrades": { "half_life": 30, "into_group": "DKZ_GROUP_ENFORCER_UPGRADE" },		
+    "upgrades": { "half_life": 30, "into_group": "DKZ_GROUP_ENFORCER_UPGRADE" },
     "flags": [
       "SEES",
       "SMELLS",
@@ -359,7 +359,7 @@
     "armor_bash": 5,
     "armor_stab": 7,
     "armor_cut": 5,
-    "armor_bullet": 11,
+    "armor_bullet": 5,
     "harvest": "dkz_mhuman_chipped",
     "special_attacks": [
       [ "PARROT", 5 ],
@@ -390,7 +390,7 @@
     "flags": [
       "SEES",
       "SMELLS",
-	  "KEENNOSE",
+      "KEENNOSE",
       "HEARS",
       "GOODHEARING",
       "NO_BREATHE",
@@ -434,7 +434,7 @@
     "armor_bash": 5,
     "armor_stab": 7,
     "armor_cut": 5,
-    "armor_bullet": 11,
+    "armor_bullet": 5,
     "harvest": "dkz_mhuman_chipped",
     "special_attacks": [
       [ "PARROT", 5 ],
@@ -463,7 +463,7 @@
     "flags": [
       "SEES",
       "SMELLS",
-	  "KEENNOSE",
+      "KEENNOSE",
       "HEARS",
       "GOODHEARING",
       "NO_BREATHE",
@@ -507,7 +507,7 @@
     "armor_bash": 13,
     "armor_stab": 19,
     "armor_cut": 13,
-    "armor_bullet": 23,
+    "armor_bullet": 11,
     "harvest": "dkz_mhuman_chipped",
     "special_attacks": [
       [ "PARROT", 5 ],
@@ -581,7 +581,7 @@
     "armor_bash": 13,
     "armor_stab": 19,
     "armor_cut": 13,
-    "armor_bullet": 23,
+    "armor_bullet": 11,
     "harvest": "dkz_mhuman_chipped",
     "special_attacks": [
       [ "PARROT", 20 ],
@@ -656,7 +656,7 @@
     "armor_bash": 13,
     "armor_stab": 19,
     "armor_cut": 13,
-    "armor_bullet": 23,
+    "armor_bullet": 11,
     "harvest": "dkz_mhuman_chipped",
     "special_attacks": [
       [ "PARROT", 20 ],
@@ -689,7 +689,7 @@
     "flags": [
       "SEES",
       "SMELLS",
-	  "KEENNOSE",
+      "KEENNOSE",
       "HEARS",
       "GOODHEARING",
       "NO_BREATHE",
@@ -731,7 +731,7 @@
     "armor_stab": 90,
     "armor_cut": 90,
     "armor_acid": 15,
-    "armor_bullet": 13,
+    "armor_bullet": 29,
     "vision_day": 50,
     "vision_night": 12,
     "path_settings": { "max_dist": 30 },
@@ -805,7 +805,7 @@
     "armor_stab": 90,
     "armor_cut": 90,
     "armor_acid": 15,
-    "armor_bullet": 13,
+    "armor_bullet": 29,
     "vision_day": 50,
     "vision_night": 12,
     "path_settings": { "max_dist": 30 },
@@ -879,7 +879,7 @@
     "armor_stab": 95,
     "armor_cut": 95,
     "armor_acid": 25,
-    "armor_bullet": 15,
+    "armor_bullet": 31,
     "vision_day": 50,
     "vision_night": 12,
     "path_settings": { "max_dist": 30 },
@@ -955,7 +955,7 @@
     "armor_stab": 90,
     "armor_cut": 90,
     "armor_acid": 15,
-    "armor_bullet": 13,
+    "armor_bullet": 29,
     "vision_day": 50,
     "vision_night": 12,
     "path_settings": { "max_dist": 30 },
@@ -1025,7 +1025,7 @@
     "dodge": 3,
     "armor_bash": 8,
     "armor_cut": 4,
-	"armor_bullet": 4,
+    "armor_bullet": 4,
     "vision_night": 6,
     "harvest": "zombie_leather",
     "special_attacks": [
@@ -1066,7 +1066,7 @@
     "melee_dice_sides": 6,
     "armor_bash": 10,
     "armor_cut": 8,
-	"armor_bullet": 4,
+    "armor_bullet": 4,
     "vision_night": 15,
     "harvest": "mutant_meatslug",
     "special_attacks": [
