@@ -8,18 +8,23 @@
       ":": "t_sidewalk",
       "'": "t_pavement",
       "`": "t_pavement_y",
-      "-": "t_concrete_railing",
       "u": "t_sidewalk_ramp_up_low",
       "U": "t_sidewalk_ramp_up_high",
       "D": "t_sidewalk_ramp_down_low",
       "d": "t_sidewalk_ramp_down_high",
       ",": [ "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass_long" ],
+      "!": "t_door_metal_c",
       "#": "t_concrete_wall",
       "$": "t_junk_wall",
       "%": "t_wall_log",
       "^": "t_column",
-      "&": "t_palisade",	
-      "*": "t_bars",	  
+      "&": "t_palisade",
+      "*": "t_bars",
+      "(": "t_dirt",
+      ")": "t_dirtmound",
+      "-": "t_concrete_railing",
+      "=": "t_chainfence",
+      "_": "t_metal_floor",
       "+": "t_door_c",
       "<": "t_stairs_up",
       ">": "t_stairs_down",
@@ -27,11 +32,8 @@
       "}": "t_ladder_down",
       "]": "t_wood_stairs_up",
       "[": "t_wood_stairs_down",
-      "=": "t_chainfence",
-      "!": "t_door_metal_c",
-      "_": "t_metal_floor",
       "~": "t_water_sh",
-	  "T": "t_tree_cherry",
+      "T": "t_tree_cherry",
       "2": "t_machinery_light",
       "3": "t_machinery_heavy",
       "5": "t_palisade_pulley",
@@ -43,19 +45,13 @@
       "g": "t_wall_glass",
       "G": "t_reinforced_glass",
       "M": "t_door_metal_locked",
-      "c": "t_gates_mech_control",	  
+      "c": "t_gates_mech_control",
       "P": "t_palisade_gate"
     },
     "furniture": {
-      "s": "f_sink",
-	  "4": "f_server",
-      "1": "f_small_satelitte_dish",
-      "v": "f_roof_turbine_vent",	  
-      "&": "f_toilet"
-    },	
+	"s": "f_sink", "4": "f_server", "1": "f_small_satelitte_dish", "v": "f_roof_turbine_vent", "&": "f_toilet" 
+	},
     "toilets": { "&": { "amount": [ 0, 50 ] } },
-    "items": {
-      "l": { "item": "drugdealer", "chance": 40 }
-    }
+    "items": { "l": { "item": "drugdealer", "chance": 40 } }
   }
 ]
