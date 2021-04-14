@@ -3,34 +3,27 @@
     "type": "monstergroup",
     "name": "DKZ_GROUP_RANGER_UPGRADE",
     "default": "dkz_xenoid_ranger",
-    "monsters": [
-      { "monster": "dkz_xenoid_hunter", "freq": 20, "cost_multiplier": 2 }
-    ]
+    "monsters": [ { "monster": "dkz_xenoid_hunter", "freq": 20, "cost_multiplier": 2 } ]
   },
-
   {
     "type": "monstergroup",
     "name": "DKZ_GROUP_ENFORCER_UPGRADE",
     "default": "dkz_xenoid_enforcer",
-    "monsters": [
-      { "monster": "dkz_xenoid_oppressor", "freq": 20, "cost_multiplier": 2 }
-    ]
+    "monsters": [ { "monster": "dkz_xenoid_oppressor", "freq": 20, "cost_multiplier": 2 } ]
   },
-
   {
     "type": "monstergroup",
     "name": "DKZ_GROUP_TEMPLAR_UPGRADE",
     "default": "dkz_xenoid_knight",
-    "monsters": [
-      { "monster": "dkz_xenoid_templar", "freq": 20, "cost_multiplier": 2 }
-    ]
+    "monsters": [ { "monster": "dkz_xenoid_templar", "freq": 20, "cost_multiplier": 2 } ]
   },
-  
   {
     "type": "monstergroup",
     "name": "GROUP_ZOMBIE",
     "default": "mon_dkz_glowdrone",
     "monsters": [
+      { "monster": "mon_dkz_glowdrone", "freq": 250, "cost_multiplier": 5, "pack_size": [ 3, 5 ] },
+      { "monster": "mon_dkz_scidrone", "freq": 150, "cost_multiplier": 10, "pack_size": [ 1, 3 ] },
       { "monster": "dkz_xenoid_ranger", "freq": 25, "cost_multiplier": 1, "pack_size": [ 1, 2 ] },
       { "monster": "dkz_xenoid_ranger", "freq": 35, "cost_multiplier": 2, "pack_size": [ 2, 3 ], "starts": 320 },
       { "monster": "dkz_xenoid_enforcer", "freq": 50, "cost_multiplier": 2, "pack_size": [ 2, 3 ] },
@@ -42,10 +35,7 @@
       { "monster": "dkz_xenoid_knight", "freq": 80, "cost_multiplier": 2, "pack_size": [ 2, 5 ], "starts": 960 },
       { "monster": "dkz_xenoid_pyro", "freq": 20, "cost_multiplier": 2, "pack_size": [ 0, 1 ], "starts": 160 },
       { "monster": "dkz_xenoid_pyro", "freq": 20, "cost_multiplier": 2, "pack_size": [ 1, 2 ], "starts": 640 },
-      { "monster": "dkz_xenoid_pyro", "freq": 20, "cost_multiplier": 2, "pack_size": [ 2, 3 ], "starts": 960 },
-      { "monster": "mon_dkz_glowdrone", "freq": 20, "cost_multiplier": 5, "pack_size": [ 3, 5 ], "starts": 32 },
-      { "monster": "mon_dkz_scidrone", "freq": 20, "cost_multiplier": 10, "pack_size": [ 1, 3 ], "starts": 64 },
-      { "monster": "mon_dkz_scidrone", "freq": 20, "cost_multiplier": 15, "pack_size": [ 2, 5 ], "starts": 360 },
+      { "monster": "dkz_xenoid_pyro", "freq": 20, "cost_multiplier": 2, "pack_size": [ 2, 3 ] },
       { "monster": "mon_dkz_emissary", "freq": 10, "cost_multiplier": 20, "starts": 720 },
       { "monster": "mon_dkz_emissary_plague", "freq": 10, "cost_multiplier": 20, "starts": 1440 },
       { "monster": "mon_dkz_emissary_flame", "freq": 10, "cost_multiplier": 30, "starts": 1600 },
@@ -65,8 +55,8 @@
       { "monster": "dkz_xenoid_knight", "freq": 30, "cost_multiplier": 2, "pack_size": [ 1, 2 ] },
       { "monster": "dkz_xenoid_pyro", "freq": 20, "cost_multiplier": 2, "pack_size": [ 1, 2 ], "starts": 640 },
       { "monster": "dkz_xenoid_pyro", "freq": 20, "cost_multiplier": 2, "pack_size": [ 2, 3 ], "starts": 720 },
-      { "monster": "mon_dkz_glowdrone", "freq": 1, "cost_multiplier": 10, "starts": 360 },
-      { "monster": "mon_dkz_scidrone", "freq": 1, "cost_multiplier": 15, "starts": 1080 },
+      { "monster": "mon_dkz_glowdrone", "freq": 500, "cost_multiplier": 10},
+      { "monster": "mon_dkz_scidrone", "freq": 400, "cost_multiplier": 15 },
       { "monster": "mon_dkz_emissary", "freq": 1, "cost_multiplier": 20, "starts": 720 },
       { "monster": "mon_dkz_emissary", "freq": 1, "cost_multiplier": 15, "starts": 1440 },
       { "monster": "mon_dkz_emissary_plague", "freq": 10, "cost_multiplier": 20, "starts": 1440 },
@@ -79,13 +69,14 @@
     "name": "GROUP_MAYBE_MIL",
     "default": "dkz_xenoid_enforcer",
     "monsters": [
+	  { "monster": "mon_dkz_glowdrone", "freq": 500, "cost_multiplier": 10},
+      { "monster": "mon_dkz_scidrone", "freq": 400, "cost_multiplier": 15 },
       { "monster": "dkz_xenoid_ranger", "freq": 80, "cost_multiplier": 1, "pack_size": [ 1, 2 ] },
       { "monster": "dkz_xenoid_enforcer", "freq": 90, "cost_multiplier": 2, "pack_size": [ 1, 2 ] },
       { "monster": "dkz_xenoid_enforcer", "freq": 90, "cost_multiplier": 2, "pack_size": [ 1, 3 ] },
       { "monster": "dkz_xenoid_knight", "freq": 80, "cost_multiplier": 2, "pack_size": [ 1, 2 ], "starts": 160 },
       { "monster": "dkz_xenoid_knight", "freq": 80, "cost_multiplier": 2, "pack_size": [ 3, 5 ], "starts": 320 },
       { "monster": "dkz_xenoid_pyro", "freq": 70, "cost_multiplier": 2, "pack_size": [ 1, 2 ] },
-      { "monster": "mon_dkz_glowdrone", "freq": 10, "cost_multiplier": 10 },
       { "monster": "mon_dkz_emissary", "freq": 5, "cost_multiplier": 20, "starts": 360 },
       { "monster": "mon_dkz_emissary", "freq": 1, "cost_multiplier": 15, "starts": 960 },
       { "monster": "mon_dkz_emissary_plague", "freq": 10, "cost_multiplier": 20, "starts": 1200 },
@@ -98,8 +89,8 @@
     "type": "monstergroup",
     "default": "dkz_xenoid_enforcer",
     "monsters": [
-      { "monster": "mon_dkz_glowdrone", "freq": 50, "cost_multiplier": 10, "pack_size": [ 1, 2 ] },
-      { "monster": "mon_dkz_scidrone", "freq": 20, "cost_multiplier": 10 },
+      { "monster": "mon_dkz_glowdrone", "freq": 200, "cost_multiplier": 5, "pack_size": [ 3, 5 ] },
+      { "monster": "mon_dkz_scidrone", "freq": 100, "cost_multiplier": 10, "pack_size": [ 1, 3 ] },
       { "monster": "dkz_xenoid_ranger", "freq": 50, "cost_multiplier": 2, "pack_size": [ 1, 2 ] },
       { "monster": "dkz_xenoid_enforcer", "freq": 50, "cost_multiplier": 2, "pack_size": [ 1, 2 ] },
       { "monster": "dkz_xenoid_enforcer", "freq": 40, "cost_multiplier": 2, "pack_size": [ 2, 2 ] },
@@ -131,13 +122,13 @@
     "type": "monstergroup",
     "default": "dkz_xenoid_knight",
     "monsters": [
+      { "monster": "mon_dkz_glowdrone", "freq": 350, "cost_multiplier": 5, "pack_size": [ 3, 5 ] },
+      { "monster": "mon_dkz_scidrone", "freq": 250, "cost_multiplier": 10, "pack_size": [ 1, 3 ] },	
       { "monster": "dkz_xenoid_ranger", "freq": 10, "cost_multiplier": 1, "pack_size": [ 1, 2 ] },
       { "monster": "dkz_xenoid_enforcer", "freq": 70, "cost_multiplier": 2, "pack_size": [ 1, 2 ] },
       { "monster": "dkz_xenoid_enforcer", "freq": 50, "cost_multiplier": 2, "pack_size": [ 2, 4 ] },
       { "monster": "dkz_xenoid_knight", "freq": 70, "cost_multiplier": 2, "pack_size": [ 2, 4 ] },
       { "monster": "dkz_xenoid_pyro", "freq": 50, "cost_multiplier": 2, "pack_size": [ 1, 2 ] },
-      { "monster": "mon_dkz_glowdrone", "freq": 50, "cost_multiplier": 10 },
-      { "monster": "mon_dkz_scidrone", "freq": 20, "cost_multiplier": 10 },
       { "monster": "mon_dkz_emissary", "freq": 10, "cost_multiplier": 1, "starts": 360 },
       { "monster": "mon_dkz_emissary_plague", "freq": 10, "cost_multiplier": 5, "starts": 720 },
       { "monster": "mon_dkz_emissary_war", "freq": 5, "cost_multiplier": 5, "starts": 720 },
@@ -149,8 +140,8 @@
     "type": "monstergroup",
     "default": "dkz_xenoid_knight",
     "monsters": [
-      { "monster": "mon_dkz_glowdrone", "freq": 50, "cost_multiplier": 10 },
-      { "monster": "mon_dkz_scidrone", "freq": 20, "cost_multiplier": 10 },
+      { "monster": "mon_dkz_glowdrone", "freq": 350, "cost_multiplier": 5, "pack_size": [ 4, 7 ] },
+      { "monster": "mon_dkz_scidrone", "freq": 250, "cost_multiplier": 10, "pack_size": [ 2, 5 ] },
       { "monster": "dkz_xenoid_ranger", "freq": 40, "cost_multiplier": 1, "pack_size": [ 1, 2 ], "starts": 32 },
       { "monster": "dkz_xenoid_enforcer", "freq": 70, "cost_multiplier": 2, "pack_size": [ 2, 3 ], "starts": 80 },
       { "monster": "dkz_xenoid_enforcer", "freq": 90, "cost_multiplier": 2, "pack_size": [ 2, 3 ], "starts": 160 },
@@ -174,14 +165,8 @@
     "default": "dkz_mon_lurker_rectified",
     "is_animal": true,
     "monsters": [
-      { "monster": "dkz_mon_lurker_rectified", "freq": 10, "cost_multiplier": 10, "pack_size": [ 1, 3 ], "starts": 64 },
-      {
-        "monster": "dkz_mon_lurker_rectified",
-        "freq": 15,
-        "cost_multiplier": 25,
-        "pack_size": [ 2, 5 ],
-        "starts": 120
-      }
+      { "monster": "dkz_mon_lurker_rectified", "freq": 10, "cost_multiplier": 10, "pack_size": [ 1, 3 ] },
+      { "monster": "dkz_mon_lurker_rectified", "freq": 15, "cost_multiplier": 25, "pack_size": [ 2, 5 ] }
     ]
   },
   {
@@ -189,12 +174,12 @@
     "name": "GROUP_WORM",
     "default": "dkz_mon_bileworm_rectified",
     "is_animal": true,
-    "monsters": [ { "monster": "dkz_mon_bileworm_rectified", "freq": 25, "cost_multiplier": 20, "starts": 164 } ]
+    "monsters": [ { "monster": "dkz_mon_bileworm_rectified", "freq": 25, "cost_multiplier": 20 } ]
   },
   {
     "type": "monstergroup",
     "name": "DUMP_ANIMALS",
     "default": "dkz_mon_bileworm_rectified",
-    "monsters": [ { "monster": "dkz_mon_bileworm_rectified", "freq": 10, "cost_multiplier": 1, "starts": 164 } ]
+    "monsters": [ { "monster": "dkz_mon_bileworm_rectified", "freq": 10, "cost_multiplier": 1 } ]
   }
 ]
