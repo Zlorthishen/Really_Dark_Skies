@@ -3,7 +3,8 @@
     "id": "emit_relax_gas",
     "type": "emit",
     "field": "fd_relax_gas",
-    "intensity": 2,
-    "qty": 19
+    "intensity": 1,
+    "qty": 11,
+    "chance": 25
   }
 ]
