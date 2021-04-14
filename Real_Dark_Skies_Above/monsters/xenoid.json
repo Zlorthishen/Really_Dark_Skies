@@ -757,7 +757,7 @@
         "targeting_cost": 500,
         "targeting_sound": "the sound of pressurized gas hissing loudly.",
         "targeting_volume": 50,
-        "description": "<color_light_green>The emissary emits a stream of flowery, sweet-smelling gas!</color>"
+        "description": "<color_light_green>The %1$s fires a stream of blue hazy gas!</color>"
       }
     ],
     "death_function": [ "BROKEN" ],
