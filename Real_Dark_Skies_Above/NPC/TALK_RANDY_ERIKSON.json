@@ -132,9 +132,9 @@
     "type": "talk_topic",
     "dynamic_line": [
       "I don't have forever to chat, whatchya need?",
-	  "Yes, what do you want?",
-	  "I'm pretty busy but could probably help.",
-	  "Whats up?",
+      "Yes, what do you want?",
+      "I'm pretty busy but could probably help.",
+      "Whats up?",
       "What is broken now?",
       { "u_male": [ "Buddy, what do you want?", "Dude, what?" ], "no": [ "Girl, want do you want?" ] }
     ],
@@ -153,10 +153,27 @@
         "success": { "topic": "TALK_REFUGEE_Accept_Boris_Mission_1" },
         "failure": { "topic": "TALK_REFUGEE_Refuse_Boris_Mission_1" }
       },
+      {
+        "text": "[RP] What is that stuff on the table?",
+        "effect": { "u_add_var": "u_Talk_To_RandyErikson_about_Xenoids", "type": "general", "context": "meeting", "value": "yes" },
+        "condition": {
+          "and": [
+            {
+              "not": { "u_has_var": "u_Talk_To_RandyErikson_about_Xenoids", "type": "general", "context": "meeting", "value": "yes" }
+            },
+            { "u_has_any_trait": [ "DKZ_COMBAT", "DKZ_TECH", "DKZ_SCIENTIST", "DKZ_MEDIC", "DKZ_LEADER" ] }
+          ]
+        },
+        "topic": "TALK_RANDY_ERIKSON_ASK_ABOUT_XENOIDS"
+      },
       { "text": "So how did you end up here?", "topic": "TALK_RANDY_ERIKSON_BACKGROUND" },
       { "text": "So what are you doing here?", "topic": "TALK_RANDY_ERIKSON_GENERATOR" },
       { "text": "Is there anything I can do to help you out?", "topic": "TALK_MISSION_LIST" },
-      { "text": "About that quest…", "condition": { "has_assigned_mission": "true" }, "topic": "TALK_MISSION_LIST_ASSIGNED" },	  
+      {
+        "text": "About that quest…",
+        "condition": { "has_assigned_mission": "true" },
+        "topic": "TALK_MISSION_LIST_ASSIGNED"
+      },
       { "text": "Don't mind me…", "topic": "TALK_DONE" }
     ]
   },
@@ -185,6 +202,12 @@
       }
     ],
     "responses": [ { "text": "Something else.", "topic": "TALK_NONE" }, { "text": "Good luck with that.", "topic": "TALK_DONE" } ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_RANDY_ERIKSON_ASK_ABOUT_XENOIDS",
+    "dynamic_line": [ "I managed to salvage this after I took their gear apart Its unlike anything I've ever seen on earth." ],
+    "responses": [ { "text": "That's interesting.", "topic": "TALK_NONE" }, { "text": "Ok, see you later.", "topic": "TALK_DONE" } ]
   },
   {
     "id": "MISSION_REFUGEE_RANDY_ERIKSON_1",
