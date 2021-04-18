@@ -15,6 +15,6 @@
     "id": "TALK_REFUGEE_Draco_XENOIDS",
     "type": "talk_topic",
     "dynamic_line": "Dude, you can see them too?  I thought those dudes with the creepy masks were hallucinations and I was just trying to ignore them.",
-    "responses": [ { "text": "No they really are real.", "topic": "TALK_ISHERWOOD_CLAIRE" } ]
+    "responses": [ { "text": "No they really are real.", "topic": "TALK_REFUGEE_Draco_1" } ]
   }
 ]
