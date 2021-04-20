@@ -24,7 +24,7 @@
       ")": "t_dirtmound",
       "-": "t_concrete_railing",
       "=": "t_chainfence",
-      "_": "t_metal_floor",
+      "_": "t_metal_flat_roof",
       "+": "t_door_c",
       "<": "t_stairs_up",
       ">": "t_stairs_down",
