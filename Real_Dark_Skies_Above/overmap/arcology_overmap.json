@@ -167,7 +167,7 @@
     "rotate": true,
     "locations": [ "wilderness" ],
     "city_distance": [ 1, -1 ],
-    "city_sizes": [ 1, 20 ],
+    "city_sizes": [ 20, 20 ],
     "occurrences": [ 0, 1 ]
   }
 ]

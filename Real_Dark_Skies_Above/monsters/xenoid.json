@@ -735,7 +735,7 @@
     "armor_bullet": 29,
     "vision_day": 50,
     "vision_night": 12,
-    "emit_fields": [ { "emit_id": "emit_relax_gas", "delay": "1 s" } ],	
+    "emit_fields": [ { "emit_id": "emit_toxic_leak", "delay": "1 s" } ],
     "path_settings": { "max_dist": 30 },
     "death_drops": { "groups": [ [ "robots", 4 ], [ "eyebot", 1 ], [ "turret_searchlight", 1 ] ] },
     "anger_triggers": [ "HURT", "PLAYER_WEAK", "STALK" ],
@@ -777,6 +777,7 @@
       "GROUP_MORALE",
       "PUSH_MON",
       "PUSH_VEH",
+      "PATH_AVOID_DANGER_2",	  
       "PRIORITIZE_TARGETS"
     ]
   },
@@ -851,6 +852,7 @@
       "GROUP_MORALE",
       "PUSH_MON",
       "PUSH_VEH",
+      "PATH_AVOID_DANGER_2",	  
       "PRIORITIZE_TARGETS"
     ]
   },
@@ -927,6 +929,7 @@
       "GROUP_MORALE",
       "PUSH_MON",
       "PUSH_VEH",
+      "PATH_AVOID_DANGER_2",	  
       "PRIORITIZE_TARGETS"
     ]
   },
@@ -999,6 +1002,7 @@
       "GROUP_MORALE",
       "PUSH_MON",
       "PUSH_VEH",
+      "PATH_AVOID_DANGER_2",	  
       "PRIORITIZE_TARGETS"
     ]
   },

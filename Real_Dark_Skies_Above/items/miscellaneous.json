@@ -7,7 +7,7 @@
     "weight": "1454 g",
     "volume": "1250 ml",
     "price": 4800,
-    "price_postapoc": 1250,
+    "price_postapoc": 7500,
     "material": [ "paper" ],
     "symbol": "?",
     "looks_like": "mag_cars",	
@@ -29,7 +29,7 @@
     "weight": "1454 g",
     "volume": "1250 ml",
     "price": 4800,
-    "price_postapoc": 1250,
+    "price_postapoc": 15000,
     "material": [ "paper" ],
     "symbol": "?",
     "looks_like": "dnd_handbook",	
@@ -40,9 +40,8 @@
     "proficiencies": [ { "proficiency": "prof_aircraft_mechanic", "time_factor": 2.5, "fail_factor": 0.5 } ],
     "intelligence": 12,
     "time": "30 m",
-	"fun": -3
-  },  
-  
+	"fun": -4
+  },
   {
     "type": "TOOL_ARMOR",
     "id": "dkz_zenture_industries_basic_zwatch",
