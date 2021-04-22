@@ -20,10 +20,9 @@
   {
     "type": "monstergroup",
     "name": "GROUP_ZOMBIE",
-    "default": "mon_dkz_glowdrone",
     "monsters": [
-      { "monster": "mon_dkz_glowdrone", "freq": 250, "cost_multiplier": 1, "pack_size": [ 3, 5 ] },
-      { "monster": "mon_dkz_scidrone", "freq": 150, "cost_multiplier": 1, "pack_size": [ 1, 3 ] },
+      { "monster": "mon_dkz_glowdrone", "freq": 80, "cost_multiplier": 1, "pack_size": [ 1, 2 ] },
+      { "monster": "mon_dkz_scidrone", "freq": 40, "cost_multiplier": 1, "pack_size": [ 1, 3 ] },
       { "monster": "dkz_xenoid_ranger", "freq": 35, "cost_multiplier": 2, "pack_size": [ 1, 2 ], "starts": 320 },
       { "monster": "dkz_xenoid_enforcer", "freq": 60, "cost_multiplier": 2, "pack_size": [ 2, 4 ], "starts": 320 },
       { "monster": "dkz_xenoid_enforcer", "freq": 60, "cost_multiplier": 2, "pack_size": [ 2, 4 ], "starts": 640 },
@@ -41,10 +40,9 @@
   {
     "type": "monstergroup",
     "name": "GROUP_FOREST",
-    "default": "dkz_xenoid_ranger",
     "is_animal": true,
     "monsters": [
-      { "monster": "dkz_xenoid_ranger", "freq": 100, "cost_multiplier": 2, "pack_size": [ 1, 2 ] },
+      { "monster": "dkz_xenoid_ranger", "freq": 80, "cost_multiplier": 2, "pack_size": [ 1, 2 ] },
       { "monster": "dkz_xenoid_enforcer", "freq": 40, "cost_multiplier": 2, "pack_size": [ 1, 2 ] },
       { "monster": "dkz_xenoid_knight", "freq": 30, "cost_multiplier": 2, "pack_size": [ 1, 2 ] },
       { "monster": "dkz_xenoid_pyro", "freq": 10, "cost_multiplier": 2, "pack_size": [ 1, 2 ], "starts": 640 },
@@ -61,10 +59,9 @@
   {
     "type": "monstergroup",
     "name": "GROUP_MAYBE_MIL",
-    "default": "dkz_xenoid_enforcer",
     "monsters": [
-	  { "monster": "mon_dkz_glowdrone", "freq": 500, "cost_multiplier": 10},
-      { "monster": "mon_dkz_scidrone", "freq": 400, "cost_multiplier": 15 },
+	  { "monster": "mon_dkz_glowdrone", "freq": 80, "cost_multiplier": 10},
+      { "monster": "mon_dkz_scidrone", "freq": 8, "cost_multiplier": 15 },
       { "monster": "dkz_xenoid_ranger", "freq": 80, "cost_multiplier": 1, "pack_size": [ 1, 2 ], "starts": 160 },
       { "monster": "dkz_xenoid_enforcer", "freq": 90, "cost_multiplier": 2, "pack_size": [ 1, 2 ], "starts": 160 },
       { "monster": "dkz_xenoid_knight", "freq": 80, "cost_multiplier": 2, "pack_size": [ 1, 2 ], "starts": 160 },
@@ -80,10 +77,9 @@
   {
     "name": "GROUP_MIL_WEAK",
     "type": "monstergroup",
-    "default": "dkz_xenoid_enforcer",
     "monsters": [
-      { "monster": "mon_dkz_glowdrone", "freq": 200, "cost_multiplier": 5, "pack_size": [ 3, 5 ] },
-      { "monster": "mon_dkz_scidrone", "freq": 100, "cost_multiplier": 10, "pack_size": [ 1, 3 ] },
+      { "monster": "mon_dkz_glowdrone", "freq": 200, "cost_multiplier": 2, "pack_size": [ 2, 3 ] },
+      { "monster": "mon_dkz_scidrone", "freq": 100, "cost_multiplier": 2, "pack_size": [ 1, 3 ] },
       { "monster": "dkz_xenoid_ranger", "freq": 50, "cost_multiplier": 2, "pack_size": [ 1, 2 ] },
       { "monster": "dkz_xenoid_enforcer", "freq": 50, "cost_multiplier": 2, "pack_size": [ 1, 2 ] },
       { "monster": "dkz_xenoid_enforcer", "freq": 40, "cost_multiplier": 2, "pack_size": [ 2, 2 ] },
@@ -96,7 +92,6 @@
     "name": "GROUP_MI-GO_CAMP_OM",
     "//": "Xenoids raiding Mi-go camps. Starts with rangers, enforcers and drones, ends with emissaries.",
     "type": "monstergroup",
-    "default": "dkz_xenoid_enforcer",
     "monsters": [
       { "monster": "mon_dkz_glowdrone", "freq": 5, "cost_multiplier": 10, "pack_size": [ 1, 2 ] },
       { "monster": "mon_dkz_scidrone", "freq": 10, "cost_multiplier": 10, "pack_size": [ 1, 2 ] },
@@ -116,10 +111,9 @@
   {
     "name": "GROUP_MIL_STRONG",
     "type": "monstergroup",
-    "default": "dkz_xenoid_knight",
     "monsters": [
-      { "monster": "mon_dkz_glowdrone", "freq": 350, "cost_multiplier": 5, "pack_size": [ 3, 5 ] },
-      { "monster": "mon_dkz_scidrone", "freq": 250, "cost_multiplier": 10, "pack_size": [ 1, 3 ] },	
+      { "monster": "mon_dkz_glowdrone", "freq": 250, "cost_multiplier": 5, "pack_size": [ 2, 3 ] },
+      { "monster": "mon_dkz_scidrone", "freq": 150, "cost_multiplier": 10, "pack_size": [ 1, 3 ] },	
       { "monster": "dkz_xenoid_ranger", "freq": 10, "cost_multiplier": 1, "pack_size": [ 1, 2 ] },
       { "monster": "dkz_xenoid_enforcer", "freq": 70, "cost_multiplier": 2, "pack_size": [ 1, 2 ] },
       { "monster": "dkz_xenoid_enforcer", "freq": 50, "cost_multiplier": 2, "pack_size": [ 2, 4 ] },
@@ -135,10 +129,9 @@
   {
     "name": "GROUP_MIL_BASE",
     "type": "monstergroup",
-    "default": "dkz_xenoid_knight",
     "monsters": [
-      { "monster": "mon_dkz_glowdrone", "freq": 350, "cost_multiplier": 5, "pack_size": [ 4, 7 ] },
-      { "monster": "mon_dkz_scidrone", "freq": 250, "cost_multiplier": 10, "pack_size": [ 2, 5 ] },
+      { "monster": "mon_dkz_glowdrone", "freq": 100, "cost_multiplier": 25, "pack_size": [ 2, 5 ] },
+      { "monster": "mon_dkz_scidrone", "freq": 80, "cost_multiplier": 10, "pack_size": [ 2, 5 ] },
       { "monster": "dkz_xenoid_ranger", "freq": 40, "cost_multiplier": 1, "pack_size": [ 1, 2 ], "starts": 32 },
       { "monster": "dkz_xenoid_enforcer", "freq": 70, "cost_multiplier": 2, "pack_size": [ 2, 3 ], "starts": 80 },
       { "monster": "dkz_xenoid_enforcer", "freq": 90, "cost_multiplier": 2, "pack_size": [ 2, 3 ], "starts": 160 },
