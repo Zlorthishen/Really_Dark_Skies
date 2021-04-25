@@ -18,7 +18,7 @@
       "$": "t_junk_wall",
       "%": "t_wall_log",
       "^": "t_column",
-      "*": "t_dirt",
+      "*": ["t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_dirt" ],
       "-": "t_concrete_railing",
       "=": "t_chainfence",
       "_": "t_metal_flat_roof",
