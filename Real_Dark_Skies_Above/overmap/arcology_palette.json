@@ -16,7 +16,7 @@
       "!": "t_door_metal_c",
       "#": "t_concrete_wall",
       "$": "t_junk_wall",
-      "%": "t_wall_log",
+      "%": "t_rock_smooth",
       "^": "t_column",
       "*": ["t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_dirt" ],
       "-": "t_concrete_railing",
