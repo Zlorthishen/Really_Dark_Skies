@@ -287,7 +287,7 @@
     "id": "dkz_xenoid_enforcer",
     "type": "MONSTER",
     "name": { "str": "xenoid enforcer" },
-    "description": "A human-sized soldier dressed in light armor which they use in conjunction with a small grey shield and shock baton.  The shield has strange black hieroglyphs on it whose outline glows and pulsates in sync with the luminescence from the shock baton.  The gaze from its dispassionate mask fills you with fear.",
+    "description": "A human-sized soldier clad in light grey armor in conjunction with a small grey shield and shock baton.  The shield has strange black hieroglyphs on it whose outline glows and pulsates in sync with the luminescence from the shock baton.  The gaze from its dispassionate mask fills you with fear.",
     "default_faction": "xenoid",
     "bodytype": "human",
     "categories": [ "ALIEN" ],
@@ -363,7 +363,7 @@
     "id": "dkz_xenoid_oppressor",
     "type": "MONSTER",
     "name": { "str": "xenoid oppressor" },
-    "description": "A human-sized soldier dressed in light armor which they use in conjunction with a small grey shield and shock baton.  The shield has strange black hieroglyphs on it whose outline glows and pulsates in sync with the luminescence from the shock baton.  Its malicious gaze fills you with terror.",
+    "description": "A human-sized soldier clad in light grey armor in conjunction with a small grey shield and shock baton.  The shield has strange black hieroglyphs on it whose outline glows and pulsates in sync with the luminescence from the shock baton.  Its malicious gaze fills you with terror.",
     "default_faction": "xenoid",
     "bodytype": "human",
     "categories": [ "ALIEN" ],
@@ -397,7 +397,7 @@
       {
         "type": "spell",
         "spell_data": { "id": "dkz_monspell_panic" },
-        "cooldown": 5,
+        "cooldown": 4,
         "monster_message": "<color_pink>The %1$s gesticulates at %3$s and a pulse of fear-inducing psionic energy ripples through the air!</color>"
       },
       {
