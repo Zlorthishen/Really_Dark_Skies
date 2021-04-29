@@ -52,7 +52,7 @@
     "default": "mon_null",
     "monsters": [
       { "monster": "dkz_mon_stray_child", "freq": 40, "cost_multiplier": 0, "pack_size": [ 4, 10 ] },
-      { "monster": "dkz_mon_stray", "freq": 30, "cost_multiplier": 0, "pack_size": [ 4, 10 },
+      { "monster": "dkz_mon_stray", "freq": 30, "cost_multiplier": 0, "pack_size": [ 4, 10 ] },
       { "monster": "dkz_mon_stray_heavy", "freq": 20, "cost_multiplier": 0 },
       { "monster": "dkz_mon_stray_creepler", "freq": 25, "cost_multiplier": 0, "pack_size": [ 1, 3 ] }
     ]
