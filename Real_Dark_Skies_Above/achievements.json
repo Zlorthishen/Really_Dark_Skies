@@ -10,7 +10,7 @@
     "type": "achievement",
     "name": "If it bleeds we can kill it.",
     "hidden_by": [ "achievement_kill_stray" ],
-    "requirements": [ { "event_statistic": "num_avatar_alien_kills", "is": ">=", "target": 1 } ]
+    "requirements": [ { "event_statistic": "num_avatar_alien_kills", "is": ">=", "target": 1, "visible": "when_achievement_completed"  } ]
   },
   {
     "id": "achievement_kill_alienrobot",
