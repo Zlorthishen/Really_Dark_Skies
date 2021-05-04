@@ -161,7 +161,9 @@
       "racing_tower_z9_4_1",
       "racing_tower_z9_4_2",
       "racing_tower_z9_4_3",
-      "racing_tower_z9_4_4"
+      "racing_tower_z9_4_4",
+	  "racing_tower_z7_platform_1",
+	  "racing_tower_z7_platform_2"
     ],
     "name": "Racing Tower Amusement Park",
     "sym": "§",
