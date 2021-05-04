@@ -248,7 +248,7 @@
     "type": "mission_definition",
     "name": { "str": "Find a wrench" },
     "goal": "MGOAL_FIND_ITEM",
-	"description": "Retrieve a decent wrench for Randy Erikson.  Keep an eye out for the other tools he said he needed.",
+	"description": "Retrieve a decent wrench for Randy Erikson.  Keep an eye out for the other tools he said he might need.",
     "difficulty": 2,
     "value": 0,
     "item": "wrench",
