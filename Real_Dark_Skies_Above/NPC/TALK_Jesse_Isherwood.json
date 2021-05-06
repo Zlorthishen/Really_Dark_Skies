@@ -1,6 +1,6 @@
 [
   {
-    "id": "TALK_ISHERWOOD_JESSE_TALK1",
+    "id": "TALK_ISHERWOOD_JESSE_TOPICS",
     "type": "talk_topic",
     "responses": [
       {
@@ -15,6 +15,6 @@
     "id": "TALK_ISHERWOOD_JESSE_XENOIDS",
     "type": "talk_topic",
     "dynamic_line": "I did hear something about that on the radio, but there are so many predators prowling around the farm these days we're just taking it one day at a time.",
-    "responses": [ { "text": "Sounds reasonable.", "topic": "TALK_ISHERWOOD_JESSE_TALK1" } ]
+    "responses": [ { "text": "Sounds reasonable.", "topic": "TALK_ISHERWOOD_JESSE_TOPICS" } ]
   }
 ]
