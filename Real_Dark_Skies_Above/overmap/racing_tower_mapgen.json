@@ -118,6 +118,68 @@
       ]
 	  }
   },
+  
+  
+  
+  {
+    "//": "7x7 food court, two tables, two single stools",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_7x7_foodcourt",
+    "object": {
+      "mapgensize": [ 7, 7 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "       ",
+        " T CTC ",
+        " S CTC ",
+        "       ",
+        " CTC S ",
+        " CTC T ",
+        "       "
+      ],
+      "terrain": { " ": "t_null" },
+    "furniture": {
+      "C": "f_bench",
+      "S": "f_stool",
+      "T": "f_metal_table"	  
+    },
+    "items": { "T": { "item": "fast_food", "chance": 100, "repeat": [ 1, 2 ] }  }
+
+  }
+  },
+  {
+    "//": "7x7 food court, one table, with TV in the middle",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_7x7_foodcourt",
+    "object": {
+      "mapgensize": [ 7, 7 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "       ",
+        "  CCC  ",
+        " CTTTC ",
+        " CTXTC ",
+        " CTTTC ",
+        "  CCC  ",
+        "       "
+      ],
+      "terrain": { " ": "t_null" },
+    "furniture": {
+      "C": "f_bench",
+      "S": "f_stool",
+      "T": "f_metal_table",  
+      "X": "f_metal_table"
+    },
+    "items": { "T": { "item": "fast_food", "chance": 100, "repeat": [ 1, 2 ] }  },
+	"place_loot": [ { "item": "television", "x": 3, "y": 3, "chance": 100 } ]
+    }
+  },    
+  
+  
+  
+  
   {
     "type": "mapgen",
     "method": "json",
@@ -229,6 +291,37 @@
         "................................................................................................"
       ],
       "palettes": [ "arcology_palette" ],
+	  
+      "place_nested": [
+        { "chunks": [ "racing_tower_7x7_foodcourt" ], "x": 32, "y": 4 },
+        { "chunks": [ "racing_tower_7x7_foodcourt" ], "x": 40, "y": 4 },
+        { "chunks": [ "racing_tower_7x7_foodcourt" ], "x": 48, "y": 4 },
+        { "chunks": [ "racing_tower_7x7_foodcourt" ], "x": 56, "y": 4 },
+        { "chunks": [ "racing_tower_7x7_foodcourt" ], "x": 64, "y": 4 },
+
+        { "chunks": [ "racing_tower_7x7_foodcourt" ], "x": 25, "y": 85 },
+        { "chunks": [ "racing_tower_7x7_foodcourt" ], "x": 33, "y": 85 },
+        { "chunks": [ "racing_tower_7x7_foodcourt" ], "x": 41, "y": 85 },
+        { "chunks": [ "racing_tower_7x7_foodcourt" ], "x": 49, "y": 85 },
+        { "chunks": [ "racing_tower_7x7_foodcourt" ], "x": 57, "y": 85 },
+		
+		
+        { "chunks": [ "racing_tower_7x7_foodcourt" ], "x": 4, "y": 25 },
+        { "chunks": [ "racing_tower_7x7_foodcourt" ], "x": 4, "y": 33 },
+        { "chunks": [ "racing_tower_7x7_foodcourt" ], "x": 4, "y": 41 },
+        { "chunks": [ "racing_tower_7x7_foodcourt" ], "x": 4, "y": 49 },
+        { "chunks": [ "racing_tower_7x7_foodcourt" ], "x": 4, "y": 57 },
+
+
+        { "chunks": [ "racing_tower_7x7_foodcourt" ], "x": 85, "y": 33 },
+        { "chunks": [ "racing_tower_7x7_foodcourt" ], "x": 85, "y": 41 },
+        { "chunks": [ "racing_tower_7x7_foodcourt" ], "x": 85, "y": 49 },
+        { "chunks": [ "racing_tower_7x7_foodcourt" ], "x": 85, "y": 57 },
+        { "chunks": [ "racing_tower_7x7_foodcourt" ], "x": 85, "y": 65 }
+		
+		
+		],	  
+	  
 	  "terrain": {
         "S": "t_dirt", 
 		"s": "t_dirt"
@@ -346,6 +439,10 @@
         "................................................................................................"
       ],
       "palettes": [ "arcology_palette" ],
+      "place_nested": [
+        { "chunks": [ "racing_tower_7x7_foodcourt" ], "x": 10, "y": 10 }
+		],
+		
 	  "terrain": {
         "S": "t_pavement", 
 		"s": "t_pavement",
@@ -868,14 +965,14 @@
         ".##                   =''''`''uU#                                                            ##.",
         "..#                   ='''`'`'uU#                                                            #..",
         "..#                   ='''''''###                              ================              #..",
-        ".##                   ='''''''=                               ==ss''''''''''ss==             ##.",
-        "..#                   ='''`'''=                               =ss''''''''''''ss=             #..",
-        "..#                   =''```''=                               =s''''''`'''''''s=             #..",
-        ".##                   ='''`'''=                               =''''`````''`''''=             ##.",
+        ".##                   ='''''''|                               ==ss''''''''''ss==             ##.",
+        "..#                   ='''`'''|                               =ss''''''''''''ss=             #..",
+        "..#                   =''```''|                               =s''''''`'''''''s=             #..",
+        ".##                   ='''`'''|                               =''''`````''`''''=             ##.",
         "..#                   ='''`'''###                             ='''`'''`''''`'''=             #..",
         "..#                   ='''`'''dD#                           E =''`''''''''`''''=             #..",
         ".##                   =''''`''dD#                          eee=''''''''''''''''=             ##.",
-        "..#                   =s''''`'dD#                          eee=#dddd#====#uuuu#=             #..",
+        "..#                   =s''''`'dD#                          eee=#dddd#||||#uuuu#=             #..",
         "..#                   =ss'''''dD#                          eee #DDDD#    #UUUU#              #..",
         ".##                   ==ss''''###                              ######    ######              ##.",
         "..#                    ========                                                              #..",
@@ -910,14 +1007,14 @@
         "..#                                                              ========                    #..",
         ".##              ######    ######                              ###''''ss==                   ##.",
         "..#              #UUUU#    #DDDD# eee                          #Dd'''''ss=                   #..",
-        "..#             =#uuuu#====#dddd#=eee                          #Dd'`''''s=                   #..",
+        "..#             =#uuuu#||||#dddd#=eee                          #Dd'`''''s=                   #..",
         ".##             =''''''''''''''''=eee                          #Dd''`''''=                   ##.",
         "..#             =''''`''''''''`''= E                           #Dd'''`'''=                   #..",
         "..#             ='''`''''`'''`'''=                             ###'''`'''=                   #..",
-        ".##             =''''`''`````''''=                               ='''`'''=                   ##.",
-        "..#             =s'''''''`''''''s=                               =''```''=                   #..",
-        "..#             =ss''''''''''''ss=                               ='''`'''=                   #..",
-        ".##             ==ss''''''''''ss==                               ='''''''=                   ##.",
+        ".##             =''''`''`````''''=                               |'''`'''=                   ##.",
+        "..#             =s'''''''`''''''s=                               |''```''=                   #..",
+        "..#             =ss''''''''''''ss=                               |'''`'''=                   #..",
+        ".##             ==ss''''''''''ss==                               |'''''''=                   ##.",
         "..#              ================                              ###'''''''=                   #..",
         "..#                                                            #Uu'`'`'''=                   #..",
         ".##                                                            #Uu''`''''=                   ##.",
