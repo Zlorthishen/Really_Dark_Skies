@@ -358,7 +358,7 @@
       "offer": "I've gotten all the loose parts fixed and all wires replaced that needed replacing, but to check every circuit I need a hard copy of the 'Integrated Circuit Archive Database', since I can't just ask the internet for that kind of stuff any more.",
       "accepted": "Thanks.",
       "rejected": "I need those reference documents to double check everything.",
-      "advice": "I bet a secret government lab has that somewhere.  It should be on a USB drive somewhere.",
+      "advice": "I bet a secret government lab has that somewhere.  It should be on a USB drive.",
       "inquire": "How is the search going?",
       "success": "Wow, you actually found it. Here is a book that will help you use the helicopter parked out there.",
       "success_lie": "What good does this do me?",
