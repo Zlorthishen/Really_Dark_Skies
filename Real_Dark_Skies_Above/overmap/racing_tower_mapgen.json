@@ -1,5 +1,425 @@
 [
   {
+    "type": "item_group",
+    "id": "logs",
+    "subtype": "collection",
+    "items": [
+      { "item": "2x4", "prob": 500, "count": [ 1, 2 ] },
+      { "item": "log", "prob": 200, "count": [ 1, 2 ] },
+      { "item": "stick_long", "prob": 100, "count": [ 3, 4 ] },
+      { "item": "stick", "prob": 50, "count": [ 5, 10 ] }
+    ]
+  },
+  {
+    "//": "5x5 campsite with tent and guns",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_5x5_ground",
+    "object": {
+      "mapgensize": [ 5, 5 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "     ",
+        " ### ",
+        " +B# ",
+        " ### ",
+        "     "
+      ],
+      "terrain": { " ": "t_null" },
+      "furniture": { "#": "f_canvas_wall", "'": "f_groundsheet", "B": "f_groundsheet", "+": "f_canvas_door" },
+      "place_npcs": [ { "class": "roabofac_free_merchant", "x": 2, "y": 2 } ],
+      "items": { " ": { "item": "trash_cart", "chance": 1 }, "B": { "item": "guns_milspec", "chance": 100, "repeat": [ 2, 3 ] } }
+    }
+  },
+  {
+    "//": "5x5 campsite with tent and guns",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_5x5_ground",
+    "object": {
+      "mapgensize": [ 5, 5 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "     ",
+        "###  ",
+        "#B+  ",
+        "###  ",
+        "     "
+      ],
+      "terrain": { " ": "t_null" },
+      "furniture": { "#": "f_canvas_wall", "'": "f_groundsheet", "B": "f_groundsheet", "+": "f_canvas_door" },
+      "place_npcs": [ { "class": "roabofac_free_merchant", "x": 1, "y": 2 } ],
+      "items": { " ": { "item": "trash_cart", "chance": 1 }, "B": { "item": "guns_milspec", "chance": 100, "repeat": [ 2, 3 ] } }
+    }
+  },
+  {
+    "//": "5x5 campsite with tent and guns",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_5x5_ground",
+    "object": {
+      "mapgensize": [ 5, 5 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "     ",
+        "  ###",
+        "  #B#",
+        "  #+#",
+        "     "
+      ],
+      "terrain": { " ": "t_null" },
+      "furniture": { "#": "f_canvas_wall", "'": "f_groundsheet", "B": "f_groundsheet", "+": "f_canvas_door" },
+      "place_npcs": [ { "class": "roabofac_free_merchant", "x": 3, "y": 2 } ],
+      "items": { " ": { "item": "trash_cart", "chance": 1 }, "B": { "item": "guns_milspec", "chance": 100, "repeat": [ 2, 3 ] } }
+    }
+  },
+  {
+    "//": "5x5 campsite with tent and guns",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_5x5_ground",
+    "object": {
+      "mapgensize": [ 5, 5 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "     ",
+        " #+# ",
+        " #B# ",
+        " ### ",
+        "     "
+      ],
+      "terrain": { " ": "t_null" },
+      "furniture": { "#": "f_canvas_wall", "'": "f_groundsheet", "B": "f_groundsheet", "+": "f_canvas_door" },
+      "place_npcs": [ { "class": "roabofac_free_merchant", "x": 2, "y": 2 } ],
+      "items": { " ": { "item": "trash_cart", "chance": 1 }, "B": { "item": "guns_milspec", "chance": 100, "repeat": [ 2, 3 ] } }
+    }
+  },
+  {
+    "//": "5x5 campsite with tent and guns",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_5x5_ground",
+    "object": {
+      "mapgensize": [ 5, 5 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "     ",
+        "  ###",
+        "  +B#",
+        "  ###",
+        "     "
+      ],
+      "terrain": { " ": "t_null" },
+      "furniture": { "#": "f_canvas_wall", "'": "f_groundsheet", "B": "f_groundsheet", "+": "f_canvas_door" },
+      "place_npcs": [ { "class": "roabofac_free_merchant", "x": 3, "y": 2 } ],
+      "items": { " ": { "item": "trash_cart", "chance": 1 }, "B": { "item": "guns_milspec", "chance": 100, "repeat": [ 2, 3 ] } }
+    }
+  },
+  {
+    "//": "5x5 campsite with tent and bionics_mil",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_5x5_ground",
+    "object": {
+      "mapgensize": [ 5, 5 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "     ",
+        " ### ",
+        " +B# ",
+        " ### ",
+        "     "
+      ],
+      "terrain": { " ": "t_null" },
+      "furniture": { "#": "f_canvas_wall", "'": "f_groundsheet", "B": "f_groundsheet", "+": "f_canvas_door" },
+      "place_npcs": [ { "class": "roabofac_free_merchant", "x": 2, "y": 2 } ],
+      "items": { " ": { "item": "trash_cart", "chance": 1 }, "B": { "item": "bionics_mil", "chance": 100, "repeat": [ 1, 2 ] } }
+    }
+  },
+  {
+    "//": "5x5 campsite with tent and bionics_mil",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_5x5_ground",
+    "object": {
+      "mapgensize": [ 5, 5 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "     ",
+        "###  ",
+        "#B+  ",
+        "###  ",
+        "     "
+      ],
+      "terrain": { " ": "t_null" },
+      "furniture": { "#": "f_canvas_wall", "'": "f_groundsheet", "B": "f_groundsheet", "+": "f_canvas_door" },
+      "place_npcs": [ { "class": "roabofac_free_merchant", "x": 1, "y": 2 } ],
+      "items": { " ": { "item": "trash_cart", "chance": 1 }, "B": { "item": "bionics_mil", "chance": 100, "repeat": [ 1, 2 ] } }
+    }
+  },
+  {
+    "//": "5x5 campsite with tent and bionics_mil",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_5x5_ground",
+    "object": {
+      "mapgensize": [ 5, 5 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "     ",
+        "  ###",
+        "  #B#",
+        "  #+#",
+        "     "
+      ],
+      "terrain": { " ": "t_null" },
+      "furniture": { "#": "f_canvas_wall", "'": "f_groundsheet", "B": "f_groundsheet", "+": "f_canvas_door" },
+      "place_npcs": [ { "class": "roabofac_free_merchant", "x": 3, "y": 2 } ],
+      "items": { " ": { "item": "trash_cart", "chance": 1 }, "B": { "item": "bionics_mil", "chance": 100, "repeat": [ 1, 2 ] } }
+    }
+  },
+  {
+    "//": "5x5 campsite with tent and bionics_mil",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_5x5_ground",
+    "object": {
+      "mapgensize": [ 5, 5 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "     ",
+        " #+# ",
+        " #B# ",
+        " ### ",
+        "     "
+      ],
+      "terrain": { " ": "t_null" },
+      "furniture": { "#": "f_canvas_wall", "'": "f_groundsheet", "B": "f_groundsheet", "+": "f_canvas_door" },
+      "place_npcs": [ { "class": "roabofac_free_merchant", "x": 2, "y": 2 } ],
+      "items": { " ": { "item": "trash_cart", "chance": 1 }, "B": { "item": "bionics_mil", "chance": 100, "repeat": [ 1, 2 ] } }
+    }
+  },
+  {
+    "//": "5x5 campsite with tent and bionics_mil",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_5x5_ground",
+    "object": {
+      "mapgensize": [ 5, 5 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "     ",
+        "  ###",
+        "  +B#",
+        "  ###",
+        "     "
+      ],
+      "terrain": { " ": "t_null" },
+      "furniture": { "#": "f_canvas_wall", "'": "f_groundsheet", "B": "f_groundsheet", "+": "f_canvas_door" },
+      "place_npcs": [ { "class": "roabofac_free_merchant", "x": 3, "y": 2 } ],
+      "items": { " ": { "item": "trash_cart", "chance": 1 }, "B": { "item": "bionics_mil", "chance": 100, "repeat": [ 1, 2 ] } }
+    }
+  },
+  {
+    "//": "5x5 campsite two firepits ",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_5x5_ground",
+    "object": {
+      "mapgensize": [ 5, 5 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "  -  ",
+        "  bd ",
+        "- d -",
+        "  b -",
+        " - - "
+      ],
+      "terrain": { " ": "t_null", "b": "t_dirt" },
+      "furniture": { "-": "f_camp_chair", "b": "f_firering" },
+      "mapping": { "b": { "furniture": "f_firering", "item": { "item": "log", "amount": [ 1, 3 ] }, "fields": { "field": "fd_fire" } } },
+      "items": { " ": { "item": "trash", "chance": 1 }, "d": { "item": "logs", "chance": 100, "repeat": [ 1, 2 ] } }
+    }
+  },
+  {
+    "//": "5x5 campsite firepit",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_5x5_ground",
+    "object": {
+      "mapgensize": [ 5, 5 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "  -  ",
+        "-d  -",
+        " bd  ",
+        " -  -",
+        "   - "
+      ],
+      "terrain": { " ": "t_null", "b": "t_dirt" },
+      "furniture": { "-": "f_camp_chair", "b": "f_firering" },
+      "mapping": { "b": { "furniture": "f_firering", "item": { "item": "log", "amount": [ 1, 3 ] }, "fields": { "field": "fd_fire" } } },
+      "items": { " ": { "item": "trash", "chance": 1 }, "d": { "item": "logs", "chance": 100, "repeat": [ 1, 2 ] } }
+    }
+  },
+  {
+    "//": "5x5 campsite firepit",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_5x5_ground",
+    "object": {
+      "mapgensize": [ 5, 5 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "  -  ",
+        "-   -",
+        "  bd ",
+        " -  -",
+        "   - "
+      ],
+      "terrain": { " ": "t_null", "b": "t_dirt" },
+      "furniture": { "-": "f_camp_chair", "b": "f_firering" },
+      "mapping": { "b": { "furniture": "f_firering", "item": { "item": "log", "amount": [ 1, 3 ] }, "fields": { "field": "fd_fire" } } },
+      "items": { " ": { "item": "trash", "chance": 1 }, "d": { "item": "logs", "chance": 100, "repeat": [ 1, 2 ] } }
+    }
+  },
+  {
+    "//": "5x5 campsite motorcross bike",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_5x5_ground",
+    "object": {
+      "mapgensize": [ 5, 5 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "     ",
+        "    T",
+        "    -",
+        "     ",
+        "     "
+      ],
+      "terrain": { " ": "t_null" },
+      "place_vehicles": [ { "vehicle": "motorcycle_cross", "x": 1, "y": 1, "chance": 100, "rotation": 270, "status": 2 } ],
+      "furniture": { "-": "f_camp_chair", "T": "f_tourist_table" },
+      "items": { " ": { "item": "trash_junkyard", "chance": 3 }, "T": { "item": "tools_mechanic", "chance": 100, "repeat": [ 3, 5 ] } }
+    }
+  },
+  {
+    "//": "5x5 campsite golf cart",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_5x5_ground",
+    "object": {
+      "mapgensize": [ 5, 5 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "     ",
+        "    T",
+        "    -",
+        "     ",
+        "     "
+      ],
+      "terrain": { " ": "t_null" },
+      "place_vehicles": [ { "vehicle": "golf_cart", "x": 1, "y": 1, "chance": 100, "rotation": 270, "status": 2 } ],
+      "furniture": { "-": "f_camp_chair", "T": "f_tourist_table" },
+      "items": { " ": { "item": "trash_junkyard", "chance": 1 }, "T": { "item": "tools_mechanic", "chance": 100, "repeat": [ 3, 5 ] } }
+    }
+  },
+  {
+    "//": "5x5 campsite golf cart 4 seat",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_5x5_ground",
+    "object": {
+      "mapgensize": [ 5, 5 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "     ",
+        "     ",
+        "    -",
+        "    T",
+        "     "
+      ],
+      "terrain": { " ": "t_null" },
+      "place_vehicles": [ { "vehicle": "golf_cart_4seat", "x": 1, "y": 1, "chance": 100, "rotation": 270, "status": 2 } ],
+      "furniture": { "-": "f_camp_chair", "T": "f_tourist_table" },
+      "items": { " ": { "item": "trash_junkyard", "chance": 1 }, "T": { "item": "tools_mechanic", "chance": 100, "repeat": [ 3, 5 ] } }
+    }
+  },
+  {
+    "//": "5x5 campsite motorcross bike",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_5x5_ground",
+    "object": {
+      "mapgensize": [ 5, 5 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "     ",
+        "     ",
+        "     ",
+        "  -T ",
+        "     "
+      ],
+      "terrain": { " ": "t_null" },
+      "place_vehicles": [ { "vehicle": "motorcycle_cross", "x": 2, "y": 2, "chance": 100, "rotation": 180, "status": 2 } ],
+      "furniture": { "-": "f_camp_chair", "T": "f_tourist_table" },
+      "items": { " ": { "item": "trash_junkyard", "chance": 2 }, "T": { "item": "tools_mechanic", "chance": 100, "repeat": [ 3, 5 ] } }
+    }
+  },
+  {
+    "//": "5x5 campsite motorcycle",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_5x5_ground",
+    "object": {
+      "mapgensize": [ 5, 5 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "     ",
+        "     ",
+        "     ",
+        " -   ",
+        " T   "
+      ],
+      "terrain": { " ": "t_null" },
+      "place_vehicles": [ { "vehicle": "motorcycle", "x": 4, "y": 1, "chance": 100, "rotation": 90, "status": 2 } ],
+      "furniture": { "-": "f_camp_chair", "T": "f_tourist_table" },
+      "items": { " ": { "item": "trash_junkyard", "chance": 1 }, "T": { "item": "tools_mechanic", "chance": 100, "repeat": [ 3, 5 ] } }
+    }
+  },
+  {
+    "//": "5x5 campsite shopkeeper",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_5x5_ground",
+    "object": {
+      "mapgensize": [ 5, 5 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "     ",
+        " ABC ",
+        " D-D ",
+        " BCA ",
+        "     "
+      ],
+      "terrain": { " ": "t_null" },
+      "place_npcs": [
+        { "class": "roabofac_free_merchant", "x": 2, "y": 2 },
+        { "class": "guard", "x": 3, "y": 0 },
+        { "class": "guard", "x": 0, "y": 3 }
+      ],
+      "furniture": { "-": "f_camp_chair", "A": "f_metal_table", "B": "f_metal_table", "C": "f_metal_table", "D": "f_metal_table" },
+      "items": {
+        " ": { "item": "trash_junkyard", "chance": 1 },
+        "A": { "item": "irradiated_food", "chance": 100, "repeat": [ 3, 5 ] },
+        "B": { "item": "preserved_food", "chance": 100, "repeat": [ 3, 5 ] },
+        "C": { "item": "foodintincan", "chance": 100, "repeat": [ 3, 5 ] },
+        "D": { "item": "dry_goods", "chance": 100, "repeat": [ 3, 5 ] }
+      }
+    }
+  },
+  {
     "type": "mapgen",
     "method": "json",
     "om_terrain": [
@@ -10,45 +430,63 @@
     ],
     "weight": 1,
     "object": {
+      "faction_owner": [
+        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 0, 23 ] },
+        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 0, 23 ] },
+        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 0, 23 ] },
+        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 0, 23 ] },
+        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 24, 47 ] },
+        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 24, 47 ] },
+        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 24, 47 ] },
+        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 24, 47 ] },
+        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 48, 71 ] },
+        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 48, 71 ] },
+        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 48, 71 ] },
+        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 48, 71 ] },
+        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 72, 95 ] },
+        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 72, 95 ] },
+        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 72, 95 ] },
+        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 72, 95 ] }
+      ],
       "fill_ter": "t_sidewalk",
       "rows": [
         "''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''",
         "''#''#''#''#''#''#''#''#''#''#''#''#''#''#''#''''''#''#''#''#''#''#''#''#''#''#''#''#''#''#''#''",
         "'###@########################################@@@@@@############################################'",
-        "''#<                                         ''''''                                       #<<#''",
-        "''#<                                         ''''''                                          @''",
-        "'###       ^  ^  ^  ^  ^  ^  ^  ^  ^  ^  ^   ''''''   ^  ^  ^  ^  ^  ^  ^  ^  ^  ^  ^        ##'",
-        "''#                                          ''''''                                          #''",
+        "''#<                                        ''''''''                                      #<<#''",
+        "''#<                                        ''''''''                                         @''",
+        "'###       ^  ^  ^  ^  ^  ^  ^  ^  ^  ^  ^  ''''''''  ^  ^  ^  ^  ^  ^  ^  ^  ^  ^  ^        ##'",
+        "''#                                         ''''''''                                         #''",
         "''#                                       ''''''''''''                                       #''",
         "'##     ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''     ##'",
         "''#     ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''     #''",
-        "''#     ''                           ''''''''''''''''''''''                           ''     #''",
-        "'##  ^  '' ^^    ^^    ^^    ^^    ^^''''''''''''''''''''''^^    ^^    ^^    ^^    ^^ ''  ^  ##'",
-        "''#     '' ^^    ^^    ^^    ^^    ^^''''''''''''''''''''''^^    ^^    ^^    ^^    ^^ ''     #''",
-        "''#     ''                           ''''''''''''''''''''''                           ''     #''",
-        "'##  ^  ''                           ''''''''''''''''''''''                           ''  ^  ##'",
-        "''#     ''                           ''''''''''''''''''''''                           ''     #''",
-        "''#     ''                           ''''''''''''''''''''''                           ''     #''",
-        "'##  ^  '' ^^    ^^    ^^    ^^    ^^''''''''''''''''''''''^^    ^^    ^^    ^^    ^^ ''  ^  ##'",
-        "''#     '' ^^    ^^    ^^    ^^    ^^''''''''''''''''''''''^^    ^^    ^^    ^^    ^^ ''     #''",
-        "''#     ''                           ''''''''''''''''''''''                           ''     #''",
-        "'##  ^  ''                           ''''''''''''''''''''''                           ''  ^  ##'",
-        "''#     ''                           ''''''''''''''''''''''                           ''     #''",
-        "''#     ''                           ''''''''''''''''''''''                           ''     #''",
-        "'##  ^  '' ^^    ^^    ^^    ^^    ^^''''''''''''''''''''''^^    ^^    ^^    ^^    ^^ ''  ^  ##'",
-        "''#     '' ^^    ^^    ^^    ^^    ^^''''''''''''''''''''''^^    ^^    ^^    ^^    ^^ ''     #''",
-        "''#     ''                           ''''''''''''''''''''''                           ''     #''",
-        "'##  ^  ''                           ''''''''''''''''''''''                           ''  ^  ##'",
-        "''#     ''                   ###''''X''''''''''''''''''''''                           ''     #''",
-        "''#     ''                   #Uu'''''X''''''''''''''''''''' E                         ''     #''",
-        "'##  ^  '' ^^    ^^    ^^    #Uu''''X''''''''''''''''''''''eee ######  ^^    ^^    ^^ ''  ^  ##'",
-        "''#     '' ^^    ^^    ^^    #Uu'''''X'''''''''''''''''''''eee #UUUU#  ^^    ^^    ^^ ''     #''",
-        "''#     ''                   #Uu''''X''''''''''''''''''''''eee #uuuu#                 ''     #''",
-        "'##  ^  ''                   ###'''''X'''''''''''''''''''''''''''''''                 ''  ^  ##'",
-        "''#     ''                      ''''X''''''''''''''''''''''''''''''''                 ''     #''",
-        "''#     ''                   eee'''''''''''''''''''''''''''''''''''''                 ''     #''",
-        "'##  ^  '' ^^    ^^    ^^   Eeee'''''''''''''''''''''''''''''''''''''  ^^    ^^    ^^ ''  ^  ##'",
-        "''#     '' ^^    ^^    ^^    eee''''''''''''''''''''''''''''''X'X'X'X  ^^    ^^    ^^ ''     #''",
+        "''#     ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''     #''",
+        "'##  ^  '''^^''''^^''''^^''''^^''''^^''''''''''''''''''''''^^''''^^''''^^''''^^''''^^'''  ^  ##'",
+        "''#     '''^^''''^^''''^^''''^^''''^^''''''''''''''''''''''^^''''^^''''^^''''^^''''^^'''     #''",
+        "''#     ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''     #''",
+        "'##  ^  ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''  ^  ##'",
+        "''#     ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''     #''",
+        "''#     ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''     #''",
+        "'##  ^  '''^^''''^^''''^^''''^^''''^^''''''''''''''''''''''^^''''^^''''^^''''^^''''^^'''  ^  ##'",
+        "''#     '''^^''''^^''''^^''''^^''''^^''''''''''''''''''''''^^''''^^''''^^''''^^''''^^'''     #''",
+        "''#     ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''     #''",
+        "'##  ^  ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''  ^  ##'",
+        "''#     ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''     #''",
+        "''#     ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''     #''",
+        "'##  ^  '''^^''''^^''''^^''''^^''''^^''''''''''''''''''''''^^''''^^''''^^''''^^''''^^'''  ^  ##'",
+        "''#     '''^^''''^^''''^^''''^^''''^^''''''''''''''''''''''^^''''^^''''^^''''^^''''^^'''     #''",
+        "''#     ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''     #''",
+        "'##  ^  ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''  ^  ##'",
+        "''#     '''''''''''''''''''''###''''X'''''''''''''''''''''''''''''''''''''''''''''''''''     #''",
+        "''#     '''''''''''''''''''''#Uu'''''X''''''''''''''''''''''E'''''''''''''''''''''''''''     #''",
+        "'##  ^  '''^^''''^^''''^^''''#Uu''''X''''''''''''''''''''''eee'######''^^''''^^''''^^'''  ^  ##'",
+        "''#     '''^^''''^^''''^^''''#Uu'''''X'''''''''''''''''''''eee'#UUUU#''^^''''^^''''^^'''     #''",
+        "''#     '''''''''''''''''''''#Uu''''X''''''''''''''''''''''eee'#uuuu#'''''''''''''''''''     #''",
+        "'##  ^  '''''''''''''''''''''###'''''X''''''''''''''''''''''''''''''''''''''''''''''''''  ^  ##'",
+        "''#     ''''''''''''''''''''''''''''X'''''''''''''''''''''''''''''''''''''''''''''''''''     #''",
+        "''#     '''''''''''''''''''''eee''''''''''''''''''''''''''''''''''''''''''''''''''''''''     #''",
+        "'##  ^  '''^^''''^^''''^^'''Eeee'''''''''''''''''''''''''''''''''''''''^^''''^^''''^^'''  ^  ##'",
+        "''#     '''^^''''^^''''^^''''eee''''''''''''''''''''''''''''''X'X'X'X''^^''''^^''''^^'''     #''",
         "''#     '''''''''''''''''''''''''''''''''''''''''''''''''''''''X'X'X''''''''''''''''''''     #''",
         "'##  ^  ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''  ^  ##'",
         "''#     ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''     #''",
@@ -56,14 +494,14 @@
         "'##  ^  ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''  ^  ##'",
         "''#    ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''    #''",
         "''#    ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''    #''",
-        "'##    ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''    ##'",
+        "'##''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''##'",
         "''@''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''@''",
         "''@''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''@''",
         "''@''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''@''",
         "''@''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''@''",
         "''@''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''@''",
         "''@''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''@''",
-        "'##    ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''    ##'",
+        "'##''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''##'",
         "''#    ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''    #''",
         "''#    ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''    #''",
         "'##  ^  ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''  ^  ##'",
@@ -71,50 +509,112 @@
         "''#     ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''     #''",
         "'##  ^  ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''  ^  ##'",
         "''#     ''''''''''''''''''''X'X'X'''''''''''''''''''''''''''''''''''''''''''''''''''''''     #''",
-        "''#     '' ^^    ^^    ^^  X'X'X'X''''''''''''''''''''''''''''''eee    ^^    ^^    ^^ ''     #''",
-        "'##  ^  '' ^^    ^^    ^^  '''''''''''''''''''''''''''''''''''''eeeE   ^^    ^^    ^^ ''  ^  ##'",
-        "''#     ''                 '''''''''''''''''''''''''''''''''''''eee                   ''     #''",
-        "''#     ''                 ''''''''''''''''''''''''''''''''X''''                      ''     #''",
-        "'##  ^  ''                 '''''''''''''''''''''''''''''''X'''''###                   ''  ^  ##'",
-        "''#     ''                 #uuuu# eee''''''''''''''''''''''X''''uU#                   ''     #''",
-        "''#     '' ^^    ^^    ^^  #UUUU# eee'''''''''''''''''''''X'''''uU#    ^^    ^^    ^^ ''     #''",
-        "'##  ^  '' ^^    ^^    ^^  ###### eee''''''''''''''''''''''X''''uU#    ^^    ^^    ^^ ''  ^  ##'",
-        "''#     ''                         E '''''''''''''''''''''X'''''uU#                   ''     #''",
-        "''#     ''                           ''''''''''''''''''''''X''''###                   ''     #''",
-        "'##  ^  ''                           ''''''''''''''''''''''                           ''  ^  ##'",
-        "''#     ''                           ''''''''''''''''''''''                           ''     #''",
-        "''#     '' ^^    ^^    ^^    ^^    ^^''''''''''''''''''''''^^    ^^    ^^    ^^    ^^ ''     #''",
-        "'##  ^  '' ^^    ^^    ^^    ^^    ^^''''''''''''''''''''''^^    ^^    ^^    ^^    ^^ ''  ^  ##'",
-        "''#     ''                           ''''''''''''''''''''''                           ''     #''",
-        "''#     ''                           ''''''''''''''''''''''                           ''     #''",
-        "'##  ^  ''                           ''''''''''''''''''''''                           ''  ^  ##'",
-        "''#     ''                           ''''''''''''''''''''''                           ''     #''",
-        "''#     '' ^^    ^^    ^^    ^^    ^^''''''''''''''''''''''^^    ^^    ^^    ^^    ^^ ''     #''",
-        "'##  ^  '' ^^    ^^    ^^    ^^    ^^''''''''''''''''''''''^^    ^^    ^^    ^^    ^^ ''  ^  ##'",
-        "''#     ''                           ''''''''''''''''''''''                           ''     #''",
-        "''#     ''                           ''''''''''''''''''''''                           ''     #''",
-        "'##  ^  ''                           ''''''''''''''''''''''                           ''  ^  ##'",
-        "''#     ''                           ''''''''''''''''''''''                           ''     #''",
-        "''#     '' ^^    ^^    ^^    ^^    ^^''''''''''''''''''''''^^    ^^    ^^    ^^    ^^ ''     #''",
-        "'##  ^  '' ^^    ^^    ^^    ^^    ^^''''''''''''''''''''''^^    ^^    ^^    ^^    ^^ ''  ^  ##'",
-        "''#     ''                           ''''''''''''''''''''''                           ''     #''",
+        "''#     '''^^''''^^''''^^' X'X'X'X''''''''''''''''''''''''''''''eee''''^^''''^^''''^^'''     #''",
+        "'##  ^  '''^^''''^^''''^^'''''''''''''''''''''''''''''''''''''''eeeE'''^^''''^^''''^^'''  ^  ##'",
+        "''#     ''''''''''''''''''''''''''''''''''''''''''''''''''''''''eee'''''''''''''''''''''     #''",
+        "''#     '''''''''''''''''''''''''''''''''''''''''''''''''''X''''''''''''''''''''''''''''     #''",
+        "'##  ^  ''''''''''''''''''''''''''''''''''''''''''''''''''X'''''###'''''''''''''''''''''  ^  ##'",
+        "''#     '''''''''''''''''''#uuuu#'eee''''''''''''''''''''''X''''uU#'''''''''''''''''''''     #''",
+        "''#     '''^^''''^^''''^^''#UUUU#'eee'''''''''''''''''''''X'''''uU#''''^^''''^^''''^^'''     #''",
+        "'##  ^  '''^^''''^^''''^^''######'eee''''''''''''''''''''''X''''uU#''''^^''''^^''''^^'''  ^  ##'",
+        "''#     '''''''''''''''''''''''''''E''''''''''''''''''''''X'''''uU#'''''''''''''''''''''     #''",
+        "''#     '''''''''''''''''''''''''''''''''''''''''''''''''''X''''###'''''''''''''''''''''     #''",
+        "'##  ^  ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''  ^  ##'",
+        "''#     ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''     #''",
+        "''#     '''^^''''^^''''^^''''^^''''^^''''''''''''''''''''''^^''''^^''''^^''''^^''''^^'''     #''",
+        "'##  ^  '''^^''''^^''''^^''''^^''''^^''''''''''''''''''''''^^''''^^''''^^''''^^''''^^'''  ^  ##'",
+        "''#     ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''     #''",
+        "''#     ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''     #''",
+        "'##  ^  ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''  ^  ##'",
+        "''#     ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''     #''",
+        "''#     '''^^''''^^''''^^''''^^''''^^''''''''''''''''''''''^^''''^^''''^^''''^^''''^^'''     #''",
+        "'##  ^  '''^^''''^^''''^^''''^^''''^^''''''''''''''''''''''^^''''^^''''^^''''^^''''^^'''  ^  ##'",
+        "''#     ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''     #''",
+        "''#     ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''     #''",
+        "'##  ^  ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''  ^  ##'",
+        "''#     ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''     #''",
+        "''#     '''^^''''^^''''^^''''^^''''^^''''''''''''''''''''''^^''''^^''''^^''''^^''''^^'''     #''",
+        "'##  ^  '''^^''''^^''''^^''''^^''''^^''''''''''''''''''''''^^''''^^''''^^''''^^''''^^'''  ^  ##'",
+        "''#     ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''     #''",
         "''#     ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''     #''",
         "'##     ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''     ##'",
         "''#                                       ''''''''''''                                       #''",
-        "''#                                          ''''''                                          #''",
-        "'##        ^  ^  ^  ^  ^  ^  ^  ^  ^  ^  ^   ''''''   ^  ^  ^  ^  ^  ^  ^  ^  ^  ^  ^       ###'",
-        "''@                                          ''''''                                         <#''",
-        "''#<<#                                       ''''''                                         <#''",
+        "''#                                         ''''''''                                         #''",
+        "'##        ^  ^  ^  ^  ^  ^  ^  ^  ^  ^  ^  ''''''''  ^  ^  ^  ^  ^  ^  ^  ^  ^  ^  ^       ###'",
+        "''@                                         ''''''''                                        <#''",
+        "''#<<#                                      ''''''''                                        <#''",
         "'############################################@@@@@@########################################@###'",
         "''#''#''#''#''#''#''#''#''#''#''#''#''#''#''#''''''#''#''#''#''#''#''#''#''#''#''#''#''#''#''#''",
         "''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''"
       ],
       "palettes": [ "arcology_palette" ],
       "terrain": { "X": "t_zebra" },
-      "place_vehicles": [ { "vehicle": "SmallFlier1", "x": 47, "y": 47, "chance": 100, "rotation": 270, "status": 0 } ]
+      "place_nested": [
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 12, "y": 12 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 12, "y": 18 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 18, "y": 12 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 18, "y": 18 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 24, "y": 12 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 24, "y": 18 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 24, "y": 24 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 30, "y": 12 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 30, "y": 18 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 12, "y": 24 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 18, "y": 24 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 12, "y": 30 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 18, "y": 30 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 60, "y": 12 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 60, "y": 18 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 60, "y": 24 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 66, "y": 12 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 72, "y": 12 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 80, "y": 12 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 66, "y": 18 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 72, "y": 18 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 80, "y": 18 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 66, "y": 24 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 72, "y": 24 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 72, "y": 30 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 80, "y": 24 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 80, "y": 30 },
+		
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 12, "y": 60 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 18, "y": 60 },		
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 12, "y": 68 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 18, "y": 68 },		
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 24, "y": 68 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 30, "y": 68 },
+		
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 12, "y": 72 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 18, "y": 72 },		
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 24, "y": 72 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 30, "y": 72 },		
+
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 12, "y": 80 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 18, "y": 80 },		
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 24, "y": 80 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 30, "y": 80 },
+
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 72, "y": 60 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 80, "y": 60 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 72, "y": 68 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 80, "y": 68 },
+		
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 60, "y": 72 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 68, "y": 72 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 72, "y": 72 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 80, "y": 72 },
+		
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 60, "y": 80 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 68, "y": 80 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 72, "y": 80 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 80, "y": 80 }
+
+		
+		
+      ]
     }
   },
-
   {
     "//": "7x7 food court, two tables, fast food",
     "type": "mapgen",
@@ -122,7 +622,7 @@
     "nested_mapgen_id": "racing_tower_7x7_foodcourt",
     "object": {
       "mapgensize": [ 7, 7 ],
-      "rotation": [ 0, 3 ],	  
+      "rotation": [ 0, 3 ],
       "rows": [
         "       ",
         "  CTTC ",
@@ -137,7 +637,6 @@
       "items": { " ": { "item": "trash", "chance": 1 }, "T": { "item": "fast_food", "chance": 100, "repeat": [ 1, 2 ] } }
     }
   },
-  
   {
     "//": "7x7 food court, two tables, barbecue",
     "type": "mapgen",
@@ -145,7 +644,7 @@
     "nested_mapgen_id": "racing_tower_7x7_foodcourt",
     "object": {
       "mapgensize": [ 7, 7 ],
-      "rotation": [ 0, 3 ],	  
+      "rotation": [ 0, 3 ],
       "rows": [
         "       ",
         " CTTC  ",
@@ -167,7 +666,7 @@
     "nested_mapgen_id": "racing_tower_7x7_foodcourt",
     "object": {
       "mapgensize": [ 7, 7 ],
-      "rotation": [ 0, 3 ],	  
+      "rotation": [ 0, 3 ],
       "rows": [
         "       ",
         "    CC ",
@@ -189,7 +688,7 @@
     "nested_mapgen_id": "racing_tower_7x7_foodcourt",
     "object": {
       "mapgensize": [ 7, 7 ],
-      "rotation": [ 0, 3 ],	  
+      "rotation": [ 0, 3 ],
       "rows": [
         "       ",
         " CC    ",
@@ -204,9 +703,6 @@
       "items": { " ": { "item": "trash", "chance": 1 }, "T": { "item": "barbecue", "chance": 100, "repeat": [ 1, 2 ] } }
     }
   },
-        
-      
-  
   {
     "//": "7x7 food court, two tables, two single stools",
     "type": "mapgen",
@@ -214,7 +710,7 @@
     "nested_mapgen_id": "racing_tower_7x7_foodcourt",
     "object": {
       "mapgensize": [ 7, 7 ],
-      "rotation": [ 0, 3 ],	  
+      "rotation": [ 0, 3 ],
       "rows": [
         "       ",
         " T CTC ",
@@ -236,7 +732,7 @@
     "nested_mapgen_id": "racing_tower_7x7_foodcourt",
     "object": {
       "mapgensize": [ 7, 7 ],
-      "rotation": [ 0, 3 ],	  
+      "rotation": [ 0, 3 ],
       "rows": [
         "       ",
         " CTC S ",
@@ -263,7 +759,7 @@
     "nested_mapgen_id": "racing_tower_7x7_foodcourt",
     "object": {
       "mapgensize": [ 7, 7 ],
-      "rotation": [ 0, 3 ],	  
+      "rotation": [ 0, 3 ],
       "rows": [
         "       ",
         "  CCC  ",
@@ -290,8 +786,25 @@
     ],
     "weight": 1,
     "object": {
+      "faction_owner": [
+        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 0, 23 ] },
+        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 0, 23 ] },
+        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 0, 23 ] },
+        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 0, 23 ] },
+        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 24, 47 ] },
+        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 24, 47 ] },
+        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 24, 47 ] },
+        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 24, 47 ] },
+        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 48, 71 ] },
+        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 48, 71 ] },
+        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 48, 71 ] },
+        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 48, 71 ] },
+        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 72, 95 ] },
+        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 72, 95 ] },
+        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 72, 95 ] },
+        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 72, 95 ] }
+      ],
       "fill_ter": "t_concrete",
- 
       "rows": [
         "................................................................................................",
         "..#..#..#..#..#..#..#..#..#..#..#..#..#..#..#..##..#..#..#..#..#..#..#..#..#..#..#..#..#..#..#..",
@@ -418,13 +931,12 @@
         { "chunks": [ "racing_tower_7x7_foodcourt" ], "x": 26, "y": 56 },
         { "chunks": [ "racing_tower_7x7_foodcourt" ], "x": 33, "y": 33 },
         { "chunks": [ "racing_tower_7x7_foodcourt" ], "x": 56, "y": 33 },
-        { "chunks": [ "racing_tower_7x7_foodcourt" ], "x": 56, "y": 56 },		
-        { "chunks": [ "racing_tower_7x7_foodcourt" ], "x": 33, "y": 56 }		
-		],
+        { "chunks": [ "racing_tower_7x7_foodcourt" ], "x": 56, "y": 56 },
+        { "chunks": [ "racing_tower_7x7_foodcourt" ], "x": 33, "y": 56 }
+      ],
       "terrain": { "S": "t_dirt", "s": "t_dirt" }
     }
   },
-  
   {
     "//": "13x13 casino and coffee shop",
     "type": "mapgen",
@@ -432,7 +944,7 @@
     "nested_mapgen_id": "racing_tower_13x13commercial",
     "object": {
       "mapgensize": [ 13, 13 ],
-      "rotation": [ 0, 3 ],	  
+      "rotation": [ 0, 3 ],
       "rows": [
         "%%%%%%%%%%%%%",
         "%           %",
@@ -447,16 +959,13 @@
         "%           %",
         "%           %",
         "%%%%%%%%%%%%%"
-
       ],
       "terrain": { " ": "t_null", "%": "t_ballistic_glass", "^": "t_ballistic_door_glass_c" },
       "furniture": { "C": "f_bench", "S": "f_stool", "T": "f_metal_table", "X": "f_metal_table" },
       "items": { " ": { "item": "trash", "chance": 1 }, "T": { "item": "fast_food", "chance": 60, "repeat": [ 1, 2 ] } },
       "place_loot": [ { "item": "television", "x": 3, "y": 3, "chance": 100 } ]
     }
-  },  
-  
-  
+  },
   {
     "type": "mapgen",
     "method": "json",
@@ -468,6 +977,24 @@
     ],
     "weight": 1,
     "object": {
+      "faction_owner": [
+        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 0, 23 ] },
+        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 0, 23 ] },
+        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 0, 23 ] },
+        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 0, 23 ] },
+        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 24, 47 ] },
+        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 24, 47 ] },
+        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 24, 47 ] },
+        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 24, 47 ] },
+        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 48, 71 ] },
+        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 48, 71 ] },
+        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 48, 71 ] },
+        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 48, 71 ] },
+        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 72, 95 ] },
+        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 72, 95 ] },
+        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 72, 95 ] },
+        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 72, 95 ] }
+      ],
       "fill_ter": "t_concrete",
       "rows": [
         "................................................................................................",
@@ -583,6 +1110,24 @@
     ],
     "weight": 1,
     "object": {
+      "faction_owner": [
+        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 0, 23 ] },
+        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 0, 23 ] },
+        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 0, 23 ] },
+        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 0, 23 ] },
+        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 24, 47 ] },
+        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 24, 47 ] },
+        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 24, 47 ] },
+        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 24, 47 ] },
+        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 48, 71 ] },
+        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 48, 71 ] },
+        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 48, 71 ] },
+        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 48, 71 ] },
+        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 72, 95 ] },
+        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 72, 95 ] },
+        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 72, 95 ] },
+        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 72, 95 ] }
+      ],
       "fill_ter": "t_concrete",
       "rows": [
         "................................................................................................",
@@ -697,6 +1242,24 @@
     ],
     "weight": 1,
     "object": {
+      "faction_owner": [
+        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 0, 23 ] },
+        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 0, 23 ] },
+        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 0, 23 ] },
+        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 0, 23 ] },
+        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 24, 47 ] },
+        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 24, 47 ] },
+        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 24, 47 ] },
+        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 24, 47 ] },
+        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 48, 71 ] },
+        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 48, 71 ] },
+        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 48, 71 ] },
+        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 48, 71 ] },
+        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 72, 95 ] },
+        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 72, 95 ] },
+        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 72, 95 ] },
+        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 72, 95 ] }
+      ],
       "fill_ter": "t_concrete",
       "rows": [
         "................................................................................................",
@@ -800,9 +1363,9 @@
       "place_nested": [
         { "chunks": [ "racing_tower_7x7_foodcourt" ], "x": 33, "y": 33 },
         { "chunks": [ "racing_tower_7x7_foodcourt" ], "x": 56, "y": 33 },
-        { "chunks": [ "racing_tower_7x7_foodcourt" ], "x": 56, "y": 56 },		
-        { "chunks": [ "racing_tower_7x7_foodcourt" ], "x": 33, "y": 56 }		
-		],	  
+        { "chunks": [ "racing_tower_7x7_foodcourt" ], "x": 56, "y": 56 },
+        { "chunks": [ "racing_tower_7x7_foodcourt" ], "x": 33, "y": 56 }
+      ],
       "terrain": { "S": "t_pavement", "s": "t_pavement", "B": "t_pavement", "b": "t_pavement" }
     }
   },
@@ -817,6 +1380,24 @@
     ],
     "weight": 1,
     "object": {
+      "faction_owner": [
+        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 0, 23 ] },
+        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 0, 23 ] },
+        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 0, 23 ] },
+        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 0, 23 ] },
+        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 24, 47 ] },
+        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 24, 47 ] },
+        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 24, 47 ] },
+        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 24, 47 ] },
+        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 48, 71 ] },
+        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 48, 71 ] },
+        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 48, 71 ] },
+        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 48, 71 ] },
+        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 72, 95 ] },
+        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 72, 95 ] },
+        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 72, 95 ] },
+        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 72, 95 ] }
+      ],
       "fill_ter": "t_concrete",
       "rows": [
         "................................................................................................",
@@ -931,6 +1512,24 @@
     ],
     "weight": 1,
     "object": {
+      "faction_owner": [
+        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 0, 23 ] },
+        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 0, 23 ] },
+        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 0, 23 ] },
+        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 0, 23 ] },
+        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 24, 47 ] },
+        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 24, 47 ] },
+        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 24, 47 ] },
+        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 24, 47 ] },
+        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 48, 71 ] },
+        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 48, 71 ] },
+        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 48, 71 ] },
+        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 48, 71 ] },
+        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 72, 95 ] },
+        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 72, 95 ] },
+        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 72, 95 ] },
+        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 72, 95 ] }
+      ],
       "fill_ter": "t_concrete",
       "rows": [
         "................................................................................................",
@@ -949,7 +1548,7 @@
         "..G                                                                                          G..",
         ".##                                                                                          ##.",
         "..#                                                                                          #..",
-        "..G                            ========================                                      G..",
+        "..G                            ==||====================                                      G..",
         ".##                          ###''''''''''''''''''''''=                                      ##.",
         "..#                          #Dd''''''''''''''''''''''=                                      #..",
         "..G                          #Dd''''''''''''''''''''''=                                      G..",
@@ -966,8 +1565,8 @@
         "..#                          #Uu''''''''''''''''''''''=    eee #UUUU#    #DDDD#              #..",
         "..G                          #Uu''''''''''''''''''''''=    eee=#uuuu#====#dddd#=             G..",
         ".##                          ###''''''''''''''''''''''=       =''''''''B'''''''=             ##.",
-        "..#                            ========'''''''''''''''=       ='''''''B''''''''=             #..",
-        "..G                          eee      ='''''''''''''''=       =''''''''B'''''''=             G..",
+        "..#                            ========'''''''''''''''=       ='''''''B''''''''|             #..",
+        "..G                          eee      ='''''''''''''''=       =''''''''B'''''''|             G..",
         ".##                         Eeee      ='''''''''''''''=       ='''''''B''''''''=             ##.",
         "..#                          eee      ='''''''''''''''=       =''''''''B'''''''=             #..",
         "..G                                   ='''''''''''''''=       ='''''''B''''''''=             G..",
@@ -994,8 +1593,8 @@
         "..G             =''''''''B'''''''=       ='''''''''''''''=                                   G..",
         "..#             ='''''''B''''''''=       ='''''''''''''''=      eee                          #..",
         ".##             =''''''''B'''''''=       ='''''''''''''''=      eeeE                         ##.",
-        "..G             ='''''''B''''''''=       ='''''''''''''''=      eee                          G..",
-        "..#             =''''''''B'''''''=       ='''''''''''''''========                            #..",
+        "..G             |'''''''B''''''''=       ='''''''''''''''=      eee                          G..",
+        "..#             |''''''''B'''''''=       ='''''''''''''''========                            #..",
         ".##             ='''''''B''''''''=       =''''''''''''''''''''''###                          ##.",
         "..G             =#dddd#====#uuuu#=eee    =''''''''''''''''''''''uU#                          G..",
         "..#              #DDDD#    #UUUU# eee    =''''''''''''''''''''''uU#                          #..",
@@ -1012,7 +1611,7 @@
         "..G                                      =''''''''''''''''''''''dD#                          G..",
         "..#                                      =''''''''''''''''''''''dD#                          #..",
         ".##                                      =''''''''''''''''''''''###                          ##.",
-        "..G                                      ========================                            G..",
+        "..G                                      ====================||==                            G..",
         "..#                                                                                          #..",
         ".##                                                                                          ##.",
         "..G                                                                                          G..",
@@ -1045,6 +1644,24 @@
     ],
     "weight": 1,
     "object": {
+      "faction_owner": [
+        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 0, 23 ] },
+        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 0, 23 ] },
+        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 0, 23 ] },
+        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 0, 23 ] },
+        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 24, 47 ] },
+        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 24, 47 ] },
+        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 24, 47 ] },
+        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 24, 47 ] },
+        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 48, 71 ] },
+        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 48, 71 ] },
+        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 48, 71 ] },
+        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 48, 71 ] },
+        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 72, 95 ] },
+        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 72, 95 ] },
+        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 72, 95 ] },
+        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 72, 95 ] }
+      ],
       "fill_ter": "t_concrete",
       "rows": [
         "................................................................................................",
@@ -1069,15 +1686,15 @@
         "..#                   =s''''''uU#                                                            #..",
         ".##                   =''''`''uU#                                                            ##.",
         "..#                   ='''`'`'uU#                                                            #..",
-        "..#                   ='''''''###                              ================              #..",
-        ".##                   ='''''''|                               ==ss''''''''''ss==             ##.",
-        "..#                   ='''`'''|                               =ss''''''''''''ss=             #..",
-        "..#                   =''```''|                               =s''''''`'''''''s=             #..",
-        ".##                   ='''`'''|                               =''''`````''`''''=             ##.",
+        "..#                   ='''''''###                              ======||||======              #..",
+        ".##                   |'''''''=                               ==ss''''''''''ss==             ##.",
+        "..#                   |'''`'''=                               =ss''''''''''''ss=             #..",
+        "..#                   |''```''=                               =s''''''`'''''''s=             #..",
+        ".##                   |'''`'''=                               =''''`````''`''''=             ##.",
         "..#                   ='''`'''###                             ='''`'''`''''`'''=             #..",
         "..#                   ='''`'''dD#                           E =''`''''''''`''''=             #..",
         ".##                   =''''`''dD#                          eee=''''''''''''''''=             ##.",
-        "..#                   =s''''`'dD#                          eee=#dddd#||||#uuuu#=             #..",
+        "..#                   =s''''`'dD#                          eee=#dddd#====#uuuu#=             #..",
         "..#                   =ss'''''dD#                          eee #DDDD#    #UUUU#              #..",
         ".##                   ==ss''''###                              ######    ######              ##.",
         "..#                    ========                                                              #..",
@@ -1112,15 +1729,15 @@
         "..#                                                              ========                    #..",
         ".##              ######    ######                              ###''''ss==                   ##.",
         "..#              #UUUU#    #DDDD# eee                          #Dd'''''ss=                   #..",
-        "..#             =#uuuu#||||#dddd#=eee                          #Dd'`''''s=                   #..",
+        "..#             =#uuuu#====#dddd#=eee                          #Dd'`''''s=                   #..",
         ".##             =''''''''''''''''=eee                          #Dd''`''''=                   ##.",
         "..#             =''''`''''''''`''= E                           #Dd'''`'''=                   #..",
         "..#             ='''`''''`'''`'''=                             ###'''`'''=                   #..",
-        ".##             =''''`''`````''''=                               |'''`'''=                   ##.",
-        "..#             =s'''''''`''''''s=                               |''```''=                   #..",
-        "..#             =ss''''''''''''ss=                               |'''`'''=                   #..",
-        ".##             ==ss''''''''''ss==                               |'''''''=                   ##.",
-        "..#              ================                              ###'''''''=                   #..",
+        ".##             =''''`''`````''''=                               ='''`'''|                   ##.",
+        "..#             =s'''''''`''''''s=                               =''```''|                   #..",
+        "..#             =ss''''''''''''ss=                               ='''`'''|                   #..",
+        ".##             ==ss''''''''''ss==                               ='''''''|                   ##.",
+        "..#              ======||||======                              ###'''''''=                   #..",
         "..#                                                            #Uu'`'`'''=                   #..",
         ".##                                                            #Uu''`''''=                   ##.",
         "..#                                                            #Uu''''''s=                   #..",
@@ -1144,7 +1761,8 @@
         "..#..#..#..#..#..#..#..#..#..#..#..#..#..#..#..##..#..#..#..#..#..#..#..#..#..#..#..#..#..#..#..",
         "................................................................................................"
       ],
-      "palettes": [ "arcology_palette" ]
+      "palettes": [ "arcology_palette" ],
+      "terrain": { "S": "t_pavement", "s": "t_pavement", "B": "t_pavement", "b": "t_pavement" }	  
     }
   },
   {
@@ -1158,6 +1776,24 @@
     ],
     "weight": 1,
     "object": {
+      "faction_owner": [
+        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 0, 23 ] },
+        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 0, 23 ] },
+        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 0, 23 ] },
+        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 0, 23 ] },
+        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 24, 47 ] },
+        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 24, 47 ] },
+        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 24, 47 ] },
+        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 24, 47 ] },
+        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 48, 71 ] },
+        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 48, 71 ] },
+        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 48, 71 ] },
+        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 48, 71 ] },
+        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 72, 95 ] },
+        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 72, 95 ] },
+        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 72, 95 ] },
+        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 72, 95 ] }
+      ],
       "fill_ter": "t_concrete",
       "rows": [
         "................................................................................................",
@@ -1198,26 +1834,26 @@
         ".=               ''''''                                                  ''''''               =.",
         ".=              ''''''''                                                 ''''''               =.",
         ".=            ''''''''''''                                              ''''''''              =.",
-        ".=          ''''''''''''''''          ____________________              ''''''''              =.",
-        ".=          ''''''''''''''''          ____________________              ''''''''              =.",
-        ".=         ''```''''''''```''         ____________________            ''''''''''''            =.",
-        ".=        '''`'`''''''''`'`'''        ____________________          ''''''''''''''''          =.",
-        ".=        '''`'`''''''''`'`'''        ____________________          ''''''''''''''''          =.",
-        ".=       ''''```''''''''```''''       ____________________         ''```''''''''```''         =.",
-        ".=       ''''`'`''''''''`'`''''       ____________________         ''`'`''''''''`'`''         =.",
-        ".=       ''''`'``````````'`''''       ____________________        '''`'`''''''''`'`'''        =.",
-        ".=       ''''```''`''`''```''''       ____________________        '''```''''''''```'''        =.",
-        ".=       ''''`'``````````'`''''       ____________________       ''''`'`''''''''`'`''''       =.",
-        ".=       ''''`'`''''''''`'`''''       ____________________       ''''`'``````````'`''''       =.",
-        ".=        '''```''''''''```'''        ____________________       ''''```''`''`''```''''       =.",
-        ".=        '''`'`''''''''`'`'''        ____________________       ''''`'``````````'`''''       =.",
-        ".=         ''`'`''''''''`'`''         ____________________       ''''`'`''''''''`'`''''       =.",
-        ".=         ''```''''''''```''         ____________________       ''''```''''''''```''''       =.",
-        ".=          ''''''''''''''''          ____________________        '''`'`''''''''`'`'''        =.",
-        ".=          ''''''''''''''''          ____________________        '''`'`''''''''`'`'''        =.",
-        ".=            ''''''''''''            ____________________         ''```''''''''```''         =.",
-        ".=              ''''''''              ____________________          ''''''''''''''''          =.",
-        ".=              ''''''''              ____________________          ''''''''''''''''          =.",
+        ".=          ''''''''''''''''          ....................              ''''''''              =.",
+        ".=          ''''''''''''''''          ....................              ''''''''              =.",
+        ".=         ''```''''''''```''         ....................            ''''''''''''            =.",
+        ".=        '''`'`''''''''`'`'''        ....................          ''''''''''''''''          =.",
+        ".=        '''`'`''''''''`'`'''        ....................          ''''''''''''''''          =.",
+        ".=       ''''```''''''''```''''       ....................         ''```''''''''```''         =.",
+        ".=       ''''`'`''''''''`'`''''       ....................         ''`'`''''''''`'`''         =.",
+        ".=       ''''`'``````````'`''''       ....................        '''`'`''''''''`'`'''        =.",
+        ".=       ''''```''`''`''```''''       ....................        '''```''''''''```'''        =.",
+        ".=       ''''`'``````````'`''''       ....................       ''''`'`''''''''`'`''''       =.",
+        ".=       ''''`'`''''''''`'`''''       ....................       ''''`'``````````'`''''       =.",
+        ".=        '''```''''''''```'''        ....................       ''''```''`''`''```''''       =.",
+        ".=        '''`'`''''''''`'`'''        ....................       ''''`'``````````'`''''       =.",
+        ".=         ''`'`''''''''`'`''         ....................       ''''`'`''''''''`'`''''       =.",
+        ".=         ''```''''''''```''         ....................       ''''```''''''''```''''       =.",
+        ".=          ''''''''''''''''          ....................        '''`'`''''''''`'`'''        =.",
+        ".=          ''''''''''''''''          ....................        '''`'`''''''''`'`'''        =.",
+        ".=            ''''''''''''            ....................         ''```''''''''```''         =.",
+        ".=              ''''''''              ....................          ''''''''''''''''          =.",
+        ".=              ''''''''              ....................          ''''''''''''''''          =.",
         ".=              ''''''''                                              ''''''''''''            =.",
         ".=               ''''''                                                 ''''''''              =.",
         ".=               ''''''                                                  ''''''               =.",
