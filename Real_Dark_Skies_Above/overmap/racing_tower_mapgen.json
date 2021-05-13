@@ -27,7 +27,7 @@
       ],
       "terrain": { " ": "t_null" },
       "furniture": { "#": "f_canvas_wall", "'": "f_groundsheet", "B": "f_groundsheet", "+": "f_canvas_door" },
-      "place_npcs": [ { "class": "roabofac_free_merchant", "x": 2, "y": 2 } ],
+      "place_npcs": [ { "class": "DKZ_SCAVENGER_MERCHANT", "x": 2, "y": 2 } ],
       "items": { " ": { "item": "trash_cart", "chance": 1 }, "B": { "item": "guns_milspec", "chance": 100, "repeat": [ 2, 3 ] } }
     }
   },
@@ -48,7 +48,7 @@
       ],
       "terrain": { " ": "t_null" },
       "furniture": { "#": "f_canvas_wall", "'": "f_groundsheet", "B": "f_groundsheet", "+": "f_canvas_door" },
-      "place_npcs": [ { "class": "roabofac_free_merchant", "x": 1, "y": 2 } ],
+      "place_npcs": [ { "class": "DKZ_SCAVENGER_MERCHANT", "x": 1, "y": 2 } ],
       "items": { " ": { "item": "trash_cart", "chance": 1 }, "B": { "item": "guns_milspec", "chance": 100, "repeat": [ 2, 3 ] } }
     }
   },
@@ -69,7 +69,7 @@
       ],
       "terrain": { " ": "t_null" },
       "furniture": { "#": "f_canvas_wall", "'": "f_groundsheet", "B": "f_groundsheet", "+": "f_canvas_door" },
-      "place_npcs": [ { "class": "roabofac_free_merchant", "x": 3, "y": 2 } ],
+      "place_npcs": [ { "class": "DKZ_SCAVENGER_MERCHANT", "x": 3, "y": 2 } ],
       "items": { " ": { "item": "trash_cart", "chance": 1 }, "B": { "item": "guns_milspec", "chance": 100, "repeat": [ 2, 3 ] } }
     }
   },
@@ -90,7 +90,7 @@
       ],
       "terrain": { " ": "t_null" },
       "furniture": { "#": "f_canvas_wall", "'": "f_groundsheet", "B": "f_groundsheet", "+": "f_canvas_door" },
-      "place_npcs": [ { "class": "roabofac_free_merchant", "x": 2, "y": 2 } ],
+      "place_npcs": [ { "class": "DKZ_SCAVENGER_MERCHANT", "x": 2, "y": 2 } ],
       "items": { " ": { "item": "trash_cart", "chance": 1 }, "B": { "item": "guns_milspec", "chance": 100, "repeat": [ 2, 3 ] } }
     }
   },
@@ -111,7 +111,7 @@
       ],
       "terrain": { " ": "t_null" },
       "furniture": { "#": "f_canvas_wall", "'": "f_groundsheet", "B": "f_groundsheet", "+": "f_canvas_door" },
-      "place_npcs": [ { "class": "roabofac_free_merchant", "x": 3, "y": 2 } ],
+      "place_npcs": [ { "class": "DKZ_SCAVENGER_MERCHANT", "x": 3, "y": 2 } ],
       "items": { " ": { "item": "trash_cart", "chance": 1 }, "B": { "item": "guns_milspec", "chance": 100, "repeat": [ 2, 3 ] } }
     }
   },
@@ -132,7 +132,7 @@
       ],
       "terrain": { " ": "t_null" },
       "furniture": { "#": "f_canvas_wall", "'": "f_groundsheet", "B": "f_groundsheet", "+": "f_canvas_door" },
-      "place_npcs": [ { "class": "roabofac_free_merchant", "x": 2, "y": 2 } ],
+      "place_npcs": [ { "class": "DKZ_SCAVENGER_MERCHANT", "x": 2, "y": 2 } ],
       "items": { " ": { "item": "trash_cart", "chance": 1 }, "B": { "item": "bionics_mil", "chance": 100, "repeat": [ 1, 2 ] } }
     }
   },
@@ -153,7 +153,7 @@
       ],
       "terrain": { " ": "t_null" },
       "furniture": { "#": "f_canvas_wall", "'": "f_groundsheet", "B": "f_groundsheet", "+": "f_canvas_door" },
-      "place_npcs": [ { "class": "roabofac_free_merchant", "x": 1, "y": 2 } ],
+      "place_npcs": [ { "class": "DKZ_SCAVENGER_MERCHANT", "x": 1, "y": 2 } ],
       "items": { " ": { "item": "trash_cart", "chance": 1 }, "B": { "item": "bionics_mil", "chance": 100, "repeat": [ 1, 2 ] } }
     }
   },
@@ -174,7 +174,7 @@
       ],
       "terrain": { " ": "t_null" },
       "furniture": { "#": "f_canvas_wall", "'": "f_groundsheet", "B": "f_groundsheet", "+": "f_canvas_door" },
-      "place_npcs": [ { "class": "roabofac_free_merchant", "x": 3, "y": 2 } ],
+      "place_npcs": [ { "class": "DKZ_SCAVENGER_MERCHANT", "x": 3, "y": 2 } ],
       "items": { " ": { "item": "trash_cart", "chance": 1 }, "B": { "item": "bionics_mil", "chance": 100, "repeat": [ 1, 2 ] } }
     }
   },
@@ -195,7 +195,7 @@
       ],
       "terrain": { " ": "t_null" },
       "furniture": { "#": "f_canvas_wall", "'": "f_groundsheet", "B": "f_groundsheet", "+": "f_canvas_door" },
-      "place_npcs": [ { "class": "roabofac_free_merchant", "x": 2, "y": 2 } ],
+      "place_npcs": [ { "class": "DKZ_SCAVENGER_MERCHANT", "x": 2, "y": 2 } ],
       "items": { " ": { "item": "trash_cart", "chance": 1 }, "B": { "item": "bionics_mil", "chance": 100, "repeat": [ 1, 2 ] } }
     }
   },
@@ -216,7 +216,7 @@
       ],
       "terrain": { " ": "t_null" },
       "furniture": { "#": "f_canvas_wall", "'": "f_groundsheet", "B": "f_groundsheet", "+": "f_canvas_door" },
-      "place_npcs": [ { "class": "roabofac_free_merchant", "x": 3, "y": 2 } ],
+      "place_npcs": [ { "class": "DKZ_SCAVENGER_MERCHANT", "x": 3, "y": 2 } ],
       "items": { " ": { "item": "trash_cart", "chance": 1 }, "B": { "item": "bionics_mil", "chance": 100, "repeat": [ 1, 2 ] } }
     }
   },
@@ -405,16 +405,16 @@
       ],
       "terrain": { " ": "t_null" },
       "place_npcs": [
-        { "class": "roabofac_free_merchant", "x": 2, "y": 2 },
+        { "class": "DKZ_SCAVENGER_MERCHANT", "x": 2, "y": 2 },
         { "class": "guard", "x": 3, "y": 0 },
         { "class": "guard", "x": 0, "y": 3 }
       ],
       "furniture": { "-": "f_camp_chair", "A": "f_metal_table", "B": "f_metal_table", "C": "f_metal_table", "D": "f_metal_table" },
       "items": {
         " ": { "item": "trash_junkyard", "chance": 1 },
-        "A": { "item": "irradiated_food", "chance": 100, "repeat": [ 3, 5 ] },
+        "A": { "item": "irradiated_food", "chance": 100, "repeat": [ 1, 2 ] },
         "B": { "item": "preserved_food", "chance": 100, "repeat": [ 3, 5 ] },
-        "C": { "item": "foodintincan", "chance": 100, "repeat": [ 3, 5 ] },
+        "C": { "item": "foodintincan", "chance": 100, "repeat": [ 4, 7 ] },
         "D": { "item": "dry_goods", "chance": 100, "repeat": [ 3, 5 ] }
       }
     }
@@ -431,22 +431,22 @@
     "weight": 1,
     "object": {
       "faction_owner": [
-        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 0, 23 ] },
-        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 0, 23 ] },
-        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 0, 23 ] },
-        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 0, 23 ] },
-        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 24, 47 ] },
-        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 24, 47 ] },
-        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 24, 47 ] },
-        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 24, 47 ] },
-        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 48, 71 ] },
-        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 48, 71 ] },
-        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 48, 71 ] },
-        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 48, 71 ] },
-        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 72, 95 ] },
-        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 72, 95 ] },
-        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 72, 95 ] },
-        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 72, 95 ] }
+        { "id": "wasteland_scavengers", "x": [ 0, 23 ], "y": [ 0, 23 ] },
+        { "id": "wasteland_scavengers", "x": [ 24, 47 ], "y": [ 0, 23 ] },
+        { "id": "wasteland_scavengers", "x": [ 48, 71 ], "y": [ 0, 23 ] },
+        { "id": "wasteland_scavengers", "x": [ 72, 95 ], "y": [ 0, 23 ] },
+        { "id": "wasteland_scavengers", "x": [ 0, 23 ], "y": [ 24, 47 ] },
+        { "id": "wasteland_scavengers", "x": [ 24, 47 ], "y": [ 24, 47 ] },
+        { "id": "wasteland_scavengers", "x": [ 48, 71 ], "y": [ 24, 47 ] },
+        { "id": "wasteland_scavengers", "x": [ 72, 95 ], "y": [ 24, 47 ] },
+        { "id": "wasteland_scavengers", "x": [ 0, 23 ], "y": [ 48, 71 ] },
+        { "id": "wasteland_scavengers", "x": [ 24, 47 ], "y": [ 48, 71 ] },
+        { "id": "wasteland_scavengers", "x": [ 48, 71 ], "y": [ 48, 71 ] },
+        { "id": "wasteland_scavengers", "x": [ 72, 95 ], "y": [ 48, 71 ] },
+        { "id": "wasteland_scavengers", "x": [ 0, 23 ], "y": [ 72, 95 ] },
+        { "id": "wasteland_scavengers", "x": [ 24, 47 ], "y": [ 72, 95 ] },
+        { "id": "wasteland_scavengers", "x": [ 48, 71 ], "y": [ 72, 95 ] },
+        { "id": "wasteland_scavengers", "x": [ 72, 95 ], "y": [ 72, 95 ] }
       ],
       "fill_ter": "t_sidewalk",
       "rows": [
@@ -590,25 +590,25 @@
         { "chunks": [ "racing_tower_5x5_ground" ], "x": 24, "y": 72 },
         { "chunks": [ "racing_tower_5x5_ground" ], "x": 30, "y": 72 },		
 
-        { "chunks": [ "racing_tower_5x5_ground" ], "x": 12, "y": 80 },
-        { "chunks": [ "racing_tower_5x5_ground" ], "x": 18, "y": 80 },		
-        { "chunks": [ "racing_tower_5x5_ground" ], "x": 24, "y": 80 },
-        { "chunks": [ "racing_tower_5x5_ground" ], "x": 30, "y": 80 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 12, "y": 78 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 18, "y": 78 },		
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 24, "y": 78 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 30, "y": 78 },
 
         { "chunks": [ "racing_tower_5x5_ground" ], "x": 72, "y": 60 },
         { "chunks": [ "racing_tower_5x5_ground" ], "x": 80, "y": 60 },
         { "chunks": [ "racing_tower_5x5_ground" ], "x": 72, "y": 68 },
         { "chunks": [ "racing_tower_5x5_ground" ], "x": 80, "y": 68 },
 		
-        { "chunks": [ "racing_tower_5x5_ground" ], "x": 60, "y": 72 },
-        { "chunks": [ "racing_tower_5x5_ground" ], "x": 68, "y": 72 },
-        { "chunks": [ "racing_tower_5x5_ground" ], "x": 72, "y": 72 },
-        { "chunks": [ "racing_tower_5x5_ground" ], "x": 80, "y": 72 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 60, "y": 70 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 68, "y": 70 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 72, "y": 70 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 80, "y": 70 },
 		
-        { "chunks": [ "racing_tower_5x5_ground" ], "x": 60, "y": 80 },
-        { "chunks": [ "racing_tower_5x5_ground" ], "x": 68, "y": 80 },
-        { "chunks": [ "racing_tower_5x5_ground" ], "x": 72, "y": 80 },
-        { "chunks": [ "racing_tower_5x5_ground" ], "x": 80, "y": 80 }
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 60, "y": 78 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 68, "y": 78 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 72, "y": 78 },
+        { "chunks": [ "racing_tower_5x5_ground" ], "x": 80, "y": 78 }
 
 		
 		
@@ -787,22 +787,22 @@
     "weight": 1,
     "object": {
       "faction_owner": [
-        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 0, 23 ] },
-        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 0, 23 ] },
-        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 0, 23 ] },
-        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 0, 23 ] },
-        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 24, 47 ] },
-        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 24, 47 ] },
-        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 24, 47 ] },
-        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 24, 47 ] },
-        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 48, 71 ] },
-        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 48, 71 ] },
-        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 48, 71 ] },
-        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 48, 71 ] },
-        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 72, 95 ] },
-        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 72, 95 ] },
-        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 72, 95 ] },
-        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 72, 95 ] }
+        { "id": "wasteland_scavengers", "x": [ 0, 23 ], "y": [ 0, 23 ] },
+        { "id": "wasteland_scavengers", "x": [ 24, 47 ], "y": [ 0, 23 ] },
+        { "id": "wasteland_scavengers", "x": [ 48, 71 ], "y": [ 0, 23 ] },
+        { "id": "wasteland_scavengers", "x": [ 72, 95 ], "y": [ 0, 23 ] },
+        { "id": "wasteland_scavengers", "x": [ 0, 23 ], "y": [ 24, 47 ] },
+        { "id": "wasteland_scavengers", "x": [ 24, 47 ], "y": [ 24, 47 ] },
+        { "id": "wasteland_scavengers", "x": [ 48, 71 ], "y": [ 24, 47 ] },
+        { "id": "wasteland_scavengers", "x": [ 72, 95 ], "y": [ 24, 47 ] },
+        { "id": "wasteland_scavengers", "x": [ 0, 23 ], "y": [ 48, 71 ] },
+        { "id": "wasteland_scavengers", "x": [ 24, 47 ], "y": [ 48, 71 ] },
+        { "id": "wasteland_scavengers", "x": [ 48, 71 ], "y": [ 48, 71 ] },
+        { "id": "wasteland_scavengers", "x": [ 72, 95 ], "y": [ 48, 71 ] },
+        { "id": "wasteland_scavengers", "x": [ 0, 23 ], "y": [ 72, 95 ] },
+        { "id": "wasteland_scavengers", "x": [ 24, 47 ], "y": [ 72, 95 ] },
+        { "id": "wasteland_scavengers", "x": [ 48, 71 ], "y": [ 72, 95 ] },
+        { "id": "wasteland_scavengers", "x": [ 72, 95 ], "y": [ 72, 95 ] }
       ],
       "fill_ter": "t_concrete",
       "rows": [
@@ -938,7 +938,7 @@
     }
   },
   {
-    "//": "13x13 casino and coffee shop",
+    "//": "13x13 glass enclosed news stand",
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "racing_tower_13x13commercial",
@@ -947,25 +947,52 @@
       "rotation": [ 0, 3 ],
       "rows": [
         "%%%%%%%%%%%%%",
-        "%           %",
-        "%           %",
-        "%           %",
-        "%           %",
-        "%           %",
-        "%           %",
-        "%           %",
-        "%           %",
-        "%           %",
-        "%           %",
-        "%           %",
+        "%XXXXXXXXXXX%",
+        "%X          ^",
+        "%X          ^",
+        "%X   TTT    %",
+        "%X   S S   X%",
+        "%X         X%",
+        "%X   S S   X%",
+        "%    TTT   X%",
+        "^          X%",
+        "^          X%",
+        "%XXXXXXXXXXX%",
         "%%%%%%%%%%%%%"
       ],
       "terrain": { " ": "t_null", "%": "t_ballistic_glass", "^": "t_ballistic_door_glass_c" },
-      "furniture": { "C": "f_bench", "S": "f_stool", "T": "f_metal_table", "X": "f_metal_table" },
-      "items": { " ": { "item": "trash", "chance": 1 }, "T": { "item": "fast_food", "chance": 60, "repeat": [ 1, 2 ] } },
-      "place_loot": [ { "item": "television", "x": 3, "y": 3, "chance": 100 } ]
+      "furniture": { "C": "f_bench", "S": "f_stool", "T": "f_metal_table", "X": "f_glass_cabinet" }
     }
   },
+  {
+    "//": "13x13 glass enclosed arcade",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_13x13commercial",
+    "object": {
+      "mapgensize": [ 13, 13 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "%%%%%%%%%%%%%",
+        "%CBCBCBCBCBC%",
+        "^           ^",
+        "^           ^",
+        "%C         B%",
+        "%C  BCB    B%",
+        "%C  ###AV  B%",
+        "%C  VA###  B%",
+        "%C    CBC  B%",
+        "^           ^",
+        "^           ^",
+        "%BCBCBCBCBCB%",
+        "%%%%%%%%%%%%%"
+      ],
+      "terrain": { " ": "t_null", "A": "t_atm", "#": "t_concrete_wall", "%": "t_ballistic_glass", "^": "t_ballistic_door_glass_c" },
+      "furniture": { "B": "f_pinball_machine", "C": "f_arcade_machine","V": "f_vending_reinforced" },
+      "items": { "V": { "item": "vending_drink", "chance": 90, "repeat": [ 11, 23 ] } }
+    }
+  },
+
   {
     "type": "mapgen",
     "method": "json",
@@ -978,22 +1005,22 @@
     "weight": 1,
     "object": {
       "faction_owner": [
-        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 0, 23 ] },
-        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 0, 23 ] },
-        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 0, 23 ] },
-        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 0, 23 ] },
-        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 24, 47 ] },
-        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 24, 47 ] },
-        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 24, 47 ] },
-        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 24, 47 ] },
-        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 48, 71 ] },
-        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 48, 71 ] },
-        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 48, 71 ] },
-        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 48, 71 ] },
-        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 72, 95 ] },
-        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 72, 95 ] },
-        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 72, 95 ] },
-        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 72, 95 ] }
+        { "id": "wasteland_scavengers", "x": [ 0, 23 ], "y": [ 0, 23 ] },
+        { "id": "wasteland_scavengers", "x": [ 24, 47 ], "y": [ 0, 23 ] },
+        { "id": "wasteland_scavengers", "x": [ 48, 71 ], "y": [ 0, 23 ] },
+        { "id": "wasteland_scavengers", "x": [ 72, 95 ], "y": [ 0, 23 ] },
+        { "id": "wasteland_scavengers", "x": [ 0, 23 ], "y": [ 24, 47 ] },
+        { "id": "wasteland_scavengers", "x": [ 24, 47 ], "y": [ 24, 47 ] },
+        { "id": "wasteland_scavengers", "x": [ 48, 71 ], "y": [ 24, 47 ] },
+        { "id": "wasteland_scavengers", "x": [ 72, 95 ], "y": [ 24, 47 ] },
+        { "id": "wasteland_scavengers", "x": [ 0, 23 ], "y": [ 48, 71 ] },
+        { "id": "wasteland_scavengers", "x": [ 24, 47 ], "y": [ 48, 71 ] },
+        { "id": "wasteland_scavengers", "x": [ 48, 71 ], "y": [ 48, 71 ] },
+        { "id": "wasteland_scavengers", "x": [ 72, 95 ], "y": [ 48, 71 ] },
+        { "id": "wasteland_scavengers", "x": [ 0, 23 ], "y": [ 72, 95 ] },
+        { "id": "wasteland_scavengers", "x": [ 24, 47 ], "y": [ 72, 95 ] },
+        { "id": "wasteland_scavengers", "x": [ 48, 71 ], "y": [ 72, 95 ] },
+        { "id": "wasteland_scavengers", "x": [ 72, 95 ], "y": [ 72, 95 ] }
       ],
       "fill_ter": "t_concrete",
       "rows": [
@@ -1095,7 +1122,7 @@
         "................................................................................................"
       ],
       "palettes": [ "arcology_palette" ],
-      "place_nested": [ { "chunks": [ "racing_tower_7x7_foodcourt" ], "x": 10, "y": 10 } ],
+      "place_nested": [ { "chunks": [ "racing_tower_13x13commercial" ], "x": 8, "y": 8 },{ "chunks": [ "racing_tower_13x13commercial" ], "x": 75, "y": 8 },{ "chunks": [ "racing_tower_13x13commercial" ], "x": 8, "y": 75 },{ "chunks": [ "racing_tower_13x13commercial" ], "x": 75, "y": 75 } ],
       "terrain": { "S": "t_pavement", "s": "t_pavement", "B": "t_pavement", "b": "t_pavement" }
     }
   },
@@ -1111,22 +1138,22 @@
     "weight": 1,
     "object": {
       "faction_owner": [
-        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 0, 23 ] },
-        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 0, 23 ] },
-        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 0, 23 ] },
-        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 0, 23 ] },
-        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 24, 47 ] },
-        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 24, 47 ] },
-        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 24, 47 ] },
-        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 24, 47 ] },
-        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 48, 71 ] },
-        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 48, 71 ] },
-        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 48, 71 ] },
-        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 48, 71 ] },
-        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 72, 95 ] },
-        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 72, 95 ] },
-        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 72, 95 ] },
-        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 72, 95 ] }
+        { "id": "wasteland_scavengers", "x": [ 0, 23 ], "y": [ 0, 23 ] },
+        { "id": "wasteland_scavengers", "x": [ 24, 47 ], "y": [ 0, 23 ] },
+        { "id": "wasteland_scavengers", "x": [ 48, 71 ], "y": [ 0, 23 ] },
+        { "id": "wasteland_scavengers", "x": [ 72, 95 ], "y": [ 0, 23 ] },
+        { "id": "wasteland_scavengers", "x": [ 0, 23 ], "y": [ 24, 47 ] },
+        { "id": "wasteland_scavengers", "x": [ 24, 47 ], "y": [ 24, 47 ] },
+        { "id": "wasteland_scavengers", "x": [ 48, 71 ], "y": [ 24, 47 ] },
+        { "id": "wasteland_scavengers", "x": [ 72, 95 ], "y": [ 24, 47 ] },
+        { "id": "wasteland_scavengers", "x": [ 0, 23 ], "y": [ 48, 71 ] },
+        { "id": "wasteland_scavengers", "x": [ 24, 47 ], "y": [ 48, 71 ] },
+        { "id": "wasteland_scavengers", "x": [ 48, 71 ], "y": [ 48, 71 ] },
+        { "id": "wasteland_scavengers", "x": [ 72, 95 ], "y": [ 48, 71 ] },
+        { "id": "wasteland_scavengers", "x": [ 0, 23 ], "y": [ 72, 95 ] },
+        { "id": "wasteland_scavengers", "x": [ 24, 47 ], "y": [ 72, 95 ] },
+        { "id": "wasteland_scavengers", "x": [ 48, 71 ], "y": [ 72, 95 ] },
+        { "id": "wasteland_scavengers", "x": [ 72, 95 ], "y": [ 72, 95 ] }
       ],
       "fill_ter": "t_concrete",
       "rows": [
@@ -1243,22 +1270,22 @@
     "weight": 1,
     "object": {
       "faction_owner": [
-        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 0, 23 ] },
-        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 0, 23 ] },
-        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 0, 23 ] },
-        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 0, 23 ] },
-        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 24, 47 ] },
-        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 24, 47 ] },
-        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 24, 47 ] },
-        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 24, 47 ] },
-        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 48, 71 ] },
-        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 48, 71 ] },
-        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 48, 71 ] },
-        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 48, 71 ] },
-        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 72, 95 ] },
-        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 72, 95 ] },
-        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 72, 95 ] },
-        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 72, 95 ] }
+        { "id": "wasteland_scavengers", "x": [ 0, 23 ], "y": [ 0, 23 ] },
+        { "id": "wasteland_scavengers", "x": [ 24, 47 ], "y": [ 0, 23 ] },
+        { "id": "wasteland_scavengers", "x": [ 48, 71 ], "y": [ 0, 23 ] },
+        { "id": "wasteland_scavengers", "x": [ 72, 95 ], "y": [ 0, 23 ] },
+        { "id": "wasteland_scavengers", "x": [ 0, 23 ], "y": [ 24, 47 ] },
+        { "id": "wasteland_scavengers", "x": [ 24, 47 ], "y": [ 24, 47 ] },
+        { "id": "wasteland_scavengers", "x": [ 48, 71 ], "y": [ 24, 47 ] },
+        { "id": "wasteland_scavengers", "x": [ 72, 95 ], "y": [ 24, 47 ] },
+        { "id": "wasteland_scavengers", "x": [ 0, 23 ], "y": [ 48, 71 ] },
+        { "id": "wasteland_scavengers", "x": [ 24, 47 ], "y": [ 48, 71 ] },
+        { "id": "wasteland_scavengers", "x": [ 48, 71 ], "y": [ 48, 71 ] },
+        { "id": "wasteland_scavengers", "x": [ 72, 95 ], "y": [ 48, 71 ] },
+        { "id": "wasteland_scavengers", "x": [ 0, 23 ], "y": [ 72, 95 ] },
+        { "id": "wasteland_scavengers", "x": [ 24, 47 ], "y": [ 72, 95 ] },
+        { "id": "wasteland_scavengers", "x": [ 48, 71 ], "y": [ 72, 95 ] },
+        { "id": "wasteland_scavengers", "x": [ 72, 95 ], "y": [ 72, 95 ] }
       ],
       "fill_ter": "t_concrete",
       "rows": [
@@ -1381,22 +1408,22 @@
     "weight": 1,
     "object": {
       "faction_owner": [
-        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 0, 23 ] },
-        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 0, 23 ] },
-        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 0, 23 ] },
-        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 0, 23 ] },
-        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 24, 47 ] },
-        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 24, 47 ] },
-        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 24, 47 ] },
-        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 24, 47 ] },
-        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 48, 71 ] },
-        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 48, 71 ] },
-        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 48, 71 ] },
-        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 48, 71 ] },
-        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 72, 95 ] },
-        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 72, 95 ] },
-        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 72, 95 ] },
-        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 72, 95 ] }
+        { "id": "wasteland_scavengers", "x": [ 0, 23 ], "y": [ 0, 23 ] },
+        { "id": "wasteland_scavengers", "x": [ 24, 47 ], "y": [ 0, 23 ] },
+        { "id": "wasteland_scavengers", "x": [ 48, 71 ], "y": [ 0, 23 ] },
+        { "id": "wasteland_scavengers", "x": [ 72, 95 ], "y": [ 0, 23 ] },
+        { "id": "wasteland_scavengers", "x": [ 0, 23 ], "y": [ 24, 47 ] },
+        { "id": "wasteland_scavengers", "x": [ 24, 47 ], "y": [ 24, 47 ] },
+        { "id": "wasteland_scavengers", "x": [ 48, 71 ], "y": [ 24, 47 ] },
+        { "id": "wasteland_scavengers", "x": [ 72, 95 ], "y": [ 24, 47 ] },
+        { "id": "wasteland_scavengers", "x": [ 0, 23 ], "y": [ 48, 71 ] },
+        { "id": "wasteland_scavengers", "x": [ 24, 47 ], "y": [ 48, 71 ] },
+        { "id": "wasteland_scavengers", "x": [ 48, 71 ], "y": [ 48, 71 ] },
+        { "id": "wasteland_scavengers", "x": [ 72, 95 ], "y": [ 48, 71 ] },
+        { "id": "wasteland_scavengers", "x": [ 0, 23 ], "y": [ 72, 95 ] },
+        { "id": "wasteland_scavengers", "x": [ 24, 47 ], "y": [ 72, 95 ] },
+        { "id": "wasteland_scavengers", "x": [ 48, 71 ], "y": [ 72, 95 ] },
+        { "id": "wasteland_scavengers", "x": [ 72, 95 ], "y": [ 72, 95 ] }
       ],
       "fill_ter": "t_concrete",
       "rows": [
@@ -1513,22 +1540,22 @@
     "weight": 1,
     "object": {
       "faction_owner": [
-        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 0, 23 ] },
-        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 0, 23 ] },
-        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 0, 23 ] },
-        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 0, 23 ] },
-        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 24, 47 ] },
-        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 24, 47 ] },
-        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 24, 47 ] },
-        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 24, 47 ] },
-        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 48, 71 ] },
-        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 48, 71 ] },
-        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 48, 71 ] },
-        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 48, 71 ] },
-        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 72, 95 ] },
-        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 72, 95 ] },
-        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 72, 95 ] },
-        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 72, 95 ] }
+        { "id": "wasteland_scavengers", "x": [ 0, 23 ], "y": [ 0, 23 ] },
+        { "id": "wasteland_scavengers", "x": [ 24, 47 ], "y": [ 0, 23 ] },
+        { "id": "wasteland_scavengers", "x": [ 48, 71 ], "y": [ 0, 23 ] },
+        { "id": "wasteland_scavengers", "x": [ 72, 95 ], "y": [ 0, 23 ] },
+        { "id": "wasteland_scavengers", "x": [ 0, 23 ], "y": [ 24, 47 ] },
+        { "id": "wasteland_scavengers", "x": [ 24, 47 ], "y": [ 24, 47 ] },
+        { "id": "wasteland_scavengers", "x": [ 48, 71 ], "y": [ 24, 47 ] },
+        { "id": "wasteland_scavengers", "x": [ 72, 95 ], "y": [ 24, 47 ] },
+        { "id": "wasteland_scavengers", "x": [ 0, 23 ], "y": [ 48, 71 ] },
+        { "id": "wasteland_scavengers", "x": [ 24, 47 ], "y": [ 48, 71 ] },
+        { "id": "wasteland_scavengers", "x": [ 48, 71 ], "y": [ 48, 71 ] },
+        { "id": "wasteland_scavengers", "x": [ 72, 95 ], "y": [ 48, 71 ] },
+        { "id": "wasteland_scavengers", "x": [ 0, 23 ], "y": [ 72, 95 ] },
+        { "id": "wasteland_scavengers", "x": [ 24, 47 ], "y": [ 72, 95 ] },
+        { "id": "wasteland_scavengers", "x": [ 48, 71 ], "y": [ 72, 95 ] },
+        { "id": "wasteland_scavengers", "x": [ 72, 95 ], "y": [ 72, 95 ] }
       ],
       "fill_ter": "t_concrete",
       "rows": [
@@ -1645,22 +1672,22 @@
     "weight": 1,
     "object": {
       "faction_owner": [
-        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 0, 23 ] },
-        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 0, 23 ] },
-        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 0, 23 ] },
-        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 0, 23 ] },
-        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 24, 47 ] },
-        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 24, 47 ] },
-        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 24, 47 ] },
-        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 24, 47 ] },
-        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 48, 71 ] },
-        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 48, 71 ] },
-        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 48, 71 ] },
-        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 48, 71 ] },
-        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 72, 95 ] },
-        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 72, 95 ] },
-        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 72, 95 ] },
-        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 72, 95 ] }
+        { "id": "wasteland_scavengers", "x": [ 0, 23 ], "y": [ 0, 23 ] },
+        { "id": "wasteland_scavengers", "x": [ 24, 47 ], "y": [ 0, 23 ] },
+        { "id": "wasteland_scavengers", "x": [ 48, 71 ], "y": [ 0, 23 ] },
+        { "id": "wasteland_scavengers", "x": [ 72, 95 ], "y": [ 0, 23 ] },
+        { "id": "wasteland_scavengers", "x": [ 0, 23 ], "y": [ 24, 47 ] },
+        { "id": "wasteland_scavengers", "x": [ 24, 47 ], "y": [ 24, 47 ] },
+        { "id": "wasteland_scavengers", "x": [ 48, 71 ], "y": [ 24, 47 ] },
+        { "id": "wasteland_scavengers", "x": [ 72, 95 ], "y": [ 24, 47 ] },
+        { "id": "wasteland_scavengers", "x": [ 0, 23 ], "y": [ 48, 71 ] },
+        { "id": "wasteland_scavengers", "x": [ 24, 47 ], "y": [ 48, 71 ] },
+        { "id": "wasteland_scavengers", "x": [ 48, 71 ], "y": [ 48, 71 ] },
+        { "id": "wasteland_scavengers", "x": [ 72, 95 ], "y": [ 48, 71 ] },
+        { "id": "wasteland_scavengers", "x": [ 0, 23 ], "y": [ 72, 95 ] },
+        { "id": "wasteland_scavengers", "x": [ 24, 47 ], "y": [ 72, 95 ] },
+        { "id": "wasteland_scavengers", "x": [ 48, 71 ], "y": [ 72, 95 ] },
+        { "id": "wasteland_scavengers", "x": [ 72, 95 ], "y": [ 72, 95 ] }
       ],
       "fill_ter": "t_concrete",
       "rows": [
@@ -1777,22 +1804,22 @@
     "weight": 1,
     "object": {
       "faction_owner": [
-        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 0, 23 ] },
-        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 0, 23 ] },
-        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 0, 23 ] },
-        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 0, 23 ] },
-        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 24, 47 ] },
-        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 24, 47 ] },
-        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 24, 47 ] },
-        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 24, 47 ] },
-        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 48, 71 ] },
-        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 48, 71 ] },
-        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 48, 71 ] },
-        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 48, 71 ] },
-        { "id": "free_merchants", "x": [ 0, 23 ], "y": [ 72, 95 ] },
-        { "id": "free_merchants", "x": [ 24, 47 ], "y": [ 72, 95 ] },
-        { "id": "free_merchants", "x": [ 48, 71 ], "y": [ 72, 95 ] },
-        { "id": "free_merchants", "x": [ 72, 95 ], "y": [ 72, 95 ] }
+        { "id": "wasteland_scavengers", "x": [ 0, 23 ], "y": [ 0, 23 ] },
+        { "id": "wasteland_scavengers", "x": [ 24, 47 ], "y": [ 0, 23 ] },
+        { "id": "wasteland_scavengers", "x": [ 48, 71 ], "y": [ 0, 23 ] },
+        { "id": "wasteland_scavengers", "x": [ 72, 95 ], "y": [ 0, 23 ] },
+        { "id": "wasteland_scavengers", "x": [ 0, 23 ], "y": [ 24, 47 ] },
+        { "id": "wasteland_scavengers", "x": [ 24, 47 ], "y": [ 24, 47 ] },
+        { "id": "wasteland_scavengers", "x": [ 48, 71 ], "y": [ 24, 47 ] },
+        { "id": "wasteland_scavengers", "x": [ 72, 95 ], "y": [ 24, 47 ] },
+        { "id": "wasteland_scavengers", "x": [ 0, 23 ], "y": [ 48, 71 ] },
+        { "id": "wasteland_scavengers", "x": [ 24, 47 ], "y": [ 48, 71 ] },
+        { "id": "wasteland_scavengers", "x": [ 48, 71 ], "y": [ 48, 71 ] },
+        { "id": "wasteland_scavengers", "x": [ 72, 95 ], "y": [ 48, 71 ] },
+        { "id": "wasteland_scavengers", "x": [ 0, 23 ], "y": [ 72, 95 ] },
+        { "id": "wasteland_scavengers", "x": [ 24, 47 ], "y": [ 72, 95 ] },
+        { "id": "wasteland_scavengers", "x": [ 48, 71 ], "y": [ 72, 95 ] },
+        { "id": "wasteland_scavengers", "x": [ 72, 95 ], "y": [ 72, 95 ] }
       ],
       "fill_ter": "t_concrete",
       "rows": [
