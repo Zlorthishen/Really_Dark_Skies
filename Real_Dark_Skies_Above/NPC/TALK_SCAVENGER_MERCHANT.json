@@ -40,7 +40,7 @@
     "entries": [
       { "group": "guns_milspec" },
       { "collection": [ { "item": "knife_combat" }, { "item": "sheath" } ], "prob": 80 },
-      { "collection": [ { "group": "guns_pistol_rare" }, { "item": "holster" } ], "prob": 80 }
+      { "collection": [ { "group": "guns_pistol_common" }, { "item": "holster" } ], "prob": 80 }
     ]
   },
   {

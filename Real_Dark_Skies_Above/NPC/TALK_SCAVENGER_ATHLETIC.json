@@ -1,18 +1,18 @@
 [
   {
     "type": "npc",
-    "id": "DKZ_SCAVENGER_MECHANIC",
-    "class": "NC_Scavenger_MECHANIC",
+    "id": "DKZ_SCAVENGER_ATHLETIC",
+    "class": "NC_Scavenger_ATHLETIC",
     "attitude": 0,
     "mission": 3,
-    "chat": "TALK_SCAVENGER_MECHANIC_ROOT",
+    "chat": "TALK_SCAVENGER_ATHLETIC_ROOT",
     "faction": "wasteland_scavengers"
   },
   {
     "type": "npc_class",
-    "id": "NC_Scavenger_MECHANIC",
+    "id": "NC_Scavenger_ATHLETIC",
     "name": { "str": "Scavenger" },
-    "job_description": "I'm here to find stuff to scavenge pre-cataclysm goods.",
+    "job_description": "I'm here to bash heads and throw grenades.",
     "traits": [ { "trait": "DKZ_TECH", "prob": 100 }, { "group": "NPC_starting_traits" }, { "group": "Appearance_demographics" } ],
     "skills": [
       { "skill": "ALL", "level": { "sum": [ { "dice": [ 3, 2 ] }, { "constant": -4 } ] } },
@@ -29,22 +29,21 @@
     "bonus_dex": { "rng": [ 3, 5 ] },
     "bonus_int": { "rng": [ -1, 1 ] },
     "bonus_per": { "rng": [ 1, 3 ] },
-    "worn_override": "NC_DKZ_SCAVENGER_MECHANIC_worn",
-    "carry_override": "NC_DKZ_SCAVENGER_MECHANIC_carried",
-    "weapon_override": "NC_DKZ_SCAVENGER_MECHANIC_weapon"
+    "worn_override": "NC_DKZ_SCAVENGER_ATHLETIC_worn",
+    "carry_override": "NC_DKZ_SCAVENGER_ATHLETIC_carried",
+    "weapon_override": "NC_DKZ_SCAVENGER_ATHLETIC_weapon"
   },
   {
-    "id": "NC_DKZ_SCAVENGER_MECHANIC_weapon",
+    "id": "NC_DKZ_SCAVENGER_ATHLETIC_weapon",
     "type": "item_group",
     "subtype": "collection",
     "entries": [
-      { "group": "guns_milspec" },
-      { "collection": [ { "item": "knife_combat" }, { "item": "sheath" } ], "prob": 80 },
+      { "item": "bat" },
       { "collection": [ { "group": "guns_pistol_common" }, { "item": "holster" } ], "prob": 80 }
     ]
   },
   {
-    "id": "NC_DKZ_SCAVENGER_MECHANIC_worn",
+    "id": "NC_DKZ_SCAVENGER_ATHLETIC_worn",
     "type": "item_group",
     "subtype": "collection",
     "entries": [
@@ -57,16 +56,50 @@
     ]
   },
   {
+    "id": "NC_DKZ_SCAVENGER_ATHLETIC_grenades",
+    "type": "item_group",
+    "subtype": "collection",	
+    "items": [
+      [ "grenade", 50 ],
+      [ "grenade_inc", 20 ],
+      [ "flashbang", 30 ],
+      [ "EMPbomb", 10 ],
+      [ "grenade_emp", 15 ],
+      [ "gasbomb", 15 ],
+      [ "gasbomb_makeshift", 15 ],
+      [ "smokebomb", 25 ],
+      [ "dynamite", 5 ],
+      [ "c4", 5 ]
+    ]
+  },
+  {
+    "id": "NC_DKZ_SCAVENGER_ATHLETIC_bashing",
+    "type": "item_group",
+    "subtype": "collection",	
+    "items": [
+      [ "knuckle_brass", 20 ],
+      [ "hammer", 35 ],
+      [ "wrench", 30 ],
+      [ "hammer_sledge", 4 ],
+      [ "hammer_sledge_short", 2 ],
+      [ "blackjack", 10 ],
+      [ "pipe", 20 ],
+      [ "bat", 60 ],	
+      [ "bat_metal", 60 ],	
+      [ "i_staff", 35 ]	
+    ]
+  },   
+  {
     "type": "item_group",
     "subtype": "collection",
-    "id": "NC_DKZ_SCAVENGER_MECHANIC_carried",
+    "id": "NC_DKZ_SCAVENGER_ATHLETIC_carried",
     "items": [
-      { "group": "rad_gear", "count-min": 2, "count-max": 3, "prob": 90 },
+      { "group": "NC_DKZ_SCAVENGER_ATHLETIC_grenades", "count-min": 4, "count-max": 5, "prob": 90 },
       { "group": "gear_survival", "count-min": 2, "count-max": 3, "prob": 90 }
     ]
   },
   {
-    "id": "TALK_SCAVENGER_MECHANIC_ROOT",
+    "id": "TALK_SCAVENGER_ATHLETIC_ROOT",
     "type": "talk_topic",
     "dynamic_line": {
       "u_is_wearing": "badge_marshal",
@@ -74,27 +107,27 @@
       "no": [ "Welcome…", "Here to trade, I hope?", "Safe travels, scavenger." ]
     },
     "responses": [
-      { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_SCAVENGER_MECHANIC_ROOT" },
-      { "text": "What are you doing here?", "topic": "TALK_SCAVENGER_MECHANIC_DOING" },
-      { "text": "What is upstairs?", "topic": "TALK_SCAVENGER_MECHANIC_UPSTAIRS" },
+      { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_SCAVENGER_ATHLETIC_ROOT" },
+      { "text": "What are you doing here?", "topic": "TALK_SCAVENGER_ATHLETIC_DOING" },
+      { "text": "What is upstairs?", "topic": "TALK_SCAVENGER_ATHLETIC_UPSTAIRS" },
       { "text": "See you later.", "topic": "TALK_DONE" }
     ]
   },
   {
-    "id": "TALK_SCAVENGER_MECHANIC_DOING",
+    "id": "TALK_SCAVENGER_ATHLETIC_DOING",
     "type": "talk_topic",
     "dynamic_line": [
       "We have an arrangement with the guys upstairs, the bottom two floors are a free trade zone that shares security responsibilities with them.  We also help them keep the outside defences in place and warn of any zombies or xenoids around the perimeter.  You can always count on the snipers upstairs for overwatch while smashing and looting.",
       "I found this vehicle here and I don't know if I should repair it or use it for parts.  Either way it will make me some money somehow."
     ],
     "responses": [
-      { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_SCAVENGER_MECHANIC_ROOT" },
-      { "text": "Nice arrangement for everyone.", "topic": "TALK_SCAVENGER_MECHANIC_ROOT" },
+      { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_SCAVENGER_ATHLETIC_ROOT" },
+      { "text": "Nice arrangement for everyone.", "topic": "TALK_SCAVENGER_ATHLETIC_ROOT" },
 	  { "text": "Ok, good bye.", "topic": "TALK_DONE" }
     ]
   },
   {
-    "id": "TALK_SCAVENGER_MECHANIC_UPSTAIRS",
+    "id": "TALK_SCAVENGER_ATHLETIC_UPSTAIRS",
     "type": "talk_topic",
     "dynamic_line": [
       "I don't usually go too far up stairs, not because don't like those guys, nor because they wouldn't let me up there, I'm just lazy and prefer working down here.",
@@ -102,7 +135,7 @@
       "I was helping with the barricades outside when a crawling zombie revived and cut my leg really deep, they took me up to the medics upstairs and saved my life."
     ],
     "responses": [
-      { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_SCAVENGER_MECHANIC_ROOT" },
+      { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_SCAVENGER_ATHLETIC_ROOT" },
       { "text": "Well, bye.", "topic": "TALK_DONE" }
     ]
   }  

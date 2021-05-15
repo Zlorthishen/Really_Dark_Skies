@@ -634,6 +634,8 @@
       ],
       "terrain": { " ": "t_null" },
       "furniture": { "C": "f_bench", "T": "f_metal_table" },
+      "place_npcs": [ { "class": "DKZ_SCAVENGER_ATHLETIC", "x": 1, "y": 1 },{ "class": "DKZ_SCAVENGER_GUARD", "x": 6, "y": 6 } ],
+
       "items": { " ": { "item": "trash", "chance": 1 }, "T": { "item": "fast_food", "chance": 100, "repeat": [ 1, 2 ] } }
     }
   },
@@ -656,6 +658,8 @@
       ],
       "terrain": { " ": "t_null" },
       "furniture": { "C": "f_bench", "T": "f_metal_table" },
+      "place_npcs": [ { "class": "DKZ_SCAVENGER_ATHLETIC", "x": 1, "y": 1 },{ "class": "DKZ_SCAVENGER_MECHANIC", "x": 4, "y": 4 } ],
+	  
       "items": { " ": { "item": "trash", "chance": 1 }, "T": { "item": "barbecue", "chance": 100, "repeat": [ 2, 3 ] } }
     }
   },
@@ -678,6 +682,8 @@
       ],
       "terrain": { " ": "t_null" },
       "furniture": { "C": "f_bench", "T": "f_metal_table" },
+      "place_npcs": [ { "class": "DKZ_SCAVENGER_ATHLETIC", "x": 4, "y": 1 },{ "class": "DKZ_SCAVENGER_GUARD", "x": 6, "y": 6 } ],
+	  
       "items": { " ": { "item": "trash", "chance": 1 }, "T": { "item": "fast_food", "chance": 100, "repeat": [ 1, 2 ] } }
     }
   },
@@ -698,6 +704,8 @@
         "    CC ",
         "       "
       ],
+      "place_npcs": [ { "class": "DKZ_SCAVENGER_GUARD", "x": 1, "y": 1 } ],
+	  
       "terrain": { " ": "t_null" },
       "furniture": { "C": "f_bench", "T": "f_metal_table" },
       "items": { " ": { "item": "trash", "chance": 1 }, "T": { "item": "barbecue", "chance": 100, "repeat": [ 1, 2 ] } }
@@ -721,6 +729,8 @@
         "       "
       ],
       "terrain": { " ": "t_null" },
+      "place_npcs": [ { "class": "DKZ_SCAVENGER_ATHLETIC", "x": 5, "y": 1 },{ "class": "DKZ_SCAVENGER_GUARD", "x": 1, "y": 6 } ],
+	  
       "furniture": { "C": "f_bench", "S": "f_stool", "T": "f_metal_table" },
       "items": { " ": { "item": "trash", "chance": 1 }, "T": { "item": "fast_food", "chance": 100, "repeat": [ 1, 2 ] } }
     }
@@ -743,6 +753,8 @@
         "       "
       ],
       "terrain": { " ": "t_null" },
+      "place_npcs": [ { "class": "DKZ_SCAVENGER_ATHLETIC", "x": 1, "y": 1 }, { "class": "DKZ_SCAVENGER_ATHLETIC", "x": 3, "y": 1 },{ "class": "DKZ_SCAVENGER_ATHLETIC", "x": 1, "y": 3 } ],
+	  
       "furniture": { "C": "f_bench", "S": "f_stool", "T": "f_metal_table", "X": "f_metal_table", "V": "f_trashcan" },
       "items": {
         " ": { "item": "trash", "chance": 1 },
@@ -769,7 +781,10 @@
         "  CCC  ",
         "       "
       ],
+      "place_npcs": [ { "class": "DKZ_SCAVENGER_GUARD", "x": 5, "y": 1 },{ "class": "DKZ_SCAVENGER_GUARD", "x": 1, "y": 6 }, { "class": "DKZ_SCAVENGER_MECHANIC", "x": 5, "y": 1 },  { "class": "DKZ_SCAVENGER_ATHLETIC", "x": 5, "y": 5 } ],
+	  	  
       "terrain": { " ": "t_null" },
+	  
       "furniture": { "C": "f_bench", "S": "f_stool", "T": "f_metal_table", "X": "f_metal_table" },
       "items": { " ": { "item": "trash", "chance": 1 }, "T": { "item": "fast_food", "chance": 60, "repeat": [ 1, 2 ] } },
       "place_loot": [ { "item": "television", "x": 3, "y": 3, "chance": 100 } ]
