@@ -52,7 +52,7 @@
       { "item": "tshirt" },
       { "item": "pants_cargo" },
       { "item": "socks" },
-      { "item": "boots_rubber" },
+      { "item": "boots_larmor" },
       { "item": "backpack" }
     ]
   },
@@ -62,9 +62,21 @@
     "id": "NC_DKZ_SCAVENGER_GUARD_carried",
     "items": [
       { "group": "fireman_gear",  "prob": 90 },
-      { "group": "gear_survival", "count-min": 2, "count-max": 3, "prob": 90 }
+      { "group": "gear_survival", "count-min": 2, "count-max": 3, "prob": 90 },
+      { "group": "NC_DKZ_SCAVENGER_GUARD_grenades", "count-min": 1, "count-max": 3, "prob": 90 }	  
     ]
   },
+  {
+    "id": "NC_DKZ_SCAVENGER_GUARD_grenades",
+    "type": "item_group",
+    "subtype": "collection",	
+    "items": [
+      [ "grenade", 50 ],
+      [ "flashbang", 30 ],
+      [ "grenade_emp", 15 ],
+      [ "gasbomb", 15 ]
+    ]
+  },  
   {
     "id": "TALK_SCAVENGER_GUARD_ROOT",
     "type": "talk_topic",

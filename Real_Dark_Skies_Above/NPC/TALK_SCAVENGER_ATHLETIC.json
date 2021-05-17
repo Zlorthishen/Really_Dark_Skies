@@ -38,7 +38,7 @@
     "type": "item_group",
     "subtype": "collection",
     "entries": [
-      { "item": "bat" },
+      { "group": "NC_DKZ_SCAVENGER_ATHLETIC_bashing" },
       { "collection": [ { "group": "guns_pistol_common" }, { "item": "holster" } ], "prob": 80 }
     ]
   },
