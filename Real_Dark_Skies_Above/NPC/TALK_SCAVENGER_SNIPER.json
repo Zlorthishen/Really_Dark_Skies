@@ -266,7 +266,7 @@
     "type": "item_group",
     "id": "NC_SCAVENGER_SNIPER_launcher",
     "subtype": "distribution",
-    "entries": [ { "group: "guns_launcher_improvised", "prob": 50 } ]
+    "entries": [ { "item": "launcher_simple", "prob": 100 } ]
   },
   {
     "type": "item_group",
