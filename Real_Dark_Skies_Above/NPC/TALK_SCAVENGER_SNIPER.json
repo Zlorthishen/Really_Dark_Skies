@@ -12,7 +12,8 @@
     "type": "npc_class",
     "id": "NC_SCAVENGER_SNIPER",
     "name": { "str": "Scavenger" },
-    "job_description": "I'm to provide combat overwatch.",
+    "job_description": "I'm here to provide combat overwatch and accumulate headshots.",
+    "common": false,		
     "traits": [ { "trait": "DKZ_COMBAT", "prob": 100 }, { "group": "NPC_starting_traits" }, { "group": "Appearance_demographics" } ],
     "skills": [
       { "skill": "ALL", "level": { "sum": [ { "dice": [ 3, 2 ] }, { "constant": -4 } ] } },
@@ -28,49 +29,268 @@
       { "skill": "rifle", "bonus": { "rng": [ 5, 7 ] } }
     ],
     "bonus_str": { "rng": [ 1, 5 ] },
-    "bonus_dex": { "rng": [ 1, 5 ] },
+    "bonus_dex": { "rng": [ 3, 5 ] },
     "bonus_int": { "rng": [ -1, 1 ] },
-    "bonus_per": { "rng": [ 3, 5] },
-    "worn_override": "NC_DKZ_SCAVENGER_SNIPER_worn",
-    "carry_override": "NC_DKZ_SCAVENGER_SNIPER_carried",
-    "weapon_override": "NC_DKZ_SCAVENGER_SNIPER_weapon"
+    "bonus_per": { "rng": [ 3, 5] }
+  },
+  
+  {
+    "//": "----------INVENTORY LOADOUTS-----------------------------------------------------------------------------------",  
+    "type": "item_group",
+    "id": "NC_SCAVENGER_SNIPER_underwear_bottom_male",
+    "subtype": "collection",
+    "items": [ [ "boxer_shorts", 70 ], [ "briefs", 30 ], [ "boxer_briefs", 50 ] ]
   },
   {
-    "id": "NC_DKZ_SCAVENGER_SNIPER_weapon",
     "type": "item_group",
+    "id": "NC_SCAVENGER_SNIPER_underwear_bottom_female",
     "subtype": "collection",
+    "items": [ [ "panties", 70 ], [ "boy_shorts", 50 ], [ "bikini_bottom", 10 ] ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_SCAVENGER_SNIPER_underwear_top_male",
+    "subtype": "collection",
+    "items": [ [ "null", 50 ], [ "undershirt", 50 ], [ "long_undertop", 20 ], [ "tank_top", 25 ] ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_SCAVENGER_SNIPER_underwear_top_female",
+    "subtype": "collection",
+    "items": [ [ "null", 10 ], [ "bra", 70 ], [ "sports_bra", 50 ], [ "tank_top", 50 ] ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_SCAVENGER_SNIPER_underwear_feet_male",
+    "items": [ [ "null", 5 ], [ "socks", 80 ], [ "socks_ankle", 60 ], [ "socks_wool", 20 ] ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_SCAVENGER_SNIPER_underwear_feet_female",
+    "items": [ [ "null", 5 ], [ "socks", 50 ], [ "socks_ankle", 30 ], [ "socks_wool", 10 ], [ "stockings", 20 ], [ "tights", 20 ] ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_SCAVENGER_SNIPER_pants_male",
+    "subtype": "distribution",
     "entries": [
-      { "item": "rm11b_sniper_rifle", "prob": 100, "charges-min": 10, "charges-max": 10 },
-      { "collection": [ { "item": "knife_combat" }, { "item": "sheath" } ], "prob": 10 },
-      { "collection": [ { "group": "guns_pistol_rare" }, { "item": "holster" } ], "prob": 70 }
+      { "item": "jeans", "prob": 20 },
+      { "item": "pants", "prob": 20 },
+      { "item": "pants_leather", "prob": 20 },
+      { "item": "pants_cargo", "prob": 20 },
+      { "item": "bunker_pants", "prob": 20 }
     ]
   },
   {
-    "id": "NC_DKZ_SCAVENGER_SNIPER_worn",
     "type": "item_group",
-    "subtype": "collection",
+    "id": "NC_SCAVENGER_SNIPER_pants_female",
+    "subtype": "distribution",
     "entries": [
-      { "item": "boxer_shorts" },
-      { "item": "tshirt" },
-      { "item": "pants_cargo" },
-      { "item": "socks" },
-      { "item": "boots_larmor" },
-      { "item": "fancy_sunglasses" },
-	  
-	  
-      { "item": "backpack" }
+      { "item": "jeans", "prob": 20 },
+      { "item": "pants", "prob": 20 },
+      { "item": "pants_leather", "prob": 20 },
+      { "item": "pants_cargo", "prob": 20 },
+      { "item": "skirt", "prob": 20 },
+      { "item": "bunker_pants", "prob": 10 }
     ]
   },
   {
     "type": "item_group",
-    "subtype": "collection",
-    "id": "NC_DKZ_SCAVENGER_SNIPER_carried",
-    "items": [
-      { "item": "mp3", "prob": 100 },
-      { "group": "gear_survival", "count-min": 2, "count-max": 3, "prob": 90 }
+    "id": "NC_SCAVENGER_SNIPER_shirt_male",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "tshirt", "prob": 20 },
+      { "item": "polo_shirt", "prob": 20 },
+      { "item": "dress_shirt", "prob": 20 },
+      { "item": "tank_top", "prob": 20 }
     ]
   },
   {
+    "type": "item_group",
+    "id": "NC_SCAVENGER_SNIPER_shirt_female",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "tshirt", "prob": 20 },
+      { "item": "polo_shirt", "prob": 20 },
+      { "item": "dress_shirt", "prob": 20 },
+      { "item": "tank_top", "prob": 20 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_SCAVENGER_SNIPER_gloves",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "null", "prob": 60 },
+      { "item": "gloves_leather", "prob": 20 },
+      { "item": "gloves_fingerless", "prob": 20 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_SCAVENGER_SNIPER_coat",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "null", "prob": 20 },
+      { "item": "hoodie", "prob": 20 },
+      { "item": "jacket_light", "prob": 20 },
+      { "item": "jacket_leather", "prob": 20 },
+      { "item": "trenchcoat", "prob": 20 },
+      { "item": "jacket_jean", "prob": 20 },
+      { "item": "bunker_coat", "prob": 10 },
+      { "item": "jacket_windbreaker", "prob": 10 },
+      { "item": "kevlar", "prob": 5 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_SCAVENGER_SNIPER_shoes",
+    "subtype": "distribution",
+    "entries": [ { "item": "sneakers", "prob": 20 }, { "item": "boots", "prob": 20 }, { "item": "boots_bunker", "prob": 10 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_SCAVENGER_SNIPER_masks",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "null", "prob": 800 },
+      { "item": "mask_dust", "prob": 10 },
+      { "item": "bandana", "prob": 10 },
+      { "item": "mask_filter", "prob": 10, "charges-min": 10 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_SCAVENGER_SNIPER_eyes",
+    "subtype": "distribution",
+    "entries": [ { "item": "null", "prob": 80 }, { "item": "glasses_safety", "prob": 20 }, { "item": "sunglasses", "prob": 20 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_SCAVENGER_SNIPER_hat",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "null", "prob": 80 },
+      { "item": "hat_ball", "prob": 10 },
+      { "item": "hat_hard", "prob": 10 },
+      { "item": "helmet_bike", "prob": 10 },
+      { "item": "helmet_riot", "prob": 10 },
+      { "item": "helmet_motor", "prob": 10 },
+      { "item": "hat_hunting", "prob": 10 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_SCAVENGER_SNIPER_extra",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "null", "prob": 5 },
+      { "item": "backpack", "prob": 25 },
+      { "item": "backpack_leather", "prob": 25 },
+      { "item": "rucksack", "prob": 5 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_SCAVENGER_SNIPER_bashing",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "hammer", "prob": 20 },
+      { "item": "wrench", "prob": 20 },
+      { "item": "hammer_sledge", "prob": 10 },
+      { "item": "hammer_sledge_short", "prob": 10 },
+      { "item": "pipe", "prob": 20 },
+      { "item": "bat", "prob": 20 },
+      { "item": "bat_metal", "prob": 20 },
+      { "item": "crowbar", "prob": 20 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_SCAVENGER_SNIPER_cutting",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "knife_butcher", "prob": 20 },
+      { "item": "hatchet", "prob": 20 },
+      { "item": "ax", "prob": 20 },
+      { "item": "machete", "prob": 20 },
+      { "item": "knife_combat", "prob": 20 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_SCAVENGER_SNIPER_stabbing",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "spear_knife", "prob": 50 },
+      { "item": "spear_rebar", "prob": 5 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_SCAVENGER_SNIPER_throw",
+    "subtype": "distribution",
+    "entries": [ { "item": "throwing_knife", "prob": 50 }, { "item": "throwing_axe", "prob": 50 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_SCAVENGER_SNIPER_archery",
+    "subtype": "distribution",
+    "entries": [ { "item": "crossbow", "prob": 5 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_SCAVENGER_SNIPER_pistols",
+    "subtype": "distribution",
+    "entries": [ { "item": "usp_9mm", "prob": 30 }, { "item": "m9", "prob": 70 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_SCAVENGER_SNIPER_shotgun",
+    "subtype": "distribution",
+    "entries": [ { "item": "mossberg_500", "prob": 25 }, { "item": "remington_870", "prob": 25 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_SCAVENGER_SNIPER_smg",
+    "subtype": "distribution",
+    "entries": [ { "item": "uzi", "prob": 50 }, { "item": "tec9", "prob": 50 }, { "item": "sten", "prob": 10 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_SCAVENGER_SNIPER_rifle",
+    "subtype": "distribution",
+    "entries": [ { "item": "m4a1", "prob": 35 }, { "item": "m1a", "prob": 35 }, { "item": "ak47", "prob": 35 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_SCAVENGER_SNIPER_launcher",
+    "subtype": "distribution",
+    "entries": [ { "group: "guns_launcher_improvised", "prob": 50 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_SCAVENGER_SNIPER_weapon_random",
+    "subtype": "distribution",
+    "entries": [ { "item": "q_staff", "prob": 100 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_SCAVENGER_SNIPER_misc",
+    "subtype": "distribution",
+    "entries": [
+      { "group": "rad_gear", "count-min": 1, "count-max": 2, "prob": 90 },
+      { "group": "fireman_gear", "count-min": 1, "count-max": 2, "prob": 90 },
+      { "group": "gear_survival", "count-min": 1, "count-max": 3, "prob": 90 },
+      { "item": "fungicide", "prob": 20 },
+      { "item": "insecticide", "prob": 20 },
+      { "item": "antifungal", "prob": 20 },
+      { "item": "antiparasitic", "prob": 20 }
+    ]
+  },  
+  
+  {
+    "//": "----------DIALOGUE OPTIONS-------------------------------------------------------------------------------------",  
     "id": "TALK_SCAVENGER_SNIPER_ROOT",
     "type": "talk_topic",
     "dynamic_line": {
