@@ -14,7 +14,12 @@
     "name": { "str": "Scavenger" },
     "job_description": "I'm to keep the peace and provide combat support.",
     "common": false,		
-    "traits": [ { "trait": "DKZ_COMBAT", "prob": 100 }, { "group": "NPC_starting_traits" }, { "group": "Appearance_demographics" } ],
+    "traits": [
+      { "trait": "DKZ_COMBAT", "prob": 100 },
+      { "group": "NPC_starting_traits" }, 
+	  { "group": "Appearance_demographics" },
+      { "trait": "ROBUST", "prob": 60 }
+    ],
     "skills": [
       { "skill": "ALL", "level": { "sum": [ { "dice": [ 3, 2 ] }, { "constant": -4 } ] } },
       { "skill": "survival", "bonus": { "rng": [ 2, 3 ] } },
@@ -30,8 +35,8 @@
       { "skill": "pistol", "bonus": { "rng": [ 2, 4 ] } },
       { "skill": "rifle", "bonus": { "rng": [ 2, 4 ] } }
     ],
-    "bonus_str": { "rng": [ 3, 5 ] },
-    "bonus_dex": { "rng": [ 3, 5 ] },
+    "bonus_str": { "rng": [ 1, 5 ] },
+    "bonus_dex": { "rng": [ 1, 5 ] },
     "bonus_int": { "rng": [ -1, 1 ] },
     "bonus_per": { "rng": [ 1, 3 ] }
 
@@ -60,17 +65,17 @@
     "type": "item_group",
     "id": "NC_SCAVENGER_GUARD_underwear_top_female",
     "subtype": "collection",
-    "items": [ [ "null", 10 ], [ "bra", 70 ], [ "sports_bra", 50 ], [ "tank_top", 50 ] ]
+    "items": [ [ "null", 1 ], [ "bra", 10 ], [ "sports_bra", 80 ], [ "tank_top", 50 ] ]
   },
   {
     "type": "item_group",
     "id": "NC_SCAVENGER_GUARD_underwear_feet_male",
-    "items": [ [ "null", 5 ], [ "socks", 80 ], [ "socks_ankle", 60 ], [ "socks_wool", 20 ] ]
+    "items": [ [ "null", 2 ], [ "socks", 80 ], [ "socks_ankle", 30 ], [ "socks_wool", 20 ] ]
   },
   {
     "type": "item_group",
     "id": "NC_SCAVENGER_GUARD_underwear_feet_female",
-    "items": [ [ "null", 5 ], [ "socks", 50 ], [ "socks_ankle", 30 ], [ "socks_wool", 10 ], [ "stockings", 20 ], [ "tights", 20 ] ]
+    "items": [ [ "null", 2 ], [ "socks", 50 ], [ "socks_ankle", 20 ], [ "socks_wool", 10 ], [ "stockings", 25 ], [ "tights", 10 ] ]
   },
   {
     "type": "item_group",

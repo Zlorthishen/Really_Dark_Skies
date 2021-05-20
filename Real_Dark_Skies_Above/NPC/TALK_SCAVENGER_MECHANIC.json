@@ -14,7 +14,12 @@
     "name": { "str": "Scavenger" },
     "job_description": "I'm here to salvage pre-cataclysm vehicles to make my own kill-dozer.",
     "common": false,	
-    "traits": [ { "trait": "DKZ_TECH", "prob": 100 }, { "group": "NPC_starting_traits" }, { "group": "Appearance_demographics" } ],
+    "traits": [
+      { "trait": "DKZ_TECH", "prob": 100 },
+      { "group": "NPC_starting_traits" }, 
+	  { "group": "Appearance_demographics" },
+      { "trait": "ROBUST", "prob": 20 }
+    ],
     "skills": [
       { "skill": "ALL", "level": { "sum": [ { "dice": [ 3, 2 ] }, { "constant": -4 } ] } },
       { "skill": "computer", "bonus": { "rng": [ 2, 4 ] } },	  

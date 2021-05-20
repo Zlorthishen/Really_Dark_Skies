@@ -13,7 +13,12 @@
     "id": "NC_SCAVENGER_DEMOLITIONS",
     "name": { "str": "Scavenger" },
     "job_description": "I provide the people of this community with bombs and bomb accessories.",
-    "traits": [ { "trait": "DKZ_COMBAT", "prob": 100 }, { "group": "NPC_starting_traits" }, { "group": "Appearance_demographics" } ],
+    "traits": [
+      { "trait": "DKZ_COMBAT", "prob": 100 },
+      { "group": "NPC_starting_traits" }, 
+	  { "group": "Appearance_demographics" },
+      { "trait": "ROBUST", "prob": 80 }
+    ],
     "skills": [
       { "skill": "ALL", "level": { "sum": [ { "dice": [ 3, 2 ] }, { "constant": -4 } ] } },
       { "skill": "fabrication", "bonus": { "rng": [ 1, 3 ] } },	  
@@ -33,8 +38,8 @@
       { "skill": "pistol", "bonus": { "rng": [ 2, 3 ] } },
       { "skill": "launcher", "bonus": { "rng": [ 4, 7 ] } }
     ],
-    "bonus_str": { "rng": [ 3, 5 ] },
-    "bonus_dex": { "rng": [ 3, 5 ] },
+    "bonus_str": { "rng": [ 1, 3 ] },
+    "bonus_dex": { "rng": [ 1, 3 ] },
     "bonus_int": { "rng": [ -1, 1 ] },
     "bonus_per": { "rng": [ 1, 3 ] }
   },  

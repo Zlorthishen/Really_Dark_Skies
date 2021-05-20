@@ -14,7 +14,12 @@
     "name": { "str": "Scavenger" },
     "job_description": "I'm here to find stuff to scavenge machines and electronics and build something with them.",
     "common": false,	
-    "traits": [ { "trait": "DKZ_TECH", "prob": 100 }, { "group": "NPC_starting_traits" }, { "group": "Appearance_demographics" } ],
+    "traits": [
+      { "trait": "DKZ_TECH", "prob": 100 },
+      { "group": "NPC_starting_traits" }, 
+	  { "group": "Appearance_demographics" },
+      { "trait": "ROBUST", "prob": 40 }
+    ],
     "skills": [
       { "skill": "ALL", "level": { "sum": [ { "dice": [ 3, 2 ] }, { "constant": -4 } ] } },
       { "skill": "computer", "bonus": { "rng": [ 4, 8 ] } },
@@ -35,7 +40,7 @@
     ],
     "bonus_str": { "rng": [ -1, 1 ] },
     "bonus_dex": { "rng": [ -1, 2 ] },
-    "bonus_int": { "rng": [ 3, 4 ] },
+    "bonus_int": { "rng": [ 3, 5 ] },
     "bonus_per": { "rng": [ -1, 3 ] }
   },
 
