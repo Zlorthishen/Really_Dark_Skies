@@ -184,7 +184,6 @@
       { "item": "hat_ball", "prob": 10 },
       { "item": "hat_hard", "prob": 10 },
       { "item": "helmet_bike", "prob": 10 },
-      { "item": "helmet_riot", "prob": 10 },
       { "item": "helmet_motor", "prob": 10 },
       { "item": "hat_hunting", "prob": 10 }
     ]
