@@ -137,15 +137,15 @@
     "id": "NC_SCAVENGER_SNIPER_coat",
     "subtype": "distribution",
     "entries": [
-      { "item": "null", "prob": 20 },
-      { "item": "hoodie", "prob": 20 },
+      { "item": "touring_suit", "prob": 10 },
       { "item": "jacket_light", "prob": 20 },
-      { "item": "jacket_leather", "prob": 20 },
+      { "item": "armor_riot", "prob": 20 },
+      { "item": "swat_armor", "prob": 40 },
       { "item": "trenchcoat", "prob": 20 },
-      { "item": "jacket_jean", "prob": 20 },
-      { "item": "bunker_coat", "prob": 10 },
-      { "item": "jacket_windbreaker", "prob": 10 },
-      { "item": "kevlar", "prob": 5 }
+      { "item": "motorbike_armor", "prob": 10 },
+      { "item": "ballistic_vest_esapi", "prob": 30 },
+      { "item": "dragonskin", "prob": 15 },
+      { "item": "kevlar", "prob": 25 }
     ]
   },
   {
@@ -169,7 +169,7 @@
     "type": "item_group",
     "id": "NC_SCAVENGER_SNIPER_eyes",
     "subtype": "distribution",
-    "entries": [ { "item": "null", "prob": 80 }, { "item": "glasses_safety", "prob": 20 }, { "item": "sunglasses", "prob": 20 } ]
+    "entries": [ { "item": "null", "prob": 5 }, { "item": "glasses_bal", "prob": 20 }, { "item": "fancy_sunglasses", "prob": 50 } ]
   },
   {
     "type": "item_group",
@@ -287,11 +287,7 @@
     "entries": [
       { "group": "rad_gear", "count-min": 1, "count-max": 2, "prob": 90 },
       { "group": "fireman_gear", "count-min": 1, "count-max": 2, "prob": 90 },
-      { "group": "gear_survival", "count-min": 1, "count-max": 3, "prob": 90 },
-      { "item": "fungicide", "prob": 20 },
-      { "item": "insecticide", "prob": 20 },
-      { "item": "antifungal", "prob": 20 },
-      { "item": "antiparasitic", "prob": 20 }
+      { "group": "gear_survival", "count-min": 1, "count-max": 3, "prob": 90 }
     ]
   },  
   
@@ -316,7 +312,8 @@
     "type": "talk_topic",
     "dynamic_line": [
       "We have an arrangement with the guys up here, the bottom two floors are a free trade zone and the upper floors are for their alien resistance operation. Part of that agreement means some of us with sharp eyes and quick trigger-fingers get to be up here.",
-      "It is really nice to be up here just me, my mp3 player and this huge fucking gun."
+      "It is really nice to be up here just me, my mp3 player and this huge fucking gun.",
+	  "This entire tower might be one of the last places left in New England, let alone the world.  Its kind of awesome when you think about it."
     ],
     "responses": [
       { "text": "Let's trade.", "topic": "TALK_SCAVENGER_SNIPER_TRADE" },

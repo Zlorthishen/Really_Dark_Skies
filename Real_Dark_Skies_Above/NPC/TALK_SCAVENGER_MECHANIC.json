@@ -161,10 +161,11 @@
     "id": "NC_SCAVENGER_MECHANIC_masks",
     "subtype": "distribution",
     "entries": [
-      { "item": "null", "prob": 800 },
+      { "item": "null", "prob": 10 },
       { "item": "mask_dust", "prob": 10 },
-      { "item": "bandana", "prob": 10 },
-      { "item": "mask_filter", "prob": 10, "charges-min": 10 }
+      { "item": "bandana", "prob": 50 },
+      { "item": "mask_filter", "prob": 10, "charges-min": 60 },
+	  
     ]
   },
   {

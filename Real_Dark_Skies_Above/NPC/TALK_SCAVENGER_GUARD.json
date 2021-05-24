@@ -144,14 +144,15 @@
     "id": "NC_SCAVENGER_GUARD_coat",
     "subtype": "distribution",
     "entries": [
-      { "item": "null", "prob": 20 },
-      { "item": "hoodie", "prob": 20 },
-      { "item": "jacket_light", "prob": 20 },
-      { "item": "jacket_leather", "prob": 20 },
+      { "item": "armor_riot", "prob": 20 },
+      { "item": "swat_armor", "prob": 40 },
       { "item": "trenchcoat", "prob": 20 },
-      { "item": "jacket_jean", "prob": 20 },
-      { "item": "bunker_coat", "prob": 10 },
-      { "item": "jacket_windbreaker", "prob": 10 },
+      { "item": "motorbike_armor", "prob": 10 },
+      { "item": "armor_larmor", "prob": 10 },
+      { "item": "armor_plarmor", "prob": 10 },
+      { "item": "ballistic_vest_esapi", "prob": 10 },
+      { "item": "dragonskin", "prob": 5 },
+      { "item": "armor_plate", "prob": 2 },	  
       { "item": "kevlar", "prob": 5 }
     ]
   },

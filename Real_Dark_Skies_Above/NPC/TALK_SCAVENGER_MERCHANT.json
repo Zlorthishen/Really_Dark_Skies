@@ -140,9 +140,7 @@
       { "item": "jacket_leather", "prob": 20 },
       { "item": "trenchcoat", "prob": 20 },
       { "item": "jacket_jean", "prob": 20 },
-      { "item": "bunker_coat", "prob": 10 },
-      { "item": "jacket_windbreaker", "prob": 10 },
-      { "item": "kevlar", "prob": 5 }
+      { "item": "jacket_windbreaker", "prob": 10 }
     ]
   },
   {
@@ -166,15 +164,14 @@
     "type": "item_group",
     "id": "NC_SCAVENGER_MERCHANT_eyes",
     "subtype": "distribution",
-    "entries": [ { "item": "null", "prob": 80 }, { "item": "glasses_safety", "prob": 20 }, { "item": "sunglasses", "prob": 20 } ]
+    "entries": [ { "item": "null", "prob": 10 }, { "item": "glasses_safety", "prob": 20 }, { "item": "sunglasses", "prob": 20 } ]
   },
   {
     "type": "item_group",
     "id": "NC_SCAVENGER_MERCHANT_hat",
     "subtype": "distribution",
     "entries": [
-      { "item": "null", "prob": 80 },
-      { "item": "hat_ball", "prob": 10 },
+      { "item": "helmet_football", "prob": 10 },	  
       { "item": "hat_hard", "prob": 10 },
       { "item": "helmet_bike", "prob": 10 },
       { "item": "helmet_riot", "prob": 10 },
