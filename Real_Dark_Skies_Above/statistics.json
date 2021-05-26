@@ -63,6 +63,6 @@
     "type": "event_statistic",
     "stat_type": "count",
     "event_transformation": "avatar_alienanimal_kills",
-    "description": { "str": "emissary killed", "str_pl": "emissaries killed" }
+    "description": { "str": "emissary killed", "str_pl": "alien fauna killed" }
   }  
 ]
