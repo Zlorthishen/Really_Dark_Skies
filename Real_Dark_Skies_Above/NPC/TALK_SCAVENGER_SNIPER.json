@@ -317,7 +317,7 @@
     ],
     "responses": [
       { "text": "Let's trade.", "topic": "TALK_SCAVENGER_SNIPER_TRADE" },
-      { "text": "Well, bye.", "topic": "TALK_DONE" }iii
+      { "text": "Well, bye.", "topic": "TALK_DONE" }
     ]
   },
   {
