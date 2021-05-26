@@ -315,7 +315,8 @@
     "id": "TALK_SCAVENGER_GUNSLINGER_DOING",
     "type": "talk_topic",
     "dynamic_line": [
-      "We have an arrangement with these guys upstairs, the bottom two floors are a free trade zone that shares security responsibilities with them.  We also help them keep the outside defences in place and warn of any zombies or xenoids around the perimeter.  You can always count on the snipers upstairs for overwatch while smashing and looting.",
+      "There is an arrangement with everyone that lives here, the bottom two floors are a free trade zone and the upper floors are for the alien resistance operation.  We all help them keep the outside defences in place and warn of any zombies or xenoids around the perimeter.  You can always count on the snipers upstairs for overwatch while smashing and looting.",
+      "I'm there are some mutants in the upper floors and some in the basement, but they're good people.  So long as you don't stare at the heavily deformed ones.",	  
       "I keep the peace down here between other scavengers, but everyone is very civil to each other since there are monsters outside."
     ],
     "responses": [

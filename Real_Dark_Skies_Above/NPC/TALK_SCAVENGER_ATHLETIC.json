@@ -260,19 +260,13 @@
     "type": "item_group",
     "id": "NC_SCAVENGER_ATHLETIC_throw",
     "subtype": "distribution",
-    "entries": [ { "item": "throwing_knife", "prob": 50 }, { "item": "throwing_axe", "prob": 50 } ]
-  },
-  {
-    "type": "item_group",
-    "id": "NC_SCAVENGER_ATHLETIC_archery",
-    "subtype": "distribution",
-    "entries": [ { "item": "crossbow", "prob": 5 } ]
+    "entries": [ { "item": "net", "prob": 50 }, { "item": "bolas", "prob": 50 }, { "item": "lawn_dart", "prob": 50 } ]
   },
   {
     "type": "item_group",
     "id": "NC_SCAVENGER_ATHLETIC_pistols",
     "subtype": "distribution",
-    "entries": [ { "item": "usp_9mm", "prob": 30 }, { "item": "m9", "prob": 70 } ]
+    "entries": [ { "group": "guns_pistol_common", "prob": 70 } ]
   },
   {
     "type": "item_group",
@@ -284,25 +278,25 @@
     "type": "item_group",
     "id": "NC_SCAVENGER_ATHLETIC_smg",
     "subtype": "distribution",
-    "entries": [ { "item": "uzi", "prob": 50 }, { "item": "tec9", "prob": 50 }, { "item": "sten", "prob": 10 } ]
+    "entries": [ { "group": "guns_smg_common", "prob": 70 }, { "group": "guns_smg_rare", "prob": 20 } ]
   },
   {
     "type": "item_group",
     "id": "NC_SCAVENGER_ATHLETIC_rifle",
     "subtype": "distribution",
-    "entries": [ { "item": "m4a1", "prob": 35 }, { "item": "m1a", "prob": 35 }, { "item": "ak47", "prob": 35 } ]
+    "entries": [ { "group": "guns_rifle_common", "prob": 70 }, { "group": "guns_rifle_rare", "prob": 20 } ]
   },
   {
     "type": "item_group",
     "id": "NC_SCAVENGER_ATHLETIC_launcher",
     "subtype": "distribution",
-    "entries": [ { "item": "launcher_simple", "prob": 100 } ]
+    "entries": [ { "group": "guns_launcher_milspec", "prob": 70 } ]
   },
   {
     "type": "item_group",
     "id": "NC_SCAVENGER_ATHLETIC_weapon_random",
     "subtype": "distribution",
-    "entries": [ { "item": "q_staff", "prob": 100 } ]
+    "entries": [ { "item": "q_staff", "prob": 10 }, { "item": "bullwhip", "prob": 10  } ]
   },
   {
     "type": "item_group",
@@ -339,7 +333,7 @@
     "id": "TALK_SCAVENGER_ATHLETIC_DOING",
     "type": "talk_topic",
     "dynamic_line": [
-      "We have an arrangement with the guys upstairs, the bottom two floors are a free trade zone that shares security responsibilities with them.  We also help them keep the outside defences in place and warn of any zombies or xenoids around the perimeter.  You can always count on the snipers upstairs for overwatch while smashing and looting.",
+      "There is an arrangement with everyone that lives here, the bottom two floors are a free trade zone and the upper floors are for the alien resistance operation.  We all help them keep the outside defences in place and warn of any zombies or xenoids around the perimeter.  You can always count on the snipers upstairs for overwatch while smashing and looting.",
       "I found this vehicle here and I don't know if I should repair it or use it for parts.  Either way it will make me some money somehow."
     ],
     "responses": [
@@ -353,8 +347,8 @@
     "type": "talk_topic",
     "dynamic_line": [
       "I don't usually go too far up stairs, not because don't like those guys, nor because they wouldn't let me up there, I'm just lazy and prefer working down here.",
-      "I'm too busy with this engine here to go upstairs much.",
-      "Those guys up stairs are angels!  I was helping with the barricades outside when a crawling zombie revived suddenly and cut my leg.  Almost immediately, one of the snipers on the roof blew its head off.  Saved my life."
+      "I'm there are some mutants in the upper floors and a few in the basement, but they're good people.  So long as you don't stare at the heavily deformed ones.",
+      "Those guys up stairs are angels!  I was helping with the barricades outside when a crawling zombie revived suddenly and grabbed my leg.  Almost immediately, one of the snipers on the roof blew its head off.  Saved my life."
     ],
     "responses": [
       { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_SCAVENGER_ATHLETIC_ROOT" },

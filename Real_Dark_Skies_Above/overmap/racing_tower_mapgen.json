@@ -161,9 +161,9 @@
       "rotation": [ 0, 3 ],
       "rows": [
         "     ",
-        "###  ",
-        "#B+  ",
-        "###  ",
+        " ### ",
+        " #B+ ",
+        " ### ",
         "     "
       ],
       "terrain": { " ": "t_null" },
@@ -182,9 +182,9 @@
       "rotation": [ 0, 3 ],
       "rows": [
         "     ",
-        "  ###",
-        "  #B#",
-        "  #+#",
+        " ### ",
+        " #B# ",
+        " #+# ",
         "     "
       ],
       "terrain": { " ": "t_null" },
@@ -224,9 +224,9 @@
       "rotation": [ 0, 3 ],
       "rows": [
         "     ",
-        "  ###",
-        "  +B#",
-        "  ###",
+        " ### ",
+        " +B# ",
+        " ### ",
         "     "
       ],
       "terrain": { " ": "t_null" },
@@ -511,7 +511,7 @@
         "     "
       ],
       "terrain": { " ": "t_null", "T": "t_utility_light" },
-      "place_vehicles": [ { "vehicle": "portable_generator", "x": 3, "y": 3, "chance": 100, "rotation": 90, "status": 2 } ],
+      "place_vehicles": [ { "vehicle": "portable_generator", "x": 2, "y": 2, "chance": 100, "rotation": 90, "status": 2 } ],
       "items": { " ": { "item": "trash_junkyard", "chance": 15 } }
     }
   },
@@ -742,6 +742,120 @@
       "furniture": { "C": "f_bench", "S": "f_stool", "T": "f_metal_table", "X": "f_metal_table" },
       "items": { " ": { "item": "trash", "chance": 1 }, "T": { "item": "scavenged_foods", "chance": 60, "repeat": [ 1, 2 ] } },
       "place_loot": [ { "item": "television", "x": 3, "y": 3, "chance": 100 } ]
+    }
+  },
+  
+  {
+    "//": "13x13 glass enclosed news stand",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_13x13commercial",
+    "object": {
+      "mapgensize": [ 13, 13 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "%%^^%%%%%%%%%",
+        "%X  XXXXXXXX%",
+        "%X          ^",
+        "%X          ^",
+        "%X   TTT    %",
+        "%X   S S   X%",
+        "%X         X%",
+        "%X   S S   X%",
+        "%    TTT   X%",
+        "^          X%",
+        "^          X%",
+        "%XXXXXXXX  X%",
+        "%%%%%%%%%^^%%"
+      ],
+      "terrain": { " ": "t_linoleum_white", "%": "t_ballistic_glass", "^": "t_ballistic_door_glass_c", "C": "t_linoleum_white", "S": "t_linoleum_white", "T": "t_linoleum_white", "X": "t_linoleum_white" },
+      "furniture": { "C": "f_bench", "S": "f_stool", "T": "f_metal_table", "X": "f_glass_cabinet" },
+      "items": { "X": { "item": "scavenged_foods", "chance": 90, "repeat": [ 11, 23 ] } }	  
+    }
+  },
+  {
+    "//": "13x13 glass enclosed arcade",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_13x13commercial",
+    "object": {
+      "mapgensize": [ 13, 13 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "%%%%%%%%%%%%%",
+        "%CBCBCBCBCBC%",
+        "^           ^",
+        "^           ^",
+        "%C         B%",
+        "%C  BCB    B%",
+        "%C  ###AV  B%",
+        "%C  VA###  B%",
+        "%C    CBC  B%",
+        "^           ^",
+        "^           ^",
+        "%BCBCBCBCBCB%",
+        "%%%%%%%%%%%%%"
+      ],
+      "terrain": {" ": "t_linoleum_white", "A": "t_atm", "#": "t_concrete_wall", "%": "t_ballistic_glass", "^": "t_ballistic_door_glass_c", "V": "t_linoleum_white", "B": "t_linoleum_white", "C": "t_linoleum_white" },
+      "furniture": { "B": "f_pinball_machine", "C": "f_arcade_machine", "V": "f_vending_reinforced" },
+      "items": { "V": { "item": "vending_drink", "chance": 90, "repeat": [ 11, 23 ] } }
+    }
+  },
+  {
+    "//": "13x13 glass enclosed vending machines",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_13x13commercial",
+    "object": {
+      "mapgensize": [ 13, 13 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "%%^^%%%%%^^%%",
+        "%   VVVVV   %",
+        "^           ^",
+        "^           ^",
+        "%V  X   X  V%",
+        "%V  X   X  V%",
+        "%V  X   X  V%",
+        "%V  X   X  V%",
+        "%V  X   X  V%",
+        "^           ^",
+        "^           ^",
+        "%   VVVVV   %",
+        "%%^^%%%%%^^%%"
+      ],
+      "terrain": {" ": "t_linoleum_white", "%": "t_ballistic_glass", "^": "t_ballistic_door_glass_c", "V": "t_linoleum_white", "X": "t_linoleum_white" },
+      "furniture": { "B": "f_pinball_machine", "C": "f_arcade_machine", "V": "f_vending_reinforced" },
+      "items": { "V": { "item": "vending_food", "chance": 90, "repeat": [ 2, 3 ] }, "X": { "item": "vending_drink", "chance": 90, "repeat": [ 1, 3 ] }   }
+    }
+  },
+  
+  {
+    "//": "13x13 glass enclosed vending machines",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_13x13commercial",
+    "object": {
+      "mapgensize": [ 13, 13 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "%%^^%%%%%^^%%",
+        "%   VVVVV   %",
+        "^           ^",
+        "^           ^",
+        "%V         V%",
+        "%V  XXXXX  V%",
+        "%V         V%",
+        "%V  XXXXX  V%",
+        "%V         V%",
+        "^           ^",
+        "^           ^",
+        "%   VVVVV   %",
+        "%%^^%%%%%^^%%"
+      ],
+      "terrain": {" ": "t_linoleum_white", "%": "t_ballistic_glass", "^": "t_ballistic_door_glass_c", "V": "t_linoleum_white", "X": "t_linoleum_white" },
+      "furniture": { "B": "f_pinball_machine", "C": "f_arcade_machine", "V": "f_vending_reinforced" },
+      "items": { "V": { "item": "vending_food", "chance": 90, "repeat": [ 2, 3 ] }, "X": { "item": "vending_drink", "chance": 90, "repeat": [ 1, 3 ] }   }
     }
   },
   {
@@ -1095,61 +1209,7 @@
       "terrain": { "S": "t_dirt", "s": "t_dirt" }
     }
   },
-  {
-    "//": "13x13 glass enclosed news stand",
-    "type": "mapgen",
-    "method": "json",
-    "nested_mapgen_id": "racing_tower_13x13commercial",
-    "object": {
-      "mapgensize": [ 13, 13 ],
-      "rotation": [ 0, 3 ],
-      "rows": [
-        "%%^^%%%%%%%%%",
-        "%X  XXXXXXXX%",
-        "%X          ^",
-        "%X          ^",
-        "%X   TTT    %",
-        "%X   S S   X%",
-        "%X         X%",
-        "%X   S S   X%",
-        "%    TTT   X%",
-        "^          X%",
-        "^          X%",
-        "%XXXXXXXX  X%",
-        "%%%%%%%%%^^%%"
-      ],
-      "terrain": { " ": "t_null", "%": "t_ballistic_glass", "^": "t_ballistic_door_glass_c" },
-      "furniture": { "C": "f_bench", "S": "f_stool", "T": "f_metal_table", "X": "f_glass_cabinet" }
-    }
-  },
-  {
-    "//": "13x13 glass enclosed arcade",
-    "type": "mapgen",
-    "method": "json",
-    "nested_mapgen_id": "racing_tower_13x13commercial",
-    "object": {
-      "mapgensize": [ 13, 13 ],
-      "rotation": [ 0, 3 ],
-      "rows": [
-        "%%%%%%%%%%%%%",
-        "%CBCBCBCBCBC%",
-        "^           ^",
-        "^           ^",
-        "%C         B%",
-        "%C  BCB    B%",
-        "%C  ###AV  B%",
-        "%C  VA###  B%",
-        "%C    CBC  B%",
-        "^           ^",
-        "^           ^",
-        "%BCBCBCBCBCB%",
-        "%%%%%%%%%%%%%"
-      ],
-      "terrain": { " ": "t_null", "A": "t_atm", "#": "t_concrete_wall", "%": "t_ballistic_glass", "^": "t_ballistic_door_glass_c" },
-      "furniture": { "B": "f_pinball_machine", "C": "f_arcade_machine", "V": "f_vending_reinforced" },
-      "items": { "V": { "item": "vending_drink", "chance": 90, "repeat": [ 11, 23 ] } }
-    }
-  },
+
   {
     "type": "mapgen",
     "method": "json",

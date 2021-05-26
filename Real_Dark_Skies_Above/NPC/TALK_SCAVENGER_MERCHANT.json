@@ -308,7 +308,8 @@
     "id": "TALK_SCAVENGER_MERCHANT_DOING",
     "type": "talk_topic",
     "dynamic_line": [
-      "We have an arrangement with the guys upstairs, the bottom two floors are a free trade zone that shares security responsibilities with them.  We also help them keep the outside defences in place and warn of any zombies or xenoids around the perimeter.  You can always count on the snipers upstairs for overwatch while smashing and looting.",
+      "There is an arrangement with everyone that lives here, the bottom two floors are a free trade zone and the upper floors are for the alien resistance operation.  We all help them keep the outside defences in place and warn of any zombies or xenoids around the perimeter.  This is the freest market that has ever existed!",
+	  "I'm buying and I'm selling.",
       "I kill monsters, take their loot and sell it here.  This pleases the man upstairs.",
       "I've been scavenging since shit hit the fan, been all over the place, and besides that refugee center, this place feels the most secure.  Plus they like us constantly bringing in new trade goods."
     ],
@@ -324,7 +325,7 @@
     "dynamic_line": [
       "I don't usually go too far up stairs, not because don't like those guys, nor because they wouldn't let me up there, I'm just lazy and prefer it down here.",
       "They don't usually mind if you go up to the roof, but if you make trouble or get in their way they'll send you down stairs the quick way.",
-      "Those guys up stairs are angels!  I was helping with the barricades outside when a crawling zombie revived suddenly and cut my leg.  Almost immediately, one of the snipers on the roof blew its head off.  Saved my life."
+      "Those guys up stairs are angels!  I was helping with the barricades outside when a crawling zombie revived suddenly and grabbed my leg.  Almost immediately, one of the snipers on the roof blew its head off.  Saved my life."
     ],
     "responses": [
       { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_SCAVENGER_MERCHANT_ROOT" },

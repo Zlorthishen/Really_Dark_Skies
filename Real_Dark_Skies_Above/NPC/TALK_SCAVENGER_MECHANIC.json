@@ -82,10 +82,12 @@
     "id": "NC_SCAVENGER_MECHANIC_pants_male",
     "subtype": "distribution",
     "entries": [
-      { "item": "jeans", "prob": 20 },
-      { "item": "pants", "prob": 20 },
+      { "item": "jeans", "prob": 10 },
+      { "item": "pants", "prob": 10 },
       { "item": "pants_leather", "prob": 20 },
       { "item": "pants_cargo", "prob": 20 },
+      { "item": "technician_pants_gray", "prob": 60 },	  
+      { "item": "pants_army", "prob": 50 },
       { "item": "bunker_pants", "prob": 20 }
     ]
   },
@@ -94,11 +96,14 @@
     "id": "NC_SCAVENGER_MECHANIC_pants_female",
     "subtype": "distribution",
     "entries": [
-      { "item": "jeans", "prob": 20 },
-      { "item": "pants", "prob": 20 },
+      { "item": "jeans", "prob": 10 },
+      { "item": "pants", "prob": 10 },
       { "item": "pants_leather", "prob": 20 },
       { "item": "pants_cargo", "prob": 20 },
+      { "item": "technician_pants_gray", "prob": 60 },		  
+      { "item": "pants_army", "prob": 50 },	  
       { "item": "skirt", "prob": 20 },
+      { "item": "skirt_leather", "prob": 70 },
       { "item": "bunker_pants", "prob": 10 }
     ]
   },
@@ -143,8 +148,10 @@
       { "item": "hoodie", "prob": 20 },
       { "item": "jacket_light", "prob": 20 },
       { "item": "jacket_leather", "prob": 20 },
+      { "item": "jacket_flannel", "prob": 20 },
       { "item": "trenchcoat", "prob": 20 },
       { "item": "jacket_jean", "prob": 20 },
+      { "item": "jacket_army", "prob": 20 },
       { "item": "bunker_coat", "prob": 10 },
       { "item": "jacket_windbreaker", "prob": 10 },
       { "item": "kevlar", "prob": 5 }
@@ -318,7 +325,7 @@
     "id": "TALK_SCAVENGER_MECHANIC_DOING",
     "type": "talk_topic",
     "dynamic_line": [
-      "We have an arrangement with the guys upstairs, the bottom two floors are a free trade zone that shares security responsibilities with them.  We also help them keep the outside defences in place and warn of any zombies or xenoids around the perimeter.  You can always count on the snipers upstairs for overwatch while smashing and looting.",
+      "There is an arrangement with everyone that lives here, the bottom two floors are a free trade zone and the upper floors are for the alien resistance operation.  We all help them keep the outside defences in place and warn of any zombies or xenoids around the perimeter.  They really help provide cover when we're moving cars in or out.",
       "I found this vehicle here and I don't know if I should repair it or use it for parts.  Either way it will make me some money somehow."
     ],
     "responses": [
