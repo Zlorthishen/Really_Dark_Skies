@@ -280,7 +280,7 @@
     "type": "item_group",
     "id": "NC_SCAVENGER_GUARD_launcher",
     "subtype": "distribution",
-    "entries": [ { "item": "launcher_simple", "prob": 100 } ]
+    "entries": [ { "group": "guns_launcher_milspec", "prob": 70 } ]
   },
   {
     "type": "item_group",

@@ -154,7 +154,7 @@
     "id": "NC_SCAVENGER_MERCHANT_masks",
     "subtype": "distribution",
     "entries": [
-      { "item": "null", "prob": 800 },
+      { "item": "null", "prob": 80 },
       { "item": "mask_dust", "prob": 10 },
       { "item": "bandana", "prob": 10 },
       { "item": "mask_filter", "prob": 10, "charges-min": 10 }
@@ -242,31 +242,31 @@
     "type": "item_group",
     "id": "NC_SCAVENGER_MERCHANT_pistols",
     "subtype": "distribution",
-    "entries": [ { "item": "usp_9mm", "prob": 30 }, { "item": "m9", "prob": 70 } ]
+    "entries": [ { "group": "guns_pistol_common", "prob": 70 } ]
   },
   {
     "type": "item_group",
     "id": "NC_SCAVENGER_MERCHANT_shotgun",
     "subtype": "distribution",
-    "entries": [ { "item": "mossberg_500", "prob": 25 }, { "item": "remington_870", "prob": 25 } ]
+    "entries": [ { "group": "guns_shotgun_common", "prob": 70 } ]
   },
   {
     "type": "item_group",
     "id": "NC_SCAVENGER_MERCHANT_smg",
     "subtype": "distribution",
-    "entries": [ { "item": "uzi", "prob": 50 }, { "item": "tec9", "prob": 50 }, { "item": "sten", "prob": 10 } ]
+    "entries": [ { "group": "guns_smg_common", "prob": 70 } ]
   },
   {
     "type": "item_group",
     "id": "NC_SCAVENGER_MERCHANT_rifle",
     "subtype": "distribution",
-    "entries": [ { "item": "m4a1", "prob": 35 }, { "item": "m1a", "prob": 35 }, { "item": "ak47", "prob": 35 } ]
+    "entries": [ { "group": "guns_rifle_common", "prob": 70 } ]
   },
   {
     "type": "item_group",
     "id": "NC_SCAVENGER_MERCHANT_launcher",
     "subtype": "distribution",
-    "entries": [ { "item": "launcher_simple", "prob": 100 } ]
+    "entries": [ { "group": "guns_launcher_milspec", "prob": 70 } ]
   },
   {
     "type": "item_group",

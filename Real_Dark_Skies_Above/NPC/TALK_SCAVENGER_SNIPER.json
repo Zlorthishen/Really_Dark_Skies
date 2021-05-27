@@ -231,19 +231,19 @@
     "type": "item_group",
     "id": "NC_SCAVENGER_SNIPER_pistols",
     "subtype": "distribution",
-    "entries": [ { "item": "usp_9mm", "prob": 30 }, { "item": "m9", "prob": 70 } ]
+    "entries": [ { "group": "guns_pistol_rare", "prob": 70 } ]
   },
   {
     "type": "item_group",
     "id": "NC_SCAVENGER_SNIPER_shotgun",
     "subtype": "distribution",
-    "entries": [ { "item": "mossberg_500", "prob": 25 }, { "item": "remington_870", "prob": 25 } ]
+    "entries": [ { "group": "guns_shotgun_rare", "prob": 70 } ]
   },
   {
     "type": "item_group",
     "id": "NC_SCAVENGER_SNIPER_smg",
     "subtype": "distribution",
-    "entries": [ { "item": "uzi", "prob": 50 }, { "item": "tec9", "prob": 50 }, { "item": "sten", "prob": 10 } ]
+    "entries": [ { "group": "guns_smg_common", "prob": 20 }, { "group": "guns_smg_rare", "prob": 60 } ]
   },
   {
     "type": "item_group",

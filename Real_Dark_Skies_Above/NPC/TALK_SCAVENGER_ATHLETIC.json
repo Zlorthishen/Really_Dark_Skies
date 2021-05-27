@@ -272,7 +272,7 @@
     "type": "item_group",
     "id": "NC_SCAVENGER_ATHLETIC_shotgun",
     "subtype": "distribution",
-    "entries": [ { "item": "mossberg_500", "prob": 25 }, { "item": "remington_870", "prob": 25 } ]
+    "entries": [ { "group": "guns_shotgun_common", "prob": 70 } ]
   },
   {
     "type": "item_group",
