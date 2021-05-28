@@ -1,6 +1,6 @@
 [
   {
-    "//": "RP traits that help define your character in the world. allows you to indicate your character's background, affecting some NPC interactions. *very* experimental",
+    "//": "RP traits that help define your character in the world. allows you to indicate your character's background, affecting some NPC interactions. somewhat experimental",
     "type": "mutation",
     "id": "DKZ_COMBAT",
     "name": "RP: Combatant",
@@ -12,7 +12,7 @@
     "purifiable": false
   },
   {
-    "//": "RP traits that help define your character in the world. allows you to indicate your character's background, affecting some NPC interactions. *very* experimental",
+    "//": "RP traits that help define your character in the world. allows you to indicate your character's background, affecting some NPC interactions. somewhat experimental",
     "type": "mutation",
     "id": "DKZ_TECH",
     "name": "RP: Technician",
@@ -24,7 +24,7 @@
     "purifiable": false
   },
   {
-    "//": "RP traits that help define your character in the world. allows you to indicate your character's background, affecting some NPC interactions. *very* experimental",
+    "//": "RP traits that help define your character in the world. allows you to indicate your character's background, affecting some NPC interactions. somewhat experimental",
     "type": "mutation",
     "id": "DKZ_SCIENTIST",
     "name": "RP: Scientist",
@@ -36,7 +36,7 @@
     "purifiable": false
   },
   {
-    "//": "RP traits that help define your character in the world. allows you to indicate your character's background, affecting some NPC interactions. *very* experimental",
+    "//": "RP traits that help define your character in the world. allows you to indicate your character's background, affecting some NPC interactions. somewhat experimental",
     "type": "mutation",
     "id": "DKZ_MEDIC",
     "name": "RP: Medic",
@@ -48,7 +48,7 @@
     "purifiable": false
   },
   {
-    "//": "RP traits that help define your character in the world. allows you to indicate your character's background, affecting some NPC interactions. *very* experimental",
+    "//": "RP traits that help define your character in the world. allows you to indicate your character's background, affecting some NPC interactions. somewhat experimental",
     "type": "mutation",
     "id": "DKZ_LEADER",
     "name": "RP: Leader",
