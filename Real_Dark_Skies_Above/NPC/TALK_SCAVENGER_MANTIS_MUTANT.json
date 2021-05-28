@@ -33,7 +33,7 @@
       { "trait": "NIGHTVISION2", "prob": 45 },
       { "trait": "COMPOUND_EYES", "prob": 100 },	  
       { "trait": "CHITIN2", "prob": 100 },		  
-      { "trait": "MANDIBLES", "prob": 100 }
+      { "trait": "MANDIBLES", "prob": 100 },
       { "trait": "CHITIN3", "prob": 50 },
       { "trait": "THRESH_INSECT", "prob": 100 },	
       { "trait": "ACIDBLOOD", "prob": 30 },	  
