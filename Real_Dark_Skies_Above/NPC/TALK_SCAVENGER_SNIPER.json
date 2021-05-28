@@ -18,7 +18,7 @@
       { "trait": "DKZ_COMBAT", "prob": 100 },
       { "group": "NPC_starting_traits" }, 
 	  { "group": "Appearance_demographics" },
-      { "trait": "ROBUST", "prob": 50 }
+      { "trait": "NIGHTVISION", "prob": 75 }
     ],
     "skills": [
       { "skill": "ALL", "level": { "sum": [ { "dice": [ 3, 2 ] }, { "constant": -4 } ] } },

@@ -17,6 +17,7 @@
       { "trait": "DKZ_LEADER", "prob": 100 },
       { "group": "NPC_starting_traits" }, 
 	  { "group": "Appearance_demographics" },
+      { "trait": "LIAR", "prob": 50 },
       { "trait": "ROBUST", "prob": 30 }
     ],
     "skills": [
