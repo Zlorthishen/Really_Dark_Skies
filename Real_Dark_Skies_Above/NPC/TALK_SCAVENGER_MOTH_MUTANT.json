@@ -42,7 +42,7 @@
       { "trait": "WINGS_STUB", "prob": 45 },	
       { "trait": "INSECT_ARMS", "prob": 60 },		
       { "trait": "DEFORMED", "prob": 60 },
-      { "trait": "PHEROMONE_INSECT", "prob": 60 },	  
+      { "trait": "PHEROMONE_INSECT", "prob": 60 }	  
 	  ],
     "skills": [
       { "skill": "ALL", "level": { "sum": [ { "dice": [ 3, 2 ] }, { "constant": -4 } ] } },
