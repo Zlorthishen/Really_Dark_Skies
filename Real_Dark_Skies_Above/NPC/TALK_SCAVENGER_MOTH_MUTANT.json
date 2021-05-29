@@ -39,8 +39,8 @@
       { "trait": "ACIDPROOF", "prob": 30 },
       { "trait": "PROBOSCIS", "prob": 100 },	
       { "trait": "WINGS_BUTTERFLY", "prob": 45 },		  
-      { "trait": "WINGS_STUB", "prob": 45 },	
-      { "trait": "INSECT_ARMS", "prob": 60 },		
+      { "trait": "INSECT_ARMS_OK", "prob": 15 },	
+      { "trait": "INSECT_ARMS", "prob": 65 },		
       { "trait": "DEFORMED", "prob": 60 },
       { "trait": "PHEROMONE_INSECT", "prob": 60 }	  
 	  ],
@@ -329,8 +329,8 @@
     "type": "talk_topic",
     "dynamic_line": {
       "u_is_wearing": "badge_marshal",
-      "yes": [ "Are you lost, marshal?", "Don't start any trouble marshal, you aren't the law anymore." ],
-      "no": [ "Don't cause any trouble here, I'd rather kill monsters than people.", "Safe travels, scavenger." ]
+      "yes": [ "What faint light brought you up here, marshal?", "Buzz off, fed." ],
+      "no": [ "We don't bother anyone up here and expect the same from others.", "What brings you up here, scavenger." ]
     },
     "responses": [
       { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_SCAVENGER_MOTH_MUTANT_ROOT" },

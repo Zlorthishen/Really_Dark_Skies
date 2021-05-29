@@ -329,8 +329,8 @@
     "type": "talk_topic",
     "dynamic_line": {
       "u_is_wearing": "badge_marshal",
-      "yes": [ "Are you lost, marshal?", "Don't start any trouble marshal, you aren't the law anymore." ],
-      "no": [ "Don't cause any trouble here, I'd rather kill monsters than people.", "Safe travels, scavenger." ]
+      "yes": [ "Buzz off, fed." ],
+      "no": [ "We don't bother anyone up here and expect the same from others.", "What brings you up here, scavenger." ]
     },
     "responses": [
       { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_SCAVENGER_MANTIS_MUTANT_ROOT" },
