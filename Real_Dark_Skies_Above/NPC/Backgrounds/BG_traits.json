@@ -1,0 +1,14 @@
+[
+  {
+    "type": "mutation",
+    "id": "BGSS_DKZ_Scavenger_1",
+    "name": { "str": "Survivor: Confused 1" },
+    "points": 0,
+    "description": "This NPC could tell you about how they survived the Cataclysm",
+    "player_display": false,
+    "valid": false,
+    "purifiable": false,
+    "types": [ "BACKGROUND_SURVIVAL_STORY" ],
+    "flags": [ "BG_SURVIVAL_STORY" ]
+  }
+]
