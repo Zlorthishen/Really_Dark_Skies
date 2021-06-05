@@ -73,7 +73,7 @@
     "id": "dkz_zenture_industries_intgyroCBM",
     "copy-from": "bionic_general",
     "type": "BIONIC_ITEM",
-    "name": { "str": "Zenture Industries® : Internal Gyroscope CBM" },
+    "name": { "str": "Zenture Industries® : Internal Gyro CBM" },
     "description": "A rather large CBM that mounts within the torso.  The bionic device allows the fall from any height walk away unscathed, as well as providing a slight increase in general dexterity.",
     "price": 420000,
     "price_postapoc": 42000,
@@ -84,7 +84,7 @@
   {
     "id": "dkz_zenture_industries_intgyroCBM",
     "type": "bionic",
-    "name": { "str": "Zenture Industries® : Internal Gyroscope CBM" },
+    "name": { "str": "Zenture Industries® : Internal Gyro CBM" },
     "description": "A rather large CBM that mounts within the torso.  The bionic device allows the fall from any height walk away unscathed, as well as providing a slight increase in general dexterity.",
     "occupied_bodyparts": [ [ "torso", 7 ] ],
     "fake_item": "dkz_zenture_industries_intgyroFAKE",
