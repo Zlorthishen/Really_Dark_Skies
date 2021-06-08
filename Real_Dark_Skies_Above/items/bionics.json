@@ -3,7 +3,7 @@
     "id": "dkz_zenture_industries_trinityCBM",
     "copy-from": "bionic_general",
     "type": "BIONIC_ITEM",
-    "name": { "str": "Zenture Industries® : Trinity CBM" },
+    "name": { "str": "ZI: Trinity CBM" },
     "description": "A state of the art bionic implant go beyond a basic instinctual knowledge about the operation of flying machines.  This sophisticated CBM also grants superior spotting ability as well as an integrated CAD interface which allows for near infinite customization to virtually any flying machine.",
     "price": 4200000,
     "price_postapoc": 420000,
@@ -12,7 +12,7 @@
   {
     "id": "dkz_zenture_industries_trinityCBM",
     "type": "bionic",
-    "name": { "str": "Zenture Industries® : Trinity CBM" },
+    "name": { "str": "ZI: Trinity CBM" },
     "description": "A state of the art bionic implant go beyond a basic instinctual knowledge about the operation of flying machines.  This sophisticated CBM also grants superior spotting ability as well as an integrated CAD interface which allows for near infinite customization to virtually any flying machine.",
     "occupied_bodyparts": [ [ "head", 3 ] ],
     "learned_proficiencies": [ "prof_spotting", "prof_aircraft_mechanic", "prof_helicopter_pilot" ]
@@ -21,7 +21,7 @@
     "id": "dkz_zenture_industries_leftarmcompCBM",
     "copy-from": "bionic_general",
     "type": "BIONIC_ITEM",
-    "name": { "str": "Zenture Industries® : iPC-L CBM" },
+    "name": { "str": "ZI: iPC-L CBM" },
     "description": "A  bionic implant that is effectively an integrated personal computer built into the left arm.",
     "price": 42000,
     "price_postapoc": 4200,
@@ -31,7 +31,7 @@
     "id": "dkz_zenture_industries_rightarmcompCBM",
     "copy-from": "bionic_general",
     "type": "BIONIC_ITEM",
-    "name": { "str": "Zenture Industries® : iPC-R CBM" },
+    "name": { "str": "ZI: iPC-R CBM" },
     "description": "A  bionic implant that is effectively an integrated personal computer built into the left arm.",
     "price": 42000,
     "price_postapoc": 4200,
@@ -40,7 +40,7 @@
   {
     "id": "dkz_zenture_industries_leftarmcompCBM",
     "type": "bionic",
-    "name": { "str": "Zenture Industries® : iPC-L CBM" },
+    "name": { "str": "ZI: iPC-L CBM" },
     "description": "A  bionic implant that is effectively an integrated personal computer built into the left arm.",
     "occupied_bodyparts": [ [ "arm_l", 1 ] ],
     "fake_item": "dkz_zenture_industries_ipcFAKE",	
@@ -52,7 +52,7 @@
   {
     "id": "dkz_zenture_industries_rightarmcompCBM",
     "type": "bionic",
-    "name": { "str": "Zenture Industries® : iPC-R CBM" },
+    "name": { "str": "ZI: iPC-R CBM" },
     "description": "A  bionic implant that is effectively an integrated personal computer built into the right arm.",
     "occupied_bodyparts": [ [ "arm_r", 1 ] ],
     "fake_item": "dkz_zenture_industries_ipcFAKE",	
@@ -73,22 +73,23 @@
     "id": "dkz_zenture_industries_intgyroCBM",
     "copy-from": "bionic_general",
     "type": "BIONIC_ITEM",
-    "name": { "str": "Zenture Industries® : Internal Gyro CBM" },
-    "description": "A rather large CBM that mounts within the torso.  The bionic device allows the fall from any height walk away unscathed, as well as providing a slight increase in general dexterity.",
+    "name": { "str": "ZI: Internal Gyro CBM" },
+    "description": "A rather large CBM that mounts within the torso and legs.  The bionic device allows the user fall from any height walk away unscathed, however the mechanism itself is quite energy hungry and takes several seconds to engage, limiting is utility somewhat.",
     "price": 720000,
     "price_postapoc": 72000,
     "weight": "5500 g",
-    "volume": "3500 ml",	
-    "difficulty": 3
+    "volume": "3500 ml"
   },  
   {
     "id": "dkz_zenture_industries_intgyroCBM",
     "type": "bionic",
-    "name": { "str": "Zenture Industries® : Internal Gyro CBM" },
-    "description": "A rather large CBM that mounts within the torso and legs.  The bionic device allows the jump from any height walk away unscathed, as well as providing a slight increase in general dexterity.",
+    "name": { "str": "ZI: Internal Gyro CBM" },
+    "description": "A rather large CBM that mounts within the torso and legs.  The bionic device allows the user fall from any height walk away unscathed, however the mechanism itself is quite energy hungry and takes several seconds to engage, limiting is utility somewhat.",
     "occupied_bodyparts": [ [ "torso", 7 ], [ "leg_l", 2 ], [ "leg_r", 2 ] ],
     "fake_item": "dkz_zenture_industries_intgyroFAKE",
-    "stat_bonus": [ [ "DEX", 1 ] ]	
+    "act_cost": "25 kJ",
+    "react_cost": "5 kJ",
+    "time": 250		
   },
   {
     "id": "dkz_zenture_industries_intgyroFAKE",

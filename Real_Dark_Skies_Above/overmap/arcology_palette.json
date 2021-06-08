@@ -48,7 +48,7 @@
       "g": "t_wall_glass",
       "G": "t_ballistic_glass",
       "@": "t_door_metal_locked",
-      "c": "t_gates_mech_control",
+      "c": "t_gates_mech_control_lab",
       "P": "t_palisade_gate"
     },
     "furniture": {
