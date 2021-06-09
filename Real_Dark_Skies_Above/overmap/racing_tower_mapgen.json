@@ -41,216 +41,6 @@
     ]
   },
   {
-    "//": "5x5 with tent and guns",
-    "type": "mapgen",
-    "method": "json",
-    "nested_mapgen_id": "racing_tower_5x5_camp",
-    "object": {
-      "mapgensize": [ 5, 5 ],
-      "rotation": [ 0, 3 ],
-      "rows": [
-        "     ",
-        " ### ",
-        " +B# ",
-        " ### ",
-        "     "
-      ],
-      "terrain": { " ": "t_null" },
-      "furniture": { "#": "f_canvas_wall", "'": "f_groundsheet", "B": "f_groundsheet", "+": "f_canvas_door" },
-      "place_npcs": [ { "class": "DKZ_SCAVENGER_MERCHANT", "x": 2, "y": 2 } ],
-      "items": { " ": { "item": "trash_cart", "chance": 1 }, "B": { "item": "guns_milspec", "chance": 100, "repeat": [ 2, 3 ] } }
-    }
-  },
-  {
-    "//": "5x5 with tent and guns",
-    "type": "mapgen",
-    "method": "json",
-    "nested_mapgen_id": "racing_tower_5x5_camp",
-    "object": {
-      "mapgensize": [ 5, 5 ],
-      "rotation": [ 0, 3 ],
-      "rows": [
-        "     ",
-        "###  ",
-        "#B+  ",
-        "###  ",
-        "     "
-      ],
-      "terrain": { " ": "t_null" },
-      "furniture": { "#": "f_canvas_wall", "'": "f_groundsheet", "B": "f_groundsheet", "+": "f_canvas_door" },
-      "place_npcs": [ { "class": "DKZ_SCAVENGER_MERCHANT", "x": 1, "y": 2 } ],
-      "items": { " ": { "item": "trash_cart", "chance": 1 }, "B": { "item": "guns_milspec", "chance": 100, "repeat": [ 2, 3 ] } }
-    }
-  },
-  {
-    "//": "5x5 with tent and guns",
-    "type": "mapgen",
-    "method": "json",
-    "nested_mapgen_id": "racing_tower_5x5_camp",
-    "object": {
-      "mapgensize": [ 5, 5 ],
-      "rotation": [ 0, 3 ],
-      "rows": [
-        "     ",
-        "  ###",
-        "  #B#",
-        "  #+#",
-        "     "
-      ],
-      "terrain": { " ": "t_null" },
-      "furniture": { "#": "f_canvas_wall", "'": "f_groundsheet", "B": "f_groundsheet", "+": "f_canvas_door" },
-      "place_npcs": [ { "class": "DKZ_SCAVENGER_MERCHANT", "x": 3, "y": 2 } ],
-      "items": { " ": { "item": "trash_cart", "chance": 1 }, "B": { "item": "guns_milspec", "chance": 100, "repeat": [ 2, 3 ] } }
-    }
-  },
-  {
-    "//": "5x5 with tent and guns",
-    "type": "mapgen",
-    "method": "json",
-    "nested_mapgen_id": "racing_tower_5x5_camp",
-    "object": {
-      "mapgensize": [ 5, 5 ],
-      "rotation": [ 0, 3 ],
-      "rows": [
-        "     ",
-        " #+# ",
-        " #B# ",
-        " ### ",
-        "     "
-      ],
-      "terrain": { " ": "t_null" },
-      "furniture": { "#": "f_canvas_wall", "'": "f_groundsheet", "B": "f_groundsheet", "+": "f_canvas_door" },
-      "place_npcs": [ { "class": "DKZ_SCAVENGER_MERCHANT", "x": 2, "y": 2 } ],
-      "items": { " ": { "item": "trash_cart", "chance": 1 }, "B": { "item": "guns_milspec", "chance": 100, "repeat": [ 2, 3 ] } }
-    }
-  },
-  {
-    "//": "5x5 with tent and guns",
-    "type": "mapgen",
-    "method": "json",
-    "nested_mapgen_id": "racing_tower_5x5_camp",
-    "object": {
-      "mapgensize": [ 5, 5 ],
-      "rotation": [ 0, 3 ],
-      "rows": [
-        "     ",
-        "  ###",
-        "  +B#",
-        "  ###",
-        "     "
-      ],
-      "terrain": { " ": "t_null" },
-      "furniture": { "#": "f_canvas_wall", "'": "f_groundsheet", "B": "f_groundsheet", "+": "f_canvas_door" },
-      "place_npcs": [ { "class": "DKZ_SCAVENGER_MERCHANT", "x": 3, "y": 2 } ],
-      "items": { " ": { "item": "trash_cart", "chance": 1 }, "B": { "item": "guns_milspec", "chance": 100, "repeat": [ 2, 3 ] } }
-    }
-  },
-  {
-    "//": "5x5 with tent and bionics_mil",
-    "type": "mapgen",
-    "method": "json",
-    "nested_mapgen_id": "racing_tower_5x5_camp",
-    "object": {
-      "mapgensize": [ 5, 5 ],
-      "rotation": [ 0, 3 ],
-      "rows": [
-        "     ",
-        " ### ",
-        " +B# ",
-        " ### ",
-        "     "
-      ],
-      "terrain": { " ": "t_null" },
-      "furniture": { "#": "f_canvas_wall", "'": "f_groundsheet", "B": "f_groundsheet", "+": "f_canvas_door" },
-      "place_npcs": [ { "class": "DKZ_SCAVENGER_MERCHANT", "x": 2, "y": 2 } ],
-      "items": { " ": { "item": "trash_cart", "chance": 1 }, "B": { "item": "bionics_mil", "chance": 100, "repeat": [ 1, 2 ] } }
-    }
-  },
-  {
-    "//": "5x5 with tent and bionics_mil",
-    "type": "mapgen",
-    "method": "json",
-    "nested_mapgen_id": "racing_tower_5x5_camp",
-    "object": {
-      "mapgensize": [ 5, 5 ],
-      "rotation": [ 0, 3 ],
-      "rows": [
-        "     ",
-        " ### ",
-        " #B+ ",
-        " ### ",
-        "     "
-      ],
-      "terrain": { " ": "t_null" },
-      "furniture": { "#": "f_canvas_wall", "'": "f_groundsheet", "B": "f_groundsheet", "+": "f_canvas_door" },
-      "place_npcs": [ { "class": "DKZ_SCAVENGER_MERCHANT", "x": 1, "y": 2 } ],
-      "items": { " ": { "item": "trash_cart", "chance": 1 }, "B": { "item": "bionics_mil", "chance": 100, "repeat": [ 1, 2 ] } }
-    }
-  },
-  {
-    "//": "5x5 with tent and bionics_mil",
-    "type": "mapgen",
-    "method": "json",
-    "nested_mapgen_id": "racing_tower_5x5_camp",
-    "object": {
-      "mapgensize": [ 5, 5 ],
-      "rotation": [ 0, 3 ],
-      "rows": [
-        "     ",
-        " ### ",
-        " #B# ",
-        " #+# ",
-        "     "
-      ],
-      "terrain": { " ": "t_null" },
-      "furniture": { "#": "f_canvas_wall", "'": "f_groundsheet", "B": "f_groundsheet", "+": "f_canvas_door" },
-      "place_npcs": [ { "class": "DKZ_SCAVENGER_MERCHANT", "x": 3, "y": 2 } ],
-      "items": { " ": { "item": "trash_cart", "chance": 1 }, "B": { "item": "bionics_mil", "chance": 100, "repeat": [ 1, 2 ] } }
-    }
-  },
-  {
-    "//": "5x5 with tent and bionics_mil",
-    "type": "mapgen",
-    "method": "json",
-    "nested_mapgen_id": "racing_tower_5x5_camp",
-    "object": {
-      "mapgensize": [ 5, 5 ],
-      "rotation": [ 0, 3 ],
-      "rows": [
-        "     ",
-        " #+# ",
-        " #B# ",
-        " ### ",
-        "     "
-      ],
-      "terrain": { " ": "t_null" },
-      "furniture": { "#": "f_canvas_wall", "'": "f_groundsheet", "B": "f_groundsheet", "+": "f_canvas_door" },
-      "place_npcs": [ { "class": "DKZ_SCAVENGER_MERCHANT", "x": 2, "y": 2 } ],
-      "items": { " ": { "item": "trash_cart", "chance": 1 }, "B": { "item": "bionics_mil", "chance": 100, "repeat": [ 1, 2 ] } }
-    }
-  },
-  {
-    "//": "5x5 with tent and bionics_mil",
-    "type": "mapgen",
-    "method": "json",
-    "nested_mapgen_id": "racing_tower_5x5_camp",
-    "object": {
-      "mapgensize": [ 5, 5 ],
-      "rotation": [ 0, 3 ],
-      "rows": [
-        "     ",
-        " ### ",
-        " +B# ",
-        " ### ",
-        "     "
-      ],
-      "terrain": { " ": "t_null" },
-      "furniture": { "#": "f_canvas_wall", "'": "f_groundsheet", "B": "f_groundsheet", "+": "f_canvas_door" },
-      "place_npcs": [ { "class": "DKZ_SCAVENGER_MERCHANT", "x": 3, "y": 2 } ],
-      "items": { " ": { "item": "trash_cart", "chance": 1 }, "B": { "item": "bionics_mil", "chance": 100, "repeat": [ 1, 2 ] } }
-    }
-  },
-  {
     "//": "5x5 two firepits ",
     "type": "mapgen",
     "method": "json",
@@ -450,7 +240,7 @@
       "mapgensize": [ 5, 5 ],
       "rotation": [ 0, 3 ],
       "rows": [
-        "xxx  ",
+        " xx  ",
         "xx  T",
         "x   -",
         "     ",
@@ -569,19 +359,45 @@
         "     "
       ],
       "terrain": { " ": "t_null" },
-      "place_npcs": [ { "class": "DKZ_SCAVENGER_MERCHANT", "x": 2, "y": 2 }, { "class": "DKZ_SCAVENGER_GUARD", "x": 3, "y": 0 }, { "class": "DKZ_SCAVENGER_GUARD", "x": 0, "y": 3 } ],
+      "place_npcs": [ { "class": "DKZ_SCAVENGER_MERCHANT", "x": 2, "y": 2 }, { "class": "DKZ_SCAVENGER_GUARD", "x": 0, "y": 3 } ],
       "furniture": { "-": "f_camp_chair", "A": "f_metal_table", "B": "f_metal_table", "C": "f_metal_table", "D": "f_metal_table" },
       "items": {
         " ": { "item": "trash_junkyard", "chance": 1 },
-        "A": { "item": "scavenged_foods", "chance": 100, "repeat": [ 1, 2 ] },
-        "B": { "item": "scavenged_foods", "chance": 100, "repeat": [ 3, 5 ] },
+        "A": { "item": "guns_milspec", "chance": 100, "repeat": [ 1, 2 ] },
+        "B": { "item": "guns_common", "chance": 100, "repeat": [ 3, 5 ] },
         "C": { "item": "scavenged_foods", "chance": 100, "repeat": [ 4, 7 ] },
         "D": { "item": "scavenged_foods", "chance": 100, "repeat": [ 3, 5 ] }
       }
     }
   },
-  
- {
+  {
+    "//": "5x5 shopkeeper",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_5x5_store",
+    "object": {
+      "mapgensize": [ 5, 5 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "     ",
+        " ABC ",
+        " D-D ",
+        " BCA ",
+        "     "
+      ],
+      "terrain": { " ": "t_null" },
+      "place_npcs": [ { "class": "DKZ_SCAVENGER_MERCHANT", "x": 2, "y": 2 }, { "class": "DKZ_SCAVENGER_GUARD", "x": 3, "y": 0 }, { "class": "DKZ_SCAVENGER_GUARD", "x": 0, "y": 3 } ],
+      "furniture": { "-": "f_camp_chair", "A": "f_metal_table", "B": "f_metal_table", "C": "f_metal_table", "D": "f_metal_table" },
+      "items": {
+        " ": { "item": "trash_junkyard", "chance": 1 },
+        "A": { "item": "bionics_mil", "chance": 70, "repeat": [ 1, 2 ] },
+        "B": { "item": "guns_common", "chance": 70, "repeat": [ 3, 5 ] },
+        "C": { "item": "bionics", "chance": 25, "repeat": [ 4, 7 ] },
+        "D": { "item": "scavenged_foods", "chance": 100, "repeat": [ 5, 7 ] }
+      }
+    }
+  },
+  {
     "//": "5x5 shopkeeper with food",
     "type": "mapgen",
     "method": "json",
@@ -597,14 +413,14 @@
         "     "
       ],
       "terrain": { " ": "t_null" },
-      "place_npcs": [ { "class": "DKZ_SCAVENGER_MERCHANT", "x": 2, "y": 2 }, { "class": "DKZ_SCAVENGER_GUARD", "x": 2, "y": 0 }, { "class": "DKZ_SCAVENGER_GUARD", "x": 0, "y": 4 } ],
+      "place_npcs": [ { "class": "DKZ_SCAVENGER_MERCHANT", "x": 2, "y": 2 }, { "class": "DKZ_SCAVENGER_GUARD", "x": 0, "y": 4 } ],
       "furniture": { "-": "f_camp_chair", "A": "f_metal_table", "B": "f_metal_table", "C": "f_metal_table", "D": "f_metal_table" },
       "items": {
         " ": { "item": "trash_junkyard", "chance": 1 },
         "A": { "item": "scavenged_foods", "chance": 100, "repeat": [ 3, 5 ] },
-        "B": { "item": "scavenged_foods", "chance": 100, "repeat": [ 1, 3 ] },
+        "B": { "item": "guns_rare", "chance": 100, "repeat": [ 1, 3 ] },
         "C": { "item": "scavenged_foods", "chance": 100, "repeat": [ 5, 9 ] },
-        "D": { "item": "scavenged_foods", "chance": 100, "repeat": [ 1, 2 ] }
+        "D": { "item": "guns_common", "chance": 100, "repeat": [ 1, 2 ] }
       }
     }
   },  
