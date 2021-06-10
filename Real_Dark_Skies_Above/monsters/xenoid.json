@@ -46,6 +46,7 @@
     ],
     "path_settings": { "max_dist": 5 },
     "death_drops": { "items": [ [ "dkz_elecscrap", 1 ] ] },	
+
     "death_function": [ "BROKEN" ],
     "flags": [
       "SEES",
@@ -115,6 +116,7 @@
     ],
     "path_settings": { "max_dist": 5 },
     "anger_triggers": [ "HURT", "PLAYER_WEAK", "STALK" ],
+	
     "death_drops": { "items": [ [ "dkz_elecscrap", 1 ] ] },	
     "death_function": [ "BROKEN" ],
     "flags": [
