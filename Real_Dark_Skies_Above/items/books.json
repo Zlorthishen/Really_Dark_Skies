@@ -10,7 +10,7 @@
     "price_postapoc": 7500,
     "material": [ "paper" ],
     "symbol": "?",
-    "looks_like": "mag_cars",	
+    "looks_like": "mag_cars",
     "color": "blue",
     "skill": "driving",
     "required_level": 6,
@@ -18,9 +18,8 @@
     "proficiencies": [ { "proficiency": "prof_helicopter_pilot", "time_factor": 0.8, "fail_factor": 0.5 } ],
     "intelligence": 10,
     "time": "30 m",
-	"fun": -3
+    "fun": -3
   },
-
   {
     "id": "dkz_helicopter_design_for_dummies",
     "type": "BOOK",
@@ -32,7 +31,7 @@
     "price_postapoc": 15000,
     "material": [ "paper" ],
     "symbol": "?",
-    "looks_like": "dnd_handbook",	
+    "looks_like": "dnd_handbook",
     "color": "blue",
     "skill": "mechanics",
     "required_level": 6,
@@ -40,6 +39,6 @@
     "proficiencies": [ { "proficiency": "prof_aircraft_mechanic", "time_factor": 0.4, "fail_factor": 0.5 } ],
     "intelligence": 12,
     "time": "30 m",
-	"fun": -4
+    "fun": -4
   }
 ]
