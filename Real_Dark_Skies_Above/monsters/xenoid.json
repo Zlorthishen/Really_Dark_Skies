@@ -46,7 +46,7 @@
     ],
     "path_settings": { "max_dist": 45, "max_length": 15, "avoid_traps": true, "allow_open_doors": true, "bash_strength": 1 },
     "death_drops": { "groups": [ [ "robots", 4 ], [ "eyebot", 1 ], [ "turret_searchlight", 1 ] ] },
-    "death_function": { "corpse_type": "BROKEN" },
+    "death_function": [ "BROKEN" ],
     "flags": [
       "SEES",
       "SMELLS",
@@ -116,7 +116,7 @@
     "path_settings": { "max_dist": 45, "max_length": 15, "avoid_traps": true, "allow_open_doors": true, "bash_strength": 1 },
     "anger_triggers": [ "HURT", "PLAYER_WEAK", "STALK" ],
     "death_drops": { "groups": [ [ "robots", 4 ], [ "skitterbot", 1 ] ] },
-    "death_function": { "corpse_type": "BROKEN" },
+    "death_function": [ "BROKEN" ],
     "flags": [
       "SEES",
       "SMELLS",
@@ -560,7 +560,7 @@
     ],
     "death_drops": "dkz_mon_xenoid_pyro",
     "path_settings": { "max_dist": 45, "max_length": 15, "avoid_traps": true, "allow_open_doors": true, "bash_strength": 15 },
-    "death_function": { "effect": { "id": "death_fireball", "hit_self": true } },
+    "death_function": [ "CONFLAGRATION" ],
     "flags": [
       "SEES",
       "SMELLS",
@@ -782,7 +782,7 @@
         "description": "<color_light_green>The %1$s fires a stream of blue hazy gas!</color>"
       }
     ],
-    "death_function": { "corpse_type": "BROKEN" },
+    "death_function": [ "BROKEN" ],
     "flags": [
       "SEES",
       "HEARS",
@@ -857,7 +857,7 @@
         "description": "Putrid gas rolls across the landscape!"
       }
     ],
-    "death_function": { "corpse_type": "BROKEN" },
+    "death_function": [ "BROKEN" ],
     "flags": [
       "SEES",
       "HEARS",
@@ -934,7 +934,7 @@
         "description": "<color_light_red>A blinding lazer causes widespread devastation.</color>"
       }
     ],
-    "death_function": { "corpse_type": "BROKEN" },
+    "death_function": [ "BROKEN" ],
     "flags": [
       "SEES",
       "HEARS",
@@ -1007,7 +1007,7 @@
         "description": "Sound returns as the emissary's cannon roars to life!!"
       }
     ],
-    "death_function": { "corpse_type": "BROKEN" },
+    "death_function": [ "BROKEN" ],
     "flags": [
       "SEES",
       "HEARS",
@@ -1067,7 +1067,7 @@
       }
     ],
     "anger_triggers": [ "PLAYER_CLOSE", "PLAYER_WEAK" ],
-    "death_function": { "corpse_type": "NO_CORPSE", "message": "The %s melts away." },
+    "death_function": [ "MELT" ],
     "flags": [ "SEES", "HEARS", "SMELLS", "SWIMS", "AQUATIC", "POISON", "HARDTOSHOOT" ]
   },
   {
@@ -1111,7 +1111,7 @@
       [ "SMASH", 20 ]
     ],
     "anger_triggers": [ "FRIEND_ATTACKED", "HURT" ],
-    "death_function": { "corpse_type": "NO_CORPSE", "message": "The %s melts away." },
+    "death_function": [ "MELT" ],
     "flags": [ "SEES", "HEARS", "SMELLS", "BASHES", "DESTROYS", "ACIDPROOF", "CAN_DIG" ]
   }
 ]

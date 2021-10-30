@@ -195,7 +195,7 @@
     "dodge": 4,
     "path_settings": { "max_dist": 5 },	
     "fear_triggers": [ "SOUND", "FIRE", "FRIEND_DIED", "FRIEND_ATTACKED", "HURT" ],
-    "death_function": { "corpse_type": "NO_CORPSE", "message": "The %s melts away." },
+    "death_function": [ "MELT" ],
     "flags": [
       "SEES",
       "HEARS",
