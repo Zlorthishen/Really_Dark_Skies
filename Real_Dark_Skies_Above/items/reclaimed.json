@@ -18,6 +18,6 @@
     "material_thickness": 0.4,
     "environmental_protection": 5,
     "flags": [ "WATER_FRIENDLY", "WATERPROOF", "STURDY", "SUN_GLASSES", "VARSIZE", "GAS_PROOF", "ZOOM" ],
-    "armor": [ { "encumbrance": 13, "coverage": 100, "covers": [ "eyes", "mouth" ] } ]
+    "armor_portion_data": [ { "encumbrance": 13, "coverage": 100, "covers": [ "eyes", "mouth" ] } ]
   }
 ]

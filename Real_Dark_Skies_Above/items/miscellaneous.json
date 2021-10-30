@@ -9,7 +9,6 @@
     "weight": "100 g",
     "to_hit": -1,
     "color": "dark_gray",
-    "sided": true,
     "price": 70000,
     "price_postapoc": 700000,
     "material": [ "kevlar" ],
@@ -43,7 +42,7 @@
         "item_restriction": [ "light_minus_battery_cell", "light_minus_atomic_battery_cell", "light_minus_disposable_cell" ]
       }
     ],
-    "armor": [ { "coverage": 11, "covers": [ "hand_l", "hand_r" ] } ]
+    "armor_portion_data": [ { "coverage": 11, "covers": [ "hand_l", "hand_r" ] } ]
   },
   {
     "type": "TOOL_ARMOR",
@@ -55,7 +54,6 @@
     "weight": "100 g",
     "to_hit": -1,
     "color": "red",
-    "sided": true,
     "price": 70000,
     "price_postapoc": 700000,
     "material": [ "kevlar" ],
@@ -88,7 +86,7 @@
         "item_restriction": [ "light_minus_battery_cell", "light_minus_atomic_battery_cell", "light_minus_disposable_cell" ]
       }
     ],
-    "armor": [ { "coverage": 11, "covers": [ "hand_l", "hand_r" ] } ]
+    "armor_portion_data": [ { "coverage": 11, "covers": [ "hand_l", "hand_r" ] } ]
   },
   {
     "type": "TOOL_ARMOR",
@@ -100,7 +98,6 @@
     "weight": "100 g",
     "to_hit": -1,
     "color": "red",
-    "sided": true,
     "price": 70000,
     "price_postapoc": 700000,
     "material": [ "kevlar" ],
@@ -134,6 +131,6 @@
         "item_restriction": [ "light_minus_battery_cell", "light_minus_atomic_battery_cell", "light_minus_disposable_cell" ]
       }
     ],
-    "armor": [ { "coverage": 11, "covers": [ "hand_l", "hand_r" ] } ]
+    "armor_portion_data": [ { "coverage": 11, "covers": [ "hand_l", "hand_r" ] } ]
   }
 ]
