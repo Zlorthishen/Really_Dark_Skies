@@ -838,8 +838,9 @@
     "death_drops": { "groups": [ [ "robots", 4 ], [ "eyebot", 1 ], [ "turret_searchlight", 1 ] ] },
     "fear_triggers": [ "HURT" ],
     "special_attacks": [
-      [ "PARROT", 20 ],
-      [ "TAZER", 20 ],
+      [ "PARROT", 5 ],
+      [ "IMPALE", 20 ],	  
+      [ "TAZER", 30 ],
       [ "SMASH", 30 ],
       [ "LONGSWIPE", 20 ],
       {
@@ -913,7 +914,8 @@
     "death_drops": { "groups": [ [ "robots", 4 ], [ "eyebot", 1 ], [ "turret_searchlight", 1 ] ] },
     "fear_triggers": [ "HURT" ],
     "special_attacks": [
-      [ "PARROT", 20 ],
+      [ "PARROT", 5 ],
+      [ "IMPALE", 20 ],	  
       [ "TAZER", 20 ],
       [ "SMASH", 30 ],
       [ "LONGSWIPE", 20 ],
@@ -989,7 +991,8 @@
     "death_drops": { "groups": [ [ "robots", 4 ], [ "eyebot", 1 ], [ "turret_searchlight", 1 ] ] },
     "fear_triggers": [ "HURT" ],
     "special_attacks": [
-      [ "PARROT", 20 ],
+      [ "PARROT", 5 ],
+      [ "IMPALE", 20 ],	  
       [ "TAZER", 20 ],
       [ "SMASH", 30 ],
       [ "LONGSWIPE", 20 ],

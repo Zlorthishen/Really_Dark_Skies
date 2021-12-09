@@ -152,7 +152,7 @@
     "type": "item_group",
     "id": "NC_MAQUIS_GUNSLINGER_shoes",
     "subtype": "distribution",
-    "entries": [ { "item": "boots_western", "prob": 20 } ]
+    "entries": [ { "item": "boots_western", "prob": 200 } ]
   },
   {
     "type": "item_group",
@@ -169,20 +169,20 @@
     "type": "item_group",
     "id": "NC_MAQUIS_GUNSLINGER_eyes",
     "subtype": "distribution",
-    "entries": [ { "item": "null", "prob": 80 }, { "item": "glasses_safety", "prob": 20 }, { "item": "sunglasses", "prob": 20 } ]
+    "entries": [ { "item": "null", "prob": 5 }, { "item": "fancy_sunglasses", "prob": 40 }, { "item": "glasses_bal", "prob": 70 }, { "item": "sunglasses", "prob": 20 } ]
   },
   {
     "type": "item_group",
     "id": "NC_MAQUIS_GUNSLINGER_hat",
     "subtype": "distribution",
     "entries": [
-      { "item": "null", "prob": 80 },
-      { "item": "hat_ball", "prob": 10 },
-      { "item": "hat_hard", "prob": 10 },
-      { "item": "helmet_bike", "prob": 10 },
+      { "item": "null", "prob": 5 },
+      { "item": "hat_ball", "prob": 30 },
       { "item": "helmet_riot", "prob": 10 },
-      { "item": "helmet_motor", "prob": 10 },
-      { "item": "hat_hunting", "prob": 10 }
+      { "item": "tricorne", "prob": 50 },
+      { "item": "cowboy_hat", "prob": 80 },
+      { "item": "hat_hunting", "prob": 20 },
+      { "item": "hat_boonie", "prob": 30 }	  
     ]
   },
   {
@@ -289,6 +289,7 @@
       { "group": "fireman_gear", "count-min": 1, "count-max": 2, "prob": 90 },
       { "group": "gear_survival", "count-min": 1, "count-max": 3, "prob": 90 },
       { "item": "western_holster", "prob": 100 },
+      { "item": "badge_marshal", "prob": 100 },
       { "item": "insecticide", "prob": 20 },
       { "item": "antifungal", "prob": 20 },
       { "item": "antiparasitic", "prob": 20 }
@@ -302,16 +303,33 @@
     "dynamic_line": {
       "u_is_wearing": "badge_marshal",
       "yes": [ "Are you lost, marshal?", "Don't start any trouble marshal, you aren't the law anymore." ],
-      "no": [ "Don't cause any trouble here, I'd rather kill monsters than people.", "Safe travels, MAQUIS." ]
+      "no": [ "Don't cause any trouble here, I'd rather kill monsters than people.", "Safe travels." ]
     },
     "responses": [
       { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_MAQUIS_GUNSLINGER_ROOT" },
       { "text": "What are you doing here?", "topic": "TALK_MAQUIS_GUNSLINGER_DOING" },
       { "text": "What is upstairs?", "topic": "TALK_MAQUIS_GUNSLINGER_UPSTAIRS" },
+      {
+        "text": "[MISSION] I'm looking for Chad Erikson, Randy sent me.",	
+        "condition": {
+          "and": [
+            { "not": { "u_has_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" } },
+            { "u_has_mission": "MISSION_CHECK_UP_ON_BIG_BROTHER" }
+          ]
+        },		
+        "topic": "TALK_MAQUIS_GUNSLINGER_BIG_BROTHER"		
+      },	  
       { "text": "See you later.", "topic": "TALK_DONE" }
     ]
   },
   {
+    "type": "talk_topic",
+    "id": "TALK_MAQUIS_GUNSLINGER_BIG_BROTHER",
+    "dynamic_line": [
+      "I'm not sure where Mr. Erikson is at right now."
+    ],
+    "responses": [ { "text": "Ok, Thanks.", "topic": "TALK_NONE" }, { "text": "Ok, I have to go now.", "topic": "TALK_DONE" } ]
+  },   {
     "id": "TALK_MAQUIS_GUNSLINGER_DOING",
     "type": "talk_topic",
     "dynamic_line": [

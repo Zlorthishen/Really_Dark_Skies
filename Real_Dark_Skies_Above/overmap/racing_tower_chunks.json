@@ -41,11 +41,167 @@
     ]
   },
   {
+    "//": "4x4 scientist ",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_4x4_science",
+    "weight": 250,
+    "object": {
+      "faction_owner": [ { "id": "maquis", "x": [ 0, 3 ], "y": [ 0, 3 ] } ],
+      "mapgensize": [ 4, 4 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        " -  ",
+        " bb ",
+        " bb-",
+        "    "
+      ],
+      "terrain": { " ": "t_null" },
+      "furniture": { "-": "f_camp_chair", "b": "f_tourist_table" },
+      "items": { " ": { "item": "trash", "chance": 1 }, "b": { "item": "tools_science", "chance": 80, "repeat": [ 1, 2 ] } }
+    }
+  },
+  {
+    "//": "4x4 scientist ",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_4x4_science",
+    "weight": 250,
+    "object": {
+      "faction_owner": [ { "id": "maquis", "x": [ 0, 3 ], "y": [ 0, 3 ] } ],
+      "mapgensize": [ 4, 4 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "  - ",
+        "-bb ",
+        " bb-",
+        "  - "
+      ],
+      "terrain": { " ": "t_null" },
+      "furniture": { "-": "f_camp_chair", "b": "f_tourist_table" },
+      "place_npcs": [ { "class": "DKZ_MAQUIS_SCIENTIST", "x": 1, "y": 0 } ],
+      "items": { " ": { "item": "trash", "chance": 1 }, "b": { "item": "dissection", "chance": 70, "repeat": [ 2, 3 ] } }
+    }
+  },
+  {
+    "//": "4x4 scientist ",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_4x4_science",
+    "weight": 250,
+    "object": {
+      "faction_owner": [ { "id": "maquis", "x": [ 0, 3 ], "y": [ 0, 3 ] } ],
+      "mapgensize": [ 4, 4 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "  - ",
+        " bb-",
+        "-bb-",
+        " -  "
+      ],
+      "terrain": { " ": "t_null" },
+      "furniture": { "-": "f_camp_chair", "b": "f_tourist_table" },
+      "place_npcs": [ { "class": "DKZ_MAQUIS_MOTH_MUTANT", "x": 1, "y": 0 } ],
+      "items": { " ": { "item": "trash", "chance": 1 }, "b": { "item": "mut_lab", "chance": 50, "repeat": [ 2, 3 ] } }
+    }
+  },
+  {
+    "//": "4x4 scientist ",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_4x4_science",
+    "weight": 250,
+    "object": {
+      "faction_owner": [ { "id": "maquis", "x": [ 0, 3 ], "y": [ 0, 3 ] } ],
+      "mapgensize": [ 4, 4 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        " -  ",
+        " bb ",
+        " bb-",
+        "  - "
+      ],
+      "terrain": { " ": "t_null" },
+      "furniture": { "-": "f_camp_chair", "b": "f_tourist_table" },
+      "place_npcs": [ { "class": "DKZ_MAQUIS_SCIENTIST", "x": 1, "y": 0 } ],
+      "items": { " ": { "item": "trash", "chance": 1 }, "b": { "item": "chem_lab", "chance": 70, "repeat": [ 2, 3 ] } }
+    }
+  },
+  {
+    "//": "4x4 scientist ",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_4x4_science",
+    "weight": 250,
+    "object": {
+      "faction_owner": [ { "id": "maquis", "x": [ 0, 3 ], "y": [ 0, 3 ] } ],
+      "mapgensize": [ 4, 4 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        " -  ",
+        " bb ",
+        " bb-",
+        "  - "
+      ],
+      "terrain": { " ": "t_null" },
+      "furniture": { "-": "f_camp_chair", "b": "f_tourist_table" },
+      "place_npcs": [ { "class": "DKZ_MAQUIS_SCIENTIST", "x": 1, "y": 0 } ],
+      "items": { " ": { "item": "trash", "chance": 1 }, "b": { "item": "science", "chance": 80, "repeat": [ 2, 3 ] } }
+    }
+  },
+  {
+    "//": "4x4 scientist ",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_4x4_science",
+    "weight": 350,
+    "object": {
+      "faction_owner": [ { "id": "maquis", "x": [ 0, 3 ], "y": [ 0, 3 ] } ],
+      "mapgensize": [ 4, 4 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        " -  ",
+        "-bb ",
+        " bb-",
+        " -  "
+      ],
+      "terrain": { " ": "t_null" },
+      "furniture": { "-": "f_camp_chair", "b": "f_tourist_table" },
+      "place_npcs": [ { "class": "DKZ_MAQUIS_BIONIC_DOCTOR", "x": 0, "y": 1 } ],
+      "items": {
+        " ": { "item": "trash", "chance": 1 },
+        "b": { "item": "autodoc_installation_programs", "chance": 95, "repeat": [ 2, 3 ] }
+      }
+    }
+  },
+  {
+    "//": "4x4 scientist ",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_4x4_science",
+    "weight": 250,
+    "object": {
+      "faction_owner": [ { "id": "maquis", "x": [ 0, 3 ], "y": [ 0, 3 ] } ],
+      "mapgensize": [ 4, 4 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        " -  ",
+        " bb ",
+        " bb-",
+        "  - "
+      ],
+      "terrain": { " ": "t_null" },
+      "furniture": { "-": "f_camp_chair", "b": "f_tourist_table" },
+      "place_npcs": [ { "class": "DKZ_MAQUIS_SCIENTIST", "x": 1, "y": 0 } ],
+      "items": { " ": { "item": "trash", "chance": 1 }, "b": { "item": "xenoid_scrap", "chance": 90, "repeat": [ 3, 5 ] } }
+    }
+  },
+  {
     "//": "5x5 two firepits ",
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "racing_tower_5x5_camp",
-    "weight": 500,	
+    "weight": 500,
     "object": {
       "mapgensize": [ 5, 5 ],
       "rotation": [ 0, 3 ],
@@ -62,13 +218,12 @@
       "items": { " ": { "item": "trash", "chance": 1 } }
     }
   },
-
   {
     "//": "5x5 two firepits ",
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "racing_tower_5x5_camp",
-    "weight": 250,	
+    "weight": 250,
     "object": {
       "mapgensize": [ 5, 5 ],
       "rotation": [ 0, 3 ],
@@ -90,7 +245,7 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "racing_tower_5x5_camp",
-	"weight": 250,
+    "weight": 250,
     "object": {
       "mapgensize": [ 5, 5 ],
       "rotation": [ 0, 3 ],
@@ -112,7 +267,7 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "racing_tower_5x5_camp",
-	"weight": 250,
+    "weight": 250,
     "object": {
       "mapgensize": [ 5, 5 ],
       "rotation": [ 0, 3 ],
@@ -134,7 +289,7 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "racing_tower_5x5_camp",
-	"weight": 250,
+    "weight": 250,
     "object": {
       "mapgensize": [ 5, 5 ],
       "rotation": [ 0, 3 ],
@@ -156,7 +311,7 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "racing_tower_5x5_camp",
-	"weight": 250,
+    "weight": 250,
     "object": {
       "mapgensize": [ 5, 5 ],
       "rotation": [ 0, 3 ],
@@ -178,7 +333,7 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "racing_tower_5x5_camp",
-	"weight": 250,
+    "weight": 250,
     "object": {
       "mapgensize": [ 5, 5 ],
       "rotation": [ 0, 3 ],
@@ -200,7 +355,7 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "racing_tower_5x5_camp",
-	"weight": 250,
+    "weight": 250,
     "object": {
       "mapgensize": [ 5, 5 ],
       "rotation": [ 0, 3 ],
@@ -222,7 +377,7 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "racing_tower_5x5_camp",
-	"weight": 250,
+    "weight": 250,
     "object": {
       "mapgensize": [ 5, 5 ],
       "rotation": [ 0, 3 ],
@@ -244,7 +399,7 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "racing_tower_5x5_camp",
-	"weight": 250,
+    "weight": 250,
     "object": {
       "mapgensize": [ 5, 5 ],
       "rotation": [ 0, 3 ],
@@ -268,9 +423,10 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "racing_tower_5x5_camp",
-	"weight": 250,
+    "weight": 250,
     "object": {
       "mapgensize": [ 5, 5 ],
+      "faction_owner": [ { "id": "maquis", "x": [ 0, 5 ], "y": [ 0, 5 ] } ],
       "rotation": [ 0, 3 ],
       "rows": [
         " xx  ",
@@ -292,9 +448,10 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "racing_tower_5x5_camp",
-	"weight": 250,
+    "weight": 250,
     "object": {
       "mapgensize": [ 5, 5 ],
+      "faction_owner": [ { "id": "maquis", "x": [ 0, 5 ], "y": [ 0, 5 ] } ],
       "rotation": [ 0, 3 ],
       "rows": [
         "  x  ",
@@ -316,9 +473,10 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "racing_tower_5x5_camp",
-	"weight": 250,
+    "weight": 250,
     "object": {
       "mapgensize": [ 5, 5 ],
+      "faction_owner": [ { "id": "maquis", "x": [ 0, 5 ], "y": [ 0, 5 ] } ],
       "rotation": [ 0, 3 ],
       "rows": [
         "   x ",
@@ -340,10 +498,11 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "racing_tower_5x5_camp",
-	"weight": 250,
+    "weight": 250,
     "object": {
       "mapgensize": [ 5, 5 ],
       "rotation": [ 0, 3 ],
+      "faction_owner": [ { "id": "maquis", "x": [ 0, 5 ], "y": [ 0, 5 ] } ],
       "rows": [
         "     ",
         " T T ",
@@ -352,8 +511,7 @@
         "     "
       ],
       "terrain": { " ": "t_null", "T": "t_utility_light" },
-      "place_vehicles": [ { "vehicle": "portable_generator", "x": 2, "y": 2, "chance": 100, "rotation": 90, "status": 2 } ],
-      "items": { " ": { "item": "trash_junkyard", "chance": 15 } }
+      "place_vehicles": [ { "vehicle": "portable_generator", "x": 2, "y": 2, "chance": 100, "rotation": 90, "status": 2 } ]
     }
   },
   {
@@ -361,10 +519,11 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "racing_tower_5x5_camp",
-	"weight": 250,
+    "weight": 250,
     "object": {
       "mapgensize": [ 5, 5 ],
       "rotation": [ 0, 3 ],
+      "faction_owner": [ { "id": "maquis", "x": [ 0, 5 ], "y": [ 0, 5 ] } ],
       "rows": [
         "  x  ",
         "  xx ",
@@ -385,10 +544,11 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "racing_tower_5x5_store",
-	"weight": 250,
+    "weight": 250,
     "object": {
       "mapgensize": [ 5, 5 ],
       "rotation": [ 0, 3 ],
+      "faction_owner": [ { "id": "maquis", "x": [ 0, 5 ], "y": [ 0, 5 ] } ],
       "rows": [
         "     ",
         " ABC ",
@@ -413,10 +573,11 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "racing_tower_5x5_store",
-	"weight": 250,
+    "weight": 250,
     "object": {
       "mapgensize": [ 5, 5 ],
       "rotation": [ 0, 3 ],
+      "faction_owner": [ { "id": "maquis", "x": [ 0, 5 ], "y": [ 0, 5 ] } ],
       "rows": [
         "     ",
         " ABC ",
@@ -445,10 +606,11 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "racing_tower_5x5_store",
-	"weight": 250,
+    "weight": 250,
     "object": {
       "mapgensize": [ 5, 5 ],
       "rotation": [ 0, 3 ],
+      "faction_owner": [ { "id": "maquis", "x": [ 0, 5 ], "y": [ 0, 5 ] } ],
       "rows": [
         "     ",
         " ABC ",
@@ -469,13 +631,114 @@
     }
   },
   {
+    "//": "6x6 junk",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_6x6_junk",
+    "weight": 250,
+    "object": {
+      "mapgensize": [ 6, 6 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "JJJj  ",
+        " jj jJ",
+        "JjJ JJ",
+        "Jj jj ",
+        "JJJJJ ",
+        "  jjj "
+      ],
+      "terrain": { " ": "t_null" },
+      "furniture": {
+        "j": [ "f_cardboard_box", "f_cardboard_box", "f_cardboard_box", "f_crate_c" ],
+        "J": [ "f_cardboard_wall", "f_cardboard_wall", "f_cardboard_wall", "f_cardboard_box" ]
+      },
+      "items": { " ": { "item": "newspaper", "chance": 2 }, "j": { "item": "newspaper", "chance": 100, "repeat": [ 5, 9 ] } }
+    }
+  },
+  {
+    "//": "6x6 junk",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_6x6_junk",
+    "weight": 250,
+    "object": {
+      "mapgensize": [ 6, 6 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "  jjj ",
+        "JjJj J",
+        " Jjjj ",
+        "Jj jj ",
+        "jjjJJ ",
+        "  jjJJ"
+      ],
+      "terrain": { " ": "t_null" },
+      "furniture": {
+        "j": [ "f_cardboard_box", "f_cardboard_box", "f_cardboard_box", "f_crate_c" ],
+        "J": [ "f_cardboard_wall", "f_cardboard_wall", "f_cardboard_wall", "f_cardboard_box" ]
+      },
+      "items": { " ": { "item": "trash", "chance": 10 }, "j": { "item": "newspaper", "chance": 100, "repeat": [ 5, 9 ] } }
+    }
+  },
+  {
+    "//": "6x6 junk",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_6x6_junk",
+    "weight": 250,
+    "object": {
+      "mapgensize": [ 6, 6 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        " JJjJj",
+        " J jjJ",
+        "jJjjjj",
+        "JJ jJj",
+        " jjJJ ",
+        "JJ  jj"
+      ],
+      "terrain": { " ": "t_null" },
+      "furniture": {
+        "j": [ "f_cardboard_box", "f_cardboard_box", "f_cardboard_box", "f_crate_c" ],
+        "J": [ "f_cardboard_wall", "f_cardboard_wall", "f_cardboard_wall", "f_cardboard_box" ]
+      },
+      "items": { " ": { "item": "newspaper", "chance": 1 }, "j": { "item": "newspaper", "chance": 100, "repeat": [ 5, 9 ] } }
+    }
+  },
+  {
+    "//": "6x6 junk",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_6x6_junk",
+    "weight": 250,
+    "object": {
+      "mapgensize": [ 6, 6 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "jjjJ j",
+        " JJJjJ",
+        "jJjjjj",
+        "jJ Jj ",
+        " JjJJJ",
+        "jj  Jj"
+      ],
+      "terrain": { " ": "t_null" },
+      "furniture": {
+        "j": [ "f_cardboard_box", "f_cardboard_box", "f_cardboard_box", "f_crate_c" ],
+        "J": [ "f_cardboard_wall", "f_cardboard_wall", "f_cardboard_box", "f_crate_c" ]
+      },
+      "items": { " ": { "item": "newspaper", "chance": 10 }, "j": { "item": "newspaper", "chance": 100, "repeat": [ 5, 9 ] } }
+    }
+  },
+  {
     "//": "7x7 food court, two tables",
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "racing_tower_7x7_food",
-	"weight": 250,
+    "weight": 250,
     "object": {
       "mapgensize": [ 7, 7 ],
+      "faction_owner": [ { "id": "maquis", "x": [ 0, 7 ], "y": [ 0, 7 ] } ],
       "rotation": [ 0, 3 ],
       "rows": [
         "       ",
@@ -497,9 +760,10 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "racing_tower_7x7_food",
-	"weight": 250,
+    "weight": 250,
     "object": {
       "mapgensize": [ 7, 7 ],
+      "faction_owner": [ { "id": "maquis", "x": [ 0, 7 ], "y": [ 0, 7 ] } ],
       "rotation": [ 0, 3 ],
       "rows": [
         "       ",
@@ -521,9 +785,10 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "racing_tower_7x7_food",
-	"weight": 250,
+    "weight": 250,
     "object": {
       "mapgensize": [ 7, 7 ],
+      "faction_owner": [ { "id": "maquis", "x": [ 0, 7 ], "y": [ 0, 7 ] } ],
       "rotation": [ 0, 3 ],
       "rows": [
         "       ",
@@ -545,9 +810,10 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "racing_tower_7x7_food",
-	"weight": 250,
+    "weight": 250,
     "object": {
       "mapgensize": [ 7, 7 ],
+      "faction_owner": [ { "id": "maquis", "x": [ 0, 7 ], "y": [ 0, 7 ] } ],
       "rotation": [ 0, 3 ],
       "rows": [
         "       ",
@@ -569,9 +835,10 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "racing_tower_7x7_food",
-	"weight": 250,
+    "weight": 250,
     "object": {
       "mapgensize": [ 7, 7 ],
+      "faction_owner": [ { "id": "maquis", "x": [ 0, 7 ], "y": [ 0, 7 ] } ],
       "rotation": [ 0, 3 ],
       "rows": [
         "       ",
@@ -593,9 +860,10 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "racing_tower_7x7_food",
-	"weight": 250,
+    "weight": 250,
     "object": {
       "mapgensize": [ 7, 7 ],
+      "faction_owner": [ { "id": "maquis", "x": [ 0, 7 ], "y": [ 0, 7 ] } ],
       "rotation": [ 0, 3 ],
       "rows": [
         "       ",
@@ -626,9 +894,10 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "racing_tower_7x7_food",
-	"weight": 250,
+    "weight": 250,
     "object": {
       "mapgensize": [ 7, 7 ],
+      "faction_owner": [ { "id": "maquis", "x": [ 0, 7 ], "y": [ 0, 7 ] } ],
       "rotation": [ 0, 3 ],
       "rows": [
         "       ",
@@ -655,8 +924,8 @@
     "//": "13x13 glass enclosed news stand",
     "type": "mapgen",
     "method": "json",
-    "nested_mapgen_id": "racing_tower_13x13commercial",
-	"weight": 250,
+    "nested_mapgen_id": "racing_tower_13x13commNESW",
+    "weight": 250,
     "object": {
       "mapgensize": [ 13, 13 ],
       "rotation": [ 0, 3 ],
@@ -692,8 +961,8 @@
     "//": "13x13 glass enclosed arcade",
     "type": "mapgen",
     "method": "json",
-    "nested_mapgen_id": "racing_tower_13x13commercial",
-	"weight": 250,
+    "nested_mapgen_id": "racing_tower_13x13commEW",
+    "weight": 250,
     "object": {
       "mapgensize": [ 13, 13 ],
       "rotation": [ 0, 3 ],
@@ -730,8 +999,8 @@
     "//": "13x13 glass enclosed vending machines",
     "type": "mapgen",
     "method": "json",
-    "nested_mapgen_id": "racing_tower_13x13commercial",
-	"weight": 250,
+    "nested_mapgen_id": "racing_tower_13x13commNS",
+    "weight": 250,
     "object": {
       "mapgensize": [ 13, 13 ],
       "rotation": [ 0, 3 ],
@@ -768,8 +1037,8 @@
     "//": "13x13 glass enclosed vending machines",
     "type": "mapgen",
     "method": "json",
-    "nested_mapgen_id": "racing_tower_13x13commercial",
-	"weight": 250,
+    "nested_mapgen_id": "racing_tower_13x13commNESW",
+    "weight": 250,
     "object": {
       "mapgensize": [ 13, 13 ],
       "rotation": [ 0, 3 ],
@@ -806,8 +1075,8 @@
     "//": "13x13 glass enclosed golf store",
     "type": "mapgen",
     "method": "json",
-    "nested_mapgen_id": "racing_tower_13x13commercial",
-	"weight": 250,
+    "nested_mapgen_id": "racing_tower_13x13commEW",
+    "weight": 250,
     "object": {
       "mapgensize": [ 13, 13 ],
       "rotation": [ 0, 3 ],

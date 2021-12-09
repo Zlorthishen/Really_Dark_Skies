@@ -80,11 +80,13 @@
     "id": "NC_MAQUIS_ATHLETIC_pants_male",
     "subtype": "distribution",
     "entries": [
+      { "item": "b_shorts", "prob": 70 },
       { "item": "jeans", "prob": 20 },
       { "item": "pants", "prob": 20 },
       { "item": "pants_leather", "prob": 20 },
       { "item": "pants_cargo", "prob": 20 },
-      { "item": "bunker_pants", "prob": 20 }
+      { "item": "postman_shorts", "prob": 20 },
+      { "item": "technician_pants_gray", "prob": 20 }
     ]
   },
   {
@@ -92,11 +94,15 @@
     "id": "NC_MAQUIS_ATHLETIC_pants_female",
     "subtype": "distribution",
     "entries": [
+      { "item": "b_shorts", "prob": 30 },
       { "item": "jeans", "prob": 20 },
       { "item": "pants", "prob": 20 },
       { "item": "pants_leather", "prob": 20 },
       { "item": "pants_cargo", "prob": 20 },
-      { "item": "skirt", "prob": 20 }
+      { "item": "leggings", "prob": 70 },
+      { "item": "skirt", "prob": 50 },
+      { "item": "postman_shorts", "prob": 10 },	  
+      { "item": "technician_pants_gray", "prob": 10 }
     ]
   },
   {
@@ -319,16 +325,34 @@
     "type": "talk_topic",
     "dynamic_line": {
       "u_is_wearing": "badge_marshal",
-      "yes": [ "Are you lost, marshal?", "Oh, a U.S. marshal, where did all of you guys go?." ],
-      "no": [ "Welcome…", "Here to trade, I hope?", "Safe travels, MAQUIS." ]
+      "yes": [ "Are you lost, marshal?", "What can I do for you marshal?" ],
+      "no": [ "Welcome…", "Here to trade, I hope?", "Safe travels, scavenger." ]
     },
     "responses": [
       { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_MAQUIS_ATHLETIC_ROOT" },
       { "text": "What are you doing here?", "topic": "TALK_MAQUIS_ATHLETIC_DOING" },
       { "text": "What is upstairs?", "topic": "TALK_MAQUIS_ATHLETIC_UPSTAIRS" },
+      {
+        "text": "[MISSION] I'm looking for Chad Erikson, Randy sent me.",	
+        "condition": {
+          "and": [
+            { "not": { "u_has_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" } },
+            { "u_has_mission": "MISSION_CHECK_UP_ON_BIG_BROTHER" }
+          ]
+        },			
+        "topic": "TALK_MAQUIS_ATHLETIC_BIG_BROTHER"		
+      },	  
       { "text": "See you later.", "topic": "TALK_DONE" }
     ]
   },
+  {
+    "type": "talk_topic",
+    "id": "TALK_MAQUIS_ATHLETIC_BIG_BROTHER",
+    "dynamic_line": [
+      "I'm not sure where Mr. Erikson is at right now."
+    ],
+    "responses": [ { "text": "Ok, Thanks.", "topic": "TALK_NONE" }, { "text": "Ok, I have to go now.", "topic": "TALK_DONE" } ]
+  },   
   {
     "id": "TALK_MAQUIS_ATHLETIC_DOING",
     "type": "talk_topic",

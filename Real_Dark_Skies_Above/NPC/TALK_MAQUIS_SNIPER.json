@@ -251,9 +251,9 @@
     "id": "NC_MAQUIS_SNIPER_rifle",
     "subtype": "distribution",
     "entries": [
-      { "item": "rm11b_sniper_rifle", "prob": 125, "charges-min": 4, "charges-max": 10 },
+      { "item": "rm11b_sniper_rifle", "prob": 95, "charges-min": 4, "charges-max": 10 },
       { "item": "rm51_assault_rifle", "prob": 55, "charges-min": 45, "charges-max": 50 },
-      { "item": "rm88_battle_rifle", "prob": 25, "charges-min": 45, "charges-max": 50 }	  
+      { "item": "rm88_battle_rifle", "prob": 15, "charges-min": 45, "charges-max": 50 }	  
     ]
   },  {
     "type": "item_group",
@@ -273,7 +273,7 @@
     "subtype": "distribution",
     "entries": [
       { "group": "rad_gear", "count-min": 1, "count-max": 2, "prob": 90 },
-      { "group": "fireman_gear", "count-min": 1, "count-max": 2, "prob": 90 },
+      { "item": "badge_marshal", "prob": 100 },
       { "item": "8mm_caseless", "count-min": 10, "count-max": 30, "prob": 100 }
     ]
   },  
@@ -282,23 +282,36 @@
     "//": "----------DIALOGUE OPTIONS-------------------------------------------------------------------------------------",  
     "id": "TALK_MAQUIS_SNIPER_ROOT",
     "type": "talk_topic",
-    "dynamic_line": {
-      "u_is_wearing": "badge_marshal",
-      "yes": [ "Did you get up here all by yourself, marshal?", "Don't start any trouble marshal, it is a long fall down." ],
-      "no": [ "Don't distract me while I'm aiming.", "I'm kind of busy right now." ]
-    },
+    "dynamic_line": [ "Don't distract me while I'm aiming.", "I'm kind of busy right now." ],
     "responses": [
       { "text": "Let's trade.", "topic": "TALK_MAQUIS_SNIPER_TRADE" },
       { "text": "What are you doing here?", "topic": "TALK_MAQUIS_SNIPER_DOING" },
       { "text": "Why are you upstairs?", "topic": "TALK_MAQUIS_SNIPER_UPSTAIRS" },
+      {
+        "text": "[MISSION] I'm looking for Chad Erikson, his brother Randy sent me.",	
+        "condition": {
+          "and": [
+            { "not": { "u_has_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" } },
+            { "u_has_mission": "MISSION_CHECK_UP_ON_BIG_BROTHER" }
+          ]
+        },		
+        "topic": "TALK_MAQUIS_SNIPER_BIG_BROTHER"		
+      },	  
       { "text": "See you later.", "topic": "TALK_DONE" }
     ]
   },
   {
+    "type": "talk_topic",
+    "id": "TALK_MAQUIS_SNIPER_BIG_BROTHER",
+    "dynamic_line": [
+      "I believe Mr. Erikson has an office on the seventh floor.", "Mr. Erikson is usually in his office in the seventh floor."
+    ],
+    "responses": [ { "text": "Ok, Thanks.", "topic": "TALK_NONE" }, { "text": "Ok, I have to go now.", "topic": "TALK_DONE" } ]
+  },   {
     "id": "TALK_MAQUIS_SNIPER_DOING",
     "type": "talk_topic",
     "dynamic_line": [ 
-      "There is an arrangement with everyone that lives here, the bottom two floors are a free trade zone and the upper floors are for the alien resistance operation. Part of that agreement means some of us with sharp eyes and quick trigger-fingers get to be up here.",
+      "There is an arrangement with everyone that lives here, the bottom few floors are a free trade zone, the middle floors are general living space, and the upper floors are for the alien resistance operation. Part of that agreement means some of us with sharp eyes and quick trigger-fingers get to be up here.",
       "It is really nice to be up here just me, my mp3 player and this huge fucking gun.",
 	  "This entire tower might be one of the last good places left in New England, let alone the world.  Its kind of awesome when you think about it."
     ],
@@ -312,9 +325,8 @@
     "id": "TALK_MAQUIS_SNIPER_UPSTAIRS",
     "type": "talk_topic",
     "dynamic_line": [
-      "Being up here is isn't just fun, I have to keep an eye on things down on the ground.",
-      "I'm there are some mutants in the upper floors and a few in the basement, but they're good people.  So long as you don't stare at the heavily deformed ones.",	  
-	  "The library is nice, they're always on the look for more books, the more rare, the more they'll give for them."
+      "Being up here is isn't just for fun, I have to keep an eye on things down on the ground.",
+      "There are some mutants in the upper floors and a few in the basement, but they're good people.  So long as you don't stare at the heavily deformed ones." 
     ],
     "responses": [
       { "text": "Let's trade.", "topic": "TALK_MAQUIS_SNIPER_TRADE" },
@@ -324,7 +336,7 @@
   {
     "id": "TALK_MAQUIS_SNIPER_TRADE",
     "type": "talk_topic",
-    "dynamic_line": [ "No.  I wouldn't sell you this gun.", "Sorry, I can't sell these guns.", "Go down stairs if you want to trade, I'm busy up here.", "Piss off." ],
+    "dynamic_line": [ "No.  I wouldn't sell you this gun.", "Go down stairs if you want to trade, I'm busy up here.", "Piss off." ],
     "responses": [
       { "text": "Well, bye.", "topic": "TALK_DONE", "opinion": { "trust": -2, "value": -2 } }
     ]

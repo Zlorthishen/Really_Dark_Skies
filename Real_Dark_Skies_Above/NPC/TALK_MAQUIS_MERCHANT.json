@@ -296,16 +296,33 @@
     "dynamic_line": {
       "u_is_wearing": "badge_marshal",
       "yes": [ "Looking to make a purchase, marshal?", "Oh, a U.S. marshal, I thought you were all extinct." ],
-      "no": [ "Welcome…", "Here to trade, I hope?", "Safe travels, MAQUIS." ]
+      "no": [ "Welcome…", "Here to trade, I hope?", "Safe travels." ]
     },
     "responses": [
       { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_MAQUIS_MERCHANT_ROOT" },
       { "text": "What are you doing here?", "topic": "TALK_MAQUIS_MERCHANT_DOING" },
       { "text": "What is upstairs?", "topic": "TALK_MAQUIS_MERCHANT_UPSTAIRS" },
+      {
+        "text": "[MISSION] I'm looking for Chad Erikson, Randy sent me.",	
+        "condition": {
+          "and": [
+            { "not": { "u_has_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" } },
+            { "u_has_mission": "MISSION_CHECK_UP_ON_BIG_BROTHER" }
+          ]
+        },		
+        "topic": "TALK_MAQUIS_MERCHANT_BIG_BROTHER"		
+      },	  
       { "text": "See you later.", "topic": "TALK_DONE" }
     ]
   },
   {
+    "type": "talk_topic",
+    "id": "TALK_MAQUIS_MERCHANT_BIG_BROTHER",
+    "dynamic_line": [
+      "I'm not sure where Mr. Erikson is at right now."
+    ],
+    "responses": [ { "text": "Ok, Thanks.", "topic": "TALK_NONE" }, { "text": "Ok, I have to go now.", "topic": "TALK_DONE" } ]
+  },   {
     "id": "TALK_MAQUIS_MERCHANT_DOING",
     "type": "talk_topic",
     "dynamic_line": [

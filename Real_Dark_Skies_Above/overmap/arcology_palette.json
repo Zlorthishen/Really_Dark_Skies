@@ -4,7 +4,7 @@
     "id": "arcology_palette",
     "terrain": {
       ".": "t_open_air",
-      ";": "t_concrete",
+      ";": "t_thconc_floor_olight",
       ":": "t_sidewalk",
       "'": "t_pavement",
       "`": "t_pavement_y",
@@ -34,7 +34,7 @@
       "]": "t_wood_stairs_up",
       "[": "t_wood_stairs_down",
       "~": "t_water_sh",
-      "T": "t_tree_cherry",
+      "z": "t_tree_cherry",
       "2": "t_machinery_light",
       "3": "t_machinery_heavy",
       "5": "t_palisade_pulley",
@@ -59,10 +59,12 @@
       "B": "f_barricade_road",
 	  "b": "f_cardboard_box",	  
       "Q": "f_toilet",
+	  "T": "f_standing_tank",	  
       "s": "f_sandbag_half",
-      "S": "f_sandbag_wall"
+      "S": "f_sandbag_wall",
+	  "j": "f_cardboard_box",
+	  "J": "f_cardboard_wall"
     },
-    "toilets": { "Q": { "amount": [ 15, 50 ] } },
-    "items": { "l": { "item": "drugdealer", "chance": 40 } }
+    "toilets": { "Q": { "amount": [ 15, 50 ] } }
   }
 ]

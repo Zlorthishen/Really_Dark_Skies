@@ -152,7 +152,7 @@
     "id": "dkz_knight_extras",
     "type": "item_group",
     "items": [
-      { "item": "mobile_memory_card", "prob": 300, "count": [ 2, 5 ] },
+      { "item": "mobile_memory_card", "prob": 75 },
       { "item": "legrig", "prob": 10 },
       { "item": "book_fict_soft_scifi_roadp", "prob": 20 },
       { "item": "book_fict_soft_scifi_brave", "prob": 30 },
