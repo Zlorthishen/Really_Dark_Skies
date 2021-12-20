@@ -16,8 +16,18 @@
     "common": false,		
     "traits": [
       { "trait": "DKZ_COMBAT", "prob": 100 },
-      { "group": "NPC_starting_traits" }, 
+      { "group": "DKZ_starting_traits" }, 
 	  { "group": "Appearance_demographics" },
+      { "trait": "WAKEFUL", "prob": 50 },
+      { "trait": "GOODHEARING", "prob": 25 },
+      { "trait": "ROBUST", "prob": 70 },
+      { "trait": "PRETTY", "prob": 5 },
+      { "trait": "ANTIJUNK", "prob": 50 },
+      { "trait": "NAUSEA", "prob": 1 },
+      { "trait": "HUNGER", "prob": 2 },
+      { "trait": "DEX_ALPHA", "prob": 30  },
+      { "trait": "INT_ALPHA", "prob": 10  },
+      { "trait": "PER_ALPHA", "prob": 90  },	
       { "trait": "NIGHTVISION", "prob": 75 }
     ],
     "skills": [
@@ -140,13 +150,8 @@
     "entries": [
       { "item": "touring_suit", "prob": 10 },
       { "item": "jacket_light", "prob": 20 },
-      { "item": "armor_riot", "prob": 20 },
-      { "item": "swat_armor", "prob": 40 },
       { "item": "trenchcoat", "prob": 20 },
-      { "item": "motorbike_armor", "prob": 10 },
-      { "item": "ballistic_vest_esapi", "prob": 30 },
-      { "item": "dragonskin", "prob": 15 },
-      { "item": "kevlar", "prob": 25 }
+      { "item": "ballistic_vest_esapi", "prob": 30 }
     ]
   },
   {

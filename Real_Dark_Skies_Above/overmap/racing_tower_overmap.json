@@ -218,7 +218,7 @@
       { "point": [ 1, -1, -2 ], "overmap": "subway_ns" },
       { "point": [ 1, 4, -2 ], "overmap": "subway_ns" }	  
     ],
-    "rotate": false,
+    "rotate": true,
     "locations": [ "land" ],
     "city_distance": [ 5, 10 ],
     "city_sizes": [ 10, 15 ],

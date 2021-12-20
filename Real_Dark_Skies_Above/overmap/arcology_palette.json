@@ -18,6 +18,7 @@
       "$": "t_junk_wall",
       "%": "t_rock_smooth",
       "^": "t_column",
+      "V": "t_column_halfway",	  
       "&": "t_grate",	  
       "*": ["t_dirt", "t_dirt", "t_dirt", "t_dirt", "t_dirt","t_mud" ],
       "m": ["t_dirt", "t_mud", "t_mud", "t_mud", "t_mud", "t_mud" ],
@@ -63,7 +64,8 @@
       "s": "f_sandbag_half",
       "S": "f_sandbag_wall",
 	  "j": "f_cardboard_box",
-	  "J": "f_cardboard_wall"
+	  "J": "f_cardboard_wall",
+	  "K": "f_floor_mattress"	  
     },
     "toilets": { "Q": { "amount": [ 15, 50 ] } }
   }

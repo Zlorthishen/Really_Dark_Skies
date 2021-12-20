@@ -16,9 +16,18 @@
     "common": false,		
     "traits": [
       { "trait": "DKZ_COMBAT", "prob": 100 },
-      { "group": "NPC_starting_traits" }, 
+      { "group": "DKZ_starting_traits" }, 
 	  { "group": "Appearance_demographics" },
-      { "trait": "ROBUST", "prob": 80 }
+      { "trait": "WAKEFUL", "prob": 80 },
+      { "trait": "GOODHEARING", "prob": 50 },
+      { "trait": "ROBUST", "prob": 50 },
+      { "trait": "PRETTY", "prob": 15 },
+      { "trait": "ANTIJUNK", "prob": 50 },
+      { "trait": "NAUSEA", "prob": 3 },
+      { "trait": "HUNGER", "prob": 2 },
+      { "trait": "DEX_ALPHA", "prob": 90  },
+      { "trait": "INT_ALPHA", "prob": 20  },
+      { "trait": "PER_ALPHA", "prob": 20  }	  
     ],
     "skills": [
       { "skill": "ALL", "level": { "sum": [ { "dice": [ 3, 2 ] }, { "constant": -4 } ] } },
@@ -144,8 +153,7 @@
       { "item": "trenchcoat", "prob": 20 },
       { "item": "jacket_jean", "prob": 20 },
       { "item": "bunker_coat", "prob": 10 },
-      { "item": "jacket_windbreaker", "prob": 10 },
-      { "item": "kevlar", "prob": 5 }
+      { "item": "jacket_windbreaker", "prob": 10 }
     ]
   },
   {
@@ -333,9 +341,9 @@
     "id": "TALK_MAQUIS_GUNSLINGER_DOING",
     "type": "talk_topic",
     "dynamic_line": [
-      "There is an arrangement with everyone that lives here, the bottom two floors are a free trade zone and the upper floors are for the alien resistance operation.  We all help them keep the outside defences in place and warn of any zombies or xenoids around the perimeter.  You can always count on the snipers upstairs for overwatch while smashing and looting.",
-      "I'm there are some mutants in the upper floors and some in the basement, but they're good people.  So long as you don't stare at the heavily deformed ones.",	  
-      "I keep the peace down here between other MAQUISs, but everyone is very civil to each other since there are monsters outside."
+      "There are some mutants in the upper floors and some in the basement, but they're good people.  So long as you don't stare at the heavily deformed ones.",	  
+	  "My trigger finger is itching, must be some trouble on the horizon.",
+      "I keep the peace down here between other scavengers, but everyone is very civil to each other since there are monsters outside."
     ],
     "responses": [
       { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_MAQUIS_GUNSLINGER_ROOT" },

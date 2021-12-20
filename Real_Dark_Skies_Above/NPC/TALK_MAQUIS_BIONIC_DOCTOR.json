@@ -15,10 +15,20 @@
     "job_description": "I'm here to salvage pre-cataclysm vehicles to make my own kill-dozer.",
     "common": false,
     "traits": [
-      { "trait": "DKZ_SCIENTIST", "prob": 100 },
-      { "group": "NPC_starting_traits" },
+      { "distribution": [ { "trait": "DKZ_SCIENTIST", "prob": 50 }, { "trait": "DKZ_MEDIC", "prob": 50 } ] },	  
+      { "trait": "PROF_AUTODOC", "prob": 100 },
+      { "group": "DKZ_starting_traits" },
       { "group": "Appearance_demographics" },
-      { "trait": "ROBUST", "prob": 20 }
+      { "trait": "WAKEFUL", "prob": 75 },
+      { "trait": "GOODHEARING", "prob": 75 },
+      { "trait": "ROBUST", "prob": 30 },
+      { "trait": "PRETTY", "prob": 5 },
+      { "trait": "ANTIJUNK", "prob": 50 },
+      { "trait": "NAUSEA", "prob": 10 },
+      { "trait": "HUNGER", "prob": 20 },
+      { "trait": "DEX_ALPHA", "prob": 10  },
+      { "trait": "INT_ALPHA", "prob": 90  },
+      { "trait": "PER_ALPHA", "prob": 10  }
     ],
     "skills": [
       { "skill": "ALL", "level": { "sum": [ { "dice": [ 3, 2 ] }, { "constant": -4 } ] } },

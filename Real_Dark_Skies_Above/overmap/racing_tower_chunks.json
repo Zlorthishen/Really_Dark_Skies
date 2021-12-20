@@ -649,7 +649,7 @@
       ],
       "terrain": { " ": "t_null" },
       "furniture": {
-        "j": [ "f_cardboard_box", "f_cardboard_box", "f_cardboard_box", "f_crate_c" ],
+        "j": [ "f_cardboard_box", "f_cardboard_box", "f_cardboard_box","f_cardboard_box", "f_cardboard_box", "f_crate_c" ],
         "J": [ "f_cardboard_wall", "f_cardboard_wall", "f_cardboard_wall", "f_cardboard_box" ]
       },
       "items": { " ": { "item": "newspaper", "chance": 2 }, "j": { "item": "newspaper", "chance": 100, "repeat": [ 5, 9 ] } }
@@ -674,7 +674,7 @@
       ],
       "terrain": { " ": "t_null" },
       "furniture": {
-        "j": [ "f_cardboard_box", "f_cardboard_box", "f_cardboard_box", "f_crate_c" ],
+        "j": [ "f_cardboard_box", "f_cardboard_box", "f_cardboard_box", "f_cardboard_box", "f_cardboard_box", "f_crate_c" ],
         "J": [ "f_cardboard_wall", "f_cardboard_wall", "f_cardboard_wall", "f_cardboard_box" ]
       },
       "items": { " ": { "item": "trash", "chance": 10 }, "j": { "item": "newspaper", "chance": 100, "repeat": [ 5, 9 ] } }
@@ -699,12 +699,63 @@
       ],
       "terrain": { " ": "t_null" },
       "furniture": {
-        "j": [ "f_cardboard_box", "f_cardboard_box", "f_cardboard_box", "f_crate_c" ],
+        "j": [ "f_cardboard_box", "f_cardboard_box", "f_cardboard_box","f_cardboard_box", "f_cardboard_box", "f_cardboard_box", "f_crate_c" ],
         "J": [ "f_cardboard_wall", "f_cardboard_wall", "f_cardboard_wall", "f_cardboard_box" ]
       },
       "items": { " ": { "item": "newspaper", "chance": 1 }, "j": { "item": "newspaper", "chance": 100, "repeat": [ 5, 9 ] } }
     }
   },
+  {
+    "//": "6x6 junk",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_6x6_junk",
+    "weight": 250,
+    "object": {
+      "mapgensize": [ 6, 6 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "  Jjj ",
+        "jJj J ",
+        " jJj j",
+        "JJjJJj",
+        "Jj Jjj",
+        "J jjJJ"
+      ],
+      "terrain": { " ": "t_null" },
+      "furniture": {
+        "j": [ "f_cardboard_box", "f_cardboard_box", "f_cardboard_box","f_cardboard_box", "f_cardboard_box", "f_cardboard_wall" ],
+        "J": [ "f_cardboard_wall", "f_cardboard_wall", "f_cardboard_box", "f_crate_c" ]
+      },
+      "items": { " ": { "item": "newspaper", "chance": 10 }, "j": { "item": "newspaper", "chance": 100, "repeat": [ 5, 9 ] } }
+    }
+  },
+  {
+    "//": "6x6 junk",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_6x6_junk",
+    "weight": 250,
+    "object": {
+      "mapgensize": [ 6, 6 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "Jj J j",
+        " JJJjJ",
+        " J  jj",
+        "JJjJj ",
+        " JjJ j",
+        "jJJ jj"
+      ],
+      "terrain": { " ": "t_null" },
+      "furniture": {
+        "j": [ "f_cardboard_box", "f_cardboard_box", "f_cardboard_box","f_cardboard_box", "f_cardboard_box", "f_cardboard_wall" ],
+        "J": [ "f_cardboard_wall", "f_cardboard_wall", "f_cardboard_box", "f_crate_c" ]
+      },
+      "items": { " ": { "item": "newspaper", "chance": 10 }, "j": { "item": "newspaper", "chance": 100, "repeat": [ 5, 9 ] } }
+    }
+  },
+
   {
     "//": "6x6 junk",
     "type": "mapgen",
@@ -724,7 +775,7 @@
       ],
       "terrain": { " ": "t_null" },
       "furniture": {
-        "j": [ "f_cardboard_box", "f_cardboard_box", "f_cardboard_box", "f_crate_c" ],
+        "j": [ "f_cardboard_box", "f_cardboard_box", "f_cardboard_box","f_cardboard_box", "f_cardboard_box", "f_cardboard_box", "f_crate_c" ],
         "J": [ "f_cardboard_wall", "f_cardboard_wall", "f_cardboard_box", "f_crate_c" ]
       },
       "items": { " ": { "item": "newspaper", "chance": 10 }, "j": { "item": "newspaper", "chance": 100, "repeat": [ 5, 9 ] } }

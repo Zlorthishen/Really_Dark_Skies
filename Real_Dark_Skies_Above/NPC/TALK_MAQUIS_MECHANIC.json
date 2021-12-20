@@ -16,7 +16,7 @@
     "common": false,	
     "traits": [
       { "trait": "DKZ_TECH", "prob": 100 },
-      { "group": "NPC_starting_traits" }, 
+      { "group": "DKZ_starting_traits" }, 
 	  { "group": "Appearance_demographics" },
       { "trait": "ROBUST", "prob": 20 }
     ],

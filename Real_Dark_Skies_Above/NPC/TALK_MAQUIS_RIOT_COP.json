@@ -16,9 +16,14 @@
     "common": false,		
     "traits": [
       { "trait": "DKZ_COMBAT", "prob": 100 },
-      { "group": "NPC_starting_traits" }, 
+      { "group": "DKZ_starting_traits" }, 
 	  { "group": "Appearance_demographics" },
-      { "trait": "ROBUST", "prob": 60 }
+      { "trait": "WAKEFUL", "prob": 50 },
+      { "trait": "GOODHEARING", "prob": 25 },
+      { "trait": "ROBUST", "prob": 70 },
+      { "trait": "ANTIJUNK", "prob": 50 },
+      { "trait": "DEX_ALPHA", "prob": 30  },
+      { "trait": "STR_ALPHA", "prob": 90  }
     ],
     "skills": [
       { "skill": "ALL", "level": { "sum": [ { "dice": [ 3, 2 ] }, { "constant": -4 } ] } },
@@ -65,7 +70,7 @@
     "type": "item_group",
     "id": "NC_MAQUIS_RIOT_COP_underwear_top_female",
     "subtype": "collection",
-    "items": [ [ "null", 1 ], [ "bra", 10 ], [ "sports_bra", 80 ] ]
+    "items": [ [ "null", 1 ], [ "bra", 10 ], [ "sports_bra", 89 ] ]
   },
   {
     "type": "item_group",
@@ -81,7 +86,7 @@
     "type": "item_group",
     "id": "NC_MAQUIS_RIOT_COP_shirt_male",
     "subtype": "distribution",
-    "entries": [ { "item": "tank_top", "prob": 20 } ]
+    "entries": [ { "item": "tank_top", "prob": 100 } ]
   },
   {
     "type": "item_group",
@@ -125,7 +130,7 @@
     "type": "item_group",
     "id": "NC_MAQUIS_RIOT_COP_hat",
     "subtype": "distribution",
-    "entries": [ { "item": "helmet_riot", "prob": 15 } ]
+    "entries": [ { "item": "helmet_riot", "prob": 100 } ]
   },
   {
     "type": "item_group",
@@ -133,7 +138,7 @@
     "subtype": "distribution",
     "entries": [
       { "item": "null", "prob": 5 },
-      { "item": "backpack", "prob": 25 },
+      { "item": "backpack", "prob": 75 },
       { "item": "backpack_leather", "prob": 25 },
       { "item": "rucksack", "prob": 5 }
     ]
@@ -230,6 +235,7 @@
       { "group": "rad_gear", "count-min": 1, "count-max": 2, "prob": 90 },
       { "group": "fireman_gear", "count-min": 1, "count-max": 2, "prob": 90 },
 	  { "item": "badge_swat", "prob": 100 },
+	  { "item": "atomic_lamp", "prob": 100 },
       { "group": "gear_survival", "count-min": 1, "count-max": 3, "prob": 90 }
     ]
   },  

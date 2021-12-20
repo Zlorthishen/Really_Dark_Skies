@@ -16,7 +16,7 @@
     "common": false,		
     "traits": [
       { "trait": "DKZ_COMBAT", "prob": 100 },
-      { "group": "NPC_starting_traits" }, 
+      { "group": "DKZ_starting_traits" }, 
 	  { "group": "Appearance_demographics" },
       { "trait": "BIOLUM0", "prob": 40 },
       { "trait": "BIOLUM1", "prob": 30 },
@@ -168,12 +168,7 @@
     "id": "NC_MAQUIS_MANTIS_MUTANT_coat",
     "subtype": "distribution",
     "entries": [
-      { "item": "armor_riot", "prob": 20 },
-      { "item": "swat_armor", "prob": 40 },
       { "item": "trenchcoat", "prob": 20 },
-      { "item": "motorbike_armor", "prob": 10 },
-      { "item": "armor_larmor", "prob": 10 },
-      { "item": "armor_plarmor", "prob": 10 },
       { "item": "ballistic_vest_esapi", "prob": 10 },
       { "item": "dragonskin", "prob": 5 },
       { "item": "armor_plate", "prob": 2 },	  
@@ -357,9 +352,9 @@
     "id": "TALK_MAQUIS_MANTIS_MUTANT_DOING",
     "type": "talk_topic",
     "dynamic_line": [
-      "There is an arrangement with everyone that lives here, the bottom two floors are a free trade zone and the upper floors are for the alien resistance operation.  We also help keep the outside defences in place and warn of any zombies or xenoids around the perimeter.  It takes a lot to keep this place running",
-	  "Rule #1: No Killing, the penalty is death.",
-      "I keep the peace down here between other MAQUISs, but everyone is very civil to each other since there are monsters outside."
+      "I'm minding my own business, mind your own.",
+	  "Just contemplating what its like being a mutant insect during the end of the world.",
+      "I keep the peace down here between other scavengers, but everyone is very civil to each other since there are monsters outside."
     ],
     "responses": [
       { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_MAQUIS_MANTIS_MUTANT_ROOT" },
