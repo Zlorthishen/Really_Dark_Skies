@@ -60,7 +60,7 @@
     "id": "NC_DKZ_RANDY_ERIKSON_weapon",
     "type": "item_group",
     "subtype": "collection",
-    "entries": [ { "item": "ak47" } ]
+    "entries": [ { "item": "ak74" } ]
   },
   {
     "id": "NC_DKZ_RANDY_ERIKSON_worn",
@@ -73,7 +73,12 @@
       { "item": "pants_cargo" },
       { "item": "socks" },
       { "item": "boots_rubber" },
-      { "item": "dkz_zenture_industries_premium_zwatch" },
+      {
+        "item": "light_minus_battery_cell",
+        "ammo-item": "battery",
+        "charges": 150,
+        "container-item": "dkz_zenture_industries_premium_zwatch"
+      },
       { "item": "backpack" }
     ]
   },
@@ -81,7 +86,13 @@
     "id": "NC_DKZ_RANDY_ERIKSON_carried",
     "type": "item_group",
     "subtype": "collection",
-    "items": [ { "item": "radio" }, { "item": "book_fict_soft_scifi_roadp" }, { "item": "multitool" }, { "item": "laptop" } ]
+    "items": [
+      { "item": "light_battery_cell", "ammo-item": "battery", "charges": 300, "container-item": "radio" },
+      { "item": "book_fict_soft_scifi_roadp" },
+      { "item": "multitool" },
+      { "item": "ak74mag", "charges-min": 17, "count": 2 },
+      { "item": "laptop" }
+    ]
   },
   {
     "type": "talk_topic",
@@ -155,16 +166,9 @@
         "failure": { "topic": "TALK_REFUGEE_Refuse_Boris_Mission_1" }
       },
       {
-        "text": "[RP] What is that stuff on the table?",
+        "text": "What can you tell me about the Xenoids?",
         "effect": { "u_add_var": "u_Talk_To_RandyErikson_about_Xenoids", "type": "general", "context": "meeting", "value": "yes" },
-        "condition": {
-          "and": [
-            {
-              "not": { "u_has_var": "u_Talk_To_RandyErikson_about_Xenoids", "type": "general", "context": "meeting", "value": "yes" }
-            },
-            { "u_has_any_trait": [ "DKZ_COMBAT", "DKZ_TECH", "DKZ_SCIENTIST", "DKZ_MEDIC", "DKZ_LEADER" ] }
-          ]
-        },
+        "condition": { "u_has_any_trait": [ "DKZ_COMBAT", "DKZ_TECH", "DKZ_SCIENTIST", "DKZ_MEDIC", "DKZ_LEADER" ] },
         "topic": "TALK_RANDY_ERIKSON_ASK_ABOUT_XENOIDS"
       },
       {
@@ -194,7 +198,7 @@
         },
         "opinion": { "trust": 1, "value": 1 },
         "topic": "TALK_RANDY_ERIKSON_ASK_ABOUT_WATCH"
-      },
+      },	  
       { "text": "So how did you end up here?", "topic": "TALK_RANDY_ERIKSON_BACKGROUND" },
       { "text": "So what are you doing here?", "topic": "TALK_RANDY_ERIKSON_GENERATOR" },
       {
@@ -216,7 +220,7 @@
     "type": "talk_topic",
     "id": "TALK_RANDY_ERIKSON_BACKGROUND",
     "dynamic_line": [
-      "I was trying to get in contact with the rest of my family because I'd figure that if anyone would be fighting alien invaders it would be my uncle.  But when it came down to it I ended using my last full magazine to drop half a dozen strays a pair of xenoids that were about to kill me.  Then, I ran here as quick as my feet could carry me and now I'm stuck here in the ruins of this public school, doing the best I can to help these guys keep the lights on.  I could probably rendezvous with my family if I wanted, but I want to make sure these people here are safe before I'd even consider leaving this place.  The people are here are nice and this place kind of grows on you."
+      "I was trying to get in contact with the rest of my family because I'd figure that if anyone would be fighting alien invaders it would be my uncle.  But when it came down to it I ended using my last full magazine to drop half a dozen strays a pair of xenoids that were about to kill me.  Then, I ran here as quick as my feet could carry me and now I'm stuck here in the 0ruins of this public school, doing the best I can to help these guys keep the lights on.  I could probably rendezvous with my family if I wanted, but I want to make sure these people here are safe before I'd even consider leaving this place.  The people are here are nice and this place kind of grows on you."
     ],
     "responses": [
       { "text": "Its good that you like it here.", "topic": "TALK_NONE" },
@@ -235,9 +239,26 @@
       { "text": "That's interesting.", "topic": "TALK_NONE" },
       { "text": "Ok, see you later.", "topic": "TALK_DONE" },
       {
+        "text": "[RP] I am a member of the Maquis, I need to get to the nearest base.",
+        "condition": {
+          "and": [
+            { "u_has_any_trait": [ "DKZ_COMBAT", "DKZ_TECH", "DKZ_SCIENTIST", "DKZ_MEDIC", "DKZ_LEADER" ] },
+            { "not": { "u_has_var": "MrEriksonExists", "type": "general", "context": "meeting", "value": "yes" } },			
+            { "not": { "u_has_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" } },			
+            { "not": { "u_has_mission": "MISSION_CHECK_UP_ON_BIG_BROTHER" } },
+            { "not": "has_many_assigned_mission" },
+            { "not": "has_assigned_mission" }
+          ]
+        },
+        "effect": { "add_mission": "MISSION_CHECK_UP_ON_BIG_BROTHER" },
+        "topic": "TALK_RANDY_ERIKSON_MISSION_CHECK_UP_ON_BIG_BROTHER_MAQUIS"
+      },
+      {
         "text": "I'm not busy right now.  I can go look for him.",
         "condition": {
           "and": [
+            { "u_has_var": "RANDYS_BUDDY", "type": "mission", "context": "flag", "value": "yes" },
+            { "not": { "u_has_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" } },
             { "not": { "u_has_mission": "MISSION_CHECK_UP_ON_BIG_BROTHER" } },
             { "not": "has_many_assigned_mission" },
             { "not": "has_assigned_mission" }
@@ -249,9 +270,16 @@
     ]
   },
   {
-    "//": "NEEDS WORK make sure can't do mission multiple times, make sure to take into account if already met chad",
     "type": "talk_topic",
     "id": "TALK_RANDY_ERIKSON_MISSION_CHECK_UP_ON_BIG_BROTHER",
+    "dynamic_line": [
+      "So my uncle, Chad Erikson, was the guy who got my this cool watch, but since this cataclysm started the internet went down globally all I have is the built in games.  I still try to refresh the connection and see if I can find any transient satellites or another arandom link to anything left online.  This morning when I woke up I had noticed that MY watch had been pinged by someone that I am sure is my uncle Chad. I have a good idea of where he is at, I give you the direction and how far away it is, but other than that I can only guess."
+    ],
+    "responses": [ { "text": "Ok, I'll go find him.", "topic": "TALK_DONE" } ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "TALK_RANDY_ERIKSON_MISSION_CHECK_UP_ON_BIG_BROTHER_MAQUIS",
     "dynamic_line": [
       "So my uncle, Chad Erikson, was the guy who got my this cool watch, but since this cataclysm started the internet went down globally all I have is the built in games.  I still try to refresh the connection and see if I can find any transient satellites or another arandom link to anything left online.  This morning when I woke up I had noticed that MY watch had been pinged by someone that I am sure is my uncle Chad. I have a good idea of where he is at, I give you the direction and how far away it is, but other than that I can only guess."
     ],
@@ -280,6 +308,14 @@
     ],
     "responses": [ { "text": "Yeah, me too.", "topic": "TALK_NONE" }, { "text": "I have to go now.", "topic": "TALK_DONE" } ]
   },
+  {
+    "type": "talk_topic",
+    "id": "TALK_RANDY_ERIKSON_ASK_ABOUT_WATCH",
+    "dynamic_line": [
+      "I know right.  I  know a guy on the inside and got mine right before shit really hit the fan.  I just wish all my old friends were still alive so I could brag to them about having the coolest watch."
+    ],
+    "responses": [ { "text": "Yeah, me too.", "topic": "TALK_NONE" }, { "text": "I have to go now.", "topic": "TALK_DONE" } ]
+  },  
   {
     "type": "talk_topic",
     "id": "TALK_RANDY_ERIKSON_ASK_ABOUT_XENOIDS",
@@ -425,6 +461,7 @@
     "difficulty": 9,
     "value": 0,
     "item": "software_useless",
+    "followup": "MISSION_CHECK_UP_ON_BIG_BROTHER",	
     "origins": [ "ORIGIN_SECONDARY" ],
     "dialogue": {
       "describe": "I some old hobby software.",
@@ -449,7 +486,7 @@
   {
     "id": "MISSION_CHECK_UP_ON_BIG_BROTHER",
     "type": "mission_definition",
-    "name": { "str": "Locate Chad Erikson." },
+    "name": { "str": "Locate Chad Erikson" },
     "description": "Randy Erikson finally got news from his uncle, go to his last reported location and check it out.",
     "goal": "MGOAL_CONDITION",
     "goal_condition": { "u_has_var": "u_found_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" },
@@ -457,18 +494,26 @@
     "value": 50000,
     "start": {
       "assign_mission_target": {
-        "om_terrain": "racing_tower_z0_1_1",
+        "om_terrain": "racing_tower_z7_4_1",
         "om_special": "arcology_racing",
         "reveal_radius": 7,
         "search_range": 500,
         "z": 0,
         "random": true,
         "min_distance": 90
-      }
+      },
+	  
+      "update_mapgen": {
+        "place_npcs": [
+          { "class": "DKZ_CHAD_ERIKSON", "x": 3, "y": 3, "target": true }
+        ]
+	  },
+      "effect": [ { "u_add_var": "MrEriksonExists", "type": "knowledge", "context": "flag", "value": "yes" } ]
+	  
     },
     "origins": [ "ORIGIN_SECONDARY" ],
     "dialogue": {
-      "describe": "I need help…",
+      "describe": "I need help getting in touch with a family member…",
       "offer": "I have a general idea of where my uncle Chad Erikson is at, I give you a general idea which direction and how far away it is, but other than that I can only guess.",
       "accepted": "I'll find him.",
       "rejected": "Come back when you get a chance.",

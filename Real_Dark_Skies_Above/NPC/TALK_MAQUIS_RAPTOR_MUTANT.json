@@ -12,10 +12,10 @@
     "type": "npc_class",
     "id": "NC_MAQUIS_RAPTOR_MUTANT",
     "name": { "str": "MAQUIS" },
-    "job_description": "I'm to become an terrifying dinosaur monster.",
+    "job_description": "I'm  becoming an terrifying dinosaur monster.",
     "common": false,		
     "traits": [
-      { "distribution": [ { "trait": "DKZ_COMBAT", "prob": 50 }, { "trait": "DKZ_LEADER", "prob": 50 } ] },
+      { "trait": "DKZ_COMBAT", "prob": 100 },	  
       { "group": "DKZ_starting_traits" }, 
 	  { "group": "Appearance_demographics" },
       { "trait": "THRESH_RAPTOR" },	  
@@ -311,7 +311,8 @@
     "entries": [
       { "group": "rad_gear", "count-min": 1, "count-max": 2, "prob": 10 },
       { "group": "fireman_gear", "count-min": 1, "count-max": 2, "prob": 10 },
-      { "group": "gear_survival", "count-min": 1, "count-max": 3, "prob": 10 }
+      { "group": "gear_survival", "count-min": 1, "count-max": 3, "prob": 10 },
+      { "item": "baton", "prob": 100 }	  
     ]
   },  
   
@@ -322,7 +323,7 @@
     "dynamic_line": {
       "u_is_wearing": "badge_marshal",
       "yes": [ "Buzz off, fed." ],
-      "no": [ "We don't bother anyone up here and expect the same from others.", "What brings you up here, scavenger." ]
+      "no": [ "We don't bother anyone up here and expect the sssame from others.", "What bringssss you up here, ssscavenger." ]
     },
     "responses": [
       { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_MAQUIS_RAPTOR_MUTANT_ROOT" },
@@ -338,7 +339,7 @@
         },		
         "topic": "TALK_MAQUIS_RAPTOR_MUTANT_BIG_BROTHER"		
       },	  
-      { "text": "See you later.", "topic": "TALK_DONE" }
+      { "text": "Sssee you later.", "topic": "TALK_DONE" }
     ]
   },
   {
@@ -366,9 +367,6 @@
     "id": "TALK_MAQUIS_RAPTOR_MUTANT_UPSTAIRS",
     "type": "talk_topic",
     "dynamic_line": [
-      "Sometimes I'll go up to the roof to help with sniper overwatch.  Its fun to use the really powerful rifles even if we can't take them down here.  Plus they always need another set of eyes.",
-      "I only go upstairs to check out the casino, its fun to use looted cash cards to gamble.  I'm up almost a hundred-thousand dollars.",
-	  "The library is nice, they're always on the look for more books, the more rare, the more they'll give for them.",
 	  "There are some heavily mutated people upstairs.  They are good people, but if you see them don't stare, its rude."
     ],
     "responses": [

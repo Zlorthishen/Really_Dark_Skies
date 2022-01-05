@@ -125,7 +125,7 @@
       { "item": "dkz_xenoid_armlet_salvaged", "damage": [ 0, 3 ] },
       { "group": "dkz_knight_extras", "prob": 50, "count": [ 2, 3 ] },
       { "group": "dkz_scout_extras", "prob": 50, "count": [ 2, 3 ] },
-      { "group": "dkz_watch", "prob": 50 }
+      { "group": "dkz_watch", "prob": 15 }
     ]
   },  
   {

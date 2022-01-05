@@ -3,7 +3,7 @@
     "type": "SPECIES",
     "id": "ALIEN",
     "description": "an alien",
-    "footsteps": "metallic clomping",
+    "footsteps": "metallic footfalls",
     "anger_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "HURT", "PLAYER_CLOSE", "PLAYER_WEAK" ],
     "bleeds": "fd_blood"
   },

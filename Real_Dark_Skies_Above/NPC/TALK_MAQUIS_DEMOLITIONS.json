@@ -17,7 +17,11 @@
       { "trait": "DKZ_COMBAT", "prob": 100 },
       { "group": "DKZ_starting_traits" }, 
 	  { "group": "Appearance_demographics" },
-      { "trait": "ROBUST", "prob": 80 }
+      { "trait": "ROBUST", "prob": 70 },
+      { "trait": "BADHEARING", "prob": 90 },
+      { "trait": "ANTIJUNK", "prob": 20 },
+      { "trait": "DEX_ALPHA", "prob": 10  },
+      { "trait": "STR_ALPHA", "prob": 30  }
     ],
     "skills": [
       { "skill": "ALL", "level": { "sum": [ { "dice": [ 3, 2 ] }, { "constant": -4 } ] } },

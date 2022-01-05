@@ -375,5 +375,5 @@
       { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_MAQUIS_MANTIS_MUTANT_ROOT" },
       { "text": "Well, bye.", "topic": "TALK_DONE" }
     ]
-  }  
+  }
 ]

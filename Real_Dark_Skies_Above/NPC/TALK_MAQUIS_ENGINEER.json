@@ -290,7 +290,8 @@
     "entries": [
       { "group": "rad_gear", "count-min": 1, "count-max": 2, "prob": 90 },
       { "group": "fireman_gear", "count-min": 1, "count-max": 2, "prob": 90 },
-      { "group": "gear_survival", "count-min": 1, "count-max": 3, "prob": 90 }
+      { "group": "gear_survival", "count-min": 1, "count-max": 3, "prob": 90 },
+      { "item": "baton", "prob": 100 }	  
     ]
   },  
   
@@ -316,7 +317,19 @@
           ]
         },		
         "topic": "TALK_MAQUIS_ENGINEER_BIG_BROTHER"		
-      },	  
+      },
+      {
+        "text": "Is there anything I can do to help you out?",
+        "condition": {
+          "and": [
+            { "not": { "npc_has_var": "Maquis_Engineer_Mission1", "type": "general", "context": "meeting", "value": "yes" } },
+            { "not": "has_many_assigned_mission" },
+            { "not": "has_assigned_mission" }
+          ]
+        },
+        "topic": "TALK_MISSION_LIST"
+      },
+      { "text": "About that mission…", "topic": "TALK_MISSION_INQUIRE", "condition": "has_assigned_mission" },
       { "text": "See you later.", "topic": "TALK_DONE" }
     ]
   },
@@ -353,5 +366,63 @@
       { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_MAQUIS_ENGINEER_ROOT" },
       { "text": "Well, bye.", "topic": "TALK_DONE" }
     ]
-  }  
+  },
+  {
+    "id": "DKZ_MAQUIS_ENGINEER_MISSION_1",
+    "type": "mission_definition",
+    "name": { "str": "Looking for hackPRO exploit scripts" },
+    "description": "Find the latest hackPRO exploits and hacks",
+    "goal": "MGOAL_FIND_ITEM",
+    "difficulty": 6,
+    "value": 20000,
+    "item": "software_hacking",
+    "count": 1,
+    "end": {
+      "effect": [
+        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 1 },		  
+        { "npc_add_var": "Maquis_Engineer_Mission1", "type": "mission", "context": "flag", "value": "yes" }
+      ]
+    },
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "dialogue": {
+      "describe": "I need you to find me something.",
+      "offer": "I need to be on the look out for a 'hackPRO' update, it helps with work-arounds on electronics that need repair.",
+      "accepted": "Thank you.  The USB drive should display the contents as 'hackPRO'.",
+      "rejected": "Oh well.  I'll see if someone else can find it, thanks.",
+      "advice": "The best place would probably be a goverment research lab, but then again things like this seem to end up in the trash all the time.  Just keep your eyes open for a USB drive that displays the content as 'hackPRO'.",
+      "inquire": "How is the search going?",
+      "success": "Thanks.",
+      "success_lie": "What good does this do us?",
+      "failure": "I wonder where it all went…"
+    }
+  },
+  {
+    "id": "DKZ_MAQUIS_ENGINEER_MISSION_2",
+    "type": "mission_definition",
+    "name": { "str": "A swage and die set of what?" },
+    "description": "Find a swage and die set.",
+    "goal": "MGOAL_FIND_ITEM",
+    "difficulty": 5,
+    "value": 40000,
+    "item": "swage",
+    "count": 1,
+    "end": {
+      "effect": [
+        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 3 },		  
+        { "npc_add_var": "Maquis_Mechanic_Mission2", "type": "mission", "context": "flag", "value": "yes" }
+      ]
+    },
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "dialogue": {
+      "describe": "I need you to find me something.",
+      "offer": "A swage and die set is used for testing higher mechanical tolerances and intricate fabrication, this would be extremely useful with repairs and maintance of everything in the building.",
+      "accepted": "Thank you.  This will really help out the resistance organization.",
+      "rejected": "Oh well.  I'll see if I can find another supplier, thanks.",
+      "advice": "A steel factory or lumbermill might have one, maybe even a stray or a zombie with a toolbelt?",
+      "inquire": "How is the search going?",
+      "success": "Thanks.",
+      "success_lie": "What good does this do us?",
+      "failure": "I wonder where it all went…"
+    }
+  }    
 ]

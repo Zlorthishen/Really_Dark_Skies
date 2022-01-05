@@ -12,10 +12,10 @@
     "type": "npc_class",
     "id": "NC_MAQUIS_RODENT_MUTANT",
     "name": { "str": "MAQUIS" },
-    "job_description": "I'm to become an terrifying dinosaur monster.",
+    "job_description": "I'm just trying to eck out a living.",
     "common": false,
     "traits": [
-      { "distribution": [ { "trait": "DKZ_COMBAT", "prob": 50 }, { "trait": "DKZ_LEADER", "prob": 50 } ] },	  
+      { "distribution": [ { "trait": "DKZ_COMBAT", "prob": 50 }, { "trait": "DKZ_TECHIE", "prob": 50 } ] },	  
       { "group": "DKZ_starting_traits" },
       { "group": "Appearance_demographics" },
       { "trait": "FUR", "prob": 100 },
@@ -56,10 +56,10 @@
       { "skill": "pistol", "bonus": { "rng": [ 1, 3 ] } },
       { "skill": "rifle", "bonus": { "rng": [ 1, 3 ] } }
     ],
-    "bonus_str": { "rng": [ 4, 6 ] },
-    "bonus_dex": { "rng": [ 0, 2 ] },
-    "bonus_int": { "rng": [ -3, 0 ] },
-    "bonus_per": { "rng": [ -2, 1 ] }
+    "bonus_str": { "rng": [ -1, 2 ] },
+    "bonus_dex": { "rng": [ 2, 5 ] },
+    "bonus_int": { "rng": [ -1, 1 ] },
+    "bonus_per": { "rng": [ 2, 5 ] }
   },
   {
     "//": "----------INVENTORY LOADOUTS-----------------------------------------------------------------------------------",
@@ -325,6 +325,17 @@
         },
         "topic": "TALK_MAQUIS_RODENT_MUTANT_BIG_BROTHER"
       },
+      {
+        "text": "Is there anything I can do to help you out?",
+        "condition": {
+          "and": [
+            { "not": { "npc_has_var": "Maquis_Rodent_Mutant_Mission1", "type": "general", "context": "meeting", "value": "yes" } },
+            { "not": "has_many_assigned_mission" },
+            { "not": "has_assigned_mission" }
+          ]
+        }
+	  },
+      { "text": "About that mission…", "topic": "TALK_MISSION_INQUIRE", "condition": "has_assigned_mission" },	  
       { "text": "See you later.", "topic": "TALK_DONE" }
     ]
   },
@@ -361,5 +372,34 @@
       { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_MAQUIS_RODENT_MUTANT_ROOT" },
       { "text": "Well, bye.", "topic": "TALK_DONE" }
     ]
-  }
+  },
+  {
+    "id": "TALK_MAQUIS_RODENT_MISSION_1",
+    "type": "mission_definition",
+    "name": { "str": "Work While Busy" },
+    "description": "Find 3 erotic novels.",
+    "goal": "MGOAL_FIND_ITEM",
+    "difficulty": 2,
+    "value": 0,
+    "item": "novel_erotic",
+    "count": 3,
+    "end": {
+      "effect": [
+        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 1 },	  
+        { "npc_add_var": "Maquis_Rodent_Mutant_Mission1", "type": "mission", "context": "flag", "value": "yes" }
+      ]
+    },	
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "dialogue": {
+      "describe": "I'd like to read some erotic novels.",
+      "offer": "Hmm, that would be great!  But if you do, please bring more than just one.  I could read a single novel in a day.  Could you get me… 3 erotic novels?",
+      "accepted": "Just bring it to me when you have it.",
+      "rejected": "Nevermind then.  I hope you'll change your mind.",
+      "advice": "I'd loot libraries and bookstores.",
+      "inquire": "So, have you found the books?",
+      "success": "Thank you.  This will keep me busy for a while.  Please take this as a token of my gratitude.",
+      "success_lie": "Could you give them to me?",
+      "failure": "Fine.  I can read something else."
+    }
+  }  
 ]

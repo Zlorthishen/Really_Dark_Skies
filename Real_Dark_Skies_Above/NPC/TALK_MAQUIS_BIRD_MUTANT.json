@@ -324,7 +324,6 @@
     "type": "talk_topic",
     "dynamic_line": [
       "There is an arrangement with everyone that lives here, the bottom two floors are a free trade zone and the upper floors are for the alien resistance operation.  We also help keep the outside defences in place and warn of any zombies or xenoids around the perimeter.  It takes a lot to keep this place running",
-      "Rule #1: No Killing, the penalty is death.",
       "I keep the peace down here between other scavengers, but everyone is very civil to each other since there are monsters outside."
     ],
     "responses": [
@@ -337,9 +336,8 @@
     "id": "TALK_MAQUIS_BIRD_MUTANT_UPSTAIRS",
     "type": "talk_topic",
     "dynamic_line": [
-      "Sometimes I'll go up to the roof to help with sniper overwatch.  Its fun to use the really powerful rifles even if we can't take them down here.  Plus they always need another set of eyes.",
-      "I only go upstairs to check out the casino, its fun to use looted cash cards to gamble.  I'm up almost a hundred-thousand dollars.",
-      "The library is nice, they're always on the look for more books, the more rare, the more they'll give for them.",
+	  "The upper floors have filled to the brim with cardboard boxes and crates and news papers and old goverment documents.  It is kind of fun to play hide and seek with others between patrol or guard duty.",
+      "The libraries are nice, they're always on the look for more books, the more rare, the more they'll give for them.",
       "There are some heavily mutated people upstairs.  They are good people, but if you see them don't stare, its rude."
     ],
     "responses": [

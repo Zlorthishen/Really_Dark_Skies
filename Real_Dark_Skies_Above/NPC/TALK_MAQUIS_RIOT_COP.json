@@ -213,7 +213,7 @@
     "type": "item_group",
     "id": "NC_MAQUIS_RIOT_COP_rifle",
     "subtype": "distribution",
-    "entries": [ { "group": "guns_rifle_common", "prob": 70 }, { "group": "guns_rifle_rare", "prob": 20 } ]
+    "entries": [ { "group": "guns_rifle_common", "prob": 100 }, { "group": "guns_rifle_rare", "prob": 60 } ]
   },
   {
     "type": "item_group",
@@ -236,6 +236,7 @@
       { "group": "fireman_gear", "count-min": 1, "count-max": 2, "prob": 90 },
 	  { "item": "badge_swat", "prob": 100 },
 	  { "item": "atomic_lamp", "prob": 100 },
+      { "item": "baton", "prob": 100 },	  
       { "group": "gear_survival", "count-min": 1, "count-max": 3, "prob": 90 }
     ]
   },  
@@ -262,7 +263,13 @@
           ]
         },			
         "topic": "TALK_MAQUIS_RIOT_COP_BIG_BROTHER"		
-      },	  
+      },
+      {
+        "text": "Is there anything I can do to help you out?",
+        "condition": { "and": [ { "not": "has_many_assigned_mission" }, { "not": "has_assigned_mission" } ] },
+        "topic": "TALK_MISSION_LIST"
+      },
+      { "text": "About that mission…", "topic": "TALK_MISSION_INQUIRE", "condition": "has_assigned_mission" },	  
       { "text": "See you later.", "topic": "TALK_DONE" }
     ]
   },
@@ -302,5 +309,62 @@
       { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_MAQUIS_RIOT_COP_ROOT" },
       { "text": "Well, bye.", "topic": "TALK_DONE" }
     ]
+  },
+  {
+    "id": "MISSION_KILL_12_XENOIDS",
+    "type": "mission_definition",
+    "name": { "str": "Kill a dozen strays" },
+    "goal": "MGOAL_KILL_MONSTER_SPEC",
+    "monster_species": "ALIEN",
+    "monster_kill_goal": 12,
+    "difficulty": 3,
+    "value": 125000,
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "followup": "MISSION_KILL_144_XENOIDS",
+    "end": {
+      "effect": [
+        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 2 },	  
+        { "npc_add_var": "Maquis_Riot_Guard_Mission1", "type": "mission", "context": "flag", "value": "yes" }
+      ]
+    },	
+    "dialogue": {
+      "describe": "You seem to understand this Xenoid threat better than most…",
+      "offer": "You're kitted out better than most… would you be interested in making this world a little better for the rest of us?  The towns have enough supplies for us survivors to start securing a foothold but we don't have anyone with the skills and equipment to thin the masses of undead.  I'll lend you a hand to the best of my ability but you really showed promise taking out that other beast.  You, I, and a 100 zombies laid to rest, what do you say?",
+      "accepted": "Hell ya, we may get ourselves killed but we'll be among the first legends of the apocalypse.",
+      "rejected": "Hey, I know I wouldn't volunteer for it either… but then I remember that most of us survivors won't make it unless someone decides to take the initiative.",
+      "advice": "I'd secure an ammo cache and try to sweep a town in multiple passes.",
+      "inquire": "Got this knocked out?",
+      "success": "Man… you're a goddamn machine.  It was a pleasure working with you.  You know, you may just change our little neck of the world if you keep this up.",
+      "success_lie": "I don't think that was quite a hundred dead strays.",
+      "failure": "Quitting already?"
+    }
+  },
+  {
+    "id": "MISSION_KILL_144_XENOIDS",
+    "type": "mission_definition",
+    "name": { "str": "Kill a dozen strays" },
+    "goal": "MGOAL_KILL_MONSTER_SPEC",
+    "monster_species": "ALIEN",
+    "monster_kill_goal": 144,
+    "difficulty": 6,
+    "value": 275000,
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "end": {
+      "effect": [
+        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 5 },	  
+        { "npc_add_var": "Maquis_Riot_Guard_Mission2", "type": "mission", "context": "flag", "value": "yes" }
+      ]
+    },	
+    "dialogue": {
+      "describe": "You seem to understand this Xenoid threat better than most…",
+      "offer": "You're kitted out better than most… would you be interested in making this world a little better for the rest of us?  The towns have enough supplies for us survivors to start securing a foothold but we don't have anyone with the skills and equipment to thin the masses of undead.  I'll lend you a hand to the best of my ability but you really showed promise taking out that other beast.  You, I, and a 100 zombies laid to rest, what do you say?",
+      "accepted": "Hell ya, we may get ourselves killed but we'll be among the first legends of the apocalypse.",
+      "rejected": "Hey, I know I wouldn't volunteer for it either… but then I remember that most of us survivors won't make it unless someone decides to take the initiative.",
+      "advice": "I'd secure an ammo cache and try to sweep a town in multiple passes.",
+      "inquire": "Got this knocked out?",
+      "success": "Man… you're a goddamn machine.  It was a pleasure working with you.  You know, you may just change our little neck of the world if you keep this up.",
+      "success_lie": "I don't think that was quite a hundred dead strays.",
+      "failure": "Quitting already?"
+    }
   }  
 ]

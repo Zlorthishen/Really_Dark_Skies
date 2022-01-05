@@ -6,9 +6,9 @@
     "likes_u": 10,
     "respects_u": 10,
     "known_by_u": false,
-    "size": 111,
+    "size": 166,
     "power": 777,
-    "food_supply": 777700,
+    "food_supply": 7777777,
     "wealth": 777777700,
     "currency": "FMCNote",
 	"relations": {
@@ -55,7 +55,7 @@
         "defends your space": false,
         "knows your voice": true
       },
-      "wasteland_MAQUISs": {
+      "wasteland_scavengers": {
         "kill on sight": false,
         "watch your back": false,
         "share my stuff": false,
@@ -76,6 +76,12 @@
       "hells_raiders": { "kill on sight": true },
       "marloss": { "kill on sight": true }
     },
+    "epilogues": [
+      { "power_min": -100, "power_max": 0, "id": "epilogue_faction_maquis_negative" },	
+      { "power_min": 1, "power_max": 100, "id": "epilogue_faction_maquis_0" },
+      { "power_min": 100, "power_max": 200, "id": "epilogue_faction_maquis_100" },
+      { "power_min": 200, "power_max": 300, "id": "epilogue_faction_maquis_200" }
+    ],	
     "description": "Any and all remaining humans that will resist the invading Xenoids to the last man."
 	}
 ]

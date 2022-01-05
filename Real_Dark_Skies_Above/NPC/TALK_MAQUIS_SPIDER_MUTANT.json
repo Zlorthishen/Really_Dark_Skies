@@ -309,7 +309,7 @@
       { "text": "What are you doing here?", "topic": "TALK_MAQUIS_SPIDER_MUTANT_DOING" },
       { "text": "What is upstairs?", "topic": "TALK_MAQUIS_SPIDER_MUTANT_UPSTAIRS" },
       {
-        "text": "[MISSION] I'm looking for Chad Erikson, his brother Randy sent me.",
+        "text": "[MISSION] I'm looking for Chad Erikson, his nephew Randy sent me.",
         "condition": {
           "and": [
             { "not": { "u_has_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" } },

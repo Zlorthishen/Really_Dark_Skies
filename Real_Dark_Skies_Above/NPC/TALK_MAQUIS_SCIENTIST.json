@@ -336,7 +336,18 @@
           ]
         },			
         "topic": "TALK_MAQUIS_SCIENTIST_BIG_BROTHER"		
-      },	  
+      },
+      {
+        "text": "Is there anything I can do to help you out?",
+        "condition": {
+          "and": [
+            { "not": { "npc_has_var": "Maquis_Scientist_Mission1", "type": "general", "context": "meeting", "value": "yes" } },
+            { "not": "has_many_assigned_mission" },
+            { "not": "has_assigned_mission" }
+          ]
+        }
+	  },
+      { "text": "About that mission…", "topic": "TALK_MISSION_INQUIRE", "condition": "has_assigned_mission" },	  
       { "text": "See you later.", "topic": "TALK_DONE" }
     ]
   },
@@ -371,5 +382,34 @@
       { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_MAQUIS_SCIENTIST_ROOT" },
       { "text": "Well, bye.", "topic": "TALK_DONE" }
     ]
-  }  
+  },
+  {
+    "id": "DKZ_MAQUIS_SCIENTIST_MISSION_1",
+    "type": "mission_definition",
+    "name": { "str": "Checking for MathMAX Software Updates" },
+    "description": "Find the latest MathMAX firmware patch for",
+    "goal": "MGOAL_FIND_ITEM",
+    "difficulty": 6,
+    "value": 20000,
+    "item": "software_math",
+    "count": 1,
+    "end": {
+      "effect": [
+        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 1 },		  
+        { "npc_add_var": "Maquis_Scientist_Mission1", "type": "mission", "context": "flag", "value": "yes" }
+      ]
+    },
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "dialogue": {
+      "describe": "I need you to find me something.",
+      "offer": "I use a software package called MathMAX for my ongoing research, but I need a few add-ons to optimize the workflow.  Find me a USB drive that contains an update.",
+      "accepted": "Thank you.  The USB drive should display the contents as 'MathMAX'.",
+      "rejected": "Oh well.  I'll see if someone else can find it, thanks.",
+      "advice": "The best place would probably be a goverment research lab, but then again things like this seem to end up in the trash all the time.  Just keep your eyes open for a USB drive that displays the content as 'MathMAX'.",
+      "inquire": "How is the search going?",
+      "success": "Thanks.",
+      "success_lie": "What good does this do us?",
+      "failure": "I wonder where it all went…"
+    }
+  }
 ]

@@ -1,18 +1,18 @@
 [
   {
     "type": "npc",
-    "id": "DKZ_MAQUIS_SNIPER",
-    "class": "NC_MAQUIS_SNIPER",
+    "id": "DKZ_MAQUIS_CYBERCOP",
+    "class": "NC_MAQUIS_CYBERCOP",
     "attitude": 0,
     "mission": 3,
-    "chat": "TALK_MAQUIS_SNIPER_ROOT",
+    "chat": "TALK_MAQUIS_CYBERCOP_ROOT",
     "faction": "maquis"
   },
   {
     "type": "npc_class",
-    "id": "NC_MAQUIS_SNIPER",
+    "id": "NC_MAQUIS_CYBERCOP",
     "name": { "str": "MAQUIS" },
-    "job_description": "I'm here to provide combat overwatch and accumulate headshots.",
+    "job_description": "I'm here to be robo-cop.",
     "common": false,
     "traits": [
       { "trait": "DKZ_COMBAT", "prob": 100 },
@@ -38,62 +38,69 @@
       { "skill": "unarmed", "bonus": { "rng": [ 1, 2 ] } },
       { "skill": "bashing", "bonus": { "rng": [ 1, 2 ] } },
       { "skill": "gun", "bonus": { "rng": [ 5, 7 ] } },
-      { "skill": "pistol", "bonus": { "rng": [ 2, 4 ] } },
+      { "skill": "pistol", "bonus": { "rng": [ 7, 9 ] } },
       { "skill": "shotgun", "bonus": { "rng": [ 1, 3 ] } },
       { "skill": "smg", "bonus": { "rng": [ 1, 3 ] } },
-      { "skill": "rifle", "bonus": { "rng": [ 6, 8 ] } }
+      { "skill": "rifle", "bonus": { "rng": [ 2, 4 ] } }
     ],
     "bionics": [
-      { "id": "bio_targeting", "chance": 40 },
-      { "id": "bio_infrared", "chance": 15 },
-      { "id": "bio_recycler", "chance": 65 },
-      { "id": "bio_digestion", "chance": 65 },
-      { "id": "bio_speed", "chance": 25 }
+      { "id": "bio_targeting", "chance": 100 },
+      { "id": "bio_infrared", "chance": 100 },
+      { "id": "bio_metabolics", "chance": 100 },
+      { "id": "bio_armor_arms", "chance": 100 },
+      { "id": "bio_armor_eyes", "chance": 100 },
+      { "id": "bio_armor_head", "chance": 100 },
+      { "id": "bio_armor_legs", "chance": 100 },
+      { "id": "bio_armor_torso", "chance": 100 },
+      { "id": "bio_power_armor_interface_mkII", "chance": 100 },
+      { "id": "bio_power_storage_mkII", "chance": 100 },
+      { "id": "bio_power_storage_mkII", "chance": 100 },
+      { "id": "bio_power_storage_mkII", "chance": 100 }
     ],
-    "weapon_override": "NC_MAQUIS_SNIPER_rifle",
-    "bonus_str": { "rng": [ 1, 3 ] },
-    "bonus_dex": { "rng": [ 3, 5 ] },
+    "weapon_override": "NC_MAQUIS_CYBERCOP_rifle",
+    "bonus_str": { "rng": [ 2, 4 ] },
+    "bonus_dex": { "rng": [ -2, 1 ] },
     "bonus_int": { "rng": [ -1, 1 ] },
-    "bonus_per": { "rng": [ 3, 5 ] }
+    "bonus_per": { "rng": [ 1, 3 ] }
   },
   {
     "//": "----------INVENTORY LOADOUTS-----------------------------------------------------------------------------------",
     "type": "item_group",
-    "id": "NC_MAQUIS_SNIPER_underwear_bottom_male",
+    "id": "NC_MAQUIS_CYBERCOP_underwear_bottom_male",
     "subtype": "collection",
     "items": [ [ "boxer_shorts", 70 ], [ "briefs", 30 ], [ "boxer_briefs", 50 ] ]
   },
   {
     "type": "item_group",
-    "id": "NC_MAQUIS_SNIPER_underwear_bottom_female",
+    "id": "NC_MAQUIS_CYBERCOP_underwear_bottom_female",
     "subtype": "collection",
     "items": [ [ "panties", 70 ], [ "boy_shorts", 50 ], [ "bikini_bottom", 10 ] ]
   },
   {
     "type": "item_group",
-    "id": "NC_MAQUIS_SNIPER_underwear_top_male",
+    "id": "NC_MAQUIS_CYBERCOP_underwear_top_male",
     "subtype": "collection",
     "items": [ [ "null", 50 ], [ "undershirt", 50 ], [ "long_undertop", 20 ], [ "tank_top", 25 ] ]
   },
   {
     "type": "item_group",
-    "id": "NC_MAQUIS_SNIPER_underwear_top_female",
+    "id": "NC_MAQUIS_CYBERCOP_underwear_top_female",
     "subtype": "collection",
     "items": [ [ "null", 10 ], [ "bra", 70 ], [ "sports_bra", 50 ], [ "tank_top", 50 ] ]
   },
   {
     "type": "item_group",
-    "id": "NC_MAQUIS_SNIPER_underwear_feet_male",
+    "id": "NC_MAQUIS_CYBERCOP_underwear_feet_male",
     "items": [ [ "null", 5 ], [ "socks", 80 ], [ "socks_ankle", 60 ], [ "socks_wool", 20 ] ]
   },
   {
     "type": "item_group",
-    "id": "NC_MAQUIS_SNIPER_underwear_feet_female",
+    "id": "NC_MAQUIS_CYBERCOP_underwear_feet_female",
     "items": [ [ "null", 5 ], [ "socks", 50 ], [ "socks_ankle", 30 ], [ "socks_wool", 10 ], [ "stockings", 20 ], [ "tights", 20 ] ]
   },
   {
     "type": "item_group",
-    "id": "NC_MAQUIS_SNIPER_pants_male",
+    "id": "NC_MAQUIS_CYBERCOP_pants_male",
     "subtype": "distribution",
     "entries": [
       { "item": "jeans", "prob": 20 },
@@ -105,7 +112,7 @@
   },
   {
     "type": "item_group",
-    "id": "NC_MAQUIS_SNIPER_pants_female",
+    "id": "NC_MAQUIS_CYBERCOP_pants_female",
     "subtype": "distribution",
     "entries": [
       { "item": "jeans", "prob": 20 },
@@ -118,7 +125,7 @@
   },
   {
     "type": "item_group",
-    "id": "NC_MAQUIS_SNIPER_shirt_male",
+    "id": "NC_MAQUIS_CYBERCOP_shirt_male",
     "subtype": "distribution",
     "entries": [
       { "item": "tshirt", "prob": 20 },
@@ -129,7 +136,7 @@
   },
   {
     "type": "item_group",
-    "id": "NC_MAQUIS_SNIPER_shirt_female",
+    "id": "NC_MAQUIS_CYBERCOP_shirt_female",
     "subtype": "distribution",
     "entries": [
       { "item": "tshirt", "prob": 20 },
@@ -140,7 +147,7 @@
   },
   {
     "type": "item_group",
-    "id": "NC_MAQUIS_SNIPER_gloves",
+    "id": "NC_MAQUIS_CYBERCOP_gloves",
     "subtype": "distribution",
     "entries": [
       { "item": "null", "prob": 60 },
@@ -150,130 +157,114 @@
   },
   {
     "type": "item_group",
-    "id": "NC_MAQUIS_SNIPER_coat",
+    "id": "NC_MAQUIS_CYBERCOP_coat",
     "subtype": "distribution",
     "entries": [
-      { "item": "touring_suit", "prob": 10 },
-      { "item": "jacket_light", "prob": 20 },
-      { "item": "trenchcoat", "prob": 20 },
-      { "item": "ballistic_vest_esapi", "prob": 30 }
+      { "item": "trenchcoat", "prob": 100 }
     ]
   },
   {
     "type": "item_group",
-    "id": "NC_MAQUIS_SNIPER_shoes",
+    "id": "NC_MAQUIS_CYBERCOP_shoes",
     "subtype": "distribution",
-    "entries": [ { "item": "sneakers", "prob": 20 }, { "item": "boots", "prob": 20 }, { "item": "boots_bunker", "prob": 10 } ]
+    "entries": [ { "item": "boots_combat", "prob": 100 } ]
   },
   {
     "type": "item_group",
-    "id": "NC_MAQUIS_SNIPER_masks",
+    "id": "NC_MAQUIS_CYBERCOP_masks",
     "subtype": "distribution",
     "entries": [
-      { "item": "null", "prob": 1 },
-      { "item": "mask_dust", "prob": 10 },
-      { "item": "keffiyeh", "prob": 30 },
-      { "item": "bandana", "prob": 10 }
+      { "item": "null", "prob": 100 }
     ]
   },
   {
     "type": "item_group",
-    "id": "NC_MAQUIS_SNIPER_eyes",
+    "id": "NC_MAQUIS_CYBERCOP_eyes",
     "subtype": "distribution",
-    "entries": [ { "item": "null", "prob": 5 }, { "item": "glasses_bal", "prob": 20 }, { "item": "fancy_sunglasses", "prob": 50 } ]
+    "entries": [ { "item": "null", "prob": 100 } ]
   },
   {
     "type": "item_group",
-    "id": "NC_MAQUIS_SNIPER_hat",
+    "id": "NC_MAQUIS_CYBERCOP_hat",
     "subtype": "distribution",
     "entries": [
-      { "item": "beret", "prob": 40 },
-      { "item": "bandana_head", "prob": 10 },
-      { "item": "beret_wool", "prob": 10 },
-      { "item": "cowboy_hat", "prob": 10 },
-      { "item": "hat_boonie", "prob": 10 },
-      { "item": "hat_hunting", "prob": 10 }
+      { "item": "hat_boonie", "prob": 100 }
     ]
   },
   {
     "type": "item_group",
-    "id": "NC_MAQUIS_SNIPER_extra",
+    "id": "NC_MAQUIS_CYBERCOP_extra",
     "subtype": "distribution",
     "entries": [ { "item": "backpack", "prob": 25 }, { "item": "backpack_leather", "prob": 25 }, { "item": "rucksack", "prob": 5 } ]
   },
   {
     "type": "item_group",
-    "id": "NC_MAQUIS_SNIPER_cutting",
+    "id": "NC_MAQUIS_CYBERCOP_cutting",
     "subtype": "distribution",
     "entries": [
-      { "item": "knife_butcher", "prob": 20 },
-      { "item": "hatchet", "prob": 20 },
-      { "item": "ax", "prob": 20 },
-      { "item": "machete", "prob": 20 },
-      { "item": "knife_combat", "prob": 20 }
+      { "item": "knife_combat", "prob": 100 }
     ]
   },
   {
     "type": "item_group",
-    "id": "NC_MAQUIS_SNIPER_stabbing",
+    "id": "NC_MAQUIS_CYBERCOP_stabbing",
     "subtype": "distribution",
     "entries": [ { "item": "spear_knife", "prob": 50 }, { "item": "spear_rebar", "prob": 5 } ]
   },
   {
     "type": "item_group",
-    "id": "NC_MAQUIS_SNIPER_throw",
+    "id": "NC_MAQUIS_CYBERCOP_throw",
     "subtype": "distribution",
     "entries": [ { "item": "throwing_knife", "prob": 50 }, { "item": "throwing_axe", "prob": 50 } ]
   },
   {
     "type": "item_group",
-    "id": "NC_MAQUIS_SNIPER_archery",
+    "id": "NC_MAQUIS_CYBERCOP_archery",
     "subtype": "distribution",
     "entries": [ { "item": "crossbow", "prob": 5 } ]
   },
   {
     "type": "item_group",
-    "id": "NC_MAQUIS_SNIPER_pistols",
+    "id": "NC_MAQUIS_CYBERCOP_pistols",
     "subtype": "distribution",
     "entries": [ { "group": "guns_pistol_rare", "prob": 70 } ]
   },
   {
     "type": "item_group",
-    "id": "NC_MAQUIS_SNIPER_shotgun",
+    "id": "NC_MAQUIS_CYBERCOP_shotgun",
     "subtype": "distribution",
     "entries": [ { "group": "guns_shotgun_rare", "prob": 70 } ]
   },
   {
     "type": "item_group",
-    "id": "NC_MAQUIS_SNIPER_smg",
+    "id": "NC_MAQUIS_CYBERCOP_smg",
     "subtype": "distribution",
     "entries": [ { "group": "guns_smg_common", "prob": 20 }, { "group": "guns_smg_rare", "prob": 60 } ]
   },
   {
     "type": "item_group",
-    "id": "NC_MAQUIS_SNIPER_rifle",
+    "id": "NC_MAQUIS_CYBERCOP_rifle",
     "subtype": "distribution",
     "entries": [
-      { "item": "rm11b_sniper_rifle", "prob": 95, "charges-min": 4, "charges-max": 70 },
-      { "item": "rm51_assault_rifle", "prob": 55, "charges-min": 45, "charges-max": 25 },
-      { "item": "rm88_battle_rifle", "prob": 15, "charges-min": 45, "charges-max": 25 }
+      { "item": "rm51_assault_rifle", "prob": 55, "charges-min": 45, "charges-max": 50 },
+      { "item": "rm88_battle_rifle", "prob": 15, "charges-min": 45, "charges-max": 50 }
     ]
   },
   {
     "type": "item_group",
-    "id": "NC_MAQUIS_SNIPER_launcher",
+    "id": "NC_MAQUIS_CYBERCOP_launcher",
     "subtype": "distribution",
     "entries": [ { "item": "launcher_simple", "prob": 100 } ]
   },
   {
     "type": "item_group",
-    "id": "NC_MAQUIS_SNIPER_weapon_random",
+    "id": "NC_MAQUIS_CYBERCOP_weapon_random",
     "subtype": "distribution",
     "entries": [ { "item": "q_staff", "prob": 100 } ]
   },
   {
     "type": "item_group",
-    "id": "NC_MAQUIS_SNIPER_misc",
+    "id": "NC_MAQUIS_CYBERCOP_misc",
     "subtype": "distribution",
     "entries": [
       { "group": "rad_gear", "count-min": 1, "count-max": 2, "prob": 90 },
@@ -283,29 +274,35 @@
   },
   {
     "//": "----------DIALOGUE OPTIONS-------------------------------------------------------------------------------------",
-    "id": "TALK_MAQUIS_SNIPER_ROOT",
+    "id": "TALK_MAQUIS_CYBERCOP_ROOT",
     "type": "talk_topic",
-    "dynamic_line": [ "Don't distract me while I'm aiming.", "I'm kind of busy right now." ],
+    "dynamic_line": [ "What do you require citizen?.", "I'm kind of busy right now." ],
     "responses": [
-      { "text": "Let's trade.", "topic": "TALK_MAQUIS_SNIPER_TRADE" },
-      { "text": "What are you doing here?", "topic": "TALK_MAQUIS_SNIPER_DOING" },
-      { "text": "Why are you upstairs?", "topic": "TALK_MAQUIS_SNIPER_UPSTAIRS" },
+      { "text": "Let's trade.", "topic": "TALK_MAQUIS_CYBERCOP_TRADE" },
+      { "text": "What are you doing here?", "topic": "TALK_MAQUIS_CYBERCOP_DOING" },
+      { "text": "Why are you upstairs?", "topic": "TALK_MAQUIS_CYBERCOP_UPSTAIRS" },
       {
-        "text": "[MISSION] I'm looking for Chad Erikson, his brother Randy sent me.",
+        "text": "[MISSION] I'm looking for Chad Erikson, his nephew Randy sent me.",
         "condition": {
           "and": [
             { "not": { "u_has_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" } },
             { "u_has_mission": "MISSION_CHECK_UP_ON_BIG_BROTHER" }
           ]
         },
-        "topic": "TALK_MAQUIS_SNIPER_BIG_BROTHER"
+        "topic": "TALK_MAQUIS_CYBERCOP_BIG_BROTHER"
       },
+      {
+        "text": "Is there anything I can do to help you out?",
+        "condition": { "and": [ { "not": "has_many_assigned_mission" }, { "not": "has_assigned_mission" } ] },
+        "topic": "TALK_MISSION_LIST"
+      },
+      { "text": "About that mission…", "topic": "TALK_MISSION_INQUIRE", "condition": "has_assigned_mission" },	  
       { "text": "See you later.", "topic": "TALK_DONE" }
     ]
   },
   {
     "type": "talk_topic",
-    "id": "TALK_MAQUIS_SNIPER_BIG_BROTHER",
+    "id": "TALK_MAQUIS_CYBERCOP_BIG_BROTHER",
     "dynamic_line": [
       "I believe Mr. Erikson has an office on the seventh floor.",
       "Mr. Erikson is usually in his office in the seventh floor."
@@ -313,7 +310,7 @@
     "responses": [ { "text": "Ok, Thanks.", "topic": "TALK_NONE" }, { "text": "Ok, I have to go now.", "topic": "TALK_DONE" } ]
   },
   {
-    "id": "TALK_MAQUIS_SNIPER_DOING",
+    "id": "TALK_MAQUIS_CYBERCOP_DOING",
     "type": "talk_topic",
     "dynamic_line": [
       "There is an arrangement with everyone that lives here, the bottom few floors are a free trade zone, the middle floors are general living space, and the upper floors are for the alien resistance operation. Part of that agreement means some of us with sharp eyes and quick trigger-fingers get to be up here.",
@@ -321,24 +318,81 @@
       "This entire tower might be one of the last good places left in New England, let alone the world.  Its kind of awesome when you think about it."
     ],
     "responses": [
-      { "text": "Let's trade.", "topic": "TALK_MAQUIS_SNIPER_TRADE" },
-      { "text": "Nice arrangement for everyone.", "topic": "TALK_MAQUIS_SNIPER_ROOT" },
+      { "text": "Let's trade.", "topic": "TALK_MAQUIS_CYBERCOP_TRADE" },
+      { "text": "Nice arrangement for everyone.", "topic": "TALK_MAQUIS_CYBERCOP_ROOT" },
       { "text": "Ok, good bye.", "topic": "TALK_DONE" }
     ]
   },
   {
-    "id": "TALK_MAQUIS_SNIPER_UPSTAIRS",
+    "id": "TALK_MAQUIS_CYBERCOP_UPSTAIRS",
     "type": "talk_topic",
     "dynamic_line": [
       "Being up here is isn't just for fun, I have to keep an eye on things down on the ground.",
       "There are some mutants in the upper floors and a few in the basement, but they're good people.  So long as you don't stare at the heavily deformed ones."
     ],
-    "responses": [ { "text": "Let's trade.", "topic": "TALK_MAQUIS_SNIPER_TRADE" }, { "text": "Well, bye.", "topic": "TALK_DONE" } ]
+    "responses": [ { "text": "Let's trade.", "topic": "TALK_MAQUIS_CYBERCOP_TRADE" }, { "text": "Well, bye.", "topic": "TALK_DONE" } ]
   },
   {
-    "id": "TALK_MAQUIS_SNIPER_TRADE",
+    "id": "TALK_MAQUIS_CYBERCOP_TRADE",
     "type": "talk_topic",
     "dynamic_line": [ "No.  I wouldn't sell you this gun.", "Go down stairs if you want to trade, I'm busy up here.", "Piss off." ],
     "responses": [ { "text": "Well, bye.", "topic": "TALK_DONE", "opinion": { "trust": -2, "value": -2 } } ]
+  },
+  {
+    "id": "MISSION_KILL_12_XENOID_BOTS",
+    "type": "mission_definition",
+    "name": { "str": "Kill a dozen alien robots" },
+    "goal": "MGOAL_KILL_MONSTER_SPEC",
+    "monster_species": "ALIENROBOT",
+    "monster_kill_goal": 12,
+    "difficulty": 3,
+    "value": 125000,
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "followup": "MISSION_KILL_144_XENOID_BOTS",
+    "end": {
+      "effect": [
+        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 2 },
+        { "u_add_var": "Maquis_Cybercop_Mission1", "type": "mission", "context": "flag", "value": "yes" }
+      ]
+    },
+    "dialogue": {
+      "describe": "You seem to understand this Xenoid threat better than most…",
+      "offer": "You're kitted out better than most… would you be interested in making this world a little better for the rest of humanity?  The towns have enough supplies for us survivors to start securing a foothold but we don't have anyone with the skills and equipment to thin the ranks of the Xenoid Infantry.  Head out on patrol and exterminate at least a dozen Xenoid robots, what do you say?",
+      "accepted": "Great, this will really help establish the perimeter around Barter Tower.",
+      "rejected": "Hey, I know I wouldn't volunteer for it either… but then I remember that most of us survivors won't make it unless someone decides to take the initiative.",
+      "advice": "I'd secure an ammo cache and try to sweep an area in multiple passes.",
+      "inquire": "Have you completed the task?",
+      "success": "Man… you're a goddamn machine.  You know, you may just change our little neck of the world if you keep this up.",
+      "success_lie": "I don't think that was quite a dozen xenoid robots.",
+      "failure": "Quitting already?"
+    }
+  },
+  {
+    "id": "MISSION_KILL_100_XENOID_BOTS",
+    "type": "mission_definition",
+    "name": { "str": "Kill one hundred alien robots" },
+    "goal": "MGOAL_KILL_MONSTER_SPEC",
+    "monster_species": "ALIENROBOT",
+    "monster_kill_goal": 100,
+    "difficulty": 6,
+    "value": 275000,
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "end": {
+      "effect": [
+        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 5 },
+        { "u_add_var": "Maquis_Cybercop_Mission2", "type": "mission", "context": "flag", "value": "yes" }
+      ]
+    },
+    "dialogue": {
+      "describe": "You seem to understand this Xenoid threat better than most…",
+      "offer": "You've killed a few of the alien robots so far, how about going and making it an even one hundred.",
+      "accepted": "Hell ya, we may get ourselves killed but we'll be among the first legends of the apocalypse.",
+      "rejected": "Hey, I know I wouldn't volunteer for it either… but then I remember that most of us survivors won't make it unless someone decides to take the initiative.",
+      "advice": "I'd secure an ammo cache and try to sweep a town in multiple passes.",
+      "inquire": "Got this knocked out?",
+      "success": "Man… you're a goddamn machine.  It was a pleasure working with you.  You know, you may just change our little neck of the world if you keep this up.",
+      "success_lie": "I don't think that was quite a hundred dead strays.",
+      "failure": "Quitting already?"
+    }
   }
 ]
