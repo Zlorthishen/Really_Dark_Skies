@@ -1,0 +1,94 @@
+[
+  {
+    "type": "mapgen",
+    "method": "json",
+    "update_mapgen_id": "xenoid_dropsite_forest_seven",
+    "object": {
+      "rows": [
+        "                        ",
+        "                        ",
+        "     r                  ",
+        "                    r   ",
+        "              t         ",
+        "          TtXz          ",
+        "      T     x           ",
+        "      t       t      t  ",
+        "   r     t              ",
+        "            xx          ",
+        "  TTtxXx   xXRx  t      ",
+        "      R     xxx         ",
+        "                 xxx  t ",
+        "    t            xXXx   ",
+        "        xRX      xxx    ",
+        "      xZXxTt            ",
+        "       xx               ",
+        "                z   t   ",
+        "               xXx      ",
+        "     TTtXxR     x       ",
+        "        xx       t      ",
+        "                        ",
+        "    t                   ",
+        "               r        "
+      ],
+      "terrain": { "t": [ "t_stump" ], "T": [ "t_trunk" ], "x": "t_dirt_barren", "X": "t_dirt_barren", "z": "t_dirt_barren", "Z": "t_dirt_barren"  },
+      "items": {
+        "x": { "item": "xenoid_dropsite_scrap", "chance": 80 },
+        "R": { "item": "xenoid_dropsite_scrap", "chance": 80 },
+        "X": { "item": "xenoid_dropsite_scrap", "chance": 80 }
+      },
+      "monster": {
+        "X": { "monster": "dkz_xenoid_ranger" },
+        "R": { "monster": "mon_dkz_scidrone" },
+        "r": { "monster": "mon_dkz_glowdrone" },
+        "z": { "monster": "dkz_xenoid_enforcer" },
+        "Z": { "monster": "dkz_xenoid_knight" }	
+      }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "update_mapgen_id": "xenoid_dropsite_forest_five",
+    "object": {
+      "rows": [
+        "                        ",
+        "            r        r  ",
+        "   r                    ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "      T                 ",
+        "      t       t         ",
+        "         t              ",
+        "            xx          ",
+        "  TTtxXx   xXxz         ",
+        "      x     xxx         ",
+        "                 xxx  t ",
+        "                 xXXx   ",
+        "        xRX      xxx    ",
+        "       ZXxTt            ",
+        "  r    xx               ",
+        "                x   t   ",
+        "               zXR      ",
+        "                x       ",
+        "    r            t      ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "terrain": { "t": [ "t_stump" ], "T": [ "t_trunk" ], "x": "t_dirt", "X": "t_dirt", "z": "t_dirt_barren", "Z": "t_dirt_barren"  },
+      "items": {
+        "x": { "item": "xenoid_dropsite_scrap", "chance": 80 },
+        "R": { "item": "xenoid_dropsite_scrap", "chance": 80 },
+        "X": { "item": "xenoid_dropsite_scrap", "chance": 80 }
+      },
+      "monster": {
+        "X": { "monster": "dkz_xenoid_ranger" },
+        "R": { "monster": "mon_dkz_scidrone" },
+        "r": { "monster": "mon_dkz_glowdrone" },
+        "z": { "monster": "dkz_xenoid_enforcer" },
+        "Z": { "monster": "dkz_xenoid_knight" }		
+      }
+    }
+  }
+]
