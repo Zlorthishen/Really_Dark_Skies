@@ -1,19 +1,37 @@
 [
   {
     "type": "overmap_terrain",
-    "id": [
-      "arcology_parking_1",
-      "arcology_parking_2",
-      "arcology_parking_3",
-      "arcology_parking_4",
-      "arcology_parking_5"	  
-    ],
+    "id": [ "arcology_parking_1", "arcology_parking_2", "arcology_parking_3", "arcology_parking_4", "arcology_parking_5" ],
     "name": "parking lot",
-    "sym": "x",
-    "color": "i_light_gray",
+    "color": "dark_gray",
+    "sym": "0",
     "see_cost": 99
   },
-
+  {
+    "type": "overmap_terrain",
+    "id": [
+      "racing_tower_z9_1_1",
+      "racing_tower_z9_1_2",
+      "racing_tower_z9_1_3",
+      "racing_tower_z9_1_4",
+      "racing_tower_z9_2_1",
+      "racing_tower_z9_2_2",
+      "racing_tower_z9_2_3",
+      "racing_tower_z9_2_4",
+      "racing_tower_z9_3_1",
+      "racing_tower_z9_3_2",
+      "racing_tower_z9_3_3",
+      "racing_tower_z9_3_4",
+      "racing_tower_z9_4_1",
+      "racing_tower_z9_4_2",
+      "racing_tower_z9_4_3",
+      "racing_tower_z9_4_4"
+    ],
+    "name": "Barter Tower",
+    "sym": "◦",
+    "color": "i_light_red",
+    "see_cost": 0
+  },
   {
     "type": "overmap_terrain",
     "id": [
@@ -27,8 +45,7 @@
       "racing_tower_z5_1_1",
       "racing_tower_z6_1_1",
       "racing_tower_z7_1_1",
-      "racing_tower_z8_1_1",
-      "racing_tower_z9_1_1"
+      "racing_tower_z8_1_1"
     ],
     "name": "Barter Tower",
     "sym": "╔",
@@ -48,8 +65,7 @@
       "racing_tower_z5_1_4",
       "racing_tower_z6_1_4",
       "racing_tower_z7_1_4",
-      "racing_tower_z8_1_4",
-      "racing_tower_z9_1_4"
+      "racing_tower_z8_1_4"
     ],
     "name": "Barter Tower",
     "sym": "╚",
@@ -69,8 +85,7 @@
       "racing_tower_z5_4_1",
       "racing_tower_z6_4_1",
       "racing_tower_z7_4_1",
-      "racing_tower_z8_4_1",
-      "racing_tower_z9_4_1"
+      "racing_tower_z8_4_1"
     ],
     "name": "Barter Tower",
     "sym": "╗",
@@ -80,7 +95,7 @@
   {
     "type": "overmap_terrain",
     "id": [
-      "racing_tower_z-2_4_4",	
+      "racing_tower_z-2_4_4",
       "racing_tower_z-1_4_4",
       "racing_tower_z0_4_4",
       "racing_tower_z1_4_4",
@@ -90,8 +105,7 @@
       "racing_tower_z5_4_4",
       "racing_tower_z6_4_4",
       "racing_tower_z7_4_4",
-      "racing_tower_z8_4_4",
-      "racing_tower_z9_4_4"
+      "racing_tower_z8_4_4"
     ],
     "name": "Barter Tower",
     "sym": "╝",
@@ -122,9 +136,7 @@
       "racing_tower_z7_1_2",
       "racing_tower_z7_1_3",
       "racing_tower_z8_1_2",
-      "racing_tower_z8_1_3",
-      "racing_tower_z9_1_2",
-      "racing_tower_z9_1_3"
+      "racing_tower_z8_1_3"
     ],
     "name": "Barter Tower",
     "sym": "╟",
@@ -155,9 +167,7 @@
       "racing_tower_z7_4_2",
       "racing_tower_z7_4_3",
       "racing_tower_z8_4_2",
-      "racing_tower_z8_4_3",
-      "racing_tower_z9_4_2",
-      "racing_tower_z9_4_3"
+      "racing_tower_z8_4_3"
     ],
     "name": "Barter Tower",
     "sym": "╢",
@@ -168,7 +178,7 @@
     "type": "overmap_terrain",
     "id": [
       "racing_tower_z-2_2_4",
-      "racing_tower_z-2_3_4",	
+      "racing_tower_z-2_3_4",
       "racing_tower_z-1_2_4",
       "racing_tower_z-1_3_4",
       "racing_tower_z0_2_4",
@@ -188,9 +198,7 @@
       "racing_tower_z7_2_4",
       "racing_tower_z7_3_4",
       "racing_tower_z8_2_4",
-      "racing_tower_z8_3_4",
-      "racing_tower_z9_2_4",
-      "racing_tower_z9_3_4"
+      "racing_tower_z8_3_4"
     ],
     "name": "Barter Tower",
     "sym": "╧",
@@ -200,7 +208,6 @@
   {
     "type": "overmap_terrain",
     "id": [
-	
       "racing_tower_z-2_2_1",
       "racing_tower_z-2_3_1",
       "racing_tower_z-1_2_1",
@@ -222,9 +229,7 @@
       "racing_tower_z7_2_1",
       "racing_tower_z7_3_1",
       "racing_tower_z8_2_1",
-      "racing_tower_z8_3_1",
-      "racing_tower_z9_2_1",
-      "racing_tower_z9_3_1"
+      "racing_tower_z8_3_1"
     ],
     "name": "Barter Tower",
     "sym": "╤",
@@ -234,7 +239,6 @@
   {
     "type": "overmap_terrain",
     "id": [
-	
       "racing_tower_z-2_2_2",
       "racing_tower_z-2_2_3",
       "racing_tower_z-2_3_2",
@@ -278,11 +282,7 @@
       "racing_tower_z8_2_2",
       "racing_tower_z8_2_3",
       "racing_tower_z8_3_2",
-      "racing_tower_z8_3_3",
-      "racing_tower_z9_2_2",
-      "racing_tower_z9_2_3",
-      "racing_tower_z9_3_2",
-      "racing_tower_z9_3_3"
+      "racing_tower_z8_3_3"
     ],
     "name": "Barter Tower",
     "sym": "┼",

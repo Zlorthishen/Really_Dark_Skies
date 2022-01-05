@@ -649,7 +649,7 @@
       ],
       "terrain": { " ": "t_null" },
       "furniture": {
-        "j": [ "f_cardboard_box", "f_cardboard_box", "f_cardboard_box","f_cardboard_box", "f_cardboard_box", "f_crate_c" ],
+        "j": [ "f_cardboard_box", "f_cardboard_box", "f_cardboard_box", "f_cardboard_box", "f_cardboard_box", "f_crate_c" ],
         "J": [ "f_cardboard_wall", "f_cardboard_wall", "f_cardboard_wall", "f_cardboard_box" ]
       },
       "items": { " ": { "item": "newspaper", "chance": 2 }, "j": { "item": "newspaper", "chance": 100, "repeat": [ 5, 9 ] } }
@@ -699,7 +699,15 @@
       ],
       "terrain": { " ": "t_null" },
       "furniture": {
-        "j": [ "f_cardboard_box", "f_cardboard_box", "f_cardboard_box","f_cardboard_box", "f_cardboard_box", "f_cardboard_box", "f_crate_c" ],
+        "j": [
+          "f_cardboard_box",
+          "f_cardboard_box",
+          "f_cardboard_box",
+          "f_cardboard_box",
+          "f_cardboard_box",
+          "f_cardboard_box",
+          "f_crate_c"
+        ],
         "J": [ "f_cardboard_wall", "f_cardboard_wall", "f_cardboard_wall", "f_cardboard_box" ]
       },
       "items": { " ": { "item": "newspaper", "chance": 1 }, "j": { "item": "newspaper", "chance": 100, "repeat": [ 5, 9 ] } }
@@ -724,7 +732,7 @@
       ],
       "terrain": { " ": "t_null" },
       "furniture": {
-        "j": [ "f_cardboard_box", "f_cardboard_box", "f_cardboard_box","f_cardboard_box", "f_cardboard_box", "f_cardboard_wall" ],
+        "j": [ "f_cardboard_box", "f_cardboard_box", "f_cardboard_box", "f_cardboard_box", "f_cardboard_box", "f_cardboard_wall" ],
         "J": [ "f_cardboard_wall", "f_cardboard_wall", "f_cardboard_box", "f_crate_c" ]
       },
       "items": { " ": { "item": "newspaper", "chance": 10 }, "j": { "item": "newspaper", "chance": 100, "repeat": [ 5, 9 ] } }
@@ -749,13 +757,12 @@
       ],
       "terrain": { " ": "t_null" },
       "furniture": {
-        "j": [ "f_cardboard_box", "f_cardboard_box", "f_cardboard_box","f_cardboard_box", "f_cardboard_box", "f_cardboard_wall" ],
+        "j": [ "f_cardboard_box", "f_cardboard_box", "f_cardboard_box", "f_cardboard_box", "f_cardboard_box", "f_cardboard_wall" ],
         "J": [ "f_cardboard_wall", "f_cardboard_wall", "f_cardboard_box", "f_crate_c" ]
       },
       "items": { " ": { "item": "newspaper", "chance": 10 }, "j": { "item": "newspaper", "chance": 100, "repeat": [ 5, 9 ] } }
     }
   },
-
   {
     "//": "6x6 junk",
     "type": "mapgen",
@@ -775,7 +782,15 @@
       ],
       "terrain": { " ": "t_null" },
       "furniture": {
-        "j": [ "f_cardboard_box", "f_cardboard_box", "f_cardboard_box","f_cardboard_box", "f_cardboard_box", "f_cardboard_box", "f_crate_c" ],
+        "j": [
+          "f_cardboard_box",
+          "f_cardboard_box",
+          "f_cardboard_box",
+          "f_cardboard_box",
+          "f_cardboard_box",
+          "f_cardboard_box",
+          "f_crate_c"
+        ],
         "J": [ "f_cardboard_wall", "f_cardboard_wall", "f_cardboard_box", "f_crate_c" ]
       },
       "items": { " ": { "item": "newspaper", "chance": 10 }, "j": { "item": "newspaper", "chance": 100, "repeat": [ 5, 9 ] } }
@@ -802,7 +817,12 @@
       ],
       "terrain": { " ": "t_null" },
       "furniture": { "C": "f_bench", "T": "f_metal_table" },
-      "place_npcs": [ { "class": "DKZ_MAQUIS_ATHLETIC", "x": 1, "y": 1 }, { "class": "DKZ_MAQUIS_GUARD", "x": 6, "y": 6 } ],
+      "place_npcs": [
+        { "class": "DKZ_MAQUIS_ATHLETIC", "x": 1, "y": 1 },
+        { "class": "DKZ_MAQUIS_MECHANIC", "x": 4, "y": 4 },
+        { "class": "DKZ_MAQUIS_GUARD", "x": 1, "y": 2 },
+        { "class": "DKZ_MAQUIS_GUARD", "x": 3, "y": 1 }
+      ],
       "items": { " ": { "item": "trash", "chance": 1 }, "T": { "item": "scavenged_foods", "chance": 50, "repeat": [ 1, 2 ] } }
     }
   },
@@ -827,7 +847,12 @@
       ],
       "terrain": { " ": "t_null" },
       "furniture": { "C": "f_bench", "T": "f_metal_table" },
-      "place_npcs": [ { "class": "DKZ_MAQUIS_ATHLETIC", "x": 1, "y": 1 }, { "class": "DKZ_MAQUIS_MECHANIC", "x": 4, "y": 4 } ],
+      "place_npcs": [
+        { "class": "DKZ_MAQUIS_ATHLETIC", "x": 1, "y": 1 },
+        { "class": "DKZ_MAQUIS_MECHANIC", "x": 4, "y": 4 },
+        { "class": "DKZ_MAQUIS_GUARD", "x": 1, "y": 2 },
+        { "class": "DKZ_MAQUIS_GUARD", "x": 3, "y": 1 }
+      ],
       "items": { " ": { "item": "trash", "chance": 1 }, "T": { "item": "scavenged_foods", "chance": 50, "repeat": [ 2, 3 ] } }
     }
   },
@@ -852,7 +877,12 @@
       ],
       "terrain": { " ": "t_null" },
       "furniture": { "C": "f_bench", "T": "f_metal_table" },
-      "place_npcs": [ { "class": "DKZ_MAQUIS_ATHLETIC", "x": 4, "y": 1 }, { "class": "DKZ_MAQUIS_GUARD", "x": 6, "y": 6 } ],
+      "place_npcs": [
+        { "class": "DKZ_MAQUIS_ATHLETIC", "x": 4, "y": 1 },
+        { "class": "DKZ_MAQUIS_GUARD", "x": 6, "y": 6 },
+        { "class": "DKZ_MAQUIS_GUARD", "x": 1, "y": 1 },
+        { "class": "DKZ_MAQUIS_GUARD", "x": 2, "y": 2 }
+      ],
       "items": { " ": { "item": "trash", "chance": 1 }, "T": { "item": "scavenged_foods", "chance": 50, "repeat": [ 1, 2 ] } }
     }
   },
@@ -875,7 +905,12 @@
         "    CC ",
         "       "
       ],
-      "place_npcs": [ { "class": "DKZ_MAQUIS_GUARD", "x": 1, "y": 1 } ],
+      "place_npcs": [
+        { "class": "DKZ_MAQUIS_GUARD", "x": 1, "y": 1 },
+        { "class": "DKZ_MAQUIS_GUARD", "x": 1, "y": 4 },
+        { "class": "DKZ_MAQUIS_GUARD", "x": 3, "y": 3 },
+        { "class": "DKZ_MAQUIS_GUARD", "x": 4, "y": 1 }
+      ],
       "terrain": { " ": "t_null" },
       "furniture": { "C": "f_bench", "T": "f_metal_table" },
       "items": { " ": { "item": "trash", "chance": 1 }, "T": { "item": "scavenged_foods", "chance": 50, "repeat": [ 1, 2 ] } }
@@ -901,7 +936,12 @@
         "       "
       ],
       "terrain": { " ": "t_null" },
-      "place_npcs": [ { "class": "DKZ_MAQUIS_ATHLETIC", "x": 5, "y": 1 }, { "class": "DKZ_MAQUIS_GUARD", "x": 1, "y": 6 } ],
+      "place_npcs": [
+        { "class": "DKZ_MAQUIS_ATHLETIC", "x": 5, "y": 1 },
+        { "class": "DKZ_MAQUIS_GUARD", "x": 1, "y": 6 },
+        { "class": "DKZ_MAQUIS_GUARD", "x": 3, "y": 3 },
+        { "class": "DKZ_MAQUIS_GUARD", "x": 3, "y": 6 }
+      ],
       "furniture": { "C": "f_bench", "S": "f_stool", "T": "f_metal_table" },
       "items": { " ": { "item": "trash", "chance": 1 }, "T": { "item": "scavenged_foods", "chance": 50, "repeat": [ 1, 2 ] } }
     }
@@ -927,8 +967,9 @@
       ],
       "terrain": { " ": "t_null" },
       "place_npcs": [
-        { "class": "DKZ_MAQUIS_ATHLETIC", "x": 1, "y": 1 },
+        { "class": "DKZ_MAQUIS_CYBERCOP", "x": 1, "y": 1 },
         { "class": "DKZ_MAQUIS_ATHLETIC", "x": 3, "y": 1 },
+        { "class": "DKZ_MAQUIS_SPIDER_MUTANT", "x": 1, "y": 2 },
         { "class": "DKZ_MAQUIS_ATHLETIC", "x": 1, "y": 3 }
       ],
       "furniture": { "C": "f_bench", "S": "f_stool", "T": "f_metal_table", "X": "f_metal_table", "V": "f_trashcan" },
@@ -962,7 +1003,7 @@
       "place_npcs": [
         { "class": "DKZ_MAQUIS_DEMOLITIONS", "x": 5, "y": 1 },
         { "class": "DKZ_MAQUIS_GUARD", "x": 1, "y": 6 },
-        { "class": "DKZ_MAQUIS_MECHANIC", "x": 1, "y": 2 },
+        { "class": "DKZ_MAQUIS_MANTIS_MUTANT", "x": 1, "y": 2 },
         { "class": "DKZ_MAQUIS_ATHLETIC", "x": 5, "y": 5 }
       ],
       "terrain": { " ": "t_null" },
@@ -1077,7 +1118,7 @@
         "V": "t_linoleum_white",
         "X": "t_linoleum_white"
       },
-      "furniture": { "B": "f_pinball_machine", "C": "f_arcade_machine", "V": "f_vending_reinforced" },
+      "furniture": { "B": "f_pinball_machine", "C": "f_arcade_machine", "V": "f_vending_reinforced", "X": "f_vending_reinforced" },
       "items": {
         "V": { "item": "vending_food", "chance": 90, "repeat": [ 2, 3 ] },
         "X": { "item": "vending_drink", "chance": 90, "repeat": [ 1, 3 ] }
@@ -1115,7 +1156,7 @@
         "V": "t_linoleum_white",
         "X": "t_linoleum_white"
       },
-      "furniture": { "B": "f_pinball_machine", "C": "f_arcade_machine", "V": "f_vending_reinforced" },
+      "furniture": { "B": "f_pinball_machine", "C": "f_arcade_machine", "V": "f_vending_reinforced", "X": "f_vending_reinforced" },
       "items": {
         "V": { "item": "vending_food", "chance": 90, "repeat": [ 2, 3 ] },
         "X": { "item": "vending_drink", "chance": 90, "repeat": [ 1, 3 ] }
