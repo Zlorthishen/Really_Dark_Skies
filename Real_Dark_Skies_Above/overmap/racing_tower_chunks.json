@@ -53,8 +53,8 @@
       "rows": [
         " -  ",
         " bb ",
-        " bb-",
-        "    "
+        "-bb-",
+        " -  "
       ],
       "terrain": { " ": "t_null" },
       "furniture": { "-": "f_camp_chair", "b": "f_tourist_table" },
@@ -117,7 +117,7 @@
       "rotation": [ 0, 3 ],
       "rows": [
         " -  ",
-        " bb ",
+        "-bb ",
         " bb-",
         "  - "
       ],
@@ -140,7 +140,7 @@
       "rows": [
         " -  ",
         " bb ",
-        " bb-",
+        "-bb-",
         "  - "
       ],
       "terrain": { " ": "t_null" },
@@ -187,7 +187,7 @@
       "rows": [
         " -  ",
         " bb ",
-        " bb-",
+        "-bb-",
         "  - "
       ],
       "terrain": { " ": "t_null" },
