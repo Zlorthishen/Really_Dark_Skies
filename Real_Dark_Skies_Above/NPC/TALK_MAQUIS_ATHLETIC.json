@@ -393,38 +393,5 @@
       { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_MAQUIS_ATHLETIC_ROOT" },
       { "text": "Well, bye.", "topic": "TALK_DONE" }
     ]
-  },
-  {
-    "id": "MISSION_HEIRLOOM_SABRE",
-    "type": "mission_definition",
-    "name": { "str": "Find the Civil War Sabre" },
-    "goal": "MGOAL_FIND_ITEM",
-    "difficulty": 2,
-    "value": 1000,
-    "item": "cavalry_sabre",
-    "start": { 
-      "assign_mission_target": { "om_terrain": "museum", "reveal_radius": 1, "random": true, "search_range": 120 },
-      "update_mapgen": { "om_terrain": "museum", "place_item": [ { "item": "cavalry_sabre", "x": 2, "y": 2 } ] },
-      "effect": { "u_add_var": "Heirloom_Sabre", "type": "mission", "context": "flag", "value": "in_progress" }
-    },
-    "end": {
-      "effect": [
-        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 7 },
-        { "npc_add_var": "Maquis_Athletic_Mission1", "type": "mission", "context": "flag", "value": "yes" },
-        { "u_add_var": "Heirloom_Sabre_Found", "type": "mission", "context": "flag", "value": "yes" }
-      ]
-    },
-    "origins": [ "ORIGIN_SECONDARY" ],
-    "dialogue": {
-      "describe": "I have a heist for you…",
-      "offer": "My great-great-great-great-grandfather's civil war sabre is wasting way in a museum.  Now that no one is guarding it I want to recover it.",
-      "accepted": "Thats great.",
-      "rejected": "I will wait, and perhaps someone else will help me.",
-      "advice": "Just bust though the door, break the glass and grab it.  Stealth is not required for this mission.",
-      "inquire": "Did you find it yet?",
-      "success": "I knew you could find it.",
-      "success_lie": "What good does this do me?",
-      "failure": "Thanks for trying."
-    }
-  }  
+  } 
 ]

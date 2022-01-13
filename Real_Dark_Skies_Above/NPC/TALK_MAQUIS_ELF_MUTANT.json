@@ -45,8 +45,9 @@
     "bionics": [
       { "id": "bio_armor_eyes", "chance": 100 },
       { "id": "bio_batteries", "chance": 100 },
+      { "id": "bio_tools", "chance": 100 },
       { "id": "bio_carbon", "chance": 10 },
-      { "id": "bio_power_armor_interface", "chance": 40 },
+      { "id": "bio_power_armor_interface", "chance": 80 },
       { "id": "bio_uncanny_dodge", "chance": 70 },
       { "id": "bio_power_storage_mkII", "chance": 100 },
       { "id": "bio_power_storage_mkII", "chance": 50 }
@@ -384,34 +385,5 @@
       { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_MAQUIS_ELF_MUTANT_ROOT" },
       { "text": "Well, bye.", "topic": "TALK_DONE" }
     ]
-  },
-  {
-    "id": "TALK_MAQUIS_ELF_MISSION_1",
-    "type": "mission_definition",
-    "name": { "str": "Work While Busy" },
-    "description": "Find a few packs of Sorcery cards.",
-    "goal": "MGOAL_FIND_ITEM",
-    "difficulty": 2,
-    "value": 0,
-    "item": "cards_magic",
-    "count": 3,
-    "end": {
-      "effect": [
-        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 1 },
-        { "npc_add_var": "Maquis_Elf_Mutant_Mission1", "type": "mission", "context": "flag", "value": "yes" }
-      ]
-    },
-    "origins": [ "ORIGIN_SECONDARY" ],
-    "dialogue": {
-      "describe": "I'd like a few packs of Sorcery cards.",
-      "offer": "I really miss playing Sorcery Solitaire, it was a magical gathering back in the day.  Could you find me a few packs of Sorcery cards?",
-      "accepted": "Just bring it to me when you have it.",
-      "rejected": "Nevermind then.  I hope you'll change your mind.",
-      "advice": "I'd loot libraries and bookstores.",
-      "inquire": "So, have you found the books?",
-      "success": "Thank you.  This will keep me busy for a while.  Please take this as a token of my gratitude.",
-      "success_lie": "Could you give them to me?",
-      "failure": "Fine.  I can read something else."
-    }
   }
 ]

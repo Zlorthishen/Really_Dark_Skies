@@ -304,8 +304,9 @@
     "type": "talk_topic",
     "id": "TALK_MAQUIS_CYBERCOP_BIG_BROTHER",
     "dynamic_line": [
-      "I believe Mr. Erikson has an office on the seventh floor.",
-      "Mr. Erikson is usually in his office in the seventh floor."
+      "Turn around.",
+      "He is right behind you.",
+      "He is in this very room."
     ],
     "responses": [ { "text": "Ok, Thanks.", "topic": "TALK_NONE" }, { "text": "Ok, I have to go now.", "topic": "TALK_DONE" } ]
   },
@@ -337,62 +338,5 @@
     "type": "talk_topic",
     "dynamic_line": [ "No.  I wouldn't sell you this gun.", "Go down stairs if you want to trade, I'm busy up here.", "Piss off." ],
     "responses": [ { "text": "Well, bye.", "topic": "TALK_DONE", "opinion": { "trust": -2, "value": -2 } } ]
-  },
-  {
-    "id": "MISSION_KILL_12_XENOID_BOTS",
-    "type": "mission_definition",
-    "name": { "str": "Kill a dozen alien robots" },
-    "goal": "MGOAL_KILL_MONSTER_SPEC",
-    "monster_species": "ALIENROBOT",
-    "monster_kill_goal": 12,
-    "difficulty": 3,
-    "value": 125000,
-    "origins": [ "ORIGIN_SECONDARY" ],
-    "followup": "MISSION_KILL_144_XENOID_BOTS",
-    "end": {
-      "effect": [
-        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 2 },
-        { "u_add_var": "Maquis_Cybercop_Mission1", "type": "mission", "context": "flag", "value": "yes" }
-      ]
-    },
-    "dialogue": {
-      "describe": "You seem to understand this Xenoid threat better than most…",
-      "offer": "You're kitted out better than most… would you be interested in making this world a little better for the rest of humanity?  The towns have enough supplies for us survivors to start securing a foothold but we don't have anyone with the skills and equipment to thin the ranks of the Xenoid Infantry.  Head out on patrol and exterminate at least a dozen Xenoid robots, what do you say?",
-      "accepted": "Great, this will really help establish the perimeter around Barter Tower.",
-      "rejected": "Hey, I know I wouldn't volunteer for it either… but then I remember that most of us survivors won't make it unless someone decides to take the initiative.",
-      "advice": "I'd secure an ammo cache and try to sweep an area in multiple passes.",
-      "inquire": "Have you completed the task?",
-      "success": "Man… you're a goddamn machine.  You know, you may just change our little neck of the world if you keep this up.",
-      "success_lie": "I don't think that was quite a dozen xenoid robots.",
-      "failure": "Quitting already?"
-    }
-  },
-  {
-    "id": "MISSION_KILL_100_XENOID_BOTS",
-    "type": "mission_definition",
-    "name": { "str": "Kill one hundred alien robots" },
-    "goal": "MGOAL_KILL_MONSTER_SPEC",
-    "monster_species": "ALIENROBOT",
-    "monster_kill_goal": 100,
-    "difficulty": 6,
-    "value": 275000,
-    "origins": [ "ORIGIN_SECONDARY" ],
-    "end": {
-      "effect": [
-        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 5 },
-        { "u_add_var": "Maquis_Cybercop_Mission2", "type": "mission", "context": "flag", "value": "yes" }
-      ]
-    },
-    "dialogue": {
-      "describe": "You seem to understand this Xenoid threat better than most…",
-      "offer": "You've killed a few of the alien robots so far, how about going and making it an even one hundred.",
-      "accepted": "Hell ya, we may get ourselves killed but we'll be among the first legends of the apocalypse.",
-      "rejected": "Hey, I know I wouldn't volunteer for it either… but then I remember that most of us survivors won't make it unless someone decides to take the initiative.",
-      "advice": "I'd secure an ammo cache and try to sweep a town in multiple passes.",
-      "inquire": "Got this knocked out?",
-      "success": "Man… you're a goddamn machine.  It was a pleasure working with you.  You know, you may just change our little neck of the world if you keep this up.",
-      "success_lie": "I don't think that was quite a hundred dead strays.",
-      "failure": "Quitting already?"
-    }
   }
 ]

@@ -12,7 +12,7 @@
     "type": "npc_class",
     "id": "NC_MAQUIS_MECHANIC",
     "name": { "str": "MAQUIS" },
-    "job_description": "I'm here to salvage pre-cataclysm vehicles to make my own kill-dozer.",
+    "job_description": "I'm here to salvage vehicles to make my own kill-dozer.",
     "common": false,	
     "traits": [
       { "trait": "DKZ_TECH", "prob": 100 },
@@ -24,7 +24,7 @@
       { "skill": "ALL", "level": { "sum": [ { "dice": [ 3, 2 ] }, { "constant": -4 } ] } },
       { "skill": "computer", "bonus": { "rng": [ 2, 4 ] } },	  
       { "skill": "fabrication", "bonus": { "rng": [ 3, 5 ] } },	  
-      { "skill": "mechanics", "bonus": { "rng": [ 4, 8 ] } },
+      { "skill": "mechanics", "bonus": { "rng": [ 5, 8 ] } },
       { "skill": "electronics", "bonus": { "rng": [ 1, 3 ] } },		  
       { "skill": "chemistry", "bonus": { "rng": [ 1, 3 ] } },		  
       { "skill": "survival", "bonus": { "rng": [ 2, 3 ] } },
@@ -33,8 +33,8 @@
       { "skill": "unarmed", "bonus": { "rng": [ 1, 3 ] } },
       { "skill": "bashing", "bonus": { "rng": [ 1, 5 ] } },
       { "skill": "gun", "bonus": { "rng": [ 2, 4 ] } },
-      { "skill": "pistol", "bonus": { "rng": [ 2, 4 ] } },
-      { "skill": "rifle", "bonus": { "rng": [ 2, 4 ] } }
+      { "skill": "pistol", "bonus": { "rng": [ 1, 3 ] } },
+      { "skill": "rifle", "bonus": { "rng": [ 3, 5 ] } }
     ],
     "bonus_str": { "rng": [ -1, 3 ] },
     "bonus_dex": { "rng": [ -1, 3 ] },
@@ -372,65 +372,5 @@
       { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_MAQUIS_MECHANIC_ROOT" },
       { "text": "Well, bye.", "topic": "TALK_DONE" }
     ]
-  },
-  {
-    "id": "DKZ_MAQUIS_MECHANIC_MISSION_1",
-    "type": "mission_definition",
-    "name": { "str": "Time for an oil change" },
-    "description": "Find six quarts of new motor oil in exchange for <reward_count:FMCNote> certified notes.",
-    "goal": "MGOAL_FIND_ITEM",
-    "difficulty": 3,
-    "value": 20000,
-    "item": "motor_oil",
-    "count": 6,
-    "end": {
-      "effect": [
-        { "u_buy_item": "FMCNote", "count": 19 },
-        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 1 },			
-        { "npc_add_var": "Maquis_Mechanic_Mission1", "type": "mission", "context": "flag", "value": "yes" }
-      ]
-    },
-    "origins": [ "ORIGIN_SECONDARY" ],
-    "followup": "DKZ_MAQUIS_MECHANIC_MISSION_2",	
-    "dialogue": {
-      "describe": "I need you to find me something.",
-      "offer": "I'm working on getting an old truck running, but I need a good six quarts of new motor oil to get it up and running again.  I even have some of the new money for your troubles.",
-      "accepted": "Thank you.  Motor oil is getting very hard to come by anymore.",
-      "rejected": "Oh well.  I'll see if I can find another supplier, thanks.",
-      "advice": "A gas station, house garage, there's plenty of places to look.",
-      "inquire": "How is the search going?",
-      "success": "Thanks.  Here's your payment.",
-      "success_lie": "What good does this do us?",
-      "failure": "I wonder where it all went…"
-    }
-  },
-  {
-    "id": "DKZ_MAQUIS_MECHANIC_MISSION_2",
-    "type": "mission_definition",
-    "name": { "str": "Got a few air filters?" },
-    "description": "Get a pair of new air filters.",
-    "goal": "MGOAL_FIND_ITEM",
-    "difficulty": 5,
-    "value": 40000,
-    "item": "filter_air",
-    "count": 2,
-    "end": {
-      "effect": [
-        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 1 },		  
-        { "npc_add_var": "Maquis_Mechanic_Mission2", "type": "mission", "context": "flag", "value": "yes" }
-      ]
-    },
-    "origins": [ "ORIGIN_SECONDARY" ],
-    "dialogue": {
-      "describe": "I need you to find me something.",
-      "offer": "I've been trying to get an engine up and running again but the only thing left to try to fix it are a couple of new air filters, I already tried making a makeshift one but it didn't work.",
-      "accepted": "Thank you.  I'll have the truck up and running again in no time.",
-      "rejected": "Oh well.  I'll see if I can find another supplier, thanks.",
-      "advice": "A steel factory or lumbermill might have one, maybe even a stray or a zombie with a toolbelt?",
-      "inquire": "How is the search going?",
-      "success": "Thanks.",
-      "success_lie": "What good does this do us?",
-      "failure": "I wonder where it all went…"
-    }
-  }   
+  }
 ]

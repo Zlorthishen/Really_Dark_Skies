@@ -12,7 +12,7 @@
     "type": "npc_class",
     "id": "NC_MAQUIS_BIRD_MUTANT",
     "name": { "str": "MAQUIS" },
-    "job_description": "I'm dreaming of flying.",
+    "job_description": "I'm just dreaming of flying.",
     "common": false,
     "traits": [
       { "distribution": [ { "trait": "DKZ_SCIENTIST", "prob": 50 }, { "trait": "DKZ_LEADER", "prob": 50 } ] },	  

@@ -55,7 +55,7 @@
       { "skill": "stabbing", "bonus": { "rng": [ 3, 5 ] } },
       { "skill": "cutting", "bonus": { "rng": [ 3, 5 ] } },
       { "skill": "gun", "bonus": { "rng": [ 1, 3 ] } },
-      { "skill": "shotgun", "bonus": { "rng": [ 1, 3 ] } },	  
+      { "skill": "shotgun", "bonus": { "rng": [ 2, 4 ] } },	  
       { "skill": "pistol", "bonus": { "rng": [ 1, 3 ] } },
       { "skill": "rifle", "bonus": { "rng": [ 1, 3 ] } }
     ],

@@ -1,0 +1,569 @@
+[
+  {
+    "id": "DKZ_MAQUIS_KILL_12_XENOIDS",
+    "type": "mission_definition",
+    "name": { "str": "Kill a dozen strays" },
+    "goal": "MGOAL_KILL_MONSTER_SPEC",
+    "monster_species": "ALIEN",
+    "monster_kill_goal": 12,
+    "difficulty": 3,
+    "value": 125000,
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "followup": "MISSION_KILL_144_XENOIDS",
+    "end": {
+      "effect": [
+        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 2 },	  
+        { "npc_add_var": "Maquis_Riot_Guard_Mission1", "type": "mission", "context": "flag", "value": "yes" }
+      ]
+    },	
+    "dialogue": {
+      "describe": "You seem to understand this Xenoid threat better than most…",
+      "offer": "You're kitted out better than most… would you be interested in making this world a little better for the rest of us?  The towns have enough supplies for us survivors to start securing a foothold but we don't have anyone with the skills and equipment to thin the masses of undead.  I'll lend you a hand to the best of my ability but you really showed promise taking out that other beast.  You, I, and a 100 zombies laid to rest, what do you say?",
+      "accepted": "Hell ya, we may get ourselves killed but we'll be among the first legends of the apocalypse.",
+      "rejected": "Hey, I know I wouldn't volunteer for it either… but then I remember that most of us survivors won't make it unless someone decides to take the initiative.",
+      "advice": "I'd secure an ammo cache and try to sweep a town in multiple passes.",
+      "inquire": "Got this knocked out?",
+      "success": "Man… you're a goddamn machine.  It was a pleasure working with you.  You know, you may just change our little neck of the world if you keep this up.",
+      "success_lie": "I don't think that was quite a hundred dead strays.",
+      "failure": "Quitting already?"
+    }
+  },
+  {
+    "id": "DKZ_MAQUIS_KILL_144_XENOIDS",
+    "type": "mission_definition",
+    "name": { "str": "Kill a dozen strays" },
+    "goal": "MGOAL_KILL_MONSTER_SPEC",
+    "monster_species": "ALIEN",
+    "monster_kill_goal": 144,
+    "difficulty": 6,
+    "value": 275000,
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "end": {
+      "effect": [
+        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 5 },	  
+        { "npc_add_var": "Maquis_Riot_Guard_Mission2", "type": "mission", "context": "flag", "value": "yes" }
+      ]
+    },	
+    "dialogue": {
+      "describe": "You seem to understand this Xenoid threat better than most…",
+      "offer": "You're kitted out better than most… would you be interested in making this world a little better for the rest of us?  The towns have enough supplies for us survivors to start securing a foothold but we don't have anyone with the skills and equipment to thin the masses of undead.  I'll lend you a hand to the best of my ability but you really showed promise taking out that other beast.  You, I, and a 100 zombies laid to rest, what do you say?",
+      "accepted": "Hell ya, we may get ourselves killed but we'll be among the first legends of the apocalypse.",
+      "rejected": "Hey, I know I wouldn't volunteer for it either… but then I remember that most of us survivors won't make it unless someone decides to take the initiative.",
+      "advice": "I'd secure an ammo cache and try to sweep a town in multiple passes.",
+      "inquire": "Got this knocked out?",
+      "success": "Man… you're a goddamn machine.  It was a pleasure working with you.  You know, you may just change our little neck of the world if you keep this up.",
+      "success_lie": "I don't think that was quite a hundred dead strays.",
+      "failure": "Quitting already?"
+    }
+  },
+  {
+    "id": "DKZ_MAQUIS_KILL_12_STRAYZ",
+    "type": "mission_definition",
+    "name": { "str": "Kill a dozen strays" },
+    "goal": "MGOAL_KILL_MONSTER_SPEC",
+    "monster_species": "BIOCRYSTAL",
+    "monster_kill_goal": 12,
+    "difficulty": 3,
+    "value": 25000,
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "followup": "MISSION_KILL_144_STRAYZ",
+    "end": {
+      "effect": [
+        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 1 },	  
+        { "u_add_var": "Maquis_Guard_Mission1", "type": "mission", "context": "flag", "value": "yes" }
+      ]
+    },
+    "dialogue": {
+      "describe": "You seem to understand this Xenoid threat better than most…",
+      "offer": "You're kitted out better than most… would you be interested in making this world a little better for the rest of us?  The towns have enough supplies for us survivors to start securing a foothold but we don't have anyone with the skills and equipment to thin the masses of undead.  I'll lend you a hand to the best of my ability but you really showed promise taking out that other beast.  You, I, and a 100 zombies laid to rest, what do you say?",
+      "accepted": "Hell ya, we may get ourselves killed but we'll be among the first legends of the apocalypse.",
+      "rejected": "Hey, I know I wouldn't volunteer for it either… but then I remember that most of us survivors won't make it unless someone decides to take the initiative.",
+      "advice": "I'd secure an ammo cache and try to sweep a town in multiple passes.",
+      "inquire": "Got this knocked out?",
+      "success": "Man… you're a goddamn machine.  It was a pleasure working with you.  You know, you may just change our little neck of the world if you keep this up.",
+      "success_lie": "I don't think that was quite a hundred dead strays.",
+      "failure": "Quitting already?"
+    }
+  },
+  {
+    "id": "DKZ_MAQUIS_KILL_144_STRAYZ",
+    "type": "mission_definition",
+    "name": { "str": "Kill a dozen strays" },
+    "goal": "MGOAL_KILL_MONSTER_SPEC",
+    "monster_species": "BIOCRYSTAL",
+    "monster_kill_goal": 144,
+    "difficulty": 6,
+    "value": 75000,
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "end": {
+      "effect": [
+        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 2 },	  
+        { "u_add_var": "Maquis_Guard_Mission2", "type": "mission", "context": "flag", "value": "yes" }
+      ]
+    },
+    "dialogue": {
+      "describe": "You seem to understand this Xenoid threat better than most…",
+      "offer": "You're kitted out better than most… would you be interested in making this world a little better for the rest of us?  The towns have enough supplies for us survivors to start securing a foothold but we don't have anyone with the skills and equipment to thin the masses of undead.  I'll lend you a hand to the best of my ability but you really showed promise taking out that other beast.  You, I, and a 100 zombies laid to rest, what do you say?",
+      "accepted": "Hell ya, we may get ourselves killed but we'll be among the first legends of the apocalypse.",
+      "rejected": "Hey, I know I wouldn't volunteer for it either… but then I remember that most of us survivors won't make it unless someone decides to take the initiative.",
+      "advice": "I'd secure an ammo cache and try to sweep a town in multiple passes.",
+      "inquire": "Got this knocked out?",
+      "success": "Man… you're a goddamn machine.  It was a pleasure working with you.  You know, you may just change our little neck of the world if you keep this up.",
+      "success_lie": "I don't think that was quite a hundred dead strays.",
+      "failure": "Quitting already?"
+    }
+  },
+
+  {
+    "id": "DKZ_MAQUIS_KILL_12_XENOID_BOTS",
+    "type": "mission_definition",
+    "name": { "str": "Kill a dozen alien robots" },
+    "goal": "MGOAL_KILL_MONSTER_SPEC",
+    "monster_species": "ALIENROBOT",
+    "monster_kill_goal": 12,
+    "difficulty": 3,
+    "value": 125000,
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "followup": "MISSION_KILL_144_XENOID_BOTS",
+    "end": {
+      "effect": [
+        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 2 },
+        { "u_add_var": "Maquis_Cybercop_Mission1", "type": "mission", "context": "flag", "value": "yes" }
+      ]
+    },
+    "dialogue": {
+      "describe": "You seem to understand this Xenoid threat better than most…",
+      "offer": "You're kitted out better than most… would you be interested in making this world a little better for the rest of humanity?  The towns have enough supplies for us survivors to start securing a foothold but we don't have anyone with the skills and equipment to thin the ranks of the Xenoid Infantry.  Head out on patrol and exterminate at least a dozen Xenoid robots, what do you say?",
+      "accepted": "Great, this will really help establish the perimeter around Barter Tower.",
+      "rejected": "Hey, I know I wouldn't volunteer for it either… but then I remember that most of us survivors won't make it unless someone decides to take the initiative.",
+      "advice": "I'd secure an ammo cache and try to sweep an area in multiple passes.",
+      "inquire": "Have you completed the task?",
+      "success": "Man… you're a goddamn machine.  You know, you may just change our little neck of the world if you keep this up.",
+      "success_lie": "I don't think that was quite a dozen xenoid robots.",
+      "failure": "Quitting already?"
+    }
+  },
+  {
+    "id": "DKZ_MAQUIS_KILL_100_XENOID_BOTS",
+    "type": "mission_definition",
+    "name": { "str": "Kill one hundred alien robots" },
+    "goal": "MGOAL_KILL_MONSTER_SPEC",
+    "monster_species": "ALIENROBOT",
+    "monster_kill_goal": 100,
+    "difficulty": 6,
+    "value": 275000,
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "end": {
+      "effect": [
+        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 5 },
+        { "u_add_var": "Maquis_Cybercop_Mission2", "type": "mission", "context": "flag", "value": "yes" }
+      ]
+    },
+    "dialogue": {
+      "describe": "You seem to understand this Xenoid threat better than most…",
+      "offer": "You've killed a few of the alien robots so far, how about going and making it an even one hundred.",
+      "accepted": "Hell ya, we may get ourselves killed but we'll be among the first legends of the apocalypse.",
+      "rejected": "Hey, I know I wouldn't volunteer for it either… but then I remember that most of us survivors won't make it unless someone decides to take the initiative.",
+      "advice": "I'd secure an ammo cache and try to sweep a town in multiple passes.",
+      "inquire": "Got this knocked out?",
+      "success": "Man… you're a goddamn machine.  It was a pleasure working with you.  You know, you may just change our little neck of the world if you keep this up.",
+      "success_lie": "I don't think that was quite a hundred dead strays.",
+      "failure": "Quitting already?"
+    }
+  },
+  {
+    "id": "DKZ_MAQUIS_SCIENTIST_MATH_MISSION_1",
+    "type": "mission_definition",
+    "name": { "str": "Checking for MathMAX Software Updates" },
+    "description": "Find the latest MathMAX firmware patch for",
+    "goal": "MGOAL_FIND_ITEM",
+    "difficulty": 6,
+    "value": 20000,
+    "item": "software_math",
+    "count": 1,
+    "end": {
+      "effect": [
+        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 1 },		  
+        { "npc_add_var": "Maquis_Scientist_Mission1", "type": "mission", "context": "flag", "value": "yes" }
+      ]
+    },
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "dialogue": {
+      "describe": "I need you to find me something.",
+      "offer": "I use a software package called MathMAX for my ongoing research, but I need a few add-ons to optimize the workflow.  Find me a USB drive that contains an update.",
+      "accepted": "Thank you.  The USB drive should display the contents as 'MathMAX'.",
+      "rejected": "Oh well.  I'll see if someone else can find it, thanks.",
+      "advice": "The best place would probably be a goverment research lab, but then again things like this seem to end up in the trash all the time.  Just keep your eyes open for a USB drive that displays the content as 'MathMAX'.",
+      "inquire": "How is the search going?",
+      "success": "Thanks.",
+      "success_lie": "What good does this do us?",
+      "failure": "I wonder where it all went…"
+    }
+  },
+  {
+    "id": "DKZ_MAQUIS_RODENT_DIRTY_BOOKS_1",
+    "type": "mission_definition",
+    "name": { "str": "Work While Busy" },
+    "description": "Find 3 erotic novels.",
+    "goal": "MGOAL_FIND_ITEM",
+    "difficulty": 2,
+    "value": 0,
+    "item": "novel_erotic",
+    "count": 3,
+    "end": {
+      "effect": [
+        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 1 },	  
+        { "npc_add_var": "Maquis_Rodent_Mutant_Mission1", "type": "mission", "context": "flag", "value": "yes" }
+      ]
+    },	
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "dialogue": {
+      "describe": "I'd like to read some erotic novels.",
+      "offer": "Hmm, that would be great!  But if you do, please bring more than just one.  I could read a single novel in a day.  Could you get me… 3 erotic novels?",
+      "accepted": "Just bring it to me when you have it.",
+      "rejected": "Nevermind then.  I hope you'll change your mind.",
+      "advice": "I'd loot libraries and bookstores.",
+      "inquire": "So, have you found the books?",
+      "success": "Thank you.  This will keep me busy for a while.  Please take this as a token of my gratitude.",
+      "success_lie": "Could you give them to me?",
+      "failure": "Fine.  I can read something else."
+    }
+  },
+  {
+    "id": "DKZ_MAQUIS_MOTH_MUTANT_DEW_THE_DEW_MISSION_1",
+    "type": "mission_definition",
+    "name": { "str": "Got to have my favorite cola." },
+    "description": "Find six cans of the best energy cola that ever existed.",
+    "goal": "MGOAL_FIND_ITEM",
+    "difficulty": 6,
+    "value": 20000,
+    "item": "colamdew",
+    "count": 6,
+    "end": {
+      "effect": [
+        { "u_buy_item": "FMCNote", "count": 13 },	 
+        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 1 },			
+        { "npc_add_var": "Maquis_Moth_Mutant_Mission1", "type": "mission", "context": "flag", "value": "yes" }
+      ]
+    },
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "dialogue": {
+      "describe": "I need you to find me something.",
+      "offer": "Ever since I turned into a insect mutant, I've been wanting to have few more cans of my favorite energy cola, it was like a clear morning dew. I even have some of the new money for your troubles.",
+      "accepted": "Thank you.  They won't be making this anymore.",
+      "rejected": "Oh well.  I'll see if I can find another supplier, thanks.",
+      "advice": "There are probably a lot of cans around in vending machines.",
+      "inquire": "How is the search going?",
+      "success": "Thanks.  Here's your payment.",
+      "success_lie": "What good does this do us?",
+      "failure": "I wonder where it all went…"
+    }
+  },
+  {
+    "id": "DKZ_MAQUIS_MECHANIC_MOTOR_OIL_MISSION_1",
+    "type": "mission_definition",
+    "name": { "str": "Time for an oil change" },
+    "description": "Find six quarts of new motor oil in exchange for <reward_count:FMCNote> certified notes.",
+    "goal": "MGOAL_FIND_ITEM",
+    "difficulty": 3,
+    "value": 20000,
+    "item": "motor_oil",
+    "count": 6,
+    "end": {
+      "effect": [
+        { "u_buy_item": "FMCNote", "count": 19 },
+        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 1 },			
+        { "npc_add_var": "Maquis_Mechanic_Mission1", "type": "mission", "context": "flag", "value": "yes" }
+      ]
+    },
+    "origins": [ "ORIGIN_SECONDARY" ],	
+    "dialogue": {
+      "describe": "I need you to find me something.",
+      "offer": "I'm working on getting an old truck running, but I need a good six quarts of new motor oil to get it up and running again.  I even have some of the new money for your troubles.",
+      "accepted": "Thank you.  Motor oil is getting very hard to come by anymore.",
+      "rejected": "Oh well.  I'll see if I can find another supplier, thanks.",
+      "advice": "A gas station, house garage, there's plenty of places to look.",
+      "inquire": "How is the search going?",
+      "success": "Thanks.  Here's your payment.",
+      "success_lie": "What good does this do us?",
+      "failure": "I wonder where it all went…"
+    }
+  },
+  {
+    "id": "DKZ_MAQUIS_GUNSLINGER_CARDS_MISSION_1",
+    "type": "mission_definition",
+    "name": { "str": "Work While Busy" },
+    "description": "Find a few packs of playing cards.",
+    "goal": "MGOAL_FIND_ITEM",
+    "difficulty": 2,
+    "value": 0,
+    "item": "deck_of_cards",
+    "count": 3,
+    "end": {
+      "effect": [
+        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 1 },	  
+        { "npc_add_var": "Maquis_Gunslinger_Mission1", "type": "mission", "context": "flag", "value": "yes" }
+      ]
+    },	
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "dialogue": {
+      "describe": "I'd like a few packs of playing cards.",
+      "offer": "I really like tossing a card up in the air and shooting holes in it before it hits the ground, and its fun to play solitaire between watches.  Could you find me a few packs of playing cards?",
+      "accepted": "Just bring it to me when you have it.",
+      "rejected": "Nevermind then.  I hope you'll change your mind.",
+      "advice": "I'd loot libraries and bookstores.",
+      "inquire": "So, have you found the books?",
+      "success": "Thank you.  This will keep me busy for a while.  Please take this as a token of my gratitude.",
+      "success_lie": "Could you give them to me?",
+      "failure": "Fine.  I can read something else."
+    }
+  },
+  {
+    "id": "DKZ_MAQUIS_ELF_MUTANT_CARDS_MISSION_1",
+    "type": "mission_definition",
+    "name": { "str": "Work While Busy" },
+    "description": "Find a few packs of Sorcery cards.",
+    "goal": "MGOAL_FIND_ITEM",
+    "difficulty": 2,
+    "value": 0,
+    "item": "cards_magic",
+    "count": 3,
+    "end": {
+      "effect": [
+        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 1 },
+        { "npc_add_var": "Maquis_Elf_Mutant_Mission1", "type": "mission", "context": "flag", "value": "yes" }
+      ]
+    },
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "dialogue": {
+      "describe": "I'd like a few packs of Sorcery cards.",
+      "offer": "I really miss playing Sorcery Solitaire, it was a magical gathering back in the day.  Could you find me a few packs of Sorcery cards?",
+      "accepted": "Just bring it to me when you have it.",
+      "rejected": "Nevermind then.  I hope you'll change your mind.",
+      "advice": "I'd loot libraries and bookstores.",
+      "inquire": "So, have you found the books?",
+      "success": "Thank you.  This will keep me busy for a while.  Please take this as a token of my gratitude.",
+      "success_lie": "Could you give them to me?",
+      "failure": "Fine.  I can read something else."
+    }
+  },
+  {
+    "id": "DKZ_MAQUIS_ENGINEER_MISSION_1",
+    "type": "mission_definition",
+    "name": { "str": "Looking for hackPRO exploit scripts" },
+    "description": "Find the latest hackPRO exploits and hacks",
+    "goal": "MGOAL_FIND_ITEM",
+    "difficulty": 6,
+    "value": 20000,
+    "item": "software_hacking",
+    "count": 1,
+    "end": {
+      "effect": [
+        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 1 },		  
+        { "npc_add_var": "Maquis_Engineer_Mission1", "type": "mission", "context": "flag", "value": "yes" }
+      ]
+    },
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "dialogue": {
+      "describe": "I need you to find me something.",
+      "offer": "I need to be on the look out for a 'hackPRO' update, it helps with work-arounds on electronics that need repair.",
+      "accepted": "Thank you.  The USB drive should display the contents as 'hackPRO'.",
+      "rejected": "Oh well.  I'll see if someone else can find it, thanks.",
+      "advice": "The best place would probably be a goverment research lab, but then again things like this seem to end up in the trash all the time.  Just keep your eyes open for a USB drive that displays the content as 'hackPRO'.",
+      "inquire": "How is the search going?",
+      "success": "Thanks.",
+      "success_lie": "What good does this do us?",
+      "failure": "I wonder where it all went…"
+    }
+  },
+  {
+    "id": "DKZ_MAQUIS_ENGINEER_MISSION_2",
+    "type": "mission_definition",
+    "name": { "str": "A swage and die set of what?" },
+    "description": "Find a swage and die set.",
+    "goal": "MGOAL_FIND_ITEM",
+    "difficulty": 5,
+    "value": 40000,
+    "item": "swage",
+    "count": 1,
+    "end": {
+      "effect": [
+        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 3 },		  
+        { "npc_add_var": "Maquis_Mechanic_Mission2", "type": "mission", "context": "flag", "value": "yes" }
+      ]
+    },
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "dialogue": {
+      "describe": "I need you to find me something.",
+      "offer": "A swage and die set is used for testing higher mechanical tolerances and intricate fabrication, this would be extremely useful with repairs and maintance of everything in the building.",
+      "accepted": "Thank you.  This will really help out the resistance organization.",
+      "rejected": "Oh well.  I'll see if I can find another supplier, thanks.",
+      "advice": "A steel factory or lumbermill might have one, maybe even a stray or a zombie with a toolbelt?",
+      "inquire": "How is the search going?",
+      "success": "Thanks.",
+      "success_lie": "What good does this do us?",
+      "failure": "I wonder where it all went…"
+    }
+  },
+  {
+    "id": "DKZ_MAQUIS_MISSION_HEIRLOOM_SABRE",
+    "type": "mission_definition",
+    "name": { "str": "Find the Civil War Sabre" },
+    "goal": "MGOAL_FIND_ITEM",
+    "difficulty": 2,
+    "value": 1000,
+    "item": "cavalry_sabre",
+    "start": { 
+      "assign_mission_target": { "om_terrain": "museum", "reveal_radius": 1, "random": true, "search_range": 120 },
+      "update_mapgen": { "om_terrain": "museum", "place_item": [ { "item": "cavalry_sabre", "x": 2, "y": 2 } ] },
+      "effect": { "u_add_var": "Heirloom_Sabre", "type": "mission", "context": "flag", "value": "in_progress" }
+    },
+    "end": {
+      "effect": [
+        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 7 },
+        { "npc_add_var": "Maquis_Athletic_Mission1", "type": "mission", "context": "flag", "value": "yes" },
+        { "u_add_var": "Heirloom_Sabre_Found", "type": "mission", "context": "flag", "value": "yes" }
+      ]
+    },
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "dialogue": {
+      "describe": "I have a heist for you…",
+      "offer": "My great-great-great-great-grandfather's civil war sabre is wasting way in a museum.  Now that no one is guarding it I want to recover it.",
+      "accepted": "Thats great.",
+      "rejected": "I will wait, and perhaps someone else will help me.",
+      "advice": "Just bust though the door, break the glass and grab it.  Stealth is not required for this mission.",
+      "inquire": "Did you find it yet?",
+      "success": "I knew you could find it.",
+      "success_lie": "What good does this do me?",
+      "failure": "Thanks for trying."
+    }
+  },  
+  {
+    "id": "DKZ_MAQUIS_FELINE_MUTANT_FIND_CAT",
+    "type": "mission_definition",
+    "name": { "str": "Find and capture a cat" },
+    "goal": "MGOAL_FIND_MONSTER",
+    "difficulty": 4,
+    "value": 100000,
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "has_generic_rewards": false,
+    "start": {
+      "assign_mission_target": { "om_terrain": "state_park_0_0", "reveal_radius": 1, "random": true, "search_range": 60, "min_distance": 30 },
+      "update_mapgen": {
+        "place_monster": [
+          { "monster": "mon_cat_mutant_prism", "pack_size": [ 2, 2 ], "x": 20, "y": 22, "target": true },
+          { "monster": "dkz_xenoid_templar", "pack_size": [ 2, 2 ], "x": 2, "y": 2 }
+        ]
+      }
+    }, 
+    "end": {
+      "opinion": { "trust": 4, "value": 10 },	  
+      "effect": [  
+        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 11 },
+        { "npc_add_var": "Maquis_Feline_Mutant_Mission1", "type": "mission", "context": "flag", "value": "yes" },
+        { "u_add_var": "Pretty_Kitty_Found", "type": "mission", "context": "flag", "value": "yes" }
+      ]
+    },
+    "dialogue": {
+      "describe": "I need you to find a cat.",
+      "offer": "The last time I was out on patrol, I saw some weird cats out by a large park, their fur looked like it was shifting colors, like an iridescent beetle.  However, I was wounded and had to return quickly and sadly wasn't able to find the cat, would you care to investigate it for me please uWu?",
+      "accepted": "Thank you!  I don't have anything to catch the cat with, but you could probably find a pet carrier, maybe even build a chicken cage and use that?",
+      "rejected": "Oh well, I'm sure a random mutant cat will survive the cataclysm.",
+      "advice": "A cat must be friendly to you in order to accept going into confinement.  If you're having problems catching the cat, try befriending it with food.",
+      "inquire": "Have you found the cat?",
+      "success": "Thank you so much!  This cat is going to be named Lucky because she is the luckiest cat to be alive, especially considering she is pregnant.",
+      "success_lie": "What?!  You're lying, I can tell!  Did you even bring a cage?",
+      "failure": "Oh no!  I guess they are too much for you…"
+    }
+  },
+  {
+    "id": "DKZ_MAQUIS_BIONIC_DOCTOR_MISSION_1",
+    "type": "mission_definition",
+    "name": { "str": "A new autoclave" },
+    "description": "Find an autoclave.",
+    "goal": "MGOAL_FIND_ITEM",
+    "difficulty": 5,
+    "value": 40000,
+    "item": "autoclave",
+    "count": 1,
+    "end": {
+      "effect": [
+        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 2 },	  
+        { "npc_add_var": "Maquis_Bionic_Doctor_Mission2", "type": "mission", "context": "flag", "value": "yes" }
+      ]
+    },
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "followup": "DKZ_MAQUIS_BIONIC_DOCTOR_MISSION_2",		
+    "dialogue": {
+      "describe": "I need you to find me something.",
+      "offer": "I need a working autoclave to sterilize bionics before installing them.",
+      "accepted": "Thank you.  This will really help out the resistance organization.",
+      "rejected": "Oh well.  I'll see if I can find another supplier, thanks.",
+      "advice": "A hospital might have one, or maybe a secret lab?",
+      "inquire": "How is the search going?",
+      "success": "Thanks.",
+      "success_lie": "What good does this do us?",
+      "failure": "I wonder where it all went…"
+    }
+  }, 
+  {
+    "id": "DKZ_MAQUIS_BIONIC_DOCTOR_MISSION_2",
+    "type": "mission_definition",
+    "name": { "str": "Checking for MedSoft firmware patch" },
+    "description": "Find the latest MediSoft firmware patch",
+    "goal": "MGOAL_FIND_ITEM",
+    "difficulty": 6,
+    "value": 20000,
+    "item": "software_medical",
+    "count": 1,
+    "end": {
+      "effect": [
+        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 1 },	  
+        { "npc_add_var": "Maquis_Bionic_Doctor_Mission1", "type": "mission", "context": "flag", "value": "yes" }
+      ]
+    },
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "dialogue": {
+      "describe": "I need you to find me something.",
+      "offer": "I need to check the autodoc for updates, find me the latest MediSoft firmware patch.",
+      "accepted": "Thank you.  The USB drive should display the contents as 'MediSoft'.",
+      "rejected": "Oh well.  I'll see if someone else can find it, thanks.",
+      "advice": "The best place would probably be a goverment research lab, but then again things like this seem to end up in the trash all the time.  Just keep your eyes open for a USB drive that displays the content as 'MediSoft'.",
+      "inquire": "How is the search going?",
+      "success": "Thanks.",
+      "success_lie": "What good does this do us?",
+      "failure": "I wonder where it all went…"
+    }
+  },
+  {
+    "id": "DKZ_MAQUIS_BEAST_MUTANT_MISSION_1",
+    "type": "mission_definition",
+    "name": { "str": "Got to have my favorite cola." },
+    "description": "Find six cans of the the coolest cream soda that ever existed.",
+    "goal": "MGOAL_FIND_ITEM",
+    "difficulty": 6,
+    "value": 20000,
+    "item": "creamsoda",
+    "count": 6,
+    "end": {
+      "effect": [
+        { "u_buy_item": "FMCNote", "count": 13 },
+        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 1 },
+        { "npc_add_var": "Maquis_Beast_Mutant_Mission1", "type": "mission", "context": "flag", "value": "yes" }
+      ]
+    },
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "dialogue": {
+      "describe": "I need you to find me something.",
+      "offer": "Ever since I turned into a beast mutant, I've been wanting to have few more cans of my favorite energy cola, it was like a clear morning dew. I even have some of the new money for your troubles.",
+      "accepted": "Thank you.  They won't be making this anymore.",
+      "rejected": "Oh well.  I'll see if I can find another supplier, thanks.",
+      "advice": "There are probably a lot of cans around in vending machines.",
+      "inquire": "How is the search going?",
+      "success": "Thanks.  Here's your payment.",
+      "success_lie": "What good does this do us?",
+      "failure": "I wonder where it all went…"
+    }
+  }          
+  
+]

@@ -367,35 +367,5 @@
       { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_MAQUIS_MOTH_MUTANT_ROOT" },
       { "text": "Well, bye.", "topic": "TALK_DONE" }
     ]
-  },
-  {
-    "id": "DKZ_MAQUIS_MECHANIC_MISSION_1",
-    "type": "mission_definition",
-    "name": { "str": "Got to have my favorite cola." },
-    "description": "Find six cans of the best energy cola that ever existed.",
-    "goal": "MGOAL_FIND_ITEM",
-    "difficulty": 6,
-    "value": 20000,
-    "item": "colamdew",
-    "count": 6,
-    "end": {
-      "effect": [
-        { "u_buy_item": "FMCNote", "count": 13 },	 
-        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 1 },			
-        { "npc_add_var": "Maquis_Moth_Mutant_Mission1", "type": "mission", "context": "flag", "value": "yes" }
-      ]
-    },
-    "origins": [ "ORIGIN_SECONDARY" ],
-    "dialogue": {
-      "describe": "I need you to find me something.",
-      "offer": "Ever since I turned into a insect mutant, I've been wanting to have few more cans of my favorite energy cola, it was like a clear morning dew. I even have some of the new money for your troubles.",
-      "accepted": "Thank you.  They won't be making this anymore.",
-      "rejected": "Oh well.  I'll see if I can find another supplier, thanks.",
-      "advice": "There are probably a lot of cans around in vending machines.",
-      "inquire": "How is the search going?",
-      "success": "Thanks.  Here's your payment.",
-      "success_lie": "What good does this do us?",
-      "failure": "I wonder where it all went…"
-    }
-  }  
+  }
 ]
