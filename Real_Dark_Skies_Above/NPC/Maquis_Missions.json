@@ -12,10 +12,10 @@
     "followup": "MISSION_KILL_144_XENOIDS",
     "end": {
       "effect": [
-        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 2 },	  
+        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 2 },
         { "npc_add_var": "Maquis_Riot_Guard_Mission1", "type": "mission", "context": "flag", "value": "yes" }
       ]
-    },	
+    },
     "dialogue": {
       "describe": "You seem to understand this Xenoid threat better than most…",
       "offer": "You're kitted out better than most… would you be interested in making this world a little better for the rest of us?  The towns have enough supplies for us survivors to start securing a foothold but we don't have anyone with the skills and equipment to thin the masses of undead.  I'll lend you a hand to the best of my ability but you really showed promise taking out that other beast.  You, I, and a 100 zombies laid to rest, what do you say?",
@@ -40,10 +40,10 @@
     "origins": [ "ORIGIN_SECONDARY" ],
     "end": {
       "effect": [
-        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 5 },	  
+        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 5 },
         { "npc_add_var": "Maquis_Riot_Guard_Mission2", "type": "mission", "context": "flag", "value": "yes" }
       ]
-    },	
+    },
     "dialogue": {
       "describe": "You seem to understand this Xenoid threat better than most…",
       "offer": "You're kitted out better than most… would you be interested in making this world a little better for the rest of us?  The towns have enough supplies for us survivors to start securing a foothold but we don't have anyone with the skills and equipment to thin the masses of undead.  I'll lend you a hand to the best of my ability but you really showed promise taking out that other beast.  You, I, and a 100 zombies laid to rest, what do you say?",
@@ -69,7 +69,7 @@
     "followup": "MISSION_KILL_144_STRAYZ",
     "end": {
       "effect": [
-        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 1 },	  
+        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 1 },
         { "u_add_var": "Maquis_Guard_Mission1", "type": "mission", "context": "flag", "value": "yes" }
       ]
     },
@@ -97,7 +97,7 @@
     "origins": [ "ORIGIN_SECONDARY" ],
     "end": {
       "effect": [
-        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 2 },	  
+        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 2 },
         { "u_add_var": "Maquis_Guard_Mission2", "type": "mission", "context": "flag", "value": "yes" }
       ]
     },
@@ -113,7 +113,6 @@
       "failure": "Quitting already?"
     }
   },
-
   {
     "id": "DKZ_MAQUIS_KILL_12_XENOID_BOTS",
     "type": "mission_definition",
@@ -183,7 +182,7 @@
     "count": 1,
     "end": {
       "effect": [
-        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 1 },		  
+        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 1 },
         { "npc_add_var": "Maquis_Scientist_Mission1", "type": "mission", "context": "flag", "value": "yes" }
       ]
     },
@@ -212,10 +211,10 @@
     "count": 3,
     "end": {
       "effect": [
-        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 1 },	  
+        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 1 },
         { "npc_add_var": "Maquis_Rodent_Mutant_Mission1", "type": "mission", "context": "flag", "value": "yes" }
       ]
-    },	
+    },
     "origins": [ "ORIGIN_SECONDARY" ],
     "dialogue": {
       "describe": "I'd like to read some erotic novels.",
@@ -241,8 +240,8 @@
     "count": 6,
     "end": {
       "effect": [
-        { "u_buy_item": "FMCNote", "count": 13 },	 
-        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 1 },			
+        { "u_buy_item": "FMCNote", "count": 13 },
+        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 1 },
         { "npc_add_var": "Maquis_Moth_Mutant_Mission1", "type": "mission", "context": "flag", "value": "yes" }
       ]
     },
@@ -272,11 +271,11 @@
     "end": {
       "effect": [
         { "u_buy_item": "FMCNote", "count": 19 },
-        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 1 },			
+        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 1 },
         { "npc_add_var": "Maquis_Mechanic_Mission1", "type": "mission", "context": "flag", "value": "yes" }
       ]
     },
-    "origins": [ "ORIGIN_SECONDARY" ],	
+    "origins": [ "ORIGIN_SECONDARY" ],
     "dialogue": {
       "describe": "I need you to find me something.",
       "offer": "I'm working on getting an old truck running, but I need a good six quarts of new motor oil to get it up and running again.  I even have some of the new money for your troubles.",
@@ -301,10 +300,10 @@
     "count": 3,
     "end": {
       "effect": [
-        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 1 },	  
+        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 1 },
         { "npc_add_var": "Maquis_Gunslinger_Mission1", "type": "mission", "context": "flag", "value": "yes" }
       ]
-    },	
+    },
     "origins": [ "ORIGIN_SECONDARY" ],
     "dialogue": {
       "describe": "I'd like a few packs of playing cards.",
@@ -359,7 +358,7 @@
     "count": 1,
     "end": {
       "effect": [
-        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 1 },		  
+        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 1 },
         { "npc_add_var": "Maquis_Engineer_Mission1", "type": "mission", "context": "flag", "value": "yes" }
       ]
     },
@@ -388,7 +387,7 @@
     "count": 1,
     "end": {
       "effect": [
-        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 3 },		  
+        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 3 },
         { "npc_add_var": "Maquis_Mechanic_Mission2", "type": "mission", "context": "flag", "value": "yes" }
       ]
     },
@@ -413,7 +412,7 @@
     "difficulty": 2,
     "value": 1000,
     "item": "cavalry_sabre",
-    "start": { 
+    "start": {
       "assign_mission_target": { "om_terrain": "museum", "reveal_radius": 1, "random": true, "search_range": 120 },
       "update_mapgen": { "om_terrain": "museum", "place_item": [ { "item": "cavalry_sabre", "x": 2, "y": 2 } ] },
       "effect": { "u_add_var": "Heirloom_Sabre", "type": "mission", "context": "flag", "value": "in_progress" }
@@ -421,6 +420,7 @@
     "end": {
       "effect": [
         { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 7 },
+        { "u_sell_item": "cavalry_sabre" },
         { "npc_add_var": "Maquis_Athletic_Mission1", "type": "mission", "context": "flag", "value": "yes" },
         { "u_add_var": "Heirloom_Sabre_Found", "type": "mission", "context": "flag", "value": "yes" }
       ]
@@ -437,7 +437,7 @@
       "success_lie": "What good does this do me?",
       "failure": "Thanks for trying."
     }
-  },  
+  },
   {
     "id": "DKZ_MAQUIS_FELINE_MUTANT_FIND_CAT",
     "type": "mission_definition",
@@ -448,17 +448,17 @@
     "origins": [ "ORIGIN_SECONDARY" ],
     "has_generic_rewards": false,
     "start": {
-      "assign_mission_target": { "om_terrain": "state_park_0_0", "reveal_radius": 1, "random": true, "search_range": 60, "min_distance": 30 },
+      "assign_mission_target": { "om_terrain": "derelict_property", "reveal_radius": 1, "random": true, "search_range": 60, "min_distance": 30 },
       "update_mapgen": {
         "place_monster": [
-          { "monster": "mon_cat_mutant_prism", "pack_size": [ 2, 2 ], "x": 20, "y": 22, "target": true },
-          { "monster": "dkz_xenoid_templar", "pack_size": [ 2, 2 ], "x": 2, "y": 2 }
+          { "monster": "mon_cat_mutant_prism", "pack_size": [ 2, 2 ], "x": 22, "y": 22, "target": true },
+          { "monster": "dkz_xenoid_templar", "pack_size": [ 2, 2 ], "x": 1, "y": 1 }
         ]
       }
-    }, 
+    },
     "end": {
-      "opinion": { "trust": 4, "value": 10 },	  
-      "effect": [  
+      "opinion": { "trust": 4, "value": 10 },
+      "effect": [
         { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 11 },
         { "npc_add_var": "Maquis_Feline_Mutant_Mission1", "type": "mission", "context": "flag", "value": "yes" },
         { "u_add_var": "Pretty_Kitty_Found", "type": "mission", "context": "flag", "value": "yes" }
@@ -466,7 +466,7 @@
     },
     "dialogue": {
       "describe": "I need you to find a cat.",
-      "offer": "The last time I was out on patrol, I saw some weird cats out by a large park, their fur looked like it was shifting colors, like an iridescent beetle.  However, I was wounded and had to return quickly and sadly wasn't able to find the cat, would you care to investigate it for me please uWu?",
+      "offer": "The last time I was out on patrol, I saw some weird cats out by a vacant propery, their fur looked like it was shifting colors, like an iridescent beetle.  However, I was wounded and had to return quickly and sadly wasn't able to follow up on the cats, would you investigate and find them for me please?",
       "accepted": "Thank you!  I don't have anything to catch the cat with, but you could probably find a pet carrier, maybe even build a chicken cage and use that?",
       "rejected": "Oh well, I'm sure a random mutant cat will survive the cataclysm.",
       "advice": "A cat must be friendly to you in order to accept going into confinement.  If you're having problems catching the cat, try befriending it with food.",
@@ -488,12 +488,12 @@
     "count": 1,
     "end": {
       "effect": [
-        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 2 },	  
+        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 2 },
         { "npc_add_var": "Maquis_Bionic_Doctor_Mission2", "type": "mission", "context": "flag", "value": "yes" }
       ]
     },
     "origins": [ "ORIGIN_SECONDARY" ],
-    "followup": "DKZ_MAQUIS_BIONIC_DOCTOR_MISSION_2",		
+    "followup": "DKZ_MAQUIS_BIONIC_DOCTOR_MISSION_2",
     "dialogue": {
       "describe": "I need you to find me something.",
       "offer": "I need a working autoclave to sterilize bionics before installing them.",
@@ -505,7 +505,7 @@
       "success_lie": "What good does this do us?",
       "failure": "I wonder where it all went…"
     }
-  }, 
+  },
   {
     "id": "DKZ_MAQUIS_BIONIC_DOCTOR_MISSION_2",
     "type": "mission_definition",
@@ -518,7 +518,7 @@
     "count": 1,
     "end": {
       "effect": [
-        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 1 },	  
+        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 1 },
         { "npc_add_var": "Maquis_Bionic_Doctor_Mission1", "type": "mission", "context": "flag", "value": "yes" }
       ]
     },
@@ -564,6 +564,5 @@
       "success_lie": "What good does this do us?",
       "failure": "I wonder where it all went…"
     }
-  }          
-  
+  }
 ]

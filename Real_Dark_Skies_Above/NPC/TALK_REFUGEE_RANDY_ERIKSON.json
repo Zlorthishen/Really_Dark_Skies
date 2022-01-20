@@ -497,12 +497,11 @@
         "om_terrain": "racing_tower_z7_4_1",
         "om_special": "arcology_racing",
         "reveal_radius": 7,
-        "search_range": 500,
+        "search_range": 500, 
         "z": 0,
         "random": true,
         "min_distance": 90
       },
-	  
       "update_mapgen": {
         "place_npcs": [
           { "class": "DKZ_CHAD_ERIKSON", "x": 3, "y": 3, "target": true }

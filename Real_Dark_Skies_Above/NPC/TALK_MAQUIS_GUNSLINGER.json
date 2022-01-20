@@ -42,7 +42,7 @@
       { "skill": "gun", "bonus": { "rng": [ 5, 8 ] } },
       { "skill": "smg", "bonus": { "rng": [ 0, 1 ] } },
       { "skill": "shotgun", "bonus": { "rng": [ 1, 2 ] } },	  
-      { "skill": "pistol", "bonus": { "rng": [ 7, 9 ] } },
+      { "skill": "pistol", "bonus": { "rng": [ 7, 8 ] } },
       { "skill": "rifle", "bonus": { "rng": [ 3, 5 ] } }
     ],
     "bonus_str": { "rng": [ 1, 3 ] },
