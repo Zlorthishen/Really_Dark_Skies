@@ -2,9 +2,9 @@
   {
     "type": "scenario",
     "id": "dkz_combatpatrol",
-    "name": "!!!Foxtrot Uniform Charlie Kilo!!!",
+    "name": "Foxtrot Uniform Charlie Kilo",
     "points": 0,
-    "description": "You've attracted the attention of living dead in some way, now they're all around and you'll likely have to fight thorough them if you want to escape.",
+    "description": "You were out on a combat patrol against the Xenoids, and scavenge useful supplies in the processes, but you've attracted the attention of the alien invaders in some way, now they're all around and you'll likely have to fight thorough them if you want to escape.  Also the buiiding is on fire.\n\nThis mission is Foxtrot Uniform Charlie Kilo.",
     "custom_initial_date": { "season": "summer", "year": 1 },
     "forced_traits": [ "DKZ_COMBAT" ],
     "allowed_locs": [
