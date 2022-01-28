@@ -36,7 +36,8 @@
       "palettes": [ "arcology_palette" ],
 	    "terrain": {
         "X": "t_zebra",
-		"M": "t_manhole_cover"
+        "T": "t_tree_cherry",		
+		"M": [ "t_manhole_cover", "t_pavement" ]
       },
 	  "place_vehicles": [
 	     { "vehicle": "school_vehicles", "x": 29, "y": 13, "chance": 110, "rotation": 0, "status": 2 },
