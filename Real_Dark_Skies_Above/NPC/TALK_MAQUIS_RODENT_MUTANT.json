@@ -4,8 +4,9 @@
     "id": "DKZ_MAQUIS_RODENT_MUTANT",
     "class": "NC_MAQUIS_RODENT_MUTANT",
     "attitude": 0,
-    "mission": 3,
+    "mission": 7,
     "chat": "TALK_MAQUIS_RODENT_MUTANT_ROOT",
+    "mission_offered": "DKZ_MAQUIS_ENGINEER_MISSION_1",		
     "faction": "maquis"
   },
   {
@@ -15,7 +16,7 @@
     "job_description": "I'm just trying to eck out a living.",
     "common": false,
     "traits": [
-      { "distribution": [ { "trait": "DKZ_COMBAT", "prob": 50 }, { "trait": "DKZ_TECHIE", "prob": 50 } ] },	  
+      { "distribution": [ { "trait": "DKZ_COMBAT", "prob": 50 }, { "trait": "DKZ_TECH", "prob": 50 } ] },	  
       { "group": "DKZ_starting_traits" },
       { "group": "Appearance_demographics" },
       { "trait": "FUR", "prob": 100 },
@@ -298,8 +299,7 @@
     "subtype": "distribution",
     "entries": [
       { "group": "rad_gear", "count-min": 1, "count-max": 2, "prob": 10 },
-      { "group": "fireman_gear", "count-min": 1, "count-max": 2, "prob": 10 },
-      { "group": "gear_survival", "count-min": 1, "count-max": 3, "prob": 10 }
+      { "group": "fireman_gear", "count-min": 1, "count-max": 2, "prob": 10 }
     ]
   },
   {
@@ -372,5 +372,34 @@
       { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_MAQUIS_RODENT_MUTANT_ROOT" },
       { "text": "Well, bye.", "topic": "TALK_DONE" }
     ]
+  },
+  {
+    "id": "DKZ_MAQUIS_RODENT_DIRTY_BOOKS_1",
+    "type": "mission_definition",
+    "name": { "str": "Work While Busy" },
+    "description": "Find 3 erotic novels.",
+    "goal": "MGOAL_FIND_ITEM",
+    "difficulty": 2,
+    "value": 0,
+    "item": "novel_erotic",
+    "count": 3,
+    "end": {
+      "effect": [
+        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 1 },
+        { "npc_add_var": "Maquis_Rodent_Mutant_Mission1", "type": "mission", "context": "flag", "value": "yes" }
+      ]
+    },
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "dialogue": {
+      "describe": "I'd like to read some erotic novels.",
+      "offer": "Hmm, that would be great!  But if you do, please bring more than just one.  I could read a single novel in a day.  Could you get me… 3 erotic novels?",
+      "accepted": "Just bring it to me when you have it.",
+      "rejected": "Nevermind then.  I hope you'll change your mind.",
+      "advice": "I'd loot libraries and bookstores.",
+      "inquire": "So, have you found the books?",
+      "success": "Thank you.  This will keep me busy for a while.  Please take this as a token of my gratitude.",
+      "success_lie": "Could you give them to me?",
+      "failure": "Fine.  I can read something else."
+    }
   }
 ]

@@ -4,7 +4,7 @@
     "id": "DKZ_MAQUIS_QUARTERMASTER",
     "class": "NC_MAQUIS_QUARTERMASTER",
     "attitude": 0,
-    "mission": 3,
+    "mission": 7,
     "chat": "TALK_MAQUIS_QUARTERMASTER_ROOT",
     "faction": "maquis"
   },
@@ -89,7 +89,6 @@
       { "text": "Let's trade.", "topic": "TALK_MAQUIS_QUARTERMASTER_TRADE" },
       { "text": "What are you doing here?", "topic": "TALK_MAQUIS_QUARTERMASTER_DOING" },
       { "text": "Are you in charge of the Maquis?", "topic": "TALK_MAQUIS_QUARTERMASTER_LEADERSHIP" },
-      { "text": "Why are you upstairs?", "topic": "TALK_MAQUIS_QUARTERMASTER_UPSTAIRS" },
       {
         "text": "[MISSION] I'm looking for Chad Erikson, his nephew Randy sent me.",
         "condition": {
@@ -150,18 +149,6 @@
       { "text": "Are you in charge of the Maquis?", "topic": "TALK_MAQUIS_QUARTERMASTER_LEADERSHIP" },
       { "text": "Nice arrangement for everyone.", "topic": "TALK_MAQUIS_QUARTERMASTER_ROOT" },
       { "text": "Ok, good bye.", "topic": "TALK_DONE" }
-    ]
-  },
-  {
-    "id": "TALK_MAQUIS_QUARTERMASTER_UPSTAIRS",
-    "type": "talk_topic",
-    "dynamic_line": [
-      "",
-      "There are some mutants in the upper floors and and most are the basement, but they're good people.  So long as you don't stare at the heavily deformed ones."
-    ],
-    "responses": [
-      { "text": "Let's trade.", "topic": "TALK_MAQUIS_QUARTERMASTER_TRADE" },
-      { "text": "Well, bye.", "topic": "TALK_DONE" }
     ]
   },
   {

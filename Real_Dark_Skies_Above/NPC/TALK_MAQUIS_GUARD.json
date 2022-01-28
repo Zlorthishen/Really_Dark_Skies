@@ -4,7 +4,7 @@
     "id": "DKZ_MAQUIS_GUARD",
     "class": "NC_MAQUIS_GUARD",
     "attitude": 0,
-    "mission": 3,
+    "mission": 7,
     "chat": "TALK_MAQUIS_GUARD_ROOT",
     "faction": "maquis"
   },
@@ -270,8 +270,7 @@
       { "group": "rad_gear", "count-min": 1, "count-max": 2, "prob": 90 },
       { "group": "fireman_gear", "count-min": 1, "count-max": 2, "prob": 90 },
 	  { "item": "badge_swat", "prob": 100 },
-      { "item": "baton", "prob": 100 },	  
-      { "group": "gear_survival", "count-min": 1, "count-max": 3, "prob": 90 }
+      { "item": "baton", "prob": 100 }
     ]
   },  
   
@@ -285,7 +284,6 @@
       "no": [ "Don't cause any trouble here, I'd rather kill monsters than people.", "Safe travels." ]
     },
     "responses": [
-      { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_MAQUIS_GUARD_ROOT" },
       { "text": "What are you doing here?", "topic": "TALK_MAQUIS_GUARD_DOING" },
       { "text": "What is upstairs?", "topic": "TALK_MAQUIS_GUARD_UPSTAIRS" },
       {

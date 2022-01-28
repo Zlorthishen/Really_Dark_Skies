@@ -4,7 +4,7 @@
     "id": "DKZ_MAQUIS_MANTIS_MUTANT",
     "class": "NC_MAQUIS_MANTIS_MUTANT",
     "attitude": 0,
-    "mission": 3,
+    "mission": 7,
     "chat": "TALK_MAQUIS_MANTIS_MUTANT_ROOT",
     "faction": "maquis"
   },

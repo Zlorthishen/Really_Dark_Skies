@@ -4,7 +4,7 @@
     "id": "DKZ_MAQUIS_CYBERCOP",
     "class": "NC_MAQUIS_CYBERCOP",
     "attitude": 0,
-    "mission": 3,
+    "mission": 7,
     "chat": "TALK_MAQUIS_CYBERCOP_ROOT",
     "faction": "maquis"
   },
@@ -247,7 +247,6 @@
     "type": "talk_topic",
     "dynamic_line": [ "What do you require citizen?.", "I'm kind of busy right now." ],
     "responses": [
-      { "text": "Let's trade.", "topic": "TALK_MAQUIS_CYBERCOP_TRADE" },
       { "text": "What are you doing here?", "topic": "TALK_MAQUIS_CYBERCOP_DOING" },
       { "text": "Why are you upstairs?", "topic": "TALK_MAQUIS_CYBERCOP_UPSTAIRS" },
       {
