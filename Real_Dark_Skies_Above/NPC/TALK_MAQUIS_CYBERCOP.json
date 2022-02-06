@@ -242,7 +242,7 @@
     ]
   },
   {
-    "//": "----------DIALOGUE OPTIONS-------------------------------------------------------------------------------------",
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MAQUIS_CYBERCOP_ROOT",
     "type": "talk_topic",
     "dynamic_line": [ "What do you require citizen?.", "I'm kind of busy right now." ],
@@ -269,8 +269,9 @@
     ]
   },
   {
-    "type": "talk_topic",
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MAQUIS_CYBERCOP_BIG_BROTHER",
+    "type": "talk_topic",
     "dynamic_line": [
       "Turn around.",
       "He is right behind you.",
@@ -279,6 +280,7 @@
     "responses": [ { "text": "Ok, Thanks.", "topic": "TALK_NONE" }, { "text": "Ok, I have to go now.", "topic": "TALK_DONE" } ]
   },
   {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MAQUIS_CYBERCOP_DOING",
     "type": "talk_topic",
     "dynamic_line": [
@@ -293,6 +295,7 @@
     ]
   },
   {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MAQUIS_CYBERCOP_UPSTAIRS",
     "type": "talk_topic",
     "dynamic_line": [
@@ -302,6 +305,7 @@
     "responses": [ { "text": "Let's trade.", "topic": "TALK_MAQUIS_CYBERCOP_TRADE" }, { "text": "Well, bye.", "topic": "TALK_DONE" } ]
   },
   {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MAQUIS_CYBERCOP_TRADE",
     "type": "talk_topic",
     "dynamic_line": [ "No.  I wouldn't sell you this gun.", "Go down stairs if you want to trade, I'm busy up here.", "Piss off." ],

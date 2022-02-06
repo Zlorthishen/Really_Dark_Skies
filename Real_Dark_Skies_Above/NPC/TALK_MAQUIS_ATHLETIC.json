@@ -326,7 +326,7 @@
   },
   
   {
-    "//": "----------DIALOGUE OPTIONS-------------------------------------------------------------------------------------",
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MAQUIS_ATHLETIC_ROOT",
     "type": "talk_topic",
     "dynamic_line": {
@@ -366,19 +366,21 @@
     ]
   },
   {
-    "type": "talk_topic",
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MAQUIS_ATHLETIC_BIG_BROTHER",
+    "type": "talk_topic",
     "dynamic_line": [
       "I'm not sure where Mr. Erikson is at right now."
     ],
     "responses": [ { "text": "Ok, Thanks.", "topic": "TALK_NONE" }, { "text": "Ok, I have to go now.", "topic": "TALK_DONE" } ]
   },   
   {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MAQUIS_ATHLETIC_DOING",
     "type": "talk_topic",
     "dynamic_line": [
-      "There is an arrangement with everyone that lives here, the bottom two floors are a free trade zone and the upper floors are for the alien resistance operation.  We all help them keep the outside defences in place and warn of any zombies or xenoids around the perimeter.  You can always count on the snipers upstairs for overwatch while smashing and looting.",
-      "I found this vehicle here and I don't know if I should repair it or use it for parts.  Either way it will make me some money somehow."
+      "We all help them keep the outside defences in place and warn of any zombies or xenoids around the perimeter.  You can always count on the snipers upstairs for overwatch while smashing and looting.",
+      "I'm back from a recent combat patrol, no thank God no human casualties this time."
     ],
     "responses": [
       { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_MAQUIS_ATHLETIC_ROOT" },
@@ -387,6 +389,7 @@
     ]
   },
   {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MAQUIS_ATHLETIC_UPSTAIRS",
     "type": "talk_topic",
     "dynamic_line": [
@@ -400,6 +403,7 @@
     ]
   },
   {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "DKZ_MAQUIS_MISSION_HEIRLOOM_SABRE",
     "type": "mission_definition",
     "name": { "str": "Find Civil War Sabre" },

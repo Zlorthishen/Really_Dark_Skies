@@ -180,7 +180,7 @@
     "type": "item_group",
     "id": "NC_MAQUIS_SNIPER_eyes",
     "subtype": "distribution",
-    "entries": [{ "item": "fancy_sunglasses", "prob": 100 } ]
+    "entries": [ { "item": "fancy_sunglasses", "prob": 100 } ]
   },
   {
     "type": "item_group",
@@ -282,7 +282,7 @@
     ]
   },
   {
-    "//": "----------DIALOGUE OPTIONS-------------------------------------------------------------------------------------",
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MAQUIS_SNIPER_ROOT",
     "type": "talk_topic",
     "dynamic_line": [ "Don't distract me while I'm aiming.", "I'm kind of busy right now." ],
@@ -304,8 +304,9 @@
     ]
   },
   {
-    "type": "talk_topic",
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MAQUIS_SNIPER_BIG_BROTHER",
+    "type": "talk_topic",
     "dynamic_line": [
       "I believe Mr. Erikson has an office on the seventh floor.",
       "Mr. Erikson is usually in his office in the seventh floor."
@@ -313,11 +314,12 @@
     "responses": [ { "text": "Ok, Thanks.", "topic": "TALK_NONE" }, { "text": "Ok, I have to go now.", "topic": "TALK_DONE" } ]
   },
   {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MAQUIS_SNIPER_DOING",
     "type": "talk_topic",
     "dynamic_line": [
       "There is an arrangement with everyone that lives here, the bottom few floors are a free trade zone, the middle floors are general living space, and the upper floors are for the alien resistance operation. Part of that agreement means some of us with sharp eyes and quick trigger-fingers get to be up here.",
-      "It is really nice to be up here just me, my mp3 player and this huge fucking gun.",
+      "It is really nice to be up here just me, my mp3 player, and this huge fucking gun.",
       "This entire tower might be one of the last good places left in New England, let alone the world.  Its kind of awesome when you think about it."
     ],
     "responses": [
@@ -327,6 +329,7 @@
     ]
   },
   {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MAQUIS_SNIPER_UPSTAIRS",
     "type": "talk_topic",
     "dynamic_line": [
@@ -336,9 +339,14 @@
     "responses": [ { "text": "Let's trade.", "topic": "TALK_MAQUIS_SNIPER_TRADE" }, { "text": "Well, bye.", "topic": "TALK_DONE" } ]
   },
   {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MAQUIS_SNIPER_TRADE",
     "type": "talk_topic",
-    "dynamic_line": [ "No.  I wouldn't sell you this gun.", "Go down stairs if you want to trade, I'm busy up here.", "Piss off." ],
+    "dynamic_line": [
+      "No.  I wouldn't sell you my gun.",
+      "Go down stairs if you want to trade, I'm busy up here.",
+      "Piss off, this is my gun."
+    ],
     "responses": [ { "text": "Well, bye.", "topic": "TALK_DONE", "opinion": { "trust": -2, "value": -2 } } ]
   }
 ]

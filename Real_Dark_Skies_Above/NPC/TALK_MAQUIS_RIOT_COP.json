@@ -242,7 +242,7 @@
   },  
   
   {
-    "//": "----------DIALOGUE OPTIONS-------------------------------------------------------------------------------------",  
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MAQUIS_RIOT_COP_ROOT",
     "type": "talk_topic",
     "dynamic_line": {
@@ -285,15 +285,18 @@
     ]
   },
   {
-    "type": "talk_topic",
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MAQUIS_RIOT_COP_BIG_BROTHER",
+    "type": "talk_topic",
     "dynamic_line": [
       "Mr. Erikson is very busy with the various operations against the aliens.",
 	  "I am not sure where Mr. Erikson's office is.",
 	  "Chad Erikson is the closest thing to a leader the resistance has."
     ],
     "responses": [ { "text": "Ok, Thanks.", "topic": "TALK_NONE" }, { "text": "Ok, I have to go now.", "topic": "TALK_DONE" } ]
-  },   {
+  },
+  {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MAQUIS_RIOT_COP_DOING",
     "type": "talk_topic",
     "dynamic_line": [
@@ -308,6 +311,7 @@
     ]
   },
   {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MAQUIS_RIOT_COP_UPSTAIRS",
     "type": "talk_topic",
     "dynamic_line": [

@@ -315,7 +315,7 @@
   },
   
   {
-    "//": "----------DIALOGUE OPTIONS-------------------------------------------------------------------------------------",  
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MAQUIS_SCIENTIST_ROOT",
     "type": "talk_topic",
     "dynamic_line": {
@@ -352,13 +352,16 @@
     ]
   },
   {
-    "type": "talk_topic",
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MAQUIS_SCIENTIST_BIG_BROTHER",
+    "type": "talk_topic",
     "dynamic_line": [
       "I just saw him on the top floors, not sure where exactly.", "I was trying to find him myself.  I'm sure he's up in his office upstairs."
     ],
     "responses": [ { "text": "Ok, Thanks.", "topic": "TALK_NONE" }, { "text": "Ok, I have to go now.", "topic": "TALK_DONE" } ]
-  },   {
+  },
+  {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MAQUIS_SCIENTIST_DOING",
     "type": "talk_topic",
     "dynamic_line": [
@@ -371,6 +374,7 @@
     ]
   },
   {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MAQUIS_SCIENTIST_DOWNSTAIRS",
     "type": "talk_topic",
     "dynamic_line": [
@@ -384,6 +388,7 @@
     ]
   },
   {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "DKZ_MAQUIS_SCIENTIST_MATH_MISSION_1",
     "type": "mission_definition",
     "name": { "str": "Checking for MathMAX Software Updates" },

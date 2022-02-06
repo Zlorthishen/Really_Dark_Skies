@@ -81,7 +81,7 @@
     ]
   },
   {
-    "//": "----------DIALOGUE OPTIONS-------------------------------------------------------------------------------------",
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MAQUIS_QUARTERMASTER_ROOT",
     "type": "talk_topic",
     "dynamic_line": [ "What do you require citizen?.", "I'm kind of busy right now." ],
@@ -110,14 +110,16 @@
     ]
   },
   {
-    "type": "talk_topic",
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MAQUIS_QUARTERMASTER_BIG_BROTHER",
+    "type": "talk_topic",
     "dynamic_line": [ "Mr. Erikson is always coming and going, he's got an office upstairs somewhere." ],
     "responses": [ { "text": "Ok, Thanks.", "topic": "TALK_NONE" }, { "text": "Ok, I have to go now.", "topic": "TALK_DONE" } ]
   },
   {
-    "type": "talk_topic",
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MAQUIS_QUARTERMASTER_LEADERSHIP",
+    "type": "talk_topic",
     "dynamic_line": {
       "u_has_var": "MrEriksonExists",
       "type": "knowledge",
@@ -137,6 +139,7 @@
     ]
   },
   {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MAQUIS_QUARTERMASTER_DOING",
     "type": "talk_topic",
     "dynamic_line": [
@@ -152,6 +155,7 @@
     ]
   },
   {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MAQUIS_QUARTERMASTER_TRADE",
     "type": "talk_topic",
     "dynamic_line": [

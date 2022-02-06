@@ -15,7 +15,7 @@
     ],
     "tiles-new": [
       {
-        "file": "Dark_Skies_Above_normal.png",
+        "file": "Dark_Skies_Above_normal2.png",
         "tiles": [
           { "id": "bg_shadow_item", "fg": 1, "rotates": false },
           { "id": "bg_shadow_normal", "fg": 2, "rotates": false },

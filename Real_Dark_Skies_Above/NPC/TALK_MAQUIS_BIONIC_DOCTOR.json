@@ -312,7 +312,7 @@
     ]
   },
   {
-    "//": "----------DIALOGUE OPTIONS-------------------------------------------------------------------------------------",
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MAQUIS_BIONIC_DOCTOR_ROOT",
     "type": "talk_topic",
     "dynamic_line": {
@@ -368,8 +368,9 @@
     ]
   },
   {
-    "type": "talk_topic",
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MAQUIS_BIONIC_DOCTOR_BIG_BROTHER",
+    "type": "talk_topic",
     "dynamic_line": [
       "I'm sure that Mr. Erikson is on this floor.",
       "I just saw Mr. Erikson go into one of the roooms around here, sorry I can't help you any more than that."
@@ -377,6 +378,7 @@
     "responses": [ { "text": "Ok, Thanks.", "topic": "TALK_NONE" }, { "text": "Ok, I have to go now.", "topic": "TALK_DONE" } ]
   },
   {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MAQUIS_BIONIC_DOCTOR_DOING",
     "type": "talk_topic",
     "dynamic_line": [ "I help people install cybernetic augmentations into their body." ],
@@ -387,6 +389,7 @@
     ]
   },
   {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MAQUIS_BIONIC_DOCTOR_INSTALL_BIONICS",
     "type": "talk_topic",
     "dynamic_line": "I can help you install or remove bionics",
@@ -410,6 +413,7 @@
   },
 
   {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "DKZ_MAQUIS_BIONIC_DOCTOR_MISSION_1",
     "type": "mission_definition",
     "name": { "str": "A new autoclave" },
@@ -440,6 +444,7 @@
     }
   },
   {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "DKZ_MAQUIS_BIONIC_DOCTOR_MISSION_2",
     "type": "mission_definition",
     "name": { "str": "Checking for MedSoft firmware patch" },

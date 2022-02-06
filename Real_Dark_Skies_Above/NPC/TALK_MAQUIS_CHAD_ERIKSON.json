@@ -112,7 +112,7 @@
     ]
   },
   {
-    "//": "----------DIALOGUE OPTIONS-------------------------------------------------------------------------------------",  
+	"//": "-\--ROOT---------------------------------------------------------------------------------------------------------------",
     "type": "talk_topic",
     "id": "TALK_CHAD_ERIKSON_ROOT",
     "dynamic_line": {
@@ -165,8 +165,9 @@
     ]
   },
   {
-    "type": "talk_topic",
+	"//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_CHAD_ERIKSON_FIRSTMEET",
+    "type": "talk_topic",
     "dynamic_line": "Thats Mr. Erikson and like I said, attrition.  I had been an federal agent for decades was about a month from retiring and then the shit really hit the fan.",
     "responses": [
       { "text": "I just had some questions.", "topic": "TALK_CHAD_ERIKSON_QUESTIONS" },
@@ -182,8 +183,9 @@
     ]
   },
   {
-    "type": "talk_topic",
+	"//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_CHAD_ERIKSON_BACKGROUND",
+    "type": "talk_topic",
     "dynamic_line": [
       "It was a three letter acronym United States Federal government agency, I won't mention which one, but that doesn't matter much now.  Lets just say that I still have some useful combat and espionage skills that happened to be very useful for an alien invasion."
     ],
@@ -193,13 +195,14 @@
     ]
   },
   {
+	"//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_CHAD_ERIKSON_QUESTIONS",
     "type": "talk_topic",
     "dynamic_line": [
       "What do you require?",
-      "Yes, what do you want?",
+      "Yes, how can I help you?",
       "I'm pretty busy but could probably help.",
-      { "u_male": [ "Buddy, what do you want?", "Dude, what?" ], "no": [ "Girl, want do you want?" ] }
+      { "u_male": [ "Buddy, what do you want?" ], "no": [ "Lady, want do you want?" ] }
     ],
     "responses": [
       {
@@ -226,7 +229,13 @@
         "topic": "TALK_CHAD_ERIKSON_ASK_ABOUT_RACING_ARCOLOGY"
       },
       {
-        "text": "[MISSION] Sir!  Latest Mission Foxtrot Uniform Charlie Kilo.  Sir!",
+        "text": "[RP]  I want to join the Maquis and fight against the xenoid invaders.",
+        "condition": { "not": { "u_has_any_trait": [ "DKZ_COMBAT", "DKZ_TECH", "DKZ_SCIENTIST", "DKZ_MEDIC", "DKZ_LEADER" ] } },
+        "topic": "TALK_CHAD_ERIKSON_ASK_ABOUT_JOINING_MAQUIS"
+      },			
+	  
+      {
+        "text": "[MISSION] Sir!  Latest mission is Foxtrot Uniform Charlie Kilo.  Sir!",
         "effect": { "u_add_var": "u_found_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" },
         "condition": {
           "and": [
@@ -264,11 +273,11 @@
     ]
   },
   {
-    "type": "talk_topic",
+	"//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_CHAD_ERIKSON_RENDEZVOUS_TO_BASE",
+    "type": "talk_topic",
     "dynamic_line": [
 	"Thats unfortunate but at least you made it back.  I may have something for you to do to help gain much needed intelligence."
-
     ],
     "responses": [
       {
@@ -281,10 +290,32 @@
         "topic": "TALK_NONE"
       }	  
     ]
+  },
+  {
+	"//": "-----------------------------------------------------------------------------------------------------------------------",
+    "id": "TALK_CHAD_ERIKSON_ASK_ABOUT_JOINING_MAQUIS",
+    "type": "talk_topic",
+    "dynamic_line": [
+	"Thats great.  We always need help in the fight against everything.  How do you want to help out?  Keep in mind you can change your mind as much and and frequently as you want.  There are many ways to defeat the xenoids."
+    ],
+    "responses": [
+
+      { "text": "I just want to kill aliens.  The most direct way possible.", "effect": {"u_add_trait": "DKZ_COMBAT"},"topic": "TALK_DONE" },	  
+      { "text": "I want to help lead the fight against the xenoids.", "effect": {"u_add_trait": "DKZ_LEADER"},"topic": "TALK_DONE" },	  
+      { "text": "I want to provide medical support and heal people.", "effect": {"u_add_trait": "DKZ_MEDIC"},"topic": "TALK_DONE" },	  
+      { "text": "I want to study the aliens to better defeat them.", "effect": {"u_add_trait": "DKZ_SCIENTIST"},"topic": "TALK_DONE" },	  
+      { "text": "I want to engineer better technology to kill xenoids.", "effect": {"u_add_trait": "DKZ_TECH"},"topic": "TALK_DONE" },	  
+      {
+        "text": "I have something else to ask you first.",
+        "topic": "TALK_NONE"
+      },
+      { "text": "I've changed my mind.  Bye.", "topic": "TALK_DONE" }	  
+    ]
   },  
   {
-    "type": "talk_topic",
+	"//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_CHAD_ERIKSON_BIG_BROTHER",
+    "type": "talk_topic",
     "dynamic_line": [
       "That's my nephew, always worrying about what secret business I was up to.  I'm glad that throughout all this craziness with the world ending that young man ended up exactly where he is needed.  Randy always took stuff apart as a kid and usually put it back together, so I'm sure he'll make a great technician for the refugee center."
     ],
@@ -297,8 +328,9 @@
     ]
   },
   {
-    "type": "talk_topic",
+	"//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_CHAD_ERIKSON_ASK_ABOUT_WATCH",
+    "type": "talk_topic",
     "dynamic_line": [
       "You want one?  I have several hundred of them in a cardboard box around here somewhere.  I don't have any batteries, but it shouldn't be too hard to find an ultra-light battery downstairs from one of the merchants."
     ],
@@ -317,8 +349,9 @@
     ]
   },
   {
-    "type": "talk_topic",
+	"//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_CHAD_ERIKSON_ASK_ABOUT_RACING_ARCOLOGY",
+    "type": "talk_topic",
     "dynamic_line": [
       "Its a funny story about a Mexican cartel drug front, a CIA Honeypot, an FBI Reco case, and the Library of Congress's newspaper archives.  The Cartel was trying to launder their drug and human trafficking money by building a large indoor go-cart race track.  Somehow the CIA had an agent within the that specific cartel and were able to influence the cartel to invest far more money than they should have, after which the FBI collected all the bad guys they had this building practically ready to open.  The FBI ended up giving most of the floors to the Library of Congress to store newspapers, and some of the other usual suspects took their share too.  Once this cataclysm happened and much of the government was destroyed, this site was commandeered to coordinate local responses against the Xenoids."
     ],
@@ -329,8 +362,9 @@
     ]
   },
   {
-    "type": "talk_topic",
+	"//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_CHAD_ERIKSON_ASK_ABOUT_XENOIDS",
+    "type": "talk_topic",
     "dynamic_line": [ "Where do you want me to start?", "I'll tell you whatever I can.", "What do you need to know about them?" ],
     "responses": [
       { "text": "What are the Xenoids exactly?", "topic": "TALK_CHAD_ERIKSON_ASK_ABOUT_XENOIDS_WHAT" },
@@ -349,8 +383,9 @@
     ]
   },
   {
-    "type": "talk_topic",
+	"//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_CHAD_ERIKSON_ASK_ABOUT_XENOIDS_WHAT",
+    "type": "talk_topic",
     "dynamic_line": [
       "We don't exactly know what they are or how exactly they relate to the rest this cataclysm that has been happening.  From their tactics we can assume that the Xenoids are operating as a sort of paramilitary or an expeditionary force. They seem to favor melee weapons and shield rather than long range firearms, however they also are able to fire short range flechette darts.  As if that was bad enough these aliens have some mind-affecting abilities that I cannot explain at all.  Having said all that they are not immortal, we can make them bleed so we can make them die."
     ],
@@ -369,8 +404,9 @@
     ]
   },
   {
-    "type": "talk_topic",
+	"//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_CHAD_ERIKSON_ASK_ABOUT_XENOIDS_MAGIC",
+    "type": "talk_topic",
     "dynamic_line": [
       "I haven't experienced it myself, but there have been numerous credible reports of the Xenoids waving their hands around and causing severe nausea, hallucinations, even panic attacks to someone nearby.",
       "It wasn't bad enough that we are fighting against an extra-terrestrial invasion force, but of course they have to have some kind of evil Jedi mind powers."
@@ -386,8 +422,9 @@
     ]
   },
   {
-    "type": "talk_topic",
+	"//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_CHAD_ERIKSON_ASK_ABOUT_XENOIDS_MAGIC_TACTICS",
+    "type": "talk_topic",
     "dynamic_line": [
       "The Xenoids seem to require line of sight to active their 'magic', also it seems to be fairly short range.",
       "Given what this 'magic' seems to cause, I suspect that it to aid them with the use of close quarters weapons."
@@ -399,8 +436,9 @@
     ]
   },
   {
-    "type": "talk_topic",
+	"//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_CHAD_ERIKSON_ASK_ABOUT_XENOIDS_WHERE",
+    "type": "talk_topic",
     "dynamic_line": [
       "They appeared suddenly as soon as the cataclysm began, several high value military bases in the west US, along with the largest population centers were effectively disintegrated by space based weapon systems, and virtually every man-made satellite blinked off at the same instant.  Our military response has been crippled as there is some unknown effect which prevents aircraft from operating higher than a few hundred feet.",
       "Based on our latest reports, the Xenoids are an extra-terrestrial invasion which has used weapons of mass destruction on human civillians, and seems bent on the conquest of Earth.  Its like the plot of a 1950's pulp science fiction book or a poorly conceived open-source game."
@@ -412,8 +450,9 @@
     ]
   },
   {
-    "type": "talk_topic",
+	"//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_CHAD_ERIKSON_ASK_ABOUT_XENOIDS_WHY",
+    "type": "talk_topic",
     "dynamic_line": [
       "Because they want this planet for its resources?  Because their God commands it?  Because we're just in the way?  Take your pick.",
       "What does it matter why they're here. What matters is that we drive them off our homeworld and save the human species from extinction."
@@ -425,8 +464,9 @@
     ]
   },
   {
-    "type": "talk_topic",
+	"//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_CHAD_ERIKSON_ASK_ABOUT_XENOIDS_RELATED",
+    "type": "talk_topic",
     "dynamic_line": [
       "Well it does seem coincidental that as soon as zombies start appearing that an alien army from outer space invades.",
       "I've heard reports that Xenoids have attacked some of the non-humanoid aliens.  We don't have any intel other than the xenoids seem to concentrate their attacks against other aliens",
@@ -439,8 +479,9 @@
     ]
   },
   {
-    "type": "talk_topic",
+	"//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_CHAD_ERIKSON_ASK_ABOUT_XENOIDS_UNITS",
+    "type": "talk_topic",
     "dynamic_line": [
       "There seem to be several broad types of Xenoid infantry that have been encountered so far, but more elite types are likely.  There is the 'Ranger' type commonly encountered in rural areas, along with an 'Enforcer' type found more in urban areas or along side the 'Knight'.  There have been rumors of other types haven't been encountered yet."
     ],
@@ -459,8 +500,9 @@
     ]
   },
   {
-    "type": "talk_topic",
+	"//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_CHAD_ERIKSON_ASK_ABOUT_XENOIDS_FAUNA",
+    "type": "talk_topic",
     "dynamic_line": [ "You noticed a few new kinds of critters too?  There are the dog-lizard and the cow-lizard, which are generally not hostile unless they're in large packs.  There are also Lurkers, some kind of tentacle monster found in swamps or sewers, but they absorb bullets pretty effectivly.  Finally there are wisps which seem like alien fire-flys." ],
     "responses": [
       { "text": "I want to know more about the types of Xenoids.", "topic": "TALK_CHAD_ERIKSON_ASK_ABOUT_XENOIDS_UNITS" },
@@ -473,8 +515,9 @@
     ]
   },
   {
-    "type": "talk_topic",
+	"//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_CHAD_ERIKSON_ASK_ABOUT_XENOIDS_DRONES",
+    "type": "talk_topic",
     "dynamic_line": [
       "We know of two types of Xenoid drones, reconnaissance and seeker drones.  Seeker drones do just that, seek out enemies and engage them.  Reconnaissance drones won't engage in combat unless cornered and if they are engaged they flee as quickly as possible.  Both types of drones are capable of emitting a bright light and temporarily blinding you, but seeker drones can also taze you."
     ],
@@ -489,8 +532,9 @@
     ]
   },
   {
-    "type": "talk_topic",
+	"//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_CHAD_ERIKSON_ASK_ABOUT_XENOIDS_RANGER",
+    "type": "talk_topic",
     "dynamic_line": [
       "The Ranger Xenoid is typically encountered in forests and rural areas.  It is armed with a short cutting sword that superficially resembles a machete and wears a camouflaged cloak."
     ],
@@ -505,8 +549,9 @@
     ]
   },
   {
-    "type": "talk_topic",
+	"//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_CHAD_ERIKSON_ASK_ABOUT_XENOIDS_ENFORCER",
+    "type": "talk_topic",
     "dynamic_line": [ "We've named the Enforcer Xenoid as such because it seems to be the mainstay of their expeditionary force, and is also a formidable opponent to a unprepared civilian.  They are armed with a short tazer club and carry what looks like a riot shield.  What makes them especially dangerous is that they often travel in small teams or as additional members of larger Xenoid squads." ],
     "responses": [
       { "text": "I want to know more about the types of Xenoids.", "topic": "TALK_CHAD_ERIKSON_ASK_ABOUT_XENOIDS_UNITS" },
@@ -519,8 +564,9 @@
     ]
   },
   {
-    "type": "talk_topic",
+	"//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_CHAD_ERIKSON_ASK_ABOUT_XENOIDS_KNIGHT",
+    "type": "talk_topic",
     "dynamic_line": [ "The Knight Xenoid is exactly that, it is an alien knight in armor, a seeming anachronism in modern combat, but terrifyingly effective.  The dark-silvered plate armor is fairly effective against common ammunition types, but armor peircing around are still useful against them.  They are extremely effective with their slashing sword, and the shield can counter many attacks." ],
     "responses": [
       { "text": "I want to know more about the types of Xenoids.", "topic": "TALK_CHAD_ERIKSON_ASK_ABOUT_XENOIDS_UNITS" },
@@ -533,8 +579,9 @@
     ]
   },
   {
-    "type": "talk_topic",
+	"//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_CHAD_ERIKSON_ASK_ABOUT_XENOIDS_ELITE",
+    "type": "talk_topic",
     "dynamic_line": {
       "days_since_cataclysm": 90,
       "yes": "It was suspected that at least some kind of Xenoid wound be armed with a gun, and the Fumigator seems to be using chemical-biological warfare against life.  There is also the Xenoid Incinerator that has a long range flame thrower which is incredibly dangerous.",
@@ -551,8 +598,9 @@
     ]
   },
   {
-    "type": "talk_topic",
+	"//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_CHAD_ERIKSON_ASK_ABOUT_XENOIDS_EMISSARY",
+    "type": "talk_topic",
     "dynamic_line": {
       "days_since_cataclysm": 165,
       "yes": { "days_since_cataclysm": 530, "yes": "The Walker of War is real.", "no": "I've seen them." },
@@ -569,6 +617,7 @@
     ]
   },
   {
+	"//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "MISSION_REFUGEE_CHAD_ERIKSON_1",
     "type": "mission_definition",
     "name": { "str": "Find a military operations map" },
