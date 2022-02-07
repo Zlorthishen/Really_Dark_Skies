@@ -233,7 +233,11 @@
         "condition": { "not": { "u_has_any_trait": [ "DKZ_COMBAT", "DKZ_TECH", "DKZ_SCIENTIST", "DKZ_MEDIC", "DKZ_LEADER" ] } },
         "topic": "TALK_CHAD_ERIKSON_ASK_ABOUT_JOINING_MAQUIS"
       },			
-	  
+      {
+        "text": "[RP]  I want change how I fight against the xenoid invaders.",
+        "condition": { "u_has_any_trait": [ "DKZ_COMBAT", "DKZ_TECH", "DKZ_SCIENTIST", "DKZ_MEDIC", "DKZ_LEADER" ] } ,
+        "topic": "TALK_CHAD_ERIKSON_ASK_ABOUT_JOINING_MAQUIS"
+      },	  
       {
         "text": "[MISSION] Sir!  Latest mission is Foxtrot Uniform Charlie Kilo.  Sir!",
         "effect": { "u_add_var": "u_found_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" },
@@ -296,14 +300,14 @@
     "id": "TALK_CHAD_ERIKSON_ASK_ABOUT_JOINING_MAQUIS",
     "type": "talk_topic",
     "dynamic_line": [
-	"Thats great.  We always need help in the fight against everything.  How do you want to help out?  Keep in mind you can change your mind as much and and frequently as you want.  There are many ways to defeat the xenoids."
+	"Thats great.  We always need help in the fight against the alien invader.  How do you want to help out?  Keep in mind you can change your mind as much and and frequently as you want.  There are many ways to defeat the xenoids."
     ],
     "responses": [
 
       { "text": "I just want to kill aliens.  The most direct way possible.", "effect": {"u_add_trait": "DKZ_COMBAT"},"topic": "TALK_DONE" },	  
-      { "text": "I want to help lead the fight against the xenoids.", "effect": {"u_add_trait": "DKZ_LEADER"},"topic": "TALK_DONE" },	  
-      { "text": "I want to provide medical support and heal people.", "effect": {"u_add_trait": "DKZ_MEDIC"},"topic": "TALK_DONE" },	  
-      { "text": "I want to study the aliens to better defeat them.", "effect": {"u_add_trait": "DKZ_SCIENTIST"},"topic": "TALK_DONE" },	  
+      { "text": "I want to help lead the fight against the xenoids.", "effect": { "u_add_trait": "DKZ_LEADER"},"topic": "TALK_DONE" },	  
+      { "text": "I want to provide medical support and heal people.", "effect": { "u_add_trait": "DKZ_MEDIC"},"topic": "TALK_DONE" },	  
+      { "text": "I want to study the aliens to better defeat them.", "effect": { "u_add_trait": "DKZ_SCIENTIST"},"topic": "TALK_DONE" },	  
       { "text": "I want to engineer better technology to kill xenoids.", "effect": {"u_add_trait": "DKZ_TECH"},"topic": "TALK_DONE" },	  
       {
         "text": "I have something else to ask you first.",
