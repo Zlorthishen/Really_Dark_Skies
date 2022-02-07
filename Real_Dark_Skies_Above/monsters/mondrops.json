@@ -78,7 +78,39 @@
       { "group": "dkz_knight_extras", "prob": 60, "count": [ 1, 2 ] },	  
       { "group": "dkz_watch", "prob": 5 }
     ]
-  },    
+  },
+  {
+    "id": "dkz_xenoid_purifier",
+    "type": "item_group",
+    "subtype": "collection",
+    "magazine": 100,
+    "ammo": 40,
+    "entries": [
+      { "item": "dkz_xenoid_heavy_armor_salvaged", "damage": [ 0, 3 ] },
+      { "item": "dkz_nozzlegun_salvaged", "damage": [ 0, 3 ] },
+      { "item": "dkz_xenoid_mask_salvaged", "damage": [ 0, 3 ] },
+      { "group": "dkz_scout_extras", "prob": 30, "count": [ 1, 2 ] },
+      { "group": "dkz_knight_extras", "prob": 60, "count": [ 1, 2 ] },	  
+      { "group": "dkz_watch", "prob": 5 }
+    ]
+  },  
+    {
+    "id": "dkz_mon_xenoid_berserker",
+    "type": "item_group",
+    "subtype": "collection",
+    "magazine": 100,
+    "ammo": 40,
+    "entries": [
+      { "item": "dkz_knightsword_salvaged", "damage": [ 0, 3 ] },
+      { "item": "dkz_enforcerbaton_salvaged", "damage": [ 0, 3 ] },
+      { "item": "dkz_xenoid_light_armor_salvaged", "damage": [ 0, 3 ] },
+      { "item": "dkz_xenoid_mask_salvaged", "damage": [ 0, 3 ] },
+      { "item": "dkz_xenoid_armlet_salvaged", "damage": [ 2, 3 ] },
+      { "group": "dkz_scout_extras", "prob": 40, "count": [ 2, 3 ] },
+      { "group": "dkz_knight_extras", "prob": 40, "count": [ 2, 3 ] },	  
+      { "group": "dkz_watch", "prob": 5 }
+    ]
+  },
   {
     "id": "dkz_mon_xenoid_pyro",
     "type": "item_group",

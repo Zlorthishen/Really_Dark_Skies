@@ -1,5 +1,6 @@
 [
   {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "mon_dkz_glowdrone",
     "type": "MONSTER",
     "name": { "str": "xenoid reconnaissance drone" },
@@ -61,6 +62,7 @@
     ]
   },
   {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "mon_dkz_scidrone",
     "type": "MONSTER",
     "name": { "str": "xenoid seeker drone" },
@@ -132,6 +134,7 @@
     ]
   },
   {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "dkz_xenoid_ranger",
     "type": "MONSTER",
     "name": { "str": "xenoid ranger" },
@@ -206,6 +209,7 @@
     ]
   },
   {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "dkz_xenoid_hunter",
     "type": "MONSTER",
     "name": { "str": "xenoid hunter" },
@@ -280,6 +284,7 @@
     ]
   },
   {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "dkz_xenoid_enforcer",
     "type": "MONSTER",
     "name": { "str": "xenoid enforcer" },
@@ -355,6 +360,7 @@
     ]
   },
   {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "dkz_xenoid_oppressor",
     "type": "MONSTER",
     "name": { "str": "xenoid oppressor" },
@@ -430,6 +436,7 @@
     ]
   },
   {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "dkz_xenoid_fumigator",
     "type": "MONSTER",
     "name": { "str": "xenoid fumigator" },
@@ -483,6 +490,86 @@
     ],
     "death_drops": "dkz_xenoid_fumigator",
     "path_settings": { "max_dist": 45, "max_length": 15, "avoid_traps": true, "allow_open_doors": true, "bash_strength": 10 },
+    "upgrades": { "half_life": 30, "into_group": "DKZ_GROUP_FUMIGATOR_UPGRADE" },
+    "flags": [
+      "SEES",
+      "SMELLS",
+      "KEENNOSE",
+      "HEARS",
+      "GOODHEARING",
+      "NO_BREATHE",
+      "WARM",
+      "SWARMS",
+      "BASHES",
+      "GROUP_BASH",
+      "FIREPROOF",
+      "HUMAN",
+      "PATH_AVOID_DANGER_1",
+      "PRIORITIZE_TARGETS",
+      "CLIMBS",
+      "CAN_OPEN_DOORS"
+    ]
+  },
+  
+  {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
+    "id": "dkz_xenoid_berserker",
+    "type": "MONSTER",
+    "name": { "str": "xenoid berserker" },
+    "description": "A human-sized soldier clad in light grey armor, wielding long silver sword in one hand and shock batton in the other.  The casual ease with which it juggles the two weapons weapons demonstrates its familiarity with and willingness to use them.",
+    "default_faction": "xenoid",
+    "bodytype": "human",
+    "categories": [ "ALIEN" ],
+    "species": [ "ALIEN", "HUMAN" ],
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 150,
+    "speed": 125,
+    "material": [ "flesh" ],
+    "symbol": "@",
+    "color": "blue",
+    "aggression": 100,
+    "morale": 90,
+    "melee_skill": 9,
+    "melee_dice": 2,
+    "melee_dice_sides": 5,
+    "melee_damage": [ { "damage_type": "electric", "amount": 8 } ],
+    "melee_cut": 0,
+    "dodge": 8,
+    "vision_day": 30,
+    "vision_night": 7,
+    "armor_bash": 5,
+    "armor_stab": 7,
+    "armor_cut": 5,
+    "armor_bullet": 5,
+    "harvest": "dkz_mhuman_chipped",
+    "special_attacks": [
+      [ "PARROT", 5 ],
+      [ "TAZER", 5 ],
+      { "id": "knockdown" },
+      { "id": "knife_slash" },
+      { "id": "heavyslash" },
+      {
+        "type": "spell",
+        "spell_data": { "id": "dkz_monspell_panic" },
+        "cooldown": 4,
+        "monster_message": "<color_pink>The %1$s gesticulates at %3$s and a pulse of fear-inducing psionic energy ripples through the air!</color>"
+      },
+      {
+        "type": "gun",
+        "cooldown": 4,
+        "move_cost": 300,
+        "gun_type": "dkz_mon_flechette",
+        "fake_skills": [ [ "gun", 7 ] ],
+        "fake_dex": 13,
+        "ranges": [ [ 0, 10, "DEFAULT" ] ],
+        "require_targeting_npc": true,
+        "require_targeting_monster": true,
+        "laser_lock": false
+      }
+    ],
+    "death_drops": "dkz_mon_xenoid_oppressor",
+    "path_settings": { "max_dist": 45, "max_length": 15, "avoid_traps": true, "allow_open_doors": true, "bash_strength": 10 },
     "flags": [
       "SEES",
       "SMELLS",
@@ -503,6 +590,81 @@
     ]
   },
   {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
+    "id": "dkz_xenoid_purifier",
+    "type": "MONSTER",
+    "name": { "str": "xenoid purifier" },
+    "description": "A human-sized soldier wearing laser etched blue plate armor, an evil-looking mask, and long gun with a strange nozzle on the end.  Light blue fumes drip from the nozzle and quickly dissipate.  Its haunting gaze makes your eyes ache.",
+    "default_faction": "xenoid",
+    "bodytype": "human",
+    "categories": [ "ALIEN" ],
+    "species": [ "ALIEN" ],
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 180,
+    "speed": 90,
+    "material": [ "flesh" ],
+    "symbol": "@",
+    "color": "light_blue",
+    "aggression": 95,
+    "morale": 100,
+    "vision_day": 30,
+    "vision_night": 7,
+    "melee_skill": 7,
+    "melee_dice": 1,
+    "melee_dice_sides": 4,
+    "melee_cut": 4,
+    "armor_bash": 13,
+    "armor_stab": 19,
+    "armor_cut": 13,
+    "armor_bullet": 11,
+    "emit_fields": [ { "emit_id": "emit_relax_gas", "delay": "1 s" } ],
+    "harvest": "dkz_mhuman_chipped",
+    "special_attacks": [
+      [ "PARROT", 5 ],
+      {
+        "type": "spell",
+        "spell_data": { "id": "dkz_monspell_halluc" },
+        "cooldown": 2,
+        "monster_message": "<color_pink>%1$s gesticulates at %3$s and a pulse of mind-bending psionic energy ripples through the air!</color>"
+      },
+      {
+        "type": "gun",
+        "cooldown": 5,
+        "move_cost": 500,
+        "gun_type": "dkz_mon_gasgun",
+        "ranges": [ [ 2, 9, "DEFAULT" ] ],
+        "require_targeting_npc": true,
+        "require_targeting_monster": true,
+        "laser_lock": false,
+        "targeting_cost": 300,
+        "description": "<color_light_green>The %1$s fires a stream of blue hazy gas!</color>"
+      }
+    ],
+    "death_drops": "dkz_xenoid_fumigator",
+    "path_settings": { "max_dist": 45, "max_length": 15, "avoid_traps": true, "allow_open_doors": true, "bash_strength": 10 },
+    "flags": [
+      "SEES",
+      "SMELLS",
+      "KEENNOSE",
+      "HEARS",
+      "GOODHEARING",
+      "NO_BREATHE",
+      "WARM",
+      "SWARMS",
+      "BASHES",
+      "GROUP_BASH",
+      "FIREPROOF",
+      "HUMAN",
+      "PATH_AVOID_DANGER_1",
+      "PRIORITIZE_TARGETS",
+      "CLIMBS",
+      "CAN_OPEN_DOORS"
+    ]
+  },  
+  
+  {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "dkz_xenoid_pyro",
     "type": "MONSTER",
     "name": { "str": "xenoid incinerator" },
@@ -578,6 +740,7 @@
     ]
   },
   {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "dkz_xenoid_knight",
     "type": "MONSTER",
     "name": { "str": "xenoid knight" },
@@ -652,6 +815,7 @@
     ]
   },
   {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "dkz_xenoid_templar",
     "type": "MONSTER",
     "name": { "str": "xenoid templar" },
@@ -726,6 +890,7 @@
     ]
   },
   {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "mon_dkz_emissary",
     "type": "MONSTER",
     "name": { "str": "xenoid emissary", "str_pl": "xenoid emissaries" },
@@ -802,6 +967,7 @@
     ]
   },
   {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "mon_dkz_emissary_plague",
     "type": "MONSTER",
     "name": { "str": "xenoid emissary of pestilence", "str_pl": "xenoid emissaries of pestilence" },
@@ -878,6 +1044,7 @@
     ]
   },
   {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "mon_dkz_emissary_war",
     "type": "MONSTER",
     "name": { "str": "xenoid emissary of war", "str_pl": "xenoid emissaries of war" },
@@ -956,6 +1123,7 @@
     ]
   },
   {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "mon_dkz_emissary_flame",
     "type": "MONSTER",
     "name": { "str": "xenoid emissary of flame", "str_pl": "xenoid emissaries of flame" },
