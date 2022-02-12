@@ -8,8 +8,3 @@ In short, The Real Dark Skies is much more difficult than vanilla DDA, only reco
  - Alien soldiers, The Xenoids, occupy high-value targets and have deployed to the streets in order to pacify the cities for resources and neutralize threats. They each have uniquely debilitating psionic effects, a powerful melee weapon and an insidious dart gun. 
  - Invasive alien species prowl the wilderness, some hostile some are not. 
  - If you survive long enough, you may even see the Xenoid's emissaries to humanity.
- 
- - WIP Map: "Peach Trees" Arcology by Zenture Industries®
- - WIP Map: The Alien Hive Structure
- - WIP Map: The Xenoid Fortress
- 
