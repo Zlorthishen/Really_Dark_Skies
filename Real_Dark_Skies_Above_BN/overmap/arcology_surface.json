@@ -35,7 +35,8 @@
       "palettes": [ "arcology_palette" ],
       "terrain": { "X": "t_zebra", "T": "t_tree_cherry", "M": [ "t_manhole_cover", "t_pavement" ] },
       "place_vehicles": [
-        { "vehicle": "oa_vg_wreck", "x": [ 2, 16 ], "y": [ 8, 12 ], "rotation": [ 0, 90, 180, 270 ], "chance": 100 },	  
+        { "vehicle": "oa_vg_wreck", "x": [ 2, 4 ], "y": [ 8, 12 ], "rotation": [ 0, 90, 180, 270 ], "chance": 100 },	  
+        { "vehicle": "oa_vg_wreck", "x": [ 4, 5 ], "y": [ 12, 14 ], "rotation": [ 0, 90, 180, 270 ], "chance": 100 },	  
         { "vehicle": "school_vehicles", "x": 29, "y": 3, "chance": 90, "rotation": 0, "fuel": 0, "status": 2 },
         { "vehicle": "school_vehicles", "x": 24, "y": 1, "chance": 90, "rotation": 0, "fuel": 0, "status": 2 },
         { "vehicle": "dealership", "x": 83, "y": 15, "chance": 80, "rotation": 0, "fuel": 0, "status": 1 },
