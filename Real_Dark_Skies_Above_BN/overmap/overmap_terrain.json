@@ -473,10 +473,17 @@
     "id": "horse_farm_sky_marshal_orchard",
     "copy-from": "generic_rural_building",
     "name": "apple orchard",
-    "sym": "T",
+    "sym": "F",
     "color": "light_green"
   },
-  
+  {
+    "type": "overmap_terrain",
+    "id": "horse_farm_sky_marshal_tree_plot",
+    "copy-from": "generic_rural_building",
+    "name": "tree plot",
+    "sym": "F",
+    "color": "green"
+  },
   {
     "type": "overmap_terrain",
     "id": [
