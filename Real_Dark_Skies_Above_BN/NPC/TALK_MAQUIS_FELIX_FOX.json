@@ -124,8 +124,8 @@
       "type": "knowledge",
       "context": "flag",
       "value": "yes",
-      "yes": "Mr. Erikson is always coming and going, he's got an office upstairs somewhere.",
-      "no": "The Maquis don't just let any random survivor walk into a heavily armed base and speak to the commander of the local cell, you need to demonstrate that you are really with us.  Try talking to people around and see if anyone needs help or if you're up for a combat mission, I might find someone to talk you out on patrol."
+      "yes": "Mr. Erikson is back at his office.",
+      "no": "Mr. Erikson is probably back at his office."
     },
     "responses": [
       {
