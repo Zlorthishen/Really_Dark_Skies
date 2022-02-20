@@ -125,7 +125,7 @@
       ],
       "place_monster": [ { "monster": "mon_albino_penguin", "x": [ 68, 68 ], "y": [ 90, 90 ], "repeat": [ 3, 4 ] } ],
       "furniture": { "b": "f_hanging_meathook", "B": "f_butcher_rack" },
-      "item": { "B": { "item": "knife_butcher", "chance": 50 } },
+      "item": { "B": { "item": "knife_butcher", "chance": 75 } },
       "items": {
         "e": { "item": "trash", "chance": 25, "repeat": [ 1, 3 ] },
         "é": { "item": "trash", "chance": 85, "repeat": [ 4, 7 ] },

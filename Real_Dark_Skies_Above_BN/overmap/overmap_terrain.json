@@ -467,6 +467,16 @@
     "color": "i_light_green",
     "see_cost": 99
   },
+  
+  {
+    "type": "overmap_terrain",
+    "id": "horse_farm_sky_marshal_orchard",
+    "copy-from": "generic_rural_building",
+    "name": "apple orchard",
+    "sym": "T",
+    "color": "light_green"
+  },
+  
   {
     "type": "overmap_terrain",
     "id": [
