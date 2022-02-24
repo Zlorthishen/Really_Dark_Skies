@@ -6,6 +6,7 @@
     "attitude": 0,
     "mission": 7,
     "chat": "TALK_MAQUIS_QUARTERMASTER_ROOT",
+    "mission_offered": "DKZ_MAQUIS_QUARTERMASTER_CLEAN_UP_SEWER",
     "faction": "maquis"
   },
   {
@@ -165,5 +166,35 @@
       "Then you should go find one of the many merchants around the tower.  They are scattered around all over."
     ],
     "responses": [ { "text": "Well, bye.", "topic": "TALK_DONE", "opinion": { "trust": -1, "value": -1 } } ]
+  },
+  {
+    "id": "DKZ_MAQUIS_QUARTERMASTER_CLEAN_UP_SEWER",
+    "type": "mission_definition",
+    "name": { "str": "Clean up a sewer" },
+    "description": ".",
+    "goal": "MGOAL_KILL_MONSTER",
+    "difficulty": 2,
+    "value": 500,
+
+
+
+    "start": {
+      "assign_mission_target": { "om_terrain": "sewage_treatment_0_0_-1", "reveal_radius": 2, "random": true, "search_range": 150, "min_distance": 15 },
+      "update_mapgen": { "place_monster": [ { "monster": "dkz_mon_lurker_sewer", "pack_size": [ 3, 4 ], "x": 0, "y": 12, "target": true } ] }
+    },
+
+	
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "dialogue": {
+      "describe": "I need you to find kill some monsters.",
+      "offer": "There were reports of some kind of alien critters a sewers treatment plant.  Go eliminate them out.",
+      "accepted": "Thank you.",
+      "rejected": "Oh well.  I'm sure it wasn't anything.",
+      "advice": "You might get lucky and maybe a seweranha will kill them.",
+      "inquire": "How is the search going?",
+      "success": "Thanks.",
+      "success_lie": "I'm sure you did?",
+      "failure": "I wonder where it all went…"
+    }
   }
 ]
