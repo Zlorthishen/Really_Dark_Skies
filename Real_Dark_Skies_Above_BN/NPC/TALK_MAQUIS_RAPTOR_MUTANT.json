@@ -324,6 +324,11 @@
       "no": [ "We don't bother anyone up here and expect the sssame from others.", "What bringssss you up here, ssscavenger." ]
     },
     "responses": [
+      {
+        "text": "Lets set a combat strategy…",
+        "condition": { "npc_has_var": "temporal_follower", "type": "general", "context": "maquis", "value": "yes" },
+        "topic": "TALK_COMBAT_COMMANDS"
+      },	
       { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_MAQUIS_RAPTOR_MUTANT_ROOT" },
       { "text": "What are you doing here?", "topic": "TALK_MAQUIS_RAPTOR_MUTANT_DOING" },
       { "text": "What is upstairs?", "topic": "TALK_MAQUIS_RAPTOR_MUTANT_UPSTAIRS" },

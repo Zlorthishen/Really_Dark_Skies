@@ -242,6 +242,11 @@
       "no": [ "Don't cause any trouble here, I'd rather kill monsters than people.", "Safe travels." ]
     },
     "responses": [
+      {
+        "text": "Lets set a combat strategy…",
+        "condition": { "npc_has_var": "temporal_follower", "type": "general", "context": "maquis", "value": "yes" },
+        "topic": "TALK_COMBAT_COMMANDS"
+      },	
       { "text": "What are you doing here?", "topic": "TALK_MAQUIS_RIOT_COP_DOING" },
       { "text": "What is upstairs?", "topic": "TALK_MAQUIS_RIOT_COP_UPSTAIRS" },
       {

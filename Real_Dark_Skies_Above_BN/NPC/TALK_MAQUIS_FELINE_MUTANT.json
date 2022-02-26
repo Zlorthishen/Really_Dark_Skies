@@ -206,7 +206,7 @@
     },
     "responses": [
       {
-        "text": "Lets set a combat strategy",
+        "text": "Lets set a combat strategy…",
         "condition": { "npc_has_var": "temporal_follower", "type": "general", "context": "maquis", "value": "yes" },
         "topic": "TALK_COMBAT_COMMANDS"
       },
@@ -279,7 +279,6 @@
     "origins": [ "ORIGIN_SECONDARY" ],
     "has_generic_rewards": false,
     "start": {
-      "effect": [ "follow_only", { "npc_add_var": "temporal_follower", "type": "general", "context": "maquis", "value": "yes" } ],
       "assign_mission_target": { "om_terrain": "park", "reveal_radius": 5, "random": true, "search_range": 100, "min_distance": 25 },
       "update_mapgen": {
         "place_monster": [
@@ -293,8 +292,7 @@
       "effect": [
         { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 11 },
         { "npc_add_var": "Maquis_Feline_Mutant_Mission1", "type": "mission", "context": "flag", "value": "yes" },
-        { "u_add_var": "Pretty_Kitty_Found", "type": "mission", "context": "flag", "value": "yes" },
-        { "add_mission": "DKZ_MAQUIS_RETURN_z0_2_2" }
+        { "u_add_var": "Pretty_Kitty_Found", "type": "mission", "context": "flag", "value": "yes" }
       ]
     },
     "dialogue": {

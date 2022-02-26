@@ -193,7 +193,7 @@
       "advice": "You might get lucky and maybe a seweranha will kill them.",
       "inquire": "How is the search going?",
       "success": "Thanks.",
-      "success_lie": "I'm sure you did?",
+      "success_lie": "I'm sure you did…",
       "failure": "I wonder where it all went…"
     }
   }
