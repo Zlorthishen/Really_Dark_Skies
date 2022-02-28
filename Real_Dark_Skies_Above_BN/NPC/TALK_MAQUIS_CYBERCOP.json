@@ -189,25 +189,7 @@
     "type": "item_group",
     "id": "NC_MAQUIS_CYBERCOP_extra",
     "subtype": "distribution",
-    "entries": [ { "item": "backpack", "prob": 25 }, { "item": "backpack_leather", "prob": 25 }, { "item": "rucksack", "prob": 5 } ]
-  },
-  {
-    "type": "item_group",
-    "id": "NC_MAQUIS_CYBERCOP_cutting",
-    "subtype": "distribution",
-    "entries": [ { "item": "knife_combat", "prob": 100 } ]
-  },
-  {
-    "type": "item_group",
-    "id": "NC_MAQUIS_CYBERCOP_stabbing",
-    "subtype": "distribution",
-    "entries": [ { "item": "spear_knife", "prob": 50 }, { "item": "spear_rebar", "prob": 5 } ]
-  },
-  {
-    "type": "item_group",
-    "id": "NC_MAQUIS_CYBERCOP_throw",
-    "subtype": "distribution",
-    "entries": [ { "item": "throwing_knife", "prob": 50 }, { "item": "throwing_axe", "prob": 50 } ]
+    "entries": [ { "item": "backpack", "prob": 75 }, { "item": "backpack_leather", "prob": 25 }, { "item": "rucksack", "prob": 5 } ]
   },
   {
     "type": "item_group",
@@ -229,7 +211,7 @@
     "id": "NC_MAQUIS_CYBERCOP_misc",
     "subtype": "distribution",
     "entries": [
-      { "item": "badge_marshal", "prob": 100 },
+      { "item": "badge_cybercop", "prob": 100 },
       { "item": "8mm_caseless", "count-min": 100, "count-max": 150, "prob": 100 }
     ]
   },

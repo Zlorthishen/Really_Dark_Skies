@@ -332,7 +332,7 @@
         "text": "Lets set a combat strategy…",
         "condition": { "npc_has_var": "temporal_follower", "type": "general", "context": "maquis", "value": "yes" },
         "topic": "TALK_COMBAT_COMMANDS"
-      },	
+      },
       { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_MAQUIS_ATHLETIC_ROOT" },
       { "text": "What are you doing here?", "topic": "TALK_MAQUIS_ATHLETIC_DOING" },
       { "text": "What is upstairs?", "topic": "TALK_MAQUIS_ATHLETIC_UPSTAIRS" },
@@ -409,8 +409,8 @@
     "value": 1000,
     "item": "cavalry_sabre",
     "start": {
-      "assign_mission_target": { "om_terrain": "museum", "reveal_radius": 1, "random": true, "search_range": 120 },
-      "update_mapgen": { "om_terrain": "museum", "place_item": [ { "item": "cavalry_sabre", "x": 2, "y": 2 } ] },
+      "assign_mission_target": { "om_terrain": "museum", "om_special": "museum", "reveal_radius": 1, "random": true, "search_range": 120 },
+      "update_mapgen": { "om_terrain": "museum", "om_special": "museum", "place_item": [ { "item": "cavalry_sabre", "x": 2, "y": 2 } ] },
       "effect": { "u_add_var": "Heirloom_Sabre", "type": "mission", "context": "flag", "value": "in_progress" }
     },
     "end": {

@@ -486,6 +486,22 @@
   },
   {
     "type": "overmap_terrain",
+    "id": "horse_farm_sky_marshal_tree_plot_bunker",
+    "copy-from": "generic_rural_building",
+    "name": "tree plot with log hut",
+    "color": "green",
+    "sym": "F"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "horse_farm_sky_marshal_tree_plot_bunker_roof" ],
+    "copy-from": "generic_rural_building",
+    "name": "log hut roof",
+    "color": "green",	
+    "sym": "^"
+  },  
+  {
+    "type": "overmap_terrain",
     "id": [
       "horse_farm_sky_marshal_1",
       "horse_farm_sky_marshal_11",
