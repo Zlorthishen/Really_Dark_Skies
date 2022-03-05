@@ -89,7 +89,6 @@
     "id": "NC_MAQUIS_ATHLETIC_pants_male",
     "subtype": "distribution",
     "entries": [
-      { "item": "b_shorts", "prob": 70 },
       { "item": "jeans", "prob": 20 },
       { "item": "pants", "prob": 20 },
       { "item": "pants_leather", "prob": 20 },
@@ -103,14 +102,11 @@
     "id": "NC_MAQUIS_ATHLETIC_pants_female",
     "subtype": "distribution",
     "entries": [
-      { "item": "b_shorts", "prob": 30 },
       { "item": "jeans", "prob": 20 },
       { "item": "pants", "prob": 20 },
       { "item": "pants_leather", "prob": 20 },
       { "item": "pants_cargo", "prob": 20 },
-      { "item": "leggings", "prob": 70 },
       { "item": "skirt", "prob": 50 },
-      { "item": "postman_shorts", "prob": 10 },
       { "item": "technician_pants_gray", "prob": 10 }
     ]
   },
@@ -123,7 +119,6 @@
       { "item": "flag_shirt", "prob": 15 },
       { "item": "jersey", "prob": 30 },
       { "item": "tunic", "prob": 10 },
-      { "item": "postman_shirt", "prob": 10 },
       { "item": "linuxtshirt", "prob": 30 },
       { "item": "sleeveless_tunic", "prob": 5 },
       { "item": "tank_top", "prob": 20 }
@@ -138,7 +133,6 @@
       { "item": "flag_shirt", "prob": 10 },
       { "item": "jersey", "prob": 30 },
       { "item": "tunic", "prob": 5 },
-      { "item": "postman_shirt", "prob": 10 },
       { "item": "linuxtshirt", "prob": 30 },
       { "item": "halter_top", "prob": 5 },
       { "item": "tank_top", "prob": 20 }
