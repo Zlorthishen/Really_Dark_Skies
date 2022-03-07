@@ -521,9 +521,16 @@
 
   {
     "type": "overmap_terrain",
-    "id": "tree_plot_bunker_catacomb",
+    "id": [
+      "catacomb_tree_plot_bunker",
+      "catacomb_sky_marshal_farm_4",
+      "catacomb_zero",
+      "catacomb_one",
+      "catacomb_two",
+      "catacomb_seven"
+    ],
     "name": "catacomb",
-    "sym": "C",
+    "sym": "§",
     "color": "i_light_green",
     "see_cost": 5
   }, 

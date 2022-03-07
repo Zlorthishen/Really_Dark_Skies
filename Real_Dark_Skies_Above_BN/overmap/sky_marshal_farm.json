@@ -71,7 +71,10 @@
         "........................",
         "........................"
       ],
-      "set": [ { "point": "trap", "id": "tr_beartrap_buried", "x": [ 1, 21 ], "y": [ 0, 23 ], "repeat": [ 25, 30 ] } ],
+      "set": [
+        { "point": "trap", "id": "tr_beartrap_buried", "x": [ 1, 21 ], "y": [ 0, 23 ], "repeat": [ 25, 30 ] },
+        { "point": "trap", "id": "tr_landmine_buried", "x": [ 1, 21 ], "y": [ 0, 23 ], "repeat": [ 7, 10 ] }
+      ],
       "place_signs": [
         { "signage": "NO TRESSPASSING!", "x": 3, "y": 0 },
         { "signage": "NO TRESSPASSING!", "x": 8, "y": 0 },
@@ -118,8 +121,10 @@
         "........................"
       ],
       "set": [
-        { "point": "trap", "id": "tr_beartrap_buried", "x": [ 1, 21 ], "y": [ 0, 23 ], "repeat": [ 25, 30 ] },
-        { "point": "trap", "id": "tr_landmine_buried", "x": [ 1, 21 ], "y": [ 0, 23 ], "repeat": [ 7, 10 ] }
+        { "point": "trap", "id": "tr_beartrap_buried", "x": [ 1, 21 ], "y": [ 0, 10 ], "repeat": [ 15, 20 ] },
+        { "point": "trap", "id": "tr_beartrap_buried", "x": [ 1, 21 ], "y": [ 17, 23 ], "repeat": [ 15, 20 ] },
+        { "point": "trap", "id": "tr_landmine_buried", "x": [ 1, 21 ], "y": [ 0, 10 ], "repeat": [ 3, 5 ] },
+        { "point": "trap", "id": "tr_landmine_buried", "x": [ 1, 21 ], "y": [ 17, 23 ], "repeat": [ 3, 5 ] }
       ],
       "place_signs": [
         { "signage": "NO TRESSPASSING!", "x": 3, "y": 0 },
@@ -594,15 +599,15 @@
         "          x;;X          ",
         "          x;;x          ",
         "   |||||||||+||         ",
-        "   |a.aaHHbbbr|         ",
-        "   |a.......ar|         ",
-        "   |a..a|||||||         ",
+        "   |aaaaHHbbrr|         ",
+        "   |a.......aa|         ",
+        "   |aa.a|||||||         ",
         "   |a..aaaarrr|         ",
         "   |a.a.aaaaaa|         ",
         "   |aa....arrr|         ",
-        "Xxx|||..|++||||         ",
-        ";;;|E..a|.<|            ",
-        ";;;+W..r||||            ",
+        "Xxx|||a.|++||||         ",
+        ";;;|...a|.<|            ",
+        ";;;+WE.r||||            ",
         "Xxx||||||               ",
         "                        ",
         "                        ",
@@ -632,7 +637,7 @@
         "x": "t_wall_log",
         "|": "t_wall"
       },
-      "liquids": { "E": { "liquid": "water_clean", "amount": [ 0, 100 ] } },
+      "liquids": { "E": { "liquid": "water_clean", "amount": [ 90, 100 ] } },
       "furniture": {
         "c": "f_counter",
         "r": "f_rack",
@@ -646,7 +651,7 @@
           [ "f_cupboard", 30 ],
           [ "f_floor_lamp", 15 ],
           [ "f_desk", 30 ],
-          [ "f_null", 5 ]
+          [ "f_null", 15 ]
         ],
         "H": "f_bookcase",
         "b": "f_workbench"

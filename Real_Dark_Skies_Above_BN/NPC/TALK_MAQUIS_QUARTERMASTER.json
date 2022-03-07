@@ -171,22 +171,17 @@
     "id": "DKZ_MAQUIS_QUARTERMASTER_CLEAN_UP_SEWER",
     "type": "mission_definition",
     "name": { "str": "Clean up a sewer" },
-    "description": ".",
+    "description": "Go to a sewer treatment plant and kill some strange creatures.",
     "goal": "MGOAL_KILL_MONSTER",
     "difficulty": 2,
     "value": 500,
-
-
-
     "start": {
-      "assign_mission_target": { "om_terrain": "sewage_treatment_0_0_-1", "reveal_radius": 2, "random": true, "search_range": 150, "min_distance": 15 },
-      "update_mapgen": { "place_monster": [ { "monster": "dkz_mon_lurker_sewer", "pack_size": [ 3, 4 ], "x": 0, "y": 12, "target": true } ] }
+      "assign_mission_target": { "om_terrain": "sewage_treatment_0_0_-1", "reveal_radius": 2, "random": true, "search_range": 75, "min_distance": 5 },
+      "update_mapgen": { "place_monster": [ { "monster": "dkz_mon_lurker_sewer", "pack_size": [ 2, 3 ], "x": 0, "y": 12, "target": true } ] }
     },
-
-	
     "origins": [ "ORIGIN_SECONDARY" ],
     "dialogue": {
-      "describe": "I need you to find kill some monsters.",
+      "describe": "I need you to find and kill some monsters.",
       "offer": "There were reports of some kind of alien critters a sewers treatment plant.  Go eliminate them out.",
       "accepted": "Thank you.",
       "rejected": "Oh well.  I'm sure it wasn't anything.",
