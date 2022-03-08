@@ -17,7 +17,6 @@
     "job_description": "I'm just trying to be a lazy cat.",
     "common": false,
     "traits": [
-      { "distribution": [ { "trait": "DKZ_COMBAT", "prob": 75 }, { "trait": "DKZ_TECH", "prob": 25 } ] },
       { "group": "DKZ_starting_traits" },
       { "group": "Appearance_demographics" },
       { "trait": "THRESH_FELINE" },

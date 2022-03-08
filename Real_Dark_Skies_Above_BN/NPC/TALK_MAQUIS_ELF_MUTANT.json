@@ -15,7 +15,6 @@
     "job_description": "I'm exploring the new existance of an elf.",
     "common": false,
     "traits": [
-      { "distribution": [ { "trait": "DKZ_COMBAT", "prob": 50 }, { "trait": "DKZ_LEADER", "prob": 50 } ] },
       { "group": "DKZ_starting_traits" },
       { "group": "Appearance_demographics" },
       { "trait": "THRESH_ELFA", "prob": 100 },

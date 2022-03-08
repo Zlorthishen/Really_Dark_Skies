@@ -14,7 +14,6 @@
     "name": { "str": "MAQUIS" },
     "job_description": "I'm here to find goods that can no longer be made and in general trade with people.",
     "traits": [
-      { "trait": "DKZ_LEADER", "prob": 100 },
       { "group": "DKZ_starting_traits" },
       { "group": "Appearance_demographics" },
       { "trait": "LIAR", "prob": 50 },

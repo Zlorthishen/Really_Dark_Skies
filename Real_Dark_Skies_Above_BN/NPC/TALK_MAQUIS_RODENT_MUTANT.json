@@ -16,7 +16,6 @@
     "job_description": "I'm just trying to eck out a living.",
     "common": false,
     "traits": [
-      { "distribution": [ { "trait": "DKZ_COMBAT", "prob": 50 }, { "trait": "DKZ_TECH", "prob": 50 } ] },
       { "group": "DKZ_starting_traits" },
       { "group": "Appearance_demographics" },
       { "trait": "FUR", "prob": 100 },

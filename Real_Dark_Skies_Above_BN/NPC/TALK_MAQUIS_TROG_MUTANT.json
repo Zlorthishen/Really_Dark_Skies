@@ -15,7 +15,6 @@
     "job_description": "I'm just living my life as a subterranean mutant, shepherding my mutant flock.",
     "common": false,
     "traits": [
-      { "trait": "DKZ_COMBAT", "prob": 100 },
       { "group": "DKZ_starting_traits" },
       { "group": "Appearance_demographics" },
       { "trait": "STR_UP_3", "prob": 100 },
