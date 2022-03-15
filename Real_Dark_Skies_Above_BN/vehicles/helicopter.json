@@ -150,6 +150,8 @@
       { "x": -6, "y": -1, "part": "frame_sw" },
       { "x": -5, "y": -1, "part": "frame_vertical" },
       { "x": -4, "y": -1, "part": "frame_vertical" },
+      { "x": -4, "y": -2, "part": "frame_vertical" },
+      { "x": -4, "y": -3, "part": "frame_vertical" },
       { "x": -3, "y": -1, "part": "frame_vertical" },
       { "x": -2, "y": -1, "part": "frame_vertical" },
       { "x": -1, "y": -1, "part": "frame_vertical" },
@@ -165,6 +167,8 @@
       { "x": -1, "y": 0, "part": "frame_cross" },
       { "x": 0, "y": 0, "part": "frame_cross" },
       { "x": -4, "y": 3, "part": "frame_vertical" },
+      { "x": -4, "y": 4, "part": "frame_vertical" },
+      { "x": -4, "y": 5, "part": "frame_vertical" },
       { "x": -5, "y": 3, "part": "frame_vertical" },
       { "x": -6, "y": 3, "part": "frame_se" },
       { "x": -6, "y": 2, "part": "frame_nw" },
@@ -208,6 +212,21 @@
       { "x": -2, "y": 1, "part": "aisle_lights" },
       { "x": -4, "y": 1, "part": "aisle_lights" },
       { "x": -4, "y": 1, "part": "heavy_duty_military_blackhawk_rotors" },
+	  
+      { "x": -4, "y": -2, "part": "halfboard_horizontal" },	  
+      { "x": -4, "y": 4, "part": "halfboard_horizontal" },	
+
+      {
+        "x": -4,
+        "y": -3,
+        "parts": [ "turret_mount", { "part": "mounted_browning", "ammo": 60, "ammo_qty": [ 90, 100 ] } ]
+      },
+      {
+        "x": -4,
+        "y": 5,
+        "parts": [ "turret_mount", { "part": "mounted_browning", "ammo": 60, "ammo_qty": [ 90, 100 ] } ]
+      },	  
+	  
       { "x": -1, "y": 1, "part": "door_internal" },
       { "x": -8, "y": 1, "part": "halfboard_vertical" },
       { "x": -9, "y": 1, "part": "halfboard_vertical" },
