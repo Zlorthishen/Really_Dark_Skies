@@ -129,7 +129,7 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "catacomb_8x8_nswe",
-    "weight": 200,
+    "weight": 100,
     "object": {
       "mapgensize": [ 8, 8 ],
       "rotation": [ 0, 3 ],
@@ -146,6 +146,72 @@
       "terrain": { " ": "t_null", ".": "t_dirt", "X": "t_root_wall", "x": "t_wall_log" }
     }
   },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "catacomb_8x8_nswe",
+    "weight": 200,
+    "object": {
+      "mapgensize": [ 8, 8 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "  x..x  ",
+        " XX..XX ",
+        "XX....XX",
+        "........",
+        "........",
+        "XX.....X",
+        " X...XXX",
+        " xx..x  "
+      ],
+      "terrain": { " ": "t_null", ".": "t_dirt", "X": "t_root_wall", "x": "t_wall_log" }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "catacomb_8x8_nswe",
+    "weight": 200,
+    "object": {
+      "mapgensize": [ 8, 8 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "  x..x  ",
+        " XX..XX ",
+        "XX....XX",
+        "........",
+        "........",
+        "X......X",
+        "XX...XXX",
+        " xx..x  "
+      ],
+      "terrain": { " ": "t_null", ".": "t_dirt", "X": "t_root_wall", "x": "t_wall_log" }
+    }
+  },    
+
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "catacomb_8x8_nswe",
+    "weight": 200,
+    "object": {
+      "mapgensize": [ 8, 8 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "  x..x  ",
+        " XX..XX ",
+        "XX....XX",
+        "........",
+        "........",
+        "........",
+        "XX....xX",
+        " xx..xx "
+      ],
+      "terrain": { " ": "t_null", ".": "t_dirt", "X": "t_root_wall", "x": "t_wall_log" }
+    }
+  },  
+
+  
   {
     "type": "mapgen",
     "method": "json",
@@ -229,13 +295,13 @@
         "        Xxx...xxX       ",
         "        ........        ",
         "        ........        ",
-        "       XX......X        ",
-        "       XX......xxx      ",
-        "       XXx.<...+.x      ",
-        "       XXxx....x.x      ",
-        "       XXXxx+xxx.x      ",
-        "       XXXXx.. xxx      ",
-        "        XXXxxxxxX       ",
+        "        X......XX       ",
+        "        X......xxx      ",
+        "        Xx.<...+.x      ",
+        "        Xxx....x.x      ",
+        "         Xxx+xxx.x      ",
+        "          Xx.. xxx      ",
+        "          XxxxxxX       ",
         "                        ",
         "                        ",
         "                        ",
@@ -291,12 +357,15 @@
     "object": {
       "fill_ter": "t_rock",
       "place_nested": [
+        { "chunks": [ "catacomb_8x8_nswe" ], "x": 0, "y": 0 },
         { "chunks": [ "catacomb_8x8_nswe" ], "x": 8, "y": 0 },
         { "chunks": [ "catacomb_8x8_nswe" ], "x": 0, "y": 8 },
         { "chunks": [ "catacomb_8x8_nswe" ], "x": 8, "y": 8 },
         { "chunks": [ "catacomb_8x8_nswe" ], "x": 16, "y": 16 },
         { "chunks": [ "catacomb_8x8_nswe" ], "x": 16, "y": 0 },
-        { "chunks": [ "catacomb_8x8_nswe" ], "x": 16, "y": 8 }
+        { "chunks": [ "catacomb_8x8_nswe" ], "x": 0, "y": 16 },
+        { "chunks": [ "catacomb_8x8_nswe" ], "x": 16, "y": 8 },
+        { "chunks": [ "catacomb_8x8_nswe" ], "x": 8, "y": 16 }
       ]
     }
   },

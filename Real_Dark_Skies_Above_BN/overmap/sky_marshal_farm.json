@@ -552,9 +552,9 @@
       "rows": [
         "                        ",
         "     |-vv-|-v-v-|_____  ",
-        "     |@*hk|@@**d|_____  ",
-        "     |@**k|***hkv_____  ",
-        "     vd**Ḃ|Ḃ***k|_____  ",
+        "     |@****@@**d|_____  ",
+        "     |@*******hkv_____  ",
+        "     vd**ḂḂḂḂ**k|_____  ",
         "     |-+------+-|_____  ",
         "     v**********|_____  ",
         "     |---|-+-|Ḃ*|_____  ",
@@ -575,8 +575,8 @@
         "                        ",
         "                        "
       ],
-      "palettes": [ "farm_horse" ],
-      "terrain": { "_": "t_tar_flat_roof", "*": "t_floor", " ": "t_open_air", ">": "t_stairs_down", "<": "t_ladder_up" },
+      "palettes": [ "sky_marshal_farm" ],
+      "terrain": { "_": "t_tar_flat_roof", "*": "t_floor", "Ḃ": "t_floor", " ": "t_open_air", ">": "t_stairs_down", "<": "t_ladder_up" },
       "items": {
         "@": { "item": "bed", "chance": 90, "repeat": [ 2, 3 ] },
         "D": { "item": "trash_cart", "chance": 50 },
@@ -686,18 +686,18 @@
         "                        ",
         "     |22222222223       ",
         "     |..........3       ",
+        "     |.R........3       ",
         "     |..........3       ",
         "     |..........3       ",
+        "     |.....U....3       ",
         "     |..........3       ",
         "     |..........3       ",
-        "     |..........3       ",
-        "     |..........3       ",
-        "     |..........3       ",
+        "     |.....U....3       ",
         "     |..........3       ",
         "     |..........3       ",
         "     |..........3       ",
         "     |.......---3       ",
-        "     |.......3>         ",
+        "     |..R....3>         ",
         "     |.......3          ",
         "     |.......3          ",
         "     |--...---          ",
@@ -709,7 +709,8 @@
         "                        "
       ],
       "palettes": [ "roof_palette" ],
-      "terrain": { ".": "t_shingle_flat_roof", ">": "t_ladder_up" }
+      "nested": { "U": { "chunks": [ "roof_2x2_infrastructure" ] }, "R": { "chunks": [ "roof_2x2_infrastructure_1" ] } },	  
+      "terrain": { ".": "t_shingle_flat_roof", "R": "t_shingle_flat_roof", "U": "t_shingle_flat_roof", ">": "t_ladder_up" }
     }
   }
 ]
