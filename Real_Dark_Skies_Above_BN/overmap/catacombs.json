@@ -380,7 +380,7 @@
         { "chunks": [ "catacomb_8x8_ns" ], "x": 8, "y": 0 },
         { "chunks": [ "catacomb_8x8_ew" ], "x": 0, "y": 8 },
         { "chunks": [ "catacomb_8x8_nswe" ], "x": 8, "y": 8 },
-        { "chunks": [ "catacomb_8x8_ns" ], "x": 16, "y": 0 },
+        { "chunks": [ "catacomb_8x8_ns" ], "x": 8, "y": 16 },
         { "chunks": [ "catacomb_8x8_ew" ], "x": 16, "y": 8 }
       ]
     }

@@ -76,10 +76,12 @@
         { "point": "trap", "id": "tr_landmine_buried", "x": [ 1, 21 ], "y": [ 0, 23 ], "repeat": [ 7, 10 ] }
       ],
       "place_signs": [
-        { "signage": "NO TRESSPASSING!", "x": 3, "y": 0 },
-        { "signage": "NO TRESSPASSING!", "x": 8, "y": 0 },
-        { "signage": "NO TRESSPASSING!", "x": 15, "y": 0 },
-        { "signage": "NO TRESSPASSING!", "x": 20, "y": 0 }
+        { "signage": "NO TRESSPASSING!", "x": 2, "y": 0 },
+        { "signage": "NO TRESSPASSING!", "x": 6, "y": 0 },
+        { "signage": "NO TRESSPASSING!", "x": 10, "y": 0 },
+        { "signage": "NO TRESSPASSING!", "x": 14, "y": 0 },
+        { "signage": "NO TRESSPASSING!", "x": 18, "y": 0 },
+        { "signage": "NO TRESSPASSING!", "x": 22, "y": 0 }
       ],
       "terrain": {
         ".": [ "t_grass", "t_grass", "t_grass", "t_underbrush", "t_dirt" ],
@@ -127,10 +129,12 @@
         { "point": "trap", "id": "tr_landmine_buried", "x": [ 1, 21 ], "y": [ 17, 23 ], "repeat": [ 3, 5 ] }
       ],
       "place_signs": [
-        { "signage": "NO TRESSPASSING!", "x": 3, "y": 0 },
-        { "signage": "NO TRESSPASSING!", "x": 8, "y": 0 },
-        { "signage": "NO TRESSPASSING!", "x": 15, "y": 0 },
-        { "signage": "NO TRESSPASSING!", "x": 20, "y": 0 }
+        { "signage": "NO TRESSPASSING!", "x": 2, "y": 0 },
+        { "signage": "NO TRESSPASSING!", "x": 6, "y": 0 },
+        { "signage": "NO TRESSPASSING!", "x": 10, "y": 0 },
+        { "signage": "NO TRESSPASSING!", "x": 14, "y": 0 },
+        { "signage": "NO TRESSPASSING!", "x": 18, "y": 0 },
+        { "signage": "NO TRESSPASSING!", "x": 22, "y": 0 }
       ],
       "terrain": {
         ".": [ "t_grass", "t_grass", "t_grass", "t_underbrush", "t_dirt" ],
@@ -319,7 +323,7 @@
         "..%%%%%%%%%%%%%%%%%%%%%%%%/,,,/,,,///,,,//%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%",
         ".........................//,,,/,,,,/,,,,///....................................................."
       ],
-      "place_npcs": [ { "class": "DKZ_MAQUIS_FELIX_FOX", "x": 15, "y": 75 } ],
+      "place_npcs": [ { "class": "DKZ_MAQUIS_MELISSA_FORREST", "x": 15, "y": 64 }, { "class": "DKZ_MAQUIS_FELIX_FOX", "x": 15, "y": 75 } ],
       "place_vehicles": [ { "vehicle": "oldtractor", "x": 78, "y": 19, "rotation": 180, "chance": 100, "status": 0 } ],
       "palettes": [ "sky_marshal_farm" ],
       "terrain": {
@@ -451,14 +455,14 @@
         "   ...................  ",
         "   .......>...........  ",
         "   ...................  ",
+        "   ...R...............  ",
         "   ...................  ",
         "   ...................  ",
         "   ...................  ",
         "   ...................  ",
         "   ...................  ",
         "   ...................  ",
-        "   ...................  ",
-        "   ...................  ",
+        "   .........R.........  ",
         "   ...................  ",
         "   ...................  ",
         "   ...................  ",
@@ -468,6 +472,7 @@
         "                        "
       ],
       "palettes": [ "roof_palette" ],
+      "nested": {  "R": { "chunks": [ "roof_5x5_coop" ] } },	  	  
       "terrain": { ">": "t_ladder_down", ".": "t_shingle_flat_roof" }
     }
   },
@@ -599,16 +604,16 @@
         "          x;;X          ",
         "          x;;x          ",
         "   |||||||||+||         ",
-        "   |aaaaHHbbrr|         ",
+        "   |aaaaHHbbRR|         ",
         "   |a.......aa|         ",
-        "   |aa.a|||||||         ",
-        "   |a..aaaarrr|         ",
-        "   |a.a.aaaaaa|         ",
-        "   |aa....arrr|         ",
-        "Xxx|||a.|++||||         ",
-        ";;;|...a|.<|            ",
-        ";;;+WE.r||||            ",
-        "Xxx||||||               ",
+        "   |aa.a||||||||        ",
+        "   |a..aaaarrrr|XXXxxx  ",
+        "   |a.a.aaaaaaR+;;;;;X  ",
+        "   |aa....arrrr|XXX;;X  ",
+        "Xxx|||a.|++|||||  XX;Xxx",
+        ";;;|R..a|.<|       X;;;;",
+        ";;;+REWr||||       XX;;;",
+        "Xxx||||||           xxxX",
         "                        ",
         "                        ",
         "                        ",
@@ -641,6 +646,7 @@
       "furniture": {
         "c": "f_counter",
         "r": "f_rack",
+        "R": "f_warehouse_shelf",
         "E": "f_water_heater",
         "W": [ "f_water_purifier", "f_home_furnace" ],
         "a": [
