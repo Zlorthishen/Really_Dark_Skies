@@ -71,6 +71,15 @@
       { "point": [ 1, 4, 0 ], "overmap": "rural_road_forest_south" },
       { "point": [ 1, 5, 0 ], "overmap": "rural_road_forest_south" },
       { "point": [ 1, 6, 0 ], "overmap": "rural_road_forest_south" },
+      { "point": [ -1, 0, 0 ], "overmap": "sky_marshal_farm_radio_tower_south" },
+      { "point": [ -1, 0, 1 ], "overmap": "sky_marshal_farm_radio_tower_roof_south" },
+      { "point": [ -1, 0, 2 ], "overmap": "sky_marshal_farm_radio_tower_even_stair_only_south" },
+      { "point": [ -1, 0, 3 ], "overmap": "sky_marshal_farm_radio_tower_odd_south" },
+      { "point": [ -1, 0, 4 ], "overmap": "sky_marshal_farm_radio_tower_even_south" },
+      { "point": [ -1, 0, 5 ], "overmap": "sky_marshal_farm_radio_tower_odd_south" },
+      { "point": [ -1, 0, 6 ], "overmap": "sky_marshal_farm_radio_tower_even_stair_only_south" },
+      { "point": [ -1, 0, 7 ], "overmap": "sky_marshal_farm_radio_tower_odd_south" },
+      { "point": [ -1, 0, 8 ], "overmap": "sky_marshal_farm_radio_tower_top_south" },
       { "point": [ -1, 1, 0 ], "overmap": "dumpsite_south" },
       { "point": [ -1, 2, 0 ], "overmap": "sky_marshal_farm_orchard_north" },
       { "point": [ -1, 3, 0 ], "overmap": "sky_marshal_farm_orchard_south" }
@@ -80,6 +89,6 @@
     "city_distance": [ 5, 40 ],
     "city_sizes": [ 1, -1 ],
     "occurrences": [ 0, 1 ],
-    "flags": [ "FARM", "UNIQUE", "SAFE_AT_WORLDGEN"]
+    "flags": [ "FARM", "UNIQUE", "SAFE_AT_WORLDGEN" ]
   }
 ]

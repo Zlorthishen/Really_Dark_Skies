@@ -187,30 +187,10 @@
     "type": "mapgen",
     "method": "json",
     "om_terrain": [
-      [ 
-	    "sky_marshal_farm_1",
-	    "sky_marshal_farm_2",
-		"sky_marshal_farm_3",
-		"sky_marshal_farm_4" 
-	  ],
-      [
-        "sky_marshal_farm_5",
-        "sky_marshal_farm_6",
-        "sky_marshal_farm_7",
-        "sky_marshal_farm_8"
-      ],
-      [
-        "sky_marshal_farm_9",
-        "sky_marshal_farm_10",
-        "sky_marshal_farm_11",
-        "sky_marshal_farm_12"
-      ],
-      [
-        "sky_marshal_farm_13",
-        "sky_marshal_farm_14",
-        "sky_marshal_farm_15",
-        "sky_marshal_farm_16"
-      ]
+      [ "sky_marshal_farm_1", "sky_marshal_farm_2", "sky_marshal_farm_3", "sky_marshal_farm_4" ],
+      [ "sky_marshal_farm_5", "sky_marshal_farm_6", "sky_marshal_farm_7", "sky_marshal_farm_8" ],
+      [ "sky_marshal_farm_9", "sky_marshal_farm_10", "sky_marshal_farm_11", "sky_marshal_farm_12" ],
+      [ "sky_marshal_farm_13", "sky_marshal_farm_14", "sky_marshal_farm_15", "sky_marshal_farm_16" ]
     ],
     "object": {
       "faction_owner": [
@@ -287,11 +267,11 @@
         "..%.........///...////.......AATAAAAAAAAAAAAAA../....,,....,,..////.............////.........%//",
         "..%.........////....////......,,...............//...,....,.,..////...............////...,....%//",
         "..%...$OO$OO$*$OO$OO$../////,,./////////////////...,.....,....///.................///........%//",
-        "..%...$QQQQQQ;eeeeee$....../,,,,,,,,,/.............,....,....///...................///.....,.%//",
+        "..%...$QQQQQ;;;eeeee$....../,,,,,,,,,/.............,....,....///...................///.....,.%//",
         "..%...O;;;;;;;;;;;;;O...../.,,,,,,,,,/............,/...,....////....................///....,,%//",
-        "..%...OIIIIII;jjjjjjO...../,,,,,,,,,,,//.........,,..,.....///.......................///....,%//",
+        "..%...OIIIII;77jjjjjO...../,,,,,,,,,,,//.........,,..,.....///.......................///....,%//",
         "..%...O;;;;;;;;;;;;;O..../,,,,,,,,,,,,,....../.......,.....///.......................////...,%//",
-        "..%...$mmmmmm;uuuuuu$....,,,,,,,,,,,,,,,,,,,,,,,,///.,.....///........................///...,H//",
+        "..%...$mmmmm;;;uuuuu$....,,,,,,,,,,,,,,,,,,,,,,,,///.,.....///........................///...,H//",
         "..%...$OO$OO$*$OO$OO$...,,,,,,,,,,,,,,,,,,,,,,,,,//,/,/,/////.........................///////H//",
         "..%..........†..........,,,,,,,,,,,,,,,,,,,,,,,,,//,,,.,/////.........................///////H//",
         "..%..........††††††††††††††,,,,,,,,,,,,,,,,,,,,,,/,//,/,/////.........................///...,H//",
@@ -472,7 +452,7 @@
         "                        "
       ],
       "palettes": [ "roof_palette" ],
-      "nested": {  "R": { "chunks": [ "roof_5x5_coop" ] } },	  	  
+      "nested": { "R": { "chunks": [ "roof_5x5_coop" ] } },
       "terrain": { ">": "t_ladder_down", ".": "t_shingle_flat_roof" }
     }
   },
@@ -581,7 +561,14 @@
         "                        "
       ],
       "palettes": [ "sky_marshal_farm" ],
-      "terrain": { "_": "t_tar_flat_roof", "*": "t_floor", "Ḃ": "t_floor", " ": "t_open_air", ">": "t_stairs_down", "<": "t_ladder_up" },
+      "terrain": {
+        "_": "t_tar_flat_roof",
+        "*": "t_floor",
+        "Ḃ": "t_floor",
+        " ": "t_open_air",
+        ">": "t_stairs_down",
+        "<": "t_ladder_up"
+      },
       "items": {
         "@": { "item": "bed", "chance": 90, "repeat": [ 2, 3 ] },
         "D": { "item": "trash_cart", "chance": 50 },
@@ -592,7 +579,7 @@
       }
     }
   },
-{
+  {
     "type": "mapgen",
     "method": "json",
     "om_terrain": "sky_marshal_farm_13_basement",
@@ -676,12 +663,12 @@
         "H": [
           { "item": "magazines", "chance": 60, "repeat": [ 0, 3 ] },
           { "item": "homebooks", "chance": 50 },
-          { "item": "exotic_books", "chance": 5 }
+          { "item": "exotic_books", "chance": 25 }
         ],
         "b": [ { "item": "home_hw", "chance": 60 }, { "item": "mechanics", "chance": 30 } ]
       }
     }
-  },  
+  },
   {
     "type": "mapgen",
     "method": "json",
@@ -715,8 +702,242 @@
         "                        "
       ],
       "palettes": [ "roof_palette" ],
-      "nested": { "U": { "chunks": [ "roof_2x2_infrastructure" ] }, "R": { "chunks": [ "roof_2x2_infrastructure_1" ] } },	  
+      "nested": { "U": { "chunks": [ "roof_2x2_infrastructure" ] }, "R": { "chunks": [ "roof_2x2_infrastructure_1" ] } },
       "terrain": { ".": "t_shingle_flat_roof", "R": "t_shingle_flat_roof", "U": "t_shingle_flat_roof", ">": "t_ladder_up" }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "sky_marshal_farm_radio_tower" ],
+    "object": {
+      "predecessor_mapgen": "forest",
+      "rows": [
+        "                        ",
+        "       -----------      ",
+        "       |_________|      ",
+        "       |__R____R_|      ",
+        "       |_________|      ",
+        "       |_________|      ",
+        "       |_________|      ",
+        "       |___<_____|      ",
+        "       |__R____R_|      ",
+        "       |_________|      ",
+        "       |_________|      ",
+        "       |2##+########    ",
+        "         #..ll#rrrC#4   ",
+        "         w....+..h6#    ",
+        "         ##+#w#...C#    ",
+        "         |R___wCCCCw    ",
+        "         |-22-##ww##    ",
+        "          ____          ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "terrain": {
+        " ": [ "t_dirt", "t_dirt", "t_grass" ],
+        "#": "t_concrete_wall",
+        "R": "t_radio_tower",
+        "2": "t_chaingate_c",
+        "-": "t_chainfence_h",
+        "|": "t_chainfence_v",
+        "6": "t_radio_controls",
+        "_": "t_pavement",
+        "+": "t_door_c",
+        "4": "t_gutter_downspout",
+        "<": "t_stairs_up",
+        "w": "t_window"
+      },
+      "furniture": { "C": "f_counter", "r": "f_rack", "h": "f_chair", "l": "f_locker" },
+      "items": {
+        "C": { "item": "radio", "chance": 80, "repeat": [ 1, 2 ] },
+        "r": { "item": "recycle_electronic", "chance": 80, "repeat": [ 1, 2 ] },
+        "l": { "item": "clothing_work_set", "chance": 80 }
+      }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": "sky_marshal_farm_radio_tower_roof",
+    "object": {
+      "fill_ter": "t_metal_floor_no_roof",
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "          R,,,,R        ",
+        "          ,    ,        ",
+        "          ,    ,        ",
+        "          aaaa ,        ",
+        "          a><a ,        ",
+        "          Raaa,R        ",
+        "                        ",
+        "                        ",
+        "         ...........3   ",
+        "         ...........5   ",
+        "         ...........3   ",
+        "         .......&...3   ",
+        "          R   ......3   ",
+        "              ......3   ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "palettes": [ "roof_palette" ],
+      "terrain": { "R": "t_radio_tower", "a": "t_railing", ",": "t_metal_floor_no_roof", "<": "t_stairs_up", ">": "t_stairs_down" }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": "sky_marshal_farm_radio_tower_even",
+    "object": {
+      "fill_ter": "t_metal_floor_no_roof",
+      "rows": [
+        "                        ",
+        "          ::            ",
+        "         aaaaaaaa       ",
+        "         aR,,,,Ra       ",
+        "        :a,,,,,,aX      ",
+        "         a,,::,,a       ",
+        "         a,,::,,a       ",
+        "        :a,<>,,,aX      ",
+        "         aR,,,,Ra       ",
+        "         aaaaaaaa       ",
+        "            :           ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "palettes": [ "roof_palette" ],
+      "terrain": { "R": "t_radio_tower", "a": "t_railing", ",": "t_metal_floor_no_roof", "<": "t_stairs_up", ">": "t_stairs_down" }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": "sky_marshal_farm_radio_tower_even_stair_only",
+    "object": {
+      "fill_ter": "t_metal_floor_no_roof",
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "         :R,,,,R        ",
+        "          ,    ,        ",
+        "          ,    ,        ",
+        "         Xaaaa ,        ",
+        "         Xa<>a ,:       ",
+        "         XRaaa,R        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "palettes": [ "roof_palette" ],
+      "terrain": { "R": "t_radio_tower", "a": "t_railing", ",": "t_metal_floor_no_roof", "<": "t_stairs_up", ">": "t_stairs_down" }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": "sky_marshal_farm_radio_tower_odd",
+    "object": {
+      "fill_ter": "t_metal_floor_no_roof",
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "         :R,,,,R        ",
+        "          ,    ,        ",
+        "          ,    ,        ",
+        "         Xaaaa ,        ",
+        "         Xa><a ,:       ",
+        "         XRaaa,R        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "palettes": [ "roof_palette" ],
+      "terrain": { "R": "t_radio_tower", "a": "t_railing", ",": "t_metal_floor_no_roof", "<": "t_stairs_up", ">": "t_stairs_down" }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": "sky_marshal_farm_radio_tower_top",
+    "object": {
+      "fill_ter": "t_metal_floor_no_roof",
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "          aaaaaa        ",
+        "          a,,,,a        ",
+        "          a,RR,a        ",
+        "          a,RR,a        ",
+        "          a>,,,a        ",
+        "          aaaaaa        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "palettes": [ "roof_palette" ],
+      "terrain": { "R": "t_radio_tower", "a": "t_railing", ",": "t_metal_floor_no_roof", ">": "t_stairs_down" }
     }
   }
 ]

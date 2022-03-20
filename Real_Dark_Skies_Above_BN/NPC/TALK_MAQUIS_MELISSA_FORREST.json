@@ -62,8 +62,8 @@
     "type": "item_group",
     "subtype": "collection",
     "entries": [
-      { "item": "panties" },
-      { "item": "bra" },
+      { "item": "bikini_bottom" },
+      { "item": "bikini_top" },
       { "item": "coat_lab" },
       {
         "item": "light_minus_battery_cell",
@@ -78,8 +78,6 @@
     "type": "item_group",
     "subtype": "collection",
     "items": [
-      { "item": "8x40_10_mag", "charges-min": 7, "count": 2 },
-      { "item": "8mm_caseless", "count": 3 },
       { "item": "multitool" }
     ]
   },
@@ -87,7 +85,7 @@
     "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MAQUIS_MELISSA_FORREST_ROOT",
     "type": "talk_topic",
-    "dynamic_line": [ "what's up dude?.", "Hey how's it going man?." ],
+    "dynamic_line": [ "Greetings.", "Hello." ],
     "responses": [
       {
         "text": "Lets set a combat strategy…",
