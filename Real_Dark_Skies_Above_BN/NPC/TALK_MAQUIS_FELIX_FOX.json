@@ -158,5 +158,42 @@
       "I do not have anything for sale, man.  There a merchant around somewhere."
     ],
     "responses": [ { "text": "Well, bye.", "topic": "TALK_DONE" } ]
-  }
+  },
+
+  {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
+    "id": "MISSION_GO_MEET_THE_BIG_FED",
+    "type": "mission_definition",
+    "name": { "str": "Locate Chad Erikson" },
+    "description": "Randy Erikson finally got news from his uncle, go to his last reported location and check it out.",
+    "goal": "MGOAL_CONDITION",
+    "goal_condition": { "u_has_var": "u_found_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" },
+    "difficulty": 5,
+    "value": 50000,
+    "start": {
+      "assign_mission_target": {
+        "om_terrain": "racing_tower_z7_4_1",
+        "om_special": "arcology_racing",
+        "reveal_radius": 7,
+        "search_range": 700,
+        "z": 7,
+        "random": true,
+        "min_distance": 75
+      },
+      "update_mapgen": { "place_npcs": [ { "class": "DKZ_CHAD_ERIKSON", "x": 3, "y": 3, "target": true } ] },
+      "effect": [ { "u_add_var": "MrEriksonExists", "type": "knowledge", "context": "flag", "value": "yes" } ]
+    },
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "dialogue": {
+      "describe": "I need help getting in touch with a family member…",
+      "offer": "I have a general idea of where my uncle Chad Erikson is at, I give you a general idea which direction and how far away it is, but other than that I can only guess.",
+      "accepted": "I'll find him.",
+      "rejected": "Come back when you get a chance.",
+      "advice": "Just follow your map.",
+      "inquire": "Did you find him yet?",
+      "success": "With this we'll be able to convince others to join up and fight against the invasion",
+      "success_lie": "Something seems not right with how you described my brother…",
+      "failure": "It was a lost cause anyways…"
+    }
+  }  
 ]

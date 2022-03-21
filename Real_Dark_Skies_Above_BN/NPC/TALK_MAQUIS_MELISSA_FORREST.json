@@ -64,7 +64,6 @@
     "entries": [
       { "item": "bikini_bottom" },
       { "item": "bikini_top" },
-      { "item": "coat_lab" },
       {
         "item": "light_minus_battery_cell",
         "ammo-item": "battery",

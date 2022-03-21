@@ -221,7 +221,7 @@
   },
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
-    "id": "MISSION_CHECK_MEET_THE_BIG_BOSS",
+    "id": "MISSION_MEET_THE_BIG_BOSS",
     "type": "mission_definition",
     "name": { "str": "Speak to Mr Erikson" },
     "description": "The local leader of the Maaquis wants to meet you.",
