@@ -5,8 +5,8 @@
     "class": "NC_MAQUIS_MELISSA_FORREST",
     "attitude": 0,
     "mission": 7,
-    "name_unique": "Melissa 'Misty' Forrest",	
-    "gender": "female",	
+    "name_unique": "Melissa 'Misty' Forrest",
+    "gender": "female",
     "chat": "TALK_MAQUIS_MELISSA_FORREST_ROOT",
     "faction": "maquis"
   },
@@ -14,7 +14,7 @@
     "type": "npc_class",
     "id": "NC_MAQUIS_MELISSA_FORREST",
     "name": { "str": "MAQUIS" },
-    "job_description": "I'm here to keep the logistics of the resistance moving forward.",
+    "job_description": "I'm here to understand being a plant.",
     "common": false,
     "traits": [
       { "trait": "DKZ_SCIENTIST", "prob": 100 },
@@ -64,6 +64,7 @@
     "entries": [
       { "item": "bikini_bottom" },
       { "item": "bikini_top" },
+      { "item": "mbag" },
       {
         "item": "light_minus_battery_cell",
         "ammo-item": "battery",
@@ -76,9 +77,7 @@
     "id": "NC_MAQUIS_MELISSA_FORREST_carried",
     "type": "item_group",
     "subtype": "collection",
-    "items": [
-      { "item": "multitool" }
-    ]
+    "items": [ { "item": "multitool" } ]
   },
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
@@ -90,7 +89,7 @@
         "text": "Lets set a combat strategy…",
         "condition": { "npc_has_var": "temporal_follower", "type": "general", "context": "maquis", "value": "yes" },
         "topic": "TALK_COMBAT_COMMANDS"
-      },	
+      },
       { "text": "Let's trade.", "topic": "TALK_MAQUIS_MELISSA_FORREST_TRADE" },
       { "text": "What are you doing here?", "topic": "TALK_MAQUIS_MELISSA_FORREST_DOING" },
       { "text": "Are you in charge of the Maquis?", "topic": "TALK_MAQUIS_MELISSA_FORREST_LEADERSHIP" },
@@ -112,7 +111,9 @@
     "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MAQUIS_MELISSA_FORREST_BIG_BROTHER",
     "type": "talk_topic",
-    "dynamic_line": [ "Mr. Erikson is not on the farm, he's probably back at Barter Tower directing local resistance operations against the Xenoids." ],
+    "dynamic_line": [
+      "Mr. Erikson is not on the farm, he's probably back at Barter Tower directing local resistance operations against the Xenoids."
+    ],
     "responses": [ { "text": "Ok, Thanks.", "topic": "TALK_NONE" }, { "text": "Ok, I have to go now.", "topic": "TALK_DONE" } ]
   },
   {
@@ -127,18 +128,13 @@
       "yes": "Mr. Erikson is back at his office.",
       "no": "Mr. Erikson is probably back at his office."
     },
-    "responses": [
-      { "text": "Ok, Thanks.", "topic": "TALK_NONE" },
-      { "text": "Ok, I have to go now.", "topic": "TALK_DONE" }
-    ]
+    "responses": [ { "text": "Ok, Thanks.", "topic": "TALK_NONE" }, { "text": "Ok, I have to go now.", "topic": "TALK_DONE" } ]
   },
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MAQUIS_MELISSA_FORREST_DOING",
     "type": "talk_topic",
-    "dynamic_line": [
-      "I'm contemplating what it means to be a plant."
-    ],
+    "dynamic_line": [ "I'm contemplating what it means to be a plant." ],
     "responses": [
       { "text": "Let's trade.", "topic": "TALK_MAQUIS_MELISSA_FORREST_TRADE" },
       { "text": "Interesting.", "topic": "TALK_MAQUIS_MELISSA_FORREST_ROOT" },
@@ -149,9 +145,7 @@
     "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MAQUIS_MELISSA_FORREST_TRADE",
     "type": "talk_topic",
-    "dynamic_line": [
-      "All I need is sunlight."
-    ],
+    "dynamic_line": [ "All I need is sunlight." ],
     "responses": [ { "text": "Well, bye.", "topic": "TALK_DONE" } ]
   }
 ]

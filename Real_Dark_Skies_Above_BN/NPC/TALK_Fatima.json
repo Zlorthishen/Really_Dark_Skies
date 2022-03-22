@@ -11,9 +11,9 @@
       },
       {
         "text": "Can you tell me anything else about the Xenoids?",
-        "condition": {  "u_has_var": "u_Talk_To_Fatima_about_Xenoids", "type": "general", "context": "meeting", "value": "yes" },
+        "condition": { "u_has_var": "u_Talk_To_Fatima_about_Xenoids", "type": "general", "context": "meeting", "value": "yes" },
         "topic": "TALK_EVAC_Fatima_XENOIDS"
-      }	  
+      }
     ]
   },
   {

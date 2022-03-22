@@ -253,7 +253,7 @@
         "text": "Lets set a combat strategy…",
         "condition": { "npc_has_var": "temporal_follower", "type": "general", "context": "maquis", "value": "yes" },
         "topic": "TALK_COMBAT_COMMANDS"
-      },	
+      },
       { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_MAQUIS_TROG_MUTANT_ROOT" },
       { "text": "What are you doing here?", "topic": "TALK_MAQUIS_TROG_MUTANT_DOING" },
       { "text": "What is upstairs?", "topic": "TALK_MAQUIS_TROG_MUTANT_UPSTAIRS" },
@@ -293,7 +293,10 @@
     "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MAQUIS_TROG_MUTANT_DOING",
     "type": "talk_topic",
-    "dynamic_line": [ "I live down here along with some giant penguins, they're pretty good eating.", "The sun started hurting my eyes so I do not go up stairs anymore." ],
+    "dynamic_line": [
+      "I live down here along with some giant penguins, they're pretty good eating.",
+      "The sun started hurting my eyes so I do not go up stairs anymore."
+    ],
     "responses": [
       { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_MAQUIS_TROG_MUTANT_ROOT" },
       { "text": "Nice arrangement for everyone.", "topic": "TALK_MAQUIS_TROG_MUTANT_ROOT" },

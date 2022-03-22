@@ -5,8 +5,8 @@
     "class": "NC_MAQUIS_FELIX_FOX",
     "attitude": 0,
     "mission": 7,
-    "name_unique": "Felix Fox",	
-    "gender": "male",		
+    "name_unique": "Felix Fox",
+    "gender": "male",
     "chat": "TALK_MAQUIS_FELIX_FOX_ROOT",
     "faction": "maquis"
   },
@@ -92,7 +92,7 @@
         "text": "Lets set a combat strategy…",
         "condition": { "npc_has_var": "temporal_follower", "type": "general", "context": "maquis", "value": "yes" },
         "topic": "TALK_COMBAT_COMMANDS"
-      },	
+      },
       { "text": "Let's trade.", "topic": "TALK_MAQUIS_FELIX_FOX_TRADE" },
       { "text": "What are you doing here?", "topic": "TALK_MAQUIS_FELIX_FOX_DOING" },
       { "text": "Are you in charge of the Maquis?", "topic": "TALK_MAQUIS_FELIX_FOX_LEADERSHIP" },
@@ -114,7 +114,9 @@
     "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MAQUIS_FELIX_FOX_BIG_BROTHER",
     "type": "talk_topic",
-    "dynamic_line": [ "Ha, the spooky Chad is back his usual office on the seventh floor of Barter Tower.  The Princess is in another castle!" ],
+    "dynamic_line": [
+      "Ha, the spooky Chad is back his usual office on the seventh floor of Barter Tower.  The Princess is in another castle!"
+    ],
     "responses": [ { "text": "Ok, Thanks.", "topic": "TALK_NONE" }, { "text": "Ok, I have to go now.", "topic": "TALK_DONE" } ]
   },
   {
@@ -129,10 +131,7 @@
       "yes": "Mr. Erikson is back at his office.",
       "no": "Mr. Erikson is probably back at his office."
     },
-    "responses": [
-      { "text": "Ok, Thanks.", "topic": "TALK_NONE" },
-      { "text": "Ok, I have to go now.", "topic": "TALK_DONE" }
-    ]
+    "responses": [ { "text": "Ok, Thanks.", "topic": "TALK_NONE" }, { "text": "Ok, I have to go now.", "topic": "TALK_DONE" } ]
   },
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
@@ -159,7 +158,6 @@
     ],
     "responses": [ { "text": "Well, bye.", "topic": "TALK_DONE" } ]
   },
-
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "MISSION_GO_MEET_THE_BIG_FED",
@@ -195,5 +193,5 @@
       "success_lie": "Something seems not right with how you described my brother…",
       "failure": "It was a lost cause anyways…"
     }
-  }  
+  }
 ]
