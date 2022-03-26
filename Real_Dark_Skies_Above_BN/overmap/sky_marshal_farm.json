@@ -42,46 +42,38 @@
   {
     "type": "mapgen",
     "method": "json",
-    "om_terrain": [ "sky_marshal_farm_tree_plot" ],
+    "om_terrain": [ "sky_marshal_farm_inner_tree_plot" ],
     "object": {
       "fill_ter": "t_dirt",
       "rows": [
+        ".4..4..4..4..4..4..4..4.",
+        "........................",
+        "........................",
+        ".4..4..4..4..4..4..4..4.",
+        "........................",
+        "........................",
+        ".4..4..4..4..4..4..4..4.",
+        "........................",
+        "........................",
+        ".4..4..4..4..4..4..4..4.",
+        "........................",
+        "........................",
+        ".4..4..4..4..4..4..4..4.",
+        "........................",
+        "........................",
+        ".4..4..4..4..4..4..4..4.",
+        "........................",
+        "........................",
+        ".4..4..4..4..4..4..4..4.",
+        "........................",
+        "........................",
         ".1..1..1..1..1..1..1..1.",
-        "........................",
-        "........................",
-        ".1..1..1..1..1..1..1..1.",
-        "........................",
-        "........................",
-        ".4..4..4..4..4..4..4..4.",
-        "........................",
-        "........................",
-        ".4..4..4..4..4..4..4..4.",
-        "........................",
-        "........................",
-        ".4..4..4..4..4..4..4..4.",
-        "........................",
-        "........................",
-        ".4..4..4..4..4..4..4..4.",
-        "........................",
-        "........................",
-        ".4..4..4..4..4..4..4..4.",
-        "........................",
-        "........................",
-        ".4..4..4..4..4..4..4..4.",
         "........................",
         "........................"
       ],
       "set": [
         { "point": "trap", "id": "tr_beartrap_buried", "x": [ 1, 21 ], "y": [ 0, 23 ], "repeat": [ 25, 30 ] },
         { "point": "trap", "id": "tr_landmine_buried", "x": [ 1, 21 ], "y": [ 0, 23 ], "repeat": [ 7, 10 ] }
-      ],
-      "place_signs": [
-        { "signage": "NO TRESSPASSING!", "x": 2, "y": 0 },
-        { "signage": "NO TRESSPASSING!", "x": 6, "y": 0 },
-        { "signage": "NO TRESSPASSING!", "x": 10, "y": 0 },
-        { "signage": "NO TRESSPASSING!", "x": 14, "y": 0 },
-        { "signage": "NO TRESSPASSING!", "x": 18, "y": 0 },
-        { "signage": "NO TRESSPASSING!", "x": 22, "y": 0 }
       ],
       "terrain": {
         ".": [ "t_grass", "t_grass", "t_grass", "t_underbrush", "t_dirt" ],
@@ -93,27 +85,27 @@
   {
     "type": "mapgen",
     "method": "json",
-    "om_terrain": [ "sky_marshal_farm_tree_plot_bunker" ],
+    "om_terrain": [ "sky_marshal_farm_outer_tree_plot" ],
     "object": {
       "fill_ter": "t_dirt",
       "rows": [
+        "........................",
+        "........................",
+        "........................",
         ".1..1..1..1..1..1..1..1.",
         "........................",
         "........................",
-        ".1..1..1..1..1..1..1..1.",
+        ".2..2..2..2..2..2..2..2.",
+        "........................",
+        "........................",
+        ".2..2..2..2..2..2..2..2.",
+        "........................",
+        "........................",
+        ".2..2..2..2..2..2..2..2.",
         "........................",
         "........................",
         ".4..4..4..4..4..4..4..4.",
         "........................",
-        "........................",
-        ".4..4..4..4..4..4..4..4.",
-        "........................",
-        ".........XXXxX..........",
-        ".4..4..4.X   XX.4..4..4.",
-        ".........x    X.........",
-        ".........X  < x.........",
-        ".4..4..4.XX> XX.4..4..4.",
-        "..........XXXX..........",
         "........................",
         ".4..4..4..4..4..4..4..4.",
         "........................",
@@ -123,10 +115,9 @@
         "........................"
       ],
       "set": [
-        { "point": "trap", "id": "tr_beartrap_buried", "x": [ 1, 21 ], "y": [ 0, 10 ], "repeat": [ 15, 20 ] },
-        { "point": "trap", "id": "tr_beartrap_buried", "x": [ 1, 21 ], "y": [ 17, 23 ], "repeat": [ 15, 20 ] },
-        { "point": "trap", "id": "tr_landmine_buried", "x": [ 1, 21 ], "y": [ 0, 10 ], "repeat": [ 3, 5 ] },
-        { "point": "trap", "id": "tr_landmine_buried", "x": [ 1, 21 ], "y": [ 17, 23 ], "repeat": [ 3, 5 ] }
+        { "point": "trap", "id": "tr_beartrap", "x": [ 3, 21 ], "y": [ 0, 23 ], "repeat": [ 10, 11 ] },
+        { "point": "trap", "id": "tr_caltrops_glass", "x": [ 3, 21 ], "y": [ 0, 23 ], "repeat": [ 40, 50 ] },
+        { "point": "trap", "id": "tr_glass_pit", "x": [ 0, 23 ], "y": [ 0, 1 ], "repeat": [ 30, 35 ] }
       ],
       "place_signs": [
         { "signage": "NO TRESSPASSING!", "x": 2, "y": 0 },
@@ -137,6 +128,53 @@
         { "signage": "NO TRESSPASSING!", "x": 22, "y": 0 }
       ],
       "terrain": {
+        ".": [ "t_grass", "t_grass", "t_grass", "t_underbrush", "t_dirt" ],
+        "1": [ "t_tree_young","t_tree_young","t_tree_young", "t_grass", "t_dirt" ],
+        "2": [ "t_tree_pine", "t_tree_pine", "t_tree_young", "t_tree_deadpine", "t_tree_young" ],
+        "4": [ "t_tree_pine", "t_tree_pine", "t_tree_pine", "t_tree_pine", "t_tree_deadpine" ]
+      }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "sky_marshal_farm_inner_tree_plot_bunker" ],
+    "object": {
+      "fill_ter": "t_dirt",
+      "rows": [
+        ".4..4..4..4..4..4..4..4.",
+        "........................",
+        "........................",
+        ".4..4..4..4..4..4..4..4.",
+        "........................",
+        "........................",
+        ".4..4..4..4..4..4..4..4.",
+        "........................",
+        "........................",
+        ".4..4..4..4..4..4..4..4.",
+        "........................",
+        ".........XXXxXX.........",
+        ".4..4..4.X    X.4..4..4.",
+        ";;;;;;;;;x    X;;;;;;;;;",
+        ";;;;;;;;;X  < x;;;;;;;;;",
+        ".4..4..4.XX> XX.4..4..4.",
+        "..........XXXX..........",
+        "........................",
+        ".4..4..4..4..4..4..4..4.",
+        "........................",
+        "........................",
+        ".1..1..1..1..1..1..1..1.",
+        "........................",
+        "........................"
+      ],
+      "set": [
+        { "point": "trap", "id": "tr_beartrap", "x": [ 1, 21 ], "y": [ 0, 10 ], "repeat": [ 15, 20 ] },
+        { "point": "trap", "id": "tr_beartrap", "x": [ 1, 21 ], "y": [ 17, 23 ], "repeat": [ 15, 20 ] },
+        { "point": "trap", "id": "tr_landmine_buried", "x": [ 1, 21 ], "y": [ 0, 10 ], "repeat": [ 3, 5 ] },
+        { "point": "trap", "id": "tr_landmine_buried", "x": [ 1, 21 ], "y": [ 17, 23 ], "repeat": [ 3, 5 ] }
+      ],
+      "terrain": {
+        ";": [ "t_dirt", "t_dirt", "t_dirt", "t_underbrush", "t_grass" ],
         ".": [ "t_grass", "t_grass", "t_grass", "t_underbrush", "t_dirt" ],
         "1": "t_tree_young",
         "X": "t_wall_log",
@@ -150,7 +188,7 @@
   {
     "type": "mapgen",
     "method": "json",
-    "om_terrain": "sky_marshal_farm_tree_plot_bunker_roof",
+    "om_terrain": "sky_marshal_farm_inner_tree_plot_bunker_roof",
     "object": {
       "fill_ter": "t_shingle_flat_roof",
       "rows": [
@@ -165,11 +203,11 @@
         "                        ",
         "                        ",
         "                        ",
-        "         .....          ",
-        "         ......         ",
-        "         ......         ",
-        "         ...>..         ",
-        "         ......         ",
+        "         ssssss         ",
+        "         s....s         ",
+        "         s....s         ",
+        "         s..>.s         ",
+        "         s....s         ",
         "          ....          ",
         "                        ",
         "                        ",
@@ -180,7 +218,8 @@
         "                        "
       ],
       "palettes": [ "roof_palette" ],
-      "terrain": { ".": "t_shingle_flat_roof", ">": "t_wood_stairs_down" }
+      "furniture": { "s": "f_sandbag_half" },
+      "terrain": { ".": "t_shingle_flat_roof", "s": "t_shingle_flat_roof", ">": "t_wood_stairs_down" }
     }
   },
   {
@@ -383,6 +422,45 @@
       "terrain": { ".": "t_shingle_flat_roof" }
     }
   },
+  
+  
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": "sky_marshal_farm_4_basement",
+    "object": {
+      "fill_ter": "t_rock",
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "  ..........            ",
+        "  ..........            ",
+        "  ..........            ",
+        "  ..........            ",
+        "  ..........            ",
+        "  ..........            ",
+        "  ..........            ",
+        "  ..........            ",
+        "  ..........            ",
+        "  ..........            ",
+        "  ..........            ",
+        "  ..........            ",
+        "  ..........            "
+      ],
+      "terrain": { ".": "t_dirt" }
+    }
+  },  
+  
+  
   {
     "type": "mapgen",
     "method": "json",
@@ -725,12 +803,12 @@
         "       |________ |      ",
         "       |______   |      ",
         "       |2##+########    ",
-        "         #..ll#rrrC#4   ",
-        "         w....+..h6#    ",
-        "         ##+#w#...C#    ",
-        "         |R___wCCCCw    ",
+        "         #....rrrl>#    ",
+        "         w........l#    ",
+        "         ##+#w#h..Cw    ",
+        "         |R___w6CCCw    ",
         "         |-22-##ww##    ",
-        "          ____          ",
+        "          _________4    ",
         "                        ",
         "                        ",
         "                        ",
@@ -742,6 +820,9 @@
         "#": "t_concrete_wall",
         "R": "t_radio_tower",
         ".": "t_floor",
+        "h": "t_floor",
+        "x": "t_floor",
+        "C": "t_floor",
         "2": "t_chaingate_c",
         "-": "t_chainfence_h",
         "|": "t_chainfence_v",
@@ -750,14 +831,116 @@
         "+": "t_door_c",
         "4": "t_gutter_downspout",
         "<": "t_stairs_up",
-        "w": "t_window"
+        ">": "t_stairs_down",
+        "w": "t_window_boarded_noglass"
       },
-      "furniture": { "C": "f_counter", "r": "f_rack", "h": "f_chair", "l": "f_locker" },
+      "place_npcs": [ { "class": "DKZ_MAQUIS_MERCHANT", "x": 12, "y": 13, "add_trait": "DKZ_TECH" } ],
+      "furniture": {
+        "-": "f_null",
+        "|": "f_null",
+        "_": "f_null",
+        "W": "f_null",
+        "C": "f_counter",
+        "r": "f_rack",
+        "h": "f_chair",
+        "l": "f_locker"
+      },
       "items": {
         "C": { "item": "radio", "chance": 80, "repeat": [ 1, 2 ] },
         "r": { "item": "recycle_electronic", "chance": 80, "repeat": [ 1, 2 ] },
         "l": { "item": "clothing_work_set", "chance": 80 }
       }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": "sky_marshal_farm_radio_tower_basement",
+    "weight": 250,
+    "object": {
+      "fill_ter": "t_rock",
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "          X;;X          ",
+        "          |++|          ",
+        "          |..||||||||   ",
+        "          |.........|   ",
+        "        X||.......<.|   ",
+        "        ;+..........|   ",
+        "        ;+..........|   ",
+        "        X||.........|   ",
+        "          |.........|   ",
+        "          |..||||||||   ",
+        "          |++|          ",
+        "          X;;X          ",
+        "          x;;X          ",
+        "          x;;x          ",
+        "          x;;x          ",
+        "          x;;x          "
+      ],
+      "terrain": {
+        "+": "t_door_c",
+        "-": "t_wall",
+        ";": "t_dirt",
+        ".": "t_floor",
+        "a": "t_floor",
+        "r": "t_floor",
+        "E": "t_floor",
+        "c": "t_floor",
+        "H": "t_floor",
+        "W": "t_floor",
+        "b": "t_floor",
+        "<": "t_stairs_up",
+        "X": "t_root_wall",
+        "x": "t_wall_log",
+        "|": "t_wall"
+      },
+      "liquids": { "E": { "liquid": "water_clean", "amount": [ 90, 100 ] } },
+      "furniture": {
+        "c": "f_counter",
+        "r": "f_rack",
+        "R": "f_warehouse_shelf",
+        "E": "f_water_heater",
+        "W": [ "f_water_purifier", "f_home_furnace" ],
+        "a": [
+          [ "f_table", 30 ],
+          [ "f_armchair", 30 ],
+          [ "f_chair", 60 ],
+          [ "f_counter", 30 ],
+          [ "f_cupboard", 30 ],
+          [ "f_floor_lamp", 15 ],
+          [ "f_desk", 30 ],
+          [ "f_null", 15 ]
+        ],
+        "H": "f_bookcase",
+        "b": "f_workbench"
+      },
+      "items": {
+        ".": [ { "item": "trash", "chance": 5 } ],
+        "r": [
+          { "item": "livingroom", "chance": 30 },
+          { "item": "bedroom", "chance": 30 },
+          { "item": "allclothes", "chance": 50 },
+          { "item": "kitchen_appliances", "chance": 20 },
+          { "item": "pawn", "chance": 5 },
+          { "item": "musicstore_showpiece", "chance": 10 },
+          { "item": "sports", "chance": 30 }
+        ],
+        "H": [
+          { "item": "magazines", "chance": 60, "repeat": [ 0, 3 ] },
+          { "item": "homebooks", "chance": 50 },
+          { "item": "exotic_books", "chance": 25 }
+        ],
+        "b": [ { "item": "home_hw", "chance": 60 }, { "item": "mechanics", "chance": 30 } ]
+      },
+      "place_nested": [ { "chunks": [ "catacomb_8x8_ns" ], "x": 8, "y": 0 }, { "chunks": [ "catacomb_8x8_ew" ], "x": 0, "y": 8 } ]
     }
   },
   {
@@ -778,10 +961,10 @@
         "          Ra,a,R        ",
         "           a,a          ",
         "           a,a          ",
-        "         ..a.a......3   ",
+        "         ..a,a......3   ",
         "         ...........5   ",
+        "         .&.........3   ",
         "         ...........3   ",
-        "         .......&...3   ",
         "          R   ......3   ",
         "              ......3   ",
         "                        ",
@@ -793,7 +976,14 @@
         "                        "
       ],
       "palettes": [ "roof_palette" ],
-      "terrain": { "R": "t_radio_tower", "a": "t_railing", ",": "t_metal_floor_no_roof", "<": "t_stairs_up", ">": "t_stairs_down" }
+      "terrain": {
+        "R": "t_radio_tower",
+        "a": "t_railing",
+        "&": "t_flat_roof",
+        ",": "t_metal_floor_no_roof",
+        "<": "t_stairs_up",
+        ">": "t_stairs_down"
+      }
     }
   },
   {
@@ -938,7 +1128,7 @@
       ],
       "palettes": [ "roof_palette" ],
       "terrain": { "R": "t_radio_tower", "a": "t_railing", ",": "t_metal_floor_no_roof", ">": "t_stairs_down" },
-      "place_npcs": [ { "class": "DKZ_MAQUIS_SNIPER", "x": 10, "y": 5, "add_trait": "DKZ_TECHIE" } ]
+      "place_npcs": [ { "class": "DKZ_MAQUIS_SNIPER", "x": 10, "y": 5, "add_trait": "DKZ_TECH" } ]
     }
   }
 ]

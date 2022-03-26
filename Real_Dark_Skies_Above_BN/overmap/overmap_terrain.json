@@ -477,7 +477,7 @@
   },
   {
     "type": "overmap_terrain",
-    "id": "sky_marshal_farm_tree_plot",
+    "id": [ "sky_marshal_farm_inner_tree_plot", "sky_marshal_farm_outer_tree_plot" ],
     "copy-from": "generic_rural_building",
     "name": "tree plot",
     "sym": "F",
@@ -485,7 +485,7 @@
   },
   {
     "type": "overmap_terrain",
-    "id": "sky_marshal_farm_tree_plot_bunker",
+    "id": "sky_marshal_farm_inner_tree_plot_bunker",
     "copy-from": "generic_rural_building",
     "name": "tree plot with log hut",
     "color": "green",
@@ -493,7 +493,7 @@
   },
   {
     "type": "overmap_terrain",
-    "id": [ "sky_marshal_farm_tree_plot_bunker_roof" ],
+    "id": [ "sky_marshal_farm_inner_tree_plot_bunker_roof" ],
     "copy-from": "generic_rural_building",
     "name": "log hut roof",
     "color": "green",
@@ -548,11 +548,20 @@
   },
   {
     "type": "overmap_terrain",
-    "id": [ "sky_marshal_farm_13", "sky_marshal_farm_13_basement" ],
+    "id": [ "sky_marshal_farm_13" ],
     "copy-from": "generic_rural_building",
     "name": "farm house",
     "sym": "^"
   },
+  {
+    "type": "overmap_terrain",
+    "id": [ "sky_marshal_farm_radio_tower_basement", "sky_marshal_farm_13_basement" , "sky_marshal_farm_4_basement" ],
+    "name": "basement",
+    "sym": "O",
+    "color": "dark_gray",
+    "copy-from": "generic_city_building_no_sidewalk",
+    "flags": [ "KNOWN_UP", "GENERIC_LOOT" ]
+  },  
   {
     "type": "overmap_terrain",
     "id": [ "sky_marshal_farm_13_roof" ],
