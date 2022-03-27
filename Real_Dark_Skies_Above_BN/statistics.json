@@ -1,5 +1,5 @@
 [
-   {
+  {
     "id": "avatar_kills_monster",
     "type": "event_transformation",
     "event_type": "character_kills_monster",
@@ -12,48 +12,31 @@
     "event_transformation": "avatar_kills",
     "new_fields": { "species": { "species_of_monster": "victim_type" } },
     "drop_fields": [ "victim_type" ]
-  }, 
-  
-  
-  
-  
-  
-  
+  },
   {
     "id": "avatar_stray_kills",
     "type": "event_transformation",
     "event_transformation": "avatar_species_kills",
     "value_constraints": { "species": { "equals": "BIOCRYSTAL" } }
   },
-  
-  
-
-
-
-  
   {
     "id": "avatar_alien_kills",
     "type": "event_transformation",
     "event_transformation": "avatar_species_kills",
     "value_constraints": { "species": { "equals": "ALIEN" } }
   },
-    
   {
     "id": "avatar_alienrobot_kills",
     "type": "event_transformation",
     "event_transformation": "avatar_species_kills",
     "value_constraints": { "species": { "equals": "ALIENROBOT" } }
   },
-    
   {
     "id": "avatar_alienanimal_kills",
     "type": "event_transformation",
     "event_transformation": "avatar_species_kills",
     "value_constraints": { "species": { "equals": "WILDALIEN" } }
   },
-    
-
-	
   {
     "id": "num_avatar_stray_kills",
     "type": "event_statistic",
@@ -81,5 +64,5 @@
     "stat_type": "count",
     "event_transformation": "avatar_alienanimal_kills",
     "description": { "str": "alien animal killed", "str_pl": "alien animals killed" }
-  }  
+  }
 ]

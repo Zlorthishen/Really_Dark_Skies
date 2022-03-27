@@ -134,6 +134,8 @@
           { "id": "corpse_dkz_xenoid_ranger", "fg": 100, "rotates": false },
           { "id": "dkz_xenoid_templar", "fg": 101, "bg": 2, "rotates": false },
           { "id": "corpse_dkz_xenoid_templar", "fg": 102, "rotates": false },
+          { "id": "dkz_xenoid_paladin", "fg": 101, "bg": 2, "rotates": false },
+          { "id": "corpse_dkz_xenoid_paladin", "fg": 102, "rotates": false },
           { "id": "mon_dkz_glowdrone", "fg": 103, "bg": 2, "rotates": false },
           { "id": "mon_dkz_scidrone", "fg": 104, "bg": 2, "rotates": false },
           { "id": "dkz_xenoid_berserker", "fg": 105, "bg": 2, "rotates": false },

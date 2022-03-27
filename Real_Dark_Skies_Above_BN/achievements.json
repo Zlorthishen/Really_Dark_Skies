@@ -17,6 +17,8 @@
     "type": "achievement",
     "name": "By the toll of a billion deaths man has bought his birthright of the Earth, and it is his against all comers.",
     "hidden_by": [ "achievement_kill_alien" ],
-    "requirements": [ { "event_statistic": "num_avatar_alienrobots_kills", "is": ">=", "target": 1, "visible": "when_achievement_completed" } ]
+    "requirements": [
+      { "event_statistic": "num_avatar_alienrobots_kills", "is": ">=", "target": 1, "visible": "when_achievement_completed" }
+    ]
   }
 ]
