@@ -97,7 +97,7 @@
         "XXXxXXXX",
         "........",
         "........",
-        "XXXXxxXX",
+        "XXXX..XX",
         "   XXXX ",
         "        "
       ],
@@ -105,6 +105,26 @@
     }
   },
   {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "catacomb_8x8_ew",
+    "weight": 400,
+    "object": {
+      "mapgensize": [ 8, 8 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "        ",
+        "        ",
+        "XxxXXXxx",
+        "........",
+        "........",
+        "XXX...XX",
+        "  XxxXX ",
+        "        "
+      ],
+      "terrain": { " ": "t_null", ".": "t_dirt", "X": "t_root_wall", "x": "t_wall_log" }
+    }
+  },  {
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "catacomb_8x8_ew",
@@ -255,18 +275,18 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "catacomb_8x8_nswe",
-    "weight": 500,
+    "weight": 50,
     "object": {
       "mapgensize": [ 8, 8 ],
       "rotation": [ 0, 3 ],
       "rows": [
-        " X....xx",
-        "XX.....X",
+        "X.....xx",
+        "X.......",
         "........",
-        "...-....",
-        "...b-...",
-        "...-....",
-        "X......X",
+        "........",
+        "...b....",
+        "........",
+        "........",
         "Xx....xx"
       ],
       "terrain": { " ": "t_null", ".": "t_dirt", "X": "t_root_wall", "x": "t_wall_log" },
@@ -387,23 +407,23 @@
         "                        ",
         "                        ",
         "                        ",
-        "      xxxxxx            ",
-        "     xx    x            ",
-        "     x     x            ",
-        "     xx+xxxx            ",
-        "  ..........            ",
-        "  ..........            ",
-        "  ...  .....            ",
-        "  ...  .....            ",
-        "  ...  .....            ",
-        "  ...  .....            ",
-        "  ..........            ",
-        "  ..........            ",
-        "  ..........            ",
-        "  ..........            ",
-        "  ..........            ",
-        "  ..........            ",
-        "  XXXXXXXXXX            "
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "  ............          ",
+        "  ....<.......          ",
+        "  ............          ",
+        "  ............          ",
+        "  ............          ",
+        "  ............          ",
+        "  ............          ",
+        "  ............          ",
+        "  ............          ",
+        "  ............          ",
+        "  ............          ",
+        "  XXXXXXXXXXXX          "
       ],
       "terrain": { ".": "t_dirt", "X": "t_root_wall", "x": "t_wall_log", "+": "t_door_c", "<": "t_wood_stairs_up" }
     }

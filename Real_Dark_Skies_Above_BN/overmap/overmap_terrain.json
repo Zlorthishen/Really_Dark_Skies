@@ -555,7 +555,7 @@
   },
   {
     "type": "overmap_terrain",
-    "id": [ "sky_marshal_farm_radio_tower_basement", "sky_marshal_farm_13_basement" , "sky_marshal_farm_4_basement" ],
+    "id": [ "sky_marshal_farm_radio_tower_basement", "sky_marshal_farm_13_basement"],
     "name": "basement",
     "sym": "O",
     "color": "dark_gray",
