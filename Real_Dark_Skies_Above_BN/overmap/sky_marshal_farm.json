@@ -72,8 +72,8 @@
         "........................"
       ],
       "set": [
-        { "point": "trap", "id": "tr_beartrap_buried", "x": [ 1, 21 ], "y": [ 0, 23 ], "repeat": [ 25, 30 ] },
-        { "point": "trap", "id": "tr_landmine_buried", "x": [ 1, 21 ], "y": [ 0, 23 ], "repeat": [ 7, 10 ] }
+        { "point": "trap", "id": "tr_beartrap_buried", "x": [ 0, 21 ], "y": [ 0, 23 ], "repeat": [ 25, 30 ] },
+        { "point": "trap", "id": "tr_landmine_buried", "x": [ 0, 21 ], "y": [ 0, 23 ], "repeat": [ 7, 10 ] }
       ],
       "terrain": {
         ".": [ "t_grass", "t_grass", "t_grass", "t_underbrush", "t_dirt" ],
@@ -115,9 +115,9 @@
         "........................"
       ],
       "set": [
-        { "point": "trap", "id": "tr_beartrap", "x": [ 3, 21 ], "y": [ 0, 23 ], "repeat": [ 10, 11 ] },
-        { "point": "trap", "id": "tr_caltrops_glass", "x": [ 3, 21 ], "y": [ 0, 23 ], "repeat": [ 40, 50 ] },
-        { "point": "trap", "id": "tr_glass_pit", "x": [ 0, 23 ], "y": [ 0, 1 ], "repeat": [ 30, 35 ] }
+        { "point": "trap", "id": "tr_beartrap", "x": [ 3, 21 ], "y": [ 2, 23 ], "repeat": [ 10, 11 ] },
+        { "point": "trap", "id": "tr_caltrops_glass", "x": [ 3, 21 ], "y": [ 2, 23 ], "repeat": [ 40, 50 ] },
+        { "point": "trap", "id": "tr_glass_pit", "x": [ 0, 23 ], "y": [ 1, 2 ], "repeat": [ 30, 35 ] }
       ],
       "place_signs": [
         { "signage": "NO TRESSPASSING!", "x": 2, "y": 0 },
@@ -637,13 +637,13 @@
         "   |aaaaHHbRRa|         ",
         "   |a.......aa|         ",
         "   |aa.a||||||||        ",
-        "   |a..aaaarrrR|XXXxxx  ",
+        "   |a..aaaarrrR|XXXXXX  ",
         "   |a.a.aaaaaaR+;;;;;X  ",
-        "   |aa....arrrR|XXX;;X  ",
-        "Xxx|||a.|++|||||  XX;Xxx",
+        "   |aa....arrrR|XXX;;XX ",
+        "Xxx|||a.|++|||||  XX;;XX",
         ";;;|R..a|.<|       X;;;;",
         ";;;+REWr||||       XX;;;",
-        "Xxx||||||           xxxX",
+        "Xxx||||||           XXXX",
         "                        ",
         "                        ",
         "                        ",
@@ -661,12 +661,13 @@
         ";": "t_dirt",
         ".": "t_floor",
         "a": "t_floor",
-        "r": "t_floor",
         "E": "t_floor",
         "c": "t_floor",
         "H": "t_floor",
         "W": "t_floor",
         "b": "t_floor",
+        "r": "t_floor",
+        "R": "t_floor",
         "<": "t_stairs_up",
         "X": "t_root_wall",
         "x": "t_wall_log",
@@ -762,19 +763,19 @@
         "       |_  _____ |      ",
         "       | _RR__RR |      ",
         "       | _R____R_|      ",
-        "       |_________|      ",
+        "       |____<____|      ",
         "       |________ |      ",
-        "       |__R<___R_|      ",
+        "       |__R____R_|      ",
         "       |__RR__RR |      ",
         "       |________ |      ",
         "       |______   |      ",
         "       |2##+########    ",
         "         #....rrrl>#    ",
-        "         w........l#    ",
+        "         wZ.......l#    ",
         "         ##+#w#h..Cw    ",
         "         |R___w6CCCw    ",
         "         |-22-##ww##    ",
-        "            _______4    ",
+        "                  _4    ",
         "                        ",
         "                        ",
         "                        ",
@@ -790,6 +791,7 @@
         "l": "t_floor",
         "x": "t_floor",
         "C": "t_floor",
+        "Z": "t_floor",
         "2": "t_chaingate_c",
         "-": "t_chainfence_h",
         "|": "t_chainfence_v",
@@ -810,6 +812,7 @@
         "C": "f_counter",
         "r": "f_rack",
         "h": "f_chair",
+        "Z": "f_woodstove",
         "l": "f_locker"
       },
       "items": {
@@ -837,19 +840,19 @@
         "                        ",
         "          X;;X          ",
         "          |++|          ",
-        "          |..||||||||   ",
-        "          |.........|   ",
-        "        X||.......<.|   ",
+        "        X||..||||||||   ",
         "        ;+..........|   ",
-        "        ;+..........|   ",
+        "        ;+........<.|   ",
         "        X||.........|   ",
+        "          |.........|   ",
+        "          |.........|   ",
         "          |.........|   ",
         "          |..||||||||   ",
         "          |++|          ",
         "          X;;X          ",
+        "          X;;X          ",
+        "          X;;X          ",
         "          x;;X          ",
-        "          x;;x          ",
-        "          x;;x          ",
         "          x;;x          "
       ],
       "terrain": {
@@ -921,18 +924,18 @@
         "                        ",
         "            ::          ",
         "          R,,,,R        ",
-        "          ,    ,        ",
-        "          ,    ,:       ",
-        "          aaaa ,:       ",
-        "          a><a ,        ",
+        "          aaaa ,        ",
+        "          a,>a ,:       ",
+        "          a,,a ,:       ",
+        "          a,<a ,        ",
         "          Ra,a,R        ",
         "           a,a          ",
         "           a,a          ",
-        "         ..a,a...y..3   ",
-        "         ........y..5   ",
+        "         ..a,a...Z..3   ",
+        "         ........Z..5   ",
         "         .&.........3   ",
-        "         .......xx..3   ",
-        "          R   ..xx..3   ",
+        "         .......zz..3   ",
+        "          R   ..zz..3   ",
         "              ......3   ",
         "                        ",
         "                        ",
@@ -943,13 +946,13 @@
         "                        "
       ],
       "palettes": [ "roof_palette" ],
-      "furniture": { "y": "f_solar_unit", "z": "f_satellite" },
+      "furniture": { "Z": "f_solar_unit", "z": "f_satellite" },
       "terrain": {
         "R": "t_radio_tower",
         "a": "t_railing",
         "&": "t_flat_roof",
-        "y": "t_metal_floor_no_roof",
-        "x": "t_metal_floor_no_roof",
+        "Z": "t_metal_floor_no_roof",
+        "z": "t_metal_floor_no_roof",
         ",": "t_metal_floor_no_roof",
         "<": "t_stairs_up",
         ">": "t_stairs_down"
@@ -989,7 +992,8 @@
         "                        "
       ],
       "palettes": [ "roof_palette" ],
-      "terrain": { "R": "t_radio_tower", "a": "t_railing", ",": "t_metal_floor_no_roof", "<": "t_stairs_up", ">": "t_stairs_down" }
+      "terrain": { "R": "t_radio_tower", "a": "t_railing", ",": "t_metal_floor_no_roof", "<": "t_stairs_up", ">": "t_stairs_down" },
+      "place_npcs": [ { "class": "DKZ_MAQUIS_SNIPER", "x": 11, "y": 5, "add_trait": "DKZ_TECH" } ]
     }
   },
   {
@@ -1098,8 +1102,7 @@
       ],
       "palettes": [ "roof_palette" ],
       "terrain": { "R": "t_radio_tower", "a": "t_railing", ",": "t_metal_floor_no_roof", ">": "t_stairs_down" },
-      "furniture": { "x": "f_wind_mill_active" },
-      "place_npcs": [ { "class": "DKZ_MAQUIS_SNIPER", "x": 11, "y": 5, "add_trait": "DKZ_TECH" } ]
+      "furniture": { "x": "f_wind_mill_active" }
     }
   }
 ]
