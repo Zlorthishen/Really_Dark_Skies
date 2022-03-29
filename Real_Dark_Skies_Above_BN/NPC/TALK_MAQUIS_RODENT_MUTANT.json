@@ -178,12 +178,6 @@
   },
   {
     "type": "item_group",
-    "id": "NC_MAQUIS_RODENT_MUTANT_masks",
-    "subtype": "distribution",
-    "entries": [ { "item": "null", "prob": 800 } ]
-  },
-  {
-    "type": "item_group",
     "id": "NC_MAQUIS_RODENT_MUTANT_eyes",
     "subtype": "distribution",
     "entries": [ { "item": "null", "prob": 80 } ]

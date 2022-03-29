@@ -555,13 +555,13 @@
   },
   {
     "type": "overmap_terrain",
-    "id": [ "sky_marshal_farm_radio_tower_basement", "sky_marshal_farm_13_basement"],
+    "id": [ "sky_marshal_farm_radio_tower_basement", "sky_marshal_farm_13_basement" ],
     "name": "basement",
     "sym": "O",
     "color": "dark_gray",
     "copy-from": "generic_city_building_no_sidewalk",
     "flags": [ "KNOWN_UP", "GENERIC_LOOT" ]
-  },  
+  },
   {
     "type": "overmap_terrain",
     "id": [ "sky_marshal_farm_13_roof" ],
@@ -644,6 +644,19 @@
     "copy-from": "generic_rural_building",
     "name": "chicken coop roof",
     "sym": "o"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "dkz_abstorefront", "dkz_abookstore" ],
+    "copy-from": "generic_city_building",
+    "name": "abandoned storefront",
+    "color": "h_dark_gray"
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "dkz_abstorefront_roof", "dkz_abookstore_roof", "dkz_bookstore_upper_roof" ],
+    "copy-from": "generic_city_building",
+    "name": "abandoned storefront roof",
+    "color": "h_dark_gray"
   }
-  
 ]
