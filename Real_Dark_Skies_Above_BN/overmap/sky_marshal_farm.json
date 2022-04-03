@@ -972,7 +972,7 @@
         "R": "t_radio_tower",
         "a": "t_railing",
         "&": "t_flat_roof",
-        "&": "t_flat_roof",
+        "=": "t_flat_roof",
         "Z": "t_flat_roof",
         "z": "t_flat_roof",
         ",": "t_metal_floor_no_roof",
