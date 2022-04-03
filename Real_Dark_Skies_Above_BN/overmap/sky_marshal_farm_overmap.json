@@ -121,9 +121,9 @@
       { "point": [ -1, 0, 6 ], "overmap": "sky_marshal_farm_radio_tower_even_west" },
       { "point": [ -1, 0, 7 ], "overmap": "sky_marshal_farm_radio_tower_odd_west" },
       { "point": [ -1, 0, 8 ], "overmap": "sky_marshal_farm_radio_tower_top_west" },
-      { "point": [ -1, 1, 0 ], "overmap": "dumpsite_south" },
-      { "point": [ -1, 2, 0 ], "overmap": "sky_marshal_farm_orchard_north" },
-      { "point": [ -1, 3, 0 ], "overmap": "sky_marshal_farm_orchard_south" }
+      { "point": [ -1, 1, 0 ], "overmap": "sky_marshal_farm_orchard_east" },
+      { "point": [ -1, 2, 0 ], "overmap": "sky_marshal_farm_orchard_east" },
+      { "point": [ -1, 3, 0 ], "overmap": "sky_marshal_farm_orchard_east" }
     ],
     "connections": [ { "point": [ 1, 8, 0 ], "terrain": "road", "connection": "local_road", "from": [ 1, 7, 0 ] } ],
     "locations": [ "field" ],
