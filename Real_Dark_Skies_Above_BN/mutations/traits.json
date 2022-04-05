@@ -9,6 +9,7 @@
     "valid": false,
     "cancels": [ "DKZ_QUISLING", "DKZ_TECH", "DKZ_SCIENTIST", "DKZ_MEDIC", "DKZ_LEADER" ],
     "starting_trait": true,
+    "category": [ "DKZ" ],	
     "purifiable": false
   },
   {
@@ -21,6 +22,7 @@
     "valid": false,
     "cancels": [ "DKZ_QUISLING", "DKZ_COMBAT", "DKZ_SCIENTIST", "DKZ_MEDIC", "DKZ_LEADER" ],
     "starting_trait": true,
+    "category": [ "DKZ" ],		
     "purifiable": false
   },
   {
@@ -45,6 +47,7 @@
     "valid": false,
     "cancels": [ "DKZ_QUISLING", "DKZ_COMBAT", "DKZ_TECH", "DKZ_SCIENTIST", "DKZ_LEADER" ],
     "starting_trait": true,
+    "category": [ "DKZ" ],		
     "purifiable": false
   },
   {
@@ -57,6 +60,7 @@
     "valid": false,
     "cancels": [ "DKZ_QUISLING", "DKZ_COMBAT", "DKZ_TECH", "DKZ_SCIENTIST", "DKZ_MEDIC" ],
     "starting_trait": true,
+    "category": [ "DKZ" ],		
     "purifiable": false
   },
   {
