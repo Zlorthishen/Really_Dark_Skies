@@ -6,6 +6,7 @@
     "description": "Rebalances Real Dark Skies Above alien factions to be friendly with vanilla zombie factions",
     "category": "content",
     "authors": [ "Zlorthishen" ],
-    "dependencies": [ "dda", "realdarkskies" ]
+    "dependencies": [ "dda", "realdarkskies" ],
+    "conflicts": [ "darkskies" ]
   }
 ]
