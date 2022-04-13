@@ -281,6 +281,86 @@
       "CAN_OPEN_DOORS"
     ]
   },
+  
+  
+  
+  {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
+    "id": "dkz_xenoid_warden",
+    "type": "MONSTER",
+    "name": { "str": "xenoid warden" },
+    "description": "A human-sized soldier dressed in light armor, a cloak that shifts subtly to camouflage them against their surroundings, and a featureless facial mask.  Armed with a fine long knife and quite quick on their feet, it surveys the world with a hateful glance.",
+    "default_faction": "xenoid",
+    "bodytype": "human",
+    "categories": [ "ALIEN" ],
+    "species": [ "ALIEN", "HUMAN" ],
+    "volume": "62500 ml",
+    "weight": "81500 g",
+    "hp": 120,
+    "speed": 110,
+    "material": [ "flesh" ],
+    "symbol": "@",
+    "color": "green",
+    "aggression": 75,
+    "morale": 50,
+    "melee_skill": 7,
+    "melee_dice": 3,
+    "melee_dice_sides": 4,
+    "melee_cut": 5,
+    "dodge": 5,
+    "vision_day": 45,
+    "vision_night": 19,
+    "armor_bash": 5,
+    "armor_stab": 7,
+    "armor_cut": 5,
+    "harvest": "dkz_mhuman_chipped",
+    "special_attacks": [
+      [ "PARROT", 5 ],
+      { "id": "knife_slash" },
+      {
+        "type": "spell",
+        "spell_data": { "id": "dkz_monspell_stun" },
+        "cooldown": 13,
+        "monster_message": "<color_pink>%1$s gesticulates at %3$s and a pulse of disorienting psionic energy ripples through the air!</color>"
+      },
+      {
+        "type": "gun",
+        "cooldown": 8,
+        "move_cost": 300,
+        "gun_type": "dkz_mon_flechette",
+        "fake_skills": [ [ "gun", 5 ] ],
+        "fake_dex": 9,
+        "ranges": [ [ 0, 10, "DEFAULT" ] ],
+        "require_targeting_npc": true,
+        "require_targeting_monster": true,
+        "laser_lock": false
+      }
+    ],
+    "death_drops": "dkz_mon_xenoid_warden",
+    "path_settings": { "max_dist": 45, "max_length": 15, "avoid_traps": true, "allow_open_doors": true, "bash_strength": 12 },
+    "anger_triggers": [ "PLAYER_CLOSE", "PLAYER_WEAK", "STALK" ],
+    "death_function": [ "NORMAL" ],
+    "flags": [
+      "SEES",
+      "SMELLS",
+      "KEENNOSE",
+      "HEARS",
+      "GOODHEARING",
+      "NO_BREATHE",
+      "WARM",
+      "BASHES",
+      "GROUP_BASH",
+      "HUMAN",
+      "PATH_AVOID_DANGER_1",
+      "FIREPROOF",
+      "PRIORITIZE_TARGETS",
+      "CLIMBS",
+      "HIT_AND_RUN",
+      "CAN_OPEN_DOORS"
+    ]
+  },
+  
+  
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "dkz_xenoid_enforcer",
