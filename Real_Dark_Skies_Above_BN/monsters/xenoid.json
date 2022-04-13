@@ -289,7 +289,7 @@
     "id": "dkz_xenoid_warden",
     "type": "MONSTER",
     "name": { "str": "xenoid warden" },
-    "description": "A human-sized soldier dressed in light armor, a cloak that shifts subtly to camouflage them against their surroundings, and a featureless facial mask.  Armed with a fine long knife and quite quick on their feet, it surveys the world with a hateful glance.",
+    "description": "A human-sized soldier dressed in light armor, a cloak that shifts subtly to camouflage them against their surroundings, and a featureless facial mask.  Armed with a large spear and quite quick on their feet, it surveys the world with a hateful glance.",
     "default_faction": "xenoid",
     "bodytype": "human",
     "categories": [ "ALIEN" ],
@@ -316,7 +316,7 @@
     "harvest": "dkz_mhuman_chipped",
     "special_attacks": [
       [ "PARROT", 5 ],
-      { "id": "knife_slash" },
+      { "id": "longspear" },
       {
         "type": "spell",
         "spell_data": { "id": "dkz_monspell_stun" },
