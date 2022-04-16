@@ -395,42 +395,7 @@
       "place_nested": [ { "chunks": [ "catacomb_8x8_ew" ], "x": 0, "y": 8 }, { "chunks": [ "catacomb_8x8_ew" ], "x": 16, "y": 8 } ]
     }
   },
-  {
-    "type": "mapgen",
-    "method": "json",
-    "om_terrain": "catacomb_sky_marshal_farm_4",
-    "object": {
-      "fill_ter": "t_rock",
-      "rows": [
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "          x..x          ",
-        "xxxxxxxxxxx..x          ",
-        "x..............         ",
-        "..............          ",
-        "...............         ",
-        "......<.......          ",
-        "xx............          ",
-        " x..............        ",
-        " x.............         ",
-        " x............          ",
-        " x.............         ",
-        " Z..  ....  .....       ",
-        " Z..  ....  ...         ",
-        " Z.............         ",
-        " Z.............         ",
-        " ZZZZZZZZZZ..ZZ         "
-      ],
-      "terrain": { ".": "t_dirt", "X": "t_root_wall", "x": "t_wall_log", "Z": "t_sconc_wall", "+": "t_door_c", "<": "t_wood_stairs_up" },
-      "place_nested": [ { "chunks": [ "catacomb_8x8_ns" ], "x": 8, "y": 0 } ]
-    }
-  },
+
   {
     "type": "mapgen",
     "method": "json",
