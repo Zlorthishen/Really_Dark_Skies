@@ -38,7 +38,7 @@
     "ammo": 40,
     "entries": [
       { "item": "dkz_xenoid_light_armor_salvaged", "damage": [ 0, 3 ] },
-      { "item": "dkz_rangermachete_salvaged", "damage": [ 0, 3 ] },
+      { "item": "dkz_long_spear_salvaged", "damage": [ 0, 3 ] },
       { "item": "dkz_xenoid_mask_salvaged", "damage": [ 0, 3 ] },
       { "item": "dkz_ranger_cloak_salvaged", "damage": [ 0, 3 ] },
       { "item": "dkz_xenoid_armlet_salvaged", "damage": [ 2, 3 ] },
