@@ -31,7 +31,7 @@
       { "group": "dkz_watch", "prob": 2 }
     ]
   },   {
-    "id": "dkz_mon_xenoid_warden",
+    "id": "dkz_mon_xenoid_stalker",
     "type": "item_group",
     "subtype": "collection",
     "magazine": 100,

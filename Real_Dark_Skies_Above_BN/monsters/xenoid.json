@@ -286,9 +286,9 @@
   
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
-    "id": "dkz_xenoid_warden",
+    "id": "dkz_xenoid_stalker",
     "type": "MONSTER",
-    "name": { "str": "xenoid warden" },
+    "name": { "str": "xenoid stalker" },
     "description": "A human-sized soldier dressed in light armor, a cloak that shifts subtly to camouflage them against their surroundings, and a featureless facial mask.  Armed with a large spear and quite quick on their feet, it surveys the world with a hateful glance.",
     "default_faction": "xenoid",
     "bodytype": "human",
@@ -336,7 +336,7 @@
         "laser_lock": false
       }
     ],
-    "death_drops": "dkz_mon_xenoid_warden",
+    "death_drops": "dkz_mon_xenoid_stalker",
     "path_settings": { "max_dist": 45, "max_length": 15, "avoid_traps": true, "allow_open_doors": true, "bash_strength": 12 },
     "anger_triggers": [ "PLAYER_CLOSE", "PLAYER_WEAK", "STALK" ],
     "death_function": [ "NORMAL" ],

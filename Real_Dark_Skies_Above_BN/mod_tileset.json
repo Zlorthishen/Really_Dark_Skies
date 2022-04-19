@@ -130,8 +130,8 @@
           { "id": "dkz_xenoid_hunter", "fg": 99, "bg": 2, "rotates": false },
           { "id": "corpse_dkz_xenoid_hunter", "fg": 100, "rotates": false },
 
-          { "id": "dkz_xenoid_warden", "fg": 109, "bg": 2, "rotates": false },
-          { "id": "corpse_dkz_xenoid_warden", "fg": 100, "rotates": false },		  
+          { "id": "dkz_xenoid_stalker", "fg": 109, "bg": 2, "rotates": false },
+          { "id": "corpse_dkz_xenoid_stalker", "fg": 100, "rotates": false },		  
 		  
           { "id": "dkz_xenoid_knight", "fg": 95, "bg": 2, "rotates": false },
           { "id": "corpse_dkz_xenoid_knight", "fg": 96, "rotates": false },
