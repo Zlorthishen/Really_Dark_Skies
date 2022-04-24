@@ -1137,8 +1137,12 @@
       { "x": -6, "y": 8, "part": "heavy_duty_military_osprey_rotors" },
       { "x": -5, "y": -8, "part": "engine_turbine_large" },
       { "x": -5, "y": -8, "part": "alternator_car" },
-      { "x": -5, "y": 8, "part": "engine_turbine_large" }
-    ],
+      { "x": -5, "y": -8, "part": "alternator_truck" },
+      { "x": -5, "y": 8, "part": "engine_turbine_large" },
+      { "x": -5, "y": 8, "part": "alternator_car" },
+      { "x": -5, "y": 8, "part": "alternator_truck" }
+
+	  ],
     "items": [
       { "x": -12, "y": -1, "chance": 5, "items": [ "grenade" ] },
       { "x": -11, "y": 1, "chance": 5, "items": [ "chestpouch" ] },
