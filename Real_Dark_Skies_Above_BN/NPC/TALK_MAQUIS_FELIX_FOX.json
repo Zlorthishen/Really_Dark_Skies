@@ -13,7 +13,7 @@
   {
     "type": "npc_class",
     "id": "NC_MAQUIS_FELIX_FOX",
-    "name": { "str": "MAQUIS" },
+    "name": { "str": "Maquis-Fox" },
     "job_description": "I'm here to keep the logistics of the resistance moving forward.",
     "common": false,
     "traits": [

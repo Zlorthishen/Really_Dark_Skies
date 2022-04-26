@@ -13,7 +13,7 @@
   {
     "type": "npc_class",
     "id": "NC_MAQUIS_MELISSA_FORREST",
-    "name": { "str": "MAQUIS" },
+    "name": { "str": "Misty" },
     "job_description": "I'm here to understand being a plant.",
     "common": false,
     "traits": [
