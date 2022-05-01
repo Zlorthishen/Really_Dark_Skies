@@ -822,6 +822,43 @@
   {
     "type": "mapgen",
     "method": "json",
+    "om_terrain": [ "catacomb_tree_plot_bunker" ],
+    "object": {
+      "fill_ter": "t_rock",
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "         XXX XXX        ",
+        "        XXxXXXxXX       ",
+        "        Xxx...xxX       ",
+        "        ........        ",
+        "        ........        ",
+        "        X......XX       ",
+        "        X......xxx      ",
+        "        Xx.<...+.x      ",
+        "        Xxx....x.x      ",
+        "         Xxx+xxxMx      ",
+        "          Xx..Mxxx      ",
+        "          XxxxxxX       ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "terrain": { ".": "t_dirt", "M": "t_dirt", "X": "t_root_wall", "x": "t_wall_log", "+": "t_door_c", "<": "t_wood_stairs_up" },
+      "furniture": { "M": [ "f_makeshift_bed", "f_straw_bed" ] },
+      "place_nested": [ { "chunks": [ "catacomb_8x8_ew" ], "x": 0, "y": 8 }, { "chunks": [ "catacomb_8x8_ew" ], "x": 16, "y": 8 } ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
     "om_terrain": [ "sky_marshal_farm_radio_tower" ],
     "object": {
       "faction_owner": [ { "id": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],
