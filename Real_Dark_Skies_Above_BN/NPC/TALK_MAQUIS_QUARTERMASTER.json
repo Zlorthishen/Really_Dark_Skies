@@ -169,6 +169,7 @@
     "responses": [ { "text": "Well, bye.", "topic": "TALK_DONE", "opinion": { "trust": -1, "value": -1 } } ]
   },
   {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "DKZ_MAQUIS_QUARTERMASTER_CLEAN_UP_SEWER",
     "type": "mission_definition",
     "name": { "str": "Clean up a sewer" },
@@ -180,6 +181,7 @@
       "assign_mission_target": { "om_terrain": "sewage_treatment_0_0_-1", "reveal_radius": 2, "random": true, "search_range": 75, "min_distance": 15 },
       "update_mapgen": { "place_monster": [ { "monster": "dkz_mon_lurker_sewer", "pack_size": [ 2, 3 ], "x": 0, "y": 12, "target": true } ] }
     },
+    "end": { "effect": [ { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 2 } ] },	
     "followup": "DKZ_MAQUIS_QUARTERMASTER_CHECK_FUSE_BOX",
     "origins": [ "ORIGIN_SECONDARY" ],
     "dialogue": {
@@ -195,6 +197,7 @@
     }
   },
   {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "DKZ_MAQUIS_QUARTERMASTER_CHECK_FUSE_BOX",
     "type": "mission_definition",
     "name": { "str": "Clean up a sewer" },
@@ -206,6 +209,7 @@
       "assign_mission_target": { "om_terrain": "pwr_sub_s", "reveal_radius": 2, "random": true, "search_range": 75, "min_distance": 15 },
       "update_mapgen": { "place_monster": [ { "monster": "dkz_mon_crystal_zap", "pack_size": [ 5, 6 ], "x": 10, "y": 10, "target": true } ] }
     },
+    "end": { "effect": [ { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 3 } ] },	
     "origins": [ "ORIGIN_SECONDARY" ],
     "dialogue": {
       "describe": "I need you to find and kill some monsters.",
