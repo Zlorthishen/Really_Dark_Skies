@@ -113,11 +113,6 @@
         "condition": { "and": [ { "not": "has_many_assigned_mission" }, { "not": "has_assigned_mission" } ] },
         "topic": "TALK_MISSION_LIST"
       },
-      {
-        "text": "Is there anything else I can to to help the Maquis than doing generic missions?",
-        "topic": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING",
-        "condition": "has_assigned_mission"
-      },
       { "text": "About that mission…", "topic": "TALK_MISSION_INQUIRE", "condition": "has_assigned_mission" },
       { "text": "See you later.", "topic": "TALK_DONE" }
     ]
