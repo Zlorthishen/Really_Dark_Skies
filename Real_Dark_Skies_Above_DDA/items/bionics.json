@@ -1,0 +1,20 @@
+[
+  {
+    "id": "dkz_zenture_industries_trinityCBM",
+    "copy-from": "bionic_general",
+    "type": "BIONIC_ITEM",
+    "name": { "str": "ZI: Trinity CBM" },
+    "description": "A state of the art bionic implant go beyond a basic instinctual knowledge about the operation of flying machines.  This sophisticated CBM also grants superior spotting ability as well as an integrated CAD interface which allows for near infinite customization to virtually any flying machine.",
+    "price": 4200000,
+    "price_postapoc": 420000,
+    "difficulty": 10
+  },
+  {
+    "id": "dkz_zenture_industries_trinityCBM",
+    "type": "bionic",
+    "name": { "str": "ZI: Trinity CBM" },
+    "description": "A state of the art bionic implant go beyond a basic instinctual knowledge about the operation of flying machines.  This sophisticated CBM also grants superior spotting ability as well as an integrated CAD interface which allows for near infinite customization to virtually any flying machine.",
+    "occupied_bodyparts": [ [ "head", 3 ] ],
+    "learned_proficiencies": [ "prof_spotting", "prof_aircraft_mechanic", "prof_helicopter_pilot" ]
+  }
+]
