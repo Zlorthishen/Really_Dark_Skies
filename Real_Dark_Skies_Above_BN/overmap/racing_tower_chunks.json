@@ -683,7 +683,7 @@
       "item": {
         " ": { "item": "rag_bloody", "chance": 25 },
         "A": { "item": "rag_bloody", "chance": 25 },
-        "B": { "item": "bag_iv", "chance": 90 }
+        "B": { "item": "bag_iv", "chance": 1 }
       }
     }
   },
@@ -708,7 +708,7 @@
       "item": {
         " ": { "item": "rag_bloody", "chance": 15 },
         "A": { "item": "rag_bloody", "chance": 25 },
-        "B": { "item": "bag_iv", "chance": 100 }
+        "B": { "item": "bag_iv", "chance": 1 }
       }
     }
   },
@@ -733,7 +733,7 @@
       "item": {
         " ": { "item": "rag_bloody", "chance": 15 },
         "A": { "item": "rag_bloody", "chance": 25 },
-        "B": { "item": "bag_iv", "chance": 100 }
+        "B": { "item": "bag_iv", "chance": 10 }
       }
     }
   },
@@ -758,7 +758,7 @@
       "item": {
         " ": { "item": "rag_bloody", "chance": 95 },
         "A": { "item": "rag_bloody", "chance": 25 },
-        "B": { "item": "bag_iv", "chance": 100 }
+        "B": { "item": "bag_iv", "chance": 10 }
       }
     }
   },
@@ -783,7 +783,7 @@
       "item": {
         " ": { "item": "rag_bloody", "chance": 95 },
         "A": { "item": "rag_bloody", "chance": 25 },
-        "B": { "item": "bag_iv", "chance": 100 }
+        "B": { "item": "bag_iv", "chance": 10 }
       }
     }
   },
