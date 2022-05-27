@@ -41,9 +41,9 @@
 	  },
 	  
       "place_vehicles": [
-        { "vehicle": "oa_vg_wreck", "x": 14, "y": 12, "rotation": [ 0, 90, 180, 270 ], "chance": 100 },	  
-        { "vehicle": "oa_vg_wreck", "x": 14, "y": 34, "rotation": [ 0, 90, 180, 270 ], "chance": 100 }
-      ]
+        { "vehicle": "bus", "x": 32, "y": 7, "rotation": [ 0, 180 ], "chance": 100 },	  
+        { "vehicle": "parkinglotbasic", "x": 34, "y": 9, "rotation": [ 0, 90, 180 , 270], "chance": 100 }
+      ]  
     }
   }
 ]
