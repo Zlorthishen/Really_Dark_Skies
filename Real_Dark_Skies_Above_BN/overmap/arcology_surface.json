@@ -32,24 +32,86 @@
         "                                            `______`                                              `_________________s__=",
         "  T  T  T  T  T  T  T  T  T  T  T  T  T  T  `______`  T  T  T  T  T  T  T  T  T  T  T  T  T  T  T `________________ss__="
       ],
-
-      "terrain": { "=": "t_chainfence","s": "t_pavement","S": "t_pavement","_": "t_pavement", "`": "t_pavement_y", "X": "t_zebra", "T": "t_tree_cherry", "M": [ "t_manhole_cover", "t_pavement" ] },
-	  
-    "furniture": {
-      "s": "f_sandbag_half",
-      "S": "f_sandbag_wall"
-	  },
-	  
+      "terrain": {
+        "=": "t_chainfence",
+        "s": "t_pavement",
+        "S": "t_pavement",
+        "_": "t_pavement",
+        "`": "t_pavement_y",
+        "X": "t_zebra",
+        "T": "t_tree_cherry",
+        "M": [ "t_manhole_cover", "t_pavement" ]
+      },
+      "furniture": {
+        "s": [ "f_sandbag_half", "f_sandbag_half", "f_sandbag_half", "f_null" ],
+        "S": [ "f_sandbag_wall", "f_sandbag_wall", "f_sandbag_wall", "f_sandbag_half" ]
+      },
       "place_vehicles": [
-        { "vehicle": "bus", "x": 32, "y": 7, "rotation": [ 0, 180 ], "chance": 100, "fuel": 0, "status": 0  },	  
-        { "vehicle": "parkinglotbasic", "x": 34, "y": 9, "rotation": [ 0, 90, 180 , 270], "chance": 100, "fuel": 0, "status": 0  },
-        { "vehicle": "parkinglotbasic", "x": 5, "y": 13, "rotation": [ 90, 270], "chance": 100, "fuel": 10, "status": 1  },
-        { "vehicle": "parkinglotbasic", "x": 11,  "y": 14, "rotation": [ 90, 270], "chance": 100, "fuel": 10, "status": 1  },
-        { "vehicle": "city_vehicles", "x": 16,  "y": 13, "rotation": [ 90, 270], "chance": 100, "fuel": 10, "status": 1  },
-        { "vehicle": "parkinglotbasic", "x": 21,  "y": 13, "rotation": [ 90, 270], "chance": 100, "fuel": 10, "status": 1  },
-        { "vehicle": "parkinglotbasic", "x": 25,  "y": 13, "rotation": [ 90, 270], "chance": 100, "fuel": 10, "status": 1  },
-        { "vehicle": "parkinglotbasic", "x": 30,  "y": 13, "rotation": [ 90, 270], "chance": 100, "fuel": 10, "status": 1  }
-      ]  
+        { "vehicle": "bus", "x": 32, "y": 7, "rotation": [ 0, 180 ], "chance": 100, "fuel": 0, "status": 0 },
+        {
+          "vehicle": "parkinglotbasic",
+          "x": 34,
+          "y": 9,
+          "rotation": [ 0, 90, 180, 270 ],
+          "chance": 100,
+          "fuel": 0,
+          "status": 0
+        },
+        {
+          "vehicle": "parkinglotbasic",
+          "x": 5,
+          "y": 13,
+          "rotation": [ 90, 270 ],
+          "chance": 100,
+          "fuel": 10,
+          "status": 1
+        },
+        {
+          "vehicle": "parkinglotbasic",
+          "x": 11,
+          "y": 14,
+          "rotation": [ 90, 270 ],
+          "chance": 100,
+          "fuel": 10,
+          "status": 1
+        },
+        {
+          "vehicle": "city_vehicles",
+          "x": 16,
+          "y": 13,
+          "rotation": [ 90, 270 ],
+          "chance": 100,
+          "fuel": 10,
+          "status": 1
+        },
+        {
+          "vehicle": "parkinglotbasic",
+          "x": 21,
+          "y": 13,
+          "rotation": [ 90, 270 ],
+          "chance": 100,
+          "fuel": 10,
+          "status": 1
+        },
+        {
+          "vehicle": "parkinglotbasic",
+          "x": 25,
+          "y": 13,
+          "rotation": [ 90, 270 ],
+          "chance": 100,
+          "fuel": 10,
+          "status": 1
+        },
+        {
+          "vehicle": "parkinglotbasic",
+          "x": 30,
+          "y": 13,
+          "rotation": [ 90, 270 ],
+          "chance": 100,
+          "fuel": 10,
+          "status": 1
+        }
+      ]
     }
   }
 ]
