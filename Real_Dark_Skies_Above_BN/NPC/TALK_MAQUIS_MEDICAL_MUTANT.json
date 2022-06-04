@@ -27,9 +27,7 @@
       { "trait": "MUT_TOUGH", "prob": 20 },
       { "trait": "MASOCHIST_MED", "prob": 20 }
     ],
-    "skills": [
-      { "skill": "ALL", "level": { "sum": [ { "dice": [ 3, 2 ] }, { "constant": -4 } ] } }
-    ],
+    "skills": [ { "skill": "ALL", "level": { "sum": [ { "dice": [ 3, 2 ] }, { "constant": -4 } ] } } ],
     "bonus_str": { "rng": [ -1, 1 ] },
     "bonus_dex": { "rng": [ -1, 1 ] },
     "bonus_int": { "rng": [ -1, 1 ] },
@@ -99,37 +97,25 @@
     "type": "item_group",
     "id": "NC_MAQUIS_MEDICAL_MUTANT_shirt_male",
     "subtype": "distribution",
-    "entries": [
-      { "item": "tshirt", "prob": 50 },
-      { "item": "polo_shirt", "prob": 20 },
-      { "item": "tank_top", "prob": 40 }
-    ]
+    "entries": [ { "item": "tshirt", "prob": 50 }, { "item": "polo_shirt", "prob": 20 }, { "item": "tank_top", "prob": 40 } ]
   },
   {
     "type": "item_group",
     "id": "NC_MAQUIS_MEDICAL_MUTANT_shirt_female",
     "subtype": "distribution",
-    "entries": [
-      { "item": "tshirt", "prob": 70 },
-      { "item": "polo_shirt", "prob": 20 },
-      { "item": "tank_top", "prob": 20 }
-    ]
+    "entries": [ { "item": "tshirt", "prob": 70 }, { "item": "polo_shirt", "prob": 20 }, { "item": "tank_top", "prob": 20 } ]
   },
   {
     "type": "item_group",
     "id": "NC_MAQUIS_MEDICAL_MUTANT_gloves",
     "subtype": "distribution",
-    "entries": [
-      { "item": "null", "prob": 100 }
-    ]
+    "entries": [ { "item": "null", "prob": 100 } ]
   },
   {
     "type": "item_group",
     "id": "NC_MAQUIS_MEDICAL_MUTANT_coat",
     "subtype": "distribution",
-    "entries": [
-      { "item": "trenchcoat", "prob": 100 }
-    ]
+    "entries": [ { "item": "trenchcoat", "prob": 100 } ]
   },
   {
     "type": "item_group",
@@ -153,25 +139,19 @@
     "type": "item_group",
     "id": "NC_MAQUIS_MEDICAL_MUTANT_hat",
     "subtype": "distribution",
-    "entries": [
-      { "item": "null", "prob": 100 }
-    ]
+    "entries": [ { "item": "null", "prob": 100 } ]
   },
   {
     "type": "item_group",
     "id": "NC_MAQUIS_MEDICAL_MUTANT_extra",
     "subtype": "distribution",
-    "entries": [
-      { "item": "backpack", "prob": 100 }
-    ]
+    "entries": [ { "item": "backpack", "prob": 100 } ]
   },
   {
     "type": "item_group",
     "id": "NC_MAQUIS_MEDICAL_MUTANT_misc",
     "subtype": "distribution",
-    "entries": [
-      { "group": "fireman_gear", "count-min": 1, "count-max": 2, "prob": 10 }
-    ]
+    "entries": [ { "group": "fireman_gear", "count-min": 1, "count-max": 2, "prob": 10 } ]
   },
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
@@ -184,23 +164,30 @@
     },
     "responses": [
       {
-        "text": "Lets set a combat strategy…",
-        "condition": { "npc_has_var": "temporal_follower", "type": "general", "context": "maquis", "value": "yes" },
+        "text": "Lets set a combat strategy",
+        "condition": { "npc_has_var": "temporal_follower", "type": "general", "context": "medical_recruit", "value": "yes" },
         "topic": "TALK_COMBAT_COMMANDS"
+      },
+      {
+        "text": "I need medical support for an upcoming mission, interested?",
+        "topic": "TALK_MAQUIS_MEDIC_RECRUIT",
+        "condition": {
+          "and": [
+            { "u_compare_var": "maquis_recruit", "type": "counter", "context": "medical_recruit", "op": ">", "value": 0 },
+            { "npc_has_trait": "DKZ_COMBAT" }
+          ]
+        }
       },
       { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_MAQUIS_MEDICAL_MUTANT_ROOT" },
       { "text": "What are you doing here?", "topic": "TALK_MAQUIS_MEDICAL_MUTANT_DOING" },
       { "text": "See you later.", "topic": "TALK_DONE" }
     ]
   },
-
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MAQUIS_MEDICAL_MUTANT_DOING",
     "type": "talk_topic",
-    "dynamic_line": [
-      "I'm minding my own business, mind your own."
-    ],
+    "dynamic_line": [ "I'm minding my own business, mind your own." ],
     "responses": [
       { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_MAQUIS_MEDICAL_MUTANT_ROOT" },
       { "text": "Nice arrangement for everyone.", "topic": "TALK_MAQUIS_MEDICAL_MUTANT_ROOT" },
