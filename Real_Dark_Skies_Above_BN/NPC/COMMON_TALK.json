@@ -1,0 +1,74 @@
+[
+  {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
+    "id": "TALK_MAQUIS_COMBAT_RECRUIT",
+    "type": "talk_topic",
+    "dynamic_line": [ "I'm game for some action.", "Thought you'd never ask." ],
+    "responses": [
+      {
+        "text": "Let's trade.",
+        "effect": [
+          "follow_only",
+          { "u_adjust_var": "maquis_recruit", "type": "counter", "context": "combat_recruit", "adjustment": -1 }	,	  
+          { "npc_add_var": "temporal_follower", "type": "general", "context": "combat_recruit", "value": "yes" }
+        ],
+        "topic": "TALK_DONE"
+      },
+      { "text": "I changed my mind.", "topic": "TALK_DONE" }
+    ]
+  },
+  {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
+    "id": "TALK_MAQUIS_TECHNICAL_RECRUIT",
+    "type": "talk_topic",
+    "dynamic_line": [ "Sounds interesting, I'll come along.", "Thought you'd never ask." ],
+    "responses": [
+      {
+        "text": "Let's trade.",
+        "effect": [
+          "follow_only",
+          { "u_adjust_var": "maquis_recruit", "type": "counter", "context": "techical_recruit", "adjustment": -1 }		  ,
+          { "npc_add_var": "temporal_follower", "type": "general", "context": "techical_recruit", "value": "yes" }
+        ],
+        "topic": "TALK_DONE"
+      },
+      { "text": "I changed my mind.", "topic": "TALK_DONE" }
+    ]
+  },
+  {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
+    "id": "TALK_MAQUIS_MEDIC_RECRUIT",
+    "type": "talk_topic",
+    "dynamic_line": [ "Sounds interesting, I'll come along.", "Thought you'd never ask." ],
+    "responses": [
+      {
+        "text": "Let's trade.",
+        "effect": [
+          "follow_only",
+          { "u_adjust_var": "maquis_recruit", "type": "counter", "context": "medical_recruit", "adjustment": -1 },		  
+          { "npc_add_var": "temporal_follower", "type": "general", "context": "medical_recruit", "value": "yes" }
+        ],
+        "topic": "TALK_DONE"
+      },
+      { "text": "I changed my mind.", "topic": "TALK_DONE" }
+    ]
+  },
+  {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
+    "id": "TALK_MAQUIS_SCIENCE_RECRUIT",
+    "type": "talk_topic",
+    "dynamic_line": [ "Sounds interesting, I'll come along.", "Thought you'd never ask." ],
+    "responses": [
+      {
+        "text": "Let's trade.",
+        "effect": [
+          "follow_only",
+          { "u_adjust_var": "maquis_recruit", "type": "counter", "context": "science_recruit", "adjustment": -1 }	,	  
+          { "npc_add_var": "temporal_follower", "type": "general", "context": "science_recruit", "value": "yes" }
+        ],
+        "topic": "TALK_DONE"
+      },
+      { "text": "I changed my mind.", "topic": "TALK_DONE" }
+    ]
+  }
+]
