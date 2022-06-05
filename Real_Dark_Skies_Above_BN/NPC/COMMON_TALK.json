@@ -6,7 +6,7 @@
     "dynamic_line": [ "I'm game for some action.", "Thought you'd never ask." ],
     "responses": [
       {
-        "text": "Let's trade.",
+        "text": "Let's go.",
         "effect": [
           "follow_only",
           { "u_adjust_var": "maquis_recruit", "type": "counter", "context": "combat_recruit", "adjustment": -1 }	,	  
@@ -24,7 +24,7 @@
     "dynamic_line": [ "Sounds interesting, I'll come along.", "Thought you'd never ask." ],
     "responses": [
       {
-        "text": "Let's trade.",
+        "text": "Let's go.",
         "effect": [
           "follow_only",
           { "u_adjust_var": "maquis_recruit", "type": "counter", "context": "techical_recruit", "adjustment": -1 }		  ,
@@ -42,7 +42,7 @@
     "dynamic_line": [ "Sounds interesting, I'll come along.", "Thought you'd never ask." ],
     "responses": [
       {
-        "text": "Let's trade.",
+        "text": "Let's go.",
         "effect": [
           "follow_only",
           { "u_adjust_var": "maquis_recruit", "type": "counter", "context": "medical_recruit", "adjustment": -1 },		  
@@ -60,7 +60,7 @@
     "dynamic_line": [ "Sounds interesting, I'll come along.", "Thought you'd never ask." ],
     "responses": [
       {
-        "text": "Let's trade.",
+        "text": "Let's go.",
         "effect": [
           "follow_only",
           { "u_adjust_var": "maquis_recruit", "type": "counter", "context": "science_recruit", "adjustment": -1 }	,	  
