@@ -216,6 +216,30 @@
     ],
     "responses": [
       {
+        "text": "[MISSION] Your nephew Randy wanted me to see how you are doing.",
+        "effect": { "u_add_var": "u_found_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" },
+        "condition": {
+          "and": [
+            { "not": { "u_has_var": "u_found_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" } },
+            { "u_has_mission": "MISSION_CHECK_UP_ON_BIG_BROTHER" }
+          ]
+        },
+        "opinion": { "trust": 3, "value": 4 },
+        "topic": "TALK_CHAD_ERIKSON_BIG_BROTHER"
+      },
+      {
+        "text": "[MISSION] Felix Fox sent me.",
+        "effect": { "u_add_var": "u_found_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" },
+        "condition": {
+          "and": [
+            { "not": { "u_has_var": "u_found_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" } },
+            { "u_has_mission": "MISSION_GO_MEET_THE_BIG_FED" }
+          ]
+        },
+        "opinion": { "trust": 2, "value": 3 },
+        "topic": "TALK_CHAD_ERIKSON_BIG_BROTHER"
+      },
+      {
         "text": "Is there anything else I can to to help the Maquis than doing generic missions?",
         "topic": "TALK_MAQUIS_CHAD_ERIKSON_BASE_BUILDING",
         "condition": "has_assigned_mission"
@@ -252,18 +276,6 @@
         "text": "[RP]  I want change how I fight against the xenoid invaders.",
         "condition": { "u_has_any_trait": [ "DKZ_COMBAT", "DKZ_TECH", "DKZ_SCIENTIST", "DKZ_MEDIC", "DKZ_LEADER" ] },
         "topic": "TALK_CHAD_ERIKSON_ASK_ABOUT_JOINING_MAQUIS"
-      },
-      {
-        "text": "[MISSION] Your nephew Randy wanted me to see how you are doing.",
-        "effect": { "u_add_var": "u_found_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" },
-        "condition": {
-          "and": [
-            { "not": { "u_has_var": "u_found_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" } },
-            { "u_has_mission": "MISSION_CHECK_UP_ON_BIG_BROTHER" }
-          ]
-        },
-        "opinion": { "trust": 3, "value": 4 },
-        "topic": "TALK_CHAD_ERIKSON_BIG_BROTHER"
       },
       {
         "text": "So how did you end up here?",
