@@ -1,28 +1,66 @@
 [
   {
     "type": "item_group",
-    "id": "DKZ_guns_swat",
-    "//": "Guns issued to paramilitary forces in addition to standard police issue.",
-    "items": [
-      { "item": "rm11b_sniper_rifle", "prob": 1, "charges-min": 4, "charges-max": 70 },
-      { "item": "rm51_assault_rifle", "prob": 2, "charges-min": 15, "charges-max": 25 },
-      { "item": "rm88_battle_rifle", "prob": 2, "charges-min": 15, "charges-max": 25 },
-      { "item": "ar15", "prob": 15, "charges-min": 25, "charges-max": 30 },
-      { "item": "hk_ump45", "prob": 15, "charges-min": 20, "charges-max": 25 },
-      { "item": "hk_mp5", "prob": 50, "charges-min": 25, "charges-max": 30 },
-      { "item": "hk_mp5k", "prob": 30, "charges-min": 25, "charges-max": 30 },
-      { "item": "hk_mp5sd", "prob": 35, "charges-min": 25, "charges-max": 30 },
-      { "item": "m4a1", "prob": 65, "charges-min": 25, "charges-max": 30 }
-    ]
-  },
-  {
-    "type": "item_group",
     "id": "DKZ_guns_pistol_improvised",
     "//": "Makeshift or otherwise poor quality pistols.",
     "items": [
       { "item": "ashot", "prob": 100 },
       { "item": "surv_hand_cannon", "prob": 100, "charges-min": 4, "charges-max": 5 },
       { "item": "surv_six_shooter", "prob": 100, "charges-min": 5, "charges-max": 6 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "DKZ_guns_pistol_military",
+    "//": "Pistols looted from military areas.",
+    "items": [
+      { "item": "m17", "prob": 100, "charges-min": 0, "charges-max": 17 },
+      { "item": "glock_18c", "prob": 70, "charges-min": 0, "charges-max": 17 },
+      { "item": "glock_18c", "prob": 70, "charges-min": 0, "charges-max": 17 },
+      { "item": "mk23", "prob": 10, "charges-min": 0, "charges-max": 12 },
+      { "item": "usp_45", "prob": 15, "charges-min": 0, "charges-max": 12 },
+      { "item": "m1911_MEU", "prob": 5, "charges-min": 0, "charges-max": 7 },
+      { "item": "glock_19", "prob": 20, "charges-min": 0, "charges-max": 15 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "DKZ_guns_pistol_common",
+    "//": "Pistols looted from gun stores.",
+    "items": [
+      { "item": "glock_17", "prob": 35, "charges-min": 0, "charges-max": 0 },
+      { "item": "glock_19", "prob": 50, "charges-min": 0, "charges-max": 0 },
+      { "item": "glock_21", "prob": 8, "charges-min": 0, "charges-max": 0 },
+      { "item": "glock_22", "prob": 35, "charges-min": 0, "charges-max": 0 },
+      { "item": "glock_31", "prob": 15, "charges-min": 0, "charges-max": 0 },
+      { "item": "m1911", "prob": 50, "charges-min": 0, "charges-max": 0 },
+      { "item": "m9", "prob": 30, "charges-min": 0, "charges-max": 0 },
+      { "item": "ruger_lcr_38", "prob": 10, "charges-min": 0, "charges-max": 0 },
+      { "item": "sig_mosquito", "prob": 15, "charges-min": 0, "charges-max": 0 },
+      { "item": "sw_22", "prob": 15, "charges-min": 0, "charges-max": 0 },
+      { "item": "sw_610", "prob": 20, "charges-min": 0, "charges-max": 0 },
+      { "item": "sw_619", "prob": 25, "charges-min": 0, "charges-max": 0 },
+      { "item": "model_10_revolver", "prob": 20, "charges-min": 0, "charges-max": 0 },
+      { "item": "taurus_spectrum", "prob": 15, "charges-min": 0, "charges-max": 0 },
+      { "item": "p226_357sig", "prob": 20, "charges-min": 0, "charges-max": 0 },
+      { "item": "p320_357sig", "prob": 10, "charges-min": 0, "charges-max": 0 },
+      { "item": "kp32", "prob": 10, "charges-min": 0, "charges-max": 0 },
+      { "item": "kp3at", "prob": 35, "charges-min": 0, "charges-max": 0 },
+      { "item": "rugerlcp", "prob": 35, "charges-min": 0, "charges-max": 0 },
+      { "item": "kpf9", "prob": 35, "charges-min": 0, "charges-max": 0 },
+      { "item": "hi_power_9mm", "prob": 5, "charges-min": 0, "charges-max": 0 },
+      { "item": "hi_power_40", "prob": 3, "charges-min": 0, "charges-max": 0 },
+      { "item": "walther_p38", "prob": 2, "charges-min": 0, "charges-max": 0 },
+      { "item": "walther_ppq_9mm", "prob": 9, "charges-min": 0, "charges-max": 0 },
+      { "item": "walther_ppq_40", "prob": 5, "charges-min": 0, "charges-max": 0 },
+      { "item": "walther_ppq_45", "prob": 3, "charges-min": 0, "charges-max": 0 },
+      { "item": "hptc9", "prob": 3, "charges-min": 0, "charges-max": 0 },
+      { "item": "hptcf380", "prob": 2, "charges-min": 0, "charges-max": 0 },
+      { "item": "hptjcp", "prob": 1, "charges-min": 0, "charges-max": 0 },
+      { "item": "hptjhp", "prob": 1, "charges-min": 0, "charges-max": 0 },
+      { "item": "cz75", "prob": 18, "charges-min": 0, "charges-max": 0 },
+      { "item": "walther_ccp", "prob": 8, "charges-min": 0, "charges-max": 0 },
+      { "item": "walther_p22", "prob": 13, "charges-min": 0, "charges-max": 0 }
     ]
   },
   {
@@ -36,6 +74,29 @@
       { "item": "surv_carbine_223", "prob": 120, "charges-min": 0, "charges-max": 5 }
     ]
   },
+  
+  
+  
+  {
+    "type": "item_group",
+    "id": "DKZ_guns_smg_improvised",
+    "//": "Makeshift or otherwise poor quality SMGs.",
+    "items": [ [ "smg_40", 40 ], [ "smg_45", 40 ], [ "smg_9mm", 100 ] ]
+  },
+
+  {
+    "type": "item_group",
+    "id": "DKZ_guns_smg_common",
+    "//": "SMGs commonly owned by citizens and found in many locations.",
+    "items": [
+      { "item": "tommygun", "prob": 70, "charges-min": 0, "charges-max": 20 },
+      { "item": "hk_mp5_semi_pistol", "prob": 70, "charges-min": 0, "charges-max": 30 },
+      { "item": "sten", "prob": 100, "charges-min": 0, "charges-max": 32 },
+      { "item": "uzi", "prob": 100, "charges-min": 0, "charges-max": 32 }
+    ]
+  },
+
+  
   {
     "type": "item_group",
     "id": "DKZ_guns_shotgun_improvised",
