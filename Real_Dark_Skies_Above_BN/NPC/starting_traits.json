@@ -179,7 +179,7 @@
     "type": "trait_group",
     "id": "DKZ_trait_group_GOODCARDIO",
     "subtype": "distribution",
-    "traits": [ { "trait": "GOODCARDIO" }, { "trait": "BADCARDIO" } ]
+    "traits": [ { "trait": "GOODCARDIO", "prob": 90 }, { "trait": "BADCARDIO", "prob": 10 } ]
   },
   {
     "type": "trait_group",
@@ -210,13 +210,13 @@
     "type": "trait_group",
     "id": "DKZ_trait_group_PACKMULE",
     "subtype": "distribution",
-    "traits": [ { "trait": "PACKMULE" }, { "trait": "DISORGANIZED" } ]
+    "traits": [ { "trait": "PACKMULE", "prob": 70 }, { "trait": "DISORGANIZED", "prob": 30 } ]
   },
   {
     "type": "trait_group",
     "id": "DKZ_trait_group_PARKOUR",
     "subtype": "distribution",
-    "traits": [ { "trait": "PARKOUR" }, { "trait": "BADKNEES" } ]
+    "traits": [ { "trait": "PARKOUR", "prob": 90 }, { "trait": "BADKNEES", "prob": 10 } ]
   },
   {
     "type": "trait_group",
