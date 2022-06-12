@@ -1,6 +1,43 @@
 [
   {
     "type": "item_group",
+    "id": "DKZ_armor_improvised_leg",
+    "//": "Makeshift or otherwise poor leg armor.",
+    "items": [
+
+      { "item": "legguard_paper", "prob": 95 },
+      { "item": "2byshin_guard", "prob": 95 },
+      { "item": "legguard_scrap", "prob": 95 },
+      { "item": "knee_pads", "prob": 15 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "DKZ_armor_improvised_arm",
+    "//": "Makeshift or otherwise poor arm armor.",
+    "items": [	
+      { "item": "2byarm_guard", "prob": 95 },
+      { "item": "armguard_soft", "prob": 95 },
+      { "item": "armguard_paper", "prob": 95 },
+      { "item": "armguard_scrap", "prob": 75 },
+      { "item": "armguard_larmor", "prob": 75 },
+      { "item": "armguard_metal", "prob": 75 },
+      { "item": "armguard_lightplate", "prob": 10 },
+      { "item": "chainmail_arms", "prob": 10 },
+      { "item": "armguard_hard", "prob": 5 },
+      { "item": "elbow_pads", "prob": 10 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "DKZ_armor_improvised_eye",
+    "//": "Makeshift or otherwise poor eye armor.",
+    "items": [
+      { "item": "glasses_bal", "prob": 30 }
+    ]
+  },
+  {
+    "type": "item_group",
     "id": "DKZ_guns_pistol_improvised",
     "//": "Makeshift or otherwise poor quality pistols.",
     "items": [
