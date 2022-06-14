@@ -151,20 +151,21 @@
       { "item": "gloves_tactical", "prob": 10 },
       { "item": "gloves_work", "prob": 10 },
       { "item": "gloves_cut_resistant", "prob": 10 },
-      { "item": "gloves_fingerless", "prob": 20 }
+      { "item": "gloves_fingerless", "prob": 20 },
+      { "group": "DKZ_armor_chitin_hand", "prob": 90 }	  
     ]
   },
   {
     "type": "item_group",
     "id": "NC_MAQUIS_SPIDER_MUTANT_coat",
     "subtype": "distribution",
-    "entries": [ { "item": "trenchcoat", "prob": 20 }, { "item": "motorbike_armor", "prob": 10 } ]
+    "entries": [ { "item": "trenchcoat", "prob": 20 }, { "item": "motorbike_armor", "prob": 10 },       { "group": "DKZ_armor_chitin_torso", "prob": 90 } ]
   },
   {
     "type": "item_group",
     "id": "NC_MAQUIS_SPIDER_MUTANT_shoes",
     "subtype": "distribution",
-    "entries": [ { "item": "sneakers", "prob": 20 }, { "item": "boots", "prob": 20 }, { "item": "boots_combat", "prob": 80 } ]
+    "entries": [ { "item": "sneakers", "prob": 20 }, { "item": "boots", "prob": 20 }, { "group": "DKZ_armor_chitin_boots", "prob": 90 } ]
   },
   {
     "type": "item_group",
@@ -189,7 +190,8 @@
       { "item": "firehelmet", "prob": 10 },
       { "item": "tac_helmet", "prob": 15 },
       { "item": "tac_fullhelmet", "prob": 5 },
-      { "item": "helmet_army", "prob": 20 }
+      { "item": "helmet_army", "prob": 20 },
+      { "group": "DKZ_armor_chitin_head", "prob": 90 }
     ]
   },
   {

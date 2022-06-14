@@ -151,25 +151,23 @@
     "entries": [
       { "item": "null", "prob": 10 },
       { "item": "gloves_leather", "prob": 20 },
-      { "item": "chainmail_hands", "prob": 10 },
-      { "item": "fire_gauntlets", "prob": 10 },
-      { "item": "gloves_tactical", "prob": 10 },
       { "item": "gloves_work", "prob": 10 },
       { "item": "gloves_cut_resistant", "prob": 10 },
-      { "item": "gloves_fingerless", "prob": 20 }
+      { "group": "DKZ_armor_chitin_hand", "prob": 5 }
     ]
   },
   {
     "type": "item_group",
     "id": "NC_MAQUIS_MOTH_MUTANT_coat",
     "subtype": "distribution",
-    "entries": [ { "item": "coat_lab", "prob": 90 }, { "item": "ballistic_vest_esapi", "prob": 10 }, { "item": "kevlar", "prob": 5 } ]
+    "entries": [ { "item": "coat_lab", "prob": 90 }, { "item": "ballistic_vest_esapi", "prob": 10 }, { "item": "kevlar", "prob": 5 },
+      { "group": "DKZ_armor_chitin_torso", "prob": 20 } ]
   },
   {
     "type": "item_group",
     "id": "NC_MAQUIS_MOTH_MUTANT_shoes",
     "subtype": "distribution",
-    "entries": [ { "item": "sneakers", "prob": 20 }, { "item": "boots", "prob": 20 }, { "item": "boots_combat", "prob": 10 } ]
+    "entries": [ { "item": "sneakers", "prob": 20 }, { "item": "boots", "prob": 20 }, { "group": "DKZ_armor_chitin_boots", "prob": 90 } ]
   },
   {
     "type": "item_group",

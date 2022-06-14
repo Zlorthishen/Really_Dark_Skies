@@ -11,6 +11,58 @@
       { "item": "knee_pads", "prob": 15 }
     ]
   },
+  
+  
+  {
+    "type": "item_group",
+    "id": "DKZ_armor_chitin_arm",
+    "//": "Chitinous arm armor.",
+    "items": [
+
+      { "item": "armguard_chitin", "prob": 95 },
+      { "item": "armguard_acidchitin", "prob": 15 }
+    ]
+  }, 
+  {
+    "type": "item_group",
+    "id": "DKZ_armor_chitin_boots",
+    "//": "Chitinous boots armor.",
+    "items": [
+
+      { "item": "boots_chitin", "prob": 95 },
+      { "item": "boots_acidchitin", "prob": 15 }
+    ]
+  }, 
+  {
+    "type": "item_group",
+    "id": "DKZ_armor_chitin_torso",
+    "//": "Chitinous torso armor.",
+    "items": [
+
+      { "item": "armor_chitin", "prob": 95 },
+      { "item": "armor_acidchitin", "prob": 15 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "DKZ_armor_chitin_hand",
+    "//": "Chitinous hand armor.",
+    "items": [
+
+      { "item": "gauntlets_chitin", "prob": 95 },
+      { "item": "gauntlets_acidchitin", "prob": 15 }
+    ]
+  },  
+  {
+    "type": "item_group",
+    "id": "DKZ_armor_chitin_head",
+    "//": "Chitinous hand armor.",
+    "items": [
+
+      { "item": "helmet_chitin", "prob": 95 },
+      { "item": "helmet_acidchitin", "prob": 15 }
+    ]
+  },  
   {
     "type": "item_group",
     "id": "DKZ_armor_improvised_arm",
@@ -19,7 +71,7 @@
       { "item": "2byarm_guard", "prob": 95 },
       { "item": "armguard_soft", "prob": 95 },
       { "item": "armguard_paper", "prob": 95 },
-      { "item": "armguard_scrap", "prob": 75 },
+      { "item": "armguard_scrap", "prob": 75 },  
       { "item": "armguard_larmor", "prob": 75 },
       { "item": "armguard_metal", "prob": 75 },
       { "item": "armguard_lightplate", "prob": 10 },
