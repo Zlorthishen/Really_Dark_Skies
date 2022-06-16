@@ -43,7 +43,7 @@
         "M": [ "t_manhole_cover", "t_pavement" ]
       },
       "furniture": {
-        "s": [ "f_sandbag_half", "f_sandbag_half", "f_sandbag_half", "f_null" ],
+        "s": [ "f_sandbag_half", "f_sandbag_half", "f_sandbag_half", "f_null" , "f_null" ],
         "S": [ "f_sandbag_wall", "f_sandbag_wall", "f_sandbag_wall", "f_sandbag_half" ]
       },
       "place_vehicles": [

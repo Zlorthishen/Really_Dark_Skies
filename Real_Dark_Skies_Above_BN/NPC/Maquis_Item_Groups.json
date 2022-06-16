@@ -4,74 +4,51 @@
     "id": "DKZ_armor_improvised_leg",
     "//": "Makeshift or otherwise poor leg armor.",
     "items": [
-
       { "item": "legguard_paper", "prob": 95 },
       { "item": "2byshin_guard", "prob": 95 },
       { "item": "legguard_scrap", "prob": 95 },
       { "item": "knee_pads", "prob": 15 }
     ]
   },
-  
-  
   {
     "type": "item_group",
     "id": "DKZ_armor_chitin_arm",
     "//": "Chitinous arm armor.",
-    "items": [
-
-      { "item": "armguard_chitin", "prob": 95 },
-      { "item": "armguard_acidchitin", "prob": 15 }
-    ]
-  }, 
+    "items": [ { "item": "armguard_chitin", "prob": 95 }, { "item": "armguard_acidchitin", "prob": 15 } ]
+  },
   {
     "type": "item_group",
     "id": "DKZ_armor_chitin_boots",
     "//": "Chitinous boots armor.",
-    "items": [
-
-      { "item": "boots_chitin", "prob": 95 },
-      { "item": "boots_acidchitin", "prob": 15 }
-    ]
-  }, 
+    "items": [ { "item": "boots_chitin", "prob": 95 }, { "item": "boots_acidchitin", "prob": 15 } ]
+  },
   {
     "type": "item_group",
     "id": "DKZ_armor_chitin_torso",
     "//": "Chitinous torso armor.",
-    "items": [
-
-      { "item": "armor_chitin", "prob": 95 },
-      { "item": "armor_acidchitin", "prob": 15 }
-    ]
+    "items": [ { "item": "armor_chitin", "prob": 95 }, { "item": "armor_acidchitin", "prob": 15 } ]
   },
   {
     "type": "item_group",
     "id": "DKZ_armor_chitin_hand",
     "//": "Chitinous hand armor.",
-    "items": [
-
-      { "item": "gauntlets_chitin", "prob": 95 },
-      { "item": "gauntlets_acidchitin", "prob": 15 }
-    ]
-  },  
+    "items": [ { "item": "gauntlets_chitin", "prob": 95 }, { "item": "gauntlets_acidchitin", "prob": 15 } ]
+  },
   {
     "type": "item_group",
     "id": "DKZ_armor_chitin_head",
     "//": "Chitinous hand armor.",
-    "items": [
-
-      { "item": "helmet_chitin", "prob": 95 },
-      { "item": "helmet_acidchitin", "prob": 15 }
-    ]
-  },  
+    "items": [ { "item": "helmet_chitin", "prob": 95 }, { "item": "helmet_acidchitin", "prob": 15 } ]
+  },
   {
     "type": "item_group",
     "id": "DKZ_armor_improvised_arm",
     "//": "Makeshift or otherwise poor arm armor.",
-    "items": [	
+    "items": [
       { "item": "2byarm_guard", "prob": 95 },
       { "item": "armguard_soft", "prob": 95 },
       { "item": "armguard_paper", "prob": 95 },
-      { "item": "armguard_scrap", "prob": 75 },  
+      { "item": "armguard_scrap", "prob": 75 },
       { "item": "armguard_larmor", "prob": 75 },
       { "item": "armguard_metal", "prob": 75 },
       { "item": "armguard_lightplate", "prob": 10 },
@@ -91,7 +68,8 @@
       { "item": "goggles_welding", "prob": 15 },
       { "item": "glasses_bal", "prob": 5 }
     ]
-  },  {
+  },
+  {
     "type": "item_group",
     "id": "DKZ_armor_upgraded_eye",
     "//": "Looted, manufactured, or otherwise good eye armor.",
@@ -178,16 +156,12 @@
       { "item": "surv_carbine_223", "prob": 120, "charges-min": 0, "charges-max": 5 }
     ]
   },
-  
-  
-  
   {
     "type": "item_group",
     "id": "DKZ_guns_smg_improvised",
     "//": "Makeshift or otherwise poor quality SMGs.",
     "items": [ [ "smg_40", 40 ], [ "smg_45", 40 ], [ "smg_9mm", 100 ] ]
   },
-
   {
     "type": "item_group",
     "id": "DKZ_guns_smg_common",
@@ -199,8 +173,6 @@
       { "item": "uzi", "prob": 100, "charges-min": 0, "charges-max": 32 }
     ]
   },
-
-  
   {
     "type": "item_group",
     "id": "DKZ_guns_shotgun_improvised",
