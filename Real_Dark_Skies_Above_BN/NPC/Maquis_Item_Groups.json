@@ -1,17 +1,6 @@
 [
   {
     "type": "item_group",
-    "id": "DKZ_armor_improvised_leg",
-    "//": "Makeshift or otherwise poor leg armor.",
-    "items": [
-      { "item": "legguard_paper", "prob": 95 },
-      { "item": "2byshin_guard", "prob": 95 },
-      { "item": "legguard_scrap", "prob": 95 },
-      { "item": "knee_pads", "prob": 15 }
-    ]
-  },
-  {
-    "type": "item_group",
     "id": "DKZ_armor_chitin_arm",
     "//": "Chitinous arm armor.",
     "items": [ { "item": "armguard_chitin", "prob": 95 }, { "item": "armguard_acidchitin", "prob": 15 } ]
@@ -55,6 +44,70 @@
       { "item": "chainmail_arms", "prob": 10 },
       { "item": "armguard_hard", "prob": 5 },
       { "item": "elbow_pads", "prob": 10 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "DKZ_armor_improvised_torso",
+    "//": "Makeshift or otherwise poor torso armor.",
+    "items": [
+      { "item": "bookplate", "prob": 95 },
+      { "item": "football_armor", "prob": 95 },
+      { "item": "vest_leather_mod", "prob": 75 },
+      { "item": "motorbike_armor", "prob": 85 },
+      { "item": "jacket_leather_mod", "prob": 85 },
+      { "item": "jacket_leather_bone", "prob": 1 },
+      { "item": "cuirass_scrap", "prob": 35 },
+      { "item": "fencing_jacket", "prob": 45 },
+      { "item": "chestguard_hard", "prob": 95 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "DKZ_armor_improvised_leg",
+    "//": "Makeshift or otherwise poor leg armor.",
+    "items": [
+      { "item": "legguard_paper", "prob": 95 },
+      { "item": "2byshin_guard", "prob": 95 },
+      { "item": "legguard_scrap", "prob": 95 },
+      { "item": "legguard_metal", "prob": 85 },
+      { "item": "legguard_hard", "prob": 85 },
+      { "item": "knee_pads", "prob": 15 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "DKZ_armor_improvised_hand",
+    "//": "Makeshift or otherwise poor hand armor.",
+    "items": [
+      { "item": "gloves_bag", "prob": 95 },
+      { "item": "gloves_golf", "prob": 95 },
+      { "item": "gloves_wraps", "prob": 65 },
+      { "item": "gloves_fingerless", "prob": 95 },
+      { "item": "gloves_fingerless_mod", "prob": 85 },
+      { "item": "gloves_wool", "prob": 85 },
+      { "item": "gloves_work", "prob": 85 },
+      { "item": "beekeeping_gloves", "prob": 75 },
+      { "item": "gloves_rubber", "prob": 35 },
+      { "item": "fire_gauntlets", "prob": 35 },
+      { "item": "gloves_leather", "prob": 15 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "DKZ_armor_improvised_head",
+    "//": "Makeshift or otherwise poor leg armor.",
+    "items": [
+      { "item": "pot_helmet", "prob": 95 },
+      { "item": "helmet_scavenger", "prob": 95 },
+      { "item": "helmet_scrap", "prob": 95 },
+      { "item": "helmet_football", "prob": 95 },
+      { "item": "helmet_ball", "prob": 95 },
+      { "item": "helmet_bike", "prob": 75 },
+      { "item": "helmet_larmor", "prob": 45 },
+      { "item": "firehelmet", "prob": 25 },
+      { "item": "helmet_army", "prob": 5 },
+      { "item": "tac_fullhelmet", "prob": 1 }
     ]
   },
   {
