@@ -1,0 +1,241 @@
+[
+  {
+    "type": "item_group",
+    "id": "DKZ_armor_chitin_arm",
+    "//": "Chitinous arm armor.",
+    "items": [ { "item": "armguard_chitin", "prob": 95 }, { "item": "armguard_acidchitin", "prob": 15 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "DKZ_armor_chitin_boots",
+    "//": "Chitinous boots armor.",
+    "items": [ { "item": "boots_chitin", "prob": 95 }, { "item": "boots_acidchitin", "prob": 15 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "DKZ_armor_chitin_torso",
+    "//": "Chitinous torso armor.",
+    "items": [ { "item": "armor_chitin", "prob": 95 }, { "item": "armor_acidchitin", "prob": 15 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "DKZ_armor_chitin_hand",
+    "//": "Chitinous hand armor.",
+    "items": [ { "item": "gauntlets_chitin", "prob": 95 }, { "item": "gauntlets_acidchitin", "prob": 15 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "DKZ_armor_chitin_head",
+    "//": "Chitinous hand armor.",
+    "items": [ { "item": "helmet_chitin", "prob": 95 }, { "item": "helmet_acidchitin", "prob": 15 } ]
+  },
+  {
+    "type": "item_group",
+    "id": "DKZ_armor_improvised_arm",
+    "//": "Makeshift or otherwise poor arm armor.",
+    "items": [
+      { "item": "2byarm_guard", "prob": 95 },
+      { "item": "armguard_soft", "prob": 95 },
+      { "item": "armguard_paper", "prob": 95 },
+      { "item": "armguard_scrap", "prob": 75 },
+      { "item": "armguard_larmor", "prob": 75 },
+      { "item": "armguard_metal", "prob": 75 },
+      { "item": "armguard_lightplate", "prob": 10 },
+      { "item": "chainmail_arms", "prob": 10 },
+      { "item": "armguard_hard", "prob": 5 },
+      { "item": "elbow_pads", "prob": 10 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "DKZ_armor_improvised_torso",
+    "//": "Makeshift or otherwise poor torso armor.",
+    "items": [
+      { "item": "bookplate", "prob": 95 },
+      { "item": "football_armor", "prob": 95 },
+      { "item": "vest_leather_mod", "prob": 75 },
+      { "item": "motorbike_armor", "prob": 85 },
+      { "item": "jacket_leather_mod", "prob": 85 },
+      { "item": "jacket_leather_bone", "prob": 1 },
+      { "item": "cuirass_scrap", "prob": 35 },
+      { "item": "fencing_jacket", "prob": 45 },
+      { "item": "chestguard_hard", "prob": 95 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "DKZ_armor_improvised_leg",
+    "//": "Makeshift or otherwise poor leg armor.",
+    "items": [
+      { "item": "legguard_paper", "prob": 95 },
+      { "item": "2byshin_guard", "prob": 95 },
+      { "item": "legguard_scrap", "prob": 95 },
+      { "item": "legguard_metal", "prob": 85 },
+      { "item": "legguard_hard", "prob": 85 },
+      { "item": "knee_pads", "prob": 15 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "DKZ_armor_improvised_hand",
+    "//": "Makeshift or otherwise poor hand armor.",
+    "items": [
+      { "item": "gloves_bag", "prob": 95 },
+      { "item": "gloves_golf", "prob": 95 },
+      { "item": "gloves_wraps", "prob": 65 },
+      { "item": "gloves_fingerless", "prob": 95 },
+      { "item": "gloves_fingerless_mod", "prob": 85 },
+      { "item": "gloves_wool", "prob": 85 },
+      { "item": "gloves_work", "prob": 85 },
+      { "item": "beekeeping_gloves", "prob": 75 },
+      { "item": "gloves_rubber", "prob": 35 },
+      { "item": "fire_gauntlets", "prob": 35 },
+      { "item": "gloves_leather", "prob": 15 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "DKZ_armor_improvised_head",
+    "//": "Makeshift or otherwise poor leg armor.",
+    "items": [
+      { "item": "pot_helmet", "prob": 95 },
+      { "item": "helmet_scavenger", "prob": 95 },
+      { "item": "helmet_scrap", "prob": 95 },
+      { "item": "helmet_football", "prob": 95 },
+      { "item": "helmet_ball", "prob": 95 },
+      { "item": "helmet_bike", "prob": 75 },
+      { "item": "helmet_larmor", "prob": 45 },
+      { "item": "firehelmet", "prob": 25 },
+      { "item": "helmet_army", "prob": 5 },
+      { "item": "tac_fullhelmet", "prob": 1 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "DKZ_armor_improvised_eye",
+    "//": "Makeshift or otherwise poor eye armor.",
+    "items": [
+      { "item": "glasses_safety", "prob": 90 },
+      { "item": "iggaak", "prob": 20 },
+      { "item": "goggles_ski", "prob": 25 },
+      { "item": "goggles_welding", "prob": 15 },
+      { "item": "glasses_bal", "prob": 5 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "DKZ_armor_upgraded_eye",
+    "//": "Looted, manufactured, or otherwise good eye armor.",
+    "items": [
+      { "item": "glasses_safety", "prob": 1 },
+      { "item": "goggles_ski", "prob": 5 },
+      { "item": "goggles_welding", "prob": 15 },
+      { "item": "survivor_goggles", "prob": 85 },
+      { "item": "glasses_bal", "prob": 75 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "DKZ_guns_pistol_improvised",
+    "//": "Makeshift or otherwise poor quality pistols.",
+    "items": [
+      { "item": "ashot", "prob": 100 },
+      { "item": "surv_hand_cannon", "prob": 100, "charges-min": 4, "charges-max": 5 },
+      { "item": "surv_six_shooter", "prob": 100, "charges-min": 5, "charges-max": 6 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "DKZ_guns_pistol_military",
+    "//": "Pistols looted from military areas.",
+    "items": [
+      { "item": "m17", "prob": 100, "charges-min": 0, "charges-max": 17 },
+      { "item": "glock_18c", "prob": 70, "charges-min": 0, "charges-max": 17 },
+      { "item": "glock_18c", "prob": 70, "charges-min": 0, "charges-max": 17 },
+      { "item": "mk23", "prob": 10, "charges-min": 0, "charges-max": 12 },
+      { "item": "usp_45", "prob": 15, "charges-min": 0, "charges-max": 12 },
+      { "item": "m1911_MEU", "prob": 5, "charges-min": 0, "charges-max": 7 },
+      { "item": "glock_19", "prob": 20, "charges-min": 0, "charges-max": 15 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "DKZ_guns_pistol_common",
+    "//": "Pistols looted from gun stores.",
+    "items": [
+      { "item": "glock_17", "prob": 35, "charges-min": 0, "charges-max": 0 },
+      { "item": "glock_19", "prob": 50, "charges-min": 0, "charges-max": 0 },
+      { "item": "glock_21", "prob": 8, "charges-min": 0, "charges-max": 0 },
+      { "item": "glock_22", "prob": 35, "charges-min": 0, "charges-max": 0 },
+      { "item": "glock_31", "prob": 15, "charges-min": 0, "charges-max": 0 },
+      { "item": "m1911", "prob": 50, "charges-min": 0, "charges-max": 0 },
+      { "item": "m9", "prob": 30, "charges-min": 0, "charges-max": 0 },
+      { "item": "ruger_lcr_38", "prob": 10, "charges-min": 0, "charges-max": 0 },
+      { "item": "sig_mosquito", "prob": 15, "charges-min": 0, "charges-max": 0 },
+      { "item": "sw_22", "prob": 15, "charges-min": 0, "charges-max": 0 },
+      { "item": "sw_610", "prob": 20, "charges-min": 0, "charges-max": 0 },
+      { "item": "sw_619", "prob": 25, "charges-min": 0, "charges-max": 0 },
+      { "item": "model_10_revolver", "prob": 20, "charges-min": 0, "charges-max": 0 },
+      { "item": "taurus_spectrum", "prob": 15, "charges-min": 0, "charges-max": 0 },
+      { "item": "p226_357sig", "prob": 20, "charges-min": 0, "charges-max": 0 },
+      { "item": "p320_357sig", "prob": 10, "charges-min": 0, "charges-max": 0 },
+      { "item": "kp32", "prob": 10, "charges-min": 0, "charges-max": 0 },
+      { "item": "kp3at", "prob": 35, "charges-min": 0, "charges-max": 0 },
+      { "item": "rugerlcp", "prob": 35, "charges-min": 0, "charges-max": 0 },
+      { "item": "kpf9", "prob": 35, "charges-min": 0, "charges-max": 0 },
+      { "item": "hi_power_9mm", "prob": 5, "charges-min": 0, "charges-max": 0 },
+      { "item": "hi_power_40", "prob": 3, "charges-min": 0, "charges-max": 0 },
+      { "item": "walther_p38", "prob": 2, "charges-min": 0, "charges-max": 0 },
+      { "item": "walther_ppq_9mm", "prob": 9, "charges-min": 0, "charges-max": 0 },
+      { "item": "walther_ppq_40", "prob": 5, "charges-min": 0, "charges-max": 0 },
+      { "item": "walther_ppq_45", "prob": 3, "charges-min": 0, "charges-max": 0 },
+      { "item": "hptc9", "prob": 3, "charges-min": 0, "charges-max": 0 },
+      { "item": "hptcf380", "prob": 2, "charges-min": 0, "charges-max": 0 },
+      { "item": "hptjcp", "prob": 1, "charges-min": 0, "charges-max": 0 },
+      { "item": "hptjhp", "prob": 1, "charges-min": 0, "charges-max": 0 },
+      { "item": "cz75", "prob": 18, "charges-min": 0, "charges-max": 0 },
+      { "item": "walther_ccp", "prob": 8, "charges-min": 0, "charges-max": 0 },
+      { "item": "walther_p22", "prob": 13, "charges-min": 0, "charges-max": 0 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "DKZ_guns_rifle_improvised",
+    "//": "Makeshift or otherwise poor quality rifles.",
+    "items": [
+      { "item": "rifle_22", "prob": 60 },
+      { "item": "rifle_3006", "prob": 30 },
+      { "item": "rifle_9mm", "prob": 60 },
+      { "item": "surv_carbine_223", "prob": 120, "charges-min": 0, "charges-max": 5 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "DKZ_guns_smg_improvised",
+    "//": "Makeshift or otherwise poor quality SMGs.",
+    "items": [ [ "smg_40", 40 ], [ "smg_45", 40 ], [ "smg_9mm", 100 ] ]
+  },
+  {
+    "type": "item_group",
+    "id": "DKZ_guns_smg_common",
+    "//": "SMGs commonly owned by citizens and found in many locations.",
+    "items": [
+      { "item": "tommygun", "prob": 70, "charges-min": 0, "charges-max": 20 },
+      { "item": "hk_mp5_semi_pistol", "prob": 70, "charges-min": 0, "charges-max": 30 },
+      { "item": "sten", "prob": 100, "charges-min": 0, "charges-max": 32 },
+      { "item": "uzi", "prob": 100, "charges-min": 0, "charges-max": 32 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "DKZ_guns_shotgun_improvised",
+    "//": "Makeshift or otherwise poor quality shotguns.",
+    "items": [
+      { "item": "blunderbuss", "prob": 70 },
+      { "item": "bigun", "prob": 10, "charges-min": 0, "charges-max": 6 },
+      { "item": "pipe_double_shotgun", "prob": 70, "charges-min": 0, "charges-max": 2 },
+      { "item": "pipe_shotgun", "prob": 100 },
+      { "item": "revolver_shotgun", "prob": 30, "charges-min": 0, "charges-max": 6 }
+    ]
+  }
+]
