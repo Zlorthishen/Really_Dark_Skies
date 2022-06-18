@@ -281,7 +281,7 @@
   {
     "id": "DKZ_MAQUIS_FELINE_MUTANT_FIND_CAT",
     "type": "mission_definition",
-    "name": { "str": "Find and capture a cat" },
+    "name": { "str": "Find and save the internet famous cat 'Lucky'" },
     "goal": "MGOAL_FIND_MONSTER",
     "difficulty": 4,
     "value": 100000,
@@ -291,7 +291,7 @@
       "assign_mission_target": { "om_terrain": "park", "reveal_radius": 5, "random": true, "search_range": 100, "min_distance": 25 },
       "update_mapgen": {
         "place_monster": [
-          { "monster": "mon_cat_chonker", "x": 22, "y": 22, "target": true },
+          { "monster": "mon_cat_chonker", "x": 22, "y": 22, "name": "Lucky", "target": true },
           { "monster": "dkz_xenoid_berserker", "x": 1, "y": 1 }
         ]
       }
