@@ -238,11 +238,25 @@
         "condition": {
           "and": [
             { "not": { "u_has_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" } },
+            { "not": { "npc_has_trait": "DKZ_SCIENTIST" } },
             { "u_has_mission": "MISSION_CHECK_UP_ON_BIG_BROTHER" }
           ]
         },
         "topic": "TALK_MAQUIS_CYBERCOP_BIG_BROTHER"
       },
+
+      {
+        "text": "[MISSION] Mr. Erikson sent me, I have the reinforcements.",
+        "condition": {
+          "and": [
+            { "not": { "u_has_var": "u_setup_Lab_Base", "type": "general", "context": "meeting", "value": "yes" } },
+            { "npc_has_trait": "DKZ_SCIENTIST" },
+            { "u_has_mission": "MISSION_REFUGEE_CHAD_ERIKSON_SCIENCE_FIELD_TRIP" }
+          ]
+        },
+        "topic": "TALK_MAQUIS_CYBERCOP_SCIENCE_FIELD_TRIP"
+      },
+
       {
         "text": "Is there anything I can do to help you out?",
         "condition": { "and": [ { "not": "has_many_assigned_mission" }, { "not": "has_assigned_mission" } ] },
@@ -255,6 +269,12 @@
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MAQUIS_CYBERCOP_BIG_BROTHER",
+    "type": "talk_topic",
+    "dynamic_line": [ "Turn around.", "He is right behind you.", "He is in this very room." ],
+    "responses": [ { "text": "Ok, Thanks.", "topic": "TALK_NONE" }, { "text": "Ok, I have to go now.", "topic": "TALK_DONE" } ]
+  },  {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
+    "id": "TALK_MAQUIS_CYBERCOP_SCIENCE_FIELD_TRIP",
     "type": "talk_topic",
     "dynamic_line": [ "Turn around.", "He is right behind you.", "He is in this very room." ],
     "responses": [ { "text": "Ok, Thanks.", "topic": "TALK_NONE" }, { "text": "Ok, I have to go now.", "topic": "TALK_DONE" } ]
