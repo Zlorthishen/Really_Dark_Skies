@@ -251,13 +251,38 @@
     "type": "item_group",
     "id": "DKZ_guns_cutting_improvised",
     "//": "Makeshift or otherwise poor quality cutting weapons.",
-    "items": [ { "item": "knife_steak", "prob": 70 }, { "item": "knife_hunting", "prob": 10 } ]
+    "items": [
+      { "item": "knife_steak", "prob": 90 },
+      { "item": "knife_butcher", "prob": 90 },
+      { "item": "knife_chef", "prob": 70 },
+      { "item": "knife_paring", "prob": 70 },
+      { "item": "knife_meat_cleaver", "prob": 50 },
+      { "item": "knife_vegetable_cleaver", "prob": 50 },
+      { "item": "knife_hunting", "prob": 10 },
+      { "item": "switchblade", "prob": 10 }
+    ]
   },
   {
     "//1": "-----------------------------------------------------------------------------------------------------------------------",
     "type": "item_group",
     "id": "DKZ_guns_bashing_improvised",
     "//": "Makeshift or otherwise poor quality bashing weapons.",
-    "items": [ { "item": "tonfa", "prob": 5 }, { "item": "tonfa_wood", "prob": 5 } ]
+    "items": [
+      { "item": "golf_club", "prob": 90 },
+      { "item": "hockey_stick", "prob": 90 },
+      { "item": "pipe", "prob": 90 },
+      { "item": "nailbat", "prob": 90 },
+      { "item": "bat", "prob": 70 },
+      { "item": "bat_metal", "prob": 70 },
+      { "item": "baton-extended", "prob": 70 },
+      { "item": "shillelagh", "prob": 15 },
+      { "item": "cudgel", "prob": 50 },
+      { "item": "homewrecker", "prob": 50 },
+      { "item": "q_staff", "prob": 10 },
+      { "item": "i_staff", "prob": 5 },
+      { "item": "tonfa", "prob": 20 },
+      { "item": "tonfa_wood", "prob": 10 },
+      { "item": "pool_cue", "prob": 70 }
+    ]
   }
 ]
