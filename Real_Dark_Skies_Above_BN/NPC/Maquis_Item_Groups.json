@@ -222,7 +222,6 @@
     "items": [ [ "smg_40", 40 ], [ "smg_45", 40 ], [ "smg_9mm", 100 ] ]
   },
   {
-    "//1": "-----------------------------------------------------------------------------------------------------------------------",
     "type": "item_group",
     "id": "DKZ_guns_smg_common",
     "//": "SMGs commonly owned by citizens and found in many locations.",
@@ -234,6 +233,20 @@
     ]
   },
   {
+    "type": "item_group",
+    "id": "DKZ_guns_smg_military",
+    "//": "Military specification SMGs only ever found at military sites.",
+    "items": [
+      { "item": "hk_mp7", "prob": 100, "charges-min": 0, "charges-max": 20 },
+      { "item": "needlegun", "prob": 30, "charges-min": 0, "charges-max": 50 },
+      { "item": "rm2000_smg", "prob": 50, "charges-min": 0, "charges-max": 10 },
+      { "item": "hk_mp5", "prob": 100, "charges-min": 0, "charges-max": 30 },
+      { "item": "hk_mp5k", "prob": 10, "charges-min": 0, "charges-max": 30 },
+      { "item": "hk_mp5sd", "prob": 5, "charges-min": 0, "charges-max": 30 }
+    ]
+  },  
+  
+  {
     "//1": "-----------------------------------------------------------------------------------------------------------------------",
     "type": "item_group",
     "id": "DKZ_guns_shotgun_improvised",
@@ -244,6 +257,35 @@
       { "item": "pipe_double_shotgun", "prob": 70, "charges-min": 0, "charges-max": 2 },
       { "item": "pipe_shotgun", "prob": 100 },
       { "item": "revolver_shotgun", "prob": 30, "charges-min": 0, "charges-max": 6 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "DKZ_guns_shotgun_common",
+    "//": "Shotguns commonly owned by citizens and found in many locations.",
+    "items": [
+      { "item": "mossberg_500", "prob": 33, "charges-min": 0, "charges-max": 6 },
+      { "item": "remington_870", "prob": 35, "charges-min": 0, "charges-max": 6 },
+      { "item": "mossberg_500_security", "prob": 17, "charges-min": 0, "charges-max": 6 },
+      { "item": "remington_870_express", "prob": 18, "charges-min": 0, "charges-max": 6 },
+      { "item": "browning_a5", "prob": 14, "charges-min": 0, "charges-max": 5 },
+      { "item": "remington_1100", "prob": 17, "charges-min": 0, "charges-max": 10 },
+      { "item": "mossberg_930", "prob": 15, "charges-min": 0, "charges-max": 6 },
+      { "item": "shotgun_410", "prob": 30, "charges-min": 0, "charges-max": 1 },
+      { "item": "shotgun_d", "prob": 30, "charges-min": 0, "charges-max": 2 },
+      { "item": "shotgun_s", "prob": 30 }
+    ]
+  },  
+  {
+    "type": "item_group",
+    "id": "DKZ_guns_shotgun_military",
+    "//": "Military shotguns currently in service.",
+    "items": [
+      { "item": "rm20", "prob": 20, "charges-min": 0, "charges-max": 20 },
+      { "item": "remington_870_express", "prob": 50, "charges-min": 0, "charges-max": 6 },
+      { "item": "remington_870_breacher", "prob": 20, "charges-min": 0, "charges-max": 4 },
+      { "item": "mossberg_590", "prob": 50, "charges-min": 0, "charges-max": 9 },
+      { "item": "m1014", "prob": 100, "charges-min": 0, "charges-max": 8 }
     ]
   },
   {
