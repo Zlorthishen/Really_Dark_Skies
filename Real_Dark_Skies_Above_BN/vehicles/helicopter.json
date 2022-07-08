@@ -807,13 +807,8 @@
       { "x": 0, "y": -2, "part": "windshield" },
       { "x": 0, "y": 2, "part": "windshield" },
       { "x": -1, "y": 2, "part": "windshield" },
-	  
-
-
       { "x": 0, "y": -4, "part": "wing_mirror_left" },
       { "x": 0, "y": 4, "part": "wing_mirror_right" },
-	  
-	  
       { "x": -1, "y": -1, "part": "roof" },
       { "x": -1, "y": 0, "part": "roof" },
       { "x": -1, "y": 1, "part": "roof" },
@@ -1141,8 +1136,7 @@
       { "x": -5, "y": 8, "part": "engine_turbine_large" },
       { "x": -5, "y": 8, "part": "alternator_car" },
       { "x": -5, "y": 8, "part": "alternator_truck" }
-
-	  ],
+    ],
     "items": [
       { "x": -12, "y": -1, "chance": 5, "items": [ "grenade" ] },
       { "x": -11, "y": 1, "chance": 5, "items": [ "chestpouch" ] },
