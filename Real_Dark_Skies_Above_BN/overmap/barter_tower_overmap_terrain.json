@@ -76,6 +76,23 @@
   {
     "type": "overmap_terrain",
     "id": [
+      "racing_tower_z-3_1_1",
+      "racing_tower_z-3_1_2",
+      "racing_tower_z-3_2_1",
+      "racing_tower_z-3_2_2",
+      "racing_tower_z-4_1_1",
+      "racing_tower_z-4_1_2",
+      "racing_tower_z-4_2_1",
+      "racing_tower_z-4_2_2"
+    ],
+    "name": "REDACTED",
+    "sym": "╬",
+    "color": "i_light_red",
+    "see_cost": 0
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [
       "racing_tower_z0_1_1",
       "racing_tower_z1_1_1",
       "racing_tower_z2_1_1",
@@ -467,5 +484,4 @@
     "color": "i_light_green",
     "see_cost": 99
   }
-
 ]

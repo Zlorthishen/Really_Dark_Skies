@@ -2,7 +2,18 @@
   {
     "type": "overmap_special",
     "id": "arcology_racing",
-    "overmaps": [
+    "overmaps": [	
+      { "point": [ 2, 0, -4 ], "overmap": "racing_tower_z-4_1_1_north" },
+      { "point": [ 2, 1, -4 ], "overmap": "racing_tower_z-4_1_2_north" },
+      { "point": [ 3, 0, -4 ], "overmap": "racing_tower_z-4_2_1_north" },
+      { "point": [ 3, 1, -4 ], "overmap": "racing_tower_z-4_2_2_north" },
+      { "point": [ 2, 0, -3 ], "overmap": "racing_tower_z-3_1_1_north" },
+      { "point": [ 2, 1, -3 ], "overmap": "racing_tower_z-3_1_2_north" },
+      { "point": [ 3, 0, -3 ], "overmap": "racing_tower_z-3_2_1_north" },
+      { "point": [ 3, 1, -3 ], "overmap": "racing_tower_z-3_2_2_north" },
+
+
+	  
       { "point": [ 0, 0, -2 ], "overmap": "racing_tower_z-2_1_1_north" },
       { "point": [ 0, 1, -2 ], "overmap": "racing_tower_z-2_1_2_north" },
       { "point": [ 0, 2, -2 ], "overmap": "racing_tower_z-2_1_3_north" },
@@ -215,6 +226,7 @@
       { "point": [ 3, 1, 9 ], "overmap": "racing_tower_z9_4_2_north" },
       { "point": [ 3, 2, 9 ], "overmap": "racing_tower_z9_4_3_north" },
       { "point": [ 3, 3, 9 ], "overmap": "racing_tower_z9_4_4_north" },
+      { "point": [ 4, 1, -4 ], "overmap": "subway_ew" },
       { "point": [ 1, -1, -2 ], "overmap": "subway_ns" },
       { "point": [ 1, 4, -2 ], "overmap": "subway_ns" }
     ],
@@ -231,10 +243,11 @@
       { "point": [ 3, -1, -1 ], "terrain": "sewer", "connection": "sewer_tunnel", "from": [ 3, 0, -1 ] },
       { "point": [ 0, 4, -1 ], "terrain": "sewer", "connection": "sewer_tunnel", "from": [ 0, 3, -1 ] },
       { "point": [ 4, 3, -1 ], "terrain": "sewer", "connection": "sewer_tunnel", "from": [ 3, 3, -1 ] },
+      { "point": [ 5, 1, -4 ], "terrain": "subway", "connection": "subway_tunnel", "from": [ 6, 1, -4 ] },
       { "point": [ 1, -2, -2 ], "terrain": "subway", "connection": "subway_tunnel", "from": [ 1, -3, -2 ] },
       { "point": [ 1, 5, -2 ], "terrain": "subway", "connection": "subway_tunnel", "from": [ 1, 6, -2 ] }
     ],
     "occurrences": [ 1, 2 ],
     "flags": [ "URBAN", "UNIQUE", "SAFE_AT_WORLDGEN" ]
-  }  
+  }
 ]
