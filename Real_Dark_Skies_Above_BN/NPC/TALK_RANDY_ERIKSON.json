@@ -201,6 +201,20 @@
         "opinion": { "trust": 1, "value": 1 },
         "topic": "TALK_RANDY_ERIKSON_ASK_ABOUT_WATCH"
       },
+      {
+        "text": "[PER 11]  Is that a helicopter outside?.",
+        "effect": { "u_add_var": "u_Talk_To_RandyErikson_about_helicopter", "type": "general", "context": "meeting", "value": "yes" },
+        "condition": {
+          "and": [
+            {
+              "not": { "u_has_var": "u_Talk_To_RandyErikson_about_helicopter", "type": "general", "context": "meeting", "value": "yes" }
+            },
+            { "u_has_perception": 11 }
+          ]
+        },
+        "opinion": { "trust": 1, "value": 1 },
+        "topic": "TALK_RANDY_ERIKSON_ASK_ABOUT_HELICOPTER"
+      },
       { "text": "So how did you end up here?", "topic": "TALK_RANDY_ERIKSON_BACKGROUND" },
       { "text": "So what are you doing here?", "topic": "TALK_RANDY_ERIKSON_GENERATOR" },
       {
@@ -289,6 +303,15 @@
       }
     ]
   },
+  {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
+    "id": "TALK_RANDY_ERIKSON_ASK_ABOUT_HELICOPTER",
+    "type": "talk_topic",
+    "dynamic_line": [
+      "Yeah I landed it just as it ran out of fuel.  Its yours so long as you can fill up the tank."
+    ],
+    "responses": [ { "text": "Ok, I'll take it for a spin.", "topic": "TALK_DONE" } ]
+  },  
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_RANDY_ERIKSON_MISSION_CHECK_UP_ON_BIG_BROTHER",

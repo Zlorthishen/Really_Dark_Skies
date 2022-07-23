@@ -44,7 +44,7 @@
       { "skill": "rifle", "bonus": { "rng": [ 6, 8 ] } }
     ],
     "bionics": [
-      { "id": "bio_targeting", "chance": 75 },
+      { "id": "bio_targeting", "chance": 95 },
       { "id": "bio_infrared", "chance": 25 },
       { "id": "bio_recycler", "chance": 15 },
       { "id": "bio_digestion", "chance": 15 },
