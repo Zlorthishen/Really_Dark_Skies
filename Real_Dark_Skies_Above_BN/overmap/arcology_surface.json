@@ -47,7 +47,8 @@
         "S": [ "f_sandbag_wall", "f_sandbag_wall", "f_sandbag_wall", "f_sandbag_wall", "f_sandbag_half", "f_null" ]
       },
       "place_vehicles": [
-        { "vehicle": "school_vehicles", "x": 36, "y": 6, "rotation": [ 0, 180 ], "chance": 100, "fuel": 0, "status": -1 },
+        { "vehicle": "schoolbus", "x": 37, "y": 7, "rotation": 180, "chance": 100, "fuel": 0, "status": -1 },
+        { "vehicle": "schoolbus", "x": 33, "y": 6, "rotation": 0, "chance": 100, "fuel": 0, "status": -1 },
         {
           "vehicle": "motorcycle_enduro",
           "x": 4,
