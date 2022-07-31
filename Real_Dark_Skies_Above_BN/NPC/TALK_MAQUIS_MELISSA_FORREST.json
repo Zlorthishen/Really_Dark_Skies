@@ -23,6 +23,7 @@
       { "trait": "STR_UP_2", "prob": 100 },
       { "trait": "SUNLIGHT_DEPENDENT", "prob": 100 },
       { "trait": "ROSEBUDS", "prob": 100 },
+      { "trait": "FLOWERS", "prob": 100 },
       { "trait": "SAPROPHAGE", "prob": 100 },
       { "trait": "ROOTS3", "prob": 100 },
       { "trait": "LEAVES3", "prob": 100 },
