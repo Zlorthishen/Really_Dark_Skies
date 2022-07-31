@@ -2035,6 +2035,7 @@
       ],
       "palettes": [ "arcology_palette" ],
       "place_npcs": [
+        { "class": "DKZ_MAQUIS_BIONIC_ASSASSIN", "x": 69, "y": 4, "add_trait": "DKZ_COMBAT" },
         { "class": "DKZ_MAQUIS_CYBERCOP", "x": 72, "y": 5, "add_trait": "DKZ_LEADER" },
         { "class": "DKZ_MAQUIS_BIONIC_DOCTOR", "x": 84, "y": 6, "add_trait": "DKZ_MEDIC" },
         { "class": "DKZ_MAQUIS_ELF_MUTANT", "x": 81, "y": 5, "add_trait": "DKZ_MEDIC" }

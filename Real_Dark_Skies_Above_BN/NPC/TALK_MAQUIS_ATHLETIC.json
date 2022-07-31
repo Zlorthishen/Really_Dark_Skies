@@ -5,6 +5,7 @@
     "class": "NC_MAQUIS_ATHLETIC",
     "attitude": 0,
     "mission": 7,
+    "gender": "male",		
     "chat": "TALK_MAQUIS_ATHLETIC_ROOT",
     "mission_offered": "DKZ_MAQUIS_MISSION_HEIRLOOM_SABRE",
     "faction": "maquis"
