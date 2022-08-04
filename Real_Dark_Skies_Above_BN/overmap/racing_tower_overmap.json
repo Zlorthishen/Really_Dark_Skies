@@ -224,6 +224,7 @@
       { "point": [ 3, 2, 9 ], "overmap": "racing_tower_z9_4_3_north" },
       { "point": [ 3, 3, 9 ], "overmap": "racing_tower_z9_4_4_north" },
       { "point": [ 4, 1, -4 ], "overmap": "subway_ew" },
+      { "point": [ 1, 0, -4 ], "overmap": "subway_ew" },
       { "point": [ 1, -1, -2 ], "overmap": "subway_ns" },
       { "point": [ 1, 4, -2 ], "overmap": "subway_ns" }
     ],

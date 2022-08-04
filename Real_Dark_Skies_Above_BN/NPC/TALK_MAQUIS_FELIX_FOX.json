@@ -48,7 +48,7 @@
     "id": "NC_MAQUIS_FELIX_FOX_weapon",
     "type": "item_group",
     "subtype": "collection",
-    "entries": [ { "item": "rm2000_smg" } ]
+    "entries": [ { "item": "knife_butcher" } ]
   },
   {
     "id": "NC_MAQUIS_FELIX_FOX_worn",
@@ -58,9 +58,10 @@
       { "item": "boxer_shorts" },
       { "item": "socks" },
       { "item": "boots_hiking" },
-      { "item": "jeans_red" },
       { "item": "tshirt_tour" },
+      { "item": "jeans_red" },
       { "item": "jacket_leather_red" },
+      { "item": "fancy_sunglasses" },	  
       { "item": "pickelhaube" },
       { "item": "backpack" },
       { "item": "badge_deputy" },
