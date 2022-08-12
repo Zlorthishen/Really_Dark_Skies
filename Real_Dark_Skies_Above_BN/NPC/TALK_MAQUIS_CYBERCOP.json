@@ -5,7 +5,7 @@
     "class": "NC_MAQUIS_CYBERCOP",
     "attitude": 0,
     "mission": 7,
-    "gender": "male",	
+    "gender": "male",
     "chat": "TALK_MAQUIS_CYBERCOP_ROOT",
     "faction": "maquis"
   },
@@ -65,11 +65,6 @@
     "bonus_int": { "rng": [ -1, 1 ] },
     "bonus_per": { "rng": [ 1, 3 ] }
   },
-
-
-
-
-
   {
     "id": "NC_MAQUIS_CYBERCOP_worn",
     "type": "item_group",
@@ -143,21 +138,6 @@
       { "item": "multitool" }
     ]
   },
-
-  
-  
-  
-  
-  
-  
-  
-
-
-
-
-
-
-
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MAQUIS_CYBERCOP_ROOT",
@@ -182,7 +162,6 @@
         },
         "topic": "TALK_MAQUIS_CYBERCOP_BIG_BROTHER"
       },
-
       {
         "text": "[MISSION] Mr. Erikson sent me, I have the reinforcements.",
         "condition": {
@@ -194,7 +173,6 @@
         },
         "topic": "TALK_MAQUIS_CYBERCOP_SCIENCE_FIELD_TRIP"
       },
-
       {
         "text": "Is there anything I can do to help you out?",
         "condition": { "and": [ { "not": "has_many_assigned_mission" }, { "not": "has_assigned_mission" } ] },
@@ -210,7 +188,8 @@
     "type": "talk_topic",
     "dynamic_line": [ "Turn around.", "He is right behind you.", "He is in this very room." ],
     "responses": [ { "text": "Ok, Thanks.", "topic": "TALK_NONE" }, { "text": "Ok, I have to go now.", "topic": "TALK_DONE" } ]
-  },  {
+  },
+  {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MAQUIS_CYBERCOP_SCIENCE_FIELD_TRIP",
     "type": "talk_topic",
