@@ -63,7 +63,7 @@
     "subtype": "collection",
     "entries": [
       {
-        "distribution": [ { "item": "boxer_shorts", "prob": 50 }, { "item": "briefs", "prob": 50 }, { "item": "boxer_briefs", "prob": 50 } ]
+        "distribution": [ { "item": "boy_shorts", "prob": 50 }, { "item": "panties", "prob": 60 }, { "item": "boxer_shorts", "prob": 5 } ]
       },
       { "distribution": [ { "item": "socks", "prob": 50 }, { "item": "socks_ankle", "prob": 50 } ] },
       {
