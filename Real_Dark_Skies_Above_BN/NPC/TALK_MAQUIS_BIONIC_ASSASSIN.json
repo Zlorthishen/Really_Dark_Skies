@@ -88,6 +88,9 @@
         "distribution": [ { "item": "gloves_fingerless", "prob": 50 }, { "item": "null", "prob": 5 } ]
       },
       {
+        "distribution": [ { "item": "keffiyeh", "prob": 75 }, { "item": "bandana", "prob": 50 }, { "item": "null", "prob": 1 } ]
+      },	  
+      {
         "distribution": [ { "item": "backpack", "prob": 50 }, { "item": "backpack_leather", "prob": 50 }, { "item": "null", "prob": 5 } ]
       },
       { "item": "hat_ball", "prob": 100 }
@@ -98,8 +101,8 @@
     "id": "NC_MAQUIS_BIONIC_ASSASSIN_weapon",
     "subtype": "distribution",
     "entries": [
-      { "item": "rm103a_pistol", "prob": 95, "charges-min": 9, "charges-max": 10 },
-      { "item": "rm99_pistol", "prob": 95, "charges-min": 4, "charges-max": 5 }
+      { "item": "rm2000_smg", "prob": 95, "charges-min": 15, "charges-max": 20 },
+      { "item": "rm2000_smg", "prob": 95, "charges-min": 20, "charges-max": 25 }
     ]
   },
   {
@@ -107,8 +110,8 @@
     "type": "item_group",
     "subtype": "collection",
     "items": [
-      { "item": "8x40_10_mag", "charges-min": 7, "count": 2 },
-      { "item": "8mm_caseless", "count": 3 },
+      { "item": "8x40_25_mag", "charges-min": 20, "count": 1 },
+      { "item": "8mm_caseless", "count": 5 },
       { "item": "multitool" }
     ]
   },
@@ -124,7 +127,6 @@
         "topic": "TALK_COMBAT_COMMANDS"
       },
       { "text": "What are you doing here?", "topic": "TALK_MAQUIS_BIONIC_ASSASSIN_DOING" },
-      { "text": "Why are you upstairs?", "topic": "TALK_MAQUIS_BIONIC_ASSASSIN_UPSTAIRS" },
       {
         "text": "[MISSION] I'm looking for Chad Erikson, his nephew Randy sent me.",
         "condition": {
@@ -185,16 +187,6 @@
       { "text": "Nice arrangement for everyone.", "topic": "TALK_MAQUIS_BIONIC_ASSASSIN_ROOT" },
       { "text": "Ok, good bye.", "topic": "TALK_DONE" }
     ]
-  },
-  {
-    "//": "-----------------------------------------------------------------------------------------------------------------------",
-    "id": "TALK_MAQUIS_BIONIC_ASSASSIN_UPSTAIRS",
-    "type": "talk_topic",
-    "dynamic_line": [
-      "Being up here is isn't just for fun, I have to keep an eye on things down on the ground.",
-      "There are some mutants in the upper floors and a few in the basement, but they're good people.  So long as you don't stare at the heavily deformed ones."
-    ],
-    "responses": [ { "text": "Let's trade.", "topic": "TALK_MAQUIS_BIONIC_ASSASSIN_TRADE" }, { "text": "Well, bye.", "topic": "TALK_DONE" } ]
   },
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
