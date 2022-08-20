@@ -58,6 +58,8 @@
       { "x": -3, "y": 0, "part": "tank_55gal_drum", "fuel": "jp8" },
       { "x": 1, "y": 0, "part": "small_storage_battery" },
       { "x": 0, "y": 0, "part": "roof" },
+      { "x": -1, "y": 1, "part": "reinforced_solar_panel" },
+      { "x": -1, "y": -1, "part": "reinforced_solar_panel" },
       { "x": -1, "y": 0, "part": "small_civilian_rotors" }
     ],
     "items": [
@@ -276,6 +278,8 @@
       { "x": -5, "y": 1, "part": "trunk_floor" },
       { "x": -2, "y": 1, "part": "aisle_lights" },
       { "x": -4, "y": 1, "part": "aisle_lights" },
+      { "x": -4, "y": 2, "part": "reinforced_solar_panel" },
+      { "x": -4, "y": 0, "part": "reinforced_solar_panel" },
       { "x": -4, "y": 1, "part": "heavy_duty_military_blackhawk_rotors" },
       { "x": -4, "y": -3, "part": "stowboard_horizontal" },
       { "x": -4, "y": -2, "part": "halfboard_horizontal" },
