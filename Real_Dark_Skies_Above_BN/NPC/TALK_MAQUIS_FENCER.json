@@ -18,7 +18,7 @@
     "traits": [
       { "group": "DKZ_starting_traits" },
       { "group": "Appearance_demographics" },
-      { "trait": "MARTIAL_ARTS3 ", "prob": 100 },
+      { "distribution": [ { "trait": "MARTIAL_ARTS3", "prob": 70 }, { "trait": "MARTIAL_ARTS5", "prob": 30 } ] },	  
       { "trait": "ROBUST", "prob": 100 },
       { "trait": "DEFT", "prob": 100 },
       { "trait": "PARKOUR ", "prob": 100 }
