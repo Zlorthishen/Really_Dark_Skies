@@ -12,7 +12,7 @@
   {
     "type": "npc_class",
     "id": "NC_MAQUIS_FENCER",
-    "name": { "str": "Maquis-Athlete" },
+    "name": { "str": "Maquis-Fencer" },
     "job_description": "I'm here to be the dashing swordswoman.",
     "common": false,
     "traits": [
@@ -21,7 +21,7 @@
       { "distribution": [ { "trait": "MARTIAL_ARTS3", "prob": 70 }, { "trait": "MARTIAL_ARTS5", "prob": 30 } ] },	  
       { "trait": "ROBUST", "prob": 100 },
       { "trait": "DEFT", "prob": 100 },
-      { "trait": "PARKOUR ", "prob": 100 }
+      { "trait": "PARKOUR", "prob": 100 }
     ],
     "skills": [
       { "skill": "ALL", "level": { "sum": [ { "dice": [ 3, 2 ] }, { "constant": -4 } ] } },
