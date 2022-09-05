@@ -60,7 +60,7 @@
       { "item": "knee_high_boots", "prob": 100 },
       { "item": "plastron_plastic", "prob": 100 },
       {
-        "distribution": [ { "item": "panties", "prob": 75 }, { "item": "fancy_panties", "prob": 50 }, { "item": "boy_shorts", "prob": 15 } ]
+        "distribution": [ { "item": "panties", "prob": 75 }, { "item": "boxer_shorts", "prob": 50 }, { "item": "boy_shorts", "prob": 15 } ]
       },
       { "distribution": [ { "item": "socks", "prob": 25 }, { "item": "socks_ankle", "prob": 75 } ] },
       {
