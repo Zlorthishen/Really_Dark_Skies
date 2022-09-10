@@ -57,124 +57,31 @@
       { "skill": "pistol", "bonus": { "rng": [ 1, 2 ] } },
       { "skill": "rifle", "bonus": { "rng": [ 1, 2 ] } }
     ],
+    "worn_override": "NC_MAQUIS_SLIME_MUTANT_worn",
+    "weapon_override": "NC_MAQUIS_SLIME_MUTANT_weapon",
+    "carry_override": "NC_MAQUIS_SLIME_MUTANT_carry",
     "bonus_str": { "rng": [ -2, 0 ] },
     "bonus_dex": { "rng": [ 1, 3 ] },
     "bonus_int": { "rng": [ 3, 5 ] },
     "bonus_per": { "rng": [ 1, 3 ] }
   },
   {
-    "//": "----------INVENTORY LOADOUTS-----------------------------------------------------------------------------------",
+    "id": "NC_MAQUIS_SLIME_MUTANT_weapon",
     "type": "item_group",
-    "id": "NC_MAQUIS_SLIME_MUTANT_underwear_bottom_male",
     "subtype": "collection",
-    "items": [ [ "boxer_shorts", 70 ], [ "briefs", 30 ], [ "boxer_briefs", 50 ] ]
+    "entries": [ { "item": "coat_rain" }, { "item": "mbag" } ]
   },
   {
+    "id": "NC_MAQUIS_FELIX_FOX_weapon",
     "type": "item_group",
-    "id": "NC_MAQUIS_SLIME_MUTANT_underwear_bottom_female",
     "subtype": "collection",
-    "items": [ [ "bikini_bottom", 100 ] ]
+    "entries": [ { "item": "q_staff" } ]
   },
   {
+    "id": "NC_MAQUIS_SLIME_MUTANT_worn",
     "type": "item_group",
-    "id": "NC_MAQUIS_SLIME_MUTANT_underwear_top_female",
     "subtype": "collection",
-    "items": [ [ "bikini_bottom", 100 ] ]
-  },
-  {
-    "type": "item_group",
-    "id": "NC_MAQUIS_SLIME_MUTANT_shirt_female",
-    "subtype": "distribution",
-    "entries": [ { "item": "sundress", "prob": 200 } ]
-  },
-  {
-    "type": "item_group",
-    "id": "NC_MAQUIS_SLIME_MUTANT_gloves",
-    "subtype": "distribution",
-    "entries": [ { "item": "null", "prob": 100 } ]
-  },
-  {
-    "type": "item_group",
-    "id": "NC_MAQUIS_SLIME_MUTANT_coat",
-    "subtype": "distribution",
-    "entries": [ { "item": "coat_rain", "prob": 100 } ]
-  },
-  {
-    "type": "item_group",
-    "id": "NC_MAQUIS_SLIME_MUTANT_shoes",
-    "subtype": "distribution",
-    "entries": [ { "item": "sneakers", "prob": 100 } ]
-  },
-  {
-    "type": "item_group",
-    "id": "NC_MAQUIS_SLIME_MUTANT_masks",
-    "subtype": "distribution",
-    "entries": [ { "item": "null", "prob": 100 } ]
-  },
-  {
-    "type": "item_group",
-    "id": "NC_MAQUIS_SLIME_MUTANT_eyes",
-    "subtype": "distribution",
-    "entries": [ { "item": "null", "prob": 100 } ]
-  },
-  {
-    "type": "item_group",
-    "id": "NC_MAQUIS_SLIME_MUTANT_hat",
-    "subtype": "distribution",
-    "entries": [ { "item": "null", "prob": 100 } ]
-  },
-  {
-    "type": "item_group",
-    "id": "NC_MAQUIS_SLIME_MUTANT_extra",
-    "subtype": "distribution",
-    "entries": [
-      { "item": "null", "prob": 5 },
-      { "item": "backpack", "prob": 75 },
-      { "item": "backpack_leather", "prob": 75 },
-      { "item": "rucksack", "prob": 5 }
-    ]
-  },
-  {
-    "type": "item_group",
-    "id": "NC_MAQUIS_SLIME_MUTANT_bashing",
-    "subtype": "distribution",
-    "entries": [
-      { "item": "hammer", "prob": 20 },
-      { "item": "wrench", "prob": 20 },
-      { "item": "hammer_sledge", "prob": 10 },
-      { "item": "hammer_sledge_short", "prob": 10 },
-      { "item": "pipe", "prob": 20 },
-      { "item": "bat", "prob": 20 },
-      { "item": "bat_metal", "prob": 20 },
-      { "item": "crowbar", "prob": 20 }
-    ]
-  },
-  {
-    "type": "item_group",
-    "id": "NC_MAQUIS_SLIME_MUTANT_cutting",
-    "subtype": "distribution",
-    "entries": [
-      { "item": "knife_butcher", "prob": 20 },
-      { "item": "hatchet", "prob": 20 },
-      { "item": "ax", "prob": 20 },
-      { "item": "machete", "prob": 20 },
-      { "item": "knife_combat", "prob": 20 }
-    ]
-  },
-  {
-    "type": "item_group",
-    "id": "NC_MAQUIS_SLIME_MUTANT_stabbing",
-    "subtype": "distribution",
-    "entries": [ { "item": "spear_knife", "prob": 50 }, { "item": "spear_rebar", "prob": 5 } ]
-  },
-  {
-    "type": "item_group",
-    "id": "NC_MAQUIS_SLIME_MUTANT_misc",
-    "subtype": "distribution",
-    "entries": [
-      { "group": "rad_gear", "count-min": 1, "count-max": 2, "prob": 10 },
-      { "group": "fireman_gear", "count-min": 1, "count-max": 2, "prob": 10 }
-    ]
+    "entries": [ { "item": "multitool" } ]
   },
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
