@@ -37,9 +37,9 @@
       { "skill": "pistol", "bonus": { "rng": [ 1, 2 ] } }
     ],
     "bionics": [
-      { "id": "bio_carbon", "chance": 25 },
-      { "id": "bio_speed", "chance": 10 },
-      { "id": "bio_dex_enhancer", "chance": 10 }
+      { "id": "bio_carbon", "chance": 35 },
+      { "id": "bio_speed", "chance": 40 },
+      { "id": "bio_dex_enhancer", "chance": 60 }
     ],
     "worn_override": "NC_MAQUIS_FENCER_worn",
     "weapon_override": "NC_MAQUIS_FENCER_weapon",
@@ -60,7 +60,7 @@
       { "item": "knee_high_boots", "prob": 100 },
       { "item": "plastron_plastic", "prob": 100 },
       {
-        "distribution": [ { "item": "panties", "prob": 75 }, { "item": "fancy_panties", "prob": 50 }, { "item": "boy_shorts", "prob": 15 } ]
+        "distribution": [ { "item": "panties", "prob": 85 }, { "item": "boy_shorts", "prob": 15 } ]
       },
       { "distribution": [ { "item": "socks", "prob": 25 }, { "item": "socks_ankle", "prob": 75 } ] },
       {
@@ -76,7 +76,7 @@
     "type": "item_group",
     "id": "NC_MAQUIS_FENCER_weapon",
     "subtype": "distribution",
-    "entries": [ { "item": "arming_sword", "prob": 95 }, { "item": "longsword", "prob": 65 }, { "item": "katana", "prob": 5 } ]
+    "entries": [ { "item": "arming_sword", "prob": 95 }, { "item": "longsword", "prob": 65 }, { "item": "katana", "prob": 15 } ]
   },
   {
     "id": "NC_MAQUIS_FENCER_carry",

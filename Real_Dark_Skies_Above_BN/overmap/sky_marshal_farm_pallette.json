@@ -27,7 +27,7 @@
       "`": "t_water_dp",
       "b": "t_region_groundcover_barren",
       "7": "t_dirtfloor",
-      "v": [ "t_window_domestic", "t_curtains" ],
+      "v": "t_window_bars_curtains",
       "ɣ": "t_window_alarm_taped",
       "|": "t_wall_w",
       "~": "t_water_sh",

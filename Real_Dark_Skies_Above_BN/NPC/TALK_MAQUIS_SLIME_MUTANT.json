@@ -66,19 +66,19 @@
     "bonus_per": { "rng": [ 1, 3 ] }
   },
   {
-    "id": "NC_MAQUIS_SLIME_MUTANT_weapon",
+    "id": "NC_MAQUIS_SLIME_MUTANT_worn",
     "type": "item_group",
     "subtype": "collection",
     "entries": [ { "item": "coat_rain" }, { "item": "mbag" } ]
   },
   {
-    "id": "NC_MAQUIS_FELIX_FOX_weapon",
+    "id": "NC_MAQUIS_SLIME_MUTANT_weapon",
     "type": "item_group",
     "subtype": "collection",
     "entries": [ { "item": "q_staff" } ]
   },
   {
-    "id": "NC_MAQUIS_SLIME_MUTANT_worn",
+    "id": "NC_MAQUIS_SLIME_MUTANT_carry",
     "type": "item_group",
     "subtype": "collection",
     "entries": [ { "item": "multitool" } ]
