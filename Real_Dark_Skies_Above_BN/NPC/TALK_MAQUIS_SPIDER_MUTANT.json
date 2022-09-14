@@ -68,8 +68,6 @@
     "id": "NC_MAQUIS_SPIDER_MUTANT_worn",
     "subtype": "distribution",
     "entries": [
-      { "item": "bikini_bottom" },
-      { "item": "skirt" },
       { "item": "mbag" }
     ]
   },

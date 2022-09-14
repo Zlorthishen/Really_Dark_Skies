@@ -4,6 +4,11 @@
     "type": "talk_topic",
     "responses": [
       {
+        "text": "Lets set a combat strategy",
+        "condition": { "npc_has_var": "temporal_follower", "type": "general", "context": "maquis_arsonist", "value": "yes" },
+        "topic": "TALK_COMBAT_COMMANDS"
+      },
+      {
         "text": "[TEST] Mission back to Barter Town",
         "condition": {
           "and": [
@@ -24,7 +29,7 @@
       { "text": "On second thought…", "topic": "TALK_ARSONIST" },
       {
         "text": "I'm ready to go.",
-        "effect": { "add_mission": "MISSION_ROBOFAC_MERC_1_GOLD" },
+        "effect": { "add_mission": "DKZ_MAQUIS_RETURN_z1_3_3" },
         "topic": "TALK_ARSONIST_WORLD_OPTIMISTIC"
       }
     ]
@@ -40,11 +45,15 @@
     "difficulty": 0,
     "value": 0,
     "start": {
+      "effect": [
+        "follow_only",
+        { "npc_add_var": "temporal_follower", "type": "general", "context": "maquis_arsonist", "value": "yes" }
+      ],
       "assign_mission_target": {
         "om_terrain": "racing_tower_z0_3_3",
         "om_special": "arcology_racing",
         "reveal_radius": 1,
-        "search_range": 360,
+        "search_range": 700,
         "z": 1
       }
     },
@@ -52,7 +61,7 @@
       "effect": [
         "stop_following",
         { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 2 },
-        { "npc_lose_var": "temporal_follower", "type": "general", "context": "maquis_riot_guard" }
+        { "npc_lose_var": "temporal_follower", "type": "general", "context": "maquis_arsonist" }
       ]
     },
     "origins": [ "ORIGIN_SECONDARY" ],

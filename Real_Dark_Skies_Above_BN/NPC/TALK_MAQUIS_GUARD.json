@@ -133,20 +133,7 @@
     "type": "item_group",
     "id": "NC_MAQUIS_GUARD_weapon",
     "subtype": "distribution",
-    "entries": [
-      { "item": "hammer", "prob": 20 },
-      { "item": "hammer_sledge", "prob": 10 },
-      { "item": "hammer_sledge_short", "prob": 10 },
-      { "item": "pipe", "prob": 20 },
-      { "item": "bat", "prob": 20 },
-      { "item": "bat_metal", "prob": 20 },
-      { "item": "crowbar", "prob": 20 },
-      { "item": "knife_butcher", "prob": 20 },
-      { "item": "hatchet", "prob": 20 },
-      { "item": "ax", "prob": 20 },
-      { "item": "machete", "prob": 20 },
-      { "item": "knife_combat", "prob": 20 }
-    ]
+    "entries": [   { "group": "DKZ_bashing_improvised",  "prob": 50} ,{ "group": "DKZ_cutting_improvised" ,  "prob": 50 }   ]  
   },
   {
     "id": "NC_MAQUIS_GUARD_carry",

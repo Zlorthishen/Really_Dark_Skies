@@ -5,6 +5,7 @@
     "class": "NC_MAQUIS_MEDICAL_MUTANT",
     "attitude": 0,
     "mission": 7,
+    "gender": "male",	
     "chat": "TALK_MAQUIS_MEDICAL_MUTANT_ROOT",
     "faction": "maquis"
   },
