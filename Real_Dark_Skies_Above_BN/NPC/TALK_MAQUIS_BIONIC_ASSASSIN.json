@@ -63,7 +63,7 @@
     "subtype": "collection",
     "entries": [
       {
-        "distribution": [ { "item": "boy_shorts", "prob": 50 }, { "item": "panties", "prob": 60 }, { "item": "boxer_shorts", "prob": 5 } ]
+        "distribution": [ { "item": "boy_shorts", "prob": 50 }, { "item": "panties", "prob": 60 }, { "item": "boxer_shorts", "prob": 2 } ]
       },
       { "distribution": [ { "item": "socks", "prob": 50 }, { "item": "socks_ankle", "prob": 50 } ] },
       {
@@ -91,9 +91,10 @@
         "distribution": [ { "item": "keffiyeh", "prob": 75 }, { "item": "bandana", "prob": 50 }, { "item": "null", "prob": 1 } ]
       },	  
       {
-        "distribution": [ { "item": "backpack", "prob": 50 }, { "item": "backpack_leather", "prob": 50 }, { "item": "null", "prob": 5 } ]
+        "distribution": [ { "item": "backpack", "prob": 50 }, { "item": "backpack_leather", "prob": 50 }, { "item": "mbag", "prob": 25 } ]
       },
-      { "item": "hat_ball", "prob": 100 }
+      { "item": "hat_ball", "prob": 100 },
+      { "item": "ballistic_vest_esapi" }
     ]
   },
   {

@@ -5,7 +5,7 @@
     "class": "NC_MAQUIS_MANTIS_MUTANT",
     "attitude": 0,
     "mission": 7,
-    "gender": "male",	
+    "gender": "male",
     "chat": "TALK_MAQUIS_MANTIS_MUTANT_ROOT",
     "faction": "maquis"
   },
@@ -65,17 +65,12 @@
     "bonus_int": { "rng": [ -3, 0 ] },
     "bonus_per": { "rng": [ -2, 1 ] }
   },
-
   {
     "type": "item_group",
     "id": "NC_MAQUIS_MANTIS_MUTANT_worn",
     "subtype": "distribution",
-    "entries": [
-      { "item": "tunic" },
-      { "item": "mbag" }
-    ]
+    "entries": [ { "item": "tunic" }, { "item": "mbag" } ]
   },
-  
   {
     "type": "item_group",
     "id": "NC_MAQUIS_MANTIS_MUTANT_weapon",
@@ -89,13 +84,8 @@
     "id": "NC_MAQUIS_MANTIS_MUTANT_carry",
     "type": "item_group",
     "subtype": "collection",
-    "items": [
-      { "item": "8x40_25_mag", "charges-min": 20, "count": 1 },
-      { "item": "8mm_caseless", "count": 5 }
-    ]
-  }, 
-
-
+    "items": [ { "item": "8x40_25_mag", "charges-min": 20, "count": 1 }, { "item": "8mm_caseless", "count": 5 } ]
+  },
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MAQUIS_MANTIS_MUTANT_ROOT",

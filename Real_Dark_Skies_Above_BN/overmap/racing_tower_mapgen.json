@@ -271,7 +271,6 @@
       "palettes": [ "arcology_palette" ]
     }
   },
-
   {
     "type": "mapgen",
     "method": "json",
@@ -551,12 +550,14 @@
       "palettes": [ "arcology_palette" ],
       "place_npcs": [
         { "class": "DKZ_MAQUIS_ELF_MUTANT", "x": 37, "y": 37, "add_trait": "DKZ_COMBAT" },
-        { "class": "DKZ_MAQUIS_FELINE_MUTANT", "x": 39, "y": 37, "add_trait": "DKZ_LEADER" }
+        { "class": "DKZ_MAQUIS_FELINE_MUTANT", "x": 39, "y": 37, "add_trait": "DKZ_LEADER" },
+        { "class": "DKZ_MAQUIS_MOTH_MUTANT", "x": 39, "y": 39, "add_trait": "DKZ_LEADER" }
       ],
       "terrain": {
         "X": "t_zebra",
         "Z": [ "t_junk_wall", "t_junk_palisade", "t_junk_palisade" ],
         "z": [ "t_junk_palisade", "t_junk_palisade", "t_junk_wall" ],
+        "B": "t_pavement",
         "s": "t_pavement"
       },
       "place_nested": [
@@ -2036,6 +2037,8 @@
       "palettes": [ "arcology_palette" ],
       "place_npcs": [
         { "class": "DKZ_MAQUIS_BIONIC_ASSASSIN", "x": 69, "y": 4, "add_trait": "DKZ_COMBAT" },
+        { "class": "DKZ_MAQUIS_RIOT_COP", "x": 71, "y": 3, "add_trait": "DKZ_LEADER" },
+        { "class": "DKZ_MAQUIS_RIOT_COP", "x": 76, "y": 3, "add_trait": "DKZ_LEADER" },
         { "class": "DKZ_MAQUIS_CYBERCOP", "x": 72, "y": 5, "add_trait": "DKZ_LEADER" },
         { "class": "DKZ_MAQUIS_BIONIC_DOCTOR", "x": 84, "y": 6, "add_trait": "DKZ_MEDIC" },
         { "class": "DKZ_MAQUIS_ELF_MUTANT", "x": 81, "y": 5, "add_trait": "DKZ_MEDIC" }
