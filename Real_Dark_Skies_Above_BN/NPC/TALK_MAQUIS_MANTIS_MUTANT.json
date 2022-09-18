@@ -69,7 +69,7 @@
     "type": "item_group",
     "id": "NC_MAQUIS_MANTIS_MUTANT_worn",
     "subtype": "distribution",
-    "entries": [ { "item": "tunic" }, { "item": "mbag" } ]
+    "entries": [ { "item": "loincloth" }, { "item": "mbag" } ]
   },
   {
     "type": "item_group",

@@ -42,9 +42,9 @@
       { "distribution": [ { "trait": "WAKEFUL", "prob": 50 }, { "trait": "WAKEFUL2", "prob": 50 } ] }
     ],
     "bionics": [
-      { "id": "bio_armor_eyes", "chance": 100 },
+      { "id": "bio_armor_eyes", "chance": 10 },
       { "id": "bio_batteries", "chance": 100 },
-      { "id": "bio_tools", "chance": 100 },
+      { "id": "bio_tools", "chance": 70 },
       { "id": "bio_carbon", "chance": 10 },
       { "id": "bio_power_armor_interface", "chance": 80 },
       { "id": "bio_uncanny_dodge", "chance": 70 },

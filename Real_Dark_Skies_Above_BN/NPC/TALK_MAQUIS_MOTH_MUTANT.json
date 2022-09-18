@@ -70,7 +70,7 @@
     "id": "NC_MAQUIS_MOTH_MUTANT_worn",
     "type": "item_group",
     "subtype": "collection",
-    "entries": [ { "item": "coat_lab" }, { "item": "mbag" } ]
+    "entries": [ { "item": "loincloth" }, { "item": "mbag" } ]
   },
   {
     "id": "NC_MAQUIS_MOTH_MUTANT_weapon",

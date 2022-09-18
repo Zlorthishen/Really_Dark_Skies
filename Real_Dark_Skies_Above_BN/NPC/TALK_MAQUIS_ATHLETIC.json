@@ -135,7 +135,15 @@
           { "item": "backpack_leather", "prob": 50 },
           { "item": "rucksack", "prob": 5 }
         ]
-      }
+      },
+      {
+        "distribution": [
+          { "item": "null", "prob": 5 },
+          { "group": "DKZ_armor_improvised_arm", "prob": 75 },
+          { "group": "DKZ_armor_chitin_arm", "prob": 15 }
+        ]
+      },
+      { "group": "DKZ_armor_improvised_leg", "prob": 90 }
     ]
   },
   {
@@ -143,6 +151,10 @@
     "id": "NC_MAQUIS_ATHLETIC_weapon",
     "subtype": "distribution",
     "entries": [
+      {
+        "distribution": [ { "group": "DKZ_guns_pistol_common", "prob": 40 }, { "group": "DKZ_guns_rifle_common", "prob": 60 } ],
+        "prob": 10
+      },
       { "item": "hammer", "prob": 20 },
       { "item": "hammer_sledge", "prob": 10 },
       { "item": "hammer_sledge_short", "prob": 10 },
