@@ -4,63 +4,84 @@
     "type": "talk_topic",
     "responses": [
       {
-        "text": "Lets set a combat strategy",
-        "condition": { "npc_has_var": "temporal_follower", "type": "general", "context": "maquis_arsonist", "value": "yes" },
-        "topic": "TALK_COMBAT_COMMANDS"
-      },
-      {
-        "text": "[TEST] Mission back to Barter Town",
+        "text": "[TEST] Mission back to the Maquis safehouse",
         "condition": {
           "and": [
-            { "u_has_var": "TALK_ARSONIST_SUPPLIED", "type": "talk", "context": "flag", "value": "yes" },
-            { "u_has_var": "MrEriksonExists", "type": "knowledge", "context": "flag", "value": "yes" },
+            { "u_has_var": "TALK_ARSONIST_SUPPLIED", "type": "talk", "context": "flag", "value": "yes" },		  
+            { "not": { "u_has_var": "SkyMarshalExists", "type": "general", "context": "meeting", "value": "yes" } },
             { "u_has_any_trait": [ "DKZ_COMBAT", "DKZ_TECH", "DKZ_SCIENTIST", "DKZ_MEDIC", "DKZ_LEADER" ] }
           ]
         },
-        "topic": "TALK_ARSONIST_BACK_TO_BARTER_TOWN"
+        "topic": "TALK_ARSONIST_BACK_TO_MAQUIS_SAFEHOUSE"
       }
     ]
   },
   {
     "type": "talk_topic",
-    "id": "TALK_ARSONIST_BACK_TO_BARTER_TOWN",
+    "id": "TALK_ARSONIST_BACK_TO_MAQUIS_SAFEHOUSE",
     "dynamic_line": "I'm ready to go back when you are",
     "responses": [
       { "text": "On second thought…", "topic": "TALK_ARSONIST" },
       {
         "text": "I'm ready to go.",
-        "effect": { "add_mission": "DKZ_MAQUIS_RETURN_z1_3_3" },
-        "topic": "TALK_ARSONIST_WORLD_OPTIMISTIC"
+        "effect": { "add_mission": "DKZ_MAQUIS_RETURN_SKY_MARSHAL" },
+        "topic": "TALK_ARSONIST"
+      }
+    ]
+  },
+  {
+    "id": "TALK_ARSONIST_TRAVELING",
+    "type": "talk_topic",
+    "responses": [
+      {
+        "text": "Lets set a combat strategy",
+        "condition": { "npc_has_var": "temporal_follower", "type": "general", "context": "maquis_arsonist", "value": "yes" },
+        "topic": "TALK_COMBAT_COMMANDS"
+      }
+    ]
+  },
+  {
+    "id": "TALK_ARSONIST_SAFE_HOUSE",
+    "type": "talk_topic",
+    "responses": [
+      {
+        "text": "Lets set a combat strategy",
+        "condition": { "npc_has_var": "temporal_follower", "type": "general", "context": "maquis_arsonist", "value": "yes" },
+        "topic": "TALK_COMBAT_COMMANDS"
       }
     ]
   },
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
-    "id": "DKZ_MAQUIS_RETURN_z1_3_3",
+    "id": "DKZ_MAQUIS_RETURN_SKY_MARSHAL",
     "type": "mission_definition",
-    "name": { "str": "Return to Maquis HQ" },
-    "description": "Return to Maquis HQ.",
+    "name": { "str": "Return to Maquis safehouse" },
+    "description": "Return to Maquis safehouse.",
     "goal": "MGOAL_GO_TO_TYPE",
-    "destination": "racing_tower_z0_2_2",
+    "destination": "sky_marshal_farm_13",
     "difficulty": 0,
     "value": 0,
     "start": {
       "effect": [
         "follow_only",
+        { "npc_first_topic": "TALK_ARSONIST_TRAVELING" },
+        { "u_add_var": "SkyMarshalExists", "type": "general", "context": "meeting", "value": "yes" },
         { "npc_add_var": "temporal_follower", "type": "general", "context": "maquis_arsonist", "value": "yes" }
       ],
       "assign_mission_target": {
-        "om_terrain": "racing_tower_z0_3_3",
-        "om_special": "arcology_racing",
-        "reveal_radius": 1,
-        "search_range": 700,
+        "om_terrain": "sky_marshal_farm_13",
+        "om_special": "sky_marshal_farm",
+        "reveal_radius": 7,
+        "search_range": 300,
         "z": 1
       }
     },
     "end": {
       "effect": [
         "stop_following",
-        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 2 },
+        "npc_thankful",
+        { "npc_first_topic": "TALK_ARSONIST_SAFE_HOUSE" },
+        { "npc_add_trait": "FEL_EYE" },
         { "npc_lose_var": "temporal_follower", "type": "general", "context": "maquis_arsonist" }
       ]
     },

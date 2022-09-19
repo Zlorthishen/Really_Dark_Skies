@@ -129,9 +129,6 @@
         "distribution": [ { "item": "gloves_leather", "prob": 50 }, { "item": "gloves_fingerless", "prob": 50 }, { "item": "null", "prob": 5 } ]
       },
       {
-        "distribution": [ { "item": "keffiyeh", "prob": 50 }, { "item": "bandana", "prob": 50 }, { "item": "null", "prob": 5 } ]
-      },
-      {
         "distribution": [ { "item": "backpack", "prob": 50 }, { "item": "backpack_leather", "prob": 50 }, { "item": "null", "prob": 5 } ]
       }
     ]

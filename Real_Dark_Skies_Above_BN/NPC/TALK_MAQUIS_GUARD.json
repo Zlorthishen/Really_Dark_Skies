@@ -133,7 +133,14 @@
     "type": "item_group",
     "id": "NC_MAQUIS_GUARD_weapon",
     "subtype": "distribution",
-    "entries": [   { "group": "DKZ_bashing_improvised",  "prob": 50} ,{ "group": "DKZ_cutting_improvised" ,  "prob": 50 }   ]  
+    "entries": [
+      {
+        "distribution": [ { "group": "DKZ_guns_rifle_military", "prob": 20 }, { "group": "DKZ_guns_rifle_common", "prob": 80 } ]
+      },
+      {
+        "distribution": [ { "group": "DKZ_bashing_improvised", "prob": 50 }, { "group": "DKZ_cutting_improvised", "prob": 50 } ]
+      }
+    ]
   },
   {
     "id": "NC_MAQUIS_GUARD_carry",
