@@ -918,7 +918,7 @@
         "J jJ",
         " J j",
         "j Jj",
-        "jJ J"
+        "jJJ "
       ],
       "terrain": { " ": "t_null" },
       "furniture": {
@@ -941,7 +941,7 @@
         " jJj",
         "Jj J",
         " JjJ",
-        "JJ j"
+        "JJj "
       ],
       "terrain": { " ": "t_null" },
       "furniture": {
@@ -962,9 +962,9 @@
       "rotation": [ 0, 3 ],
       "rows": [
         "JJJj",
-        " jj ",
+        "J jJ",
         "JjJ ",
-        "  jj"
+        " jj "
       ],
       "terrain": { " ": "t_null" },
       "furniture": {
@@ -1012,9 +1012,9 @@
         "  jjj ",
         "JjJj J",
         " Jjjj ",
-        "Jj jj ",
-        "jjjJJ ",
-        "  jjJJ"
+        "Jj jjJ",
+        "jjjJJJ",
+        "  jjJ "
       ],
       "terrain": { " ": "t_null" },
       "furniture": {
@@ -1035,11 +1035,11 @@
       "rotation": [ 0, 3 ],
       "rows": [
         " JJjJj",
-        " J jjJ",
+        "jJ jjJ",
         "jJjjjj",
         "JJ jJj",
         " jjJJ ",
-        "JJ  jj"
+        "JJ  j "
       ],
       "terrain": { " ": "t_null" },
       "furniture": {
@@ -1067,12 +1067,12 @@
       "mapgensize": [ 6, 6 ],
       "rotation": [ 0, 3 ],
       "rows": [
-        "  Jjj ",
+        "J Jjj ",
         "jJj J ",
         " jJj j",
         "JJjJJj",
         "Jj Jjj",
-        "J jjJJ"
+        "J jjJ "
       ],
       "terrain": { " ": "t_null" },
       "furniture": {
@@ -1094,10 +1094,10 @@
       "rows": [
         "Jj J j",
         " JJJjJ",
-        " J  jj",
+        "jJ  jj",
         "JJjJj ",
         " JjJ j",
-        "jJJ jj"
+        "jJJ j "
       ],
       "terrain": { " ": "t_null" },
       "furniture": {
@@ -1122,7 +1122,7 @@
         "jJjjjj",
         "jJ Jj ",
         " JjJJJ",
-        "jj  Jj"
+        "jj  J "
       ],
       "terrain": { " ": "t_null" },
       "furniture": {

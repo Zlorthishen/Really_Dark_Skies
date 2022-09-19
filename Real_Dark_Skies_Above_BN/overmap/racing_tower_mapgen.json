@@ -1940,8 +1940,8 @@
         "................................................................................................",
         "..#..#..#..#..#..#..#..#..#..#..#..#..#..#..#..##..#..#..#..#..#..#..#..#..#..#..#..#..#..#..#..",
         ".#########G##G##G##G##G##G##G##G##G##G##G##G##G##G##G##G##G##G##G##G##G##G##G##G##G##G#########.",
-        "..#<                        JJjJJjJJjJ JJ JJjJJ J  # z    ż # ż    z #     C 6#Ll Ll Ll#>  <<#..",
-        "..#<                                            J  # Z;  ;Z # Z;  ;Z #  ;  ; X#  ;  ;  #>    #..",
+        "..#<                        JJjJJjJJjJ JJ JJjJJ J  # z    ż # ż    z # ć   C 6#Ll Ll Ll#>  <<#..",
+        "..#<                                            J  # Z;  ;Z # Z;  ;Z #ćT;  ; X#  ;  ;  #>    #..",
         ".##                                             JJ #        #        #        #N      N#     ##.",
         "..#   ;                                         jj #LL    LL#LL    LL#xxx  xxx#n      n##;   #..",
         "..#>> #                                         JJJ####++#######++#######++#######++####     G..",
@@ -2036,6 +2036,8 @@
       ],
       "palettes": [ "arcology_palette" ],
       "place_npcs": [
+        { "class": "DKZ_MAQUIS_MEDICAL_MUTANT", "x": 55, "y": 4, "add_trait": "DKZ_MEDIC" },
+        { "class": "DKZ_MAQUIS_MEDICAL_MUTANT", "x": 64, "y": 4, "add_trait": "DKZ_MEDIC" },
         { "class": "DKZ_MAQUIS_BIONIC_ASSASSIN", "x": 69, "y": 4, "add_trait": "DKZ_COMBAT" },
         { "class": "DKZ_MAQUIS_RIOT_COP", "x": 71, "y": 3, "add_trait": "DKZ_LEADER" },
         { "class": "DKZ_MAQUIS_RIOT_COP", "x": 76, "y": 3, "add_trait": "DKZ_LEADER" },
@@ -2071,6 +2073,7 @@
       "furniture": {
         "j": [ "f_cardboard_box", "f_cardboard_box", "f_cardboard_box", "f_crate_c" ],
         "J": "f_cardboard_wall",
+        "ć": "f_camp_chair",
         "C": "f_armchair",
         "T": "f_table",
         "n": "f_autodoc",
@@ -2089,6 +2092,7 @@
           { "item": "drugs_rare", "chance": 10 },
           { "item": "surgery", "chance": 90 }
         ],
+        "T": { "item": "money_bundle", "chance": 100 },
         "x": { "item": "exotic_books", "chance": 100, "repeat": [ 2, 3 ] },
         "X": { "item": "bar_alcohol", "chance": 100, "repeat": [ 3, 5 ] }
       },
