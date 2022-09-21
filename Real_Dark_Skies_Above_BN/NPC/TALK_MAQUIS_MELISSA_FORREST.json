@@ -35,7 +35,7 @@
     ],
     "skills": [
       { "skill": "ALL", "level": { "sum": [ { "dice": [ 3, 2 ] }, { "constant": -4 } ] } },
-      { "skill": "survival", "bonus": { "rng": [ 5, 6 ] } },
+      { "skill": "survival", "bonus": { "rng": [ 7, 9 ] } },
       { "skill": "dodge", "bonus": { "rng": [ 2, 3 ] } },
       { "skill": "melee", "bonus": { "rng": [ 4, 5 ] } },
       { "skill": "unarmed", "bonus": { "rng": [ 1, 2 ] } },
