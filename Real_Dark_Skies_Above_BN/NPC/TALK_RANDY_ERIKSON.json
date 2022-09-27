@@ -557,7 +557,7 @@
         "random": true,
         "min_distance": 75
       },
-      "update_mapgen": { "place_npcs": [ { "class": "DKZ_CHAD_ERIKSON", "x": 3, "y": 3, "target": true } ] },
+      "update_mapgen": { "place_npcs": [ { "class": "DKZ_CHAD_ERIKSON", "x": 3, "y": 3, "add_trait": "DKZ_LEADER" } ] },
       "effect": [ { "u_add_var": "MrEriksonExists", "type": "knowledge", "context": "flag", "value": "yes" } ]
     },
     "origins": [ "ORIGIN_SECONDARY" ],

@@ -5,6 +5,7 @@
     "class": "NC_MAQUIS_GUNSLINGER",
     "attitude": 0,
     "mission": 7,
+    "gender": "male",
     "chat": "TALK_MAQUIS_GUNSLINGER_ROOT",
     "mission_offered": "DKZ_MAQUIS_GUNSLINGER_CARDS_MISSION_1",
     "faction": "maquis"
@@ -13,7 +14,7 @@
     "type": "npc_class",
     "id": "NC_MAQUIS_GUNSLINGER",
     "name": { "str": "Maquis-Gunslinger" },
-    "job_description": "I'm here to shoot the wings off flies.",
+    "job_description": "I'm here to shoot the wings off flies, but shooting aliens works too.",
     "common": false,
     "traits": [
       { "group": "DKZ_starting_traits" },
@@ -104,7 +105,7 @@
     "type": "item_group",
     "id": "NC_MAQUIS_GUNSLINGER_weapon",
     "subtype": "distribution",
-    "entries": [ { "item": "guns_pistol_milspec", "prob": 115 } ]
+    "entries": [ { "group": "guns_pistol_milspec", "prob": 115 } ]
   },
   {
     "id": "NC_MAQUIS_GUNSLINGER_carry",

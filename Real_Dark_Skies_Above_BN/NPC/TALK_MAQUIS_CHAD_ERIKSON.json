@@ -57,13 +57,13 @@
       { "id": "bio_power_storage_mkII", "chance": 100 },
       { "id": "bio_power_storage_mkII", "chance": 100 }
     ],
+    "worn_override": "NC_DKZ_CHAD_ERIKSON_worn",
+    "carry_override": "NC_DKZ_CHAD_ERIKSON_carried",
+    "weapon_override": "NC_DKZ_CHAD_ERIKSON_weapon",
     "bonus_str": { "rng": [ 2, 3 ] },
     "bonus_dex": { "rng": [ -1, 0 ] },
     "bonus_int": { "rng": [ 2, 3 ] },
-    "bonus_per": { "rng": [ 3, 4 ] },
-    "worn_override": "NC_DKZ_CHAD_ERIKSON_worn",
-    "carry_override": "NC_DKZ_CHAD_ERIKSON_carried",
-    "weapon_override": "NC_DKZ_CHAD_ERIKSON_weapon"
+    "bonus_per": { "rng": [ 3, 4 ] }
   },
   {
     "id": "NC_DKZ_CHAD_ERIKSON_weapon",
