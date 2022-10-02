@@ -5,7 +5,6 @@
     "class": "NC_MAQUIS_MERCHANT",
     "attitude": 0,
     "mission": 3,
-    "gender": "male",	
     "chat": "TALK_MAQUIS_MERCHANT_ROOT",
     "faction": "maquis"
   },
@@ -139,7 +138,7 @@
     "id": "NC_MAQUIS_MERCHANT_carry",
     "type": "item_group",
     "subtype": "collection",
-    "items": [ { "item": "badge_swat", "prob": 100 }, { "item": "baton", "prob": 100 } ]
+    "items": [ { "item": "baton", "prob": 100 } ]
   },
 
   {

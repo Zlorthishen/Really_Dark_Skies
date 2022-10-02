@@ -1,9 +1,8 @@
 [
   {
-    "//": "Provides plot hooks and missions arcs",
     "type": "npc",
     "id": "DKZ_CHAD_ERIKSON",
-    "class": "NC_Chad_Erikson",
+    "class": "NC_CHAD_ERIKSON",
     "name_unique": "Chad Erikson",
     "gender": "male",
     "attitude": 0,
@@ -14,7 +13,7 @@
   },
   {
     "type": "npc_class",
-    "id": "NC_Chad_Erikson",
+    "id": "NC_CHAD_ERIKSON",
     "name": { "str": "Chad Erikson" },
     "job_description": "I am the leader of the local chapter of the Maquis, the last human resistance against the Xenoid invaders.",
     "skills": [
