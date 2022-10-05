@@ -6,8 +6,7 @@
       {
         "text": "[TEST] Mission back to the Maquis safehouse",
         "condition": {
-          "and": [
-            { "u_has_var": "TALK_ARSONIST_SUPPLIED", "type": "talk", "context": "flag", "value": "yes" },		  
+          "and": [  
             { "not": { "u_has_var": "SkyMarshalExists", "type": "general", "context": "meeting", "value": "yes" } },
             { "u_has_any_trait": [ "DKZ_COMBAT", "DKZ_TECH", "DKZ_SCIENTIST", "DKZ_MEDIC", "DKZ_LEADER" ] }
           ]
