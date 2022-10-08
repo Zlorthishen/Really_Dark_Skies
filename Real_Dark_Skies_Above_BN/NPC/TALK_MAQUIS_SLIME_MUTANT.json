@@ -36,17 +36,14 @@
       { "trait": "THIRST2", "prob": 50 },
       { "trait": "HOLLOW_BONES", "prob": 30 },
       { "trait": "ROBUST", "prob": 20 },
-      { "trait": "UNSTABLE", "prob": 20 },
-      { "trait": "DEFORMED3", "prob": 20 },
-      { "trait": "SMELLY2", "prob": 15 },
-      { "trait": "SORES", "prob": 10 }
+      { "trait": "UNSTABLE", "prob": 20 }
     ],
     "skills": [
       { "skill": "ALL", "level": { "sum": [ { "dice": [ 3, 2 ] }, { "constant": -4 } ] } },
       { "skill": "survival", "bonus": { "rng": [ 2, 3 ] } },
       { "skill": "firstaid", "bonus": { "rng": [ 1, 2 ] } },
       { "skill": "dodge", "bonus": { "rng": [ 3, 5 ] } },
-      { "skill": "melee", "bonus": { "rng": [ 4, 6 ] } },
+      { "skill": "melee", "bonus": { "rng": [ 5, 7 ] } },
       { "skill": "unarmed", "bonus": { "rng": [ 1, 3 ] } },
       { "skill": "bashing", "bonus": { "rng": [ 3, 5 ] } },
       { "skill": "stabbing", "bonus": { "rng": [ 1, 3 ] } },

@@ -111,6 +111,8 @@
         "########################rrrrXrrrXrrrrrrXrrrXrrrr################################################"
       ],
       "palettes": [ "arcology_palette" ],
+      "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "free_merchants", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],
+	  
       "place_npcs": [
         { "class": "DKZ_MAQUIS_BEAST_MUTANT", "x": 82, "y": 81, "add_trait": "DKZ_COMBAT" },
         { "class": "DKZ_MAQUIS_BEAST_MUTANT", "x": 80, "y": 77, "add_trait": "DKZ_COMBAT" },
