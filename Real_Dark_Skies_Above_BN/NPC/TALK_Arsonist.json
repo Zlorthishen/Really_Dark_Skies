@@ -84,6 +84,7 @@
         "npc_thankful",
         { "npc_first_topic": "TALK_ARSONIST_SAFE_HOUSE" },
         { "npc_add_trait": "FEL_EYE" },
+        { "npc_add_trait": "FEL_TAIL" },
         { "npc_lose_var": "temporal_follower", "type": "general", "context": "maquis_arsonist" }
       ]
     },
