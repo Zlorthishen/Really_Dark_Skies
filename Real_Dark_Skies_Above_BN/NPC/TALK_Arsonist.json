@@ -8,6 +8,7 @@
         "condition": {
           "and": [  
             { "not": { "u_has_var": "SkyMarshalExists", "type": "general", "context": "meeting", "value": "yes" } },
+            {  "u_has_var": "TALK_ARSONIST_SUPPLIED", "type": "talk", "context": "flag", "value": "yes"  },
             { "u_has_any_trait": [ "DKZ_COMBAT", "DKZ_TECH", "DKZ_SCIENTIST", "DKZ_MEDIC", "DKZ_LEADER" ] }
           ]
         },
@@ -74,6 +75,7 @@
         "om_terrain": "sky_marshal_farm_13",
         "om_special": "sky_marshal_farm",
         "reveal_radius": 7,
+        "min_distance": 95,	
         "search_range": 300,
         "z": 1
       }
