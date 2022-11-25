@@ -4,6 +4,7 @@
     "method": "json",
     "update_mapgen_id": "xenoid_dropsite_forest_seven",
     "object": {
+      "fill_ter": "t_null",	
       "rows": [
         "                        ",
         "                        ",
@@ -59,6 +60,7 @@
     "method": "json",
     "update_mapgen_id": "xenoid_dropsite_forest_five",
     "object": {
+      "fill_ter": "t_null",		
       "rows": [
         "                        ",
         "            r        r  ",
