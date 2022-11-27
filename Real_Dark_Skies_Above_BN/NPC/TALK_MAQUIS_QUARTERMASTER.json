@@ -110,7 +110,18 @@
       {
         "text": "Is there anything else I can to to help the Maquis than doing generic missions?",
         "topic": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_START",
-        "condition": "has_assigned_mission"
+        "condition": {
+          "and": [
+            "has_assigned_mission",
+            {
+              "u_compare_var": "maquis_morale",
+              "type": "counter",
+              "context": "refugee_center",
+              "op": ">",
+              "value": 0
+            }
+          ]
+        }
       },
       { "text": "Let's trade.", "topic": "TALK_MAQUIS_QUARTERMASTER_TRADE" },
       { "text": "What are you doing here?", "topic": "TALK_MAQUIS_QUARTERMASTER_DOING" },
@@ -217,7 +228,7 @@
     "id": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_INITIAL",
     "type": "talk_topic",
     "dynamic_line": [
-      "First thing we need is to create a dedicated medical area.  So far, casualties are treated by comrades-in-arms during battle, or taken upstairs for dedicated treatment.  What we need is several large areas where people can safely recover, and I have a few places in mind already.  I've also gotten requests from the engineers and scientists upstairs for additional room so they can analyze the Xenoids technology and biology.  There is also talk about setting up dedicated areas for small-arms production. "
+      "First thing we need is to create a dedicated medical area.  So far, casualties are treated by comrades-in-arms during battle, or taken away for dedicated treatment.  What we need is several large areas where people can safely recover, and I have a few places in mind already.  I've also gotten requests from the engineers and scientists upstairs for additional resources so they can analyze the Xenoids technology and biology.  There is also talk about setting up dedicated areas for small-arms production."
     ],
     "responses": [
       {
@@ -232,7 +243,7 @@
       },
       {
         "text": "Better weapons helps everyone.  Lets get a small-arms production running first.",
-        "condition": { "u_has_any_trait": [ "DKZ_COMBAT" ] },
+        "condition": { "u_has_any_trait": [ "DKZ_TECH", "DKZ_COMBAT" ] },
         "topic": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_COMBAT"
       }
     ]
@@ -356,7 +367,7 @@
       "update_mapgen": { "place_monster": [ { "monster": "dkz_mon_crystal_zap", "pack_size": [ 5, 6 ], "x": 10, "y": 10, "target": true } ] }
     },
     "end": { "effect": [ { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 3 } ] },
-    "followup": "DKZ_MAQUIS_QUARTERMASTER_CLEAN_UP_SEWER",	
+    "followup": "DKZ_MAQUIS_QUARTERMASTER_CLEAN_UP_SEWER",
     "origins": [ "ORIGIN_SECONDARY" ],
     "dialogue": {
       "describe": "I need you to find and kill some monsters.",

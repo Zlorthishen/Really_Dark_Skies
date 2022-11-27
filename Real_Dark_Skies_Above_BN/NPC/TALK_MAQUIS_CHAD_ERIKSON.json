@@ -5,8 +5,8 @@
     "class": "NC_CHAD_ERIKSON",
     "name_unique": "Chad Erikson",
     "gender": "male",
-    "attitude": 0,
-    "mission": 7,
+    "attitude": 1,
+    "mission": 3,
     "mission_offered": "MISSION_REFUGEE_CHAD_ERIKSON_1",
     "chat": "TALK_CHAD_ERIKSON_ROOT",
     "faction": "maquis"
