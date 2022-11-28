@@ -1286,7 +1286,6 @@
       "terrain": { " ": "t_null" },
       "place_npcs": [
         { "class": "DKZ_MAQUIS_ATHLETIC", "x": 5, "y": 1 , "add_trait": "DKZ_COMBAT"},
-        { "class": "DKZ_MAQUIS_GUARD", "x": 1, "y": 6 , "add_trait": "DKZ_COMBAT"},
         { "class": "DKZ_MAQUIS_GUARD", "x": 3, "y": 3 , "add_trait": "DKZ_COMBAT"}
       ],
       "furniture": { "C": "f_bench", "S": "f_stool", "T": "f_table" },
@@ -1315,8 +1314,7 @@
       "terrain": { " ": "t_null" },
       "place_npcs": [
         { "class": "DKZ_MAQUIS_CYBERCOP", "x": 1, "y": 1, "add_trait": "DKZ_COMBAT" },
-        { "class": "DKZ_MAQUIS_ATHLETIC", "x": 3, "y": 1 , "add_trait": "DKZ_COMBAT"},
-        { "class": "DKZ_MAQUIS_SPIDER_MUTANT", "x": 1, "y": 2 , "add_trait": "DKZ_COMBAT"}
+        { "class": "DKZ_MAQUIS_ATHLETIC", "x": 3, "y": 1 , "add_trait": "DKZ_COMBAT"}
       ],
       "furniture": { "C": "f_bench", "S": "f_stool", "T": "f_table", "X": "f_table", "V": "f_trashcan" },
       "items": {
@@ -1347,7 +1345,6 @@
         "       "
       ],
       "place_npcs": [
-        { "class": "DKZ_MAQUIS_DEMOLITIONS", "x": 5, "y": 1 , "add_trait": "DKZ_TECH"},
         { "class": "DKZ_MAQUIS_GUARD", "x": 1, "y": 6 , "add_trait": "DKZ_COMBAT"},
         { "class": "DKZ_MAQUIS_MANTIS_MUTANT", "x": 1, "y": 2 , "add_trait": "DKZ_COMBAT"},
         { "class": "DKZ_MAQUIS_ATHLETIC", "x": 5, "y": 5 , "add_trait": "DKZ_COMBAT"}

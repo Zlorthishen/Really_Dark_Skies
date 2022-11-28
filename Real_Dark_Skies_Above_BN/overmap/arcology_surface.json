@@ -2,25 +2,25 @@
   {
     "type": "mapgen",
     "method": "json",
-    "om_terrain": [ "arcology_outer_parking_1" ],
+    "om_terrain": [ "arcology_outer_parking_entry" ],
     "weight": 1,
     "object": {
       "fill_ter": "t_pavement",
       "rows": [
-        "==         `          ==",
-        "           `            ",
-        "           `            ",
-        "           `            ",
-        "           `            ",
-        "           `            ",
-        "           `            ",
-        "           `            ",
-        "           `            ",
-        "           `            ",
-        "           `            ",
-        "           `            ",
+        "====       ``       ====",
+        "           ``           ",
+        "           ``           ",
+        "           ``           ",
+        "           ``           ",
+        "           ``           ",
+        "           ``           ",
+        "           ``           ",
+        "           ``           ",
+        "           ``           ",
+        "           ``           ",
+        "           ``           ",
         "````````````````````````",
-        "                        ",
+        "````````````````````````",
         "                        ",
         "                        ",
         "                        ",
@@ -32,13 +32,18 @@
         "                        ",
         "                        "
       ],
-      "terrain": { "=": "t_chainfence", "_": "t_pavement", "`": "t_pavement_y" }
+      "terrain": { "=": "t_chainfence", "_": "t_pavement", "`": "t_pavement_y" },
+      "set": [
+        { "point": "trap", "id": "tr_beartrap", "x": [ 0, 23 ], "y": [ 0, 11 ], "repeat": [ 10, 11 ] },
+        { "point": "trap", "id": "tr_caltrops_glass", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 40, 50 ] },
+        { "point": "trap", "id": "tr_spike_pit", "x": [ 0, 23 ], "y": [ 12, 23 ], "repeat": [ 10, 25 ] }
+      ]
     }
   },
   {
     "type": "mapgen",
     "method": "json",
-    "om_terrain": [ "arcology_outer_parking_2" ],
+    "om_terrain": [ "arcology_outer_parking" ],
     "weight": 1,
     "object": {
       "fill_ter": "t_pavement",
@@ -68,43 +73,52 @@
         "                        ",
         "                        "
       ],
-      "terrain": { "=": "t_chainfence", "_": "t_pavement", "`": "t_pavement_y" }
+      "terrain": { "=": "t_chainfence", "_": "t_pavement", "`": "t_pavement_y" },
+      "set": [
+        { "point": "trap", "id": "tr_beartrap", "x": [ 0, 23 ], "y": [ 0, 11 ], "repeat": [ 10, 11 ] },
+        { "point": "trap", "id": "tr_caltrops_glass", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 40, 50 ] },
+        { "point": "trap", "id": "tr_spike_pit", "x": [ 0, 23 ], "y": [ 12, 23 ], "repeat": [ 10, 25 ] }
+      ]
     }
   },
   {
     "type": "mapgen",
     "method": "json",
-    "om_terrain": [ "arcology_outer_parking_3" ],
+    "om_terrain": [ "arcology_outer_parking_corner" ],
     "weight": 1,
     "object": {
       "fill_ter": "t_pavement",
       "rows": [
         "========================",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "````````````            ",
-        "           `            ",
-        "           `            ",
-        "           `            ",
-        "           `            ",
-        "           `            ",
-        "           `            ",
-        "           `            ",
-        "           `            ",
-        "           `            ",
-        "           `            ",
-        "           `            "
+        "                       =",
+        "                       =",
+        "                       =",
+        "                       =",
+        "                       =",
+        "                       =",
+        "                       =",
+        "                       =",
+        "                       =",
+        "                       =",
+        "                       =",
+        "````````````           =",
+        "           `           =",
+        "           `           =",
+        "           `           =",
+        "           `           =",
+        "           `           =",
+        "           `           =",
+        "           `           =",
+        "           `           =",
+        "           `           =",
+        "           `           =",
+        "           `           ="
       ],
-      "terrain": { "=": "t_chainfence", "_": "t_pavement", "`": "t_pavement_y" }
+      "terrain": { "=": "t_chainfence", "_": "t_pavement", "`": "t_pavement_y" },
+      "set": [
+        { "point": "trap", "id": "tr_caltrops_glass", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 40, 50 ] },
+        { "point": "trap", "id": "tr_spike_pit", "x": [ 0, 11 ], "y": [ 12, 23 ], "repeat": [ 10, 25 ] }
+      ]
     }
   },
   {
@@ -181,7 +195,7 @@
           "y": 197,
           "rotation": [ 90, 270 ],
           "chance": 50,
-          "fuel": 1,
+          "fuel": 0,
           "status": 1
         },
         {
@@ -190,7 +204,7 @@
           "y": 18,
           "rotation": [ 90, 270 ],
           "chance": 90,
-          "fuel": 1,
+          "fuel": 0,
           "status": 1
         },
         {
@@ -199,7 +213,7 @@
           "y": 17,
           "rotation": [ 90, 270 ],
           "chance": 90,
-          "fuel": 1,
+          "fuel": 0,
           "status": 1
         },
         {
@@ -208,7 +222,7 @@
           "y": 17,
           "rotation": [ 0, 180 ],
           "chance": 90,
-          "fuel": 1,
+          "fuel": 0,
           "status": 1
         },
         {
@@ -217,7 +231,7 @@
           "y": 15,
           "rotation": [ 90, 270 ],
           "chance": 90,
-          "fuel": 1,
+          "fuel": 0,
           "status": 1
         },
         {
@@ -226,7 +240,7 @@
           "y": 16,
           "rotation": [ 90, 270 ],
           "chance": 100,
-          "fuel": 1,
+          "fuel": 0,
           "status": 1
         },
         {
@@ -235,7 +249,7 @@
           "y": 16,
           "rotation": [ 90, 270 ],
           "chance": 35,
-          "fuel": 1,
+          "fuel": 0,
           "status": 1
         },
         {
@@ -244,7 +258,7 @@
           "y": 17,
           "rotation": [ 90, 270 ],
           "chance": 35,
-          "fuel": 1,
+          "fuel": 0,
           "status": 1
         },
         {
@@ -253,7 +267,7 @@
           "y": 16,
           "rotation": [ 0, 180 ],
           "chance": 90,
-          "fuel": 1,
+          "fuel": 0,
           "status": 1
         },
         {
@@ -262,7 +276,7 @@
           "y": 17,
           "rotation": [ 90, 270 ],
           "chance": 90,
-          "fuel": 1,
+          "fuel": 0,
           "status": 1
         },
         {
@@ -271,7 +285,7 @@
           "y": 18,
           "rotation": [ 90, 270 ],
           "chance": 90,
-          "fuel": 1,
+          "fuel": 0,
           "status": 1
         }
       ]
