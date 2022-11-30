@@ -62,7 +62,6 @@
       { "item": "postman_shorts" },
       { "item": "postman_shirt" },
       { "item": "postman_hat" },
-      { "item": "wearable_atomic_light" },
       { "item": "backpack" },
       { "item": "badge_deputy" },
       {
@@ -128,9 +127,11 @@
       { "text": "Are you in charge of the Maquis?", "topic": "TALK_MAQUIS_QUARTERMASTER_LEADERSHIP" },
       {
         "text": "[MISSION] I'm looking for Chad Erikson, his nephew Randy sent me.",
+        "effect": { "u_add_var": "u_Ask_QM_about_Big_Brother", "type": "general", "context": "meeting", "value": "yes" },		
         "condition": {
           "and": [
             { "not": { "u_has_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" } },
+            { "not": { "u_has_var": "u_Ask_QM_about_Big_Brother", "type": "general", "context": "meeting", "value": "yes" } },
             { "u_has_mission": "MISSION_CHECK_UP_ON_BIG_BROTHER" }
           ]
         },
@@ -285,7 +286,7 @@
       "type": "knowledge",
       "context": "flag",
       "value": "yes",
-      "yes": "Mr. Erikson is always coming and going, he's got an office upstairs somewhere.",
+      "yes": "The Maquis are numerous bands of survivors, former military operators, even mutated humans, that are united against the xenoid invaders.  Of everything going in with the cataclysm, the extra-terrestrial invasion takes priority.",
       "no": "The Maquis don't just let any random survivor walk into a heavily armed base and speak to the commander of the local cell, you need to demonstrate that you are really with us.  Try talking to people around and see if anyone needs help or if you're up for a combat mission, I might find someone to talk you out on patrol."
     },
     "responses": [
