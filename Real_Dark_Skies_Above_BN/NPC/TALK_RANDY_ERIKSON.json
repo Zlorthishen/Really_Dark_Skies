@@ -168,6 +168,20 @@
         "failure": { "topic": "TALK_RANDY_ERIKSON_Refuse_Boris_Mission_1" }
       },
       {
+        "text": "[RP] I am a member of the Maquis, I need to get to the nearest base.",
+        "condition": {
+          "and": [
+            { "u_has_any_trait": [ "DKZ_COMBAT", "DKZ_TECH", "DKZ_SCIENTIST", "DKZ_MEDIC", "DKZ_LEADER" ] },
+            { "not": { "u_has_var": "MrEriksonExists", "type": "general", "context": "meeting", "value": "yes" } },
+            { "not": { "u_has_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" } },
+            { "not": { "u_has_mission": "MISSION_CHECK_UP_ON_BIG_BROTHER" } },
+            { "not": { "u_has_mission": "MISSION_GO_MEET_THE_BIG_FED" } }
+			]
+        },
+        "effect": { "add_mission": "MISSION_CHECK_UP_ON_BIG_BROTHER" },
+        "topic": "TALK_RANDY_ERIKSON_MISSION_CHECK_UP_ON_BIG_BROTHER_MAQUIS"
+      },
+      {
         "text": "What can you tell me about the Xenoids?",
         "effect": { "u_add_var": "u_Talk_To_RandyErikson_about_Xenoids", "type": "general", "context": "meeting", "value": "yes" },
         "condition": { "u_has_any_trait": [ "DKZ_COMBAT", "DKZ_TECH", "DKZ_SCIENTIST", "DKZ_MEDIC", "DKZ_LEADER" ] },
@@ -290,22 +304,6 @@
             { "not": { "u_has_var": "MrEriksonExists", "type": "general", "context": "meeting", "value": "yes" } },
             { "not": { "u_has_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" } },
             { "not": { "u_has_mission": "MISSION_CHECK_UP_ON_BIG_BROTHER" } },
-            { "not": "has_many_assigned_mission" },
-            { "not": "has_assigned_mission" }
-          ]
-        },
-        "effect": { "add_mission": "MISSION_CHECK_UP_ON_BIG_BROTHER" },
-        "topic": "TALK_RANDY_ERIKSON_MISSION_CHECK_UP_ON_BIG_BROTHER_MAQUIS"
-      },
-      {
-        "text": "[RP] I am a member of the Maquis, I need to get to the nearest base.",
-        "condition": {
-          "and": [
-            { "u_has_any_trait": [ "DKZ_COMBAT", "DKZ_TECH", "DKZ_SCIENTIST", "DKZ_MEDIC", "DKZ_LEADER" ] },
-            { "not": { "u_has_var": "MrEriksonExists", "type": "general", "context": "meeting", "value": "yes" } },
-            { "not": { "u_has_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" } },
-            { "not": { "u_has_mission": "MISSION_CHECK_UP_ON_BIG_BROTHER" } },
-            { "not": { "u_has_mission": "MISSION_GO_MEET_THE_BIG_FED" } },
             { "not": "has_many_assigned_mission" },
             { "not": "has_assigned_mission" }
           ]
