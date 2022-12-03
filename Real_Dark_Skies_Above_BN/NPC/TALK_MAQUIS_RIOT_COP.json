@@ -6,7 +6,7 @@
     "attitude": 0,
     "mission": 7,
     "chat": "TALK_MAQUIS_RIOT_COP_ROOT",
-	"gender": "male",
+    "gender": "male",
     "faction": "maquis"
   },
   {
@@ -45,8 +45,10 @@
       { "id": "bio_armor_head", "chance": 1 },
       { "id": "bio_armor_legs", "chance": 1 },
       { "id": "bio_armor_torso", "chance": 1 }
-],	  
+    ],
     "worn_override": "NC_MAQUIS_RIOT_COP_worn",
+    "weapon_override": "NC_MAQUIS_RIOT_COP_weapon",
+    "carry_override": "NC_MAQUIS_RIOT_COP_carry",
     "bonus_str": { "rng": [ 1, 5 ] },
     "bonus_dex": { "rng": [ 1, 5 ] },
     "bonus_int": { "rng": [ -2, -1 ] },
@@ -84,14 +86,12 @@
       },
       {
         "distribution": [
-		
           { "item": "helmet_riot", "prob": 95 },
           { "item": "helmet_motor", "prob": 25 },
           { "item": "firehelmet", "prob": 10 },
           { "item": "tac_helmet", "prob": 15 },
           { "item": "tac_fullhelmet", "prob": 5 },
           { "item": "helmet_army", "prob": 20 }
-
         ]
       },
       {
@@ -106,58 +106,31 @@
       {
         "distribution": [ { "item": "backpack", "prob": 50 }, { "item": "backpack_leather", "prob": 50 }, { "item": "null", "prob": 5 } ]
       },
-      { "item": "fancy_sunglasses", "prob": 10 },
+      { "item": "fancy_sunglasses", "prob": 100 },
       { "item": "badge_marshal", "prob": 100 },
-      { "item": "8mm_caseless", "count-min": 10, "count-max": 30, "prob": 100 }
+      { "item": "8mm_caseless", "count-min": 10, "count-max": 30, "prob": 100 },
+      { "group": "DKZ_armor_improvised_arm", "prob": 90 },
+      { "group": "DKZ_armor_improvised_leg", "prob": 90 }
     ]
   },
   {
     "type": "item_group",
-    "id": "NC_MAQUIS_RIOT_COP_pistols",
-    "subtype": "distribution",
-    "entries": [ { "group": "guns_pistol_common", "prob": 70 }, { "group": "guns_pistol_rare", "prob": 20 } ]
-  },
-  {
-    "type": "item_group",
-    "id": "NC_MAQUIS_RIOT_COP_shotgun",
-    "subtype": "distribution",
-    "entries": [ { "group": "guns_shotgun_common", "prob": 70 }, { "group": "guns_shotgun_rare", "prob": 20 } ]
-  },
-  {
-    "type": "item_group",
-    "id": "NC_MAQUIS_RIOT_COP_smg",
-    "subtype": "distribution",
-    "entries": [ { "group": "guns_smg_common", "prob": 70 }, { "group": "guns_smg_rare", "prob": 20 } ]
-  },
-  {
-    "type": "item_group",
-    "id": "NC_MAQUIS_RIOT_COP_rifle",
-    "subtype": "distribution",
-    "entries": [ { "group": "guns_rifle_common", "prob": 100 }, { "group": "guns_rifle_rare", "prob": 60 } ]
-  },
-  {
-    "type": "item_group",
-    "id": "NC_MAQUIS_RIOT_COP_launcher",
-    "subtype": "distribution",
-    "entries": [ { "group": "guns_launcher_milspec", "prob": 70 } ]
-  },
-  {
-    "type": "item_group",
-    "id": "NC_MAQUIS_RIOT_COP_weapon_random",
-    "subtype": "distribution",
-    "entries": [ { "item": "q_staff", "prob": 100 } ]
-  },
-  {
-    "type": "item_group",
-    "id": "NC_MAQUIS_RIOT_COP_misc",
+    "id": "NC_MAQUIS_RIOT_COP_weapon",
     "subtype": "distribution",
     "entries": [
-      { "group": "rad_gear", "count-min": 1, "count-max": 2, "prob": 90 },
-      { "group": "fireman_gear", "count-min": 1, "count-max": 2, "prob": 90 },
-      { "item": "badge_swat", "prob": 100 },
-      { "item": "atomic_lamp", "prob": 100 },
-      { "item": "baton", "prob": 100 }
+      {
+        "distribution": [ { "group": "DKZ_guns_rifle_military", "prob": 20 }, { "group": "DKZ_guns_rifle_common", "prob": 80 } ]
+      },
+      {
+        "distribution": [ { "group": "DKZ_bashing_improvised", "prob": 50 }, { "group": "DKZ_cutting_improvised", "prob": 50 } ]
+      }
     ]
+  },
+  {
+    "id": "NC_MAQUIS_RIOT_COP_carry",
+    "type": "item_group",
+    "subtype": "collection",
+    "items": [ { "item": "badge_swat", "prob": 100 }, { "item": "baton", "prob": 100 } ]
   },
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",

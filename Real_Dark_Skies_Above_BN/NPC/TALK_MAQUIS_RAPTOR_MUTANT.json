@@ -169,6 +169,7 @@
           { "group": "DKZ_armor_chitin_arm", "prob": 15 }
         ]
       },
+      { "group": "DKZ_armor_improvised_arm", "prob": 90 },	  
       { "group": "DKZ_armor_improvised_leg", "prob": 90 }
     ]
   },

@@ -93,6 +93,8 @@
       {
         "distribution": [ { "item": "backpack", "prob": 50 }, { "item": "backpack_leather", "prob": 50 }, { "item": "mbag", "prob": 25 } ]
       },
+      { "group": "DKZ_armor_improvised_arm", "prob": 90 },	  
+      { "group": "DKZ_armor_improvised_leg", "prob": 90 },	  	  
       { "item": "hat_ball", "prob": 100 },
       { "item": "ballistic_vest_esapi" }
     ]

@@ -109,7 +109,9 @@
       },
       {
         "distribution": [ { "item": "backpack", "prob": 50 }, { "item": "backpack_leather", "prob": 50 }, { "item": "null", "prob": 5 } ]
-      }
+      },
+      { "group": "DKZ_armor_improvised_arm", "prob": 90 },	  
+      { "group": "DKZ_armor_improvised_leg", "prob": 90 }	  
     ]
   },
   {
