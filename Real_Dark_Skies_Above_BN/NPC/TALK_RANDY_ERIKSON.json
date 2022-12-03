@@ -369,7 +369,32 @@
         "no": "I've been spending most of my time keeping this jury-rigged generator running just slowly enough to trickle charge the batteries that are built into this old machinery so it can keep these utility lights on at night. It as effective as can be considering what I've got to work with."
       }
     ],
-    "responses": [ { "text": "Something else.", "topic": "TALK_NONE" }, { "text": "Good luck with that.", "topic": "TALK_DONE" } ]
+    "responses": [
+      { "text": "Lets discuss something else.", "topic": "TALK_NONE" },
+      { "text": "Good luck with that.", "topic": "TALK_DONE" },
+      {
+        "text": "[Mechanics 5] Have you tried checking the bearing coming off the engine?",
+        "condition": {
+          "and": [
+            { "not": { "u_has_var": "u_Question_Randys_Mechanics_Skill", "type": "general", "context": "meeting", "value": "yes" } },
+            { "u_has_skill": { "skill": "mechanics", "level": 5 } }
+          ]
+        },
+        "effect": { "u_add_var": "u_Question_Randys_Mechanics_Skill", "type": "general", "context": "meeting", "value": "yes" },
+        "opinion": { "value": -1 },
+        "topic": "TALK_RANDY_ERIKSON_GENERATOR_ANGRY"
+      }
+    ]
+  },
+  {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
+    "id": "TALK_RANDY_ERIKSON_GENERATOR_ANGRY",
+    "type": "talk_topic",
+    "dynamic_line": [ "I've checked that already, but thanks for nothing anyway; Talking to you I should be used to that by now." ],
+    "responses": [
+      { "text": "Sorry I asked.", "topic": "TALK_DONE" },
+      { "text": "Fuck you.", "topic": "TALK_DONE", "opinion": { "trust": -5, "value": -10 } }
+    ]
   },
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
