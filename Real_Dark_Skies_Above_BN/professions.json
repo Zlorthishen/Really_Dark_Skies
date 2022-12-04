@@ -23,7 +23,10 @@
       "both": {
         "items": [ "pants_cargo", "under_armor", "socks", "boots", "badge_cybercop", "smart_phone", "wristwatch" ],
         "entries": [
-          { "group": "charged_two_way_radio" }        ]
+          { "group": "charged_two_way_radio" } 
+
+
+		  ]
       },
       "male": [ "boxer_shorts" ],
       "female": [ "sports_bra", "boxer_shorts" ]
@@ -31,7 +34,7 @@
   },
   {
     "type": "profession",
-    "id": "bio_maquis_soldier",
+    "id": "bionic_maquis_soldier",
     "name": "Bionic Maquis Soldier",
     "description": "You are the result of one of the military's latest and final research programs, a prototype cyborg soldier.  You're still alive thanks to your augmentations, even after all your comrades fell to the undead.",
     "points": 6,

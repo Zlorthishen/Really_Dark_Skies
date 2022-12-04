@@ -2,7 +2,7 @@
   {
     "id": "achievement_kill_stray",
     "type": "achievement",
-    "name": "<color_light_blue>There's a new kind of zombie around.</color>",
+    "name": "<color_light_blue>There's another kind of zombie around.</color>",
     "requirements": [ { "event_statistic": "num_avatar_stray_kills", "is": ">=", "target": 1, "visible": "when_achievement_completed" } ]
   },
   {
