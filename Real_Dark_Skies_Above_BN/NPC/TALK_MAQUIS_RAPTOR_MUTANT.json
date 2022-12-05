@@ -5,6 +5,8 @@
     "class": "NC_MAQUIS_RAPTOR_MUTANT",
     "attitude": 0,
     "mission": 7,
+    "name_unique": "Yoshimi with Green Scales",
+    "gender": "female",	
     "chat": "TALK_MAQUIS_RAPTOR_MUTANT_ROOT",
     "faction": "maquis"
   },
