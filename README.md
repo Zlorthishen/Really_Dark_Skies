@@ -1,5 +1,5 @@
 # Real Dark Skies
-A supplemental, community supported, mod for Cataclysm: DDA, taking inspiration from XCOM 2, Half Life 2, the movie Skyline (not the sequels) and other similar 'alien invasion' media, as well as Harlan Ellison's short story "I Have No Mouth, and I Must Scream" to present a brutal game of survival against an alien expeditionary force. 
+A supplemental, community supported, mod for Cataclysm: Bright Nights, taking inspiration from XCOM 2, Half Life 2, the movie Skyline (not the sequels) and other similar 'alien invasion' media, as well as Harlan Ellison's short story "I Have No Mouth, and I Must Scream" to present a brutal game of survival against an alien expeditionary force. 
 
 # Takeaway Features
 In short, The Real Dark Skies is much more difficult than vanilla DDA, only recommended for players who have some experience under their belt, and players that move to love to add as many additional mods as possible.
