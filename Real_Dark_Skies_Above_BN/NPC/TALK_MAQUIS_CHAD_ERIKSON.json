@@ -329,51 +329,51 @@
           { "u_lose_trait": "DKZ_SCIENTIST" },
           { "u_lose_trait": "DKZ_TECH" }
         ],
-        "topic": "TALK_DONE"
+        "topic": "TALK_NONE"
       },
       {
         "text": "I want to help lead the fight against the xenoids.",
         "effect": [
-          { "u_lose_trait": "DKZ_COMBAT" },
           { "u_add_trait": "DKZ_LEADER" },
+          { "u_lose_trait": "DKZ_COMBAT" },
           { "u_lose_trait": "DKZ_MEDIC" },
           { "u_lose_trait": "DKZ_SCIENTIST" },
           { "u_lose_trait": "DKZ_TECH" }
         ],
-        "topic": "TALK_DONE"
+        "topic": "TALK_NONE"
       },
       {
         "text": "I want to provide medical support and heal people.",
         "effect": [
+          { "u_add_trait": "DKZ_MEDIC" },
           { "u_lose_trait": "DKZ_COMBAT" },
           { "u_lose_trait": "DKZ_LEADER" },
-          { "u_add_trait": "DKZ_MEDIC" },
           { "u_lose_trait": "DKZ_SCIENTIST" },
           { "u_lose_trait": "DKZ_TECH" }
         ],
-        "topic": "TALK_DONE"
+        "topic": "TALK_NONE"
       },
       {
         "text": "I want to study the aliens to better defeat them.",
         "effect": [
+          { "u_add_trait": "DKZ_SCIENTIST" },
           { "u_lose_trait": "DKZ_COMBAT" },
           { "u_lose_trait": "DKZ_LEADER" },
           { "u_lose_trait": "DKZ_MEDIC" },
-          { "u_add_trait": "DKZ_SCIENTIST" },
           { "u_lose_trait": "DKZ_TECH" }
         ],
-        "topic": "TALK_DONE"
+        "topic": "TALK_NONE"
       },
       {
         "text": "I want to engineer better technology to kill xenoids.",
         "effect": [
+          { "u_add_trait": "DKZ_TECH" },
           { "u_lose_trait": "DKZ_COMBAT" },
           { "u_lose_trait": "DKZ_LEADER" },
           { "u_lose_trait": "DKZ_MEDIC" },
-          { "u_lose_trait": "DKZ_SCIENTIST" },
-          { "u_add_trait": "DKZ_TECH" }
+          { "u_lose_trait": "DKZ_SCIENTIST" }
         ],
-        "topic": "TALK_DONE"
+        "topic": "TALK_NONE"
       },
       { "text": "I have something else to ask you first.", "topic": "TALK_NONE" },
       { "text": "I've changed my mind.  Bye.", "topic": "TALK_DONE" }
@@ -734,7 +734,9 @@
         "random": false,
         "min_distance": 25
       },
-      "update_mapgen": { "place_npcs": [ { "class": "DKZ_MAQUIS_CYBERCOP", "x": 13, "y": 13, "add_trait": "DKZ_SCIENTIST" , "gender": "female" } ] }
+      "update_mapgen": {
+        "place_npcs": [ { "class": "DKZ_MAQUIS_CYBERCOP", "x": 13, "y": 13, "add_trait": "DKZ_SCIENTIST", "gender": "female" } ]
+      }
     },
     "end": {
       "effect": [

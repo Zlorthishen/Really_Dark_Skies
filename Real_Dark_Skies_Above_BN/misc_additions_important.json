@@ -1,6 +1,27 @@
 [
   {
     "type": "terrain",
+    "id": "t_pavement_light",
+    "name": "pavement",
+    "connects_to": "PAVEMENT",
+    "description": "A segment of asphalt, slowly degrading from cracks.",
+    "symbol": ".",
+	"looks_like": "t_pavement",
+    "light_emitted": 30,	
+    "color": "dark_gray",
+    "move_cost": 2,
+    "flags": [ "TRANSPARENT", "FLAT", "ROAD", "MINEABLE" ],
+    "bash": {
+      "ter_set": "t_null",
+      "str_min": 50,
+      "str_max": 400,
+      "str_min_supported": 100,
+      "items": [ { "item": "rock", "count": [ 2, 10 ] }, { "item": "rebar", "count": [ 0, 4 ] } ]
+    }
+  },
+
+  {
+    "type": "terrain",
     "id": "t_sidewalk_ramp_down_high",
     "name": "sidewalk ramp down (high end)",
     "connects_to": "PAVEMENT",
