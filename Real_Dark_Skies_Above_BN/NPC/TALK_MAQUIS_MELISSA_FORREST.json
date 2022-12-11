@@ -7,6 +7,7 @@
     "mission": 7,
     "name_unique": "Melissa 'Misty' Forrest",
     "gender": "female",
+    "common": "false",
     "chat": "TALK_MAQUIS_MELISSA_FORREST_ROOT",
     "faction": "maquis"
   },

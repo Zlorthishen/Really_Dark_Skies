@@ -5,6 +5,7 @@
     "class": "NC_MAQUIS_SCIENTIST",
     "attitude": 0,
     "mission": 7,
+    "common": "false",
     "chat": "TALK_MAQUIS_SCIENTIST_ROOT",
     "mission_offered": "DKZ_MAQUIS_SCIENTIST_MATH_MISSION_1",
     "faction": "maquis"

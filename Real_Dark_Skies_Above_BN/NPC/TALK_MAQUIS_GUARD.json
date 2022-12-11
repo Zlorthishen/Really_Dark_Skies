@@ -6,6 +6,7 @@
     "attitude": 0,
     "mission": 7,
     "gender": "male",
+    "common": "false",
     "chat": "TALK_MAQUIS_GUARD_ROOT",
     "faction": "maquis"
   },

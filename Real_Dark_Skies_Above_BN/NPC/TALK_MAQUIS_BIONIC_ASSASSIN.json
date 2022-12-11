@@ -5,6 +5,7 @@
     "class": "NC_MAQUIS_BIONIC_ASSASSIN",
     "attitude": 0,
     "mission": 7,
+    "common": "false",
     "chat": "TALK_MAQUIS_BIONIC_ASSASSIN_ROOT",
     "gender": "female",	
     "faction": "maquis"

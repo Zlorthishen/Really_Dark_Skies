@@ -5,7 +5,8 @@
     "class": "NC_MAQUIS_BIRD_MUTANT",
     "attitude": 0,
     "mission": 7,
-    "gender": "female",		
+    "gender": "female",	
+    "common": "false",	
     "chat": "TALK_MAQUIS_BIRD_MUTANT_ROOT",
     "faction": "maquis"
   },

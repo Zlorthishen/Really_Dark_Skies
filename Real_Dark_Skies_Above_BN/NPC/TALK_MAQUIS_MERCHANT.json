@@ -5,6 +5,7 @@
     "class": "NC_MAQUIS_MERCHANT",
     "attitude": 0,
     "mission": 3,
+    "common": "false",
     "chat": "TALK_MAQUIS_MERCHANT_ROOT",
     "faction": "maquis"
   },

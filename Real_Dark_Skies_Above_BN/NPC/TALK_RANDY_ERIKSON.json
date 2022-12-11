@@ -9,6 +9,7 @@
     "name_suffix": "Technician",
     "attitude": 0,
     "mission": 7,
+    "common": "false",
     "mission_offered": "MISSION_REFUGEE_RANDY_ERIKSON_1",
     "chat": "TALK_RANDY_ERIKSON_ROOT",
     "faction": "free_merchants"

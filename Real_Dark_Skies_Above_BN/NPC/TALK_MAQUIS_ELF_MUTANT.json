@@ -5,6 +5,7 @@
     "class": "NC_MAQUIS_ELF_MUTANT",
     "attitude": 0,
     "mission": 7,
+    "common": "false",
     "chat": "TALK_MAQUIS_ELF_MUTANT_ROOT",
     "faction": "maquis"
   },

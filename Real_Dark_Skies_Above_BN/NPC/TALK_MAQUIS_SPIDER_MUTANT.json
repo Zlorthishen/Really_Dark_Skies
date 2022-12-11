@@ -6,6 +6,7 @@
     "attitude": 0,
     "mission": 7,
     "gender": "female",
+    "common": "false",	
     "chat": "TALK_MAQUIS_SPIDER_MUTANT_ROOT",
     "faction": "maquis"
   },

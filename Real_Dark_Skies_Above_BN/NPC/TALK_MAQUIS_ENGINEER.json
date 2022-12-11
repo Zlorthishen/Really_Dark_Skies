@@ -5,6 +5,7 @@
     "class": "NC_MAQUIS_ENGINEER",
     "attitude": 0,
     "mission": 7,
+    "common": "false",
     "chat": "TALK_MAQUIS_ENGINEER_ROOT",
     "mission_offered": "DKZ_MAQUIS_ENGINEER_MISSION_1",
     "faction": "maquis"

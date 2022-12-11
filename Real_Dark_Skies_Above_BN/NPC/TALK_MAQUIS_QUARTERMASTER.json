@@ -6,6 +6,7 @@
     "attitude": 0,
     "mission": 7,
     "gender": "male",
+    "common": "false",
     "chat": "TALK_MAQUIS_QUARTERMASTER_ROOT",
     "faction": "maquis"
   },
@@ -221,7 +222,7 @@
     "id": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_INITIAL",
     "type": "talk_topic",
     "dynamic_line": [
-      "First thing we need is to create a dedicated medical area.  So far, casualties are treated by comrades-in-arms during battle, or taken away for dedicated treatment.  What we need is several large areas where people can safely recover, and I have a few places in mind already.  I've also gotten requests from the engineers and scientists upstairs for additional resources so they can analyze the Xenoids technology and biology.  There is also talk about setting up dedicated areas for small-arms production."
+      "There are alot of different options for initial expansion.  Do you have any ideas to start with?",  "Do you have an idea how you would want to start the initial expansion?"
     ],
     "responses": [
       {

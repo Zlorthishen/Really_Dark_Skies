@@ -6,6 +6,7 @@
     "attitude": 0,
     "mission": 7,
     "gender": "female",
+    "common": "false",
     "chat": "TALK_MAQUIS_FELINE_MUTANT_ROOT",
     "mission_offered": "DKZ_MAQUIS_FELINE_MUTANT_FIND_CAT",
     "faction": "maquis"
