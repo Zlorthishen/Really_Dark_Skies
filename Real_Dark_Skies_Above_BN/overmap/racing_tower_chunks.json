@@ -83,28 +83,7 @@
       "items": { " ": { "item": "trash", "chance": 1 }, "b": { "item": "tools_science", "chance": 80, "repeat": [ 1, 2 ] } }
     }
   },
-  {
-    "//": "4x4 scientist ",
-    "type": "mapgen",
-    "method": "json",
-    "nested_mapgen_id": "racing_tower_4x4_science",
-    "weight": 250,
-    "object": {
-      "faction_owner": [ { "id": "maquis", "x": [ 0, 3 ], "y": [ 0, 3 ] } ],
-      "mapgensize": [ 4, 4 ],
-      "rotation": [ 0, 3 ],
-      "rows": [
-        "  - ",
-        "-bA ",
-        " Bb-",
-        "  - "
-      ],
-      "terrain": { " ": "t_null" },
-      "furniture": { "-": "f_camp_chair", "b": "f_lab_bench", "B": "f_GC", "A": "f_MS" },
-      "place_npcs": [ { "class": "DKZ_MAQUIS_SCIENTIST", "x": 1, "y": 0 , "add_trait": "DKZ_SCIENTIST"} ],
-      "items": { " ": { "item": "trash", "chance": 1 }, "b": { "item": "dissection", "chance": 70, "repeat": [ 2, 3 ] } }
-    }
-  },
+
   {
     "//": "4x4 scientist ",
     "type": "mapgen",
@@ -149,28 +128,7 @@
       "items": { " ": { "item": "trash", "chance": 1 }, "b": { "item": "chem_lab", "chance": 70, "repeat": [ 2, 3 ] } }
     }
   },
-  {
-    "//": "4x4 scientist ",
-    "type": "mapgen",
-    "method": "json",
-    "nested_mapgen_id": "racing_tower_4x4_science",
-    "weight": 250,
-    "object": {
-      "faction_owner": [ { "id": "maquis", "x": [ 0, 3 ], "y": [ 0, 3 ] } ],
-      "mapgensize": [ 4, 4 ],
-      "rotation": [ 0, 3 ],
-      "rows": [
-        " -  ",
-        " bB ",
-        " Bb-",
-        " -  "
-      ],
-      "terrain": { " ": "t_null" },
-      "furniture": { "-": "f_camp_chair", "b": "f_lab_bench", "B": "f_HPLC" },
-      "place_npcs": [ { "class": "DKZ_MAQUIS_SCIENTIST", "x": 1, "y": 0, "add_trait": "DKZ_SCIENTIST" } ],
-      "items": { " ": { "item": "trash", "chance": 1 }, "b": { "item": "science", "chance": 80, "repeat": [ 2, 3 ] } }
-    }
-  },
+
   {
     "//": "4x4 scientist ",
     "type": "mapgen",
@@ -189,10 +147,10 @@
       ],
       "terrain": { " ": "t_null" },
       "furniture": { "-": "f_camp_chair", "b": "f_lab_bench" },
-      "place_npcs": [ { "class": "DKZ_MAQUIS_BIONIC_DOCTOR", "x": 0, "y": 1 , "add_trait": "DKZ_SCIENTIST"} ],
+      "place_npcs": [ { "class": "DKZ_MAQUIS_SCIENTIST", "x": 0, "y": 1 , "add_trait": "DKZ_SCIENTIST"} ],
       "items": {
         " ": { "item": "trash", "chance": 1 },
-        "b": { "item": "autodoc_installation_programs", "chance": 95, "repeat": [ 2, 3 ] }
+        "b": { "item": "autodoc_installation_programs", "chance": 50, "repeat": [ 2, 3 ] }
       }
     }
   },
