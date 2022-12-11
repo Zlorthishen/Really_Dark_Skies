@@ -78,7 +78,7 @@
     "material": [ "dkz_blend_mat", "dkz_biopoly_mat" ],
     "symbol": "d",
     "color": "light_gray",
-    "aggression": 25,
+    "aggression": -25,
     "dodge": 4,
     "morale": 100,
     "melee_skill": 3,
