@@ -22,6 +22,7 @@
     "id": "sky_marshal_farm_orchard",
     "copy-from": "sky_marshal_farm_generic_rural_building",
     "name": "apple orchard",
+	"looks-like": "orchard-tree-apple",
     "sym": "F",
     "color": "light_green"
   },
