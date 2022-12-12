@@ -296,7 +296,7 @@
     "id": "TALK_MAQUIS_CHAD_ERIKSON_BASE_BUILDING",
     "type": "talk_topic",
     "dynamic_line": [
-      "We do have plans to expand facilities here at Barter Tower, but the Maquis have been fighting for survival for weeks now.  If you want to take point on the task, I will leave base expansion entirely in our control.  Talk to the quartermaster in the first basement level, he should still be wearing his postman uniform."
+      "We do have plans to expand facilities here at Barter Tower, but the Maquis have been fighting for survival for weeks now.  If you want to take point on the task, I will leave base expansion entirely in our control.  Talk to the quartermaster on the ground level, he should still be wearing his postman uniform."
     ],
     "responses": [ { "text": "Ok, Thanks.", "topic": "TALK_NONE" }, { "text": "Ok, I have to go now.", "topic": "TALK_DONE" } ]
   },
