@@ -23,11 +23,11 @@
       { "trait": "SCHIZOPHRENIC", "prob": 100 },
       { "trait": "INSOMNIA", "prob": 100 },
       { "trait": "FORGETFUL", "prob": 100 },
-      { "trait": "INFIMMUNE", "prob": 80 },
-      { "trait": "PARAIMMUNE", "prob": 80 },
+      { "trait": "INFRESIST", "prob": 90 },
+      { "trait": "PARAIMMUNE", "prob": 90 },
+      { "trait": "MASOCHIST_MED", "prob": 80 },
       { "trait": "RADIOGENIC", "prob": 30 },
-      { "trait": "MUT_TOUGH", "prob": 20 },
-      { "trait": "MASOCHIST_MED", "prob": 20 }
+      { "trait": "MUT_TOUGH", "prob": 20 }
     ],
     "skills": [ { "skill": "ALL", "level": { "sum": [ { "dice": [ 3, 2 ] }, { "constant": -4 } ] } } ],
     "worn_override": "NC_MAQUIS_MEDICAL_MUTANT_worn",

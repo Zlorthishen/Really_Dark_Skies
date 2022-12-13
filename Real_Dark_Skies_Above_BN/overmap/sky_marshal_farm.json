@@ -885,9 +885,9 @@
         "       |_;____;;;|;4;   ",
         "       |2##+########;   ",
         "      ;;;w....rrr.>#;;  ",
-        "       ;;wZ.......l#;   ",
-        "      ;;;##+##...h6w;   ",
-        "      ;;;#q.Q#.h..Cw;;  ",
+        "       ;;#........l#;   ",
+        "      ;;;##+##....6w;   ",
+        "      ;;;#q.Q#h...Cw;;  ",
         "     ;;;;##w##..CCC#;   ",
         "       ;;;;;;#++w###;;  ",
         "         ;;;;;;;;;;;;;  ",
@@ -906,8 +906,6 @@
         "l": "t_floor",
         "x": "t_floor",
         "C": "t_floor",
-        "B": "t_floor",
-        "Z": "t_floor",
         "q": "t_floor",
         "Q": "t_floor",
         "2": "t_chaingate_c",
@@ -934,10 +932,16 @@
         "C": "f_counter",
         "r": "f_rack",
         "h": "f_chair",
-        "Z": "f_mattress",
-        "Z": "f_woodstove",
         "l": "f_locker"
       },
+      "computers": {
+        "6": {
+          "name": "Lab Console",
+          "security": 1,
+          "options": [ { "name": "View Research Logs", "action": "research", "security": 2 } ],
+          "failures": [ { "action": "damage" } ]
+        }
+      },	  
       "items": {
         "C": { "item": "radio", "chance": 80, "repeat": [ 1, 2 ] },
         "r": { "item": "recycle_electronic", "chance": 80, "repeat": [ 1, 2 ] },
