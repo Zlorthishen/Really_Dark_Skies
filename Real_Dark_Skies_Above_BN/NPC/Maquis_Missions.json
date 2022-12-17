@@ -7,6 +7,7 @@
     "goal": "MGOAL_KILL_MONSTER_SPEC",
     "monster_species": "ALIEN",
     "monster_kill_goal": 12,
+	"deadline": 1,
     "difficulty": 3,
     "value": 125000,
     "origins": [ "ORIGIN_SECONDARY" ],
@@ -207,5 +208,30 @@
       "success_lie": "I'm sure you did…",
       "failure": "I wonder where it all went…"
     }
-  }  
+  },
+  {
+    "id": "DKZ_MAQUIS_RENDEZVOUS_TO_BASE",
+    "type": "mission_definition",
+    "name": { "str": "Rendezvous to base." },
+    "description": "With your military acumen, you have to get to the local Maquis resistance base to help resist the Xenoid Invaders.",
+    "goal": "MGOAL_GO_TO",
+    "destination": "racing_tower_z7_4_1",
+    "difficulty": 1,
+    "urgent": true,	
+    "deadline_low": 4,
+    "deadline_high": 5,
+    "value": 0,
+    "start": {
+      "assign_mission_target": {
+        "om_terrain": "racing_tower_z7_4_1",
+        "om_special": "arcology_racing",
+        "search_range": 555,
+        "random": true,
+        "min_distance": 88
+      },
+      "update_mapgen": { "place_npcs": [ { "class": "DKZ_CHAD_ERIKSON", "x": 5, "y": 5, "target": true } ] },
+      "effect": [ { "u_add_var": "MrEriksonExists", "type": "knowledge", "context": "flag", "value": "yes" } ]
+    },
+    "origins": [ "ORIGIN_GAME_START" ]
+  }
 ]

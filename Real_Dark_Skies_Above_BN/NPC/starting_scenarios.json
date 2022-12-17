@@ -49,27 +49,5 @@
     "start_name": "In Town",
     "flags": [ "SUR_START", "FIRE_START", "CHALLENGE", "CITY_START" ],
     "missions": [ "DKZ_MAQUIS_RENDEZVOUS_TO_BASE" ]
-  },
-  {
-    "id": "DKZ_MAQUIS_RENDEZVOUS_TO_BASE",
-    "type": "mission_definition",
-    "name": { "str": "Rendezvous at local resistance base." },
-    "description": "With your military acumen, you have to get to the local Maquis resistance base to help resist the Xenoid Invaders.",
-    "goal": "MGOAL_CONDITION",
-    "goal_condition": { "u_has_var": "u_found_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" },
-    "difficulty": 1,
-    "value": 0,
-    "start": {
-      "assign_mission_target": {
-        "om_terrain": "racing_tower_z7_4_1",
-        "om_special": "arcology_racing",
-        "search_range": 500,
-        "random": true,
-        "min_distance": 88
-      },
-      "update_mapgen": { "place_npcs": [ { "class": "DKZ_CHAD_ERIKSON", "x": 3, "y": 3, "target": true } ] },
-      "effect": [ { "u_add_var": "MrEriksonExists", "type": "knowledge", "context": "flag", "value": "yes" } ]
-    },
-    "origins": [ "ORIGIN_GAME_START" ]
   }
 ]
