@@ -13,7 +13,7 @@
       "d": "t_sidewalk_ramp_down_high",
       ",": [ "t_grass", "t_grass", "t_grass", "t_grass", "t_grass", "t_grass_long" ],
       "!": "t_door_metal_c",
-      "#": "t_concrete_wall",
+      "#": "t_strconc_wall",
       "$": "t_junk_wall",
       "%": "t_rock_smooth",
       "^": "t_column",
