@@ -12,7 +12,6 @@
     "points": 0,
     "description": "You were out on a combat patrol against the Xenoids, and scavenge useful supplies in the processes, but you've attracted the attention of the alien invaders in some way, now they're all around and you'll likely have to fight thorough them if you want to escape.  Also the buiiding is on fire.\n\nThis mission is Foxtrot Uniform Charlie Kilo.",
     "custom_initial_date": { "season": "summer", "year": 1 },
-    "forced_traits": [ "DKZ_COMBAT" ],
     "allowed_locs": [
       "sloc_house",
       "sloc_house_boarded",
@@ -30,6 +29,8 @@
     "professions": [
       "bionic_maquis_combat",
       "bionic_maquis_soldier",
+      "bionic_maquis_medic",	
+      "bionic_maquis_scientist",	  
       "k9_cop",
       "cop",
       "detective",
