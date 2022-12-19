@@ -1,11 +1,13 @@
 [
   {
     "id": "dkz_mhuman_chipped",
+    "message": "They may have been almost human, once… before, whatever was… done to them, now they are something… else…",	
     "type": "harvest",
     "entries": [
       { "drop": "meat_tainted", "type": "flesh", "mass_ratio": 0.25 },
       { "drop": "fat_tainted", "type": "flesh", "mass_ratio": 0.08 },
       { "drop": "bone_xenoid", "type": "bone", "mass_ratio": 0.1 },
+      { "drop": "bone_xenoid_small", "type": "bone", "mass_ratio": 0.0005, "max": 2 },
       { "drop": "sinew", "type": "bone", "mass_ratio": 0.0025 },
       { "drop": "dkz_biotech", "type": "flesh", "mass_ratio": 0.005, "max": 2  },
       { "drop": "raw_tainted_leather", "type": "skin", "mass_ratio": 0.02 },
@@ -18,7 +20,7 @@
     "category": "other",
     "looks-like": "bone_tainted",
     "name": "xenoid bone",
-    "weight": "212 g",
+    "weight": "300 g",
     "color": "light_gray",
     "symbol": "%",
     "description": "A bone generously 'donated' by a Xenoid",
@@ -27,6 +29,24 @@
     "//": "Not for use in edible recipes, and should require ~200% as much as normal for applicable inedible recipes except for charcoal.",
     "material": "bone",
     "volume": "250 ml",
+    "fun": -10,
+    "flags": [ "NO_SALVAGE" ]
+  },
+  {
+    "type": "COMESTIBLE",
+    "id": "bone_xenoid_small",
+    "category": "other",
+    "looks-like": "bone_tainted",
+    "name": "xenoid bone",
+    "weight": "15 g",
+    "color": "light_gray",
+    "symbol": "%",
+    "description": "A small bone generously 'donated' by a Xenoid",
+    "price": 0,
+    "price_postapoc": 5,
+    "//": "Not for use in edible recipes, and should require ~200% as much as normal for applicable inedible recipes except for charcoal.",
+    "material": "bone",
+    "volume": "25 ml",
     "fun": -10,
     "flags": [ "NO_SALVAGE" ]
   }
