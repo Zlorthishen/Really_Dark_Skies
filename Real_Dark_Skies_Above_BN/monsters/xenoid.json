@@ -795,7 +795,7 @@
     ],
     "death_drops": "dkz_mon_xenoid_pyro",
     "path_settings": { "max_dist": 45, "max_length": 15, "avoid_traps": true, "allow_open_doors": true, "bash_strength": 15 },
-    "death_function": [ "CONFLAGRATION" ],
+    "death_function": [ "NORMAL" ],
     "flags": [
       "SEES",
       "SMELLS",
