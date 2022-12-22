@@ -370,7 +370,7 @@
     "id": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_INITIAL_INVERSE",
     "type": "talk_topic",
     "dynamic_line": [
-      "Well there are several other directions that we could expand. First thing we need is to create a dedicated medical area.  So far, casualties are treated by comrades-in-arms during battle, or taken away for dedicated treatment.  What we need is several large areas where people can safely recover, and I have a few places in mind already.  I've also gotten requests from the lab-techs and scientists upstairs for additional resources so they can analyze the Xenoids technology and biology.  There is also talk about setting up dedicated areas as shooting ranges and for small-arms production."
+      "Well there are several other directions that we could expand, but we can't do everything at once. First thing we need is to create a dedicated medical area.  So far, casualties are treated by comrades-in-arms during battle, or taken away for dedicated treatment.  What we need is several large areas where people can safely recover, and I have a few places in mind already.  I've also gotten requests from the lab-techs and scientists upstairs for additional resources so they can analyze the Xenoids technology and biology.  There is also talk about setting up dedicated areas as shooting ranges and for small-arms production."
     ],
     "responses": [
       {
@@ -412,23 +412,28 @@
     "dynamic_line": [
       "The third through sixth floors are full of cardboard boxes and junk but there are plenty of area that could be turned into better living quarters"
     ],
-    "responses": [ { "text": "Ok, Thanks.", "topic": "TALK_NONE" }, { "text": "I have to go now.", "topic": "TALK_DONE" } ]
+    "responses": [
+      {
+        "text": "Ok, Thanks.",
+        "update_mapgen": [ { "om_terrain": "racing_tower_z0_1_4", "place_nested": [ { "chunks": [ "dkz_build_leader" ], "x": 3, "y": 3 } ] } ],
+        "topic": "TALK_NONE"
+      },
+      { "text": "I have to go now.", "topic": "TALK_DONE" }
+    ]
   },
   {
     "//": "--- TECHNICAN ---------------------------------------------------------------------------------------------------------",
     "id": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_TECH",
     "type": "talk_topic",
     "dynamic_line": [ "The seventh floor has ample room and idle scientists that would love to start taking Xenoid technology apart." ],
-    "responses": [ { "text": "Ok, Thanks.", "topic": "TALK_NONE" }, { "text": "I have to go now.", "topic": "TALK_DONE" } ]
-  },
-  {
-    "//": "--- MEDICAL -----------------------------------------------------------------------------------------------------------",
-    "id": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_MEDICAL",
-    "type": "talk_topic",
-    "dynamic_line": [
-      "There is a large privacy curtain that is already setup here on the ground floor, we can start to convert that area to a triage zone."
-    ],
-    "responses": [ { "text": "Ok, Thanks.", "topic": "TALK_NONE" }, { "text": "I have to go now.", "topic": "TALK_DONE" } ]
+    "responses": [
+      {
+        "text": "Ok, Thanks.",
+        "update_mapgen": [ { "om_terrain": "racing_tower_z7_1_4", "place_nested": [ { "chunks": [ "dkz_build_technical" ], "x": 3, "y": 3 } ] } ],
+        "topic": "TALK_NONE"
+      },
+      { "text": "I have to go now.", "topic": "TALK_DONE" }
+    ]
   },
   {
     "//": "--- SCIENCE -----------------------------------------------------------------------------------------------------------",
@@ -437,7 +442,30 @@
     "dynamic_line": [
       "There are a lot of scientists on the seventh floor which were rescued from a research lab before everything went down, they're grateful to be alive and are eager for help to get a laboratory up and running."
     ],
-    "responses": [ { "text": "Ok, Thanks.", "topic": "TALK_NONE" }, { "text": "I have to go now.", "topic": "TALK_DONE" } ]
+    "responses": [
+      {
+        "text": "Ok, Thanks.",
+        "update_mapgen": [ { "om_terrain": "racing_tower_z7_1_4", "place_nested": [ { "chunks": [ "dkz_build_science" ], "x": 3, "y": 3 } ] } ],
+        "topic": "TALK_NONE"
+      },
+      { "text": "I have to go now.", "topic": "TALK_DONE" }
+    ]
+  }, 
+  {
+    "//": "--- MEDICAL -----------------------------------------------------------------------------------------------------------",
+    "id": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_MEDICAL",
+    "type": "talk_topic",
+    "dynamic_line": [
+      "There is a large privacy curtain that is already setup here on the ground floor, we can start to convert that area to a triage zone."
+    ],
+    "responses": [
+      {
+        "text": "Ok, Thanks.",
+        "update_mapgen": [ { "om_terrain": "racing_tower_z0_1_4", "place_nested": [ { "chunks": [ "dkz_build_medical" ], "x": 3, "y": 3 } ] } ],
+        "topic": "TALK_NONE"
+      },
+      { "text": "I have to go now.", "topic": "TALK_DONE" }
+    ]
   },
   {
     "//": "--- COMBAT ------------------------------------------------------------------------------------------------------------",
