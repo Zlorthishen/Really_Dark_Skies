@@ -14,7 +14,7 @@
     "name": "parking lot",
     "color": "dark_gray",
     "sym": "0",
-    "see_cost": 99
+    "see_cost": 5
   },
   {
     "type": "overmap_terrain",
@@ -80,7 +80,7 @@
     "name": "Under Town",
     "sym": "╬",
     "color": "i_light_red",
-    "see_cost": 0
+    "see_cost": 99
   },
   {
     "type": "overmap_terrain",
@@ -97,7 +97,7 @@
     "name": "REDACTED",
     "sym": "╬",
     "color": "i_light_red",
-    "see_cost": 0
+    "see_cost": 99
   },
   {
     "type": "overmap_terrain",

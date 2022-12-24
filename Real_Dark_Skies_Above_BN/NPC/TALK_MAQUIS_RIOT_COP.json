@@ -42,10 +42,10 @@
       { "skill": "rifle", "bonus": { "rng": [ 5, 7 ] } }
     ],
     "bionics": [
-      { "id": "bio_armor_arms", "chance": 1 },
-      { "id": "bio_armor_head", "chance": 1 },
-      { "id": "bio_armor_legs", "chance": 1 },
-      { "id": "bio_armor_torso", "chance": 1 }
+      { "id": "bio_armor_arms", "chance": 10 },
+      { "id": "bio_armor_head", "chance": 10 },
+      { "id": "bio_armor_legs", "chance": 10 },
+      { "id": "bio_armor_torso", "chance": 10 }
     ],
     "worn_override": "NC_MAQUIS_RIOT_COP_worn",
     "weapon_override": "NC_MAQUIS_RIOT_COP_weapon",
