@@ -10,13 +10,11 @@
         "arcanist_scribe",
         "arcanist_bloodmage",
         "arcanist_magehunter",
-        "arcanist_oathkeeper",
         "arcanist_summoner",
         "arcanist_shrike",
         "arcanist_purifier",
         "arcanist_operator",
         "arcanist_scholar"
-
       ]
     }
   }
