@@ -376,38 +376,38 @@
       {
         "text": "Protecting the remaining citizens is the ultimate priority.",
         "condition": { "not": { "u_has_any_trait": [ "DKZ_LEADER" ] } },
-        "topic": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_LEADERSHIP"
+        "topic": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_LEADERSHIP_INITIAL"
       },
       {
         "text": "First thing is setting up an area to recover alien technology.",
         "condition": { "not": { "u_has_any_trait": [ "DKZ_TECHNICIAN" ] } },
-        "topic": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_TECH"
+        "topic": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_TECH_INITIAL"
       },
       {
         "text": "Lets focus on getting a triage area and multiple recovery zones ready first.",
         "condition": { "not": { "u_has_any_trait": [ "DKZ_MEDIC" ] } },
-        "topic": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_MEDICAL"
+        "topic": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_MEDICAL_INITIAL"
       },
       {
         "text": "We need to understand our enemy to defeat them.  Lets help the scientists first.",
         "condition": { "not": { "u_has_any_trait": [ "DKZ_SCIENTIST" ] } },
-        "topic": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_SCIENCE"
+        "topic": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_SCIENCE_INITIAL"
       },
       {
         "text": "Better weapons and tactics help everyone.  Lets get a shooting range running first.",
         "condition": { "not": { "u_has_any_trait": [ "DKZ_COMBAT" ] } },
-        "topic": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_COMBAT"
+        "topic": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_COMBAT_INITIAL"
       },
       {
         "text": "Maybe we should start in a different direction.",
-        "topic": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_INITIAL"
+        "topic": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_INITIAL_INITIAL"
       },
       { "text": "I changed my mind.", "topic": "TALK_DONE" }
     ]
   },
   {
     "//": "--- LEADERSHIP --------------------------------------------------------------------------------------------------------",
-    "id": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_LEADERSHIP",
+    "id": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_LEADERSHIP_INITIAL",
     "type": "talk_topic",
     "dynamic_line": [
       "The third through sixth floors are full of cardboard boxes and junk but there are plenty of area that could be turned into better living quarters"
@@ -423,7 +423,7 @@
   },
   {
     "//": "--- TECHNICAN ---------------------------------------------------------------------------------------------------------",
-    "id": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_TECH",
+    "id": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_TECH_INITIAL",
     "type": "talk_topic",
     "dynamic_line": [ "The seventh floor has ample room and idle scientists that would love to start taking Xenoid technology apart." ],
     "responses": [
@@ -437,7 +437,7 @@
   },
   {
     "//": "--- SCIENCE -----------------------------------------------------------------------------------------------------------",
-    "id": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_SCIENCE",
+    "id": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_SCIENCE_INITIAL",
     "type": "talk_topic",
     "dynamic_line": [
       "There are a lot of scientists on the seventh floor which were rescued from a research lab before everything went down, they're grateful to be alive and are eager for help to get a laboratory up and running."
@@ -453,7 +453,7 @@
   }, 
   {
     "//": "--- MEDICAL -----------------------------------------------------------------------------------------------------------",
-    "id": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_MEDICAL",
+    "id": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_MEDICAL_INITIAL",
     "type": "talk_topic",
     "dynamic_line": [
       "There is a large privacy curtain that is already setup here on the ground floor, we can start to convert that area to a triage zone."
@@ -469,7 +469,7 @@
   },
   {
     "//": "--- COMBAT ------------------------------------------------------------------------------------------------------------",
-    "id": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_COMBAT",
+    "id": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_COMBAT_INITIAL",
     "type": "talk_topic",
     "dynamic_line": [
       "It would be easy to setup an area on the 2nd basement for shooting, as well as creating a zone here on the ground floor to better form up for combat patrols."

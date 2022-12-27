@@ -18,5 +18,11 @@
       "pain_amount": [ 1 ]
     },
     "show_in_info": true
+  },
+  {
+    "type": "effect_type",
+    "id": "dkz__base_build",
+    "//": "This marks a player as having begun base building at Barter Tower.",
+    "show_in_info": false
   }
 ]
