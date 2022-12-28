@@ -33,11 +33,11 @@
     "color": "red",
     "name": { "str": "smokegun" },
     "ranged_damage": { "damage_type": "bash", "amount": 1 },
-    "description": "Shoots dangerous radioactive gas.  If you're seeing this, it's a bug.",
+    "description": "Shoots dangerous nauseating gas.  If you're seeing this, it's a bug.",
     "skill": "launcher",
     "range": 10,
     "flags": [ "NEVER_JAMS" ],
-    "ammo_effects": [ "DKZ_NUKEGAS", "DKZ_TOXGAS_BIG", "SMOKE", "DKZ_TOXTRAIL", "NEVER_MISFIRES" ]
+    "ammo_effects": [ "DKZ_TEARGAS", "DKZ_TOXGAS_BIG", "SMOKE", "DKZ_TOXTRAIL", "NEVER_MISFIRES" ]
   },
   {
     "id": "dkz_mon_gasgun",

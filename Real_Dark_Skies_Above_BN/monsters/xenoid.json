@@ -1061,7 +1061,7 @@
     "weight": "200 kg",
     "hp": 250,
     "speed": 75,
-    "material": [ "superalloy" ],
+    "material": [ "dkz_blend_mat" ],
     "symbol": "W",
     "luminance": 60,
     "color": "white",
@@ -1078,7 +1078,7 @@
     "armor_acid": 15,
     "vision_day": 50,
     "vision_night": 12,
-    "emit_fields": [ { "emit_id": "emit_toxic_leak", "delay": "1 s" } ],
+    "emit_fields": [ { "emit_id": "emit_toxic_leak", "delay": "3 s" } ],
     "path_settings": {
       "max_dist": 45,
       "max_length": 15,
@@ -1087,7 +1087,6 @@
       "allow_open_doors": true,
       "bash_strength": 100
     },
-    "death_drops": { "groups": [ [ "robots", 4 ], [ "eyebot", 1 ], [ "turret_searchlight", 1 ] ] },
     "anger_triggers": [ "HURT", "PLAYER_WEAK", "STALK" ],
     "fear_triggers": [ "HURT" ],
     "special_attacks": [
@@ -1103,7 +1102,7 @@
         "ranges": [ [ 0, 30, "DEFAULT" ] ],
         "require_targeting_npc": true,
         "require_targeting_monster": true,
-        "laser_lock": false,
+        "laser_lock": true,
         "targeting_cost": 500,
         "targeting_sound": "the sound of pressurized gas hissing loudly.",
         "targeting_volume": 50,
@@ -1145,7 +1144,7 @@
     "weight": "200 kg",
     "hp": 250,
     "speed": 75,
-    "material": [ "superalloy" ],
+    "material": [ "dkz_blend_mat" ],
     "symbol": "W",
     "luminance": 60,
     "color": "green",
@@ -1170,8 +1169,7 @@
       "allow_open_doors": true,
       "bash_strength": 100
     },
-    "emit_fields": [ { "emit_id": "emit_toxic_leak", "delay": "1 s" } ],
-    "death_drops": { "groups": [ [ "robots", 4 ], [ "eyebot", 1 ], [ "turret_searchlight", 1 ] ] },
+    "emit_fields": [ { "emit_id": "emit_toxic_leak", "delay": "2 s" } ],
     "fear_triggers": [ "HURT" ],
     "special_attacks": [
       [ "PARROT", 5 ],
@@ -1187,7 +1185,7 @@
         "ranges": [ [ 0, 20, "DEFAULT" ] ],
         "require_targeting_npc": true,
         "require_targeting_monster": true,
-        "laser_lock": false,
+        "laser_lock": true,
         "targeting_cost": 500,
         "targeting_sound": "an ominous rumble and hiss of gas.",
         "targeting_volume": 50,
@@ -1229,7 +1227,7 @@
     "weight": "250 kg",
     "hp": 300,
     "speed": 75,
-    "material": [ "superalloy" ],
+    "material": [ "dkz_blend_mat" ],
     "symbol": "W",
     "luminance": 60,
     "color": "dark_gray",
@@ -1254,8 +1252,7 @@
       "allow_open_doors": true,
       "bash_strength": 100
     },
-    "emit_fields": [ { "emit_id": "emit_toxic_leak", "delay": "1 s" } ],
-    "death_drops": { "groups": [ [ "robots", 4 ], [ "eyebot", 1 ], [ "turret_searchlight", 1 ] ] },
+    "emit_fields": [ { "emit_id": "emit_toxic_leak", "delay": "2 s" } ],
     "fear_triggers": [ "HURT" ],
     "special_attacks": [
       [ "PARROT", 5 ],
@@ -1273,7 +1270,7 @@
         "ranges": [ [ 0, 20, "DEFAULT" ] ],
         "require_targeting_npc": true,
         "require_targeting_monster": true,
-        "laser_lock": false,
+        "laser_lock": true,
         "targeting_cost": 50,
         "targeting_sound": "an ominous whine of electrical elements.",
         "targeting_volume": 70,
@@ -1315,7 +1312,7 @@
     "weight": "200 kg",
     "hp": 250,
     "speed": 75,
-    "material": [ "superalloy" ],
+    "material": [ "dkz_blend_mat" ],
     "symbol": "W",
     "luminance": 60,
     "color": "red",
@@ -1340,8 +1337,8 @@
       "allow_open_doors": true,
       "bash_strength": 100
     },
-    "death_drops": { "groups": [ [ "robots", 4 ], [ "eyebot", 1 ], [ "turret_searchlight", 1 ] ] },
     "fear_triggers": [ "HURT" ],
+    "death_function": [ "BROKEN" ],
     "special_attacks": [
       [ "PARROT", 5 ],
       [ "IMPALE", 20 ],
@@ -1357,12 +1354,12 @@
         "require_targeting_npc": false,
         "require_targeting_monster": false,
         "require_targeting_player": false,
+        "laser_lock": true,
         "targeting_sound": "the sound of pressurized gas hissing loudly.",
         "targeting_volume": 50,
         "description": "Sound returns as the emissary's cannon roars to life!!"
       }
     ],
-    "death_function": [ "BROKEN" ],
     "flags": [
       "SEES",
       "HEARS",
