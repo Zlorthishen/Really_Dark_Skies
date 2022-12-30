@@ -132,29 +132,36 @@
     },
     "responses": [
       {
-        "text": "[MISSION] Sir!  Latest mission is Foxtrot Uniform Charlie Kilo.  Sir!",
+        "text": "[MISSION] Sir!  Mission is Foxtrot Uniform Charlie Kilo!  Sir!",
         "condition": {
           "and": [
-            { "u_has_var": "Rendezvous_to_base", "type": "knowledge", "context": "meeting", "value": "yes" } ,
+            { "u_has_var": "Rendezvous_to_base", "type": "knowledge", "context": "flag", "value": "yes" },
             { "not": { "u_has_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" } }
           ]
         },
         "effect": [
-          { "u_add_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" }
+          { "u_add_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" },
+          { "npc_first_topic": "TALK_CHAD_ERIKSON_QUESTIONS" }
         ],
         "opinion": { "trust": 3, "value": 2 },
         "topic": "TALK_CHAD_ERIKSON_RENDEZVOUS_TO_BASE"
       },
       {
         "text": "Hey, Chad.  How did you end up in charge here?",
-        "effect": { "u_add_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" },
+        "effect": [
+          { "u_add_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" },
+          { "npc_first_topic": "TALK_CHAD_ERIKSON_QUESTIONS" }
+        ],
         "opinion": { "trust": -1, "value": -1 },
         "condition": { "not": { "u_has_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" } },
         "topic": "TALK_CHAD_ERIKSON_FIRSTMEET"
       },
       {
         "text": "Hello Mr. Erikson, I have some questions for you.",
-        "effect": { "u_add_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" },
+        "effect": [
+          { "u_add_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" },
+          { "npc_first_topic": "TALK_CHAD_ERIKSON_QUESTIONS" }
+        ],
         "opinion": { "trust": 1, "value": 1 },
         "condition": { "not": { "u_has_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" } },
         "topic": "TALK_CHAD_ERIKSON_QUESTIONS"
@@ -166,7 +173,10 @@
       },
       {
         "text": "Hey Chad, nice to meet you too.  Bye.",
-        "effect": { "u_add_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" },
+        "effect": [
+          { "u_add_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" },
+          { "npc_first_topic": "TALK_CHAD_ERIKSON_QUESTIONS" }
+        ],
         "opinion": { "trust": -1, "value": -2 },
         "condition": { "not": { "u_has_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" } },
         "topic": "TALK_DONE"
@@ -309,7 +319,7 @@
     "responses": [
       { "text": "What can I do to help the Maquis?", "topic": "TALK_MISSION_LIST" },
       { "text": "I would like to ask you about the Xenoids.", "topic": "TALK_CHAD_ERIKSON_ASK_ABOUT_XENOIDS" },
-      { "text": "I have something else to ask you first.", "topic": "TALK_NONE" }
+	  { "text": "Ok, I have to go now.", "topic": "TALK_DONE" } 
     ]
   },
   {

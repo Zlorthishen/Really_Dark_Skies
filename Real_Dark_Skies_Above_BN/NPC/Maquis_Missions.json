@@ -212,9 +212,9 @@
   {
     "id": "DKZ_MAQUIS_RENDEZVOUS_TO_BASE",
     "type": "mission_definition",
-    "name": { "str": "Rendezvous to base." },
-    "description": "With your military acumen, you have to get to the local Maquis resistance base to help resist the Xenoid Invaders.",
-    "goal": "MGOAL_GO_TO",
+    "name": { "str": "Rendezvous to base" },
+    "description": "With your knowledge, you have to get to the local Maquis resistance base and inform the leader.",
+    "goal": "MGOAL_TALK_TO_NPC",
     "destination": "racing_tower_z7_4_1",
     "difficulty": 1,
     "urgent": true,

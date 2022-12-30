@@ -109,23 +109,28 @@
     "responses": [
       {
         "text": "Wow, nice to meet you too, Randy.",
-        "effect": { "u_add_var": "u_met_Randy_Erikson", "type": "general", "context": "meeting", "value": "yes" },
+        "effect": [
+          { "u_add_var": "u_met_Randy_Erikson", "type": "general", "context": "meeting", "value": "yes" },
+          { "npc_first_topic": "TALK_RANDY_ERIKSON_QUESTIONS" }
+        ],
         "condition": { "not": { "u_has_var": "u_met_Randy_Erikson", "type": "general", "context": "meeting", "value": "yes" } },
         "topic": "TALK_RANDY_ERIKSON_FIRSTMEET"
       },
       {
-        "text": "Hi, Randy.  Got a second to talk?",
-        "topic": "TALK_RANDY_ERIKSON_QUESTIONS",
-        "condition": { "u_has_var": "u_met_Randy_Erikson", "type": "general", "context": "meeting", "value": "yes" }
-      },
-      {
         "text": "Hey Randy, nice to meet you too.  Bye.",
-        "effect": { "u_add_var": "u_met_Randy_Erikson", "type": "general", "context": "meeting", "value": "yes" },
+        "effect": [
+          { "u_add_var": "u_met_Randy_Erikson", "type": "general", "context": "meeting", "value": "yes" },
+          { "npc_first_topic": "TALK_RANDY_ERIKSON_QUESTIONS" }
+        ],
         "condition": { "not": { "u_has_var": "u_met_Randy_Erikson", "type": "general", "context": "meeting", "value": "yes" } },
         "topic": "TALK_DONE"
       },
       {
         "text": "Hi Randy.  I don't have time to talk.",
+        "effect": [
+          { "u_add_var": "u_met_Randy_Erikson", "type": "general", "context": "meeting", "value": "yes" },
+          { "npc_first_topic": "TALK_RANDY_ERIKSON_QUESTIONS" }
+        ],
         "condition": { "u_has_var": "u_met_Randy_Erikson", "type": "general", "context": "meeting", "value": "yes" },
         "topic": "TALK_DONE"
       }
@@ -177,7 +182,7 @@
             { "not": { "u_has_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" } },
             { "not": { "u_has_mission": "MISSION_CHECK_UP_ON_BIG_BROTHER" } },
             { "not": { "u_has_mission": "MISSION_GO_MEET_THE_BIG_FED" } }
-			]
+          ]
         },
         "effect": { "add_mission": "MISSION_CHECK_UP_ON_BIG_BROTHER" },
         "topic": "TALK_RANDY_ERIKSON_MISSION_CHECK_UP_ON_BIG_BROTHER_MAQUIS"
