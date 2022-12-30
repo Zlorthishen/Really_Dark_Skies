@@ -34,8 +34,8 @@
       ],
       "terrain": { "=": "t_chainfence", "_": "t_pavement", "`": "t_pavement_y" },
       "set": [
-        { "point": "trap", "id": "tr_beartrap", "x": [ 0, 23 ], "y": [ 0, 11 ], "repeat": [ 10, 11 ] },
-        { "point": "trap", "id": "tr_caltrops_glass", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 40, 50 ] },
+        { "point": "trap", "id": "tr_beartrap", "x": [ 0, 23 ], "y": [ 4, 11 ], "repeat": [ 10, 11 ] },
+        { "point": "trap", "id": "tr_caltrops_glass", "x": [ 0, 23 ], "y": [ 4, 23 ], "repeat": [ 40, 50 ] },
         { "point": "trap", "id": "tr_spike_pit", "x": [ 0, 23 ], "y": [ 12, 23 ], "repeat": [ 10, 25 ] }
       ]
     }
@@ -75,8 +75,8 @@
       ],
       "terrain": { "=": "t_chainfence", "_": "t_pavement", "`": "t_pavement_y" },
       "set": [
-        { "point": "trap", "id": "tr_beartrap", "x": [ 0, 23 ], "y": [ 0, 11 ], "repeat": [ 10, 11 ] },
-        { "point": "trap", "id": "tr_caltrops_glass", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 40, 50 ] },
+        { "point": "trap", "id": "tr_beartrap", "x": [ 0, 23 ], "y": [ 4, 11 ], "repeat": [ 10, 11 ] },
+        { "point": "trap", "id": "tr_caltrops_glass", "x": [ 0, 23 ], "y": [ 4, 23 ], "repeat": [ 40, 50 ] },
         { "point": "trap", "id": "tr_spike_pit", "x": [ 0, 23 ], "y": [ 12, 23 ], "repeat": [ 10, 25 ] }
       ]
     }
