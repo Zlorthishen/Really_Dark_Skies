@@ -4,6 +4,11 @@
     "id": "barter_tower",
     "name": "Barter Tower",
     "terrain": [ "racing_tower_z0_3_3" ]
+  },  {
+    "type": "start_location",
+    "id": "s_loc_dkz_abstorefront",
+    "name": "Abandoned Store",
+    "terrain": [ "dkz_abstorefront" ]
   },
   {
     "type": "scenario",
@@ -12,8 +17,7 @@
     "points": 0,
     "description": "You were out on a combat patrol against the Xenoids, and scavenge useful supplies in the processes, but you've attracted the attention of the alien invaders in some way, now they're all around and you'll likely have to fight thorough them if you want to escape.  Also the buiiding is on fire.\n\nThis mission is Foxtrot Uniform Charlie Kilo.",
     "custom_initial_date": { "season": "summer", "year": 1 },
-    "allowed_locs": [
-      "sloc_house",
+    "allowed_locs": [          
       "sloc_house_boarded",
       "sloc_grocery_store",
       "sloc_garage",
@@ -24,8 +28,8 @@
       "sloc_golfcourse_clubhouse",
       "sloc_church",
       "sloc_fire_station",
-      "sloc_police"
-    ],
+      "sloc_police"  
+	],
     "professions": [
       "bionic_maquis_combat",
       "bionic_maquis_soldier",

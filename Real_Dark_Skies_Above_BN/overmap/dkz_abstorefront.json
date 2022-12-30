@@ -10,26 +10,26 @@
         "_______       ssssssss  ",
         "___~~~~O    b|-xx--xx-| ",
         "_______O    b|BBBBBBBB| ",
-        "_______O    b|B......B| ",
-        "_______O SSS |B......B| ",
-        "___~~~~|--D--|B......B| ",
-        "_______|B...;;;......B| ",
-        "_______|B............B| ",
+        "_______O    b|........| ",
+        "_______O sss |........| ",
+        "___~~~~|--D--|........| ",
+        "_______|B...;;;.......| ",
+        "_______|B.............| ",
         "_______|B.....|---+---| ",
         "___~~~~|B.....|......l| ",
         "_______|B..ccc|...|ḃ.l| ",
         "_______|-+-|..+..L|ḃ.l| ",
         "_______|Q.q|ḂḂ|..L|ḃ.l| ",
         "___~~~~|-------+------|s",
-        "       sss|<|    RRR 4Fs",
+        "          |<|    RRR 4Fs",
         "          G           Fs",
-        "OOOOOO   sFFFFFFFFFFFFFs",
-        "OOOOOOOO sssssssssssssss",
-        "OOOOOOOOOOOOOOOOOOOOOOOO",
-        "OOOOOOOOOOOOOOOOOOOOOOOO",
-        "OOOOOOOOOOOOOOOOOOOOOOOO",
-        "OOOOOOOOOOOOOOOOOOOOOOOO",
-        "OOOOOOOOOOOOOOOOOOOOOOOO"
+        "          FFFFFFFFFFFFFs",
+        "OO OOOO                 ",
+        "OOOO OOO OO OOO OOOO OOO",
+        "OOO OOO OOO OOOOOO OOOOO",
+        "OOO OOO OOOOO OO OOO OOO",
+        "OOOO OOOO OO OOOO OOOO O",
+        "OOO OO OOOOO OOO OOOO OO"
       ],
       "terrain": {
         "O": [
@@ -148,6 +148,22 @@
       ]
     }
   },
+  {
+    "type": "overmap_terrain",
+    "id": [ "dkz_abstorefront", "dkz_abstorefront_roof" ],
+    "copy-from": "generic_city_building",
+    "name": "abandoned storefront",
+    "color": "h_dark_gray"
+  },  
+  {
+    "type": "city_building",
+    "id": "dkz_abstorefront",
+    "locations": [ "land" ],
+    "overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "dkz_abstorefront_north" },
+      { "point": [ 0, 0, 1 ], "overmap": "dkz_abstorefront_roof_north" }
+    ]
+  },  
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
    "type": "mapgen",

@@ -45,8 +45,8 @@
       "F": "t_chainfence_v",
       "w": "t_floor_paper",
       "W": "t_paper",
-      "g": "t_tempered_glass_with_curtain_open_window_closed",
-      "G": "t_tempered_glass_with_curtain",
+      "g": "t_metal_grate_window_with_curtain_open",
+      "G": "t_metal_grate_window_with_curtain",
       "@": "t_door_metal_locked",
       "c": "t_gates_mech_control_lab",
       "P": "t_palisade_gate"
