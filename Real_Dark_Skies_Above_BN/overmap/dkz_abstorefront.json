@@ -6,30 +6,30 @@
     "object": {
       "fill_ter": "t_floor",
       "rows": [
-        "_______                 ",
-        "_______       ssssssss  ",
-        "___~~~~O    b|-xx--xx-| ",
-        "_______O    b|BBBBBBBB| ",
-        "_______O    b|........| ",
-        "_______O sss |........| ",
-        "___~~~~|--D--|........| ",
-        "_______|B...;;;.......| ",
-        "_______|B.............| ",
-        "_______|B.....|---+---| ",
-        "___~~~~|B.....|......l| ",
-        "_______|B..ccc|...|ḃ.l| ",
-        "_______|-+-|..+..L|ḃ.l| ",
-        "_______|Q.q|ḂḂ|..L|ḃ.l| ",
-        "___~~~~|-------+------|s",
-        "          |<|    RRR 4Fs",
-        "          G           Fs",
-        "          FFFFFFFFFFFFFs",
-        "OO OOOO                 ",
-        "OOOO OOO OO OOO OOOO OOO",
-        "OOO OOO OOO OOOOOO OOOOO",
-        "OOO OOO OOOOO OO OOO OOO",
-        "OOOO OOOO OO OOOO OOOO O",
-        "OOO OO OOOOO OOO OOOO OO"
+        "_______ ````````````````",
+        "_______ ````````````````",
+        "___~~~~o````b|-xx--xx-|`",
+        "_______o````b|........|`",
+        "_______o````b|.BB..BB.|`",
+        "_______o`````|.BB..BB.|`",
+        "___~~~~|--D--|.BḂ..BB.|`",
+        "_______|B.............|`",
+        "_______|B.............|`",
+        "_______|B.....|---+---|`",
+        "___~~~~|B.....|>.....l|`",
+        "_______|B..ccc|...|ḃ.l|`",
+        "_______|-+-|..+..L|ḃ.l|`",
+        "_______|Q.q|BB|..L|ḃ.l|`",
+        "_______|-------+------|`",
+        " FFGGFFF4 |<|    RRR 4F`",
+        " F                    F`",
+        "OF                    F`",
+        "OF                    F`",
+        "OF                    F`",
+        "OFOOO                 F`",
+        "OFOOOOOOOOOOOOOOOOOO  F`",
+        "OFFFFFFFFFFFFFFFFFFFFFF`",
+        "OOOOOOOOOOOOOOOOOOOOOOO`"
       ],
       "terrain": {
         "O": [
@@ -53,9 +53,9 @@
           "t_grass",
           "t_dirt"
         ],
-        " ": "t_sidewalk",
-        "s": "t_sidewalk",
-        "S": "t_sidewalk",
+        "o": [ "t_grass", "t_shrub" ],
+        " ": "t_grass",
+        "`": "t_sidewalk",
         "b": "t_sidewalk",
         "ḃ": "t_floor",
         "B": "t_floor",
@@ -70,7 +70,7 @@
         "x": "t_window_boarded",
         "F": "t_chainfence",
         "G": "t_chaingate_l",
-        "R": "t_sidewalk",
+        "R": "t_dirt",
         "4": "t_gutter_downspout",
         "<": "t_ladder_up",
         ">": "t_stairs_down",
@@ -78,9 +78,7 @@
       },
       "furniture": {
         "q": "f_sink",
-        "Q": "f_toilet",	  
-        "s": "f_sandbag_half",
-        "S": "f_sandbag_wall",
+        "Q": "f_toilet",
         "B": "f_rack",
         "Ḃ": "f_rack",
         "R": "f_dumpster",
@@ -90,7 +88,20 @@
         "ḃ": "f_bench",
         "c": "f_counter"
       },
-      "items": { ".": { "item": "trash", "chance": 15 } },
+      "place_npcs": [
+        { "class": "DKZ_QUISLING_THUG", "x": 5, "y": 5, "add_trait": "DKZ_QUISLING" },
+        { "class": "DKZ_QUISLING_THUG", "x": 5, "y": 6, "add_trait": "DKZ_QUISLING" },
+        { "class": "DKZ_QUISLING_THUG", "x": 5, "y": 7, "add_trait": "DKZ_QUISLING" },
+        { "class": "DKZ_QUISLING_THUG", "x": 16, "y": 19, "add_trait": "DKZ_QUISLING" },
+        { "class": "DKZ_QUISLING_THUG", "x": 17, "y": 19, "add_trait": "DKZ_QUISLING" },
+        { "class": "DKZ_QUISLING_THUG", "x": 17, "y": 20, "add_trait": "DKZ_QUISLING" }
+      ],
+      "place_monsters": [
+        { "monster": "GROUP_QUISSLING_HELPERS", "x": [ 3, 6 ], "y": [ 3, 6 ] },
+        { "monster": "GROUP_QUISSLING_HELPERS", "x": [ 19, 22 ], "y": [ 19, 22 ] }
+      ],
+      "item": { "Ḃ": { "item": "keffiyeh", "chance": 100 } },
+      "items": { ".": { "item": "trash", "chance": 15 }  },
       "vehicles": { ";": { "vehicle": "shopping_cart", "chance": 50, "status": 1 } }
     }
   },
@@ -116,7 +127,7 @@
         "       |..............3 ",
         "       |..............3 ",
         "       |..............3 ",
-        "       |-------------53 ",
+        "       |5------------53 ",
         "          #>#           ",
         "          ###           ",
         "                        ",
@@ -154,7 +165,7 @@
     "copy-from": "generic_city_building",
     "name": "abandoned storefront",
     "color": "h_dark_gray"
-  },  
+  },
   {
     "type": "city_building",
     "id": "dkz_abstorefront",
@@ -162,11 +173,13 @@
     "overmaps": [
       { "point": [ 0, 0, 0 ], "overmap": "dkz_abstorefront_north" },
       { "point": [ 0, 0, 1 ], "overmap": "dkz_abstorefront_roof_north" }
-    ]
-  },  
+    ],
+    "occurrences": [ 0, -1 ],
+    "flags": [ "GLOBALLY UNIQUE", "URBAN", "UNIQUE" ]
+  },
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
-   "type": "mapgen",
+    "type": "mapgen",
     "method": "json",
     "om_terrain": [ "dkz_abookstore" ],
     "weight": 500,

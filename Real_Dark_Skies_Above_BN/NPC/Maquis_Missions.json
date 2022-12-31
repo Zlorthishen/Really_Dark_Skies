@@ -213,13 +213,13 @@
     "id": "DKZ_MAQUIS_RENDEZVOUS_TO_BASE",
     "type": "mission_definition",
     "name": { "str": "Rendezvous to base" },
-    "description": "With your knowledge, you have to get to the local Maquis resistance base and inform the leader.",
+    "description": "With your knowledge of humans cooperating with Xenoids, you have to get to the local Maquis resistance base and inform the leader.",
     "goal": "MGOAL_TALK_TO_NPC",
     "destination": "racing_tower_z7_4_1",
     "difficulty": 1,
     "urgent": true,
-    "deadline_low": 2,
-    "deadline_high": 3,
+    "deadline_low": 1,
+    "deadline_high": 2,
     "value": 0,
     "start": {
       "assign_mission_target": {
