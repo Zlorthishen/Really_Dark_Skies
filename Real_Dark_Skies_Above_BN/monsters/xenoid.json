@@ -130,7 +130,8 @@
       "HIT_AND_RUN",
       "PRIORITIZE_TARGETS",
       "PATH_AVOID_DANGER_1",
-      "CAN_OPEN_DOORS"
+      "CAN_OPEN_DOORS",
+	  "ARTHROPOD_BLOOD"
     ]
   },
   {
@@ -205,7 +206,8 @@
       "PRIORITIZE_TARGETS",
       "CLIMBS",
       "HIT_AND_RUN",
-      "CAN_OPEN_DOORS"
+      "CAN_OPEN_DOORS",
+	  "ARTHROPOD_BLOOD"
     ]
   },
   {
@@ -280,7 +282,8 @@
       "PRIORITIZE_TARGETS",
       "CLIMBS",
       "HIT_AND_RUN",
-      "CAN_OPEN_DOORS"
+      "CAN_OPEN_DOORS",
+	  "ARTHROPOD_BLOOD"
     ]
   },
   {
@@ -356,7 +359,8 @@
       "NIGHT_INVISIBILITY",	  
       "CLIMBS",
       "HIT_AND_RUN",
-      "CAN_OPEN_DOORS"
+      "CAN_OPEN_DOORS",
+	  "ARTHROPOD_BLOOD"
     ]
   },
   {
@@ -432,7 +436,8 @@
       "PATH_AVOID_DANGER_1",
       "PRIORITIZE_TARGETS",
       "CLIMBS",
-      "CAN_OPEN_DOORS"
+      "CAN_OPEN_DOORS",
+	  "ARTHROPOD_BLOOD"
     ]
   },
   {
@@ -508,7 +513,8 @@
       "PATH_AVOID_DANGER_1",
       "PRIORITIZE_TARGETS",
       "CLIMBS",
-      "CAN_OPEN_DOORS"
+      "CAN_OPEN_DOORS",
+	  "ARTHROPOD_BLOOD"
     ]
   },
   {
@@ -583,7 +589,8 @@
       "PATH_AVOID_DANGER_1",
       "PRIORITIZE_TARGETS",
       "CLIMBS",
-      "CAN_OPEN_DOORS"
+      "CAN_OPEN_DOORS",
+	  "ARTHROPOD_BLOOD"
     ]
   },
   {
@@ -663,7 +670,8 @@
       "PATH_AVOID_DANGER_1",
       "PRIORITIZE_TARGETS",
       "CLIMBS",
-      "CAN_OPEN_DOORS"
+      "CAN_OPEN_DOORS",
+	  "ARTHROPOD_BLOOD"
     ]
   },
   {
@@ -736,7 +744,8 @@
       "PATH_AVOID_DANGER_1",
       "PRIORITIZE_TARGETS",
       "CLIMBS",
-      "CAN_OPEN_DOORS"
+      "CAN_OPEN_DOORS",
+	  "ARTHROPOD_BLOOD"
     ]
   },
   {
@@ -812,7 +821,8 @@
       "ACIDPROOF",
       "PATH_AVOID_DANGER_1",
       "PRIORITIZE_TARGETS",
-      "CAN_OPEN_DOORS"
+      "CAN_OPEN_DOORS",
+	  "ARTHROPOD_BLOOD"
     ]
   },
   {
@@ -889,7 +899,8 @@
       "ACIDPROOF",
       "PATH_AVOID_DANGER_1",
       "PRIORITIZE_TARGETS",
-      "CAN_OPEN_DOORS"
+      "CAN_OPEN_DOORS",
+	  "ARTHROPOD_BLOOD"
     ]
   },
   {
@@ -966,7 +977,8 @@
       "ACIDPROOF",
       "PATH_AVOID_DANGER_1",
       "PRIORITIZE_TARGETS",
-      "CAN_OPEN_DOORS"
+      "CAN_OPEN_DOORS",
+	  "ARTHROPOD_BLOOD"
     ]
   },
   {
@@ -1044,7 +1056,8 @@
       "ACIDPROOF",
       "PATH_AVOID_DANGER_1",
       "PRIORITIZE_TARGETS",
-      "CAN_OPEN_DOORS"
+      "CAN_OPEN_DOORS",
+	  "ARTHROPOD_BLOOD"
     ]
   },
   {
