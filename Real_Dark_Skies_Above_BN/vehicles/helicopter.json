@@ -256,7 +256,7 @@
       { "x": -3, "y": 3, "part": "roof" },
       { "x": -1, "y": 3, "part": "roof" }
     ],
-    "items": [ { "x": -1, "y": 0, "chance": 100, "items": [ "1st_aid" ] } ]
+    "items": [ { "x": -1, "y": 0, "chance": 100, "items": [ "1st_aid" ] }, { "x": -1, "y": 2, "chance": 100, "items": [ "1st_aid" ] } ]
   },
   {
     "id": "surv_blackhawk",
