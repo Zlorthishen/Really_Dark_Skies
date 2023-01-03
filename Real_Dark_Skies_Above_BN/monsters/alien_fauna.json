@@ -202,7 +202,7 @@
     "dodge": 4,
     "path_settings": { "max_dist": 5 },
     "fear_triggers": [ "SOUND", "FIRE", "FRIEND_DIED", "FRIEND_ATTACKED", "HURT" ],
-    "death_function": [ "MELT" ],
+    "death_function": [ "NORMAL" ],
     "flags": [
       "SEES",
       "HEARS",
