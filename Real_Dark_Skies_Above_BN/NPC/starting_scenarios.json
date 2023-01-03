@@ -11,7 +11,6 @@
     "name": "Foxtrot Uniform Charlie Kilo",
     "points": -5,
     "description": "You were out on your first combat patrol and as you were hunkered down in an abandoned store you noticed alien invaders, dubbed 'The Xenoids' which were working together with humans!  Incredibly, in the ongoing cataclysm, some desperate or deviant humans have decided to side with the Xenoids.  You must get to your local contact as soon as possible to report this turn of events. Also the buiiding is now on fire.\n\nThis mission is Foxtrot Uniform Charlie Kilo.",
-    "custom_initial_date": { "season": "summer", "year": 1, "day": 3 },
     "allowed_locs": [          
 
       "s_loc_dkz_abstorefront"  

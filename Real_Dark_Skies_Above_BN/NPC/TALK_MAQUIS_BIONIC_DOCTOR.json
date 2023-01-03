@@ -5,7 +5,6 @@
     "class": "NC_MAQUIS_BIONIC_DOCTOR",
     "attitude": 0,
     "mission": 7,
-    "common": "false",
     "chat": "TALK_MAQUIS_BIONIC_DOCTOR_ROOT",
     "mission_offered": "DKZ_MAQUIS_BIONIC_DOCTOR_MISSION_1",
     "faction": "maquis"

@@ -6,7 +6,6 @@
     "attitude": 0,
     "mission": 7,
     "gender": "male",
-    "common": "false",
     "chat": "TALK_MAQUIS_MECHANIC_ROOT",
     "mission_offered": "DKZ_MAQUIS_MECHANIC_MOTOR_OIL_MISSION_1",
     "faction": "maquis"

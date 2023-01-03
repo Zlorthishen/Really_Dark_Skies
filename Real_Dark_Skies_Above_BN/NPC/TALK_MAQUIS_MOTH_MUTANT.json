@@ -6,7 +6,6 @@
     "attitude": 0,
     "mission": 7,
     "gender": "male",
-    "common": "false",
     "chat": "TALK_MAQUIS_MOTH_MUTANT_ROOT",
     "mission_offered": "DKZ_MAQUIS_MOTH_MUTANT_DEW_THE_DEW_MISSION_1",
     "faction": "maquis"

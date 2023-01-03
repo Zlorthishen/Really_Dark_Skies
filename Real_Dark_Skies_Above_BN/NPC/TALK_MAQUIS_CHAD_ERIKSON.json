@@ -5,7 +5,6 @@
     "class": "NC_CHAD_ERIKSON",
     "name_unique": "Chad Erikson",
     "gender": "male",
-    "common": "false",
     "attitude": 1,
     "mission": 3,
     "mission_offered": "MISSION_REFUGEE_CHAD_ERIKSON_1",
@@ -745,7 +744,7 @@
         "min_distance": 25
       },
       "update_mapgen": {
-        "place_npcs": [ { "class": "DKZ_MAQUIS_CYBERCOP", "x": 13, "y": 13, "add_trait": "DKZ_SCIENTIST", "gender": "female" } ]
+        "place_npcs": [ { "class": "DKZ_MAQUIS_CYBERCOP", "x": 13, "y": 13, "add_trait": "DKZ_SCIENTIST" } ]
       }
     },
     "end": {

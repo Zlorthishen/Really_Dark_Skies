@@ -6,7 +6,6 @@
     "attitude": 0,
     "mission": 7,
     "gender": "female",	
-    "common": "false",	
     "chat": "TALK_MAQUIS_BIRD_MUTANT_ROOT",
     "faction": "maquis"
   },
@@ -86,7 +85,7 @@
         ]
       },
       {
-        "distribution": [ { "item": "leathersandals", "prob": 20 }, { "item": "boots", "straw_sandals": 20 } ]
+        "distribution": [ { "item": "leathersandals", "prob": 100 } ]
       },
       {
         "distribution": [ { "item": "gloves_fingerless", "prob": 5 }, { "item": "null", "prob": 75 } ]

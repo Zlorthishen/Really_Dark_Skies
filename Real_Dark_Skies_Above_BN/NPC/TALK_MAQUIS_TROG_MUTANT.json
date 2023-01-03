@@ -5,7 +5,6 @@
     "class": "NC_MAQUIS_TROG_MUTANT",
     "attitude": 0,
     "mission": 7,
-    "common": "false",
     "chat": "TALK_MAQUIS_TROG_MUTANT_ROOT",
     "mission_offered": "DKZ_MAQUIS_TROG_NEEDS_BIRDSEED_1",
     "faction": "maquis"

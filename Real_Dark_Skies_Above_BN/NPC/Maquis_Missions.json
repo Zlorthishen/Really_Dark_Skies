@@ -7,8 +7,10 @@
     "goal": "MGOAL_KILL_MONSTER_SPEC",
     "monster_species": "ALIEN",
     "monster_kill_goal": 12,
-    "deadline": 1,
     "difficulty": 3,
+    "urgent": true,
+    "deadline_low": 3,
+    "deadline_high": 4,
     "value": 125000,
     "origins": [ "ORIGIN_SECONDARY" ],
     "start": {
@@ -44,7 +46,10 @@
     "goal": "MGOAL_KILL_MONSTER_SPEC",
     "monster_species": "BIOCRYSTAL",
     "monster_kill_goal": 25,
-    "difficulty": 3,
+    "difficulty": 2,
+    "urgent": true,
+    "deadline_low": 2,
+    "deadline_high": 3,	
     "value": 25000,
     "origins": [ "ORIGIN_SECONDARY" ],
     "start": {
@@ -81,7 +86,10 @@
     "description": "Return to Maquis HQ.",
     "goal": "MGOAL_GO_TO_TYPE",
     "destination": "racing_tower_z0_2_2",
-    "difficulty": 0,
+    "difficulty": 1,
+    "urgent": true,
+    "deadline_low": 2,
+    "deadline_high": 3,	
     "value": 0,
     "start": {
       "assign_mission_target": {
@@ -121,7 +129,10 @@
     "description": "Return to Maquis HQ.",
     "goal": "MGOAL_GO_TO_TYPE",
     "destination": "racing_tower_z0_2_2",
-    "difficulty": 0,
+    "difficulty": 1,
+    "urgent": true,
+    "deadline_low": 2,
+    "deadline_high": 3,	
     "value": 0,
     "start": {
       "assign_mission_target": {
