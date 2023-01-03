@@ -2172,7 +2172,7 @@
           "status": 0
         }
       ],
-      "terrain": { "'": "t_pavement", "X": "t_grate", "B": "t_metal_flat_roof" },
+      "terrain": { "'": "t_pavement", "X": "t_glass_roof", "B": "t_metal_flat_roof" },
       "place_npcs": [
         { "class": "DKZ_MAQUIS_SNIPER", "x": 2, "y": 2, "add_trait": "DKZ_COMBAT", "prob": 50 },
         { "class": "DKZ_MAQUIS_SNIPER", "x": 2, "y": 92, "add_trait": "DKZ_COMBAT", "prob": 50  },

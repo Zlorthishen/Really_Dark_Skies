@@ -22,7 +22,6 @@
       { "trait": "THRESH_MEDICAL", "prob": 100 },
       { "trait": "SCHIZOPHRENIC", "prob": 100 },
       { "trait": "INSOMNIA", "prob": 100 },
-      { "trait": "FORGETFUL", "prob": 100 },
       { "trait": "INFRESIST", "prob": 90 },
       { "trait": "PARAIMMUNE", "prob": 90 },
       { "trait": "MASOCHIST_MED", "prob": 80 },

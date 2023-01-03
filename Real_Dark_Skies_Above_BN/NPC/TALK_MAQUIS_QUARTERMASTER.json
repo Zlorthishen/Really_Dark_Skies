@@ -5,6 +5,7 @@
     "class": "NC_MAQUIS_QUARTERMASTER",
     "attitude": 0,
     "mission": 7,
+    "name_suffix": "Quartermaster",	
     "gender": "male",
     "common": "false",
     "chat": "TALK_MAQUIS_QUARTERMASTER_ROOT",

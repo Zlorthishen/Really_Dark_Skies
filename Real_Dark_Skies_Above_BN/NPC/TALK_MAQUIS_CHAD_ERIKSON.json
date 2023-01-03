@@ -518,7 +518,7 @@
     "type": "talk_topic",
     "dynamic_line": [
       "They appeared suddenly as soon as the cataclysm began, several high value military bases in the west US, along with the largest population centers were effectively disintegrated by space based weapon systems, and virtually every man-made satellite blinked off at the same instant.  Our military response has been crippled as there is some unknown effect which prevents aircraft from operating higher than a few hundred feet.",
-      "Based on our latest reports, the Xenoids are an extra-terrestrial invasion which has used weapons of mass destruction on human civillians, and seems bent on the conquest of Earth.  Its like the plot of a 1950's pulp science fiction book or a poorly conceived open-source game."
+      "Based on our latest reports, the Xenoids are an extra-terrestrial invasion which has used weapons of mass destruction on human civillians, and seems bent on the conquest of Earth.  Its like the plot of a 1950's pulp science fiction book or a poorly conceived, open-source, rouge-like game."
     ],
     "responses": [
       { "text": "I have some more general questions about the Xenoids.", "topic": "TALK_CHAD_ERIKSON_ASK_ABOUT_XENOIDS" },
