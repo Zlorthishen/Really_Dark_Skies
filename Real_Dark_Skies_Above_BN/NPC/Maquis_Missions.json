@@ -1,5 +1,34 @@
 [
   {
+    "//": "----| STARTING SCENARIO MISSION |--------------------------------------------------------------------------------------",
+    "id": "DKZ_MAQUIS_RENDEZVOUS_TO_BASE",
+    "type": "mission_definition",
+    "name": { "str": "Rendezvous To Headquarters" },
+    "description": "With your knowledge of humans cooperating with Xenoids, you have to get to the local Maquis resistance base and inform the leader of the existance of Quislings.",
+    "goal": "MGOAL_TALK_TO_NPC",
+    "destination": "racing_tower_z7_4_1",
+    "difficulty": 1,
+    "urgent": true,
+    "deadline_low": 2,
+    "deadline_high": 3,
+    "value": 0,
+    "start": {
+      "assign_mission_target": {
+        "om_terrain": "racing_tower_z7_4_1",
+        "om_special": "arcology_racing",
+        "search_range": 555,
+        "random": true,
+        "min_distance": 88
+      },
+      "update_mapgen": { "place_npcs": [ { "class": "DKZ_CHAD_ERIKSON", "x": 5, "y": 5, "target": true } ] },
+      "effect": [
+        { "u_add_var": "MrEriksonExists", "type": "knowledge", "context": "flag", "value": "yes" },
+        { "u_add_var": "Rendezvous_to_base", "type": "knowledge", "context": "flag", "value": "yes" }
+      ]
+    },
+    "origins": [ "ORIGIN_GAME_START" ]
+  },
+  {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "DKZ_MAQUIS_KILL_12_XENOIDS",
     "type": "mission_definition",
@@ -219,33 +248,5 @@
       "success_lie": "I'm sure you did…",
       "failure": "I wonder where it all went…"
     }
-  },
-  {
-    "id": "DKZ_MAQUIS_RENDEZVOUS_TO_BASE",
-    "type": "mission_definition",
-    "name": { "str": "Rendezvous to base" },
-    "description": "With your knowledge of humans cooperating with Xenoids, you have to get to the local Maquis resistance base and inform the leader.",
-    "goal": "MGOAL_TALK_TO_NPC",
-    "destination": "racing_tower_z7_4_1",
-    "difficulty": 1,
-    "urgent": true,
-    "deadline_low": 2,
-    "deadline_high": 3,
-    "value": 0,
-    "start": {
-      "assign_mission_target": {
-        "om_terrain": "racing_tower_z7_4_1",
-        "om_special": "arcology_racing",
-        "search_range": 555,
-        "random": true,
-        "min_distance": 88
-      },
-      "update_mapgen": { "place_npcs": [ { "class": "DKZ_CHAD_ERIKSON", "x": 5, "y": 5, "target": true } ] },
-      "effect": [
-        { "u_add_var": "MrEriksonExists", "type": "knowledge", "context": "flag", "value": "yes" },
-        { "u_add_var": "Rendezvous_to_base", "type": "knowledge", "context": "flag", "value": "yes" }
-      ]
-    },
-    "origins": [ "ORIGIN_GAME_START" ]
   }
 ]

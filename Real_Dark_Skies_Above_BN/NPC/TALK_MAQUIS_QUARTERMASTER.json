@@ -414,7 +414,7 @@
     ],
     "responses": [
       {
-        "text": "Ok, Thanks.",
+        "text": "Ok, Thanks. ",
         "topic": "TALK_NONE"
       },
       { "text": "I have to go now.", "topic": "TALK_DONE" }
