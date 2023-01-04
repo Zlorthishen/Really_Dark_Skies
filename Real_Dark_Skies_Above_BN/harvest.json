@@ -19,8 +19,8 @@
   {
     "type": "COMESTIBLE",
     "id": "bone_xenoid",
+    "copy-from": "bone_tainted",
     "category": "other",
-    "looks-like": "bone_tainted",
     "name": "xenoid bone",
     "weight": "300 g",
     "color": "light_gray",
@@ -38,7 +38,7 @@
     "type": "COMESTIBLE",
     "id": "bone_xenoid_small",
     "category": "other",
-    "looks-like": "bone_tainted",
+    "copy-from": "bone_tainted",
     "name": "small xenoid bone",
     "weight": "15 g",
     "color": "light_gray",
