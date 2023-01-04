@@ -1954,8 +1954,8 @@
         }
       },
       "mapping": {
-        "L": { "furniture": "f_table", "fields": { "field": "fd_blood", "chance": 90 } },
-        "l": { "furniture": "f_makeshift_bed", "fields": { "field": "fd_blood", "chance": 25 } }
+        "L": { "furniture": "f_table", "fields": { "field": "fd_blood"} },
+        "l": { "furniture": "f_makeshift_bed", "fields": { "field": "fd_blood" } }
       },
       "terrain": {
         "'": "t_pavement",
@@ -2174,14 +2174,14 @@
       ],
       "terrain": { "'": "t_pavement", "X": "t_glass_roof", "B": "t_metal_flat_roof" },
       "place_npcs": [
-        { "class": "DKZ_MAQUIS_SNIPER", "x": 2, "y": 2, "add_trait": "DKZ_COMBAT", "prob": 50 },
-        { "class": "DKZ_MAQUIS_SNIPER", "x": 2, "y": 92, "add_trait": "DKZ_COMBAT", "prob": 50  },
-        { "class": "DKZ_MAQUIS_SNIPER", "x": 2, "y": 47, "add_trait": "DKZ_COMBAT", "prob": 50  },
-        { "class": "DKZ_MAQUIS_SNIPER", "x": 92, "y": 2, "add_trait": "DKZ_COMBAT", "prob": 50  },
-        { "class": "DKZ_MAQUIS_SNIPER", "x": 49, "y": 2, "add_trait": "DKZ_COMBAT", "prob": 50  },
-        { "class": "DKZ_MAQUIS_SNIPER", "x": 92, "y": 49, "add_trait": "DKZ_COMBAT", "prob": 50  },
-        { "class": "DKZ_MAQUIS_SNIPER", "x": 47, "y": 92, "add_trait": "DKZ_COMBAT", "prob": 50  },
-        { "class": "DKZ_MAQUIS_SNIPER", "x": 92, "y": 92, "add_trait": "DKZ_COMBAT", "prob": 50  }
+        { "class": "DKZ_MAQUIS_SNIPER", "x": 2, "y": 2, "add_trait": "DKZ_COMBAT" },
+        { "class": "DKZ_MAQUIS_SNIPER", "x": 2, "y": 92, "add_trait": "DKZ_COMBAT" },
+        { "class": "DKZ_MAQUIS_SNIPER", "x": 2, "y": 47, "add_trait": "DKZ_COMBAT" },
+        { "class": "DKZ_MAQUIS_SNIPER", "x": 92, "y": 2, "add_trait": "DKZ_COMBAT" },
+        { "class": "DKZ_MAQUIS_SNIPER", "x": 49, "y": 2, "add_trait": "DKZ_COMBAT" },
+        { "class": "DKZ_MAQUIS_SNIPER", "x": 92, "y": 49, "add_trait": "DKZ_COMBAT" },
+        { "class": "DKZ_MAQUIS_SNIPER", "x": 47, "y": 92, "add_trait": "DKZ_COMBAT" },
+        { "class": "DKZ_MAQUIS_SNIPER", "x": 92, "y": 92, "add_trait": "DKZ_COMBAT"  }
       ]
     }
   },

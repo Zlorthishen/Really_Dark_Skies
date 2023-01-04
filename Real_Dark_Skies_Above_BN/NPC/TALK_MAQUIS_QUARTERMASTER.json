@@ -415,7 +415,6 @@
     "responses": [
       {
         "text": "Ok, Thanks.",
-        "update_mapgen": [ { "om_terrain": "racing_tower_z0_1_4", "place_nested": [ { "chunks": [ "dkz_build_leader" ], "x": 3, "y": 3 } ] } ],
         "topic": "TALK_NONE"
       },
       { "text": "I have to go now.", "topic": "TALK_DONE" }
@@ -429,7 +428,6 @@
     "responses": [
       {
         "text": "Ok, Thanks.",
-        "update_mapgen": [ { "om_terrain": "racing_tower_z7_1_4", "place_nested": [ { "chunks": [ "dkz_build_technical" ], "x": 3, "y": 3 } ] } ],
         "topic": "TALK_NONE"
       },
       { "text": "I have to go now.", "topic": "TALK_DONE" }
@@ -445,7 +443,6 @@
     "responses": [
       {
         "text": "Ok, Thanks.",
-        "update_mapgen": [ { "om_terrain": "racing_tower_z7_1_4", "place_nested": [ { "chunks": [ "dkz_build_science" ], "x": 3, "y": 3 } ] } ],
         "topic": "TALK_NONE"
       },
       { "text": "I have to go now.", "topic": "TALK_DONE" }
@@ -461,7 +458,6 @@
     "responses": [
       {
         "text": "Ok, Thanks.",
-        "update_mapgen": [ { "om_terrain": "racing_tower_z0_1_4", "place_nested": [ { "chunks": [ "dkz_build_medical" ], "x": 3, "y": 3 } ] } ],
         "topic": "TALK_NONE"
       },
       { "text": "I have to go now.", "topic": "TALK_DONE" }
@@ -477,7 +473,6 @@
     "responses": [
       {
         "text": "Ok, Thanks.",
-        "update_mapgen": [ { "om_terrain": "racing_tower_z0_1_4", "place_nested": [ { "chunks": [ "dkz_build_combat" ], "x": 3, "y": 3 } ] } ],
         "topic": "TALK_NONE"
       },
       { "text": "I have to go now.", "topic": "TALK_DONE" }
