@@ -1,0 +1,16 @@
+[
+  {
+    "//1": "-----------------------------------------------------------------------------------------------------------------------",
+    "type": "item_group",
+    "id": "DKZ_guns_energy",
+    "//": "Assorted factory crafted energy weapons.",
+    "items": [
+      { "item": "crt_laser_pistol", "prob": 50 },
+      { "item": "crt_laser_gatling", "prob": 10 },
+      { "item": "crt_laser_carbine", "prob": 70 },
+      { "item": "crt_energy_rifle", "prob": 20 },
+      { "item": "ds_pulse_rifle", "prob": 20 },
+      { "item": "ds_line_gun", "prob": 10 }
+    ]
+  }
+]
