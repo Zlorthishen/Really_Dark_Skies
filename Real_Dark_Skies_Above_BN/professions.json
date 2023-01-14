@@ -5,7 +5,6 @@
     "name": "Bionic Maquis Commander",
     "description": "Decked out with the latest cybernetic augmentions, armed with the dealiest of firearms the still remain, and with nerves of steel, your only purpose is to save the world from the aliens.",
     "points": 77,
-    "traits": [ "DKZ_LEADER" ],
     "CBMs": [
       "bio_sunglasses",
       "bio_tools",
@@ -38,7 +37,6 @@
     "name": "Bionic Maquis Soldier",
     "description": "You are the result of one of the military's latest and final research programs, a prototype cyborg soldier.  You're still alive thanks to your augmentations, even after all your comrades fell to the undead.",
     "points": 6,
-    "traits": [ "DKZ_COMBAT" ],	
     "CBMs": [
       "bio_targeting",
       "bio_armor_head",
@@ -98,7 +96,6 @@
     "description": "For better or for worse, bionic augmentation has turned you into a walking power tool.  Upgraded with a standard industrial-grade manual labor surgery and training package, you are augmented with bionic muscles and an integrated toolset, both powered by standard batteries.",
     "points": 66,
     "skills": [ { "level": 4, "name": "fabrication" }, { "level": 2, "name": "mechanics" } ],
-    "traits": [ "DKZ_TECH" ],
     "CBMs": [
       "bio_tools",
       "bio_sunglasses",
@@ -157,7 +154,6 @@
     "name": "Bionic Maquis Medic",
     "description": "As a second-generation augmented firefighter, you have been cybernetically enhanced to operate in the most dire of emergency situations.  The end of the world definitely counts as a dire situation.",
     "points": 66,
-    "traits": [ "DKZ_MEDIC" ],
     "CBMs": [
       "bio_climate",
       "bio_heatsink",
