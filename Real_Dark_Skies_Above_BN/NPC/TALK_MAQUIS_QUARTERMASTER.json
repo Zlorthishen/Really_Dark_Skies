@@ -28,7 +28,7 @@
       { "trait": "NIGHTVISION", "prob": 100 }
     ],
     "skills": [
-      { "skill": "ALL", "level": { "sum": [ { "dice": [ 3, 2 ] }, { "constant": -4 } ] } },
+      { "skill": "ALL", "level": { "sum": [ { "dice": [ 3, 2 ] }, { "constant": -3 } ] } },
       { "skill": "survival", "bonus": { "rng": [ 2, 3 ] } },
       { "skill": "dodge", "bonus": { "rng": [ 2, 3 ] } },
       { "skill": "melee", "bonus": { "rng": [ 2, 3 ] } },
@@ -336,27 +336,27 @@
       {
         "text": "Protecting the remaining citizens is the ultimate priority.",
         "condition": { "u_has_any_trait": [ "DKZ_LEADER" ] },
-        "topic": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_LEADERSHIP"
+        "topic": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_LEADERSHIP_INITIAL"
       },
       {
         "text": "First thing is setting up an area to recover alien technology.",
         "condition": { "u_has_any_trait": [ "DKZ_TECHNICIAN" ] },
-        "topic": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_TECH"
+        "topic": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_TECH_INITIAL"
       },
       {
         "text": "Lets focus on getting a triage area and multiple recovery zones ready first.",
         "condition": { "u_has_any_trait": [ "DKZ_MEDIC" ] },
-        "topic": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_MEDICAL"
+        "topic": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_MEDICAL_INITIAL"
       },
       {
         "text": "We need to understand our enemy to defeat them.  Lets help the scientists first.",
         "condition": { "u_has_any_trait": [ "DKZ_SCIENTIST" ] },
-        "topic": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_SCIENCE"
+        "topic": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_SCIENCE_INITIAL"
       },
       {
         "text": "Better weapons and tactics help everyone.  Lets get a shooting range and bullet reloading running first.",
         "condition": { "u_has_any_trait": [ "DKZ_COMBAT" ] },
-        "topic": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_COMBAT"
+        "topic": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_COMBAT_INITIAL"
       },
       {
         "text": "Maybe we should start in a different direction.",
@@ -410,13 +410,17 @@
     "id": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_LEADERSHIP_INITIAL",
     "type": "talk_topic",
     "dynamic_line": [
-      "The third through sixth floors are full of cardboard boxes and junk but there are plenty of area that could be turned into better living quarters"
+      "The third through sixth floors are full of cardboard boxes and junk but there are plenty of space that could be turned into better living quarters for refugees.  In a few days every nook and cranny could be used for refugees."
     ],
     "responses": [
       {
         "text": "Ok, Thanks. ",
         "topic": "TALK_NONE"
       },
+      {
+        "text": "Maybe we should start in a different direction.",
+        "topic": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_INITIAL_INVERSE"
+      },	  
       { "text": "I have to go now.", "topic": "TALK_DONE" }
     ]
   },
@@ -424,12 +428,17 @@
     "//": "--- TECHNICAN ---------------------------------------------------------------------------------------------------------",
     "id": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_TECH_INITIAL",
     "type": "talk_topic",
-    "dynamic_line": [ "The seventh floor has ample room and idle scientists that would love to start taking Xenoid technology apart." ],
-    "responses": [
+    "dynamic_line": [
+      "A lot of engineers on the seventh floor were rescued from a research lab before everything went down, they're grateful to be alive and could get a new laboratory up and running in a few days."
+    ],    "responses": [
       {
         "text": "Ok, Thanks.",
         "topic": "TALK_NONE"
       },
+      {
+        "text": "Maybe we should start in a different direction.",
+        "topic": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_INITIAL_INVERSE"
+      },	  
       { "text": "I have to go now.", "topic": "TALK_DONE" }
     ]
   },
@@ -438,13 +447,17 @@
     "id": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_SCIENCE_INITIAL",
     "type": "talk_topic",
     "dynamic_line": [
-      "There are a lot of scientists on the seventh floor which were rescued from a research lab before everything went down, they're grateful to be alive and are eager for help to get a laboratory up and running."
+      "A lot of scientists on the seventh floor were rescued from a research lab before everything went down, they're grateful to be alive and could get a new laboratory up and running in a few days."
     ],
     "responses": [
       {
         "text": "Ok, Thanks.",
         "topic": "TALK_NONE"
       },
+      {
+        "text": "Maybe we should start in a different direction.",
+        "topic": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_INITIAL_INVERSE"
+      },	  
       { "text": "I have to go now.", "topic": "TALK_DONE" }
     ]
   }, 
@@ -453,13 +466,17 @@
     "id": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_MEDICAL_INITIAL",
     "type": "talk_topic",
     "dynamic_line": [
-      "There is a large privacy curtain that is already setup here on the ground floor, we can start to convert that area to a triage zone."
+      "There are several areas on the ground floor that could become triage zones, and it shouldn't be too hard to find a volunteer with first aid training.  Also, we can get several more recovery areas ready, but that will take a few days to complete."
     ],
     "responses": [
       {
         "text": "Ok, Thanks.",
         "topic": "TALK_NONE"
       },
+      {
+        "text": "Maybe we should start in a different direction.",
+        "topic": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_INITIAL_INVERSE"
+      },	  
       { "text": "I have to go now.", "topic": "TALK_DONE" }
     ]
   },
@@ -468,13 +485,17 @@
     "id": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_COMBAT_INITIAL",
     "type": "talk_topic",
     "dynamic_line": [
-      "It would be easy to setup an area on the 2nd basement for shooting, as well as creating a zone here on the ground floor to better form up for combat patrols."
+      "Well I see few of the combative types are already loitering around under the central skylight, that's as good a place to congregate as any, and it shouldn't be too hard to find a few more.  Also, we can get a dedicated shooting area in the lower basement completed in a few days."
     ],
     "responses": [
       {
         "text": "Ok, Thanks.",
         "topic": "TALK_NONE"
       },
+      {
+        "text": "Maybe we should start in a different direction.",
+        "topic": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_INITIAL_INVERSE"
+      },	  
       { "text": "I have to go now.", "topic": "TALK_DONE" }
     ]
   }
