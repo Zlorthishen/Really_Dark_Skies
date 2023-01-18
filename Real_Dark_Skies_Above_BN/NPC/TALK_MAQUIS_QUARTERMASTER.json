@@ -98,6 +98,7 @@
         "condition": {
           "and": [
             { "not": { "u_has_var": "u_Ask_QM_Join_Maquis", "type": "general", "context": "meeting", "value": "yes" } },
+			{ "not": { "u_has_any_trait": [ "DKZ_LEADER", "DKZ_TECH", "DKZ_COMBAT", "DKZ_MEDIC", "DKZ_SCIENTIST" ] } },
             {
               "u_compare_var": "maquis_morale",
               "type": "counter",
@@ -275,42 +276,6 @@
   },
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
-    "id": "MISSION_MEET_THE_BIG_BOSS",
-    "type": "mission_definition",
-    "name": { "str": "Speak to Mr Erikson" },
-    "description": "The local leader of the Maaquis wants to meet you.",
-    "goal": "MGOAL_CONDITION",
-    "goal_condition": { "u_has_var": "u_found_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" },
-    "difficulty": 5,
-    "value": 50000,
-    "start": {
-      "assign_mission_target": {
-        "om_terrain": "racing_tower_z7_4_1",
-        "om_special": "arcology_racing",
-        "reveal_radius": 7,
-        "search_range": 11,
-        "z": 7,
-        "random": true,
-        "min_distance": 6
-      },
-      "update_mapgen": { "place_npcs": [ { "class": "DKZ_CHAD_ERIKSON", "x": 5, "y": 5, "target": true } ] },
-      "effect": [ { "u_add_var": "MrEriksonExists", "type": "knowledge", "context": "flag", "value": "yes" } ]
-    },
-    "origins": [ "ORIGIN_SECONDARY" ],
-    "dialogue": {
-      "describe": "The boss wants to see you…",
-      "offer": "The boss ups stairs wants to talk to you.  Do you want to talk to him?",
-      "accepted": "I'll find him.",
-      "rejected": "Why?",
-      "advice": "Just follow your map.",
-      "inquire": "Did you find him yet?",
-      "success": "With this we'll be able to convince others to join up and fight against the invasion",
-      "success_lie": "Something seems not right with how you described my brother…",
-      "failure": "It was a lost cause anyways…"
-    }
-  },
-  {
-    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_START",
     "type": "talk_topic",
     "dynamic_line": [
@@ -410,7 +375,7 @@
     "id": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_LEADERSHIP_INITIAL",
     "type": "talk_topic",
     "dynamic_line": [
-      "The third through sixth floors are full of cardboard boxes and junk but there are plenty of space that could be turned into better living quarters for refugees.  In a few days every nook and cranny could be used for refugees."
+      "The many floors of the building are full of cardboard boxes and junk but there is plenty of space that could be turned into better living quarters for refugees.  In a few days every nook and cranny could be used for refugees."
     ],
     "responses": [
       {
