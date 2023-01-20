@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "realdarkskies_Arcana_patchmod",
+    "name": "<color_light_blue>Really Dark Skies</color> + Arcana",
+    "authors": [ "Zlorthishen" ],
+    "description": "A patchmod for Really Dark Skies which adds increased support for Arcana",
+    "category": "misc_additions",
+    "dependencies": [ "bn", "realdarkskies", "Arcana" ]
+  }
+]
