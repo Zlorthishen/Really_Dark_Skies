@@ -18,7 +18,7 @@
     "traits": [
       { "group": "DKZ_starting_traits" },
       { "group": "Appearance_demographics" },
-      { "distribution": [ { "trait": "MARTIAL_ARTS3", "prob": 70 }, { "trait": "MARTIAL_ARTS5", "prob": 30 } ] },	  
+      { "distribution": [ { "trait": "MARTIAL_ARTS3", "prob": 70 }, { "trait": "MARTIAL_ARTS5", "prob": 30 } ] },
       { "trait": "ROBUST", "prob": 100 },
       { "trait": "DEFT", "prob": 100 },
       { "trait": "PARKOUR", "prob": 100 }
@@ -59,9 +59,7 @@
       { "item": "fencing_mask", "prob": 100 },
       { "item": "knee_high_boots", "prob": 100 },
       { "item": "plastron_plastic", "prob": 100 },
-      {
-        "distribution": [ { "item": "panties", "prob": 85 }, { "item": "boy_shorts", "prob": 15 } ]
-      },
+      { "distribution": [ { "item": "panties", "prob": 85 }, { "item": "boy_shorts", "prob": 15 } ] },
       { "distribution": [ { "item": "socks", "prob": 25 }, { "item": "socks_ankle", "prob": 75 } ] },
       {
         "distribution": [ { "item": "sports_bra", "prob": 80 }, { "item": "tank_top", "prob": 20 }, { "item": "army_top", "prob": 5 } ]

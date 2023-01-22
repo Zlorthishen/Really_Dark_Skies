@@ -347,7 +347,7 @@
           { "u_lose_trait": "DKZ_MEDIC" },
           { "u_lose_trait": "DKZ_SCIENTIST" },
           { "u_lose_trait": "DKZ_TECH" },
-          { "u_add_effect": "dkz_switch_focus", "duration": 500000 }		  
+          { "u_add_effect": "dkz_switch_focus", "duration": 500000 }
         ],
         "topic": "TALK_NONE"
       },
@@ -628,10 +628,7 @@
       "These xeno-fauna seem related to the Xenoid invaders if in no other way than the blood that comes from them is a dull-white fluid, more similar to the, 'hemolymph' of terrestrial insects.  You would have talk to the egg-heads around for exact specifics."
     ],
     "responses": [
-      {
-        "text": "I have some more general questions about the Xenoids.",
-        "topic": "TALK_CHAD_ERIKSON_ASK_ABOUT_XENOIDS"
-      },
+      { "text": "I have some more general questions about the Xenoids.", "topic": "TALK_CHAD_ERIKSON_ASK_ABOUT_XENOIDS" },
       { "text": "Lets change the subject.", "topic": "TALK_CHAD_ERIKSON_QUESTIONS" },
       { "text": "I have to go now.", "topic": "TALK_DONE" }
     ]
@@ -644,8 +641,11 @@
       "It is true that there are at least two separate alien invasion forces on Earth.  In all cases so far, the Xenoids have been hostile to these other strange aliens, known colloquially as Mi-Go's because of their striking similarity to the same creatures described by H.P. Lovecraft.  We have multiple confirmed reports of these Mi-Go's taking human prisoners as well as creating from nowhere buildings of organic resin.  While not as numerous as the Xenoids, the Mi-Go's are just as much of a threat to humanity. Thankfully they seem to be hostile to each other."
     ],
     "responses": [
-      { "text": "Where did these Mi-Go's come from?", "topic": "TALK_CHAD_ERIKSON_ASK_ABOUT_OTHER_ALIENS_WHERE" }, 
-	  { "text": "I want to know more about the types of Xenoids.", "topic": "TALK_CHAD_ERIKSON_ASK_ABOUT_XENOIDS_UNITS" },
+      { "text": "Where did these Mi-Go's come from?", "topic": "TALK_CHAD_ERIKSON_ASK_ABOUT_OTHER_ALIENS_WHERE" },
+      {
+        "text": "I want to know more about the types of Xenoids.",
+        "topic": "TALK_CHAD_ERIKSON_ASK_ABOUT_XENOIDS_UNITS"
+      },
       {
         "text": "I have some more general questions about the Xenoids.",
         "topic": "TALK_CHAD_ERIKSON_ASK_ABOUT_XENOIDS"
@@ -662,17 +662,15 @@
       "All that we have been able to theorize so far, is that the Mi-Go's from from somewhere in extra-dimensional space while the Xenoids are extra-terrestrial in origin, as crazy as that sounds thats the best we've got."
     ],
     "responses": [
+      { "text": "I have some more general questions about the Mi-Go's.", "topic": "TALK_CHAD_ERIKSON_ASK_ABOUT_OTHER_ALIENS" },
       {
-        "text": "I have some more general questions about the Mi-Go's.",
-        "topic": "TALK_CHAD_ERIKSON_ASK_ABOUT_OTHER_ALIENS"
-      },      {
         "text": "I have some more general questions about the Xenoids.",
         "topic": "TALK_CHAD_ERIKSON_ASK_ABOUT_XENOIDS"
       },
       { "text": "Lets change the subject.", "topic": "TALK_CHAD_ERIKSON_QUESTIONS" },
       { "text": "I have to go now.", "topic": "TALK_DONE" }
     ]
-  },  
+  },
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_CHAD_ERIKSON_ASK_ABOUT_XENOIDS_DRONES",

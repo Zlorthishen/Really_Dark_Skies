@@ -109,8 +109,8 @@
       {
         "distribution": [ { "item": "backpack", "prob": 50 }, { "item": "backpack_leather", "prob": 50 }, { "item": "null", "prob": 5 } ]
       },
-      { "group": "DKZ_armor_improvised_arm", "prob": 90 },	  
-      { "group": "DKZ_armor_improvised_leg", "prob": 90 },	  
+      { "group": "DKZ_armor_improvised_arm", "prob": 90 },
+      { "group": "DKZ_armor_improvised_leg", "prob": 90 },
       { "item": "fancy_sunglasses", "prob": 10 },
       { "item": "badge_marshal", "prob": 100 }
     ]
@@ -131,7 +131,7 @@
     "subtype": "collection",
     "items": [
       { "item": "8x40_25_mag", "charges-min": 7, "count": 2 },
-      { "group": "DKZ_guns_smg_military", "prob": 90 },	  
+      { "group": "DKZ_guns_smg_military", "prob": 90 },
       { "item": "8mm_caseless", "count": 3 },
       { "item": "multitool" }
     ]

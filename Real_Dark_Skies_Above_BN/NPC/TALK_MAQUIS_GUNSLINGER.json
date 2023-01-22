@@ -97,8 +97,8 @@
           { "item": "hat_boonie", "prob": 30 }
         ]
       },
-      { "group": "DKZ_armor_improvised_arm", "prob": 90 },	  
-      { "group": "DKZ_armor_improvised_leg", "prob": 90 },	  	  
+      { "group": "DKZ_armor_improvised_arm", "prob": 90 },
+      { "group": "DKZ_armor_improvised_leg", "prob": 90 },
       { "distribution": [ { "item": "backpack", "prob": 50 }, { "item": "backpack_leather", "prob": 50 } ] },
       { "item": "badge_marshal", "prob": 100 }
     ]
@@ -115,7 +115,6 @@
     "subtype": "collection",
     "items": [ { "item": "multitool" } ]
   },
-
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MAQUIS_GUNSLINGER_ROOT",

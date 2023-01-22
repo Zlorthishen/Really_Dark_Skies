@@ -135,9 +135,9 @@
           { "item": "rucksack", "prob": 5 }
         ]
       },
-      { "group": "DKZ_armor_improvised_arm", "prob": 90 },	  
-      { "group": "DKZ_armor_improvised_leg", "prob": 90 },	  	  
-      { "item": "ballistic_vest_esapi" }	  
+      { "group": "DKZ_armor_improvised_arm", "prob": 90 },
+      { "group": "DKZ_armor_improvised_leg", "prob": 90 },
+      { "item": "ballistic_vest_esapi" }
     ]
   },
   {

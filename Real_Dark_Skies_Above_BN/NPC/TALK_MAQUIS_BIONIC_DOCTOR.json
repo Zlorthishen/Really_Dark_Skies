@@ -132,7 +132,7 @@
       {
         "distribution": [ { "item": "backpack", "prob": 50 }, { "item": "backpack_leather", "prob": 50 }, { "item": "null", "prob": 5 } ]
       },
-	  { "item": "coat_lab", "prob": 100 }
+      { "item": "coat_lab", "prob": 100 }
     ]
   },
   {
