@@ -235,7 +235,6 @@
       },
       { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_MAQUIS_RAPTOR_MUTANT_ROOT" },
       { "text": "What are you doing here?", "topic": "TALK_MAQUIS_RAPTOR_MUTANT_DOING" },
-      { "text": "What is upstairs?", "topic": "TALK_MAQUIS_RAPTOR_MUTANT_UPSTAIRS" },
       {
         "text": "[MISSION] I'm looking for Chad Erikson, Randy sent me.",
         "condition": {
@@ -269,16 +268,6 @@
       { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_MAQUIS_RAPTOR_MUTANT_ROOT" },
       { "text": "Nice arrangement for everyone.", "topic": "TALK_MAQUIS_RAPTOR_MUTANT_ROOT" },
       { "text": "Ok, I'll leave you to it.", "topic": "TALK_DONE" }
-    ]
-  },
-  {
-    "//": "-----------------------------------------------------------------------------------------------------------------------",
-    "id": "TALK_MAQUIS_RAPTOR_MUTANT_UPSTAIRS",
-    "type": "talk_topic",
-    "dynamic_line": [ "There are some heavily mutated people upstairs.  They are good people, but if you see them don't stare, its rude." ],
-    "responses": [
-      { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_MAQUIS_RAPTOR_MUTANT_ROOT" },
-      { "text": "Well, bye.", "topic": "TALK_DONE" }
     ]
   }
 ]

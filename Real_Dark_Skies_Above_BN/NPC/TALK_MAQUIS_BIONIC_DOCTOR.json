@@ -197,7 +197,6 @@
       { "text": "Let's trade.", "topic": "TALK_MAQUIS_BIONIC_DOCTOR_TRADE" },
       { "text": "I need some bionic work done.", "topic": "TALK_MAQUIS_BIONIC_DOCTOR_INSTALL_BIONICS" },
       { "text": "What are you doing here?", "topic": "TALK_MAQUIS_BIONIC_DOCTOR_DOING" },
-      { "text": "What is upstairs?", "topic": "TALK_MAQUIS_BIONIC_DOCTOR_UPSTAIRS" },
       {
         "text": "[MISSION] I'm looking for Chad Erikson, Randy sent me.",
         "condition": {
@@ -269,15 +268,6 @@
         "effect": "bionic_install"
       },
       { "text": "I need help removing an implant…", "topic": "TALK_DONE", "effect": "bionic_remove" }
-    ]
-  },
-  {
-    "id": "TALK_MAQUIS_BIONIC_DOCTOR_UPSTAIRS",
-    "type": "talk_topic",
-    "dynamic_line": [ "It's nice up here most days, although the windows allow us to see how bad the world has become." ],
-    "responses": [
-      { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_MAQUIS_BIONIC_DOCTOR_ROOT" },
-      { "text": "Well, bye.", "topic": "TALK_DONE" }
     ]
   },
   {

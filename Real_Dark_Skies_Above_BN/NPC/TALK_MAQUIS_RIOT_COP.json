@@ -158,7 +158,7 @@
         }
       },
       { "text": "What are you doing here?", "topic": "TALK_MAQUIS_RIOT_COP_DOING" },
-      { "text": "What is upstairs?", "topic": "TALK_MAQUIS_RIOT_COP_UPSTAIRS" },
+      { "text": "What is this place?", "topic": "TALK_MAQUIS_RIOT_COP_THE_TOWER" },
       {
         "text": "[MISSION] I'm looking for Chad Erikson, Randy sent me.",
         "condition": {
@@ -218,13 +218,11 @@
   },
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
-    "id": "TALK_MAQUIS_RIOT_COP_UPSTAIRS",
+    "id": "TALK_MAQUIS_RIOT_COP_THE_TOWER",
     "type": "talk_topic",
     "dynamic_line": [
-      "Sometimes I'll go up to the roof to help with sniper overwatch.  Its fun to use the really powerful rifles even if we can't take them down here.  Plus they always need another set of eyes.",
-      "I only go upstairs to check out the casino, its fun to use looted cash cards to gamble.  I'm up almost a hundred-thousand dollars.",
-      "The library is nice, they're always on the look for more books, the more rare, the more they'll give for them.",
-      "There are some heavily mutated people upstairs.  They are good people, but if you see them don't stare, its rude."
+      "This is Barter Tower and I am on duty.",
+      "We fortified this entire tower complex, now Barter Tower is an open trade zone for any living humans."
     ],
     "responses": [
       { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_MAQUIS_RIOT_COP_ROOT" },

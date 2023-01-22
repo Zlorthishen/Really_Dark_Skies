@@ -278,10 +278,7 @@
     "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MAQUIS_BEAST_MUTANT_UPSTAIRS",
     "type": "talk_topic",
-    "dynamic_line": [
-      "I only go upstairs to check out the casino, its fun to use looted cash cards to gamble.  I'm up almost a hundred-thousand dollars.",
-      "The library is nice, they're always on the look for more books, the more rare, the more they'll give for them."
-    ],
+    "dynamic_line": [ "I don't go upstairs too often, the basements are more fun."  ],
     "responses": [
       { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_MAQUIS_BEAST_MUTANT_ROOT" },
       { "text": "Well, bye.", "topic": "TALK_DONE" }

@@ -183,7 +183,6 @@
       },
       { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_MAQUIS_SCIENTIST_ROOT" },
       { "text": "What are you doing here?", "topic": "TALK_MAQUIS_SCIENTIST_DOING" },
-      { "text": "What is downstairs?", "topic": "TALK_MAQUIS_SCIENTIST_DOWNSTAIRS" },
       {
         "text": "[MISSION] I'm looking for Chad Erikson, Randy sent me.",
         "condition": {
@@ -229,20 +228,6 @@
       { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_MAQUIS_SCIENTIST_ROOT" },
       { "text": "Nice arrangement for everyone.", "topic": "TALK_MAQUIS_SCIENTIST_ROOT" },
       { "text": "Ok, good bye.", "topic": "TALK_DONE" }
-    ]
-  },
-  {
-    "//": "-----------------------------------------------------------------------------------------------------------------------",
-    "id": "TALK_MAQUIS_SCIENTIST_DOWNSTAIRS",
-    "type": "talk_topic",
-    "dynamic_line": [
-      "I don't usually go too far down stairs, not because don't like those guys, nor because they wouldn't let me down there, I'm just lazy and prefer working up here.",
-      "I'm too busy with this engine here to go upstairs much.",
-      "Those guys up stairs are angels!  I was helping with the barricades outside when a crawling zombie revived suddenly and cut my leg.  Almost immediately, one of the snipers on the roof blew its head off.  Saved my life."
-    ],
-    "responses": [
-      { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_MAQUIS_SCIENTIST_ROOT" },
-      { "text": "Well, bye.", "topic": "TALK_DONE" }
     ]
   },
   {

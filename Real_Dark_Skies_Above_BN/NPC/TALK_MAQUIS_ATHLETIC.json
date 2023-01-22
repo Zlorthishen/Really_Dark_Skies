@@ -206,7 +206,6 @@
       },
       { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_MAQUIS_ATHLETIC_ROOT" },
       { "text": "What are you doing here?", "topic": "TALK_MAQUIS_ATHLETIC_DOING" },
-      { "text": "What is upstairs?", "topic": "TALK_MAQUIS_ATHLETIC_UPSTAIRS" },
       {
         "text": "[MISSION] I'm looking for Chad Erikson, Randy sent me.",
         "condition": {
@@ -254,20 +253,6 @@
       { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_MAQUIS_ATHLETIC_ROOT" },
       { "text": "Nice arrangement for everyone.", "topic": "TALK_MAQUIS_ATHLETIC_ROOT" },
       { "text": "Ok, good bye.", "topic": "TALK_DONE" }
-    ]
-  },
-  {
-    "//": "-----------------------------------------------------------------------------------------------------------------------",
-    "id": "TALK_MAQUIS_ATHLETIC_UPSTAIRS",
-    "type": "talk_topic",
-    "dynamic_line": [
-      "I don't usually go too far up stairs, not because don't like those guys, nor because they wouldn't let me up there, I'm just lazy and prefer working down here.",
-      "I'm there are some mutants in the upper floors and a few in the basement, but they're good people.  So long as you don't stare at the heavily deformed ones.",
-      "Those guys up stairs are angels!  I was helping with the barricades outside when a crawling zombie revived suddenly and grabbed my leg.  Almost immediately, one of the snipers on the roof blew its head off.  Saved my life."
-    ],
-    "responses": [
-      { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_MAQUIS_ATHLETIC_ROOT" },
-      { "text": "Well, bye.", "topic": "TALK_DONE" }
     ]
   },
   {

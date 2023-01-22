@@ -109,7 +109,6 @@
       },
       { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_MAQUIS_SPIDER_MUTANT_ROOT" },
       { "text": "What are you doing here?", "topic": "TALK_MAQUIS_SPIDER_MUTANT_DOING" },
-      { "text": "What is upstairs?", "topic": "TALK_MAQUIS_SPIDER_MUTANT_UPSTAIRS" },
       {
         "text": "[MISSION] I'm looking for Chad Erikson, his nephew Randy sent me.",
         "condition": {
@@ -143,19 +142,6 @@
       { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_MAQUIS_SPIDER_MUTANT_ROOT" },
       { "text": "Nice arrangement for everyone.", "topic": "TALK_MAQUIS_SPIDER_MUTANT_ROOT" },
       { "text": "Ok, I'll leave you to it.", "topic": "TALK_DONE" }
-    ]
-  },
-  {
-    "//": "-----------------------------------------------------------------------------------------------------------------------",
-    "id": "TALK_MAQUIS_SPIDER_MUTANT_UPSTAIRS",
-    "type": "talk_topic",
-    "dynamic_line": [
-      "I only go upstairs to check out the casino, its fun to use looted cash cards to gamble.  I'm up almost a hundred-thousand dollars.",
-      "The library is nice, they're always on the look for more books, the more rare, the more they'll give for them."
-    ],
-    "responses": [
-      { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_MAQUIS_SPIDER_MUTANT_ROOT" },
-      { "text": "Well, bye.", "topic": "TALK_DONE" }
     ]
   }
 ]

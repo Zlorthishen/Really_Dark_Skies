@@ -152,7 +152,6 @@
         "topic": "TALK_COMBAT_COMMANDS"
       },
       { "text": "What are you doing here?", "topic": "TALK_MAQUIS_CYBERCOP_DOING" },
-      { "text": "Why are you upstairs?", "topic": "TALK_MAQUIS_CYBERCOP_UPSTAIRS" },
       {
         "text": "[MISSION] I'm looking for Chad Erikson, his nephew Randy sent me.",
         "condition": {
@@ -212,16 +211,6 @@
       { "text": "Nice arrangement for everyone.", "topic": "TALK_MAQUIS_CYBERCOP_ROOT" },
       { "text": "Ok, good bye.", "topic": "TALK_DONE" }
     ]
-  },
-  {
-    "//": "-----------------------------------------------------------------------------------------------------------------------",
-    "id": "TALK_MAQUIS_CYBERCOP_UPSTAIRS",
-    "type": "talk_topic",
-    "dynamic_line": [
-      "Being up here is isn't just for fun, I have to keep an eye on things down on the ground.",
-      "There are some mutants in the upper floors and a few in the basement, but they're good people.  So long as you don't stare at the heavily deformed ones."
-    ],
-    "responses": [ { "text": "Let's trade.", "topic": "TALK_MAQUIS_CYBERCOP_TRADE" }, { "text": "Well, bye.", "topic": "TALK_DONE" } ]
   },
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
