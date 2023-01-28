@@ -175,5 +175,3 @@
     "magazines": [ [ "battery", [ "light_minus_battery_cell", "light_minus_atomic_battery_cell", "light_minus_disposable_cell" ] ] ]
   }
 ]
-
-

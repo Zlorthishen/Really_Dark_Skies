@@ -58,7 +58,7 @@
     "category": "weapons",
     "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 2 ] ],
     "flags": [ "DURABLE_MELEE", "SHEATH_SWORD", "TRADER_AVOID" ]
-  },  
+  },
   {
     "id": "dkz_long_spear_salvaged",
     "type": "TOOL",
