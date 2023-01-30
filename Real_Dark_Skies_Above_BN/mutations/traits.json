@@ -79,7 +79,7 @@
   {
     "type": "mutation",
     "id": "DKZ_TEAM_LEADER",
-    "name": { "str": "team leader" },
+    "name": { "str": "Team Leader" },
     "points": 0,
     "valid": false,
     "description": "NPC trait used for base building.  It is a bug if you have it.",
