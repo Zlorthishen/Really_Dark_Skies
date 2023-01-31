@@ -78,7 +78,7 @@
     "difficulty": 2,
     "urgent": true,
     "deadline_low": 2,
-    "deadline_high": 3,	
+    "deadline_high": 3,
     "value": 25000,
     "origins": [ "ORIGIN_SECONDARY" ],
     "start": {
@@ -118,7 +118,7 @@
     "difficulty": 1,
     "urgent": true,
     "deadline_low": 2,
-    "deadline_high": 3,	
+    "deadline_high": 3,
     "value": 0,
     "start": {
       "assign_mission_target": {
@@ -161,7 +161,7 @@
     "difficulty": 1,
     "urgent": true,
     "deadline_low": 2,
-    "deadline_high": 3,	
+    "deadline_high": 3,
     "value": 0,
     "start": {
       "assign_mission_target": {
@@ -284,5 +284,47 @@
       "success_lie": "Something seems not right with how you described my brother…",
       "failure": "It was a lost cause anyways…"
     }
-  }  
+  },
+  {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
+    "id": "MISSION_OPERATION_SCIENCE_FIELD_TRIP",
+    "type": "mission_definition",
+    "name": { "str": "Operation Science Field Trip" },
+    "description": "Bring enforcements to an operative setting up a forward base.  Go to the entrance to the secret lab and meet up with the operative there.  Bring two volunteers reinforcements, and get them all there alive.",
+    "goal": "MGOAL_CONDITION",
+    "goal_condition": { "u_has_var": "u_setup_Lab_Base", "type": "general", "context": "meeting", "value": "yes" },
+    "difficulty": 5,
+    "value": 1000,
+    "start": {
+      "effect": [ { "u_adjust_var": "maquis_recruit", "type": "counter", "context": "combat_recruit", "adjustment": 2 } ],
+      "assign_mission_target": {
+        "om_terrain": "central_lab_hq_3",
+        "reveal_radius": 7,
+        "search_range": 700,
+        "z": -2,
+        "random": false,
+        "min_distance": 25
+      },
+      "update_mapgen": { "place_npcs": [ { "class": "DKZ_MAQUIS_CYBERCOP", "x": 13, "y": 13, "add_trait": "DKZ_SCIENTIST" } ] }
+    },
+    "end": {
+      "effect": [
+        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 25 },
+        { "u_adjust_var": "maquis_recruit", "type": "counter", "context": "combat_recruit", "adjustment": 0 }
+      ]
+    },
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "has_generic_rewards": false,
+    "dialogue": {
+      "describe": "…",
+      "offer": "With the intel you got us, the Maquis recently found an access shaft hidden in a forest, which leads right down into a secret laboratory.  I need you to find two volunteers downstairs, tell them that Mr. Erikson needs them for a mission, and take them to this location, and meet up with an operative already there, she knows you're coming.  Try very hard to not get anyone killed out there, yourself included.",
+      "accepted": "That's great, go choose your four squad-members and get going.",
+      "rejected": "Don't expect help then.",
+      "advice": "You can recruit anyone that is off-duty on balcony level downstairs, but if someone is guarding or has a job to do cannot be recruited for combat missions.",
+      "inquire": "Don't you have a job to do?",
+      "success": "Excellent, this will allow the Maquis to much needed resources.",
+      "success_lie": "What good does this do us?",
+      "failure": "Simply useless…"
+    }
+  }
 ]
