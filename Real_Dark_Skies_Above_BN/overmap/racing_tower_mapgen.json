@@ -626,19 +626,7 @@
         "s": "t_pavement"
       },
       "place_nested": [
-        { "chunks": [ "racing_tower_5x5_camp" ], "x": 12, "y": 12 },
-        { "chunks": [ "racing_tower_5x5_camp" ], "x": 12, "y": 18 },
-        { "chunks": [ "racing_tower_5x5_camp" ], "x": 18, "y": 12 },
-        { "chunks": [ "racing_tower_5x5_camp" ], "x": 18, "y": 18 },
-        { "chunks": [ "racing_tower_5x5_camp" ], "x": 24, "y": 12 },
-        { "chunks": [ "racing_tower_5x5_camp" ], "x": 24, "y": 18 },
-        { "chunks": [ "racing_tower_4x4_store" ], "x": 24, "y": 24 },
-        { "chunks": [ "racing_tower_5x5_camp" ], "x": 30, "y": 12 },
-        { "chunks": [ "racing_tower_5x5_camp" ], "x": 30, "y": 18 },
-        { "chunks": [ "racing_tower_5x5_camp" ], "x": 12, "y": 24 },
-        { "chunks": [ "racing_tower_5x5_camp" ], "x": 18, "y": 24 },
-        { "chunks": [ "racing_tower_5x5_camp" ], "x": 12, "y": 30 },
-        { "chunks": [ "racing_tower_5x5_camp" ], "x": 18, "y": 30 }
+        { "chunks": [ "racing_tower_4x4_store" ], "x": 24, "y": 24 }
       ]
     }
   },
