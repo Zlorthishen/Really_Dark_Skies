@@ -439,11 +439,12 @@
       "faction_owner": [ { "id": "maquis", "x": [ 0, 5 ], "y": [ 0, 5 ] } ],
       "rows": [
         "     ",
-        "     ",
+        " T-  ",
         "     ",
         "     ",
         "     "
       ],
+      "furniture": { "-": "f_camp_chair", "T": "f_tourist_table" },	  
       "place_vehicles": [ { "vehicle": "portable_generator", "x": 2, "y": 2, "chance": 100, "fuel": 100, "rotation": 90, "status": 2 } ]
     }
   },
