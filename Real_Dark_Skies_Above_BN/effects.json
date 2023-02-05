@@ -29,6 +29,7 @@
     "type": "effect_type",
     "id": "dkz_base_build_started",
     "//": "This marks a player as having begun base building at Barter Tower.",
+    "remove_message": "You realize that the upgrade at Maquis Headquarters should be completed by now.",	
     "show_in_info": false
   },
   {
