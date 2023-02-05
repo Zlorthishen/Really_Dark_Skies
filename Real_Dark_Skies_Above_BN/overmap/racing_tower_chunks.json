@@ -67,7 +67,7 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "racing_tower_4x4_science",
-    "weight": 250,
+    "weight": 550,
     "object": {
       "faction_owner": [ { "id": "maquis", "x": [ 0, 3 ], "y": [ 0, 3 ] } ],
       "mapgensize": [ 4, 4 ],
@@ -88,7 +88,49 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "racing_tower_4x4_science",
-    "weight": 250,
+    "weight": 750,
+    "object": {
+      "faction_owner": [ { "id": "maquis", "x": [ 0, 3 ], "y": [ 0, 3 ] } ],
+      "mapgensize": [ 4, 4 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "    ",
+        " bb ",
+        " bb ",
+        "    "
+      ],
+      "terrain": { " ": "t_null" },
+      "furniture": { "-": "f_camp_chair", "b": "f_tourist_table" },
+      "items": { " ": { "item": "trash", "chance": 1 }, "b": { "item": "supplies_reagents_lab", "chance": 90, "repeat": [ 2, 3 ] } }
+    }
+  },
+  {
+    "//": "4x4 scientist ",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_4x4_science",
+    "weight": 500,
+    "object": {
+      "faction_owner": [ { "id": "maquis", "x": [ 0, 3 ], "y": [ 0, 3 ] } ],
+      "mapgensize": [ 4, 4 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "  - ",
+        "-bb ",
+        " bb-",
+        "  - "
+      ],
+      "terrain": { " ": "t_null" },
+      "furniture": { "-": "f_camp_chair", "b": "f_tourist_table" },
+      "items": { " ": { "item": "trash", "chance": 1 }, "b": { "item": "surgery", "chance": 80, "repeat": [ 1, 2 ] } }
+    }
+  },
+  {
+    "//": "4x4 scientist ",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_4x4_science",
+    "weight": 50,
     "object": {
       "faction_owner": [ { "id": "maquis", "x": [ 0, 3 ], "y": [ 0, 3 ] } ],
       "mapgensize": [ 4, 4 ],
@@ -110,7 +152,7 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "racing_tower_4x4_science",
-    "weight": 250,
+    "weight": 150,
     "object": {
       "faction_owner": [ { "id": "maquis", "x": [ 0, 3 ], "y": [ 0, 3 ] } ],
       "mapgensize": [ 4, 4 ],
@@ -132,7 +174,7 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "racing_tower_4x4_science",
-    "weight": 350,
+    "weight": 150,
     "object": {
       "faction_owner": [ { "id": "maquis", "x": [ 0, 3 ], "y": [ 0, 3 ] } ],
       "mapgensize": [ 4, 4 ],
@@ -157,7 +199,7 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "racing_tower_4x4_science",
-    "weight": 250,
+    "weight": 150,
     "object": {
       "faction_owner": [ { "id": "maquis", "x": [ 0, 3 ], "y": [ 0, 3 ] } ],
       "mapgensize": [ 4, 4 ],
