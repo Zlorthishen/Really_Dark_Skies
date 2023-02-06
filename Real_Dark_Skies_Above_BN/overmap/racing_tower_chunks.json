@@ -520,16 +520,47 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "racing_tower_4x4_store",
-    "weight": 250,
+    "weight": 100,
+    "object": {
+      "mapgensize": [ 4, 4 ],
+      "rotation": [ 0, 3 ],
+      "faction_owner": [ { "id": "maquis", "x": [ 0, 5 ], "y": [ 0, 5 ] } ],
+      "rows": [
+        "A  B",
+        " _  ",
+        "    ",
+        "B  D"
+      ],
+      "terrain": { " ": "t_null" },
+      "place_npcs": [
+        { "class": "DKZ_MAQUIS_MERCHANT", "x": 1, "y": 1, "add_trait": "DKZ_LEADER" },
+        { "class": "DKZ_MAQUIS_ELF_MUTANT", "x": 0, "y": 1, "add_trait": "DKZ_COMBAT" }
+      ],
+      "furniture": { "-": "f_camp_chair", "A": "f_table", "B": "f_table", "C": "f_table", "D": "f_table" },
+      "items": {
+        " ": { "item": "trash_junkyard", "chance": 1 },
+        "A": { "item": "guns_milspec", "chance": 80, "repeat": [ 1, 2 ] },
+        "B": { "item": "guns_common", "chance": 40, "repeat": [ 3, 5 ] },
+        "C": { "item": "specialty_goods", "chance": 80, "repeat": [ 2, 1 ] },
+        "D": { "item": "scavenged_foods", "chance": 40, "repeat": [ 3, 5 ] }
+      }
+    }
+  },
+  {
+    "//": "4x4 shopkeeper",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_4x4_store",
+    "weight": 100,
     "object": {
       "mapgensize": [ 4, 4 ],
       "rotation": [ 0, 3 ],
       "faction_owner": [ { "id": "maquis", "x": [ 0, 5 ], "y": [ 0, 5 ] } ],
       "rows": [
         "    ",
-        " ABC",
-        " D-D",
-        " BCA"
+        " AB ",
+        " D- ",
+        "    "
       ],
       "terrain": { " ": "t_null" },
       "place_npcs": [
@@ -559,8 +590,8 @@
       "rows": [
         "    ",
         "ABC ",
-        "D-D ",
-        "BCA "
+        " -D ",
+        "    "
       ],
       "terrain": { " ": "t_null" },
       "place_npcs": [
@@ -582,14 +613,14 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "racing_tower_4x4_store",
-    "weight": 250,
+    "weight": 350,
     "object": {
       "mapgensize": [ 4, 4 ],
       "rotation": [ 0, 3 ],
       "faction_owner": [ { "id": "maquis", "x": [ 0, 5 ], "y": [ 0, 5 ] } ],
       "rows": [
-        "ABC ",
-        "D-D ",
+        "    ",
+        " -D ",
         "BCA ",
         "    "
       ],
@@ -613,20 +644,20 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "racing_tower_4x4_store",
-    "weight": 350,
+    "weight": 450,
     "object": {
       "mapgensize": [ 4, 4 ],
       "rotation": [ 0, 3 ],
       "faction_owner": [ { "id": "maquis", "x": [ 0, 5 ], "y": [ 0, 5 ] } ],
       "rows": [
-        " ABC",
-        " D-D",
-        " BCA",
+        "    ",
+        " -D ",
+        "ABC ",
         "    "
       ],
       "terrain": { " ": "t_null" },
       "place_npcs": [
-        { "class": "DKZ_MAQUIS_MERCHANT", "x": 1, "y": 2, "add_trait": "DKZ_LEADER" },
+        { "class": "DKZ_MAQUIS_MERCHANT", "x": 1, "y": 1, "add_trait": "DKZ_LEADER" },
         { "class": "DKZ_MAQUIS_ELF_MUTANT", "x": 0, "y": 3, "add_trait": "DKZ_COMBAT" }
       ],
       "furniture": { "-": "f_camp_chair", "A": "f_table", "B": "f_table", "C": "f_table", "D": "f_table" },
