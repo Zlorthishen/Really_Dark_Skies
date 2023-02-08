@@ -17,7 +17,14 @@
       "bio_metabolics",
       "bio_power_storage_mkII"
     ],
-    "skills": [ { "level": 2, "name": "gun" }, { "level": 2, "name": "pistol" } ],
+    "skills": [ 
+	  { "level": 4, "name": "gun" }, 
+	  { "level": 4, "name": "pistol" },
+	  { "level": 3, "name": "melee" },
+      { "level": 2, "name": "rifle" },
+      { "level": 2, "name": "stabbing" },
+      { "level": 2, "name": "dodge" } 
+	],
     "items": {
       "both": {
         "items": [ "pants_cargo", "under_armor", "socks", "boots", "badge_cybercop", "smart_phone", "wristwatch" ],
@@ -36,7 +43,7 @@
     "id": "bionic_maquis_soldier",
     "name": "Bionic Maquis Soldier",
     "description": "You are the result of one of the military's latest and final research programs, a prototype cyborg soldier.  You're still alive thanks to your augmentations, even after all your comrades fell to the undead.",
-    "points": 6,
+    "points": 66,
     "CBMs": [
       "bio_targeting",
       "bio_armor_head",
