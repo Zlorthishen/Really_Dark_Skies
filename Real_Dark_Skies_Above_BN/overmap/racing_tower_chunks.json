@@ -674,7 +674,7 @@
     "//": "4x4 crowded medical bedding",
     "type": "mapgen",
     "method": "json",
-    "nested_mapgen_id": "racing_tower_4x4_medical_1",
+    "nested_mapgen_id": "racing_tower_4x4_medical",
     "weight": 250,
     "object": {
       "mapgensize": [ 4, 4 ],
