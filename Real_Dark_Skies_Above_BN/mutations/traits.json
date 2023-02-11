@@ -72,7 +72,7 @@
     "description": "You decided of your own free will, for what ever reason, to collaborate with the Xenoids against humanity.\n\nThis has no direct skill benefit, but allows you to present yourself as a collaborator to certain NPCs, although the Maquis may recognize and execute you.",
     "valid": false,
     "cancels": [ "DKZ_LEADER", "DKZ_COMBAT", "DKZ_TECH", "DKZ_SCIENTIST", "DKZ_MEDIC" ],
-    "anger_relations": [ [ "ALIEN", -200 ], [ "ALIENROBOT", -200 ], [ "BIOCRYSTAL", -200 ] ],
+    "ignored_by": [ "ALIEN", "ALIENROBOT", "BIOCRYSTAL" ],
     "starting_trait": false,
     "purifiable": false
   },

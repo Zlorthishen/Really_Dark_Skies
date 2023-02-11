@@ -88,11 +88,16 @@
         "c": "f_counter"
       },
       "place_npcs": [
-        { "class": "DKZ_QUISLING_THUG", "x": 20, "y": 11, "add_trait": "DKZ_QUISLING" }
+        { "class": "DKZ_QUISLING_THUG", "x": 5, "y": 5, "add_trait": "DKZ_QUISLING" },
+        { "class": "DKZ_QUISLING_THUG", "x": 5, "y": 6, "add_trait": "DKZ_QUISLING" },
+        { "class": "DKZ_QUISLING_THUG", "x": 5, "y": 7, "add_trait": "DKZ_QUISLING" },
+        { "class": "DKZ_QUISLING_THUG", "x": 16, "y": 19, "add_trait": "DKZ_QUISLING" },
+        { "class": "DKZ_QUISLING_THUG", "x": 17, "y": 19, "add_trait": "DKZ_QUISLING" },
+        { "class": "DKZ_QUISLING_BANDIT", "x": 17, "y": 20, "add_trait": "DKZ_QUISLING" }
       ],
       "place_monsters": [
-        { "monster": "GROUP_QUISSLING_HELPERS", "x": [ 3, 6 ], "y": [ 3, 6 ] },
-        { "monster": "GROUP_QUISSLING_HELPERS", "x": [ 19, 22 ], "y": [ 19, 22 ] }
+        { "monster": "GROUP_QUISSLING_HELPERS", "x": [ 3, 6 ], "y": [ 3, 6 ], "density": 0.5  },
+        { "monster": "GROUP_QUISSLING_HELPERS", "x": [ 19, 22 ], "y": [ 19, 22 ], "density": 0.5  }
       ],
       "item": { "Ḃ": { "item": "keffiyeh", "chance": 100 } },
       "items": { ".": { "item": "trash", "chance": 15 }  },
