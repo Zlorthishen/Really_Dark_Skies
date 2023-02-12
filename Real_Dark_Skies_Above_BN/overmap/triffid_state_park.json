@@ -303,6 +303,7 @@
     "city_distance": [ 0, -1 ],
     "occurrences": [ 0, 3 ],
     "flags": [ "TRIFFID" ],
+    "connections": [ { "point": [ 1, -1, 0 ], "connection": "local_road", "from": [ 1, 0, 0 ] } ],	
     "rotate": true,
     "spawns": { "group": "GROUP_TRIFFID", "population": [ 800, 1300 ], "radius": [ 5, 10 ] }
   }
