@@ -305,6 +305,6 @@
     "flags": [ "TRIFFID" ],
     "connections": [ { "point": [ 1, -1, 0 ], "connection": "local_road", "from": [ 1, 0, 0 ] } ],
     "rotate": true,
-    "spawns": { "group": "GROUP_TRIFFID", "population": [ 800, 1300 ], "radius": [ 5, 10 ] }
+    "spawns": { "group": "GROUP_TRIFFID", "population": [ 100, 300 ], "radius": [ 5, 10 ] }
   }
 ]

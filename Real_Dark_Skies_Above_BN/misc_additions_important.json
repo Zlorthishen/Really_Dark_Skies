@@ -7,7 +7,7 @@
     "description": "A segment of asphalt, slowly degrading from cracks.",
     "symbol": ".",
 	"looks_like": "t_pavement",
-    "light_emitted": 30,	
+    "light_emitted": 60,	
     "color": "dark_gray",
     "move_cost": 2,
     "flags": [ "TRANSPARENT", "FLAT", "ROAD", "MINEABLE" ],

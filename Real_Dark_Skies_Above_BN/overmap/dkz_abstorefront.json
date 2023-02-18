@@ -8,19 +8,19 @@
       "rows": [
         "_______ ````````````````",
         "_______ ````````````````",
-        "___~~~~o````b|-xx--xx-|`",
+        "___~~~~o````b|-XX--XX-|`",
         "_______o````b|........|`",
         "_______o````b|.BB..BB.|`",
         "_______o`````|.BB..BB.|`",
-        "___~~~~|--D--|.BḂ..BB.|`",
-        "_______|B.............|`",
-        "_______|B.............|`",
+        "___~~~~|-xDx-|.BḂ..BB.|`",
+        "_______|B.............X`",
+        "_______|B.............X`",
         "_______|B.....|---+---|`",
         "___~~~~|B.....|......l|`",
         "_______|B..ccc|...|ḃ.l|`",
         "_______|-+-|..+..L|ḃ.l|`",
         "_______|Q.q|BB|..L|ḃ.l|`",
-        "_______|-------+------|`",
+        "_______|-x-----+x-----|`",
         " FFGGFFF4 |<|    RRR 4F`",
         " F                    F`",
         "OF                    F`",
@@ -68,6 +68,7 @@
         ";": "t_floor",
         "D": "t_door_locked",
         "x": "t_window_boarded",
+        "X": "t_window_taped",
         "F": "t_chainfence",
         "G": "t_chaingate_l",
         "R": "t_dirt",
@@ -87,6 +88,7 @@
         "ḃ": "f_bench",
         "c": "f_counter"
       },
+      "place_nested": [ { "chunks": [ "dkz_abstorefront_chunk" ], "x": 17, "y": 7 } ],
       "place_npcs": [
         { "class": "DKZ_QUISLING_THUG", "x": 5, "y": 5, "add_trait": "DKZ_QUISLING" },
         { "class": "DKZ_QUISLING_THUG", "x": 5, "y": 6, "add_trait": "DKZ_QUISLING" },
@@ -96,11 +98,11 @@
         { "class": "DKZ_QUISLING_BANDIT", "x": 17, "y": 20, "add_trait": "DKZ_QUISLING" }
       ],
       "place_monsters": [
-        { "monster": "GROUP_QUISSLING_HELPERS", "x": [ 3, 6 ], "y": [ 3, 6 ], "density": 0.5  },
-        { "monster": "GROUP_QUISSLING_HELPERS", "x": [ 19, 22 ], "y": [ 19, 22 ], "density": 0.5  }
+        { "monster": "GROUP_QUISSLING_HELPERS", "x": [ 3, 6 ], "y": [ 3, 6 ], "density": 0.5 },
+        { "monster": "GROUP_QUISSLING_HELPERS", "x": [ 19, 22 ], "y": [ 19, 22 ], "density": 0.5 }
       ],
       "item": { "Ḃ": { "item": "keffiyeh", "chance": 100 } },
-      "items": { ".": { "item": "trash", "chance": 15 }  },
+      "items": { ".": { "item": "trash", "chance": 15 } },
       "vehicles": { ";": { "vehicle": "shopping_cart", "chance": 50, "status": 1 } }
     }
   },
@@ -174,6 +176,52 @@
       { "point": [ 0, 0, 1 ], "overmap": "dkz_abstorefront_roof_north" }
     ],
     "flags": [ "GLOBALLY UNIQUE", "URBAN", "UNIQUE" ]
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "dkz_abstorefront_chunk",
+    "weight": 250,
+    "object": {
+      "mapgensize": [ 2, 2 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "AA",
+        "CB"
+      ],
+      "mapping": { "A": { "fields": { "field": "fd_blood" } }, "B": { "fields": { "field": "fd_blood" } } },		  
+      "items": {
+        "B": { "item": "DKZ_armor_improvised_torso", "chance": 100 },
+        "C": { "item": "DKZ_guns_pistol_military", "chance": 100 }
+      },
+      "item": {
+        "A": { "item": "rag_bloody", "chance": 50 },
+        "B": { "item": "corpse_bloody", "chance": 100 }
+      }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "dkz_abstorefront_chunk",
+    "weight": 250,
+    "object": {
+      "mapgensize": [ 2, 2 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "AA",
+        "CB"
+      ],
+      "mapping": { "A": { "fields": { "field": "fd_blood" } }, "B": { "fields": { "field": "fd_blood" } } },		  
+      "items": {
+        "B": { "item": "DKZ_armor_improvised_head", "chance": 100 },
+        "C": { "item": "DKZ_guns_pistol_military", "chance": 100 }
+      },
+      "item": {
+        "A": { "item": "rag_bloody", "chance": 50 },
+        "B": { "item": "corpse_bloody", "chance": 100 }
+      }
+    }
   },
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
