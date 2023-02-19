@@ -32,7 +32,7 @@
         "CB"
       ],
       "terrain": { " ": "t_null" },	  
-      "mapping": { "A": { "fields": { "field": "fd_blood" } }, "B": { "fields": { "field": "fd_blood" } } },		  
+      "mapping": { "A": { "fields": { "field": "fd_blood" }, "chance": 60 }, "B": { "fields": { "field": "fd_blood" }, "chance": 60  } },		  
       "items": {
         "B": { "item": "DKZ_armor_improvised_torso", "chance": 100 },
         "C": { "item": "DKZ_guns_energy", "chance": 100 }
