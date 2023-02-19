@@ -82,6 +82,24 @@
       { "power_min": 100, "power_max": 200, "id": "epilogue_faction_maquis_100" },
       { "power_min": 200, "power_max": 300, "id": "epilogue_faction_maquis_200" }
     ],
-    "description": "Any and all remaining humans that will resist the invading Xenoids to the last man."
-  }
+    "description": "Any and all remaining humans that will resist the invading aliens to the last man."
+  },
+  {
+    "type": "faction",
+    "id": "quislings",
+    "name": "Quislings",
+    "likes_u": -25,
+    "respects_u": -25,
+    "known_by_u": false,
+    "size": 10,
+    "power": 10,
+    "food_supply": 666666,
+    "wealth": 666666666,
+      "maquis": { "kill on sight": true },
+      "free_merchants": { "kill on sight": true },
+      "old_guard": { "kill on sight": true },
+      "your_followers": { "kill on sight": true }
+    },
+    "description": "An semi-organized human militia who openly fight along side the Xenoids against other human beings.  The worst kind of traitor."
+  }  
 ]
