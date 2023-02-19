@@ -189,6 +189,7 @@
         "AA",
         "CB"
       ],
+      "terrain": { " ": "t_null" },	  
       "mapping": { "A": { "fields": { "field": "fd_blood" } }, "B": { "fields": { "field": "fd_blood" } } },		  
       "items": {
         "B": { "item": "DKZ_armor_improvised_torso", "chance": 100 },
@@ -212,6 +213,7 @@
         "AA",
         "CB"
       ],
+      "terrain": { " ": "t_null" },	  
       "mapping": { "A": { "fields": { "field": "fd_blood" } }, "B": { "fields": { "field": "fd_blood" } } },		  
       "items": {
         "B": { "item": "DKZ_armor_improvised_head", "chance": 100 },
@@ -220,6 +222,30 @@
       "item": {
         "A": { "item": "rag_bloody", "chance": 50 },
         "B": { "item": "corpse_bloody", "chance": 100 }
+      }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "dkz_abstorefront_chunk",
+    "weight": 250,
+    "object": {
+      "mapgensize": [ 2, 2 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "AA",
+        "CB"
+      ],
+      "terrain": { " ": "t_null" },	  
+      "mapping": { "A": { "fields": { "field": "fd_blood" } }, "B": { "fields": { "field": "fd_blood" } } },		  
+      "items": {
+        "B": { "item": "DKZ_armor_improvised_torso", "chance": 100 },
+        "C": { "item": "DKZ_guns_pistol_military", "chance": 100 }
+      },
+      "item": {
+        "A": { "item": "rag_bloody", "chance": 50 },
+        "B": { "item": "corpse_painful", "chance": 100 }
       }
     }
   },
