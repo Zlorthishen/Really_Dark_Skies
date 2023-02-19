@@ -7,7 +7,7 @@
     "mission": 8,
     "name_suffix": "Quisling Thug",	
     "chat": "TALK_QUISLING_ROOT",
-    "faction": "hells_raiders"
+    "faction": "quislings"
   },  
   {
     "type": "npc",
@@ -17,7 +17,7 @@
     "mission": 8,
     "name_suffix": "Quisling Bandit",	
     "chat": "TALK_QUISLING_ROOT",
-    "faction": "hells_raiders"
+    "faction": "quislings"
   },
   {
     "type": "npc_class",

@@ -87,7 +87,7 @@
   {
     "type": "faction",
     "id": "quislings",
-    "name": "Quislings",
+    "name": "The Quislings",
     "likes_u": -25,
     "respects_u": -25,
     "known_by_u": false,
@@ -95,6 +95,16 @@
     "power": 10,
     "food_supply": 666666,
     "wealth": 666666666,
+    "relations": {
+      "hells_raiders": {
+        "kill on sight": false,
+        "watch your back": true,
+        "share my stuff": true,
+        "guard your stuff": true,
+        "lets you in": true,
+        "defends your space": true,
+        "knows your voice": true
+      },
       "maquis": { "kill on sight": true },
       "free_merchants": { "kill on sight": true },
       "old_guard": { "kill on sight": true },
