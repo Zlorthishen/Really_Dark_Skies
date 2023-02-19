@@ -88,7 +88,10 @@
         "ḃ": "f_bench",
         "c": "f_counter"
       },
-      "place_nested": [ { "chunks": [ "dkz_abstorefront_chunk" ], "x": 16, "y": 7 }, { "chunks": [ "dkz_abstorefront_chunk" ], "x": 17, "y": 5 } ],
+      "place_nested": [
+        { "chunks": [ "dkz_abstorefront_chunk" ], "x": 16, "y": 7 },
+        { "chunks": [ "dkz_abstorefront_chunk" ], "x": 17, "y": 5 }
+      ],
       "place_npcs": [
         { "class": "DKZ_QUISLING_THUG", "x": 5, "y": 5, "add_trait": "DKZ_QUISLING" },
         { "class": "DKZ_QUISLING_THUG", "x": 5, "y": 6, "add_trait": "DKZ_QUISLING" },
@@ -98,12 +101,10 @@
         { "class": "DKZ_QUISLING_BANDIT", "x": 17, "y": 20, "add_trait": "DKZ_QUISLING" }
       ],
       "place_monsters": [
-        { "monster": "GROUP_QUISSLING_HELPERS", "x": [ 3, 6 ], "y": [ 3, 6 ], "density": 0.5 },
-        { "monster": "GROUP_QUISSLING_HELPERS", "x": [ 19, 22 ], "y": [ 19, 22 ], "density": 0.5 }
+        { "monster": "GROUP_QUISSLING_HELPERS", "x": [ 3, 6 ], "y": [ 3, 6 ], "density": 0.35 },
+        { "monster": "GROUP_QUISSLING_HELPERS", "x": [ 19, 22 ], "y": [ 19, 22 ], "density": 0.35 }
       ],
-      "item": { "Ḃ": { "item": "keffiyeh", "chance": 100 } },
-      "items": { ".": { "item": "trash", "chance": 15 } },
-      "vehicles": { ";": { "vehicle": "shopping_cart", "chance": 50, "status": 1 } }
+      "items": { ".": { "item": "trash", "chance": 5 } }
     }
   },
   {
@@ -181,7 +182,7 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "dkz_abstorefront_chunk",
-    "weight": 250,
+    "weight": 300,
     "object": {
       "mapgensize": [ 2, 2 ],
       "rotation": [ 0, 3 ],
@@ -189,16 +190,17 @@
         "AA",
         "CB"
       ],
-      "terrain": { " ": "t_null" },	  
-      "mapping": { "A": { "fields": { "field": "fd_blood" }, "chance": 60 }, "B": { "fields": { "field": "fd_blood" }, "chance": 60  } },		  
+      "terrain": { " ": "t_null" },
+      "mapping": {
+        "A": { "fields": { "field": "fd_blood" }, "chance": 50 },
+        "B": { "fields": { "field": "fd_blood" }, "chance": 90 },
+        "C": { "fields": { "field": "fd_blood" }, "chance": 90 }
+      },
       "items": {
         "B": { "item": "DKZ_armor_improvised_torso", "chance": 100 },
         "C": { "item": "DKZ_guns_pistol_military", "chance": 100 }
       },
-      "item": {
-        "A": { "item": "rag_bloody", "chance": 50 },
-        "B": { "item": "corpse_bloody", "chance": 100 }
-      }
+      "item": { "A": { "item": "rag_bloody", "chance": 50 }, "B": { "item": "corpse_bloody", "chance": 100 } }
     }
   },
   {
@@ -213,16 +215,13 @@
         "AA",
         "CB"
       ],
-      "terrain": { " ": "t_null" },	  
-      "mapping": { "A": { "fields": { "field": "fd_blood" }, "chance": 60 }, "B": { "fields": { "field": "fd_blood" }, "chance": 60  } },	
+      "terrain": { " ": "t_null" },
+      "mapping": { "A": { "fields": { "field": "fd_blood" }, "chance": 60 }, "C": { "fields": { "field": "fd_blood" }, "chance": 60 } },
       "items": {
         "B": { "item": "DKZ_armor_improvised_head", "chance": 100 },
-        "C": { "item": "DKZ_guns_pistol_military", "chance": 100 }
+        "C": { "item": "DKZ_guns_rifle_military", "chance": 100 }
       },
-      "item": {
-        "A": { "item": "rag_bloody", "chance": 50 },
-        "B": { "item": "corpse_bloody", "chance": 100 }
-      }
+      "item": { "A": { "item": "rag_bloody", "chance": 50 }, "B": { "item": "corpse_bloody", "chance": 100 } }
     }
   },
   {
@@ -237,16 +236,34 @@
         "AA",
         "CB"
       ],
-      "terrain": { " ": "t_null" },	  
-      "mapping": { "A": { "fields": { "field": "fd_blood" }, "chance": 60 }, "B": { "fields": { "field": "fd_blood" }, "chance": 60  } },			  
+      "terrain": { " ": "t_null" },
+      "mapping": { "C": { "fields": { "field": "fd_blood" }, "chance": 60 }, "B": { "fields": { "field": "fd_blood" }, "chance": 60 } },
+      "items": {
+        "B": { "item": "DKZ_armor_improvised_torso", "chance": 100 },
+        "C": { "item": "DKZ_guns_rifle_military", "chance": 100 }
+      },
+      "item": { "A": { "item": "rag_bloody", "chance": 50 }, "B": { "item": "corpse_painful", "chance": 100 } }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "dkz_abstorefront_chunk",
+    "weight": 250,
+    "object": {
+      "mapgensize": [ 2, 2 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "AA",
+        "CB"
+      ],
+      "terrain": { " ": "t_null" },
+      "mapping": { "C": { "fields": { "field": "fd_blood" }, "chance": 60 }, "B": { "fields": { "field": "fd_blood" }, "chance": 60 } },
       "items": {
         "B": { "item": "DKZ_armor_improvised_torso", "chance": 100 },
         "C": { "item": "DKZ_guns_pistol_military", "chance": 100 }
       },
-      "item": {
-        "A": { "item": "rag_bloody", "chance": 50 },
-        "B": { "item": "corpse_painful", "chance": 100 }
-      }
+      "item": { "A": { "item": "rag_bloody", "chance": 50 }, "B": { "item": "corpse_painful", "chance": 100 } }
     }
   },
   {

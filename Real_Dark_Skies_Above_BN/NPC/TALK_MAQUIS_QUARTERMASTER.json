@@ -378,7 +378,14 @@
       "The many floors of the building are full of cardboard boxes and junk but there is plenty of space that could be turned into better living quarters for refugees.  In a few days every nook and cranny could be used for refugees."
     ],
     "responses": [
-      { "text": "Ok, lets begin.", "topic": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_COMMENCE" },
+      {
+        "text": "Ok, lets begin.",
+        "effect": [
+          { "npc_add_effect": "dkz_base_build_leadership", "duration": 60000 },
+          { "u_add_effect": "dkz_base_build_started", "duration": 60000 }
+        ],
+        "topic": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_COMMENCE"
+      },
       {
         "text": "Maybe we should start in a different direction.",
         "topic": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_INITIAL_INVERSE"
@@ -395,7 +402,14 @@
       "A lot of engineers on the seventh floor were rescued from a research lab before everything went down, they're grateful to be alive and could get a new laboratory up and running in a few days."
     ],
     "responses": [
-      { "text": "Ok, lets begin.", "topic": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_COMMENCE" },
+      {
+        "text": "Ok, lets begin.",
+        "effect": [
+          { "npc_add_effect": "dkz_base_build_technical", "duration": 60000 },
+          { "u_add_effect": "dkz_base_build_started", "duration": 60000 }
+        ],
+        "topic": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_COMMENCE"
+      },
       {
         "text": "Maybe we should start in a different direction.",
         "topic": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_INITIAL_INVERSE"
@@ -412,7 +426,14 @@
       "A lot of scientists on the seventh floor were rescued from a research lab before everything went down, they're grateful to be alive and could get a new laboratory up and running in a few days."
     ],
     "responses": [
-      { "text": "Ok, lets begin.", "topic": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_COMMENCE" },
+      {
+        "text": "Ok, lets begin.",
+        "effect": [
+          { "npc_add_effect": "dkz_base_build_science", "duration": 60000 },
+          { "u_add_effect": "dkz_base_build_started", "duration": 60000 }
+        ],
+        "topic": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_COMMENCE"
+      },
       {
         "text": "Maybe we should start in a different direction.",
         "topic": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_INITIAL_INVERSE"
@@ -429,7 +450,14 @@
       "There are several areas on the ground floor that could become triage zones, and it shouldn't be too hard to find a volunteer with first aid training.  Also, we can get several more recovery areas ready, but that will take a few days to complete."
     ],
     "responses": [
-      { "text": "Ok, lets begin.", "topic": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_COMMENCE" },
+      {
+        "text": "Ok, lets begin.",
+        "effect": [
+          { "npc_add_effect": "dkz_base_build_medical", "duration": 60000 },
+          { "u_add_effect": "dkz_base_build_started", "duration": 60000 }
+        ],
+        "topic": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_COMMENCE"
+      },
       {
         "text": "Maybe we should start in a different direction.",
         "topic": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_INITIAL_INVERSE"
@@ -446,7 +474,14 @@
       "Well I see few of the combative types are already loitering around under the central skylight, that's as good a place to congregate as any, and it shouldn't be too hard to find a few more.  Also, we can get a dedicated shooting area in the lower basement completed in a few days."
     ],
     "responses": [
-      { "text": "Ok, lets begin.", "topic": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_COMMENCE" },
+      {
+        "text": "Ok, lets begin.",
+        "effect": [
+          { "npc_add_effect": "dkz_base_build_combat", "duration": 60000 },
+          { "u_add_effect": "dkz_base_build_started", "duration": 60000 }
+        ],
+        "topic": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_COMMENCE"
+      },
       {
         "text": "Maybe we should start in a different direction.",
         "topic": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_INITIAL_INVERSE"
@@ -454,20 +489,12 @@
       { "text": "Lets discuss something else.", "topic": "TALK_MAQUIS_QUARTERMASTER_ROOT" },
       { "text": "I have to go now.", "topic": "TALK_DONE" }
     ]
-  }
+  },
   {
     "//": "--- COMBAT ------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_COMMENCE",
     "type": "talk_topic",
-    "dynamic_line": [
-      "Ok, in a few days it should be completed."
-    ],
-    "responses": [
-      { "text": "I have to go now.", "topic": "TALK_DONE" }
-    ]
+    "dynamic_line": [ "Ok, in a few days it should be completed." ],
+    "responses": [ { "text": "I have to go now.", "topic": "TALK_DONE" } ]
   }
-  
-  
-  
-  
 ]
