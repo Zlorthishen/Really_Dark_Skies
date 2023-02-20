@@ -128,7 +128,7 @@
         "       |..............3 ",
         "       |..............3 ",
         "       |..............3 ",
-        "       |..............3 ",
+        "       |.&............3 ",
         "       |5------------53 ",
         "          #>#           ",
         "          ###           ",
@@ -142,6 +142,7 @@
       ],
       "terrain": {
         ".": "t_flat_roof",
+        "&": "t_flat_roof",
         " ": "t_open_air",
         "|": "t_gutter_west",
         "-": "t_gutter_south",
@@ -154,7 +155,7 @@
       "place_items": [ { "item": "roof_trash", "x": [ 8, 21 ], "y": [ 7, 13 ], "chance": 50, "repeat": [ 1, 3 ] } ],
       "place_nested": [
         {
-          "chunks": [ [ "null", 1 ], [ "roof_4x4_party", 20 ], [ "roof_4x4_holdout", 5 ], [ "roof_4x4_utility", 40 ] ],
+          "chunks": [ [ "roof_4x4_party", 20 ], [ "roof_4x4_holdout", 5 ], [ "roof_4x4_utility", 40 ] ],
           "x": 13,
           "y": 3
         }

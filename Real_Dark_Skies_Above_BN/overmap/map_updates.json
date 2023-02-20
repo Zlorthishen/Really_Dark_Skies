@@ -1,0 +1,15 @@
+[
+  {
+    "type": "mapgen",
+    "method": "json",
+    "update_mapgen_id": "dkz_base_build_medical_1",
+    "object": {
+      "place_nested": [
+        { "chunks": [ "racing_tower_4x4_medical" ], "x": 4, "y": 0 },
+        { "chunks": [ "racing_tower_4x4_medical" ], "x": 4, "y": 4 },
+        { "chunks": [ "racing_tower_4x4_medical" ], "x": 4, "y": 8 },
+        { "chunks": [ "racing_tower_4x4_medical" ], "x": 0, "y": 8 }
+      ]
+    }
+  }
+]
