@@ -2,24 +2,24 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: realdarkskies\n"
-"POT-Creation-Date: 2022-04-28 21:15+0600\n"
+"POT-Creation-Date: 2023-02-21 00:43+0600\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: .\achievements.json
-msgid "There's a new kind of zombie around."
+msgid "<color_light_blue>There's another kind of zombie around.</color>"
 msgstr ""
 
 #: .\achievements.json
-msgid "If it bleeds we can kill it."
+msgid "<color_red>If it bleeds we can kill it.</color>"
 msgstr ""
 
 #: .\achievements.json
 msgid ""
-"By the toll of a billion deaths man has bought his birthright of the Earth, "
-"and it is his against all comers."
+"<color_red>By the toll of a billion deaths man has bought his birthright of "
+"the Earth, and it is his against all comers.</color>"
 msgstr ""
 
 #: .\effects.json
@@ -48,6 +48,12 @@ msgstr ""
 msgid "You shake uncontrollably"
 msgstr ""
 
+#: .\effects.json
+msgid ""
+"You realize that the upgrade at Maquis Headquarters should be completed by "
+"now."
+msgstr ""
+
 #: .\emit.json
 msgid "fog"
 msgstr ""
@@ -59,8 +65,34 @@ msgstr ""
 
 #: .\harvest.json
 msgid ""
-"They may have been human, once… before, whatever was… done to them, now they"
-" are something… else…"
+"They may have been almost human as we are, once… before, whatever was… done "
+"to them, now they are something… else…"
+msgstr ""
+
+#: .\harvest.json
+msgid "xenoid bone"
+msgid_plural "xenoid bones"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for xenoid bone
+#: .\harvest.json
+msgid ""
+"A bone generously 'donated' by a Xenoid, if it wasn't from an alien you "
+"might mistake it for something terrestrial."
+msgstr ""
+
+#: .\harvest.json
+msgid "small xenoid bone"
+msgid_plural "small xenoid bones"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for small xenoid bone
+#: .\harvest.json
+msgid ""
+"A small bone 'donated' by a very generous Xenoid.  It is a small oval, thin "
+"like a guitar pick, and with a small hole near one end."
 msgstr ""
 
 #: .\materials.json
@@ -148,6 +180,15 @@ msgid "thoroughly damaged"
 msgstr ""
 
 #: .\misc_additions_important.json
+msgid "pavement"
+msgstr ""
+
+#. ~ Description for pavement
+#: .\misc_additions_important.json
+msgid "A segment of asphalt, slowly degrading from cracks."
+msgstr ""
+
+#: .\misc_additions_important.json
 msgid "sidewalk ramp down (high end)"
 msgstr ""
 
@@ -196,163 +237,6 @@ msgid "puddle of mechanical fluid"
 msgstr ""
 
 #: .\misc_additions_important.json
-msgid "EOD jacket"
-msgid_plural "EOD jackets"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'EOD jacket'}
-#: .\misc_additions_important.json
-msgid ""
-"A thick armored jacket constructed from kevlar and nomex for explosive "
-"ordnance disposal.  It is designed to protect against overpressure, "
-"fragmentation, impact and heat."
-msgstr ""
-
-#: .\misc_additions_important.json
-msgid "light EOD jacket"
-msgid_plural "light EOD jackets"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'light EOD jacket'}
-#: .\misc_additions_important.json
-msgid ""
-"An armored jacket constructed from kevlar and nomex designed to protect "
-"against overpressure, fragmentation, impact and heat in hostile "
-"environments.  It is lighter than normal EOD armor to provide more "
-"maneuverability and can be worn over ballistic armor."
-msgstr ""
-
-#: .\misc_additions_important.json
-msgid "pair of EOD gloves"
-msgid_plural "pairs of EOD gloves"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'pair of EOD gloves', 'str_pl': 'pairs of EOD
-#. gloves'}
-#: .\misc_additions_important.json
-msgid ""
-"Light armored gloves constructed from kevlar and nomex for explosive "
-"ordnance disposal.  They are designed to protect against fragmentation and "
-"heat."
-msgstr ""
-
-#: .\misc_additions_important.json
-msgid "EOD helmet"
-msgid_plural "EOD helmets"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Use action menu_text for {'str': 'EOD helmet'}.
-#: .\misc_additions_important.json
-msgid "Turn on headlamps"
-msgstr ""
-
-#. ~ Use action msg for {'str': 'EOD helmet'}.
-#: .\misc_additions_important.json
-msgid "\"Activating illumination.\""
-msgstr ""
-
-#. ~ Use action need_charges_msg for {'str': 'EOD helmet'}.
-#: .\misc_additions_important.json
-msgid "\"Illumination disabled, low power.\""
-msgstr ""
-
-#. ~ Description for {'str': 'EOD helmet'}
-#: .\misc_additions_important.json
-msgid ""
-"An armored electronically shielded helmet containing a camera, a two-way "
-"radio, and a headlamp, all of which can be voice-activated for redundancy.  "
-"It is designed to protect against overpressure, fragmentation, impact and "
-"heat."
-msgstr ""
-
-#: .\misc_additions_important.json
-msgid "EOD helmet (on)"
-msgid_plural "EOD helmets (on)"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Use action menu_text for {'str': 'EOD helmet (on)', 'str_pl': 'EOD
-#. helmets (on)'}.
-#: .\misc_additions_important.json
-msgid "Turn off headlamps"
-msgstr ""
-
-#. ~ Use action msg for {'str': 'EOD helmet (on)', 'str_pl': 'EOD helmets
-#. (on)'}.
-#: .\misc_additions_important.json
-msgid "\"Disabling illumination.\""
-msgstr ""
-
-#: .\misc_additions_important.json
-msgid "EOD trousers"
-msgid_plural "EOD trouserss"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'EOD trousers'}
-#: .\misc_additions_important.json
-msgid ""
-"Thick armored trousers constructed from kevlar and nomex for explosive "
-"ordnance disposal.  It is designed to protect against overpressure, "
-"fragmentation, impact and heat."
-msgstr ""
-
-#: .\misc_additions_important.json
-msgid "light EOD trousers"
-msgid_plural "light EOD trouserss"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'light EOD trousers'}
-#: .\misc_additions_important.json
-msgid ""
-"Armored trousers constructed from kevlar and nomex designed to protect "
-"against overpressure, fragmentation, impact and heat in hostile "
-"environments.  It is lighter than normal EOD armor to provide more "
-"maneuverability."
-msgstr ""
-
-#: .\misc_additions_important.json
-msgid "pair of EOD foot protectors"
-msgid_plural "pairs of EOD foot protectors"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'pair of EOD foot protectors', 'str_pl': 'pairs
-#. of EOD foot protectors'}
-#: .\misc_additions_important.json
-msgid ""
-"Armored foot protectors constructed from steel and nomex for explosive "
-"ordnance disposal.  They are designed to protect against overpressure, "
-"fragmentation, impact and heat."
-msgstr ""
-
-#: .\misc_additions_important.json
-msgid "head bandana"
-msgid_plural "head bandanas"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Use action menu_text for {'str': 'head bandana'}.
-#: .\misc_additions_important.json
-msgid "Cover mouth"
-msgstr ""
-
-#. ~ Use action msg for {'str': 'head bandana'}.
-#: .\misc_additions_important.json
-msgid "You adjust the %s to cover your mouth."
-msgstr ""
-
-#. ~ Description for {'str': 'head bandana'}
-#: .\misc_additions_important.json
-msgid "A cotton bandana, worn over the head."
-msgstr ""
-
-#: .\misc_additions_important.json
 msgid "pedestrian crossing"
 msgstr ""
 
@@ -364,17 +248,229 @@ msgid ""
 msgstr ""
 
 #: .\modinfo.json
-msgid "<color_light_green>Real Dark Skies</color>"
+msgid "<color_light_blue>Really Dark Skies</color>"
 msgstr ""
 
-#. ~ Description for <color_light_green>Real Dark Skies</color>
+#. ~ Description for <color_light_blue>Really Dark Skies</color>
 #: .\modinfo.json
 msgid ""
 "A supplement mod that increments the Cataclysm Bright Nights experience by "
-"adding an inscrutable alien-humanoid paramilitary expeditionary force to "
-"your typical survival scenario.  Complements to the vanilla adding the vile "
-"Xenoids, the murderous Strays, and terrifying [REDACTED], and more!  "
+"adding an inscrutable evil, extra-terrestrial humanoid paramilitary "
+"expeditionary force to your typical survival scenario. /n/n Complements to "
+"the vanilla adding the evil aliens 'The Xenoids', a regenerating, "
+"alternative style of zombies called 'Strays', and terrifyingly armored "
+"[REDACTED], and even expansions to old foes like Mi-Go's, and Triffids!  "
 "<color_light_red>Prepare for a challenge.</color>"
+msgstr ""
+
+#: .\professions.json
+msgctxt "profession_male"
+msgid "Bionic Maquis Commander"
+msgstr ""
+
+#: .\professions.json
+msgctxt "profession_female"
+msgid "Bionic Maquis Commander"
+msgstr ""
+
+#. ~ Profession (male Bionic Maquis Commander) description
+#: .\professions.json
+msgctxt "prof_desc_male"
+msgid ""
+"Decked out with the latest cybernetic augmentions, armed with the dealiest "
+"of firearms the still remain, and with nerves of steel, your only purpose is"
+" to save the world from the aliens."
+msgstr ""
+
+#. ~ Profession (female Bionic Maquis Commander) description
+#: .\professions.json
+msgctxt "prof_desc_female"
+msgid ""
+"Decked out with the latest cybernetic augmentions, armed with the dealiest "
+"of firearms the still remain, and with nerves of steel, your only purpose is"
+" to save the world from the aliens."
+msgstr ""
+
+#: .\professions.json
+msgctxt "profession_male"
+msgid "Bionic Maquis Soldier"
+msgstr ""
+
+#: .\professions.json
+msgctxt "profession_female"
+msgid "Bionic Maquis Soldier"
+msgstr ""
+
+#. ~ Profession (male Bionic Maquis Soldier) description
+#: .\professions.json
+msgctxt "prof_desc_male"
+msgid ""
+"You are the result of one of the military's latest and final research "
+"programs, a prototype cyborg soldier.  You're still alive thanks to your "
+"augmentations, even after all your comrades fell to the undead."
+msgstr ""
+
+#. ~ Profession (female Bionic Maquis Soldier) description
+#: .\professions.json
+msgctxt "prof_desc_female"
+msgid ""
+"You are the result of one of the military's latest and final research "
+"programs, a prototype cyborg soldier.  You're still alive thanks to your "
+"augmentations, even after all your comrades fell to the undead."
+msgstr ""
+
+#: .\professions.json
+msgctxt "profession_male"
+msgid "Bionic Maquis Cyber-smith"
+msgstr ""
+
+#: .\professions.json
+msgctxt "profession_female"
+msgid "Bionic Maquis Cyber-smith"
+msgstr ""
+
+#. ~ Profession (male Bionic Maquis Cyber-smith) description
+#: .\professions.json
+msgctxt "prof_desc_male"
+msgid ""
+"For better or for worse, bionic augmentation has turned you into a walking "
+"power tool.  Upgraded with a standard industrial-grade manual labor surgery "
+"and training package, you are augmented with bionic muscles and an "
+"integrated toolset, both powered by standard batteries."
+msgstr ""
+
+#. ~ Profession (female Bionic Maquis Cyber-smith) description
+#: .\professions.json
+msgctxt "prof_desc_female"
+msgid ""
+"For better or for worse, bionic augmentation has turned you into a walking "
+"power tool.  Upgraded with a standard industrial-grade manual labor surgery "
+"and training package, you are augmented with bionic muscles and an "
+"integrated toolset, both powered by standard batteries."
+msgstr ""
+
+#: .\professions.json
+msgctxt "profession_male"
+msgid "Bionic Xenobiologist"
+msgstr ""
+
+#: .\professions.json
+msgctxt "profession_female"
+msgid "Bionic Xenobiologist"
+msgstr ""
+
+#. ~ Profession (male Bionic Xenobiologist) description
+#: .\professions.json
+msgctxt "prof_desc_male"
+msgid ""
+"Prior to the apocalypse you were employed by a major international "
+"corporation as a representative and technical advisor, utilizing the "
+"incredible power of your cybernetically augmented mind."
+msgstr ""
+
+#. ~ Profession (female Bionic Xenobiologist) description
+#: .\professions.json
+msgctxt "prof_desc_female"
+msgid ""
+"Prior to the apocalypse you were employed by a major international "
+"corporation as a representative and technical advisor, utilizing the "
+"incredible power of your cybernetically augmented mind."
+msgstr ""
+
+#: .\professions.json
+msgctxt "profession_male"
+msgid "Bionic Maquis Medic"
+msgstr ""
+
+#: .\professions.json
+msgctxt "profession_female"
+msgid "Bionic Maquis Medic"
+msgstr ""
+
+#. ~ Profession (male Bionic Maquis Medic) description
+#: .\professions.json
+msgctxt "prof_desc_male"
+msgid ""
+"As a second-generation augmented firefighter, you have been cybernetically "
+"enhanced to operate in the most dire of emergency situations.  The end of "
+"the world definitely counts as a dire situation."
+msgstr ""
+
+#. ~ Profession (female Bionic Maquis Medic) description
+#: .\professions.json
+msgctxt "prof_desc_female"
+msgid ""
+"As a second-generation augmented firefighter, you have been cybernetically "
+"enhanced to operate in the most dire of emergency situations.  The end of "
+"the world definitely counts as a dire situation."
+msgstr ""
+
+#: .\NPC\COMMON_TALK.json
+msgid "I might be down for a combat mission."
+msgstr ""
+
+#: .\NPC\COMMON_TALK.json
+msgid "The Maquis has a combat patrol, are you game?"
+msgstr ""
+
+#: .\NPC\COMMON_TALK.json .\NPC\TALK_MAQUIS_QUARTERMASTER.json
+msgid "I changed my mind."
+msgstr ""
+
+#: .\NPC\COMMON_TALK.json
+msgid "Sounds interesting, I'll come along."
+msgstr ""
+
+#: .\NPC\COMMON_TALK.json
+msgid "Affirmative. Thought you'd never ask."
+msgstr ""
+
+#: .\NPC\COMMON_TALK.json
+msgid "Let's go."
+msgstr ""
+
+#: .\NPC\COMMON_TALK.json
+msgid "I could be persuaded to come along."
+msgstr ""
+
+#: .\NPC\COMMON_TALK.json
+msgid "The Maquis needs some technical support, are you interested?"
+msgstr ""
+
+#: .\NPC\COMMON_TALK.json
+msgid "Thought you'd never ask."
+msgstr ""
+
+#: .\NPC\COMMON_TALK.json
+msgid "The Maquis needs some medical expertise, are you interested?"
+msgstr ""
+
+#: .\NPC\COMMON_TALK.json
+msgid "The Maquis needs some science support, are you interested?"
+msgstr ""
+
+#: .\NPC\COMMON_TALK.json
+msgid "I don't think so."
+msgstr ""
+
+#: .\NPC\COMMON_TALK.json
+msgid "I am not going with you."
+msgstr ""
+
+#: .\NPC\COMMON_TALK.json .\NPC\TALK_RANDY_ERIKSON.json
+msgid "Whatever."
+msgstr ""
+
+#: .\NPC\Maquis_Missions.json
+msgid "Rendezvous To Headquarters"
+msgstr ""
+
+#. ~ Description for mission '{'str': 'Rendezvous To Headquarters'}'
+#: .\NPC\Maquis_Missions.json
+msgid ""
+"With your knowledge of humans cooperating with Xenoids, you have to get to "
+"the local Maquis resistance base and inform the leader of the existance of "
+"Quislings."
 msgstr ""
 
 #: .\NPC\Maquis_Missions.json
@@ -453,40 +549,220 @@ msgstr ""
 msgid "Return to Maquis HQ."
 msgstr ""
 
-#: .\NPC\Maquis_Missions.json
+#: .\NPC\Maquis_Missions.json .\NPC\TALK_Arsonist.json
 msgid "…"
 msgstr ""
 
-#: .\NPC\Maquis_Missions.json
+#: .\NPC\Maquis_Missions.json .\NPC\TALK_Arsonist.json
 msgid "Lets go back to base."
 msgstr ""
 
-#: .\NPC\Maquis_Missions.json
+#: .\NPC\Maquis_Missions.json .\NPC\TALK_Arsonist.json
 msgid "Alright, lets be off.  You don't mind taking point, right?"
 msgstr ""
 
-#: .\NPC\Maquis_Missions.json
+#: .\NPC\Maquis_Missions.json .\NPC\TALK_Arsonist.json
 msgid "Well…"
 msgstr ""
 
-#: .\NPC\Maquis_Missions.json
+#: .\NPC\Maquis_Missions.json .\NPC\TALK_Arsonist.json
 msgid "You keep a map around don't you?  I do, and you probably should too."
 msgstr ""
 
-#: .\NPC\Maquis_Missions.json
+#: .\NPC\Maquis_Missions.json .\NPC\TALK_Arsonist.json
 msgid "We there yet?"
 msgstr ""
 
-#: .\NPC\Maquis_Missions.json
+#: .\NPC\Maquis_Missions.json .\NPC\TALK_Arsonist.json
 msgid "Thanks for having my back.  As I said, I owe you one."
 msgstr ""
 
-#: .\NPC\Maquis_Missions.json
+#: .\NPC\Maquis_Missions.json .\NPC\TALK_Arsonist.json
 msgid "Are you lost or something?"
 msgstr ""
 
-#: .\NPC\Maquis_Missions.json
+#: .\NPC\Maquis_Missions.json .\NPC\TALK_Arsonist.json
 msgid "Can't believe we got lost…"
+msgstr ""
+
+#: .\NPC\Maquis_Missions.json
+msgid "Clean up a sewer"
+msgstr ""
+
+#. ~ Description for mission '{'str': 'Clean up a sewer'}'
+#: .\NPC\Maquis_Missions.json
+msgid "Go to a sewer treatment plant and kill some strange creatures."
+msgstr ""
+
+#: .\NPC\Maquis_Missions.json
+msgid "I need you to find and kill some monsters."
+msgstr ""
+
+#: .\NPC\Maquis_Missions.json
+msgid ""
+"There were reports of some kind of alien critters a sewers treatment plant."
+"  Go eliminate them out."
+msgstr ""
+
+#: .\NPC\Maquis_Missions.json .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json
+#: .\NPC\TALK_RANDY_ERIKSON.json
+msgid "Thank you."
+msgstr ""
+
+#: .\NPC\Maquis_Missions.json
+msgid "Oh well.  I'm sure it wasn't anything."
+msgstr ""
+
+#: .\NPC\Maquis_Missions.json
+msgid "You might get lucky and maybe a seweranha will kill them."
+msgstr ""
+
+#: .\NPC\Maquis_Missions.json .\NPC\TALK_MAQUIS_BIONIC_DOCTOR.json
+#: .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json .\NPC\TALK_MAQUIS_ENGINEER.json
+#: .\NPC\TALK_MAQUIS_MECHANIC.json .\NPC\TALK_MAQUIS_MOTH_MUTANT.json
+#: .\NPC\TALK_MAQUIS_SCIENTIST.json .\NPC\TALK_RANDY_ERIKSON.json
+msgid "How is the search going?"
+msgstr ""
+
+#: .\NPC\Maquis_Missions.json .\NPC\TALK_MAQUIS_BIONIC_DOCTOR.json
+#: .\NPC\TALK_MAQUIS_ENGINEER.json .\NPC\TALK_MAQUIS_SCIENTIST.json
+#: .\NPC\TALK_RANDY_ERIKSON.json
+msgid "Thanks."
+msgstr ""
+
+#: .\NPC\Maquis_Missions.json
+msgid "I'm sure you did…"
+msgstr ""
+
+#: .\NPC\Maquis_Missions.json .\NPC\TALK_MAQUIS_BIONIC_DOCTOR.json
+#: .\NPC\TALK_MAQUIS_ENGINEER.json .\NPC\TALK_MAQUIS_MECHANIC.json
+#: .\NPC\TALK_MAQUIS_MOTH_MUTANT.json .\NPC\TALK_MAQUIS_SCIENTIST.json
+msgid "I wonder where it all went…"
+msgstr ""
+
+#. ~ Description for mission '{'str': 'Clean up a sewer'}'
+#: .\NPC\Maquis_Missions.json
+msgid "Go to a power substation and kill some strange creatures."
+msgstr ""
+
+#: .\NPC\Maquis_Missions.json
+msgid ""
+"There were reports of some kind of alien crystal monsters.  Go eliminate "
+"them out."
+msgstr ""
+
+#: .\NPC\Maquis_Missions.json
+msgid ""
+"If you're going to fight monsters that use electricity against you, don't be"
+" a good conductor."
+msgstr ""
+
+#: .\NPC\Maquis_Missions.json
+msgid "Speak to Mr Erikson"
+msgstr ""
+
+#. ~ Description for mission '{'str': 'Speak to Mr Erikson'}'
+#: .\NPC\Maquis_Missions.json
+msgid "The local leader of the Maaquis wants to meet you."
+msgstr ""
+
+#: .\NPC\Maquis_Missions.json
+msgid "The boss wants to see you…"
+msgstr ""
+
+#: .\NPC\Maquis_Missions.json
+msgid "The boss ups stairs wants to talk to you.  Do you want to talk to him?"
+msgstr ""
+
+#: .\NPC\Maquis_Missions.json .\NPC\TALK_MAQUIS_FELIX_FOX.json
+#: .\NPC\TALK_RANDY_ERIKSON.json
+msgid "I'll find him."
+msgstr ""
+
+#: .\NPC\Maquis_Missions.json
+msgid "Why?"
+msgstr ""
+
+#: .\NPC\Maquis_Missions.json .\NPC\TALK_MAQUIS_FELIX_FOX.json
+#: .\NPC\TALK_RANDY_ERIKSON.json
+msgid "Just follow your map."
+msgstr ""
+
+#: .\NPC\Maquis_Missions.json .\NPC\TALK_MAQUIS_FELIX_FOX.json
+#: .\NPC\TALK_RANDY_ERIKSON.json
+msgid "Did you find him yet?"
+msgstr ""
+
+#: .\NPC\Maquis_Missions.json .\NPC\TALK_MAQUIS_FELIX_FOX.json
+#: .\NPC\TALK_RANDY_ERIKSON.json
+msgid ""
+"With this we'll be able to convince others to join up and fight against the "
+"invasion"
+msgstr ""
+
+#: .\NPC\Maquis_Missions.json .\NPC\TALK_MAQUIS_FELIX_FOX.json
+#: .\NPC\TALK_RANDY_ERIKSON.json
+msgid "Something seems not right with how you described my brother…"
+msgstr ""
+
+#: .\NPC\Maquis_Missions.json .\NPC\TALK_MAQUIS_FELIX_FOX.json
+#: .\NPC\TALK_RANDY_ERIKSON.json
+msgid "It was a lost cause anyways…"
+msgstr ""
+
+#: .\NPC\Maquis_Missions.json
+msgid "Operation Science Field Trip"
+msgstr ""
+
+#. ~ Description for mission '{'str': 'Operation Science Field Trip'}'
+#: .\NPC\Maquis_Missions.json
+msgid ""
+"Bring enforcements to an operative setting up a forward base.  Go to the "
+"entrance to the secret lab and meet up with the operative there.  Bring two "
+"volunteers reinforcements, and get them all there alive."
+msgstr ""
+
+#: .\NPC\Maquis_Missions.json
+msgid ""
+"With the intel you got us, the Maquis recently found an access shaft hidden "
+"in a forest, which leads right down into a secret laboratory.  I need you to"
+" find two volunteers downstairs, tell them that Mr. Erikson needs them for a"
+" mission, and take them to this location, and meet up with an operative "
+"already there, she knows you're coming.  Try very hard to not get anyone "
+"killed out there, yourself included."
+msgstr ""
+
+#: .\NPC\Maquis_Missions.json
+msgid "That's great, go choose your four squad-members and get going."
+msgstr ""
+
+#: .\NPC\Maquis_Missions.json
+msgid "Don't expect help then."
+msgstr ""
+
+#: .\NPC\Maquis_Missions.json
+msgid ""
+"You can recruit anyone that is off-duty on balcony level downstairs, but if "
+"someone is guarding or has a job to do cannot be recruited for combat "
+"missions."
+msgstr ""
+
+#: .\NPC\Maquis_Missions.json
+msgid "Don't you have a job to do?"
+msgstr ""
+
+#: .\NPC\Maquis_Missions.json
+msgid "Excellent, this will allow the Maquis to much needed resources."
+msgstr ""
+
+#: .\NPC\Maquis_Missions.json .\NPC\TALK_MAQUIS_BIONIC_DOCTOR.json
+#: .\NPC\TALK_MAQUIS_ENGINEER.json .\NPC\TALK_MAQUIS_MECHANIC.json
+#: .\NPC\TALK_MAQUIS_MOTH_MUTANT.json .\NPC\TALK_MAQUIS_SCIENTIST.json
+msgid "What good does this do us?"
+msgstr ""
+
+#: .\NPC\Maquis_Missions.json
+msgid "Simply useless…"
 msgstr ""
 
 #: .\NPC\TALK_Aleesha_Seward.json .\NPC\TALK_Alonso_Lautrec.json
@@ -494,14 +770,13 @@ msgstr ""
 #: .\NPC\TALK_Claire_Isherwood.json .\NPC\TALK_Draco_Dune.json
 #: .\NPC\TALK_Eddie_Isherwood.json .\NPC\TALK_Fatima.json
 #: .\NPC\TALK_Jack_Isherwood.json .\NPC\TALK_Jesse_Isherwood.json
-#: .\NPC\TALK_John_Clemens.json .\NPC\TALK_Lisa_Isherwood.json
-#: .\NPC\TALK_Luke_Isherwood.json .\NPC\TALK_Old_Guard_Captiain.json
-#: .\NPC\TALK_Old_Guard_Commo.json .\NPC\TALK_Old_Guard_Soldier.json
-#: .\NPC\TALK_RANDY_ERIKSON.json .\NPC\TALK_ROBOFAC_MERC_1.json
-#: .\NPC\TALK_Shopkeep.json .\NPC\TALK_free_merchant_guard1.json
-#: .\NPC\TALK_free_merchant_guard2.json .\NPC\TALK_generic_guard.json
-#: .\NPC\TALK_hunter.json .\NPC\TALK_ranch_guard.json
-#: .\NPC\TALK_scavenger_merc.json
+#: .\NPC\TALK_Lisa_Isherwood.json .\NPC\TALK_Luke_Isherwood.json
+#: .\NPC\TALK_Old_Guard_Captiain.json .\NPC\TALK_Old_Guard_Commo.json
+#: .\NPC\TALK_Old_Guard_Soldier.json .\NPC\TALK_RANDY_ERIKSON.json
+#: .\NPC\TALK_ROBOFAC_MERC_1.json .\NPC\TALK_Shopkeep.json
+#: .\NPC\TALK_free_merchant_guard1.json .\NPC\TALK_free_merchant_guard2.json
+#: .\NPC\TALK_generic_guard.json .\NPC\TALK_hunter.json
+#: .\NPC\TALK_ranch_guard.json .\NPC\TALK_scavenger_merc.json
 msgid "What can you tell me about the Xenoids?"
 msgstr ""
 
@@ -509,8 +784,7 @@ msgstr ""
 #: .\NPC\TALK_Carlos_Isherwood.json .\NPC\TALK_Chris_Isherwood.json
 #: .\NPC\TALK_Claire_Isherwood.json .\NPC\TALK_Fatima.json
 #: .\NPC\TALK_Jack_Isherwood.json .\NPC\TALK_Jesse_Isherwood.json
-#: .\NPC\TALK_John_Clemens.json .\NPC\TALK_Lisa_Isherwood.json
-#: .\NPC\TALK_Luke_Isherwood.json
+#: .\NPC\TALK_Lisa_Isherwood.json .\NPC\TALK_Luke_Isherwood.json
 msgid "Can you tell me anything else about the Xenoids?"
 msgstr ""
 
@@ -536,6 +810,45 @@ msgstr ""
 msgid ""
 "Alonso always knew that we were not alone.  Alonso just wishes the aliens "
 "are here to love us and make love to us."
+msgstr ""
+
+#: .\NPC\TALK_Arsonist.json
+msgid "[TEST] Mission back to the Maquis safehouse"
+msgstr ""
+
+#: .\NPC\TALK_Arsonist.json
+msgid "I'm ready to go back when you are"
+msgstr ""
+
+#: .\NPC\TALK_Arsonist.json
+msgid "On second thought…"
+msgstr ""
+
+#: .\NPC\TALK_Arsonist.json
+msgid "I'm ready to go."
+msgstr ""
+
+#: .\NPC\TALK_Arsonist.json .\NPC\TALK_MAQUIS_ATHLETIC.json
+#: .\NPC\TALK_MAQUIS_BEAST_MUTANT.json .\NPC\TALK_MAQUIS_BIONIC_DOCTOR.json
+#: .\NPC\TALK_MAQUIS_BIRD_MUTANT.json .\NPC\TALK_MAQUIS_ELF_MUTANT.json
+#: .\NPC\TALK_MAQUIS_ENGINEER.json .\NPC\TALK_MAQUIS_FELINE_MUTANT.json
+#: .\NPC\TALK_MAQUIS_FENCER.json .\NPC\TALK_MAQUIS_GUARD.json
+#: .\NPC\TALK_MAQUIS_GUNSLINGER.json .\NPC\TALK_MAQUIS_MANTIS_MUTANT.json
+#: .\NPC\TALK_MAQUIS_MECHANIC.json .\NPC\TALK_MAQUIS_MEDICAL_MUTANT.json
+#: .\NPC\TALK_MAQUIS_MOTH_MUTANT.json .\NPC\TALK_MAQUIS_RAPTOR_MUTANT.json
+#: .\NPC\TALK_MAQUIS_RIOT_COP.json .\NPC\TALK_MAQUIS_SCIENTIST.json
+#: .\NPC\TALK_MAQUIS_SLIME_MUTANT.json .\NPC\TALK_MAQUIS_SPIDER_MUTANT.json
+#: .\NPC\TALK_MAQUIS_TROG_MUTANT.json
+msgid "Lets set a combat strategy"
+msgstr ""
+
+#: .\NPC\TALK_Arsonist.json
+msgid "Return to Maquis safehouse"
+msgstr ""
+
+#. ~ Description for mission '{'str': 'Return to Maquis safehouse'}'
+#: .\NPC\TALK_Arsonist.json
+msgid "Return to Maquis safehouse."
 msgstr ""
 
 #: .\NPC\TALK_Carlos_Isherwood.json
@@ -624,7 +937,7 @@ msgid ""
 "never really paid attention to history in school, but I knew they were "
 "Knights Templar coming to kill us.  Just when they seemed like they were "
 "about to strike, I must have came to my senses because I was on the floor of"
-" the bus dry heaving."
+" the bus dry heaving.  I don't want to talk about this anymore."
 msgstr ""
 
 #: .\NPC\TALK_Fatima.json
@@ -650,6 +963,14 @@ msgstr ""
 
 #: .\NPC\TALK_Jesse_Isherwood.json
 msgid "Sounds reasonable."
+msgstr ""
+
+#: .\NPC\TALK_John_Clemens.json
+msgid "What can you tell me about aliens?"
+msgstr ""
+
+#: .\NPC\TALK_John_Clemens.json
+msgid "Can you tell me anything else about aliens, again?"
 msgstr ""
 
 #: .\NPC\TALK_John_Clemens.json
@@ -688,52 +1009,49 @@ msgstr ""
 
 #: .\NPC\TALK_MAQUIS_ATHLETIC.json .\NPC\TALK_MAQUIS_BIONIC_DOCTOR.json
 #: .\NPC\TALK_MAQUIS_DEMOLITIONS.json .\NPC\TALK_MAQUIS_ENGINEER.json
-#: .\NPC\TALK_MAQUIS_GUARD.json .\NPC\TALK_MAQUIS_GUNSLINGER.json
-#: .\NPC\TALK_MAQUIS_MECHANIC.json .\NPC\TALK_MAQUIS_RIOT_COP.json
-#: .\NPC\TALK_MAQUIS_SCIENTIST.json
+#: .\NPC\TALK_MAQUIS_FENCER.json .\NPC\TALK_MAQUIS_GUARD.json
+#: .\NPC\TALK_MAQUIS_GUNSLINGER.json .\NPC\TALK_MAQUIS_MECHANIC.json
+#: .\NPC\TALK_MAQUIS_RIOT_COP.json .\NPC\TALK_MAQUIS_SCIENTIST.json
 msgid "Are you lost, marshal?"
 msgstr ""
 
-#: .\NPC\TALK_MAQUIS_ATHLETIC.json
+#: .\NPC\TALK_MAQUIS_ATHLETIC.json .\NPC\TALK_MAQUIS_FENCER.json
 msgid "What can I do for you marshal?"
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_ATHLETIC.json .\NPC\TALK_MAQUIS_BIONIC_DOCTOR.json
-#: .\NPC\TALK_MAQUIS_ENGINEER.json .\NPC\TALK_MAQUIS_MECHANIC.json
-#: .\NPC\TALK_MAQUIS_MERCHANT.json .\NPC\TALK_MAQUIS_SCIENTIST.json
+#: .\NPC\TALK_MAQUIS_ENGINEER.json .\NPC\TALK_MAQUIS_FENCER.json
+#: .\NPC\TALK_MAQUIS_MECHANIC.json .\NPC\TALK_MAQUIS_MERCHANT.json
+#: .\NPC\TALK_MAQUIS_SCIENTIST.json
 msgid "Welcome…"
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_ATHLETIC.json .\NPC\TALK_MAQUIS_ENGINEER.json
-#: .\NPC\TALK_MAQUIS_MECHANIC.json .\NPC\TALK_MAQUIS_MERCHANT.json
+#: .\NPC\TALK_MAQUIS_FENCER.json .\NPC\TALK_MAQUIS_MECHANIC.json
+#: .\NPC\TALK_MAQUIS_MERCHANT.json
 msgid "Here to trade, I hope?"
 msgstr ""
 
-#: .\NPC\TALK_MAQUIS_ATHLETIC.json
+#: .\NPC\TALK_MAQUIS_ATHLETIC.json .\NPC\TALK_MAQUIS_FENCER.json
 msgid "Safe travels, scavenger."
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_ATHLETIC.json .\NPC\TALK_MAQUIS_BEAST_MUTANT.json
-#: .\NPC\TALK_MAQUIS_BIONIC_DOCTOR.json .\NPC\TALK_MAQUIS_BIRD_MUTANT.json
-#: .\NPC\TALK_MAQUIS_CYBERCOP.json .\NPC\TALK_MAQUIS_DEMOLITIONS.json
-#: .\NPC\TALK_MAQUIS_ELF_MUTANT.json .\NPC\TALK_MAQUIS_ENGINEER.json
-#: .\NPC\TALK_MAQUIS_FELINE_MUTANT.json .\NPC\TALK_MAQUIS_FELIX_FOX.json
-#: .\NPC\TALK_MAQUIS_GUARD.json .\NPC\TALK_MAQUIS_GUNSLINGER.json
-#: .\NPC\TALK_MAQUIS_MANTIS_MUTANT.json .\NPC\TALK_MAQUIS_MECHANIC.json
-#: .\NPC\TALK_MAQUIS_MEDICAL_MUTANT.json
-#: .\NPC\TALK_MAQUIS_MELISSA_FORREST.json .\NPC\TALK_MAQUIS_MERCHANT.json
-#: .\NPC\TALK_MAQUIS_MOTH_MUTANT.json .\NPC\TALK_MAQUIS_RAPTOR_MUTANT.json
-#: .\NPC\TALK_MAQUIS_RIOT_COP.json .\NPC\TALK_MAQUIS_RODENT_MUTANT.json
-#: .\NPC\TALK_MAQUIS_SCIENTIST.json .\NPC\TALK_MAQUIS_SNIPER.json
-#: .\NPC\TALK_MAQUIS_SPIDER_MUTANT.json .\NPC\TALK_MAQUIS_TROG_MUTANT.json
-msgid "Lets set a combat strategy…"
+#: .\NPC\TALK_MAQUIS_BIRD_MUTANT.json .\NPC\TALK_MAQUIS_ELF_MUTANT.json
+#: .\NPC\TALK_MAQUIS_FENCER.json .\NPC\TALK_MAQUIS_GUARD.json
+#: .\NPC\TALK_MAQUIS_GUNSLINGER.json .\NPC\TALK_MAQUIS_MANTIS_MUTANT.json
+#: .\NPC\TALK_MAQUIS_RAPTOR_MUTANT.json .\NPC\TALK_MAQUIS_RIOT_COP.json
+#: .\NPC\TALK_MAQUIS_SLIME_MUTANT.json .\NPC\TALK_MAQUIS_SPIDER_MUTANT.json
+#: .\NPC\TALK_MAQUIS_TROG_MUTANT.json
+msgid "I need a volunteer for a combat mission, interested?"
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_ATHLETIC.json .\NPC\TALK_MAQUIS_BEAST_MUTANT.json
-#: .\NPC\TALK_MAQUIS_BIONIC_DOCTOR.json .\NPC\TALK_MAQUIS_BIRD_MUTANT.json
-#: .\NPC\TALK_MAQUIS_CYBERCOP.json .\NPC\TALK_MAQUIS_DEMOLITIONS.json
-#: .\NPC\TALK_MAQUIS_ELF_MUTANT.json .\NPC\TALK_MAQUIS_ENGINEER.json
-#: .\NPC\TALK_MAQUIS_FELINE_MUTANT.json .\NPC\TALK_MAQUIS_FELIX_FOX.json
+#: .\NPC\TALK_MAQUIS_BIONIC_ASSASSIN.json .\NPC\TALK_MAQUIS_BIONIC_DOCTOR.json
+#: .\NPC\TALK_MAQUIS_BIRD_MUTANT.json .\NPC\TALK_MAQUIS_CYBERCOP.json
+#: .\NPC\TALK_MAQUIS_DEMOLITIONS.json .\NPC\TALK_MAQUIS_ELF_MUTANT.json
+#: .\NPC\TALK_MAQUIS_ENGINEER.json .\NPC\TALK_MAQUIS_FELINE_MUTANT.json
+#: .\NPC\TALK_MAQUIS_FELIX_FOX.json .\NPC\TALK_MAQUIS_FENCER.json
 #: .\NPC\TALK_MAQUIS_GUARD.json .\NPC\TALK_MAQUIS_GUNSLINGER.json
 #: .\NPC\TALK_MAQUIS_MANTIS_MUTANT.json .\NPC\TALK_MAQUIS_MECHANIC.json
 #: .\NPC\TALK_MAQUIS_MEDICAL_MUTANT.json
@@ -741,16 +1059,17 @@ msgstr ""
 #: .\NPC\TALK_MAQUIS_MOTH_MUTANT.json .\NPC\TALK_MAQUIS_QUARTERMASTER.json
 #: .\NPC\TALK_MAQUIS_RAPTOR_MUTANT.json .\NPC\TALK_MAQUIS_RIOT_COP.json
 #: .\NPC\TALK_MAQUIS_RODENT_MUTANT.json .\NPC\TALK_MAQUIS_SCIENTIST.json
-#: .\NPC\TALK_MAQUIS_SNIPER.json .\NPC\TALK_MAQUIS_SPIDER_MUTANT.json
-#: .\NPC\TALK_MAQUIS_TROG_MUTANT.json
+#: .\NPC\TALK_MAQUIS_SLIME_MUTANT.json .\NPC\TALK_MAQUIS_SNIPER.json
+#: .\NPC\TALK_MAQUIS_SPIDER_MUTANT.json .\NPC\TALK_MAQUIS_TROG_MUTANT.json
 msgid "Let's trade."
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_ATHLETIC.json .\NPC\TALK_MAQUIS_BEAST_MUTANT.json
-#: .\NPC\TALK_MAQUIS_BIONIC_DOCTOR.json .\NPC\TALK_MAQUIS_BIRD_MUTANT.json
-#: .\NPC\TALK_MAQUIS_CYBERCOP.json .\NPC\TALK_MAQUIS_DEMOLITIONS.json
-#: .\NPC\TALK_MAQUIS_ELF_MUTANT.json .\NPC\TALK_MAQUIS_ENGINEER.json
-#: .\NPC\TALK_MAQUIS_FELINE_MUTANT.json .\NPC\TALK_MAQUIS_FELIX_FOX.json
+#: .\NPC\TALK_MAQUIS_BIONIC_ASSASSIN.json .\NPC\TALK_MAQUIS_BIONIC_DOCTOR.json
+#: .\NPC\TALK_MAQUIS_BIRD_MUTANT.json .\NPC\TALK_MAQUIS_CYBERCOP.json
+#: .\NPC\TALK_MAQUIS_DEMOLITIONS.json .\NPC\TALK_MAQUIS_ELF_MUTANT.json
+#: .\NPC\TALK_MAQUIS_ENGINEER.json .\NPC\TALK_MAQUIS_FELINE_MUTANT.json
+#: .\NPC\TALK_MAQUIS_FELIX_FOX.json .\NPC\TALK_MAQUIS_FENCER.json
 #: .\NPC\TALK_MAQUIS_GUARD.json .\NPC\TALK_MAQUIS_GUNSLINGER.json
 #: .\NPC\TALK_MAQUIS_MANTIS_MUTANT.json .\NPC\TALK_MAQUIS_MECHANIC.json
 #: .\NPC\TALK_MAQUIS_MEDICAL_MUTANT.json
@@ -758,53 +1077,42 @@ msgstr ""
 #: .\NPC\TALK_MAQUIS_MOTH_MUTANT.json .\NPC\TALK_MAQUIS_QUARTERMASTER.json
 #: .\NPC\TALK_MAQUIS_RAPTOR_MUTANT.json .\NPC\TALK_MAQUIS_RIOT_COP.json
 #: .\NPC\TALK_MAQUIS_RODENT_MUTANT.json .\NPC\TALK_MAQUIS_SCIENTIST.json
-#: .\NPC\TALK_MAQUIS_SNIPER.json .\NPC\TALK_MAQUIS_SPIDER_MUTANT.json
-#: .\NPC\TALK_MAQUIS_TROG_MUTANT.json
+#: .\NPC\TALK_MAQUIS_SLIME_MUTANT.json .\NPC\TALK_MAQUIS_SNIPER.json
+#: .\NPC\TALK_MAQUIS_SPIDER_MUTANT.json .\NPC\TALK_MAQUIS_TROG_MUTANT.json
 msgid "What are you doing here?"
-msgstr ""
-
-#: .\NPC\TALK_MAQUIS_ATHLETIC.json .\NPC\TALK_MAQUIS_BEAST_MUTANT.json
-#: .\NPC\TALK_MAQUIS_BIONIC_DOCTOR.json .\NPC\TALK_MAQUIS_BIRD_MUTANT.json
-#: .\NPC\TALK_MAQUIS_DEMOLITIONS.json .\NPC\TALK_MAQUIS_ELF_MUTANT.json
-#: .\NPC\TALK_MAQUIS_ENGINEER.json .\NPC\TALK_MAQUIS_FELINE_MUTANT.json
-#: .\NPC\TALK_MAQUIS_GUARD.json .\NPC\TALK_MAQUIS_GUNSLINGER.json
-#: .\NPC\TALK_MAQUIS_MANTIS_MUTANT.json .\NPC\TALK_MAQUIS_MECHANIC.json
-#: .\NPC\TALK_MAQUIS_MERCHANT.json .\NPC\TALK_MAQUIS_MOTH_MUTANT.json
-#: .\NPC\TALK_MAQUIS_RAPTOR_MUTANT.json .\NPC\TALK_MAQUIS_RIOT_COP.json
-#: .\NPC\TALK_MAQUIS_RODENT_MUTANT.json .\NPC\TALK_MAQUIS_SPIDER_MUTANT.json
-#: .\NPC\TALK_MAQUIS_TROG_MUTANT.json
-msgid "What is upstairs?"
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_ATHLETIC.json .\NPC\TALK_MAQUIS_BIONIC_DOCTOR.json
 #: .\NPC\TALK_MAQUIS_BIRD_MUTANT.json .\NPC\TALK_MAQUIS_DEMOLITIONS.json
 #: .\NPC\TALK_MAQUIS_ELF_MUTANT.json .\NPC\TALK_MAQUIS_ENGINEER.json
-#: .\NPC\TALK_MAQUIS_FELINE_MUTANT.json .\NPC\TALK_MAQUIS_GUARD.json
-#: .\NPC\TALK_MAQUIS_GUNSLINGER.json .\NPC\TALK_MAQUIS_MANTIS_MUTANT.json
-#: .\NPC\TALK_MAQUIS_MECHANIC.json .\NPC\TALK_MAQUIS_MERCHANT.json
-#: .\NPC\TALK_MAQUIS_MOTH_MUTANT.json .\NPC\TALK_MAQUIS_RAPTOR_MUTANT.json
-#: .\NPC\TALK_MAQUIS_RIOT_COP.json .\NPC\TALK_MAQUIS_RODENT_MUTANT.json
-#: .\NPC\TALK_MAQUIS_SCIENTIST.json
+#: .\NPC\TALK_MAQUIS_FELINE_MUTANT.json .\NPC\TALK_MAQUIS_FENCER.json
+#: .\NPC\TALK_MAQUIS_GUARD.json .\NPC\TALK_MAQUIS_GUNSLINGER.json
+#: .\NPC\TALK_MAQUIS_MANTIS_MUTANT.json .\NPC\TALK_MAQUIS_MECHANIC.json
+#: .\NPC\TALK_MAQUIS_MERCHANT.json .\NPC\TALK_MAQUIS_MOTH_MUTANT.json
+#: .\NPC\TALK_MAQUIS_RAPTOR_MUTANT.json .\NPC\TALK_MAQUIS_RIOT_COP.json
+#: .\NPC\TALK_MAQUIS_RODENT_MUTANT.json .\NPC\TALK_MAQUIS_SCIENTIST.json
 msgid "[MISSION] I'm looking for Chad Erikson, Randy sent me."
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_ATHLETIC.json .\NPC\TALK_MAQUIS_BEAST_MUTANT.json
-#: .\NPC\TALK_MAQUIS_BIONIC_DOCTOR.json .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json
-#: .\NPC\TALK_MAQUIS_CYBERCOP.json .\NPC\TALK_MAQUIS_ELF_MUTANT.json
-#: .\NPC\TALK_MAQUIS_ENGINEER.json .\NPC\TALK_MAQUIS_FELINE_MUTANT.json
+#: .\NPC\TALK_MAQUIS_BIONIC_ASSASSIN.json .\NPC\TALK_MAQUIS_BIONIC_DOCTOR.json
+#: .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json .\NPC\TALK_MAQUIS_CYBERCOP.json
+#: .\NPC\TALK_MAQUIS_ELF_MUTANT.json .\NPC\TALK_MAQUIS_ENGINEER.json
+#: .\NPC\TALK_MAQUIS_FELINE_MUTANT.json .\NPC\TALK_MAQUIS_FENCER.json
 #: .\NPC\TALK_MAQUIS_GUARD.json .\NPC\TALK_MAQUIS_GUNSLINGER.json
 #: .\NPC\TALK_MAQUIS_MECHANIC.json .\NPC\TALK_MAQUIS_MOTH_MUTANT.json
-#: .\NPC\TALK_MAQUIS_QUARTERMASTER.json .\NPC\TALK_MAQUIS_RIOT_COP.json
-#: .\NPC\TALK_MAQUIS_RODENT_MUTANT.json .\NPC\TALK_MAQUIS_SCIENTIST.json
-#: .\NPC\TALK_MAQUIS_TROG_MUTANT.json .\NPC\TALK_RANDY_ERIKSON.json
+#: .\NPC\TALK_MAQUIS_RIOT_COP.json .\NPC\TALK_MAQUIS_RODENT_MUTANT.json
+#: .\NPC\TALK_MAQUIS_SCIENTIST.json .\NPC\TALK_MAQUIS_TROG_MUTANT.json
+#: .\NPC\TALK_RANDY_ERIKSON.json
 msgid "Is there anything I can do to help you out?"
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_ATHLETIC.json .\NPC\TALK_MAQUIS_BEAST_MUTANT.json
-#: .\NPC\TALK_MAQUIS_BIONIC_DOCTOR.json .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json
-#: .\NPC\TALK_MAQUIS_CYBERCOP.json .\NPC\TALK_MAQUIS_ELF_MUTANT.json
-#: .\NPC\TALK_MAQUIS_ENGINEER.json .\NPC\TALK_MAQUIS_FELINE_MUTANT.json
-#: .\NPC\TALK_MAQUIS_FELIX_FOX.json .\NPC\TALK_MAQUIS_GUARD.json
+#: .\NPC\TALK_MAQUIS_BIONIC_ASSASSIN.json .\NPC\TALK_MAQUIS_BIONIC_DOCTOR.json
+#: .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json .\NPC\TALK_MAQUIS_CYBERCOP.json
+#: .\NPC\TALK_MAQUIS_ELF_MUTANT.json .\NPC\TALK_MAQUIS_ENGINEER.json
+#: .\NPC\TALK_MAQUIS_FELINE_MUTANT.json .\NPC\TALK_MAQUIS_FELIX_FOX.json
+#: .\NPC\TALK_MAQUIS_FENCER.json .\NPC\TALK_MAQUIS_GUARD.json
 #: .\NPC\TALK_MAQUIS_GUNSLINGER.json .\NPC\TALK_MAQUIS_MECHANIC.json
 #: .\NPC\TALK_MAQUIS_MELISSA_FORREST.json .\NPC\TALK_MAQUIS_MOTH_MUTANT.json
 #: .\NPC\TALK_MAQUIS_QUARTERMASTER.json .\NPC\TALK_MAQUIS_RIOT_COP.json
@@ -814,134 +1122,105 @@ msgid "About that mission…"
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_ATHLETIC.json .\NPC\TALK_MAQUIS_BEAST_MUTANT.json
-#: .\NPC\TALK_MAQUIS_BIONIC_DOCTOR.json .\NPC\TALK_MAQUIS_BIRD_MUTANT.json
-#: .\NPC\TALK_MAQUIS_CYBERCOP.json .\NPC\TALK_MAQUIS_DEMOLITIONS.json
-#: .\NPC\TALK_MAQUIS_ELF_MUTANT.json .\NPC\TALK_MAQUIS_ENGINEER.json
-#: .\NPC\TALK_MAQUIS_FELINE_MUTANT.json .\NPC\TALK_MAQUIS_FELIX_FOX.json
+#: .\NPC\TALK_MAQUIS_BIONIC_ASSASSIN.json .\NPC\TALK_MAQUIS_BIONIC_DOCTOR.json
+#: .\NPC\TALK_MAQUIS_BIRD_MUTANT.json .\NPC\TALK_MAQUIS_CYBERCOP.json
+#: .\NPC\TALK_MAQUIS_DEMOLITIONS.json .\NPC\TALK_MAQUIS_ELF_MUTANT.json
+#: .\NPC\TALK_MAQUIS_ENGINEER.json .\NPC\TALK_MAQUIS_FELINE_MUTANT.json
+#: .\NPC\TALK_MAQUIS_FELIX_FOX.json .\NPC\TALK_MAQUIS_FENCER.json
 #: .\NPC\TALK_MAQUIS_GUARD.json .\NPC\TALK_MAQUIS_GUNSLINGER.json
 #: .\NPC\TALK_MAQUIS_MANTIS_MUTANT.json .\NPC\TALK_MAQUIS_MECHANIC.json
 #: .\NPC\TALK_MAQUIS_MEDICAL_MUTANT.json
 #: .\NPC\TALK_MAQUIS_MELISSA_FORREST.json .\NPC\TALK_MAQUIS_MERCHANT.json
 #: .\NPC\TALK_MAQUIS_MOTH_MUTANT.json .\NPC\TALK_MAQUIS_QUARTERMASTER.json
 #: .\NPC\TALK_MAQUIS_RIOT_COP.json .\NPC\TALK_MAQUIS_RODENT_MUTANT.json
-#: .\NPC\TALK_MAQUIS_SCIENTIST.json .\NPC\TALK_MAQUIS_SNIPER.json
-#: .\NPC\TALK_MAQUIS_SPIDER_MUTANT.json .\NPC\TALK_MAQUIS_TROG_MUTANT.json
+#: .\NPC\TALK_MAQUIS_SCIENTIST.json .\NPC\TALK_MAQUIS_SLIME_MUTANT.json
+#: .\NPC\TALK_MAQUIS_SNIPER.json .\NPC\TALK_MAQUIS_SPIDER_MUTANT.json
+#: .\NPC\TALK_MAQUIS_TROG_MUTANT.json .\NPC\TALK_QUISLING.json
 msgid "See you later."
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_ATHLETIC.json .\NPC\TALK_MAQUIS_BIRD_MUTANT.json
 #: .\NPC\TALK_MAQUIS_DEMOLITIONS.json .\NPC\TALK_MAQUIS_ENGINEER.json
-#: .\NPC\TALK_MAQUIS_GUNSLINGER.json .\NPC\TALK_MAQUIS_MECHANIC.json
-#: .\NPC\TALK_MAQUIS_MERCHANT.json .\NPC\TALK_MAQUIS_MOTH_MUTANT.json
+#: .\NPC\TALK_MAQUIS_FENCER.json .\NPC\TALK_MAQUIS_GUNSLINGER.json
+#: .\NPC\TALK_MAQUIS_MECHANIC.json .\NPC\TALK_MAQUIS_MERCHANT.json
+#: .\NPC\TALK_MAQUIS_MOTH_MUTANT.json
 msgid "I'm not sure where Mr. Erikson is at right now."
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_ATHLETIC.json .\NPC\TALK_MAQUIS_BEAST_MUTANT.json
-#: .\NPC\TALK_MAQUIS_BIONIC_DOCTOR.json .\NPC\TALK_MAQUIS_BIRD_MUTANT.json
+#: .\NPC\TALK_MAQUIS_BIONIC_ASSASSIN.json .\NPC\TALK_MAQUIS_BIONIC_DOCTOR.json
+#: .\NPC\TALK_MAQUIS_BIRD_MUTANT.json .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json
 #: .\NPC\TALK_MAQUIS_CYBERCOP.json .\NPC\TALK_MAQUIS_DEMOLITIONS.json
 #: .\NPC\TALK_MAQUIS_ELF_MUTANT.json .\NPC\TALK_MAQUIS_ENGINEER.json
 #: .\NPC\TALK_MAQUIS_FELINE_MUTANT.json .\NPC\TALK_MAQUIS_FELIX_FOX.json
-#: .\NPC\TALK_MAQUIS_GUARD.json .\NPC\TALK_MAQUIS_GUNSLINGER.json
-#: .\NPC\TALK_MAQUIS_MANTIS_MUTANT.json .\NPC\TALK_MAQUIS_MECHANIC.json
-#: .\NPC\TALK_MAQUIS_MELISSA_FORREST.json .\NPC\TALK_MAQUIS_MERCHANT.json
-#: .\NPC\TALK_MAQUIS_MOTH_MUTANT.json .\NPC\TALK_MAQUIS_QUARTERMASTER.json
-#: .\NPC\TALK_MAQUIS_RAPTOR_MUTANT.json .\NPC\TALK_MAQUIS_RIOT_COP.json
-#: .\NPC\TALK_MAQUIS_RODENT_MUTANT.json .\NPC\TALK_MAQUIS_SCIENTIST.json
+#: .\NPC\TALK_MAQUIS_FENCER.json .\NPC\TALK_MAQUIS_GUARD.json
+#: .\NPC\TALK_MAQUIS_GUNSLINGER.json .\NPC\TALK_MAQUIS_MANTIS_MUTANT.json
+#: .\NPC\TALK_MAQUIS_MECHANIC.json .\NPC\TALK_MAQUIS_MELISSA_FORREST.json
+#: .\NPC\TALK_MAQUIS_MERCHANT.json .\NPC\TALK_MAQUIS_MOTH_MUTANT.json
+#: .\NPC\TALK_MAQUIS_QUARTERMASTER.json .\NPC\TALK_MAQUIS_RAPTOR_MUTANT.json
+#: .\NPC\TALK_MAQUIS_RIOT_COP.json .\NPC\TALK_MAQUIS_RODENT_MUTANT.json
+#: .\NPC\TALK_MAQUIS_SCIENTIST.json .\NPC\TALK_MAQUIS_SLIME_MUTANT.json
 #: .\NPC\TALK_MAQUIS_SNIPER.json .\NPC\TALK_MAQUIS_SPIDER_MUTANT.json
 #: .\NPC\TALK_MAQUIS_TROG_MUTANT.json
 msgid "Ok, Thanks."
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_ATHLETIC.json .\NPC\TALK_MAQUIS_BEAST_MUTANT.json
-#: .\NPC\TALK_MAQUIS_BIONIC_DOCTOR.json .\NPC\TALK_MAQUIS_BIRD_MUTANT.json
+#: .\NPC\TALK_MAQUIS_BIONIC_ASSASSIN.json .\NPC\TALK_MAQUIS_BIONIC_DOCTOR.json
+#: .\NPC\TALK_MAQUIS_BIRD_MUTANT.json .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json
 #: .\NPC\TALK_MAQUIS_CYBERCOP.json .\NPC\TALK_MAQUIS_DEMOLITIONS.json
 #: .\NPC\TALK_MAQUIS_ELF_MUTANT.json .\NPC\TALK_MAQUIS_ENGINEER.json
 #: .\NPC\TALK_MAQUIS_FELINE_MUTANT.json .\NPC\TALK_MAQUIS_FELIX_FOX.json
-#: .\NPC\TALK_MAQUIS_GUARD.json .\NPC\TALK_MAQUIS_GUNSLINGER.json
-#: .\NPC\TALK_MAQUIS_MANTIS_MUTANT.json .\NPC\TALK_MAQUIS_MECHANIC.json
-#: .\NPC\TALK_MAQUIS_MELISSA_FORREST.json .\NPC\TALK_MAQUIS_MERCHANT.json
-#: .\NPC\TALK_MAQUIS_MOTH_MUTANT.json .\NPC\TALK_MAQUIS_QUARTERMASTER.json
-#: .\NPC\TALK_MAQUIS_RAPTOR_MUTANT.json .\NPC\TALK_MAQUIS_RIOT_COP.json
-#: .\NPC\TALK_MAQUIS_RODENT_MUTANT.json .\NPC\TALK_MAQUIS_SCIENTIST.json
+#: .\NPC\TALK_MAQUIS_FENCER.json .\NPC\TALK_MAQUIS_GUARD.json
+#: .\NPC\TALK_MAQUIS_GUNSLINGER.json .\NPC\TALK_MAQUIS_MANTIS_MUTANT.json
+#: .\NPC\TALK_MAQUIS_MECHANIC.json .\NPC\TALK_MAQUIS_MELISSA_FORREST.json
+#: .\NPC\TALK_MAQUIS_MERCHANT.json .\NPC\TALK_MAQUIS_MOTH_MUTANT.json
+#: .\NPC\TALK_MAQUIS_QUARTERMASTER.json .\NPC\TALK_MAQUIS_RAPTOR_MUTANT.json
+#: .\NPC\TALK_MAQUIS_RIOT_COP.json .\NPC\TALK_MAQUIS_RODENT_MUTANT.json
+#: .\NPC\TALK_MAQUIS_SCIENTIST.json .\NPC\TALK_MAQUIS_SLIME_MUTANT.json
 #: .\NPC\TALK_MAQUIS_SNIPER.json .\NPC\TALK_MAQUIS_SPIDER_MUTANT.json
 #: .\NPC\TALK_MAQUIS_TROG_MUTANT.json
 msgid "Ok, I have to go now."
 msgstr ""
 
-#: .\NPC\TALK_MAQUIS_ATHLETIC.json
+#: .\NPC\TALK_MAQUIS_ATHLETIC.json .\NPC\TALK_MAQUIS_FENCER.json
 msgid ""
 "We all help them keep the outside defences in place and warn of any zombies "
 "or xenoids around the perimeter.  You can always count on the snipers "
 "upstairs for overwatch while smashing and looting."
 msgstr ""
 
-#: .\NPC\TALK_MAQUIS_ATHLETIC.json
+#: .\NPC\TALK_MAQUIS_ATHLETIC.json .\NPC\TALK_MAQUIS_FENCER.json
 msgid ""
 "I'm back from a recent combat patrol, no thank God no human casualties this "
 "time."
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_ATHLETIC.json .\NPC\TALK_MAQUIS_BEAST_MUTANT.json
-#: .\NPC\TALK_MAQUIS_BIRD_MUTANT.json .\NPC\TALK_MAQUIS_CYBERCOP.json
-#: .\NPC\TALK_MAQUIS_DEMOLITIONS.json .\NPC\TALK_MAQUIS_ELF_MUTANT.json
-#: .\NPC\TALK_MAQUIS_ENGINEER.json .\NPC\TALK_MAQUIS_FELINE_MUTANT.json
-#: .\NPC\TALK_MAQUIS_FELIX_FOX.json .\NPC\TALK_MAQUIS_GUARD.json
+#: .\NPC\TALK_MAQUIS_BIONIC_ASSASSIN.json .\NPC\TALK_MAQUIS_BIRD_MUTANT.json
+#: .\NPC\TALK_MAQUIS_CYBERCOP.json .\NPC\TALK_MAQUIS_DEMOLITIONS.json
+#: .\NPC\TALK_MAQUIS_ELF_MUTANT.json .\NPC\TALK_MAQUIS_ENGINEER.json
+#: .\NPC\TALK_MAQUIS_FELINE_MUTANT.json .\NPC\TALK_MAQUIS_FELIX_FOX.json
+#: .\NPC\TALK_MAQUIS_FENCER.json .\NPC\TALK_MAQUIS_GUARD.json
 #: .\NPC\TALK_MAQUIS_GUNSLINGER.json .\NPC\TALK_MAQUIS_MANTIS_MUTANT.json
 #: .\NPC\TALK_MAQUIS_MECHANIC.json .\NPC\TALK_MAQUIS_MEDICAL_MUTANT.json
 #: .\NPC\TALK_MAQUIS_MERCHANT.json .\NPC\TALK_MAQUIS_MOTH_MUTANT.json
 #: .\NPC\TALK_MAQUIS_QUARTERMASTER.json .\NPC\TALK_MAQUIS_RAPTOR_MUTANT.json
 #: .\NPC\TALK_MAQUIS_RIOT_COP.json .\NPC\TALK_MAQUIS_RODENT_MUTANT.json
-#: .\NPC\TALK_MAQUIS_SCIENTIST.json .\NPC\TALK_MAQUIS_SNIPER.json
-#: .\NPC\TALK_MAQUIS_SPIDER_MUTANT.json .\NPC\TALK_MAQUIS_TROG_MUTANT.json
+#: .\NPC\TALK_MAQUIS_SCIENTIST.json .\NPC\TALK_MAQUIS_SLIME_MUTANT.json
+#: .\NPC\TALK_MAQUIS_SNIPER.json .\NPC\TALK_MAQUIS_SPIDER_MUTANT.json
+#: .\NPC\TALK_MAQUIS_TROG_MUTANT.json
 msgid "Nice arrangement for everyone."
 msgstr ""
 
-#: .\NPC\TALK_MAQUIS_ATHLETIC.json .\NPC\TALK_MAQUIS_BIONIC_DOCTOR.json
-#: .\NPC\TALK_MAQUIS_CYBERCOP.json .\NPC\TALK_MAQUIS_ENGINEER.json
-#: .\NPC\TALK_MAQUIS_FELIX_FOX.json .\NPC\TALK_MAQUIS_MECHANIC.json
+#: .\NPC\TALK_MAQUIS_ATHLETIC.json .\NPC\TALK_MAQUIS_BIONIC_ASSASSIN.json
+#: .\NPC\TALK_MAQUIS_BIONIC_DOCTOR.json .\NPC\TALK_MAQUIS_CYBERCOP.json
+#: .\NPC\TALK_MAQUIS_ENGINEER.json .\NPC\TALK_MAQUIS_FELIX_FOX.json
+#: .\NPC\TALK_MAQUIS_FENCER.json .\NPC\TALK_MAQUIS_MECHANIC.json
 #: .\NPC\TALK_MAQUIS_MELISSA_FORREST.json .\NPC\TALK_MAQUIS_MERCHANT.json
 #: .\NPC\TALK_MAQUIS_QUARTERMASTER.json .\NPC\TALK_MAQUIS_SCIENTIST.json
 #: .\NPC\TALK_MAQUIS_SNIPER.json
 msgid "Ok, good bye."
-msgstr ""
-
-#: .\NPC\TALK_MAQUIS_ATHLETIC.json .\NPC\TALK_MAQUIS_ENGINEER.json
-#: .\NPC\TALK_MAQUIS_MECHANIC.json
-msgid ""
-"I don't usually go too far up stairs, not because don't like those guys, nor"
-" because they wouldn't let me up there, I'm just lazy and prefer working "
-"down here."
-msgstr ""
-
-#: .\NPC\TALK_MAQUIS_ATHLETIC.json
-msgid ""
-"I'm there are some mutants in the upper floors and a few in the basement, "
-"but they're good people.  So long as you don't stare at the heavily deformed"
-" ones."
-msgstr ""
-
-#: .\NPC\TALK_MAQUIS_ATHLETIC.json .\NPC\TALK_MAQUIS_MERCHANT.json
-msgid ""
-"Those guys up stairs are angels!  I was helping with the barricades outside "
-"when a crawling zombie revived suddenly and grabbed my leg.  Almost "
-"immediately, one of the snipers on the roof blew its head off.  Saved my "
-"life."
-msgstr ""
-
-#: .\NPC\TALK_MAQUIS_ATHLETIC.json .\NPC\TALK_MAQUIS_BEAST_MUTANT.json
-#: .\NPC\TALK_MAQUIS_BIONIC_DOCTOR.json .\NPC\TALK_MAQUIS_BIRD_MUTANT.json
-#: .\NPC\TALK_MAQUIS_CYBERCOP.json .\NPC\TALK_MAQUIS_DEMOLITIONS.json
-#: .\NPC\TALK_MAQUIS_ELF_MUTANT.json .\NPC\TALK_MAQUIS_ENGINEER.json
-#: .\NPC\TALK_MAQUIS_FELINE_MUTANT.json .\NPC\TALK_MAQUIS_FELIX_FOX.json
-#: .\NPC\TALK_MAQUIS_GUARD.json .\NPC\TALK_MAQUIS_GUNSLINGER.json
-#: .\NPC\TALK_MAQUIS_MANTIS_MUTANT.json .\NPC\TALK_MAQUIS_MECHANIC.json
-#: .\NPC\TALK_MAQUIS_MELISSA_FORREST.json .\NPC\TALK_MAQUIS_MERCHANT.json
-#: .\NPC\TALK_MAQUIS_MOTH_MUTANT.json .\NPC\TALK_MAQUIS_QUARTERMASTER.json
-#: .\NPC\TALK_MAQUIS_RAPTOR_MUTANT.json .\NPC\TALK_MAQUIS_RIOT_COP.json
-#: .\NPC\TALK_MAQUIS_RODENT_MUTANT.json .\NPC\TALK_MAQUIS_SCIENTIST.json
-#: .\NPC\TALK_MAQUIS_SNIPER.json .\NPC\TALK_MAQUIS_SPIDER_MUTANT.json
-#: .\NPC\TALK_MAQUIS_TROG_MUTANT.json
-msgid "Well, bye."
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_ATHLETIC.json
@@ -955,7 +1234,7 @@ msgstr ""
 #: .\NPC\TALK_MAQUIS_ATHLETIC.json
 msgid ""
 "My great-great-great-great-grandfather's civil war sabre is wasting way in a"
-" museum.  Now that no one is guarding it I want to recover it."
+" museum.  Now that no one is guarding it I want it recovered."
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_ATHLETIC.json
@@ -996,54 +1275,61 @@ msgstr ""
 msgid "I'm am untethered and my rage knows no bounds.."
 msgstr ""
 
-#: .\NPC\TALK_MAQUIS_BEAST_MUTANT.json .\NPC\TALK_MAQUIS_SPIDER_MUTANT.json
-#: .\NPC\TALK_MAQUIS_TROG_MUTANT.json
+#: .\NPC\TALK_MAQUIS_BEAST_MUTANT.json .\NPC\TALK_MAQUIS_SLIME_MUTANT.json
+#: .\NPC\TALK_MAQUIS_SPIDER_MUTANT.json .\NPC\TALK_MAQUIS_TROG_MUTANT.json
 msgid "What faint light brought you down here, marshal?"
 msgstr ""
 
-#: .\NPC\TALK_MAQUIS_BEAST_MUTANT.json .\NPC\TALK_MAQUIS_SPIDER_MUTANT.json
-#: .\NPC\TALK_MAQUIS_TROG_MUTANT.json
+#: .\NPC\TALK_MAQUIS_BEAST_MUTANT.json .\NPC\TALK_MAQUIS_SLIME_MUTANT.json
+#: .\NPC\TALK_MAQUIS_SPIDER_MUTANT.json .\NPC\TALK_MAQUIS_TROG_MUTANT.json
 msgid "Are you looking for something, sir?"
 msgstr ""
 
-#: .\NPC\TALK_MAQUIS_BEAST_MUTANT.json .\NPC\TALK_MAQUIS_SPIDER_MUTANT.json
-#: .\NPC\TALK_MAQUIS_TROG_MUTANT.json
+#: .\NPC\TALK_MAQUIS_BEAST_MUTANT.json .\NPC\TALK_MAQUIS_SLIME_MUTANT.json
+#: .\NPC\TALK_MAQUIS_SPIDER_MUTANT.json .\NPC\TALK_MAQUIS_TROG_MUTANT.json
 msgid "We don't bother anyone down here and expect the same from others."
 msgstr ""
 
-#: .\NPC\TALK_MAQUIS_BEAST_MUTANT.json .\NPC\TALK_MAQUIS_SPIDER_MUTANT.json
-#: .\NPC\TALK_MAQUIS_TROG_MUTANT.json
+#: .\NPC\TALK_MAQUIS_BEAST_MUTANT.json .\NPC\TALK_MAQUIS_SLIME_MUTANT.json
+#: .\NPC\TALK_MAQUIS_SPIDER_MUTANT.json .\NPC\TALK_MAQUIS_TROG_MUTANT.json
 msgid "What brings you down here, scavenger."
 msgstr ""
 
-#: .\NPC\TALK_MAQUIS_BEAST_MUTANT.json .\NPC\TALK_MAQUIS_CYBERCOP.json
-#: .\NPC\TALK_MAQUIS_FELIX_FOX.json .\NPC\TALK_MAQUIS_MELISSA_FORREST.json
-#: .\NPC\TALK_MAQUIS_QUARTERMASTER.json .\NPC\TALK_MAQUIS_SPIDER_MUTANT.json
+#: .\NPC\TALK_MAQUIS_BEAST_MUTANT.json .\NPC\TALK_MAQUIS_DEMOLITIONS.json
+#: .\NPC\TALK_MAQUIS_GUNSLINGER.json .\NPC\TALK_MAQUIS_TROG_MUTANT.json
+msgid "What is upstairs?"
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_BEAST_MUTANT.json .\NPC\TALK_MAQUIS_BIONIC_ASSASSIN.json
+#: .\NPC\TALK_MAQUIS_CYBERCOP.json .\NPC\TALK_MAQUIS_FELIX_FOX.json
+#: .\NPC\TALK_MAQUIS_MELISSA_FORREST.json .\NPC\TALK_MAQUIS_QUARTERMASTER.json
+#: .\NPC\TALK_MAQUIS_SLIME_MUTANT.json .\NPC\TALK_MAQUIS_SPIDER_MUTANT.json
 #: .\NPC\TALK_MAQUIS_TROG_MUTANT.json
 msgid "[MISSION] I'm looking for Chad Erikson, his nephew Randy sent me."
 msgstr ""
 
-#: .\NPC\TALK_MAQUIS_BEAST_MUTANT.json .\NPC\TALK_MAQUIS_SPIDER_MUTANT.json
-#: .\NPC\TALK_MAQUIS_TROG_MUTANT.json
+#: .\NPC\TALK_MAQUIS_BEAST_MUTANT.json .\NPC\TALK_MAQUIS_SLIME_MUTANT.json
+#: .\NPC\TALK_MAQUIS_SPIDER_MUTANT.json .\NPC\TALK_MAQUIS_TROG_MUTANT.json
 msgid ""
 "He's probably up on the roof chatting with the snipers posted up there."
 msgstr ""
 
-#: .\NPC\TALK_MAQUIS_BEAST_MUTANT.json .\NPC\TALK_MAQUIS_SPIDER_MUTANT.json
+#: .\NPC\TALK_MAQUIS_BEAST_MUTANT.json .\NPC\TALK_MAQUIS_SLIME_MUTANT.json
+#: .\NPC\TALK_MAQUIS_SPIDER_MUTANT.json
 msgid "He's very rarely around here"
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_BEAST_MUTANT.json .\NPC\TALK_MAQUIS_ELF_MUTANT.json
 #: .\NPC\TALK_MAQUIS_FELINE_MUTANT.json .\NPC\TALK_MAQUIS_MANTIS_MUTANT.json
 #: .\NPC\TALK_MAQUIS_RAPTOR_MUTANT.json .\NPC\TALK_MAQUIS_RODENT_MUTANT.json
-#: .\NPC\TALK_MAQUIS_SPIDER_MUTANT.json
+#: .\NPC\TALK_MAQUIS_SLIME_MUTANT.json .\NPC\TALK_MAQUIS_SPIDER_MUTANT.json
 msgid ""
 "Just contemplating what its like being a mutant insect during the end of the"
 " world."
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_BEAST_MUTANT.json .\NPC\TALK_MAQUIS_MOTH_MUTANT.json
-#: .\NPC\TALK_MAQUIS_SPIDER_MUTANT.json
+#: .\NPC\TALK_MAQUIS_SLIME_MUTANT.json .\NPC\TALK_MAQUIS_SPIDER_MUTANT.json
 msgid "Rule #1: No Killing, the penalty is death."
 msgstr ""
 
@@ -1052,7 +1338,7 @@ msgstr ""
 #: .\NPC\TALK_MAQUIS_FELINE_MUTANT.json .\NPC\TALK_MAQUIS_GUNSLINGER.json
 #: .\NPC\TALK_MAQUIS_MANTIS_MUTANT.json .\NPC\TALK_MAQUIS_MOTH_MUTANT.json
 #: .\NPC\TALK_MAQUIS_RAPTOR_MUTANT.json .\NPC\TALK_MAQUIS_RODENT_MUTANT.json
-#: .\NPC\TALK_MAQUIS_SPIDER_MUTANT.json
+#: .\NPC\TALK_MAQUIS_SLIME_MUTANT.json .\NPC\TALK_MAQUIS_SPIDER_MUTANT.json
 msgid ""
 "I keep the peace down here between other scavengers, but everyone is very "
 "civil to each other since there are monsters outside."
@@ -1064,31 +1350,99 @@ msgstr ""
 #: .\NPC\TALK_MAQUIS_GUNSLINGER.json .\NPC\TALK_MAQUIS_MANTIS_MUTANT.json
 #: .\NPC\TALK_MAQUIS_MEDICAL_MUTANT.json .\NPC\TALK_MAQUIS_MOTH_MUTANT.json
 #: .\NPC\TALK_MAQUIS_RAPTOR_MUTANT.json .\NPC\TALK_MAQUIS_RIOT_COP.json
-#: .\NPC\TALK_MAQUIS_RODENT_MUTANT.json .\NPC\TALK_MAQUIS_SPIDER_MUTANT.json
-#: .\NPC\TALK_MAQUIS_TROG_MUTANT.json
+#: .\NPC\TALK_MAQUIS_RODENT_MUTANT.json .\NPC\TALK_MAQUIS_SLIME_MUTANT.json
+#: .\NPC\TALK_MAQUIS_SPIDER_MUTANT.json .\NPC\TALK_MAQUIS_TROG_MUTANT.json
 msgid "Ok, I'll leave you to it."
 msgstr ""
 
-#: .\NPC\TALK_MAQUIS_BEAST_MUTANT.json .\NPC\TALK_MAQUIS_DEMOLITIONS.json
-#: .\NPC\TALK_MAQUIS_ELF_MUTANT.json .\NPC\TALK_MAQUIS_FELINE_MUTANT.json
-#: .\NPC\TALK_MAQUIS_GUARD.json .\NPC\TALK_MAQUIS_GUNSLINGER.json
-#: .\NPC\TALK_MAQUIS_MANTIS_MUTANT.json .\NPC\TALK_MAQUIS_MOTH_MUTANT.json
-#: .\NPC\TALK_MAQUIS_RIOT_COP.json .\NPC\TALK_MAQUIS_RODENT_MUTANT.json
-#: .\NPC\TALK_MAQUIS_SPIDER_MUTANT.json
-msgid ""
-"I only go upstairs to check out the casino, its fun to use looted cash cards"
-" to gamble.  I'm up almost a hundred-thousand dollars."
+#: .\NPC\TALK_MAQUIS_BEAST_MUTANT.json .\NPC\TALK_MAQUIS_TROG_MUTANT.json
+msgid "I don't go upstairs too often, the basements are more fun."
 msgstr ""
 
-#: .\NPC\TALK_MAQUIS_BEAST_MUTANT.json .\NPC\TALK_MAQUIS_DEMOLITIONS.json
-#: .\NPC\TALK_MAQUIS_ELF_MUTANT.json .\NPC\TALK_MAQUIS_FELINE_MUTANT.json
-#: .\NPC\TALK_MAQUIS_GUARD.json .\NPC\TALK_MAQUIS_GUNSLINGER.json
-#: .\NPC\TALK_MAQUIS_MANTIS_MUTANT.json .\NPC\TALK_MAQUIS_MOTH_MUTANT.json
-#: .\NPC\TALK_MAQUIS_RIOT_COP.json .\NPC\TALK_MAQUIS_RODENT_MUTANT.json
-#: .\NPC\TALK_MAQUIS_SPIDER_MUTANT.json
+#: .\NPC\TALK_MAQUIS_BEAST_MUTANT.json .\NPC\TALK_MAQUIS_BIONIC_ASSASSIN.json
+#: .\NPC\TALK_MAQUIS_CYBERCOP.json .\NPC\TALK_MAQUIS_DEMOLITIONS.json
+#: .\NPC\TALK_MAQUIS_FELIX_FOX.json .\NPC\TALK_MAQUIS_GUNSLINGER.json
+#: .\NPC\TALK_MAQUIS_MELISSA_FORREST.json .\NPC\TALK_MAQUIS_QUARTERMASTER.json
+#: .\NPC\TALK_MAQUIS_RIOT_COP.json .\NPC\TALK_MAQUIS_SNIPER.json
+#: .\NPC\TALK_MAQUIS_TROG_MUTANT.json
+msgid "Well, bye."
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_BIONIC_ASSASSIN.json
+msgid "Maquis-BIONIC_ASSASSIN"
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_BIONIC_ASSASSIN.json
 msgid ""
-"The library is nice, they're always on the look for more books, the more "
-"rare, the more they'll give for them."
+"I have been programmed defend humanity and eliminate internal threats to it."
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_BIONIC_ASSASSIN.json .\NPC\TALK_MAQUIS_CYBERCOP.json
+#: .\NPC\TALK_MAQUIS_QUARTERMASTER.json
+msgid "What do you require citizen?."
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_BIONIC_ASSASSIN.json .\NPC\TALK_MAQUIS_CYBERCOP.json
+#: .\NPC\TALK_MAQUIS_QUARTERMASTER.json .\NPC\TALK_MAQUIS_SNIPER.json
+msgid "I'm kind of busy right now."
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_BIONIC_ASSASSIN.json .\NPC\TALK_MAQUIS_CYBERCOP.json
+#: .\NPC\TALK_MAQUIS_DEMOLITIONS.json .\NPC\TALK_MAQUIS_FELIX_FOX.json
+#: .\NPC\TALK_MAQUIS_MELISSA_FORREST.json .\NPC\TALK_MAQUIS_RODENT_MUTANT.json
+#: .\NPC\TALK_MAQUIS_SNIPER.json
+msgid "Lets set a combat strategy…"
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_BIONIC_ASSASSIN.json .\NPC\TALK_MAQUIS_CYBERCOP.json
+msgid "[MISSION] Mr. Erikson sent me, I have the reinforcements."
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_BIONIC_ASSASSIN.json .\NPC\TALK_MAQUIS_CYBERCOP.json
+msgid "Turn around."
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_BIONIC_ASSASSIN.json .\NPC\TALK_MAQUIS_CYBERCOP.json
+msgid "He is right behind you."
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_BIONIC_ASSASSIN.json .\NPC\TALK_MAQUIS_CYBERCOP.json
+msgid "He is in this very room."
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_BIONIC_ASSASSIN.json .\NPC\TALK_MAQUIS_CYBERCOP.json
+msgid ""
+"There is an arrangement with everyone that lives here, the bottom few floors"
+" are a free trade zone, the middle floors are general living space, and the "
+"upper floors are for the alien resistance operation. Part of that agreement "
+"means some of us with sharp eyes and quick trigger-fingers get to be up "
+"here."
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_BIONIC_ASSASSIN.json .\NPC\TALK_MAQUIS_CYBERCOP.json
+msgid ""
+"It is really nice to be up here just me, my mp3 player and this huge fucking"
+" gun."
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_BIONIC_ASSASSIN.json .\NPC\TALK_MAQUIS_CYBERCOP.json
+#: .\NPC\TALK_MAQUIS_QUARTERMASTER.json .\NPC\TALK_MAQUIS_SNIPER.json
+msgid ""
+"This entire tower might be one of the last good places left in New England, "
+"let alone the world.  Its kind of awesome when you think about it."
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_BIONIC_ASSASSIN.json .\NPC\TALK_MAQUIS_CYBERCOP.json
+msgid "No.  I wouldn't sell you this gun."
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_BIONIC_ASSASSIN.json .\NPC\TALK_MAQUIS_CYBERCOP.json
+#: .\NPC\TALK_MAQUIS_SNIPER.json
+msgid "Go down stairs if you want to trade, I'm busy up here."
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_BIONIC_ASSASSIN.json .\NPC\TALK_MAQUIS_CYBERCOP.json
+msgid "Piss off."
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_BIONIC_DOCTOR.json
@@ -1105,6 +1459,10 @@ msgstr ""
 
 #: .\NPC\TALK_MAQUIS_BIONIC_DOCTOR.json
 msgid "Hello marshal, need any bionics installed?"
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_BIONIC_DOCTOR.json .\NPC\TALK_MAQUIS_MEDICAL_MUTANT.json
+msgid "I need medical support for an upcoming mission, interested?"
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_BIONIC_DOCTOR.json
@@ -1154,12 +1512,6 @@ msgid "I need help removing an implant…"
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_BIONIC_DOCTOR.json
-msgid ""
-"It's nice up here most days, although the windows allow us to see how bad "
-"the world has become."
-msgstr ""
-
-#: .\NPC\TALK_MAQUIS_BIONIC_DOCTOR.json
 msgid "A new autoclave"
 msgstr ""
 
@@ -1190,31 +1542,6 @@ msgstr ""
 
 #: .\NPC\TALK_MAQUIS_BIONIC_DOCTOR.json
 msgid "A hospital might have one, or maybe a secret lab?"
-msgstr ""
-
-#: .\NPC\TALK_MAQUIS_BIONIC_DOCTOR.json .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json
-#: .\NPC\TALK_MAQUIS_ENGINEER.json .\NPC\TALK_MAQUIS_MECHANIC.json
-#: .\NPC\TALK_MAQUIS_MOTH_MUTANT.json .\NPC\TALK_MAQUIS_QUARTERMASTER.json
-#: .\NPC\TALK_MAQUIS_SCIENTIST.json .\NPC\TALK_RANDY_ERIKSON.json
-msgid "How is the search going?"
-msgstr ""
-
-#: .\NPC\TALK_MAQUIS_BIONIC_DOCTOR.json .\NPC\TALK_MAQUIS_ENGINEER.json
-#: .\NPC\TALK_MAQUIS_QUARTERMASTER.json .\NPC\TALK_MAQUIS_SCIENTIST.json
-#: .\NPC\TALK_RANDY_ERIKSON.json
-msgid "Thanks."
-msgstr ""
-
-#: .\NPC\TALK_MAQUIS_BIONIC_DOCTOR.json .\NPC\TALK_MAQUIS_ENGINEER.json
-#: .\NPC\TALK_MAQUIS_MECHANIC.json .\NPC\TALK_MAQUIS_MOTH_MUTANT.json
-#: .\NPC\TALK_MAQUIS_SCIENTIST.json
-msgid "What good does this do us?"
-msgstr ""
-
-#: .\NPC\TALK_MAQUIS_BIONIC_DOCTOR.json .\NPC\TALK_MAQUIS_ENGINEER.json
-#: .\NPC\TALK_MAQUIS_MECHANIC.json .\NPC\TALK_MAQUIS_MOTH_MUTANT.json
-#: .\NPC\TALK_MAQUIS_QUARTERMASTER.json .\NPC\TALK_MAQUIS_SCIENTIST.json
-msgid "I wonder where it all went…"
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_BIONIC_DOCTOR.json
@@ -1289,29 +1616,6 @@ msgid ""
 "running"
 msgstr ""
 
-#: .\NPC\TALK_MAQUIS_BIRD_MUTANT.json
-msgid ""
-"The upper floors have filled to the brim with cardboard boxes and crates and"
-" news papers and old goverment documents.  It is kind of fun to play hide "
-"and seek with others between patrol or guard duty."
-msgstr ""
-
-#: .\NPC\TALK_MAQUIS_BIRD_MUTANT.json
-msgid ""
-"The libraries are nice, they're always on the look for more books, the more "
-"rare, the more they'll give for them."
-msgstr ""
-
-#: .\NPC\TALK_MAQUIS_BIRD_MUTANT.json .\NPC\TALK_MAQUIS_ELF_MUTANT.json
-#: .\NPC\TALK_MAQUIS_FELINE_MUTANT.json .\NPC\TALK_MAQUIS_GUARD.json
-#: .\NPC\TALK_MAQUIS_MANTIS_MUTANT.json .\NPC\TALK_MAQUIS_MOTH_MUTANT.json
-#: .\NPC\TALK_MAQUIS_RAPTOR_MUTANT.json .\NPC\TALK_MAQUIS_RIOT_COP.json
-#: .\NPC\TALK_MAQUIS_RODENT_MUTANT.json
-msgid ""
-"There are some heavily mutated people upstairs.  They are good people, but "
-"if you see them don't stare, its rude."
-msgstr ""
-
 #: .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json
 msgid "Chad Erikson"
 msgstr ""
@@ -1351,7 +1655,7 @@ msgid ""
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json
-msgid "[MISSION] Sir!  Latest mission is Foxtrot Uniform Charlie Kilo.  Sir!"
+msgid "[MISSION] Sir!  Mission is Foxtrot Uniform Charlie Kilo!  Sir!"
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json
@@ -1425,6 +1729,20 @@ msgstr ""
 msgid "Lady, want do you want?"
 msgstr ""
 
+#: .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json
+msgid "[MISSION] Your nephew Randy wanted me to see how you are doing."
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json
+msgid "[MISSION] Felix Fox sent me."
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json .\NPC\TALK_MAQUIS_QUARTERMASTER.json
+msgid ""
+"Is there anything else I can to to help the Maquis than doing generic "
+"missions?"
+msgstr ""
+
 #: .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json .\NPC\TALK_RANDY_ERIKSON.json
 msgid "That is a very nice watch."
 msgstr ""
@@ -1441,10 +1759,6 @@ msgstr ""
 msgid "[RP]  I want change how I fight against the xenoid invaders."
 msgstr ""
 
-#: .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json
-msgid "[MISSION] Your nephew Randy wanted me to see how you are doing."
-msgstr ""
-
 #: .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json .\NPC\TALK_RANDY_ERIKSON.json
 msgid "So how did you end up here?"
 msgstr ""
@@ -1459,6 +1773,15 @@ msgstr ""
 
 #: .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json
 msgid ""
+"We do have plans to expand facilities here at Barter Tower, but the Maquis "
+"have been fighting for survival for weeks now.  If you want to take point on"
+" the task, I will leave base expansion entirely in our control.  Talk to the"
+" quartermaster on the ground level, he should still be wearing his postman "
+"uniform."
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json
+msgid ""
 "Thats unfortunate but at least you made it back.  I may have something for "
 "you to do to help gain much needed intelligence."
 msgstr ""
@@ -1467,35 +1790,35 @@ msgstr ""
 msgid "What can I do to help the Maquis?"
 msgstr ""
 
-#: .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json
-msgid "I have something else to ask you first."
-msgstr ""
-
-#: .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json
+#: .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json .\NPC\TALK_MAQUIS_QUARTERMASTER.json
 msgid ""
 "Thats great.  We always need help in the fight against the alien invader.  "
 "How do you want to help out?  Keep in mind you can change your mind as much "
 "and and frequently as you want.  There are many ways to defeat the xenoids."
 msgstr ""
 
-#: .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json
+#: .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json .\NPC\TALK_MAQUIS_QUARTERMASTER.json
 msgid "I just want to kill aliens.  The most direct way possible."
 msgstr ""
 
-#: .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json
+#: .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json .\NPC\TALK_MAQUIS_QUARTERMASTER.json
 msgid "I want to help lead the fight against the xenoids."
 msgstr ""
 
-#: .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json
+#: .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json .\NPC\TALK_MAQUIS_QUARTERMASTER.json
 msgid "I want to provide medical support and heal people."
 msgstr ""
 
-#: .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json
+#: .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json .\NPC\TALK_MAQUIS_QUARTERMASTER.json
 msgid "I want to study the aliens to better defeat them."
 msgstr ""
 
-#: .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json
+#: .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json .\NPC\TALK_MAQUIS_QUARTERMASTER.json
 msgid "I want to engineer better technology to kill xenoids."
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json
+msgid "I have something else to ask you first."
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json
@@ -1563,7 +1886,8 @@ msgstr ""
 msgid "Interesting story."
 msgstr ""
 
-#: .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json .\NPC\TALK_RANDY_ERIKSON.json
+#: .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json .\NPC\TALK_MAQUIS_QUARTERMASTER.json
+#: .\NPC\TALK_RANDY_ERIKSON.json
 msgid "I have to go now."
 msgstr ""
 
@@ -1597,6 +1921,10 @@ msgstr ""
 
 #: .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json
 msgid "I have a question about the specific types of Xenoid attackers?"
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json
+msgid "[INT 11]  Are the Xenoids the only alien threat?."
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json
@@ -1676,7 +2004,7 @@ msgid ""
 "Based on our latest reports, the Xenoids are an extra-terrestrial invasion "
 "which has used weapons of mass destruction on human civillians, and seems "
 "bent on the conquest of Earth.  Its like the plot of a 1950's pulp science "
-"fiction book or a poorly conceived open-source game."
+"fiction book or a poorly conceived, open-source, rouge-like game."
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json
@@ -1743,12 +2071,53 @@ msgid ""
 "You noticed a few new kinds of critters too?  There are the dog-lizard and "
 "the cow-lizard, which are generally not hostile unless they're in large "
 "packs.  There are also Lurkers, some kind of tentacle monster found in "
-"swamps or sewers, but they absorb bullets pretty effectivly.  Finally there "
+"swamps or sewers, but they dodge bullets pretty effectively.  Finally there "
 "are wisps which seem like alien fire-flys."
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json
+msgid ""
+"[INT 11] Why are sure that these creatures are related to the invasion of "
+"Xenoids?"
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json
 msgid "I want to know more about the types of Xenoids."
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json
+msgid ""
+"These xeno-fauna seem related to the Xenoid invaders if in no other way than"
+" the blood that comes from them is a dull-white fluid, more similar to the, "
+"'hemolymph' of terrestrial insects.  You would have talk to the egg-heads "
+"around for exact specifics."
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json
+msgid ""
+"It is true that there are at least two separate alien invasion forces on "
+"Earth.  In all cases so far, the Xenoids have been hostile to these other "
+"strange aliens, known colloquially as Mi-Go's because of their striking "
+"similarity to the same creatures described by H.P. Lovecraft.  We have "
+"multiple confirmed reports of these Mi-Go's taking human prisoners as well "
+"as creating from nowhere buildings of organic resin.  While not as numerous "
+"as the Xenoids, the Mi-Go's are just as much of a threat to humanity. "
+"Thankfully they seem to be hostile to each other."
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json
+msgid "Where did these Mi-Go's come from?"
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json
+msgid ""
+"All that we have been able to theorize so far, is that the Mi-Go's from from"
+" somewhere in extra-dimensional space while the Xenoids are extra-"
+"terrestrial in origin, as crazy as that sounds thats the best we've got."
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json
+msgid "I have some more general questions about the Mi-Go's."
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json
@@ -1843,11 +2212,6 @@ msgid ""
 "first arrived and any new information would help."
 msgstr ""
 
-#: .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json .\NPC\TALK_MAQUIS_QUARTERMASTER.json
-#: .\NPC\TALK_RANDY_ERIKSON.json
-msgid "Thank you."
-msgstr ""
-
 #: .\NPC\TALK_MAQUIS_CHAD_ERIKSON.json .\NPC\TALK_RANDY_ERIKSON.json
 msgid "Then why ask?"
 msgstr ""
@@ -1878,78 +2242,6 @@ msgstr ""
 #: .\NPC\TALK_MAQUIS_CYBERCOP.json
 msgid ""
 "I have been programmed defend humanity and exterminate the Xenoid invaders."
-msgstr ""
-
-#: .\NPC\TALK_MAQUIS_CYBERCOP.json .\NPC\TALK_MAQUIS_QUARTERMASTER.json
-msgid "What do you require citizen?."
-msgstr ""
-
-#: .\NPC\TALK_MAQUIS_CYBERCOP.json .\NPC\TALK_MAQUIS_QUARTERMASTER.json
-#: .\NPC\TALK_MAQUIS_SNIPER.json
-msgid "I'm kind of busy right now."
-msgstr ""
-
-#: .\NPC\TALK_MAQUIS_CYBERCOP.json .\NPC\TALK_MAQUIS_SNIPER.json
-msgid "Why are you upstairs?"
-msgstr ""
-
-#: .\NPC\TALK_MAQUIS_CYBERCOP.json
-msgid "Turn around."
-msgstr ""
-
-#: .\NPC\TALK_MAQUIS_CYBERCOP.json
-msgid "He is right behind you."
-msgstr ""
-
-#: .\NPC\TALK_MAQUIS_CYBERCOP.json
-msgid "He is in this very room."
-msgstr ""
-
-#: .\NPC\TALK_MAQUIS_CYBERCOP.json .\NPC\TALK_MAQUIS_SNIPER.json
-msgid ""
-"There is an arrangement with everyone that lives here, the bottom few floors"
-" are a free trade zone, the middle floors are general living space, and the "
-"upper floors are for the alien resistance operation. Part of that agreement "
-"means some of us with sharp eyes and quick trigger-fingers get to be up "
-"here."
-msgstr ""
-
-#: .\NPC\TALK_MAQUIS_CYBERCOP.json
-msgid ""
-"It is really nice to be up here just me, my mp3 player and this huge fucking"
-" gun."
-msgstr ""
-
-#: .\NPC\TALK_MAQUIS_CYBERCOP.json .\NPC\TALK_MAQUIS_QUARTERMASTER.json
-#: .\NPC\TALK_MAQUIS_SNIPER.json
-msgid ""
-"This entire tower might be one of the last good places left in New England, "
-"let alone the world.  Its kind of awesome when you think about it."
-msgstr ""
-
-#: .\NPC\TALK_MAQUIS_CYBERCOP.json .\NPC\TALK_MAQUIS_SNIPER.json
-msgid ""
-"Being up here is isn't just for fun, I have to keep an eye on things down on"
-" the ground."
-msgstr ""
-
-#: .\NPC\TALK_MAQUIS_CYBERCOP.json .\NPC\TALK_MAQUIS_SNIPER.json
-msgid ""
-"There are some mutants in the upper floors and a few in the basement, but "
-"they're good people.  So long as you don't stare at the heavily deformed "
-"ones."
-msgstr ""
-
-#: .\NPC\TALK_MAQUIS_CYBERCOP.json
-msgid "No.  I wouldn't sell you this gun."
-msgstr ""
-
-#: .\NPC\TALK_MAQUIS_CYBERCOP.json .\NPC\TALK_MAQUIS_SNIPER.json
-msgid "Go down stairs if you want to trade, I'm busy up here."
-msgstr ""
-
-#: .\NPC\TALK_MAQUIS_CYBERCOP.json
-msgid "Piss off."
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_DEMOLITIONS.json
@@ -1993,6 +2285,18 @@ msgid ""
 "use the really powerful rifles even if we can't take them down here."
 msgstr ""
 
+#: .\NPC\TALK_MAQUIS_DEMOLITIONS.json .\NPC\TALK_MAQUIS_GUNSLINGER.json
+msgid ""
+"I only go upstairs to check out the casino, its fun to use looted cash cards"
+" to gamble.  I'm up almost a hundred-thousand dollars."
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_DEMOLITIONS.json .\NPC\TALK_MAQUIS_GUNSLINGER.json
+msgid ""
+"The library is nice, they're always on the look for more books, the more "
+"rare, the more they'll give for them."
+msgstr ""
+
 #: .\NPC\TALK_MAQUIS_ELF_MUTANT.json
 msgid "Maquis-Elf Mutant"
 msgstr ""
@@ -2013,16 +2317,6 @@ msgstr ""
 msgid "I'm minding my own business, mind your own."
 msgstr ""
 
-#: .\NPC\TALK_MAQUIS_ELF_MUTANT.json .\NPC\TALK_MAQUIS_FELINE_MUTANT.json
-#: .\NPC\TALK_MAQUIS_GUARD.json .\NPC\TALK_MAQUIS_MANTIS_MUTANT.json
-#: .\NPC\TALK_MAQUIS_MOTH_MUTANT.json .\NPC\TALK_MAQUIS_RIOT_COP.json
-#: .\NPC\TALK_MAQUIS_RODENT_MUTANT.json
-msgid ""
-"Sometimes I'll go up to the roof to help with sniper overwatch.  Its fun to "
-"use the really powerful rifles even if we can't take them down here.  Plus "
-"they always need another set of eyes."
-msgstr ""
-
 #: .\NPC\TALK_MAQUIS_ENGINEER.json
 msgid "Maquis-Engineer"
 msgstr ""
@@ -2035,6 +2329,11 @@ msgstr ""
 
 #: .\NPC\TALK_MAQUIS_ENGINEER.json .\NPC\TALK_MAQUIS_MECHANIC.json
 msgid "Oh, a U.S. marshal, where did all of you guys go?."
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_ENGINEER.json .\NPC\TALK_MAQUIS_FELINE_MUTANT.json
+#: .\NPC\TALK_MAQUIS_MECHANIC.json
+msgid "I need a technician for an upcoming mission, interested?"
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_ENGINEER.json .\NPC\TALK_MAQUIS_MECHANIC.json
@@ -2050,19 +2349,6 @@ msgstr ""
 msgid ""
 "I found this vehicle here and I don't know if I should repair it or use it "
 "for parts.  Either way it will make me some money somehow."
-msgstr ""
-
-#: .\NPC\TALK_MAQUIS_ENGINEER.json .\NPC\TALK_MAQUIS_MECHANIC.json
-#: .\NPC\TALK_MAQUIS_SCIENTIST.json
-msgid "I'm too busy with this engine here to go upstairs much."
-msgstr ""
-
-#: .\NPC\TALK_MAQUIS_ENGINEER.json .\NPC\TALK_MAQUIS_MECHANIC.json
-#: .\NPC\TALK_MAQUIS_SCIENTIST.json
-msgid ""
-"Those guys up stairs are angels!  I was helping with the barricades outside "
-"when a crawling zombie revived suddenly and cut my leg.  Almost immediately,"
-" one of the snipers on the roof blew its head off.  Saved my life."
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_ENGINEER.json
@@ -2093,7 +2379,7 @@ msgstr ""
 
 #. ~ Description for mission '{'str': 'Looking for hackPRO exploit scripts'}'
 #: .\NPC\TALK_MAQUIS_ENGINEER.json
-msgid "Find the latest hackPRO exploits and hacks"
+msgid "Find the last hackPRO exploits and hacks"
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_ENGINEER.json
@@ -2122,7 +2408,7 @@ msgid "I'm just trying to be a lazy cat."
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_FELINE_MUTANT.json
-msgid "Find and capture a cat"
+msgid "Find and save the internet famous cat 'Lucky'"
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_FELINE_MUTANT.json
@@ -2261,40 +2547,16 @@ msgid ""
 "can only guess."
 msgstr ""
 
-#: .\NPC\TALK_MAQUIS_FELIX_FOX.json .\NPC\TALK_MAQUIS_QUARTERMASTER.json
-#: .\NPC\TALK_RANDY_ERIKSON.json
-msgid "I'll find him."
-msgstr ""
-
 #: .\NPC\TALK_MAQUIS_FELIX_FOX.json .\NPC\TALK_RANDY_ERIKSON.json
 msgid "Come back when you get a chance."
 msgstr ""
 
-#: .\NPC\TALK_MAQUIS_FELIX_FOX.json .\NPC\TALK_MAQUIS_QUARTERMASTER.json
-#: .\NPC\TALK_RANDY_ERIKSON.json
-msgid "Just follow your map."
+#: .\NPC\TALK_MAQUIS_FENCER.json
+msgid "Maquis-Fencer"
 msgstr ""
 
-#: .\NPC\TALK_MAQUIS_FELIX_FOX.json .\NPC\TALK_MAQUIS_QUARTERMASTER.json
-#: .\NPC\TALK_RANDY_ERIKSON.json
-msgid "Did you find him yet?"
-msgstr ""
-
-#: .\NPC\TALK_MAQUIS_FELIX_FOX.json .\NPC\TALK_MAQUIS_QUARTERMASTER.json
-#: .\NPC\TALK_RANDY_ERIKSON.json
-msgid ""
-"With this we'll be able to convince others to join up and fight against the "
-"invasion"
-msgstr ""
-
-#: .\NPC\TALK_MAQUIS_FELIX_FOX.json .\NPC\TALK_MAQUIS_QUARTERMASTER.json
-#: .\NPC\TALK_RANDY_ERIKSON.json
-msgid "Something seems not right with how you described my brother…"
-msgstr ""
-
-#: .\NPC\TALK_MAQUIS_FELIX_FOX.json .\NPC\TALK_MAQUIS_QUARTERMASTER.json
-#: .\NPC\TALK_RANDY_ERIKSON.json
-msgid "It was a lost cause anyways…"
+#: .\NPC\TALK_MAQUIS_FENCER.json
+msgid "I'm here to be the dashing swordswoman."
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_GUARD.json
@@ -2333,7 +2595,7 @@ msgid "Maquis-Gunslinger"
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_GUNSLINGER.json
-msgid "I'm here to shoot the wings off flies."
+msgid "I'm here to shoot the wings off flies, but shooting aliens works too."
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_GUNSLINGER.json
@@ -2475,11 +2737,11 @@ msgstr ""
 msgid "I'm here to understand being a plant."
 msgstr ""
 
-#: .\NPC\TALK_MAQUIS_MELISSA_FORREST.json
+#: .\NPC\TALK_MAQUIS_MELISSA_FORREST.json .\NPC\TALK_QUISLING.json
 msgid "Greetings."
 msgstr ""
 
-#: .\NPC\TALK_MAQUIS_MELISSA_FORREST.json
+#: .\NPC\TALK_MAQUIS_MELISSA_FORREST.json .\NPC\TALK_QUISLING.json
 msgid "Hello."
 msgstr ""
 
@@ -2549,25 +2811,16 @@ msgid ""
 "like us constantly bringing in new trade goods."
 msgstr ""
 
-#: .\NPC\TALK_MAQUIS_MERCHANT.json
-msgid ""
-"I don't usually go too far up stairs, not because don't like those guys, nor"
-" because they wouldn't let me up there, I'm just lazy and prefer it down "
-"here."
-msgstr ""
-
-#: .\NPC\TALK_MAQUIS_MERCHANT.json
-msgid ""
-"They don't usually mind if you go up to the roof, but if you make trouble or"
-" get in their way they'll send you down stairs the quick way."
-msgstr ""
-
 #: .\NPC\TALK_MAQUIS_MOTH_MUTANT.json
 msgid "Maquis-Moth Mutant"
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_MOTH_MUTANT.json
 msgid "I'm looking for bright lights, shiny objects, and sweet drinks."
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_MOTH_MUTANT.json .\NPC\TALK_MAQUIS_SCIENTIST.json
+msgid "I need a scientist to supervise an upcoming mission, interested?"
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_MOTH_MUTANT.json
@@ -2595,7 +2848,24 @@ msgid "There are probably a lot of cans around in vending machines."
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_QUARTERMASTER.json
+msgid "Quartermaster"
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_QUARTERMASTER.json
 msgid "Maquis-The Quartermaster"
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_QUARTERMASTER.json
+msgid "I want to join the Maquis."
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_QUARTERMASTER.json
+msgid "Mr. Erikson is probably still upstairs in his office."
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_QUARTERMASTER.json
+msgid ""
+"I'm not sure where the boss is now, but he is probably upstairs somewhere."
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_QUARTERMASTER.json
@@ -2606,8 +2876,24 @@ msgstr ""
 
 #: .\NPC\TALK_MAQUIS_QUARTERMASTER.json
 msgid ""
-"The Maquis don't just let any random survivor walk into a heavily armed base"
-" and speak to the commander of the local cell, you need to demonstrate that "
+"I'm not sure where the boss is now, but he's probably upstairs somewhere"
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_QUARTERMASTER.json
+msgid "Mr. Erikson is probably upstairs."
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_QUARTERMASTER.json
+msgid ""
+"The Maquis are numerous bands of survivors, former military operators, even "
+"mutated humans, that are united against the xenoid invaders.  Of everything "
+"going in with the cataclysm, the extra-terrestrial invasion takes priority."
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_QUARTERMASTER.json
+msgid ""
+"The Maquis don't just let any random survivor walk into a resistance base "
+"and speak to the commander of the local cell, you need to demonstrate that "
 "you are really with us.  Try talking to people around and see if anyone "
 "needs help or if you're up for a combat mission, I might find someone to "
 "talk you out on patrol."
@@ -2641,72 +2927,130 @@ msgid ""
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_QUARTERMASTER.json
-msgid "Clean up a sewer"
+msgid ""
+"Well now that you mention it, I could use someone to act as point for a "
+"number of projects around the tower.  There is so much room around here to "
+"expand, and so many different ways to do so.  If you can go around and "
+"convince some people to move boxes around, then the Maquis can expand to add"
+" new facilities.  This can't be done instantaneously though, because "
+"everyone here already have jobs to do.  If you think everyone around here is"
+" completely stationary, think again."
 msgstr ""
 
-#. ~ Description for mission '{'str': 'Clean up a sewer'}'
 #: .\NPC\TALK_MAQUIS_QUARTERMASTER.json
-msgid "Go to a sewer treatment plant and kill some strange creatures."
-msgstr ""
-
-#: .\NPC\TALK_MAQUIS_QUARTERMASTER.json
-msgid "I need you to find and kill some monsters."
+msgid "Alright I'll lead the way, what options do we have?"
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_QUARTERMASTER.json
 msgid ""
-"There were reports of some kind of alien critters a sewers treatment plant."
-"  Go eliminate them out."
+"There are alot of different options for initial expansion.  Do you have any "
+"ideas to start with?"
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_QUARTERMASTER.json
-msgid "Oh well.  I'm sure it wasn't anything."
+msgid "Do you have an idea how you would want to start the initial expansion?"
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_QUARTERMASTER.json
-msgid "You might get lucky and maybe a seweranha will kill them."
+msgid "Protecting the remaining citizens is the ultimate priority."
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_QUARTERMASTER.json
-msgid "I'm sure you did…"
-msgstr ""
-
-#. ~ Description for mission '{'str': 'Clean up a sewer'}'
-#: .\NPC\TALK_MAQUIS_QUARTERMASTER.json
-msgid "Go to a power substation and kill some strange creatures."
+msgid "First thing is setting up an area to recover alien technology."
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_QUARTERMASTER.json
 msgid ""
-"There were reports of some kind of alien crystal monsters.  Go eliminate "
-"them out."
+"Lets focus on getting a triage area and multiple recovery zones ready first."
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_QUARTERMASTER.json
 msgid ""
-"If you're going to fight monsters that use electricity against you, don't be"
-" a good conductor."
+"We need to understand our enemy to defeat them.  Lets help the scientists "
+"first."
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_QUARTERMASTER.json
-msgid "Speak to Mr Erikson"
-msgstr ""
-
-#. ~ Description for mission '{'str': 'Speak to Mr Erikson'}'
-#: .\NPC\TALK_MAQUIS_QUARTERMASTER.json
-msgid "The local leader of the Maaquis wants to meet you."
+msgid ""
+"Better weapons and tactics help everyone.  Lets get a shooting range and "
+"bullet reloading running first."
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_QUARTERMASTER.json
-msgid "The boss wants to see you…"
+msgid "Maybe we should start in a different direction."
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_QUARTERMASTER.json
-msgid "The boss ups stairs wants to talk to you.  Do you want to talk to him?"
+msgid ""
+"Well there are several other directions that we could expand, but we can't "
+"do everything at once. First thing we need is to create a dedicated medical "
+"area.  So far, casualties are treated by comrades-in-arms during battle, or "
+"taken away for dedicated treatment.  What we need is several large areas "
+"where people can safely recover, and I have a few places in mind already.  "
+"I've also gotten requests from the lab-techs and scientists upstairs for "
+"additional resources so they can analyze the Xenoids technology and biology."
+"  There is also talk about setting up dedicated areas as shooting ranges and"
+" for small-arms production."
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_QUARTERMASTER.json
-msgid "Why?"
+msgid ""
+"Better weapons and tactics help everyone.  Lets get a shooting range running"
+" first."
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_QUARTERMASTER.json
+msgid ""
+"The many floors of the building are full of cardboard boxes and junk but "
+"there is plenty of space that could be turned into better living quarters "
+"for refugees.  In a few days every nook and cranny could be used for "
+"refugees."
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_QUARTERMASTER.json
+msgid "Ok, lets begin."
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_QUARTERMASTER.json .\NPC\TALK_RANDY_ERIKSON.json
+msgid "Lets discuss something else."
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_QUARTERMASTER.json
+msgid ""
+"A lot of engineers on the seventh floor were rescued from a research lab "
+"before everything went down, they're grateful to be alive and could get a "
+"new laboratory up and running in a few days."
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_QUARTERMASTER.json
+msgid ""
+"A lot of scientists on the seventh floor were rescued from a research lab "
+"before everything went down, they're grateful to be alive and could get a "
+"new laboratory up and running in a few days."
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_QUARTERMASTER.json
+msgid ""
+"There are several areas on the ground floor that could become triage zones, "
+"and it shouldn't be too hard to find a volunteer with first aid training.  "
+"Also, we can get several more recovery areas ready, but that will take a few"
+" days to complete."
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_QUARTERMASTER.json
+msgid ""
+"Well I see few of the combative types are already loitering around under the"
+" central skylight, that's as good a place to congregate as any, and it "
+"shouldn't be too hard to find a few more.  Also, we can get a dedicated "
+"shooting area in the lower basement completed in a few days."
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_QUARTERMASTER.json
+msgid "Ok, in a few days it should be completed."
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_RAPTOR_MUTANT.json
+msgid "Yoshimi Green Scales"
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_RAPTOR_MUTANT.json
@@ -2731,6 +3075,20 @@ msgstr ""
 
 #: .\NPC\TALK_MAQUIS_RIOT_COP.json
 msgid "Maquis-SWAT Cop"
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_RIOT_COP.json
+msgid "What is this place?"
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_RIOT_COP.json
+msgid "This is Barter Tower and I am on duty."
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_RIOT_COP.json
+msgid ""
+"We fortified this entire tower complex, now Barter Tower is an open trade "
+"zone for any living humans."
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_RODENT_MUTANT.json
@@ -2773,10 +3131,6 @@ msgid "What can I do for you marshal?."
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_SCIENTIST.json
-msgid "What is downstairs?"
-msgstr ""
-
-#: .\NPC\TALK_MAQUIS_SCIENTIST.json
 msgid "I just saw him on the top floors, not sure where exactly."
 msgstr ""
 
@@ -2790,13 +3144,6 @@ msgid ""
 "There is an arrangement with everyone that lives here, the bottom two floors"
 " are a free trade zone and the upper floors are for the alien resistance "
 "operation.  We all help them keep the outside defences in our own ways."
-msgstr ""
-
-#: .\NPC\TALK_MAQUIS_SCIENTIST.json
-msgid ""
-"I don't usually go too far down stairs, not because don't like those guys, "
-"nor because they wouldn't let me down there, I'm just lazy and prefer "
-"working up here."
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_SCIENTIST.json
@@ -2825,6 +3172,14 @@ msgid ""
 "The best place would probably be a goverment research lab, but then again "
 "things like this seem to end up in the trash all the time.  Just keep your "
 "eyes open for a USB drive that displays the content as 'MathMAX'."
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_SLIME_MUTANT.json
+msgid "Maquis-Slime Mutant"
+msgstr ""
+
+#: .\NPC\TALK_MAQUIS_SLIME_MUTANT.json
+msgid "I'm a slime girl."
 msgstr ""
 
 #: .\NPC\TALK_MAQUIS_SNIPER.json
@@ -2898,10 +3253,6 @@ msgstr ""
 
 #: .\NPC\TALK_MAQUIS_TROG_MUTANT.json
 msgid "Why would I want to go up stairs?  My big birds need me down here."
-msgstr ""
-
-#: .\NPC\TALK_MAQUIS_TROG_MUTANT.json
-msgid "I don't go upstairs too often, the basements are more fun."
 msgstr ""
 
 #. ~ Description for mission '{'str': 'Work While Busy'}'
@@ -3007,6 +3358,22 @@ msgstr ""
 msgid "Sounds above my pay grade."
 msgstr ""
 
+#: .\NPC\TALK_QUISLING.json
+msgid "Quisling Thug"
+msgstr ""
+
+#: .\NPC\TALK_QUISLING.json
+msgid "Quisling Bandit"
+msgstr ""
+
+#: .\NPC\TALK_QUISLING.json
+msgid "Quisling-Thug"
+msgstr ""
+
+#: .\NPC\TALK_QUISLING.json
+msgid "I'm here to serve our new alien overlords."
+msgstr ""
+
 #: .\NPC\TALK_RANDY_ERIKSON.json
 msgid "Technician"
 msgstr ""
@@ -3043,10 +3410,6 @@ msgstr ""
 
 #: .\NPC\TALK_RANDY_ERIKSON.json
 msgid "Wow, nice to meet you too, Randy."
-msgstr ""
-
-#: .\NPC\TALK_RANDY_ERIKSON.json
-msgid "Hi, Randy.  Got a second to talk?"
 msgstr ""
 
 #: .\NPC\TALK_RANDY_ERIKSON.json
@@ -3098,11 +3461,39 @@ msgid ""
 msgstr ""
 
 #: .\NPC\TALK_RANDY_ERIKSON.json
+msgid "[PER 11]  Is that a helicopter outside?."
+msgstr ""
+
+#: .\NPC\TALK_RANDY_ERIKSON.json
 msgid "So what are you doing here?"
 msgstr ""
 
 #: .\NPC\TALK_RANDY_ERIKSON.json
 msgid "Don't mind me…"
+msgstr ""
+
+#: .\NPC\TALK_RANDY_ERIKSON.json
+msgid "Fuck no, I'm busy."
+msgstr ""
+
+#: .\NPC\TALK_RANDY_ERIKSON.json
+msgid "No, I have too many projects I'm working on now."
+msgstr ""
+
+#: .\NPC\TALK_RANDY_ERIKSON.json
+msgid "Thanks anyway.  What were you saying before?"
+msgstr ""
+
+#: .\NPC\TALK_RANDY_ERIKSON.json
+msgid "Well, thanks anyway."
+msgstr ""
+
+#: .\NPC\TALK_RANDY_ERIKSON.json
+msgid "Yeah I guess, I could use a break from my research."
+msgstr ""
+
+#: .\NPC\TALK_RANDY_ERIKSON.json
+msgid "That's a big ask, for sure.  Okay, I'll see what I can do."
 msgstr ""
 
 #: .\NPC\TALK_RANDY_ERIKSON.json
@@ -3150,6 +3541,16 @@ msgstr ""
 
 #: .\NPC\TALK_RANDY_ERIKSON.json
 msgid ""
+"Yeah I landed it just as it ran out of fuel.  Its yours so long as you can "
+"fill up the tank."
+msgstr ""
+
+#: .\NPC\TALK_RANDY_ERIKSON.json
+msgid "Ok, I'll take it for a spin."
+msgstr ""
+
+#: .\NPC\TALK_RANDY_ERIKSON.json
+msgid ""
 "So my uncle, Chad Erikson, was the guy who got my this cool watch, but since"
 " this cataclysm started the internet went down globally all I have is the "
 "built in games.  I still try to refresh the connection and see if I can find"
@@ -3192,11 +3593,26 @@ msgid ""
 msgstr ""
 
 #: .\NPC\TALK_RANDY_ERIKSON.json
-msgid "Something else."
+msgid "Good luck with that."
 msgstr ""
 
 #: .\NPC\TALK_RANDY_ERIKSON.json
-msgid "Good luck with that."
+msgid ""
+"[Mechanics 5] Have you tried checking the bearing coming off the engine?"
+msgstr ""
+
+#: .\NPC\TALK_RANDY_ERIKSON.json
+msgid ""
+"I've checked that already, but thanks for nothing anyway; Talking to you I "
+"should be used to that by now."
+msgstr ""
+
+#: .\NPC\TALK_RANDY_ERIKSON.json
+msgid "Sorry I asked."
+msgstr ""
+
+#: .\NPC\TALK_RANDY_ERIKSON.json
+msgid "Fuck you."
 msgstr ""
 
 #: .\NPC\TALK_RANDY_ERIKSON.json
@@ -3361,7 +3777,7 @@ msgstr ""
 #. ~ Description for mission '{'str': 'Get some reference software'}'
 #: .\NPC\TALK_RANDY_ERIKSON.json
 msgid ""
-"Randy Erikson needs a  hardcopy of something called the 'Integrated Circuit "
+"Randy Erikson needs a hardcopy of something called the 'Integrated Circuit "
 "Archive Database'.  Might have to see if you can find an internet connection"
 " or see if someone saved it on a USB drive."
 msgstr ""
@@ -3413,10 +3829,6 @@ msgstr ""
 msgid ""
 "I need another old piece of software, not sure what it was but I'll know it "
 "when I see it.."
-msgstr ""
-
-#: .\NPC\TALK_RANDY_ERIKSON.json
-msgid "Whatever."
 msgstr ""
 
 #: .\NPC\TALK_RANDY_ERIKSON.json
@@ -3647,12 +4059,23 @@ msgstr ""
 #. ~ Description for The Maquis
 #: .\NPC\factions.json
 msgid ""
-"Any and all remaining humans that will resist the invading Xenoids to the "
+"Any and all remaining humans that will resist the invading aliens to the "
 "last man."
 msgstr ""
 
-#: .\NPC\starting_scenarios.json .\overmap\barter_tower_overmap_terrain.json
-msgid "Barter Tower"
+#: .\NPC\factions.json
+msgid "The Quislings"
+msgstr ""
+
+#. ~ Description for The Quislings
+#: .\NPC\factions.json
+msgid ""
+"An semi-organized human militia who openly fight along side the Xenoids "
+"against other human beings.  The worst kind of traitor."
+msgstr ""
+
+#: .\NPC\starting_scenarios.json
+msgid "Abandoned Store"
 msgstr ""
 
 #. ~ Name for scenario 'Foxtrot Uniform Charlie Kilo' for a male character
@@ -3672,7 +4095,7 @@ msgstr ""
 #: .\NPC\starting_scenarios.json
 msgctxt "scen_desc_male"
 msgid ""
-"You were out on a combat patrol against the Xenoids, and scavenge useful supplies in the processes, but you've attracted the attention of the alien invaders in some way, now they're all around and you'll likely have to fight thorough them if you want to escape.  Also the buiiding is on fire.\n"
+"You were out on your first combat patrol and as you were hunkered down in an abandoned store you noticed alien invaders, dubbed 'The Xenoids' which were working together with humans!  Incredibly, in the ongoing cataclysm, some desperate or deviant humans have decided to side with the Xenoids.  You must get to your local contact as soon as possible to report this turn of events. Also the buiiding is now on fire.\n"
 "\n"
 "This mission is Foxtrot Uniform Charlie Kilo."
 msgstr ""
@@ -3682,7 +4105,7 @@ msgstr ""
 #: .\NPC\starting_scenarios.json
 msgctxt "scen_desc_female"
 msgid ""
-"You were out on a combat patrol against the Xenoids, and scavenge useful supplies in the processes, but you've attracted the attention of the alien invaders in some way, now they're all around and you'll likely have to fight thorough them if you want to escape.  Also the buiiding is on fire.\n"
+"You were out on your first combat patrol and as you were hunkered down in an abandoned store you noticed alien invaders, dubbed 'The Xenoids' which were working together with humans!  Incredibly, in the ongoing cataclysm, some desperate or deviant humans have decided to side with the Xenoids.  You must get to your local contact as soon as possible to report this turn of events. Also the buiiding is now on fire.\n"
 "\n"
 "This mission is Foxtrot Uniform Charlie Kilo."
 msgstr ""
@@ -3691,17 +4114,6 @@ msgstr ""
 #: .\NPC\starting_scenarios.json
 msgctxt "start_name"
 msgid "In Town"
-msgstr ""
-
-#: .\NPC\starting_scenarios.json
-msgid "Rendezvous at local resistance base."
-msgstr ""
-
-#. ~ Description for mission '{'str': 'Rendezvous at local resistance base.'}'
-#: .\NPC\starting_scenarios.json
-msgid ""
-"With your military acumen, you have to get to the local Maquis resistance "
-"base to help resist the Xenoid Invaders."
 msgstr ""
 
 #: .\NPC\Backgrounds\BG_traits.json
@@ -3805,8 +4217,8 @@ msgid ""
 "I tried staying at an evacuation shelter outside of town, but there was "
 "barely any food and what what was around was those nasty soy bars.  I "
 "started scavenging stuff in the forest and sneaking back into town at night "
-"to grab more stuff.  Eventually I meetup with some other survivors and I've "
-"stuck around with them ever since."
+"to grab more stuff.  Eventually I meet up with some other survivors and I've"
+" stuck around with them ever since."
 msgstr ""
 
 #: .\NPC\Backgrounds\backgrounds_table_of_contents.json
@@ -4015,12 +4427,12 @@ msgid ""
 msgstr ""
 
 #: .\items\clothing+armor.json
-msgid "salvaged xenoid riot shield"
-msgid_plural "salvaged xenoid riot shields"
+msgid "salvaged xenoid light shield"
+msgid_plural "salvaged xenoid light shields"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Description for {'str': 'salvaged xenoid riot shield'}
+#. ~ Description for {'str': 'salvaged xenoid light shield'}
 #: .\items\clothing+armor.json
 msgid ""
 "A relatively simple shield made of some sort of polycarbonate with some "
@@ -4030,12 +4442,12 @@ msgid ""
 msgstr ""
 
 #: .\items\clothing+armor.json
-msgid "salvaged xenoid battle shield"
-msgid_plural "salvaged xenoid battle shields"
+msgid "salvaged xenoid heavy shield"
+msgid_plural "salvaged xenoid heavy shields"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Description for {'str': 'salvaged xenoid battle shield'}
+#. ~ Description for {'str': 'salvaged xenoid heavy shield'}
 #: .\items\clothing+armor.json
 msgid ""
 "A well forged shield made of steel-like metal, emblazoned with what appears "
@@ -4131,6 +4543,163 @@ msgid ""
 "A broken drone.  Much less threatening now that it isn't prodding you.  "
 "Specialized alien tools would be best for disassembly, but you could make do"
 " with more human instruments instead."
+msgstr ""
+
+#: .\items\eod.json
+msgid "EOD jacket"
+msgid_plural "EOD jackets"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'EOD jacket'}
+#: .\items\eod.json
+msgid ""
+"A thick armored jacket constructed from kevlar and nomex for explosive "
+"ordnance disposal.  It is designed to protect against overpressure, "
+"fragmentation, impact and heat."
+msgstr ""
+
+#: .\items\eod.json
+msgid "light EOD jacket"
+msgid_plural "light EOD jackets"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'light EOD jacket'}
+#: .\items\eod.json
+msgid ""
+"An armored jacket constructed from kevlar and nomex designed to protect "
+"against overpressure, fragmentation, impact and heat in hostile "
+"environments.  It is lighter than normal EOD armor to provide more "
+"maneuverability and can be worn over ballistic armor."
+msgstr ""
+
+#: .\items\eod.json
+msgid "pair of EOD gloves"
+msgid_plural "pairs of EOD gloves"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'pair of EOD gloves', 'str_pl': 'pairs of EOD
+#. gloves'}
+#: .\items\eod.json
+msgid ""
+"Light armored gloves constructed from kevlar and nomex for explosive "
+"ordnance disposal.  They are designed to protect against fragmentation and "
+"heat."
+msgstr ""
+
+#: .\items\eod.json
+msgid "EOD helmet"
+msgid_plural "EOD helmets"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action menu_text for {'str': 'EOD helmet'}.
+#: .\items\eod.json
+msgid "Turn on headlamps"
+msgstr ""
+
+#. ~ Use action msg for {'str': 'EOD helmet'}.
+#: .\items\eod.json
+msgid "\"Activating illumination.\""
+msgstr ""
+
+#. ~ Use action need_charges_msg for {'str': 'EOD helmet'}.
+#: .\items\eod.json
+msgid "\"Illumination disabled, low power.\""
+msgstr ""
+
+#. ~ Description for {'str': 'EOD helmet'}
+#: .\items\eod.json
+msgid ""
+"An armored electronically shielded helmet containing a camera, a two-way "
+"radio, and a headlamp, all of which can be voice-activated for redundancy.  "
+"It is designed to protect against overpressure, fragmentation, impact and "
+"heat."
+msgstr ""
+
+#: .\items\eod.json
+msgid "EOD helmet (on)"
+msgid_plural "EOD helmets (on)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action menu_text for {'str': 'EOD helmet (on)', 'str_pl': 'EOD
+#. helmets (on)'}.
+#: .\items\eod.json
+msgid "Turn off headlamps"
+msgstr ""
+
+#. ~ Use action msg for {'str': 'EOD helmet (on)', 'str_pl': 'EOD helmets
+#. (on)'}.
+#: .\items\eod.json
+msgid "\"Disabling illumination.\""
+msgstr ""
+
+#: .\items\eod.json
+msgid "EOD trousers"
+msgid_plural "EOD trouserss"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'EOD trousers'}
+#: .\items\eod.json
+msgid ""
+"Thick armored trousers constructed from kevlar and nomex for explosive "
+"ordnance disposal.  It is designed to protect against overpressure, "
+"fragmentation, impact and heat."
+msgstr ""
+
+#: .\items\eod.json
+msgid "light EOD trousers"
+msgid_plural "light EOD trouserss"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'light EOD trousers'}
+#: .\items\eod.json
+msgid ""
+"Armored trousers constructed from kevlar and nomex designed to protect "
+"against overpressure, fragmentation, impact and heat in hostile "
+"environments.  It is lighter than normal EOD armor to provide more "
+"maneuverability."
+msgstr ""
+
+#: .\items\eod.json
+msgid "pair of EOD foot protectors"
+msgid_plural "pairs of EOD foot protectors"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Description for {'str': 'pair of EOD foot protectors', 'str_pl': 'pairs
+#. of EOD foot protectors'}
+#: .\items\eod.json
+msgid ""
+"Armored foot protectors constructed from steel and nomex for explosive "
+"ordnance disposal.  They are designed to protect against overpressure, "
+"fragmentation, impact and heat."
+msgstr ""
+
+#: .\items\miscellaneous.json
+msgid "head bandana"
+msgid_plural "head bandanas"
+msgstr[0] ""
+msgstr[1] ""
+
+#. ~ Use action menu_text for {'str': 'head bandana'}.
+#: .\items\miscellaneous.json
+msgid "Cover mouth"
+msgstr ""
+
+#. ~ Use action msg for {'str': 'head bandana'}.
+#: .\items\miscellaneous.json
+msgid "You adjust the %s to cover your mouth."
+msgstr ""
+
+#. ~ Description for {'str': 'head bandana'}
+#: .\items\miscellaneous.json
+msgid "A cotton bandana, worn over the head."
 msgstr ""
 
 #: .\items\miscellaneous.json
@@ -4322,398 +4891,6 @@ msgid ""
 "and is completely busted."
 msgstr ""
 
-#: .\items\Nymalls_Items\cans.json
-msgid "Tasty Alphabet in 'sauce'"
-msgid_plural "Tasty Alphabet in 'sauce's"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': "Tasty Alphabet in 'sauce'"}
-#: .\items\Nymalls_Items\cans.json
-msgid ""
-"It smells of tomatoes.  It is full of goopy pasta in the shape of letters, "
-"you think.  It's hard to tell."
-msgstr ""
-
-#: .\items\Nymalls_Items\cans.json
-msgid "Mounty Jane Tasty Alphabet in 'sauce'"
-msgid_plural "Mounty Jane Tasty Alphabet in 'sauce's"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': "Mounty Jane Tasty Alphabet in 'sauce'"}
-#: .\items\Nymalls_Items\cans.json
-msgid ""
-"It smells of tomatoes.  It is full of goopy pasta in the shape of animated "
-"cartoon characters, you think.  It's hard to tell."
-msgstr ""
-
-#: .\items\Nymalls_Items\cans.json
-msgid "Mr. Business Tasty Alphabet in 'sauce'"
-msgid_plural "Mr. Business Tasty Alphabet in 'sauce's"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': "Mr. Business Tasty Alphabet in 'sauce'"}
-#: .\items\Nymalls_Items\cans.json
-msgid ""
-"It smells of tomatoes.  It is full of goopy pasta in the shape of animated "
-"cartoon characters, you think.  It's hard to tell.  No idea why this was "
-"made, as Mr. Business was targetted towards adults.  Then again, so was "
-"wrestling."
-msgstr ""
-
-#: .\items\Nymalls_Items\cans.json
-msgid "Colonist Brand Apple Pie Filling"
-msgid_plural "Colonist Brand Apple Pie Fillings"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'Colonist Brand Apple Pie Filling'}
-#: .\items\Nymalls_Items\cans.json
-msgid ""
-"Harken back to the days of yore, where immigrants from the old country "
-"flocked on masse and capitolized on the pain and suffering of indiginous "
-"people.  That is brand is still around is a achievement of apathy in itself."
-"  This one is flavored apple!"
-msgstr ""
-
-#: .\items\Nymalls_Items\cans.json
-msgid "Colonist Brand cherry Pie Filling"
-msgid_plural "Colonist Brand cherry Pie Fillings"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'Colonist Brand cherry Pie Filling'}
-#: .\items\Nymalls_Items\cans.json
-msgid ""
-"Harken back to the days of yore, where immigrants from the old country "
-"flocked on masse and capitolized on the pain and suffering of indiginous "
-"people.  That is brand is still around is a achievement of apathy in itself."
-"  This one is flavored cherry!"
-msgstr ""
-
-#: .\items\Nymalls_Items\cans.json
-msgid "AchDavis Brand Ceddar Cheese Soup"
-msgid_plural "AchDavis Brand Ceddar Cheese Soups"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'AchDavis Brand Ceddar Cheese Soup'}
-#: .\items\Nymalls_Items\cans.json
-msgid ""
-"Fae th' auld world we bring ye th' cheasiest, maist delectible brose!  "
-"Stoatin wi' grilled crowdie! "
-msgstr ""
-
-#: .\items\Nymalls_Items\cans.json
-msgid "AchDavis Brand Split Pea Soup"
-msgid_plural "AchDavis Brand Split Pea Soups"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'AchDavis Brand Split Pea Soup'}
-#: .\items\Nymalls_Items\cans.json
-msgid ""
-"Laddie awright!  Wi' a guid stud o' breid or some crowdie, ye'll be glad ye "
-"wale this!  Tis a flavor face!"
-msgstr ""
-
-#: .\items\Nymalls_Items\cans.json
-msgid "AchDavis Brand Cream of Broccoli Soup"
-msgid_plural "AchDavis Brand Cream of Broccoli Soups"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'AchDavis Brand Cream of Broccoli Soup'}
-#: .\items\Nymalls_Items\cans.json
-msgid "Figure yersel' a tree eater, dae ye?  Munch oan some!"
-msgstr ""
-
-#: .\items\Nymalls_Items\cans.json
-msgid "AchDavis Brand Cream of Celery Soup"
-msgid_plural "AchDavis Brand Cream of Celery Soups"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'AchDavis Brand Cream of Celery Soup'}
-#: .\items\Nymalls_Items\cans.json
-msgid ""
-"Och, yer gonnae git fancy noo?  How come dinnae ye pat this cream o' celery "
-"in yer coupon!  Better than whit ye wur planning, ain't it?"
-msgstr ""
-
-#: .\items\Nymalls_Items\cans.json
-msgid "AchDavis Brand Cream of Mushroom Soup"
-msgid_plural "AchDavis Brand Cream of Mushroom Soups"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'AchDavis Brand Cream of Mushroom Soup'}
-#: .\items\Nymalls_Items\cans.json
-msgid "Stuff yer coupon wi' thae shrooms! "
-msgstr ""
-
-#: .\items\Nymalls_Items\toys.json
-msgid "teddy bear"
-msgid_plural "teddy bears"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'teddy bear'}
-#: .\items\Nymalls_Items\toys.json
-msgid ""
-"This is a teddy bear, meant for children. Looks like the manufacturer "
-"included a gemeric voicebox inside, activated by a button on the foot.  "
-"Fortunately it still works, and you could unload the batteries out of it."
-msgstr ""
-
-#: .\items\Nymalls_Items\toys.json
-msgid "wolf stuffie"
-msgid_plural "wolf stuffies"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'wolf stuffie'}
-#: .\items\Nymalls_Items\toys.json
-msgid ""
-"This is a wolf stuffie, meant for children - this one is made to look like a"
-" grey wolf.  Looks like the manufacturer included a gemeric voicebox inside,"
-" activated by a button on the foot.  Fortunately it still works, and you "
-"could unload the batteries out of it."
-msgstr ""
-
-#: .\items\Nymalls_Items\toys.json
-msgid "snake stuffie"
-msgid_plural "snake stuffies"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'snake stuffie'}
-#: .\items\Nymalls_Items\toys.json
-msgid ""
-"This is a snake stuffie, meant for children.  It is covered with grey and "
-"black spots on a green skin, and a jingly bell attached to the tail like a "
-"rattle."
-msgstr ""
-
-#: .\items\Nymalls_Items\toys.json
-msgid "penguin stuffie"
-msgid_plural "penguin stuffies"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'penguin stuffie'}
-#: .\items\Nymalls_Items\toys.json
-msgid ""
-"This is a penguin stuffie, meant for children.  It looks both sad and "
-"loveable at the same time."
-msgstr ""
-
-#: .\items\Nymalls_Items\toys.json
-msgid "alligator stuffie"
-msgid_plural "alligator stuffies"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'alligator stuffie'}
-#: .\items\Nymalls_Items\toys.json
-msgid ""
-"This is a alligator stuffie, meant for children.  It's made to look like a "
-"Pike-headed alligator, Alligator mississippiensis. It has cute white felt "
-"teeth and the words 'Bjorks Petting Zoo' embroidered across the belly in "
-"black. What kind of petting zoo has alligators? "
-msgstr ""
-
-#: .\items\Nymalls_Items\toys.json
-msgid "bat stuffie"
-msgid_plural "bat stuffies"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'bat stuffie'}
-#: .\items\Nymalls_Items\toys.json
-msgid ""
-"This is a bat stuffie, meant for children.  It's made to look like a New "
-"Zealand greater short-tailed bat, Mystacina robusta. It is fuzzy and brown, "
-"with the words 'New Zealand Bat Conservation Society' written on a tag on "
-"the foot. You're a long way from home, little guy, aren't you? "
-msgstr ""
-
-#: .\items\Nymalls_Items\toys.json
-msgid "cougar stuffie"
-msgid_plural "cougar stuffies"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'cougar stuffie'}
-#: .\items\Nymalls_Items\toys.json
-msgid ""
-"This is a cougar stuffie, meant for children.  It's made to look like a wild"
-" cougar. It is fuzzy and tan, with the words 'Bjorks Petting Zoo' "
-"embroidered across the belly in black. even though it's cute and loveable, "
-"the artist captured the hostile animal look so well that it's a little "
-"unsettling. You'll just have to cuddle it tighter and not think about it. "
-msgstr ""
-
-#: .\items\Nymalls_Items\toys.json
-msgid "moose stuffie"
-msgid_plural "moose stuffies"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'moose stuffie'}
-#: .\items\Nymalls_Items\toys.json
-msgid ""
-"This is a moose stuffie, meant for children.  It's made to look like a "
-"anthropomorphic moose. It is fuzzy and tan, with the words 'Bjorks Petting "
-"Zoo' embroidered across the belly in black. After seeing the one animal "
-"wrecking crew in action against zombies, you feel a little safer having this"
-" guy in your pack. "
-msgstr ""
-
-#: .\items\Nymalls_Items\toys.json
-msgid "doughnut stuffie"
-msgid_plural "doughnut stuffies"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'doughnut stuffie'}
-#: .\items\Nymalls_Items\toys.json
-msgid ""
-"This is a doughnut stuffie, meant for children.  It's made to look like a "
-"jelly doughnut, with a small black felt hat and a plastic cane held in one "
-"hand. Looking at the beady little eyes. he must be a villian in some kids "
-"cartoon. "
-msgstr ""
-
-#: .\items\Nymalls_Items\toys.json
-msgid "ham stuffie"
-msgid_plural "ham stuffies"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'ham stuffie'}
-#: .\items\Nymalls_Items\toys.json
-msgid ""
-"This is a ham stuffie, meant for... someone.  It's made to look creepily "
-"realistic, and if the outer skin wasn't made of felt, you might mistake it "
-"for the real thing. "
-msgstr ""
-
-#: .\items\Nymalls_Items\toys.json
-msgid "toothbrush stuffie"
-msgid_plural "toothbrush stuffies"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'toothbrush stuffie'}
-#: .\items\Nymalls_Items\toys.json
-msgid ""
-"This is a toothbrush stuffie, meant for... someone.  it's large and green "
-"with white felt bristles and pink toothpaste. You just know kids have used "
-"this as a weapon against siblings at some point."
-msgstr ""
-
-#: .\items\Nymalls_Items\toys.json
-msgid "Mr. Buisness"
-msgid_plural "Mr. Buisnesss"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'Mr. Buisness'}
-#: .\items\Nymalls_Items\toys.json
-msgid ""
-"This is the iconic Mr. Business childrens toy. He comes complete with a felt"
-" business suit, a plastic briefcase, some plastic 'papers' and a small "
-"plastic cell phone. Show them the buisness, Mr. Buisness!"
-msgstr ""
-
-#: .\items\Nymalls_Items\toys.json
-msgid "Miss Science"
-msgid_plural "Miss Sciences"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'Miss Science'}
-#: .\items\Nymalls_Items\toys.json
-msgid ""
-"This is the iconic Miss Science childrens toy. She comes complete with a "
-"felt lab coat, a plastic set of test tubes, a plastic microscope and a "
-"plastic machine. There is no clue to what the machine actually does though. "
-"Knowledge never fear when Miss Science is near!"
-msgstr ""
-
-#: .\items\Nymalls_Items\toys.json
-msgid "Bill from IT"
-msgid_plural "Bill from ITs"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'Bill from IT'}
-#: .\items\Nymalls_Items\toys.json
-msgid ""
-"This is the iconic Bill from IT childrens toy. He comes complete with felt "
-"dress pants and plaid shirt, a plastic laptop, a plastic coffee cup and a "
-"plastic cubicle starter kit, complete with improvised server rack and too "
-"many spare monitors. He is balding and has a look of infinite sorrow on his "
-"face, with deep bags under his eyes. Your trouble is gone when Bill finally "
-"makes it to your desk!"
-msgstr ""
-
-#: .\items\Nymalls_Items\toys.json
-msgid "Mounty Jane"
-msgid_plural "Mounty Janes"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'Mounty Jane'}
-#: .\items\Nymalls_Items\toys.json
-msgid ""
-"This is the iconic canadian action figure, Mounty Jane. She comes complete "
-"with felt mounty hat, felt red mounty uniform, a rigid plastic horse, a "
-"plastic set of hand cuffs and a plastic warrant. Designed to teach Canadian "
-"children that there is nowhere you can hide from the police, she has become "
-"an iconic cultural symbol. Uphold the Right - The Mounties always get thier "
-"man!"
-msgstr ""
-
-#: .\items\Nymalls_Items\toys.json
-msgid "Thieving Stephan"
-msgid_plural "Thieving Stephans"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'Thieving Stephan'}
-#: .\items\Nymalls_Items\toys.json
-msgid ""
-"This is the iconic canadian action figure, Thieving Stephan. He comes "
-"complete with felt prison garb, a plastic money bag, a plastic set of gold "
-"bars and a plastic blood-stained knife. This is a rare find - Stpehan was "
-"edited out of the childrens show in the latter years due to backlash that "
-"the primary villan(stephan) was quebequois, leading to the creation of the "
-"more generic villian Lisa the Catburglar. Oh mon dieu - ne parle que "
-"français! Ensuite, elle ne peut pas comprendre le plan!"
-msgstr ""
-
-#: .\items\Nymalls_Items\toys.json
-msgid "Clark the Nark"
-msgid_plural "Clark the Narks"
-msgstr[0] ""
-msgstr[1] ""
-
-#. ~ Description for {'str': 'Clark the Nark'}
-#: .\items\Nymalls_Items\toys.json
-msgid ""
-"This is the iconic canadian action figure, Clark the Nark. He comes with a "
-"felt prison jumpsuit, a plastic moneybag, a plastic gun and a plastic cell "
-"phone. The lackey of the notorious Thieving Stephen, his plot always "
-"involved selling out Stephen as soon as it looked like they were going to "
-"get caught and escaping. However, he always redems himself in his bosses "
-"eyes by breaking him out of prison. The most versitile of the villians, it's"
-" sad they didn't include any of his disguises."
-msgstr ""
-
 #: .\monsters\alien_fauna.json
 msgid "sewer lurker"
 msgid_plural "sewer lurkers"
@@ -4746,33 +4923,33 @@ msgid ""
 msgstr ""
 
 #: .\monsters\alien_fauna.json
-msgid "mossy cow lizard"
-msgid_plural "mossy cow lizards"
+msgid "mossy cow reptiloid"
+msgid_plural "mossy cow reptiloids"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Description for mossy cow lizard
+#. ~ Description for mossy cow reptiloid
 #: .\monsters\alien_fauna.json
 msgid ""
-"A cow-sized reptoid, covered in what appears to be a thick layer of mossy "
-"vegetation and rocks.  It trudges about the landscape on sturdy legs, "
-"foraging whatever flora it can reach with sharp little teeth.  It doesn't "
-"seem to mind you too much."
+"A cow-sized reptile-like creature, covered in what appears to be a thick "
+"layer of mossy vegetation and rocks.  It trudges about the landscape on "
+"sturdy legs, foraging whatever flora it can reach with sharp little teeth.  "
+"It doesn't seem to mind you too much."
 msgstr ""
 
 #: .\monsters\alien_fauna.json
-msgid "blue dog lizard"
-msgid_plural "blue dog lizards"
+msgid "blue dog reptiloid"
+msgid_plural "blue dog reptiloids"
 msgstr[0] ""
 msgstr[1] ""
 
-#. ~ Description for blue dog lizard
+#. ~ Description for blue dog reptiloid
 #: .\monsters\alien_fauna.json
 msgid ""
-"A slim reptoid about the size of a big dog, with a thick mane of what looks "
-"like rather pretty orange-blue 'feathers' around its head.  Frond-like "
-"protrusions grow from the top of its head down to the base of its tail, "
-"glowing faintly when in the presence of other members of its pack."
+"A slim reptile-like creature about the size of a big dog, with a thick mane "
+"of what looks like rather pretty orange-blue 'feathers' around its head.  "
+"Frond-like protrusions grow from the top of its head down to the base of its"
+" tail, glowing faintly when in the presence of other members of its pack."
 msgstr ""
 
 #: .\monsters\alien_fauna.json
@@ -4934,7 +5111,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: .\monsters\mongun.json
-msgid "Shoots dangerous radioactive gas.  If you're seeing this, it's a bug."
+msgid "Shoots dangerous nauseating gas.  If you're seeing this, it's a bug."
 msgstr ""
 
 #: .\monsters\mongun.json
@@ -4973,8 +5150,8 @@ msgid "rifle"
 msgstr ""
 
 #: .\monsters\mongun.json
-msgid "armlet flechette gun"
-msgid_plural "armlet flechette guns"
+msgid "forearm flechette gun"
+msgid_plural "forearm flechette guns"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -5665,10 +5842,10 @@ msgstr[1] ""
 #. ~ Description for {'str': 'xenoid stalker'}
 #: .\monsters\xenoid.json
 msgid ""
-"A human-sized soldier dressed in light armor, a cloak that shifts subtly to "
-"camouflage them against their surroundings, and a featureless facial mask.  "
-"Armed with a large spear and quite quick on their feet, it surveys the world"
-" with a hateful glance."
+"A human-sized soldier dressed in light armor, a cloak that shifts activly to"
+" camouflage them against their surroundings, and a featureless facial mask."
+"  Armed with a large spear and quite quick on their feet, it surveys the "
+"world with a hateful glance."
 msgstr ""
 
 #: .\monsters\xenoid.json
@@ -5698,7 +5875,7 @@ msgid ""
 "A human-sized soldier clad in light grey armor in conjunction with a small "
 "grey shield and shock baton.  The shield has strange black hieroglyphs on it"
 " whose outline glows and pulsates in sync with the luminescence from the "
-"shock baton.  Its malicious gaze fills you with terror."
+"shock baton."
 msgstr ""
 
 #: .\monsters\xenoid.json
@@ -5712,7 +5889,7 @@ msgstr[1] ""
 msgid ""
 "A human-sized soldier dressed in light armor, an evil-looking mask, and long"
 " gun with a strange nozzle on the end.  Light blue fumes drip from the "
-"nozzle and quickly dissipate.  Its haunting gaze makes your eyes ache."
+"nozzle and quickly dissipate."
 msgstr ""
 
 #. ~ Attack message of monster "{'str': 'xenoid fumigator'}"'s spell "None"
@@ -5762,8 +5939,7 @@ msgstr[1] ""
 msgid ""
 "A human-sized soldier wearing laser etched blue plate armor, an evil-looking"
 " mask, and long gun with a strange nozzle on the end.  Light blue fumes drip"
-" from the nozzle and quickly dissipate.  Its haunting gaze makes your eyes "
-"ache."
+" from the nozzle and quickly dissipate."
 msgstr ""
 
 #: .\monsters\xenoid.json
@@ -5778,9 +5954,7 @@ msgid ""
 "Dressed from head to toe in stylized heavy plate and a grotesque mask, this "
 "armoured warrior of the xenoids wields an ornate, silvery greatsword lightly"
 " shimmering with crimson flames.  With a sudden activation, it can project "
-"gluts of flame from the hilt, incinerating enemies before it.  Yet despite "
-"it's fearsome appearance, has a strangely musical voice, marking it as "
-"something more than human."
+"gluts of flame from the hilt, incinerating enemies before it."
 msgstr ""
 
 #: .\monsters\xenoid.json
@@ -5954,6 +6128,12 @@ msgid "You dream of a video game played against an unending horde of aliens."
 msgstr ""
 
 #: .\mutations\dreams.json
+msgid ""
+"You dream of turning on a radio, but all you hear is the distinctive static "
+"of the Xenoids."
+msgstr ""
+
+#: .\mutations\dreams.json
 msgid "You dream of being eviscerated alive by Xenoids wearing human skin."
 msgstr ""
 
@@ -6047,133 +6227,13 @@ msgid ""
 "This has no direct skill benefit, but allows you to present yourself as a collaborator to certain NPCs, although the Maquis may recognize and execute you."
 msgstr ""
 
-#: .\overmap\barter_tower_overmap_terrain.json
-msgid "parking lot"
+#: .\mutations\traits.json
+msgid "Team Leader"
 msgstr ""
 
-#: .\overmap\barter_tower_overmap_terrain.json
-msgid "Under Town"
-msgstr ""
-
-#: .\overmap\barter_tower_overmap_terrain.json
-msgid "arcology"
-msgstr ""
-
-#: .\overmap\map_extras.json
-msgid "Debris from space"
-msgstr ""
-
-#. ~ Description for {'str': 'Debris from space'}
-#: .\overmap\map_extras.json
-msgid "Debris from space."
-msgstr ""
-
-#. ~ Computer name
-#: .\overmap\racing_tower_mapgen.json
-msgid "Lab Console"
-msgstr ""
-
-#. ~ Computer option
-#: .\overmap\racing_tower_mapgen.json
-msgid "View Research Logs"
-msgstr ""
-
-#. ~ Sign
-#: .\overmap\sky_marshal_farm.json
-msgid "NO TRESSPASSING!"
-msgstr ""
-
-#. ~ Sign
-#: .\overmap\sky_marshal_farm.json
-msgid "Please do not disturb the fish"
-msgstr ""
-
-#: .\overmap\sky_marshal_overmap_terrain.json
-msgid "apple orchard"
-msgstr ""
-
-#: .\overmap\sky_marshal_overmap_terrain.json
-msgid "tree plot"
-msgstr ""
-
-#: .\overmap\sky_marshal_overmap_terrain.json
-msgid "tree plot with log hut"
-msgstr ""
-
-#: .\overmap\sky_marshal_overmap_terrain.json
-msgid "log hut roof"
-msgstr ""
-
-#: .\overmap\sky_marshal_overmap_terrain.json
-msgid "farm field"
-msgstr ""
-
-#: .\overmap\sky_marshal_overmap_terrain.json
-msgid "radio tower"
-msgstr ""
-
-#: .\overmap\sky_marshal_overmap_terrain.json
-msgid "catacomb"
-msgstr ""
-
-#: .\overmap\sky_marshal_overmap_terrain.json
-msgid "farm house"
-msgstr ""
-
-#: .\overmap\sky_marshal_overmap_terrain.json
-msgid "basement"
-msgstr ""
-
-#: .\overmap\sky_marshal_overmap_terrain.json
-msgid "farm house roof"
-msgstr ""
-
-#: .\overmap\sky_marshal_overmap_terrain.json
-msgid "farm house 2nd floor"
-msgstr ""
-
-#: .\overmap\sky_marshal_overmap_terrain.json
-msgid "carriage house"
-msgstr ""
-
-#: .\overmap\sky_marshal_overmap_terrain.json
-msgid "carriage house roof"
-msgstr ""
-
-#: .\overmap\sky_marshal_overmap_terrain.json
-msgid "horse stable"
-msgstr ""
-
-#: .\overmap\sky_marshal_overmap_terrain.json
-msgid "horse stable hayloft"
-msgstr ""
-
-#: .\overmap\sky_marshal_overmap_terrain.json
-msgid "horse stable roof"
-msgstr ""
-
-#: .\overmap\sky_marshal_overmap_terrain.json
-msgid "green house"
-msgstr ""
-
-#: .\overmap\sky_marshal_overmap_terrain.json
-msgid "green house roof"
-msgstr ""
-
-#: .\overmap\sky_marshal_overmap_terrain.json
-msgid "chicken coop"
-msgstr ""
-
-#: .\overmap\sky_marshal_overmap_terrain.json
-msgid "chicken coop roof"
-msgstr ""
-
-#: .\overmap\sky_marshal_overmap_terrain.json
-msgid "abandoned storefront"
-msgstr ""
-
-#: .\overmap\sky_marshal_overmap_terrain.json
-msgid "abandoned storefront roof"
+#. ~ Description for {'str': 'Team Leader'}
+#: .\mutations\traits.json
+msgid "NPC trait used for base building.  It is a bug if you have it."
 msgstr ""
 
 #: .\snippets\epilogue_factions.json
@@ -6185,9 +6245,9 @@ msgstr ""
 
 #: .\snippets\epilogue_factions.json
 msgid ""
-"    Locked in an endless battle, the Maquis was forced fall back to handful "
-"of fortified bases along the coast.  Without the men or material to rebuild,"
-" any humans that remained lost all hope…"
+"    Locked in an endless battle against a variety of alien force, the Maquis"
+" was forced fall back to handful of fortified bases.  Continuous attrition "
+"and bad luck caused the Maquis to die a slow and inevitable death…"
 msgstr ""
 
 #: .\snippets\epilogue_factions.json
@@ -6202,9 +6262,9 @@ msgstr ""
 
 #: .\snippets\epilogue_factions.json
 msgid ""
-"    Agaist all odds, humanity began to push back against its foes, and as "
-"they steadily gained ground on all fronts they found something thought lost "
-"forever: Hope for the future…"
+"    Agaist all odds, humanity has begun to push back against its foes, and "
+"as they steadily gained ground on all fronts they found something thought "
+"lost forever: Hope for the future…"
 msgstr ""
 
 #: .\snippets\radio.json
@@ -6318,6 +6378,10 @@ msgstr ""
 msgid ""
 "a horrifying sound that can only be described as several hundred crying "
 "babies."
+msgstr ""
+
+#: .\vehicles\go_kart.json
+msgid "Go kart"
 msgstr ""
 
 #: .\vehicles\helicopter.json
