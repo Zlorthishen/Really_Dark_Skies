@@ -119,28 +119,37 @@
       "rows": [
         "vvvvvvvvvvvvvvvvvvvvvvvv",
         "vvvvvvvvvvvvvvvvvvvvvvvv",
-        "vvvvvvvvvvvvvvvvvvvvvvvv",
-        "vvvvvvvvvvvvvvvvvvvvvvvv",
-        "vvvvvvvvvvvvvvvvvvvvvvvv",
-        "vvvvvvvvvvvvvvvvvvvvvvvv",
-        "vvvv|||||vvvvvvvvvvvvvvv",
-        "vvvv|PPi||vvvvvvvvvvvvvv",
-        "vvv||>  <|vvvvvvvvvvvvvv",
-        "vvv||     vvvvvv||vvvvvv",
-        "vvv|P  P||vvvvvv||vvvvvv",
-        "vvv||  ||vvvvvvvvvvvvvvv",
-        "vvvvvvvvvvvvvvvvvvvvvvvv",
-        "vvvvvvvvvvvvvvvvvvvvvvvv",
-        "vvvvvvvvvvvvvvvvvvvvvvvv",
-        "vvvvvvvvvvvvvvvvvvvvvvvv",
-        "vvvvvvvvvvvvvvvvvvvvvvvv",
-        "vvvvvvvvvvvvvvvvvvvvvvvv",
-        "vvvvvvvvvvvvvvvvvvvvvvvv",
-        "vvvvvvvvvvvvvvvvvvvvvvvv",
-        "vvvvvvvvvvvvvvvvvvvvvvvv",
-        "vvvvvvvvvvvvvvvvvvvvvvvv",
-        "vvvvvvvvvvvvvvvvvvvvvvvv",
-        "vvvvvvvvvvvvvvvvvvvvvvvv"	  
+        "vvv||vvvv|vv|vvv|vvvvvvv",
+        "vv|||vvv|||||||||||vvv|v",
+        "vv||vvv|||       ||||v|v",
+        "vvvvvv||            ||||",
+        "vvvv||||                ",
+        "vvvv|PP                 ",
+        "vv|||>                  ",
+        "vvv||                   ",
+        "vv||P                   ",
+        "vvv||                   ",
+        "vv||                    ",
+        "vvv|    >               ",
+        "vv||                 |#|",
+        "vvv||             ||||1|",
+        "vvvv|      ||  ||||iF|#|",
+        "vvvv|      ||  |v       ",
+        "vvv||7         |F       ",
+        "vvvv|        T ||       ",
+        "vvvv||          |       ",
+        "vvvvv|       T  +       ",
+        "vvv|||         ||       ",
+        "vvvvv|       |+|&       "	  
+      ],
+      "npcs": { "1": { "class": "mi-go_prisoner" } },	  	  
+      "place_monsters": [
+        { "monster": "GROUP_MI-GO_BASE_CAPTORS", "x": [ 20, 22 ], "y": [ 20, 22 ], "density": 0.01, "repeat": [ 2, 3 ] }
+      ],
+
+      "place_nested": [
+        { "chunks": [ "mi-go_outpost1_room20" ], "x": 17, "y": 17 },
+        { "chunks": [ "mi-go_outpost1_room7" ], "x": 5, "y": 17 }
       ],
       "palettes": [ "mi-go_pal" ]
     }
@@ -156,17 +165,17 @@
         "vvvvvvvvvvvvvvvvvvvvvvvv",
         "vvvvvvvvvvvvvvvvvvvvvvvv",
         "vvvvvvvvvvvvvvvvvvvvvvvv",
-        "vvvvvvvvvvvvvvvvvvvvvvvv",
+        "vvv|vvvvvvvvvvvvvvvvvvvv",
         "vvvvvvvvvvvvvvvvvvvvvvvv",
         "vvvvvvvvvvvvvvvvvvvvvvvv",
         "vvvv|||||vvvvvvvvvvvvvvv",
         "vvv||OOO||vvvppppvvvvvvv",
-        "vv||&   >|vpp,,,,,,Fvvvv",
-        "vv|P i  i|vp,,,,,,,,,vvv",
-        "vv|P   |||p,,,,,,,,,,,vv",
+        "vv||&    |vpp,,,,,,Fvvvv",
+        "vv|P i   |vp,,,,,,,,,vvv",
+        "vv|P   | |p,,,,,,,,,,,vv",
         "vv|P   + ,,,,,,,,,,,,,vv",
         "vv|||O + ,,,,,,,,,,,,,vv",
-        "vvvv||||||p,,,,,,,,,,vvv",
+        "vvvv||||>|p,,,,,,,,,,vvv",
         "vvvvvvvvvvppp,,,,,,Fvvvv",
         "vvvvvvvvvvvvvvvvvvvvvvvv",
         "vvvvvvvvvvvvvvvvvvvvvvvv",
@@ -332,7 +341,7 @@
       "mapgensize": [ 7, 7 ],
       "rotation": [ 0, 3 ],
       "rows": [
-        ".|||||@",
+        "@|||||@",
         "||P  P@",
         "+     @",
         "| F&  @",
@@ -352,13 +361,13 @@
       "mapgensize": [ 8, 8 ],
       "rotation": [ 0, 3 ],
       "rows": [
-        ".|+|||||",
+        "@|+|||||",
         "||    ||",
         "|T  i  |",
         "|i  &i |",
         "|T     +",
-        "||PPPP||",
-        ".|||||||",
+        "||PPOP||",
+        "@|||||||",
         "@@@@@@@@"
       ],
       "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_COMMON", "x": [ 2, 5 ], "y": [ 1, 4 ], "density": 0.01, "repeat": [ 0, 3 ] } ],
@@ -373,13 +382,34 @@
       "mapgensize": [ 8, 8 ],
       "rotation": [ 0, 3 ],
       "rows": [
-        ".|+|||||",
+        "@|+|||||",
         "||    T|",
         "|T    f|",
         "|i i&  |",
         "|T  i  +",
-        "||PPPP||",
-        ".|||||||",
+        "||POPP||",
+        "@|||||||",
+        "@@@@@@@@"
+      ],
+      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_COMMON", "x": [ 2, 5 ], "y": [ 1, 4 ], "density": 0.01, "repeat": [ 0, 3 ] } ],
+      "palettes": [ "mi-go_palette" ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "mi-go_outpost1_room7",
+    "object": {
+      "mapgensize": [ 8, 8 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "@|+|||||",
+        "||   fT|",
+        "|T &i  |",
+        "|i i   |",
+        "|T     +",
+        "||POOP||",
+        "@|||||||",
         "@@@@@@@@"
       ],
       "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_COMMON", "x": [ 2, 5 ], "y": [ 1, 4 ], "density": 0.01, "repeat": [ 0, 3 ] } ],
@@ -469,7 +499,7 @@
         "|V  +@",
         "|   ||",
         "||i  |",
-        ".|||+|"
+        "@|||+|"
       ],
       "palettes": [ "mi-go_palette" ]
     }
@@ -547,13 +577,20 @@
       "mapgensize": [ 6, 6 ],
       "rotation": [ 0, 3 ],
       "rows": [
-        "@|||@@",
-        "|| +@@",
+        "@|#|@@",
+        "|# #@@",
         "|##|||",
         "|P   +",
         "|  P||",
         "|||||@"
       ],
+      "place_monster": [
+        {
+          "monster": [ "dkz_mon_lurker_sewer", "dkz_mon_lurker", "dkz_mon_mossliz", "dkz_mon_packliz", "dkz_mon_wisp" ],
+          "x": 2,
+          "y": 1
+        }
+	  ],		  
       "palettes": [ "mi-go_palette" ]
     }
   },
@@ -710,11 +747,11 @@
       "rotation": [ 0, 3 ],
       "rows": [
         "F T   P@",
-        "  ###  @",
+        "  |#|  @",
         " T#2#F @",
-        " ####  +",
+        " ||||  +",
         "T#1#V  +",
-        " ###F P@",
+        " |#|F P@",
         " T    P@",
         "@@@@++@@"
       ],
@@ -722,6 +759,7 @@
         "1": { "class": "mi-go_prisoner" },
         "2": { "class": "mi-go_prisoner" }
       },	  
+      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_CAPTORS", "x": [ 1, 2 ], "y": 2, "density": 0.01, "repeat": [ 1, 2 ] } ],
       "palettes": [ "mi-go_palette" ]
     }
   },  
@@ -735,17 +773,17 @@
       "rows": [
         " F F PP@",
         "T      @",
-        " F###T +",
-        "F## #  +",
+        " F|#|T +",
+        "F|| #  +",
         " #1 #  @",
-        " ####T @",
+        " |##|T @",
         "      P@",
         "@@@@++@@"
       ],
       "npcs": { "1": { "class": "mi-go_prisoner" } },	  
       "place_monster": [
         {
-          "monster": [ "dkz_mon_stray_child", "dkz_mon_stray", "dkz_mon_stray_creepler", "dkz_mon_crystal_mite", "dkz_mon_stray_heavy" , "dkz_mon_stray_big" ],
+          "monster": [ "dkz_mon_stray", "dkz_mon_stray_heavy" , "dkz_mon_stray_big" ],
           "x": 3,
           "y": 3
         }
@@ -763,17 +801,45 @@
       "rows": [
         "F F   P@",
         "    F P@",
-        "T####  +",
+        "T|##|  +",
         " #  #  +",
-        "T#1##F @",
-        " ###T  @",
+        "T#1||F @",
+        " |#|T  @",
         "      P@",
         "@@@@++@@"
       ],
       "npcs": { "1": { "class": "mi-go_prisoner" }  },
       "place_monster": [
         {
-          "monster": [ "dkz_mon_stray_child", "dkz_mon_stray", "dkz_mon_stray_creepler", "dkz_mon_crystal_mite", "dkz_mon_stray_heavy" , "dkz_mon_stray_big" ],
+          "monster": [ "dkz_mon_stray_child", "dkz_mon_stray", "dkz_mon_stray_creepler", "dkz_mon_crystal_mite" ],
+          "x": 3,
+          "y": 3
+        }
+	  ], 
+      "palettes": [ "mi-go_palette" ]
+    }
+  },    
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "mi-go_outpost1_room20",
+    "object": {
+      "mapgensize": [ 8, 8 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "F F   P@",
+        "    F P@",
+        " T|#|  +",
+        " || #  +",
+        "T#1 #F @",
+        " |##|  @",
+        "      P@",
+        "@@@@++@@"
+      ],
+      "npcs": { "1": { "class": "mi-go_prisoner" }  },
+      "place_monster": [
+        {
+          "monster": [ "mon_biollante", "dkz_mon_stray", "mon_triffid_young", "mon_triffid", "mon_triffid_flower" , "mon_fungal_fighter" ],
           "x": 3,
           "y": 3
         }
