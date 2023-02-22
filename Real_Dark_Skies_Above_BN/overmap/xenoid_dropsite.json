@@ -36,8 +36,8 @@
         "x": "t_pit_shallow",
         "R": "t_pit",
         "X": "t_pit",
-        "z": "t_dirt_barren",
-        "Z": "t_dirt_barren"
+        "z": "t_dirt",
+        "Z": "t_dirt"
       },
       "place_npcs": [
         { "class": "DKZ_QUISLING_THUG", "x": 13, "y": 13, "add_trait": "DKZ_QUISLING" },
@@ -92,8 +92,8 @@
         "x": "t_pit_shallow",
         "R": "t_pit",
         "X": "t_pit",
-        "z": "t_dirt_barren",
-        "Z": "t_dirt_barren"
+        "z": "t_dirt",
+        "Z": "t_dirt"
       },
       "place_npcs": [
         { "class": "DKZ_QUISLING_THUG", "x": 12, "y": 12, "add_trait": "DKZ_QUISLING" },
