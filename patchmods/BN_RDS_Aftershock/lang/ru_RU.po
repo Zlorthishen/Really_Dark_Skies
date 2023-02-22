@@ -1,0 +1,48 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: realdarkskies_aftershock_patchmod\n"
+"POT-Creation-Date: 2023-02-22 12:08+0600\n"
+"PO-Revision-Date: \n"
+"Last-Translator: CV514 <codename.dust@gmail.com>\n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#: .\TALK_Cyrust_Whately.json .\TALK_Millyficent_Whately.json
+msgid "What can you tell me about Xenoids?"
+msgstr "Что ты можешь рассказать мне о ксеноидах?"
+
+#: .\TALK_Cyrust_Whately.json .\TALK_Millyficent_Whately.json
+msgid "Can you tell me anything else about Xenoids?"
+msgstr "Что-нибудь ещё можешь о ксеноидах рассказать?"
+
+#: .\TALK_Cyrust_Whately.json .\TALK_Millyficent_Whately.json
+msgid "What can you tell me about Mi-Gos?"
+msgstr "Что ты можешь рассказать мне о Ми-го?"
+
+#: .\TALK_Cyrust_Whately.json .\TALK_Millyficent_Whately.json
+msgid "Can you tell me anything else about Mi-Gos?"
+msgstr "Что-нибудь ещё можешь рассказать о Ми-го?"
+
+#: .\TALK_Cyrust_Whately.json .\TALK_Millyficent_Whately.json
+msgid "What do you want to know about them?"
+msgstr "Что ты хочешь о них знать?"
+
+#: .\TALK_Cyrust_Whately.json .\TALK_Millyficent_Whately.json
+msgid "I know what you mean."
+msgstr "Понимаю, о чём ты."
+
+#: .\modinfo.json
+msgid "<color_light_blue>Really Dark Skies</color> plus Aftershock"
+msgstr "<color_light_blue>Реально Тёмные Небеса</color> плюс Aftershock"
+
+#. ~ Description for <color_light_blue>Really Dark Skies</color> plus
+#. Aftershock
+#: .\modinfo.json
+msgid "A patchmod for Really Dark Skies which adds increased support for Aftershock"
+msgstr "Патч-мод, усиливающий совместимость модификации \"Реально Тёмные Небеса\" с модом Aftershock"
