@@ -1,0 +1,34 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: realdarkskies_faction_alterations\n"
+"POT-Creation-Date: 2023-02-22 12:17+0600\n"
+"PO-Revision-Date: \n"
+"Last-Translator: CV514 <codename.dust@gmail.com>\n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#: .\modinfo.json
+msgid "<color_light_blue>Really Dark Skies</color> unfun faction alterations"
+msgstr ""
+"<color_light_blue>Реально Тёмные Небеса</color> со скучными фракциями"
+
+#. ~ Description for <color_light_blue>Really Dark Skies</color> unfun faction
+#. alterations
+#: .\modinfo.json
+msgid ""
+"A patchmod for Really Dark Skies which changes the standard zombies to be "
+"friendly with the Xenoids."
+msgstr ""
+"Патч-мод для модификации \"Реально Тёмные Небеса\", меняющий отношение "
+"фракции обычных зомби на более дружественные по отношению к ксеноидам. \n"
+"\n"
+"Изменяемый баланс не предусмотрен автором. Эта модификация в основном "
+"нужна для legacy-поддержки, и для тех, кому нравится такое изменение.\n"
+"Так же она может быть полезна игрокам со слабыми компьютерами."
