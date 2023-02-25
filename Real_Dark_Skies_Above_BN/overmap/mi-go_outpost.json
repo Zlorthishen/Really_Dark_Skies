@@ -16,6 +16,8 @@
       "9": "t_floor_resin",
       "a": "t_floor_resin",
       " ": "t_floor_resin",
+      "n": "t_floor_resin",
+      "N": "t_floor_resin",
       ",": "t_platform_resin",
       "|": "t_wall_resin",
       "#": "t_wall_resin_cage",
@@ -32,6 +34,7 @@
     "furniture": {
       "i": "f_alien_tendril",
       "n": "f_alien_table",
+      "N": "f_alien_table",
       "V": "f_alien_anemone",
       "&": "f_alien_gasper",
       "^": "f_alien_nerve",
@@ -43,7 +46,7 @@
       "p": [ [ "f_alien_pod", 5 ], [ "f_alien_pod_organ", 2 ], "f_alien_pod_resin" ],
       "O": "f_alien_pod_resin"
     },
-    "items": { "n": [ { "item": "migo_table_study", "chance": 50, "repeat": 2 }, { "item": "migo_table_corpses", "chance": 50 } ] }
+    "items": { "n": [ { "item": "migo_table_study", "chance": 50, "repeat": 2 }, { "item": "migo_table_corpses", "chance": 50 } ], "N": [ { "item": "migo_table_study", "chance": 5 }, { "item": "migo_table_corpses", "chance": 95 } ] }
   },
   {
     "type": "mapgen",
@@ -68,16 +71,16 @@
         "|   7  |   8  ||    9     9a |        |        |",
         "|      +     |||             +        |        |",
         "||    ||   |+| |||          ||        |        |",
-        ".|||||||| ||12   |||      |||&        |        |",
-        ".|F||||||||        ||||+||| +         |        |",
-        ".+ |||11  ||      ||    ||  ||||+||||||        |",
+        ".||||#||| ||12   |||      |||&        |        |",
+        ".|F|| |||||        ||||+||| +         |        |",
+        ".+ ||#11  ||      ||    ||  ||||+||||||        |",
         ".||||      +      |      | 14 |  F| T ||||||||||",
-        "||10|   &  |+||   +  13  +    |i F|   VnnnnV    ",
+        "||10|   &  |+||   +  13  +    |i F|   VnNNnV    ",
         "|&  +      |15|||||      ||||||| ||   T      T i",
-        "|   ||    ||      ||    || F||    |P P   i  i   ",
-        "||   ||||+|||    |||||||||+|||18       T       x",
-        ".|||+|.||16 ||||||..||.||..|||        i  T i  xX",
-        "........|||+|.||............||    |VnnnnV    xXX"
+        "|   ||    ||      ||    || F||    |P P    i     ",
+        "||   ||||+|||    |||||||||+|||18       T    i & ",
+        ".|||+|.||16 ||||||..||.||..|||        i  T i    ",
+        "........|||+|.||............||    |V    V    & ^"
       ],
       "palettes": [ "mi-go_pal" ],
       "place_monsters": [
@@ -122,33 +125,31 @@
         "vvv||vvvv|vv|vvv|vvvvvvv",
         "vv|||vvv|||||||||||vvv|v",
         "vv||vvv|||       ||||v|v",
-        "vvvvvv||            ||||",
+        "vvvvvv||           |||||",
         "vvvv||||                ",
         "vvvv|PP                 ",
         "vv|||>                  ",
         "vvv||                   ",
-        "vv||P                   ",
-        "vvv||                   ",
-        "vv||                    ",
-        "vvv|    >               ",
-        "vv||                 |#|",
-        "vvv||             ||||1|",
-        "vvvv|      ||  ||||iF|#|",
-        "vvvv|      ||  |v       ",
-        "vvv||7         |F       ",
+        "vv||P              ||   ",
+        "vvv||               |   ",
+        "vv||                |   ",
+        "vvv|    >           +   ",
+        "vv||                |   ",
+        "vvv||           P||||  |",
+        "vvvv|      ||  |||Pi||+|",
+        "vvvv|          |T       ",
+        "vvv||          |F       ",
         "vvvv|        T ||       ",
-        "vvvv||          |       ",
+        "vvvv||         P|       ",
         "vvvvv|       T  +       ",
         "vvv|||         ||       ",
-        "vvvvv|       |+|&       "	  
+        "vvvvv|       |+|^       "	  
       ],
-      "npcs": { "1": { "class": "mi-go_prisoner" } },	  	  
-      "place_monsters": [
-        { "monster": "GROUP_MI-GO_BASE_CAPTORS", "x": [ 20, 22 ], "y": [ 20, 22 ], "density": 0.01, "repeat": [ 2, 3 ] }
-      ],
-
+      "npcs": { "1": { "class": "mi-go_prisoner" } },	
       "place_nested": [
-        { "chunks": [ "mi-go_outpost1_room20" ], "x": 17, "y": 17 },
+        { "chunks": [ "mi-go_outpost1_room17" ], "x": 21, "y": 6 },
+        { "chunks": [ "mi-go_outpost1_room17" ], "x": 21, "y": 10 },
+        { "chunks": [ "mi-go_outpost1_room21" ], "x": 17, "y": 17 },
         { "chunks": [ "mi-go_outpost1_room7" ], "x": 5, "y": 17 }
       ],
       "palettes": [ "mi-go_pal" ]
@@ -206,7 +207,7 @@
         ".| ||@@",
         ".|+||@@"
       ],
-      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_COMMON", "x": [ 2, 3 ], "y": [ 1, 4 ], "density": 0.02, "repeat": [ 0, 2 ] } ],
+      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_COMMON", "x": [ 2, 3 ], "y": [ 1, 4 ], "density": 0.05, "repeat": [ 0, 2 ] } ],
       "palettes": [ "mi-go_palette" ]
     }
   },
@@ -226,7 +227,7 @@
         ".| ||@@",
         ".|+||@@"
       ],
-      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_COMMON", "x": [ 2, 3 ], "y": [ 1, 4 ], "density": 0.02, "repeat": [ 0, 2 ] } ],
+      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_COMMON", "x": [ 2, 3 ], "y": [ 1, 4 ], "density": 0.05, "repeat": [ 0, 2 ] } ],
       "palettes": [ "mi-go_palette" ]
     }
   },
@@ -247,7 +248,7 @@
         "|||||||@",
         "@@@@@@@@"
       ],
-      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_COMMON", "x": [ 1, 6 ], "y": [ 2, 4 ], "density": 0.01, "repeat": [ 1, 3 ] } ],
+      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_COMMON", "x": [ 1, 6 ], "y": [ 2, 4 ], "density": 0.03, "repeat": [ 1, 3 ] } ],
       "palettes": [ "mi-go_palette" ]
     }
   },
@@ -268,7 +269,7 @@
         "|||||||@",
         "@@@@@@@@"
       ],
-      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_COMMON", "x": [ 1, 6 ], "y": [ 2, 4 ], "density": 0.01, "repeat": [ 1, 3 ] } ],
+      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_COMMON", "x": [ 1, 6 ], "y": [ 2, 4 ], "density": 0.03, "repeat": [ 1, 3 ] } ],
       "palettes": [ "mi-go_palette" ]
     }
   },
@@ -289,7 +290,7 @@
         "@@@@@@@@",
         "@@@@@@@@"
       ],
-      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_CAPTORS", "x": [ 1, 6 ], "y": 2, "density": 0.01, "repeat": [ 1, 2 ] } ],
+      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_CAPTORS", "x": [ 1, 6 ], "y": 2, "density": 0.03, "repeat": [ 1, 2 ] } ],
       "palettes": [ "mi-go_palette" ]
     }
   },
@@ -309,7 +310,7 @@
         "@@@@@@@",
         "@@@@@@@"
       ],  
-      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_COMMON", "x": [ 2, 5 ], "y": [ 1, 5 ], "density": 0.02, "repeat": [ 1, 3 ] } ],	  
+      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_COMMON", "x": [ 2, 5 ], "y": [ 1, 5 ], "density": 0.05, "repeat": [ 1, 3 ] } ],	  
       "palettes": [ "mi-go_palette" ]
     }
   },
@@ -329,7 +330,7 @@
         "||   i@",
         "@|+|||@"
       ],
-      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_COMMON", "x": [ 2, 5 ], "y": [ 1, 5 ], "density": 0.02, "repeat": [ 1, 3 ] } ],
+      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_COMMON", "x": [ 2, 5 ], "y": [ 1, 5 ], "density": 0.05, "repeat": [ 1, 3 ] } ],
       "palettes": [ "mi-go_palette" ]
     }
   },
@@ -349,7 +350,7 @@
         "||  ii@",
         "@|+|||@"
       ],
-      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_COMMON", "x": [ 2, 5 ], "y": [ 1, 5 ], "density": 0.02, "repeat": [ 1, 3 ] } ],
+      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_COMMON", "x": [ 2, 5 ], "y": [ 1, 5 ], "density": 0.05, "repeat": [ 1, 3 ] } ],
       "palettes": [ "mi-go_palette" ]
     }
   },
@@ -370,7 +371,7 @@
         "@|||||||",
         "@@@@@@@@"
       ],
-      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_COMMON", "x": [ 2, 5 ], "y": [ 1, 4 ], "density": 0.01, "repeat": [ 0, 3 ] } ],
+      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_COMMON", "x": [ 2, 5 ], "y": [ 1, 4 ], "density": 0.03, "repeat": [ 0, 3 ] } ],
       "palettes": [ "mi-go_palette" ]
     }
   },
@@ -385,13 +386,13 @@
         "@|+|||||",
         "||    T|",
         "|T    f|",
-        "|i i&  |",
-        "|T  i  +",
+        "|i i&  +",
+        "|T  i  |",
         "||POPP||",
         "@|||||||",
         "@@@@@@@@"
       ],
-      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_COMMON", "x": [ 2, 5 ], "y": [ 1, 4 ], "density": 0.01, "repeat": [ 0, 3 ] } ],
+      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_COMMON", "x": [ 2, 5 ], "y": [ 1, 4 ], "density": 0.03, "repeat": [ 0, 3 ] } ],
       "palettes": [ "mi-go_palette" ]
     }
   },
@@ -405,14 +406,14 @@
       "rows": [
         "@|+|||||",
         "||   fT|",
-        "|T &i  |",
+        "|T &i  +",
         "|i i   |",
-        "|T     +",
+        "|T     |",
         "||POOP||",
         "@|||||||",
         "@@@@@@@@"
       ],
-      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_COMMON", "x": [ 2, 5 ], "y": [ 1, 4 ], "density": 0.01, "repeat": [ 0, 3 ] } ],
+      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_COMMON", "x": [ 2, 5 ], "y": [ 1, 4 ], "density": 0.03, "repeat": [ 0, 3 ] } ],
       "palettes": [ "mi-go_palette" ]
     }
   },
@@ -434,7 +435,7 @@
         "||i||@@@"
       ],
       "place_monsters": [
-        { "monster": "GROUP_MI-GO_BASE_CAPTORS", "x": [ 2, 4 ], "y": [ 2, 5 ], "density": 0.01, "repeat": [ 1, 2 ] }
+        { "monster": "GROUP_MI-GO_BASE_CAPTORS", "x": [ 2, 4 ], "y": [ 2, 5 ], "density": 0.03, "repeat": [ 1, 2 ] }
       ],
       "palettes": [ "mi-go_palette" ]
     }
@@ -458,7 +459,7 @@
         "@@|||T V ",
         "@@@@||||+"
       ],
-      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_COMMON", "x": [ 1, 8 ], "y": [ 3, 5 ], "density": 0.01, "repeat": [ 0, 2 ] } ],
+      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_COMMON", "x": [ 1, 8 ], "y": [ 3, 5 ], "density": 0.03, "repeat": [ 0, 2 ] } ],
       "palettes": [ "mi-go_palette" ]
     }
   },
@@ -481,7 +482,7 @@
         "P&|||@@@@",
         "|||@+@@@@"
       ],
-      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_COMMON", "x": [ 0, 3 ], "y": [ 2, 5 ], "density": 0.01, "repeat": [ 0, 2 ] } ],
+      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_COMMON", "x": [ 0, 3 ], "y": [ 2, 5 ], "density": 0.03, "repeat": [ 0, 2 ] } ],
       "palettes": [ "mi-go_palette" ]
     }
   },
@@ -521,7 +522,7 @@
         "@||||+||",
         "@@@@@@@@"
       ],
-      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_COMMON", "x": [ 1, 3 ], "y": [ 2, 5 ], "density": 0.01, "repeat": [ 0, 2 ] } ],
+      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_COMMON", "x": [ 1, 3 ], "y": [ 2, 5 ], "density": 0.03, "repeat": [ 0, 2 ] } ],
       "palettes": [ "mi-go_palette" ]
     }
   },
@@ -544,7 +545,7 @@
         "@@@@@@@@@@",
         "@@@@@@@@@@"
       ],
-      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_COMMON", "x": [ 2, 6 ], "y": [ 1, 4 ], "density": 0.01, "repeat": [ 0, 1 ] } ],
+      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_COMMON", "x": [ 2, 6 ], "y": [ 1, 4 ], "density": 0.03, "repeat": [ 0, 1 ] } ],
       "palettes": [ "mi-go_palette" ]
     }
   },
@@ -637,16 +638,16 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "mi-go_outpost1_room17",
-    "//": "Right side entrance",
     "object": {
       "mapgensize": [ 4, 4 ],
       "rotation": [ 0, 3 ],
       "rows": [
         "||||",
-        "   +",
+        " T +",
         "i  |",
         " PP|"
       ],
+      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_CAPTORS", "x": [ 2, 3 ], "y": [ 2, 3 ], "density": 0.03 } ],	  	  
       "palettes": [ "mi-go_palette" ]
     }
   },
@@ -654,16 +655,16 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "mi-go_outpost1_room17",
-    "//": "Right side entrance",
     "object": {
       "mapgensize": [ 4, 4 ],
       "rotation": [ 0, 3 ],
       "rows": [
         "||||",
-        "   |",
+        "T  |",
         " i +",
         "P P|"
       ],
+      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_CAPTORS", "x": [ 2, 3 ], "y": [ 2, 3 ], "density": 0.03 } ],	  
       "palettes": [ "mi-go_palette" ]
     }
   },
@@ -681,7 +682,7 @@
         "|P i|",
         "||+||"
       ],
-      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_CAPTORS", "x": [ 1, 4 ], "y": [ 1, 4 ], "density": 0.01, "repeat": [ 1, 3 ] } ],
+      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_CAPTORS", "x": [ 1, 4 ], "y": [ 1, 4 ], "density": 0.03, "repeat": [ 1, 3 ] } ],
       "palettes": [ "mi-go_palette" ]
     }
   },  
@@ -699,7 +700,7 @@
         "|P P|",
         "||+||"
       ],
-      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_CAPTORS", "x": [ 1, 4 ], "y": [ 1, 4 ], "density": 0.01, "repeat": [ 1, 3 ] } ],
+      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_CAPTORS", "x": [ 1, 4 ], "y": [ 1, 4 ], "density": 0.03, "repeat": [ 1, 3 ] } ],
       "palettes": [ "mi-go_palette" ]
     }
   },  
@@ -759,7 +760,7 @@
         "1": { "class": "mi-go_prisoner" },
         "2": { "class": "mi-go_prisoner" }
       },	  
-      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_CAPTORS", "x": [ 1, 2 ], "y": 2, "density": 0.01, "repeat": [ 1, 2 ] } ],
+      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_CAPTORS", "x": [ 1, 2 ], "y": 2, "density": 0.03, "repeat": [ 1, 2 ] } ],
       "palettes": [ "mi-go_palette" ]
     }
   },  
@@ -842,6 +843,70 @@
           "monster": [ "mon_biollante", "dkz_mon_stray", "mon_triffid_young", "mon_triffid", "mon_triffid_flower" , "mon_fungal_fighter" ],
           "x": 3,
           "y": 3
+        }
+	  ], 
+      "palettes": [ "mi-go_palette" ]
+    }
+  },     
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "mi-go_outpost1_room21",
+    "object": {
+      "mapgensize": [ 7, 7],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "F F   P",
+        "    F P",
+        " |##|| ",
+        " |  1# ",
+        "T#1  # ",
+        " |##|| ",
+        "    P  "
+      ],
+      "npcs": { "1": { "class": "mi-go_prisoner" }  },
+      "place_monster": [
+        {
+          "monster": [  "dkz_mon_stray", "mon_triffid", "mon_triffid_flower" , "mon_fungal_fighter", "dkz_mon_stray", "dkz_mon_stray_heavy" , "dkz_mon_stray_big"  ],
+          "x": 3,
+          "y": 3
+        },  
+		{
+          "monster": [  "dkz_mon_stray", "mon_triffid", "mon_triffid_flower" , "mon_fungal_fighter", "dkz_mon_stray", "dkz_mon_stray_heavy" , "dkz_mon_stray_big"  ],
+          "x": 3,
+          "y": 4
+        }
+	  ], 
+      "palettes": [ "mi-go_palette" ]
+    }
+  },       
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "mi-go_outpost1_room21",
+    "object": {
+      "mapgensize": [ 7, 7],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "F F   P",
+        "    F P",
+        " ||##| ",
+        " #  1| ",
+        "T|1 || ",
+        " |###  ",
+        "  P    "
+      ],
+      "npcs": { "1": { "class": "mi-go_prisoner" }  },
+      "place_monster": [
+        {
+          "monster": [  "dkz_mon_stray", "mon_triffid", "mon_triffid_flower" , "mon_fungal_fighter", "dkz_mon_stray", "dkz_mon_stray_heavy" , "dkz_mon_stray_big"  ],
+          "x": 3,
+          "y": 3
+        },
+		{
+          "monster": [  "dkz_mon_stray", "mon_triffid", "mon_triffid_flower" , "mon_fungal_fighter", "dkz_mon_stray", "dkz_mon_stray_heavy" , "dkz_mon_stray_big"  ],
+          "x": 3,
+          "y": 4
         }
 	  ], 
       "palettes": [ "mi-go_palette" ]
