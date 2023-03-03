@@ -197,7 +197,7 @@
         "vvvvvvtvv|              "
       ],
       "place_nested": [
-        { "chunks": [ "mi-go_outpost1_room18" ], "x": 16, "y": 16 }
+        { "chunks": [ "mi-go_outpost1_room17" ], "x": 12, "y": 16 }
       ],	  
       "palettes": [ "mi-go_pal" ]
     }
@@ -221,26 +221,20 @@
         "vvvvvvvvvvvvvvvvvvvvvvvv",
         "vvvvvvvvvvvvvvvvvvvvvvvv",
         "vvvvvvvvvvvvvvvvvvvvvvvv",
-        "vvvvvvvvvvvvvvtvvvvvvvvv",
-        "vvvvvvvvvvvvvvvvvvfvvvvv",
-        "vvvvvvvvvvvtvvvvvvvvvvvv",
         "vvvvvvvvvvvvvvvvvvvvvvvv",
-        "vvvvvvvvvvvvvvfvvvvvvvvv",
-        "vvvvvvvvvtvvvvvvvvvvvvvv",
         "vvvvvvvvvvvvvvvvvvvvvvvv",
-        "vvvvvvvvvvvfvvvvvvvvvvvv",
         "vvvvvvvvvvvvvvvvvvvvvvvv",
-        "vvvvvvvtvvvvvvvvvvvvvvvv",
+        "vvvvvvvvvvvvvvvvvvvvvvvv",
+        "vvvvvvvvvvvvvvvvvvvvvvvv",
+        "vvvvvvvvvvvvvvvvvvvvvvvv",
+        "vvvvvvvvvvvvvvvvvvvvvvvv",
+        "vvvvvvvvvvvvvvvvvvvvvvvv",
+        "vvvvvvvvvvvvvvvvvvvvvvvv",
+        "vvvvvvvvvvvvvvvvvvvvvvvv",
         "vvvvvvvvvvvvvvvvvvvvvvvv",
         "vvvvvvvvvvvvvvvvvvvvvvvv",
         "vvvvvvvvvvvvvvvvvvvvvvvv"
 		],
-      "place_nested": [
-        { "chunks": [ "mi-go_outpost1_roof" ], "x": 16, "y": 16 },
-        { "chunks": [ "mi-go_outpost1_roof" ], "x": 8, "y": 16 },
-        { "chunks": [ "mi-go_outpost1_roof" ], "x": 16, "y": 8 },
-        { "chunks": [ "mi-go_outpost1_roof" ], "x": 8, "y": 8 }
-      ],
       "palettes": [ "mi-go_pal" ]
     }
   },
@@ -276,49 +270,8 @@
         "vvvvvvvvv::f::::::::::::",
         "vvvvvvvvv:::::::::::::::",
         "vvvvvvvvv:::::::::::::::"
-      ],	 
-      "place_nested": [
-        { "chunks": [ "mi-go_outpost1_roof" ], "x": 16, "y": 16 }
-      ],	  
+      ],	 	  
       "palettes": [ "mi-go_pal" ]
-    }
-  },
-  {
-    "type": "mapgen",
-    "method": "json",
-    "nested_mapgen_id": "mi-go_outpost1_roof",
-    "object": {
-      "mapgensize": [ 7, 7 ],
-      "rotation": [ 0, 3 ],
-      "rows": [
-        "t@@@t@@",
-        "@@f@@@@",
-        "@@@@t@@",
-        "@@f@@f@",
-        "@@@@@@@",
-        "@@f@@t@",
-        "@t@@@@@"
-      ],
-      "palettes": [ "mi-go_palette" ]
-    }
-  },
-  {
-    "type": "mapgen",
-    "method": "json",
-    "nested_mapgen_id": "mi-go_outpost1_roof",
-    "object": {
-      "mapgensize": [ 7, 7 ],
-      "rotation": [ 0, 3 ],
-      "rows": [
-        "@t@@@f@",
-        "@@f@@@@",
-        "@@@@t@@",
-        "f@@@@@@",
-        "@@t@@t@",
-        "@@@@@f@",
-        "@f@@f@@"
-      ],
-      "palettes": [ "mi-go_palette" ]
     }
   },
   {
