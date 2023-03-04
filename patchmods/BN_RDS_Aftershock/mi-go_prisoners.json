@@ -10,8 +10,9 @@
     "carry_override": "naked_prisoner",
     "weapon_override": "naked_prisoner",	
     "traits": [
-      { "group": "BG_survival_story_EVACUEE" },
-      { "distribution": [ { "trait": "mouth_TENDRILS", "prob": 80 }, { "trait": "FACIAL_TENTACLES", "prob": 20 } ] },
+      { "group": "NPC_starting_traits" }, 
+	  { "group": "Appearance_demographics" },
+      { "distribution": [ { "trait": "mouth_TENDRILS", "prob": 30 }, { "trait": "FACIAL_TENTACLES", "prob": 10 } ] },
       { "trait": "WARM_NATURED", "prob": 30 },
       { "trait": "MIGO_HEAT_RESIST", "prob": 25 },
       { "trait": "MIGO_EARS", "prob": 15 },
