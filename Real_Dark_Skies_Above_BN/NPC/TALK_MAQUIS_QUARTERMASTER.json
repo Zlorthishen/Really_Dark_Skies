@@ -453,15 +453,12 @@
       {
         "text": "Ok, lets begin.",
         "effect": [
-          {
-            "mapgen_update": "dkz_base_build_medical_1",
-            "om_terrain": "racing_tower_z0_3_3"
-          },	          {
-            "mapgen_update": "dkz_base_build_medical_1",
-            "om_terrain": "racing_tower_z0_4_3"
-          },		
-          { "npc_add_effect": "dkz_base_build_medical", "duration": 60000 },
-          { "u_add_effect": "dkz_base_build_started", "duration": 60000 }
+          { "mapgen_update": "dkz_base_build_medical_1", "om_terrain": "racing_tower_z0_3_3" },
+          { "mapgen_update": "dkz_base_build_medical_1", "om_terrain": "racing_tower_z0_4_3" },	  
+          { "npc_add_effect": "dkz_base_build_medical" },
+          { "npc_add_effect": "dkz_base_build_started" },
+          { "u_add_effect": "dkz_base_build_started", "duration": 600 },
+          { "u_add_effect": "dkz_base_build_medical" }
         ],
         "topic": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_COMMENCE"
       },
