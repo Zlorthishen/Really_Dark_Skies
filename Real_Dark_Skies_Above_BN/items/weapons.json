@@ -128,7 +128,7 @@
     "type": "ARMOR",
     "category": "weapons",
     "material": [ "dkz_biopoly_mat" ],
-    "name": { "str": "salvaged xenoid armlet gun" },
+    "name": { "str": "salvaged xenoid forearm gun" },
     "flags": [ "TRADER_AVOID" ],
     "description": "This strange copper-colored alien plastic arm band has two very small tubes coming off the 'top', while the 'bottom' has five different button-like impressions arraigned in a circle.  It is has repeating hieroglyphs etched across its entire surface, but the device to have had a dead-man's switch and is completely busted."
   }
