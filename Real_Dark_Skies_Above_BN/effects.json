@@ -61,5 +61,35 @@
     "id": "dkz__base_build_leadership",
     "//": "This marks a player as focusing on leadership aspects in base building at Barter Tower.",
     "show_in_info": false
+  },
+  {
+    "type": "effect_type",
+    "id": "dkz_base_build_combat_done",
+    "//": "This marks a player as having finished combat aspects in base building at Barter Tower.",
+    "show_in_info": false
+  },
+  {
+    "type": "effect_type",
+    "id": "dkz__base_build_technical_done",
+    "//": "This marks a player as having finished technical aspects in base building at Barter Tower.",
+    "show_in_info": false
+  },
+  {
+    "type": "effect_type",
+    "id": "dkz_base_build_medical_done",
+    "//": "This marks a player as having finished medical aspects in base building at Barter Tower.",
+    "show_in_info": false
+  },
+  {
+    "type": "effect_type",
+    "id": "dkz_base_build_science_done",
+    "//": "This marks a player as having finished scientific aspects in base building at Barter Tower.",
+    "show_in_info": false
+  },
+  {
+    "type": "effect_type",
+    "id": "dkz__base_build_leadership_done",
+    "//": "This marks a player as having finished leadership aspects in base building at Barter Tower.",
+    "show_in_info": false
   }
 ]
