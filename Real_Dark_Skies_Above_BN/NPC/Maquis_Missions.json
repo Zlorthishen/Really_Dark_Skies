@@ -16,7 +16,7 @@
       "assign_mission_target": {
         "om_terrain": "racing_tower_z7_4_1",
         "om_special": "arcology_racing",
-        "search_range": 555,
+        "search_range": 333,
         "random": true,
         "min_distance": 88
       },

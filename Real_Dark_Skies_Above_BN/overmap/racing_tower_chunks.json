@@ -143,7 +143,6 @@
       ],
       "terrain": { " ": "t_null" },
       "furniture": { "-": "f_camp_chair", "b": "f_lab_bench", "B": "f_shaker" },
-      "place_npcs": [ { "class": "DKZ_MAQUIS_MOTH_MUTANT", "x": 1, "y": 0, "add_trait": "DKZ_SCIENTIST"} ],
       "items": { " ": { "item": "trash", "chance": 1 }, "b": { "item": "mut_lab", "chance": 80, "repeat": [ 2, 3 ] } }
     }
   },
@@ -165,7 +164,6 @@
       ],
       "terrain": { " ": "t_null" },
       "furniture": { "-": "f_camp_chair", "b": "f_lab_bench", "B": "f_fume_hood" },
-      "place_npcs": [ { "class": "DKZ_MAQUIS_SCIENTIST", "x": 1, "y": 0, "add_trait": "DKZ_SCIENTIST"} ],
       "items": { " ": { "item": "trash", "chance": 1 }, "b": { "item": "chem_lab", "chance": 70, "repeat": [ 2, 3 ] } }
     }
   },
@@ -190,7 +188,7 @@
       "place_npcs": [ { "class": "DKZ_MAQUIS_SCIENTIST", "x": 0, "y": 1, "add_trait": "DKZ_SCIENTIST" } ],
       "items": {
         " ": { "item": "trash", "chance": 1 },
-        "b": { "item": "autodoc_installation_programs", "chance": 50, "repeat": [ 2, 3 ] }
+        "b": { "item": "chem_lab", "chance": 50, "repeat": [ 2, 3 ] }
       }
     }
   },
