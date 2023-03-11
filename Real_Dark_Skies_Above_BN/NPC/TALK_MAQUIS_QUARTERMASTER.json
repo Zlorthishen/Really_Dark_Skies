@@ -93,32 +93,6 @@
     "dynamic_line": [ "What do you require citizen?.", "I'm kind of busy right now." ],
     "responses": [
       {
-        "text": "I want to join the Maquis.",
-        "effect": { "u_add_var": "u_Ask_QM_Join_Maquis", "type": "general", "context": "meeting", "value": "yes" },
-        "condition": {
-          "and": [
-            { "not": { "u_has_var": "u_Ask_QM_Join_Maquis", "type": "general", "context": "meeting", "value": "yes" } },
-            { "not": { "u_has_any_trait": [ "DKZ_LEADER", "DKZ_TECH", "DKZ_COMBAT", "DKZ_MEDIC", "DKZ_SCIENTIST" ] } },
-            {
-              "u_compare_var": "maquis_morale",
-              "type": "counter",
-              "context": "refugee_center",
-              "op": ">",
-              "value": 0
-            }
-          ]
-        },
-        "opinion": { "trust": 1, "value": 1 },
-        "topic": "TALK_QUARTERMASTER_ASK_ABOUT_JOINING_MAQUIS"
-      },
-      {
-        "text": "Is there anything else I can to to help the Maquis than doing generic missions?",
-        "topic": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_START"
-      },
-      { "text": "Let's trade.", "topic": "TALK_MAQUIS_QUARTERMASTER_TRADE" },
-      { "text": "What are you doing here?", "topic": "TALK_MAQUIS_QUARTERMASTER_DOING" },
-      { "text": "Are you in charge of the Maquis?", "topic": "TALK_MAQUIS_QUARTERMASTER_LEADERSHIP" },
-      {
         "text": "[MISSION] I'm looking for Chad Erikson, his nephew Randy sent me.",
         "effect": { "u_add_var": "u_Ask_QM_about_Big_Brother", "type": "general", "context": "meeting", "value": "yes" },
         "condition": {
@@ -148,6 +122,32 @@
         "opinion": { "trust": 2, "value": 2 },
         "topic": "TALK_MAQUIS_QUARTERMASTER_BIG_BROTHER"
       },
+      {
+        "text": "I want to join the Maquis.",
+        "effect": { "u_add_var": "u_Ask_QM_Join_Maquis", "type": "general", "context": "meeting", "value": "yes" },
+        "condition": {
+          "and": [
+            { "not": { "u_has_var": "u_Ask_QM_Join_Maquis", "type": "general", "context": "meeting", "value": "yes" } },
+            { "not": { "u_has_any_trait": [ "DKZ_LEADER", "DKZ_TECH", "DKZ_COMBAT", "DKZ_MEDIC", "DKZ_SCIENTIST" ] } },
+            {
+              "u_compare_var": "maquis_morale",
+              "type": "counter",
+              "context": "refugee_center",
+              "op": ">",
+              "value": 0
+            }
+          ]
+        },
+        "opinion": { "trust": 1, "value": 1 },
+        "topic": "TALK_QUARTERMASTER_ASK_ABOUT_JOINING_MAQUIS"
+      },
+      {
+        "text": "Is there anything else I can to to help the Maquis than doing generic missions?",
+        "topic": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_START"
+      },
+      { "text": "Let's trade.", "topic": "TALK_MAQUIS_QUARTERMASTER_TRADE" },
+      { "text": "What are you doing here?", "topic": "TALK_MAQUIS_QUARTERMASTER_DOING" },
+      { "text": "Are you in charge of the Maquis?", "topic": "TALK_MAQUIS_QUARTERMASTER_LEADERSHIP" },
       { "text": "About that mission…", "topic": "TALK_MISSION_INQUIRE", "condition": "has_assigned_mission" },
       { "text": "See you later.", "topic": "TALK_DONE" }
     ]
@@ -469,7 +469,7 @@
         "text": "Ok, lets begin.",
         "effect": [
           { "mapgen_update": "dkz_base_build_medical_1", "om_terrain": "racing_tower_z0_3_3" },
-          { "mapgen_update": "dkz_base_build_medical_1", "om_terrain": "racing_tower_z0_4_3" },	  
+          { "mapgen_update": "dkz_base_build_medical_1", "om_terrain": "racing_tower_z0_4_3" },
           { "npc_add_effect": "dkz_base_build_medical" },
           { "npc_add_effect": "dkz_base_build_started" },
           { "u_add_effect": "dkz_base_build_started", "duration": 600 },
