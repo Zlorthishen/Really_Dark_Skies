@@ -352,7 +352,9 @@
     "//": "---to do: randy should give at least 20 gallons of gas.----------------------------------------------------------------",
     "id": "TALK_RANDY_ERIKSON_RENDEZVOUS_TO_BASE",
     "type": "talk_topic",
-    "dynamic_line": [ "Well then you better get to him as fast as you can.  There is a helicopter outside, take it to get going as fast as you can!" ],
+    "dynamic_line": [
+      "Shhhh, don't be so loud, this area isn't secured.  There is a helicopter outside, take it to the rendezvous point, get going as fast as you can!"
+    ],
     "responses": [ { "text": "Ok, I'll take it for a spin.", "topic": "TALK_DONE" } ]
   },
   {
