@@ -158,6 +158,21 @@
     ],
     "responses": [
       {
+        "text": "[MISSION] I have important information for the head of the Maquis.",
+        "effect": { "u_add_var": "u_Ask_Randy_Erikson_about_Big_Brother", "type": "general", "context": "meeting", "value": "yes" },
+        "condition": {
+          "and": [
+            { "not": { "u_has_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" } },
+            {
+              "not": { "u_has_var": "u_Ask_Randy_Erikson_about_Big_Brother", "type": "general", "context": "meeting", "value": "yes" }
+            },
+            { "u_has_mission": "DKZ_MAQUIS_RENDEZVOUS_TO_BASE" }
+          ]
+        },
+        "opinion": { "trust": 2, "value": 2 },
+        "topic": "TALK_RANDY_ERIKSON_RENDEZVOUS_TO_BASE"
+      },
+      {
         "text": "I'm trying to put a cleanup crew together to tidy up the back room.  Can you help?",
         "condition": {
           "and": [
@@ -332,6 +347,13 @@
         "topic": "TALK_RANDY_ERIKSON_MISSION_CHECK_UP_ON_BIG_BROTHER"
       }
     ]
+  },
+  {
+    "//": "---to do: randy should give at least 20 gallons of gas.----------------------------------------------------------------",
+    "id": "TALK_RANDY_ERIKSON_RENDEZVOUS_TO_BASE",
+    "type": "talk_topic",
+    "dynamic_line": [ "Well then you better get to him as fast as you can.  There is a helicopter outside, take it to get going as fast as you can!" ],
+    "responses": [ { "text": "Ok, I'll take it for a spin.", "topic": "TALK_DONE" } ]
   },
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",

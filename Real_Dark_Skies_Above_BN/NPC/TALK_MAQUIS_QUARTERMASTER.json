@@ -468,7 +468,6 @@
       {
         "text": "Ok, lets begin.",
         "effect": [
-          { "mapgen_update": "dkz_base_build_medical_1", "om_terrain": "racing_tower_z0_3_3" },
           { "mapgen_update": "dkz_base_build_medical_1", "om_terrain": "racing_tower_z0_4_3" },
           { "npc_add_effect": "dkz_base_build_medical" },
           { "npc_add_effect": "dkz_base_build_started" },
