@@ -353,9 +353,9 @@
     "id": "TALK_RANDY_ERIKSON_RENDEZVOUS_TO_BASE",
     "type": "talk_topic",
     "dynamic_line": [
-      "Shhhh, don't be so loud, this area isn't secured, and there are civilians present.  There is a helicopter outside, take it to whatever your rendezvous point, get going as fast as you can!"
+      "Shhhh, don't be so loud, this area isn't secured.  There is a helicopter outside, take it to the rendezvous point, get going as fast as you can!"
     ],
-    "responses": [ { "text": "Lets discuss something else.", "topic": "TALK_NONE" }, { "text": "Ok, I be off.", "topic": "TALK_DONE" } ]
+    "responses": [ { "text": "Ok, I'll take it for a spin.", "topic": "TALK_DONE" } ]
   },
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
