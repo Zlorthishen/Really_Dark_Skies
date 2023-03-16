@@ -1991,8 +1991,6 @@
       ],
       "palettes": [ "arcology_palette" ],
       "place_npcs": [
-        { "class": "DKZ_MAQUIS_MEDICAL_MUTANT", "x": 55, "y": 4, "add_trait": "DKZ_MEDIC" },
-        { "class": "DKZ_MAQUIS_MEDICAL_MUTANT", "x": 64, "y": 4, "add_trait": "DKZ_MEDIC" },
         { "class": "DKZ_MAQUIS_BIONIC_ASSASSIN", "x": 70, "y": 4, "add_trait": "DKZ_COMBAT" },
         { "class": "DKZ_MAQUIS_RIOT_COP", "x": 71, "y": 3, "add_trait": "DKZ_LEADER" },
         { "class": "DKZ_MAQUIS_RIOT_COP", "x": 73, "y": 3, "add_trait": "DKZ_LEADER" },
@@ -2004,8 +2002,7 @@
         "6": {
           "name": "Lab Console",
           "security": 1,
-          "options": [ { "name": "View Research Logs", "action": "research", "security": 1 } ],
-          "failures": [ { "action": "damage" } ]
+          "options": [ { "name": "View Research Logs", "action": "research", "security": 1 } ]
         }
       },
       "mapping": {
