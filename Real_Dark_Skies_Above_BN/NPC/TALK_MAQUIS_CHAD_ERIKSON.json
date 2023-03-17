@@ -523,8 +523,8 @@
     "type": "talk_topic",
     "dynamic_line": [
       "The Xenoid soldier seems to require line of sight to active their 'magic', also it seems to be fairly short range.",
-	  "The Xenoid's armor is highly resistant to heat, laser and plasma weapons.  Best bet is a burst of fire.",
-	  "Don't be fooled by their swords and shields.  Nearly all Xenoids have an armor piercing dart launcher integrated into their arm.
+      "The Xenoid's armor is highly resistant to heat, laser and plasma weapons.  Best bet is a burst of fire.",
+      "Don't be fooled by their swords and shields.  Nearly all Xenoids have an armor piercing dart launcher integrated into their arm.",
       "Given what this 'magic' seems to cause, I suspect that it to aid them with the use of close quarters weapons."
     ],
     "responses": [
@@ -792,7 +792,7 @@
     "origins": [ "ORIGIN_SECONDARY" ],
     "end": {
       "effect": [
-	    { "u_faction_rep": 2 },
+        { "u_faction_rep": 2 },
         { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 2 },
         { "u_add_var": "gave_map_to_chad", "type": "knowledge", "context": "flag", "value": "yes" }
       ]
