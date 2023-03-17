@@ -522,7 +522,9 @@
     "id": "TALK_CHAD_ERIKSON_ASK_ABOUT_XENOIDS_MAGIC_TACTICS",
     "type": "talk_topic",
     "dynamic_line": [
-      "The Xenoids seem to require line of sight to active their 'magic', also it seems to be fairly short range.",
+      "The Xenoid soldier seems to require line of sight to active their 'magic', also it seems to be fairly short range.",
+	  "The Xenoid's armor is highly resistant to heat, laser and plasma weapons.  Best bet is a burst of fire.",
+	  "Don't be fooled by their swords and shields.  Nearly all Xenoids have an armor piercing dart launcher integrated into their arm.
       "Given what this 'magic' seems to cause, I suspect that it to aid them with the use of close quarters weapons."
     ],
     "responses": [
