@@ -150,14 +150,13 @@
       { "text": "Let's trade.", "topic": "TALK_MAQUIS_SNIPER_TRADE" },
       { "text": "What are you doing here?", "topic": "TALK_MAQUIS_SNIPER_DOING" },
       {
-        "text": ""[MISSION] I the sole survivor from a combat patrol mission and need to immediately debrief whoever is in charge."",
+        "text": "[MISSION] I the sole survivor from a combat patrol mission and need to immediately debrief whoever is in charge.",
         "condition": {
           "and": [
             { "not": { "u_has_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" } },
             { "u_has_mission": "DKZ_MAQUIS_RENDEZVOUS_TO_BASE" }
           ]
         },
-		"opinion": { "trust": 4, "value": 4} }
         "topic": "TALK_MAQUIS_SNIPER_BIG_BROTHER"
       },
       {
