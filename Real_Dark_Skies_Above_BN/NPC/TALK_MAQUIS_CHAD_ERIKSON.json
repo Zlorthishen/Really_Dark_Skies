@@ -326,9 +326,8 @@
       "Thats unfortunate but at least you made it back.  I may have something for you to do to help gain much needed intelligence."
     ],
     "responses": [
-      { "text": "What can I do to help the Maquis?", "topic": "TALK_MISSION_LIST" },
       { "text": "I would like to ask you about the Xenoids.", "topic": "TALK_CHAD_ERIKSON_ASK_ABOUT_XENOIDS" },
-      { "text": "Ok, I have to go now.", "topic": "TALK_DONE" }
+      { "text": "I have so many questions about everything.", "topic": "TALK_CHAD_ERIKSON_QUESTIONS" }
     ]
   },
   {
@@ -611,12 +610,33 @@
         "topic": "TALK_CHAD_ERIKSON_ASK_ABOUT_XENOIDS_FAUNA_AND_XENOIDS"
       },
       {
+        "text": "[INT 9] What about those giant albino penguins in the basement of this place?  Are those animals native to this planet?",
+        "condition": { "u_has_intelligence": 9 },
+        "topic": "TALK_CHAD_ERIKSON_ASK_ABOUT_THE_PENGUINS"
+      },
+      {
         "text": "I want to know more about the types of Xenoids.",
         "topic": "TALK_CHAD_ERIKSON_ASK_ABOUT_XENOIDS_UNITS"
       },
       {
         "text": "I have some more general questions about the Xenoids.",
         "topic": "TALK_CHAD_ERIKSON_ASK_ABOUT_XENOIDS"
+      },
+      { "text": "Lets change the subject.", "topic": "TALK_CHAD_ERIKSON_QUESTIONS" },
+      { "text": "I have to go now.", "topic": "TALK_DONE" }
+    ]
+  },
+  {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
+    "id": "TALK_CHAD_ERIKSON_ASK_ABOUT_THE_PENGUINS",
+    "type": "talk_topic",
+    "dynamic_line": [
+      "They are in fact.  These albino penguins were from a large lab experiment and some of them were in transit here when everything hit the fan.  A few other survivors found them to be kindred spirits as it were and now there is a small colony of giant albino penguins in the lower basement."
+    ],
+    "responses": [
+      {
+        "text": "I have some more general questions about the alien fauna.",
+        "topic": "TALK_CHAD_ERIKSON_ASK_ABOUT_XENOIDS_FAUNA"
       },
       { "text": "Lets change the subject.", "topic": "TALK_CHAD_ERIKSON_QUESTIONS" },
       { "text": "I have to go now.", "topic": "TALK_DONE" }
