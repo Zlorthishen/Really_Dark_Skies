@@ -249,8 +249,8 @@
       },
       {
         "text": "Is there anything else I can to to help the Maquis than doing generic missions?",
-        "topic": "TALK_MAQUIS_CHAD_ERIKSON_BASE_BUILDING",
-        "condition": "has_assigned_mission"
+        "effect": { "u_add_var": "u_Talk_To_ChadErikson_about_BaseBuilding", "type": "general", "context": "meeting", "value": "yes" },
+        "topic": "TALK_MAQUIS_CHAD_ERIKSON_BASE_BUILDING"
       },
       {
         "text": "That is a very nice watch.",

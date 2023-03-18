@@ -142,7 +142,8 @@
         "topic": "TALK_QUARTERMASTER_ASK_ABOUT_JOINING_MAQUIS"
       },
       {
-        "text": "Is there anything else I can to to help the Maquis than doing generic missions?",
+        "text": "Mr. Erikson has requested that I coordinate base building.",
+        "condition": { "u_has_var": "u_Talk_To_ChadErikson_about_BaseBuilding", "type": "general", "context": "meeting", "value": "yes" },
         "topic": "TALK_MAQUIS_QUARTERMASTER_BASE_BUILDING_START"
       },
       { "text": "Let's trade.", "topic": "TALK_MAQUIS_QUARTERMASTER_TRADE" },

@@ -629,12 +629,7 @@
         { "class": "DKZ_MAQUIS_FELINE_MUTANT", "x": 50, "y": 38, "add_trait": "DKZ_LEADER" },
         { "class": "DKZ_MAQUIS_MOTH_MUTANT", "x": 50, "y": 39, "add_trait": "DKZ_LEADER" }
       ],
-      "furniture": {
-        "§": "f_tourist_table",
-        "Ø": "f_stool",
-        "Ẍ": "f_large_canvas_door",
-        "ẍ": "f_large_canvas_wall"
-      },
+      "furniture": { "§": "f_tourist_table", "Ø": "f_stool", "Ẍ": "f_large_canvas_door", "ẍ": "f_large_canvas_wall" },
       "item": { "§": { "item": "deck_of_cards", "chance": 100 } },
       "terrain": {
         "'": [ "t_pavement_light", [ "t_pavement", 80 ] ],
