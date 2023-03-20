@@ -775,7 +775,7 @@
     "armor_stab": 19,
     "armor_cut": 13,
     "armor_bullet": 13,
-    "harvest": "dkz_mhuman_chipped",
+    "harvest": "dkz_mhuman2_chipped",
     "special_attacks": [
       [ "PARROT", 5 ],
       { "id": "heavyslash" },
@@ -851,7 +851,7 @@
     "armor_stab": 19,
     "armor_cut": 13,
     "armor_bullet": 13,
-    "harvest": "dkz_mhuman_chipped",
+    "harvest": "dkz_mhuman2_chipped",
     "special_attacks": [
       [ "PARROT", 20 ],
       { "id": "knockdown" },
@@ -929,7 +929,7 @@
     "armor_stab": 19,
     "armor_cut": 13,
     "armor_bullet": 13,
-    "harvest": "dkz_mhuman_chipped",
+    "harvest": "dkz_mhuman2_chipped",
     "special_attacks": [
       [ "PARROT", 20 ],
       { "id": "knockdown" },
@@ -1007,7 +1007,7 @@
     "armor_stab": 20,
     "armor_cut": 14,
     "armor_bullet": 14,
-    "harvest": "dkz_mhuman_chipped",
+    "harvest": "dkz_mhuman2_chipped",
     "special_attacks": [
       [ "PARROT", 20 ],
       { "id": "knockdown" },
