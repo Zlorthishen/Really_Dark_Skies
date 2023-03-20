@@ -210,9 +210,10 @@
     },
     "end": {
       "opinion": { "trust": 4, "value": 10 },
+	  
       "effect": [
+	  
         { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 11 },
-        { "npc_add_var": "Maquis_Feline_Mutant_Mission1", "type": "mission", "context": "flag", "value": "yes" },
         { "u_add_var": "Pretty_Kitty_Found", "type": "mission", "context": "flag", "value": "yes" }
       ]
     },

@@ -258,8 +258,7 @@
     ],
     "rotate": false,
     "locations": [ "land" ],
-    "city_sizes": [ 8, -1 ],
-    "city_distance": [ 1, 1 ],
+    "city_distance": [ 1, -1 ],
     "connections": [
       { "point": [ 2, -3, 0 ], "connection": "local_road", "from": [ 2, -2, 0 ] },
       { "point": [ 4, -3, 0 ], "connection": "local_road", "from": [ 4, 2, 0 ] },
