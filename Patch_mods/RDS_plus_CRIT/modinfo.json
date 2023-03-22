@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "realdarkskies_CRIT_patchmod",
+    "name": "<color_light_blue>Really Dark Skies</color> plus <color_red>C.R.I.T.</color>",
+    "authors": [ "Zlorthishen" ],
+    "description": "A patchmod for Really Dark Skies which adds increased support for C.R.I.T. mod",
+    "category": "misc_additions",
+    "dependencies": [ "bn", "realdarkskies", "crt_expansion" ]
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "type": "npc_class",
+    "id": "NC_PRISONER",
+    "name": { "str": "Prisoner" },
+    "job_description": "I'm just trying to survive.",	
+    "common": false,
+    "skills": [ { "skill": "ALL", "level": { "sum": [ { "dice": [ 3, 3 ] }, { "constant": -3 } ] } } ],
+    "worn_override": "naked_prisoner",
+    "carry_override": "naked_prisoner",
+    "weapon_override": "naked_prisoner",	
+    "traits": [
+      { "group": "NPC_starting_traits" }, 
+	  { "group": "Appearance_demographics" },
+      { "distribution": [ { "trait": "mouth_TENDRILS", "prob": 30 }, { "trait": "FACIAL_TENTACLES", "prob": 10 } ] },
+      { "trait": "WARM_NATURED", "prob": 30 },
+      { "trait": "MIGO_HEAT_RESIST", "prob": 25 },
+      { "trait": "MIGO_EARS", "prob": 15 },
+      { "trait": "WINGS_migo", "prob": 10 },
+      { "trait": "MIGO_SCENT", "prob": 10 },
+      { "trait": "MIGO_BREATHE", "prob": 5 },
+      {
+        "distribution": [
+          { "trait": "NEURAL_IMPROVEMENT", "prob": 80 },
+          { "trait": "EXPANDED_CONSCIOUSNESS", "prob": 10 },
+          { "trait": "UPLIFTED", "prob": 5 },
+          { "trait": "ALIEN_INT", "prob": 1 }
+        ]
+      },
+      {
+        "distribution": [
+          { "trait": "ENHANCED_REACTIONS", "prob": 10 },
+          { "trait": "QUICKENING", "prob": 3 },
+          { "trait": "OTHERWORLDLY_GRACE", "prob": 1 }
+        ]
+      },
+      {
+        "distribution": [
+          { "trait": "NEW_MUSCLES", "prob": 5 },
+          { "trait": "MUSCLE_FIBER", "prob": 2 },
+          { "trait": "OTHERWORLDLY_GRACE", "prob": 1 }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "type": "scenario",
+    "copy-from": "dkz_combatpatrol",
+    "id": "dkz_combatpatrol",
+    "extend": {
+      "professions": [
+        "prepper",
+        "surv_drifter",
+        "surv_knight_errant",
+        "bionic_silencer",
+        "failed_weapon",
+        "bio_weapon_a",
+        "bio_weapon_b",
+        "bio_weapon_d",
+        "bio_weapon_g",
+        "bio_infantry",
+        "bio_scout",
+        "bio_tool",
+        "bio_knight"
+      ]
+    }
+  }
+]
