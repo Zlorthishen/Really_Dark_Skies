@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "realdarkskies_Dino_patchmod",
+    "name": "<color_light_blue>Really Dark Skies</color> plus DinoMod",
+    "authors": [ "Zlorthishen" ],
+    "description": "A patchmod for <color_light_blue>Really Dark Skies</color> which adds increased support for Dino mod",
+    "category": "misc_additions",
+    "dependencies": [ "bn", "realdarkskies", "DinoMod" ]
+  }
+]
