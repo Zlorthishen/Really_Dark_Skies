@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "realdarkskies_NoHope_patchmod",
+    "name": "<color_light_blue>Really Dark Skies</color> plus No Hope",
+    "authors": [ "Zlorthishen" ],
+    "description": "A patchmod for <color_light_blue>Really Dark Skies</color> which adds increased support for No Hope",
+    "category": "misc_additions",
+    "dependencies": [ "bn", "realdarkskies", "no_hope" ]
+  }
+]

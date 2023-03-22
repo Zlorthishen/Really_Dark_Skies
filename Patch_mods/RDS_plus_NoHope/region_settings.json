@@ -1,0 +1,9 @@
+[
+  {
+    "type": "region_overlay",
+    "regions": [ "all" ],
+	"city": {
+	  "shops": { "dkz_abstorefront": 5 }
+	  }
+  }
+]
