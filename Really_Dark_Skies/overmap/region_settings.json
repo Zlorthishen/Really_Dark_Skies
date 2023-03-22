@@ -7,7 +7,7 @@
       "forest": { "chance": 5, "extras": { "mx_xenoid_dropsite_forest_five": 20 } }
     },
 	"city": {
-	  "shops": { "dkz_abstorefront": 20 }
+	  "shops": { "dkz_abstorefront": 5 }
 	  }
   }
 ]

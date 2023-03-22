@@ -52,19 +52,19 @@
     ]
   },
   {
-    "name": "GROUP_QUISSLING_HELPERS",
     "type": "monstergroup",
-    "default": "mon_dkz_glowdrone",	
+    "name": "GROUP_QUISSLING_HELPERS",
+    "default": "mon_dkz_scidrone",	
     "monsters": [
-      { "monster": "mon_dkz_scidrone", "freq": 120, "cost_multiplier": 1, "pack_size": [ 1, 2 ] },
+      { "monster": "mon_dkz_glowdrone", "freq": 100, "cost_multiplier": 0, "pack_size": [ 1, 2 ] },	
       { "monster": "dkz_xenoid_ranger", "freq": 90, "cost_multiplier": 0, "pack_size": [ 2, 3 ] },
-      { "monster": "dkz_xenoid_enforcer", "freq": 70, "cost_multiplier": 0, "pack_size": [ 2, 3 ] },
-      { "monster": "dkz_xenoid_knight", "freq": 50, "cost_multiplier": 0, "pack_size": [ 2, 3 ] }
+      { "monster": "dkz_xenoid_enforcer", "freq": 30, "cost_multiplier": 0, "pack_size": [ 2, 3 ] },
+      { "monster": "dkz_xenoid_knight", "freq": 10, "cost_multiplier": 0, "pack_size": [ 2, 3 ] }
     ]
   }, 
   {
-    "name": "GROUP_MIL_WEAK",
     "type": "monstergroup",
+    "name": "GROUP_MIL_WEAK",
     "monsters": [
       { "monster": "mon_dkz_glowdrone", "freq": 50, "cost_multiplier": 0, "pack_size": [ 2, 3 ] },
       { "monster": "mon_dkz_scidrone", "freq": 50, "cost_multiplier": 0, "pack_size": [ 1, 3 ] },
