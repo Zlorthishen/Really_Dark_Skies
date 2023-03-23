@@ -191,7 +191,7 @@
       "mapgensize": [ 2, 2 ],
       "rotation": [ 0, 3 ],
       "rows": [
-        "AA",
+        "A ",
         "CB"
       ],
       "terrain": { " ": "t_null" },
@@ -201,6 +201,7 @@
         "C": { "fields": { "field": "fd_blood" }, "chance": 90 }
       },
       "items": {
+        "A": { "item": "DKZ_cutting_military", "chance": 100 },
         "B": { "item": "DKZ_armor_improvised_torso", "chance": 100 },
         "C": { "item": "DKZ_guns_pistol_military", "chance": 100 }
       },
@@ -216,12 +217,13 @@
       "mapgensize": [ 2, 2 ],
       "rotation": [ 0, 3 ],
       "rows": [
-        "AA",
+        " A",
         "CB"
       ],
       "terrain": { " ": "t_null" },
       "mapping": { "A": { "fields": { "field": "fd_blood" }, "chance": 60 }, "C": { "fields": { "field": "fd_blood" }, "chance": 60 } },
       "items": {
+        "A": { "item": "DKZ_bashing_improvised", "chance": 100 },
         "B": { "item": "DKZ_armor_improvised_head", "chance": 100 },
         "C": { "item": "DKZ_guns_rifle_military", "chance": 100 }
       },
@@ -237,12 +239,13 @@
       "mapgensize": [ 2, 2 ],
       "rotation": [ 0, 3 ],
       "rows": [
-        "AA",
+        "A ",
         "CB"
       ],
       "terrain": { " ": "t_null" },
       "mapping": { "C": { "fields": { "field": "fd_blood" }, "chance": 60 }, "B": { "fields": { "field": "fd_blood" }, "chance": 60 } },
       "items": {
+        "A": { "item": "DKZ_cutting_military", "chance": 100 },
         "B": { "item": "DKZ_armor_improvised_torso", "chance": 100 },
         "C": { "item": "DKZ_guns_rifle_military", "chance": 100 }
       },
@@ -258,12 +261,13 @@
       "mapgensize": [ 2, 2 ],
       "rotation": [ 0, 3 ],
       "rows": [
-        "AA",
+        "A ",
         "CB"
       ],
       "terrain": { " ": "t_null" },
       "mapping": { "C": { "fields": { "field": "fd_blood" }, "chance": 60 }, "B": { "fields": { "field": "fd_blood" }, "chance": 60 } },
       "items": {
+        "A": { "item": "DKZ_cutting_military", "chance": 100 },
         "B": { "item": "DKZ_armor_improvised_torso", "chance": 100 },
         "C": { "item": "DKZ_guns_pistol_military", "chance": 100 }
       },
