@@ -12,5 +12,15 @@
       { "item": "ds_pulse_rifle", "prob": 20, "charges-min": 150, "charges-max": 175 },
       { "item": "ds_line_gun", "prob": 10 }
     ]
+  },
+  {
+    "//1": "-----------------------------------------------------------------------------------------------------------------------",
+    "type": "item_group",
+    "id": "DKZ_cutting_military",
+    "//": "Military quality cutting weapons.",
+    "items": [
+      { "item": "knife_crt", "prob": 75 }
+    ]
   }
+  
 ]
