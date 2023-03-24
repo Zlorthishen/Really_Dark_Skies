@@ -322,8 +322,28 @@
     "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_CHAD_ERIKSON_RENDEZVOUS_TO_BASE",
     "type": "talk_topic",
+    "dynamic_line": [ "That is very unfortunate that the patrol mission failed, but at least you made it back.  What happened?" ],
+    "responses": [
+      {
+        "text": "We were ambushed by humans fighting along side Xenoids.",
+        "effect": { "u_add_var": "u_Debrief_ChadErikson_about_Qusling", "type": "general", "context": "meeting", "value": "yes" },
+        "opinion": { "trust": 5, "value": 1 },
+        "topic": "TALK_CHAD_ERIKSON_RENDEZVOUS_TO_BASE_DEBRIEF_QUISLING"
+      },
+      {
+        "text": "Lets change the subject.",
+        "opinion": { "trust": -1, "value": -1 },
+        "topic": "TALK_CHAD_ERIKSON_QUESTIONS"
+      },
+      { "text": "I don't have anything else to say.", "opinion": { "trust": -5, "value": -5 }, "topic": "TALK_DONE" }
+    ]
+  },
+  {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
+    "id": "TALK_CHAD_ERIKSON_RENDEZVOUS_TO_BASE_DEBRIEF_QUISLING",
+    "type": "talk_topic",
     "dynamic_line": [
-      "Thats unfortunate but at least you made it back.  I may have something for you to do to help gain much needed intelligence."
+      "I hate to believe it but, that is not the first report of human quislings.  We will have to face the fact that humans are working with the Xenoids.  For now, we do not know how much of this treacherous behavior is of their own free will or somehow compelled by the Xenoids.  The existence of these human quislings doesn't greatly alter the overall goals of the Maquis.  Keep your eyes and ears open for any rumors about these quisling and remember OPSEC."
     ],
     "responses": [
       { "text": "I would like to ask you about the Xenoids.", "topic": "TALK_CHAD_ERIKSON_ASK_ABOUT_XENOIDS" },
