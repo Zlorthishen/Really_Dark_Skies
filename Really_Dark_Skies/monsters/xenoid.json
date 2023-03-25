@@ -1406,7 +1406,7 @@
     "material": [ "flesh" ],
     "symbol": "&",
     "color": "dark_gray",
-    "aggression": -5,
+    "aggression": 50,
     "morale": 100,
     "melee_skill": 6,
     "melee_dice": 4,
