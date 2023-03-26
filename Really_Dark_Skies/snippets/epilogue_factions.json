@@ -17,7 +17,29 @@
       },
       {
         "id": "epilogue_faction_maquis_200",
-        "text": "    Agaist all odds, humanity has begun to push back against its foes, and as they steadily gained ground on all fronts they found something thought lost forever: Hope for the future…"
+        "text": "    Against all odds, humanity has begun to push back against its foes, and as they steadily gained ground on all fronts they found something thought lost forever: Hope for the future…"
+      }
+    ]
+  },
+  {
+    "type": "snippet",
+    "category": "epilogue_factions",
+    "text": [
+      {
+        "id": "epilogue_faction_quisling_negative",
+        "text": "    After being discovered, the Quislings were wiped out before they could become a serious threat.  The Human Resistance had one less enemy…"
+      },
+      {
+        "id": "epilogue_faction_quisling_0",
+        "text": "    The Quislings had always been a distant rumor, and in the end thats all that was ever really heard from them…"
+      },
+      {
+        "id": "epilogue_faction_quisling_100",
+        "text": "    Despite early successes, the humans that sided with the Xenoids were ultimately slaughtered by them…"
+      },
+      {
+        "id": "epilogue_faction_quisling_200",
+        "text": "    Once the leaders of the Maquis were killed, the Xenoid's human servants moved to fill the power vacuum…"
       }
     ]
   }

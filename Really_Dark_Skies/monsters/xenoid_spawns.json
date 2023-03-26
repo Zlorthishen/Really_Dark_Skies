@@ -63,15 +63,6 @@
   }, 
   {
     "type": "monstergroup",
-    "name": "GROUP_XENOID_RECTIFIED",
-    "default": "dkz_mon_lurker_rectified",	
-    "monsters": [
-      { "monster": "dkz_mon_bileworm_rectified", "freq": 10, "cost_multiplier": 0 },
-      { "monster": "dkz_mon_lurker_rectified", "freq": 20, "cost_multiplier": 0 }
-    ]
-  }, 
-  {
-    "type": "monstergroup",
     "name": "GROUP_MIL_WEAK",
     "monsters": [
       { "monster": "mon_dkz_glowdrone", "freq": 50, "cost_multiplier": 0, "pack_size": [ 2, 3 ] },
