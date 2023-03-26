@@ -30,8 +30,7 @@
       "demolition_expert",
       "mili_pilot",
       "security",
-      "specops",
-      "medic"
+      "specops"
     ],
     "start_name": "In Town",
     "forced_traits": "DKZ_COMBAT",

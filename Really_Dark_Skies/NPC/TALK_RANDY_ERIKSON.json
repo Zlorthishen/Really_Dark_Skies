@@ -45,7 +45,10 @@
       { "trait": "ROBUST", "prob": 100 },
       { "trait": "SPIRITUAL", "prob": 100 },
       { "trait": "GLASSJAW", "prob": 100 },
-      { "trait": "BADTEMPER", "prob": 100 }
+      { "trait": "BADTEMPER", "prob": 100 },
+      { "trait": "IGNORE_SOUND" },
+      { "trait": "NO_BASH" },
+      { "trait": "RETURN_TO_START_POS" }	  
     ],
     "bonus_str": { "rng": [ 0, 1 ] },
     "bonus_dex": { "rng": [ -1, 1 ] },
@@ -303,7 +306,7 @@
     "responses": [
       { "text": "Its good that you like it here.", "topic": "TALK_NONE" },
       { "text": "What is your uncle doing?", "topic": "TALK_RANDY_ERIKSON_ASK_ABOUT_HIS_UNCLE" },
-      { "text": "Ok, see you later.", "topic": "TALK_DONE" }
+      { "text": "OK, see you later.", "topic": "TALK_DONE" }
     ]
   },
   {
@@ -315,7 +318,7 @@
     ],
     "responses": [
       { "text": "That's interesting.", "topic": "TALK_NONE" },
-      { "text": "Ok, see you later.", "topic": "TALK_DONE" },
+      { "text": "OK, see you later.", "topic": "TALK_DONE" },
       {
         "text": "[RP] I want to join up with the resistance and fight against the alien invaders.",
         "condition": {
@@ -353,34 +356,34 @@
     "id": "TALK_RANDY_ERIKSON_RENDEZVOUS_TO_BASE",
     "type": "talk_topic",
     "dynamic_line": [
-      "Shhhh, don't be so loud, this area isn't secured.  There is a helicopter outside, take it to the rendezvous point, get going as fast as you can!"
+      "Shh, don't be so loud, this area isn't secured.  There is a helicopter outside, take it to the rendezvous point, get going as fast as you can!"
     ],
-    "responses": [ { "text": "Ok, I'll take it for a spin.", "topic": "TALK_DONE" } ]
+    "responses": [ { "text": "OK, I'll take it for a spin.", "topic": "TALK_DONE" } ]
   },
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_RANDY_ERIKSON_ASK_ABOUT_HELICOPTER",
     "type": "talk_topic",
     "dynamic_line": [ "Yeah I landed it just as it ran out of fuel.  Its yours so long as you can fill up the tank." ],
-    "responses": [ { "text": "Ok, I'll take it for a spin.", "topic": "TALK_DONE" } ]
+    "responses": [ { "text": "OK, I'll take it for a spin.", "topic": "TALK_DONE" } ]
   },
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_RANDY_ERIKSON_MISSION_CHECK_UP_ON_BIG_BROTHER",
     "type": "talk_topic",
     "dynamic_line": [
-      "So my uncle, Chad Erikson, was the guy who got my this cool watch, but since this cataclysm started the internet went down globally all I have is the built in games.  I still try to refresh the connection and see if I can find any transient satellites or another a random link to anything left online.  This morning when I woke up I had noticed that MY watch had been pinged by someone that I am sure is my uncle Chad. I have a good idea of where he is at, I give you the direction and how far away it is, but other than that I can only guess."
+      "So my uncle, Chad Erikson, was the guy who got my this cool watch, but since this cataclysm started the internet went down globally all I have is the built in games.  I still try to refresh the connection and see if I can find any transient satellites or another a random link to anything left on-line.  This morning when I woke up I had noticed that MY watch had been pinged by someone that I am sure is my uncle Chad. I have a good idea of where he is at, I give you the direction and how far away it is, but other than that I can only guess."
     ],
-    "responses": [ { "text": "Ok, I'll go find him.", "topic": "TALK_DONE" } ]
+    "responses": [ { "text": "OK, I'll go find him.", "topic": "TALK_DONE" } ]
   },
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_RANDY_ERIKSON_MISSION_CHECK_UP_ON_BIG_BROTHER_MAQUIS",
     "type": "talk_topic",
     "dynamic_line": [
-      "So my uncle, Chad Erikson, was the guy who got my this cool watch, but since this cataclysm started the internet went down globally all I have is the built in games.  I still try to refresh the connection and see if I can find any transient satellites or another arandom link to anything left online.  This morning when I woke up I had noticed that MY watch had been pinged by someone that I am sure is my uncle Chad. I have a good idea of where he is at, I give you the direction and how far away it is, but other than that I can only guess."
+      "So my uncle, Chad Erikson, was the guy who got my this cool watch, but since this cataclysm started the internet went down globally all I have is the built in games.  I still try to refresh the connection and see if I can find any transient satellites or another random link to anything left on-line.  This morning when I woke up I had noticed that MY watch had been pinged by someone that I am sure is my uncle Chad. I have a good idea of where he is at, I give you the direction and how far away it is, but other than that I can only guess."
     ],
-    "responses": [ { "text": "Ok, I'll go find him.", "topic": "TALK_DONE" } ]
+    "responses": [ { "text": "OK, I'll go find him.", "topic": "TALK_DONE" } ]
   },
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
@@ -448,7 +451,7 @@
     "dynamic_line": [
       "I managed to salvage this after I took their gear apart Its unlike anything I've ever seen on earth.  I'm almost certain that the prismetallic plates seem fabricated using 3d-printed, the cloth-like weave more fire-retardant than asbestos, stronger as steel and lighter as silk, and I don't even know where to start with those damn electronics."
     ],
-    "responses": [ { "text": "That's interesting.", "topic": "TALK_NONE" }, { "text": "Ok, see you later.", "topic": "TALK_DONE" } ]
+    "responses": [ { "text": "That's interesting.", "topic": "TALK_NONE" }, { "text": "OK, see you later.", "topic": "TALK_DONE" } ]
   },
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
@@ -528,7 +531,7 @@
     "type": "mission_definition",
     "name": { "str": "Get a pound of solder wire" },
     "goal": "MGOAL_FIND_ITEM",
-    "description": "Randy Erikson needs 225 units of solder to finalize repears of the power control board.",
+    "description": "Randy Erikson needs 225 units of solder to finalize repairs of the power control board.",
     "difficulty": 1,
     "value": 0,
     "item": "solder_wire",
@@ -559,7 +562,7 @@
     "type": "mission_definition",
     "name": { "str": "Get some reference software" },
     "goal": "MGOAL_FIND_ITEM",
-    "description": "Randy Erikson needs a hardcopy of something called the 'Integrated Circuit Archive Database'.  Might have to see if you can find an internet connection or see if someone saved it on a USB drive.",
+    "description": "Randy Erikson needs a hard-copy of something called the 'Integrated Circuit Archive Database'.  Might have to see if you can find an internet connection or see if someone saved it on a USB drive.",
     "difficulty": 8,
     "value": 0,
     "item": "software_electronics_reference",
@@ -589,7 +592,7 @@
     "type": "mission_definition",
     "name": { "str": "Get some hobby software" },
     "goal": "MGOAL_FIND_ITEM",
-    "description": "Randy Erikson wants a some software that has probably been mislabled.  It was probably useless to begin with.",
+    "description": "Randy Erikson wants a some software that has probably been mislabeled.  It was probably useless to begin with.",
     "difficulty": 9,
     "value": 0,
     "item": "software_useless",
@@ -599,7 +602,7 @@
       "offer": "I need another old piece of software, not sure what it was but I'll know it when I see it..",
       "accepted": "Thanks.",
       "rejected": "Whatever.",
-      "advice": "I will know it when I check the files on the USB.  Probably got mislabled as miscellaneous or something.",
+      "advice": "I will know it when I check the files on the USB.  Probably got mislabeled as miscellaneous or something.",
       "inquire": "How is the search going?",
       "success": "Finally I have all my favorite mods for Cataclysm Bright Nights, this game is so boring unmodded.  Here is a book you'll really like, plus some paper money the staff here keep giving me.",
       "success_lie": "What good does this do me?",

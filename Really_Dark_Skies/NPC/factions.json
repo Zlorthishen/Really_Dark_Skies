@@ -110,6 +110,28 @@
       "old_guard": { "kill on sight": true },
       "your_followers": { "kill on sight": true }
     },
+    "epilogues": [
+      {
+        "power_min": -100,
+        "power_max": 0,
+        "id": "epilogue_faction_quisling_negative"
+      },
+      {
+        "power_min": 1,
+        "power_max": 100,
+        "id": "epilogue_faction_quisling_0"
+      },
+      {
+        "power_min": 100,
+        "power_max": 200,
+        "id": "epilogue_faction_quisling_100"
+      },
+      {
+        "power_min": 200,
+        "power_max": 300,
+        "id": "epilogue_faction_quisling_200"
+      }
+    ],
     "description": "An semi-organized human militia who openly fight along side the Xenoids against other human beings.  The worst kind of traitor."
   }  
 ]

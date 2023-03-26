@@ -208,8 +208,8 @@
       "I worked for a three letter acronym United States Federal government agency, I won't mention which one, but that doesn't matter much now.  Lets just say that I still have some useful combat and espionage skills that happened to be very useful for an alien invasion."
     ],
     "responses": [
-      { "text": "Ok, I had some questions.", "topic": "TALK_NONE" },
-      { "text": "Ok, see you later.", "topic": "TALK_DONE" }
+      { "text": "OK, I had some questions.", "topic": "TALK_NONE" },
+      { "text": "OK, see you later.", "topic": "TALK_DONE" }
     ]
   },
   {
@@ -248,7 +248,7 @@
         "topic": "TALK_CHAD_ERIKSON_BIG_BROTHER"
       },
       {
-        "text": "Is there anything else I can to to help the Maquis than doing generic missions?",
+        "text": "Is there anything else I can to help the Maquis than doing generic missions?",
         "effect": { "u_add_var": "u_Talk_To_ChadErikson_about_BaseBuilding", "type": "general", "context": "meeting", "value": "yes" },
         "topic": "TALK_MAQUIS_CHAD_ERIKSON_BASE_BUILDING"
       },
@@ -316,7 +316,7 @@
     "dynamic_line": [
       "We do have plans to expand facilities here at Barter Tower, but the Maquis have been fighting for survival for weeks now.  If you want to take point on the task, I will leave base expansion entirely in our control.  Talk to the quartermaster on the ground level, he should still be wearing his postman uniform."
     ],
-    "responses": [ { "text": "Ok, Thanks.", "topic": "TALK_NONE" }, { "text": "Ok, I have to go now.", "topic": "TALK_DONE" } ]
+    "responses": [ { "text": "OK, Thanks.", "topic": "TALK_NONE" }, { "text": "OK, I have to go now.", "topic": "TALK_DONE" } ]
   },
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
@@ -463,7 +463,7 @@
     "id": "TALK_CHAD_ERIKSON_ASK_ABOUT_RACING_ARCOLOGY",
     "type": "talk_topic",
     "dynamic_line": [
-      "Its a funny story about a Mexican cartel drug front, a CIA Honeypot, an FBI Reco case, and the Library of Congress's newspaper archives.  The Cartel was trying to launder their drug and human trafficking money by building a large indoor go-cart race track.  Somehow the CIA had an agent within the that specific cartel and were able to influence the cartel to invest far more money than they should have, after which the FBI collected all the bad guys they had this building practically ready to open.  The FBI ended up giving most of the floors to the Library of Congress to store newspapers, and some of the other usual suspects took their share too.  Once this cataclysm happened and much of the government was destroyed, this site was commandeered to coordinate local responses against the Xenoids."
+      "Its a funny story about a Mexican cartel drug front, a CIA Honey-pot, an FBI Reco case, and the Library of Congress's newspaper archives.  The Cartel was trying to launder their drug and human trafficking money by building a large indoor go-cart race track.  Somehow the CIA had an agent within the that specific cartel and were able to influence the cartel to invest far more money than they should have, after which the FBI collected all the bad guys they had this building practically ready to open.  The FBI ended up giving most of the floors to the Library of Congress to store newspapers, and some of the other usual suspects took their share too.  Once this cataclysm happened and much of the government was destroyed, this site was commandeered to coordinate local responses against the Xenoids."
     ],
     "responses": [
       { "text": "I have some questions about the Xenoids.", "topic": "TALK_CHAD_ERIKSON_ASK_ABOUT_XENOIDS" },
@@ -558,7 +558,7 @@
     "type": "talk_topic",
     "dynamic_line": [
       "They appeared suddenly as soon as the cataclysm began, several high value military bases in the west US, along with the largest population centers were effectively disintegrated by space based weapon systems, and virtually every man-made satellite blinked off at the same instant.  Our military response has been crippled as there is some unknown effect which prevents aircraft from operating higher than a few hundred feet.",
-      "Based on our latest reports, the Xenoids are an extra-terrestrial invasion which has used weapons of mass destruction on human civillians, and seems bent on the conquest of Earth.  Its like the plot of a 1950's pulp science fiction book or a poorly conceived, open-source, rouge-like game."
+      "Based on our latest reports, the Xenoids are an extra-terrestrial invasion which has used weapons of mass destruction on human civilians, and seems bent on the conquest of Earth.  Its like the plot of a 1950's pulp science fiction book or a poorly conceived, open-source, rouge-like game."
     ],
     "responses": [
       { "text": "I have some more general questions about the Xenoids.", "topic": "TALK_CHAD_ERIKSON_ASK_ABOUT_XENOIDS" },
@@ -572,7 +572,7 @@
     "type": "talk_topic",
     "dynamic_line": [
       "Because they want this planet for its resources?  Because their God commands it?  Because we're just in the way?  Take your pick.",
-      "What does it matter why they're here. What matters is that we drive them off our homeworld and save the human species from extinction."
+      "What does it matter why they're here. What matters is that we drive them off our home-world and save the human species from extinction."
     ],
     "responses": [
       { "text": "I have some more general questions about the Xenoids.", "topic": "TALK_CHAD_ERIKSON_ASK_ABOUT_XENOIDS" },
@@ -621,7 +621,7 @@
     "id": "TALK_CHAD_ERIKSON_ASK_ABOUT_XENOIDS_FAUNA",
     "type": "talk_topic",
     "dynamic_line": [
-      "You noticed a few new kinds of critters too?  There are the dog-lizard and the cow-lizard, which are generally not hostile unless they're in large packs.  There are also Lurkers, some kind of tentacle monster found in swamps or sewers, but they dodge bullets pretty effectively.  Finally there are wisps which seem like alien fire-flys."
+      "You noticed a few new kinds of critters too?  There are the dog-lizard and the cow-lizard, which are generally not hostile unless they're in large packs.  There are also Lurkers, some kind of tentacle monster found in swamps or sewers, but they dodge bullets pretty effectively.  Finally there are wisps which seem like alien fire-flies."
     ],
     "responses": [
       {
@@ -701,7 +701,7 @@
     "id": "TALK_CHAD_ERIKSON_ASK_ABOUT_OTHER_ALIENS_WHERE",
     "type": "talk_topic",
     "dynamic_line": [
-      "All that we have been able to theorize so far, is that the Mi-Go's from from somewhere in extra-dimensional space while the Xenoids are extra-terrestrial in origin, as crazy as that sounds thats the best we've got."
+      "All that we have been able to theorize so far, is that the Mi-Go's from somewhere in extra-dimensional space while the Xenoids are extra-terrestrial in origin, as crazy as that sounds thats the best we've got."
     ],
     "responses": [
       { "text": "I have some more general questions about the Mi-Go's.", "topic": "TALK_CHAD_ERIKSON_ASK_ABOUT_OTHER_ALIENS" },
@@ -769,7 +769,7 @@
     "id": "TALK_CHAD_ERIKSON_ASK_ABOUT_XENOIDS_KNIGHT",
     "type": "talk_topic",
     "dynamic_line": [
-      "The Knight Xenoid is exactly that, it is an alien knight in armor, a seeming anachronism in modern combat, but terrifyingly effective.  The dark-silvered plate armor is fairly effective against common ammunition types, but armor peircing around are still useful against them.  They are extremely effective with their slashing sword, and the shield can counter many attacks."
+      "The Knight Xenoid is exactly that, it is an alien knight in armor, a seeming anachronism in modern combat, but terrifyingly effective.  The dark-silvered plate armor is fairly effective against common ammunition types, but armor piercing around are still useful against them.  They are extremely effective with their slashing sword, and the shield can counter many attacks."
     ],
     "responses": [
       { "text": "I want to know more about the types of Xenoids.", "topic": "TALK_CHAD_ERIKSON_ASK_ABOUT_XENOIDS_UNITS" },

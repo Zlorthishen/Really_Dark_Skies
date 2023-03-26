@@ -16,7 +16,7 @@
       "assign_mission_target": {
         "om_terrain": "racing_tower_z7_4_1",
         "om_special": "arcology_racing",
-        "search_range": 222,
+        "search_range": 444,
         "random": true,
         "min_distance": 77
       },
@@ -44,10 +44,10 @@
         "om_terrain": "racing_tower_z7_4_1",
         "om_special": "arcology_racing",
         "reveal_radius": 7,
-        "search_range": 700,
+        "search_range": 777,
         "z": 7,
         "random": true,
-        "min_distance": 75
+        "min_distance": 77
       },
       "update_mapgen": { "place_npcs": [ { "class": "DKZ_CHAD_ERIKSON", "x": 3, "y": 3, "target": true } ] },
       "effect": [ { "u_add_var": "MrEriksonExists", "type": "knowledge", "context": "flag", "value": "yes" } ]
@@ -302,10 +302,10 @@
       "assign_mission_target": {
         "om_terrain": "central_lab_hq_3",
         "reveal_radius": 7,
-        "search_range": 700,
+        "search_range": 777,
         "z": -2,
         "random": false,
-        "min_distance": 25
+        "min_distance": 77
       },
       "update_mapgen": { "place_npcs": [ { "class": "DKZ_MAQUIS_CYBERCOP", "x": 13, "y": 13, "add_trait": "DKZ_SCIENTIST" } ] }
     },
