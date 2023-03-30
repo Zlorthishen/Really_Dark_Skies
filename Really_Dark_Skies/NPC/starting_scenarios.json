@@ -10,7 +10,7 @@
     "id": "dkz_combatpatrol",
     "name": "Foxtrot Uniform Charlie Kilo",
     "points": -5,
-    "description": "You were out on your first combat patrol and as you were hunkered down in an abandoned store you noticed alien invaders, dubbed 'The Xenoids' which were working together with humans!  Incredibly, in the ongoing cataclysm, some desperate or deviant humans have decided to side with the Xenoids.  You must get to your local contact as soon as possible to report this turn of events. Also the buiiding is now on fire.\n\nThis mission is Foxtrot Uniform Charlie Kilo.",
+    "description": "You and your team were out on a Maquis combat patrol and after sustaining casualties, you were hunkered down in an abandoned store for the night.\n\nAs your alarm wakes you, your teammates have saddly succumbed to wounds.  Outside, you can hear multiple bandits preparing to attack, and amazingly you're being you noticed alien invaders, dubbed The Xenoids which were working together with these humans!\n\nIncredibly, in the ongoing cataclysm, some desperate or deviant humans have decided to side with these Xenoids.  You must get to your local contact as soon as possible to report this turn of events. Also the building is now on fire.\n\nThis mission is Foxtrot Uniform Charlie Kilo.",
     "allowed_locs": [          
 
       "s_loc_dkz_abstorefront"  
