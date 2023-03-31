@@ -1,0 +1,25 @@
+[
+ {
+    "type": "start_location",
+    "id": "s_loc_dkz_GKB_CHISTORE1",
+    "name": "Chi Industries Store",
+    "terrain": [ "GKB_CHISTORE1" ]
+  },
+  {
+    "type": "scenario",
+    "id": "dkz_maid_to_kill",
+    "name": "Activate: Maid to Kill",
+    "points": -5,
+    "description": "Activate: Maid to Kill Override Protocol\n\nRecieving Mission.",
+    "allowed_locs": [          
+      "s_loc_dkz_GKB_CHISTORE1"  
+	],
+    "professions": [ 
+      "bionic_maquis_mega_man"
+    ],
+    "start_name": "In Town",
+    "forced_traits": [ "DKZ_COMBAT", "mut_gkb_ears" ],
+    "flags": [ "CHALLENGE", "CITY_START", "LONE_START" ],
+    "missions": [ "DKZ_N_SYNTH_MAID_TO_KILL" ]
+  }
+]
