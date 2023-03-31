@@ -138,8 +138,8 @@
         "       |.....|B...BB.B| ",
         "       |.....+...BB..B| ",
         "       |.F.F.|...~B.~B|#",
-        "       |||||||...~.~~~~~",
-        "       |~.q~~+~~~~~~~~~~",
+        "       |||||||...~.~~~|~",
+        "       |~.q~~+~~~~~~~~`~",
         "       |Q~.~.|<.~BBBBB|~",
         "       ||||||||||||||||#",
         "                        ",
@@ -160,10 +160,11 @@
         ".": "t_floor",
         "G": "t_grate",
         "~": "t_sewage",
+        "`": "t_sewage",
         ":": "t_open_air"
       },
       "place_monster": [ { "monster": [ "dkz_mon_lurker_rectified" ], "x": [ 19, 21 ], "y": [ 10, 13 ], "chance": 100, "repeat": [ 2, 3 ] } ],
-      "furniture": { "F": "f_home_furnace", "q": "f_sink", "Q": "f_toilet", "B": "f_rack" }
+      "furniture": { "F": "f_home_furnace", "q": "f_sink", "Q": "f_toilet", "B": "f_rack" , "`": "f_rubble" }
     }
   },
   {
