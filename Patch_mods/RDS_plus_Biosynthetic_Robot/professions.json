@@ -3,8 +3,28 @@
     "type": "scenario",
     "copy-from": "dkz_combatpatrol",
     "id": "dkz_combatpatrol",
-    "extend": {
-      "professions": [ "gkb_chi_operative", "gkb_scrap_scav" ]
+    "extend": { "professions": [ "gkb_chi_operative", "gkb_scrap_scav" ] }
+  },
+  {
+    "type": "profession",
+    "id": "dkz_maid_model_a",
+    "name": "Chi Industries BioSynth® Maid",
+    "description": "Chi Industries BioSynth® Maid Model A.",
+    "points": 33,
+    "traits": [ "mut_gkb_ears" ],
+    "CBMs": [
+      "bio_heatsink",
+      "bio_purifier",
+      "bio_infrared",
+      "bio_faraday",
+      "bio_batteries",
+      "bio_power_storage_mkII",
+      "bio_power_storage_mkII"
+    ],
+    "skills": [ { "level": 2, "name": "melee" }, { "level": 1, "name": "firstaid" }, { "level": 1, "name": "swimming" } ],
+    "items": {
+      "male": [ "boxer_shorts", "socks", "tux", "dress_shoes" ],
+      "female": [ "panties", "bra", "stockings", "maid_dress", "maid_hat", "dress_shoes" ]
     }
   }
 ]
