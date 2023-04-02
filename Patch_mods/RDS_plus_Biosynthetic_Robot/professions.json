@@ -3,25 +3,59 @@
     "type": "scenario",
     "copy-from": "dkz_combatpatrol",
     "id": "dkz_combatpatrol",
-    "extend": { "professions": [ "gkb_chi_operative", "gkb_scrap_scav" ] }
+    "extend": { "professions": [ "gkb_chi_operative", "gkb_scrap_scav", "dkz_maid_model_c", "dkz_maid_model_d" ] }
   },
   {
     "type": "profession",
     "id": "dkz_maid_model_a",
-    "name": "Chi Industries BioSynth® Maid",
-    "description": "Chi Industries BioSynth® Maid Model A.",
-    "points": 33,
+    "name": "Chi Industries BioSynth® Model A",
+    "description": "Chi Industries BioSynth® Maid Model A.  Standard maid/butler loadout.",
+    "points": 0,
     "traits": [ "mut_gkb_ears" ],
-    "CBMs": [
-      "bio_heatsink",
-      "bio_purifier",
-      "bio_infrared",
-      "bio_faraday",
-      "bio_batteries",
-      "bio_power_storage_mkII",
-      "bio_power_storage_mkII"
-    ],
-    "skills": [ { "level": 2, "name": "melee" }, { "level": 1, "name": "firstaid" }, { "level": 1, "name": "swimming" } ],
+    "CBMs": [ "bio_batteries", "bio_power_armor_interface", "bio_power_storage" ],
+    "skills": [ { "level": 1, "name": "melee" }, { "level": 2, "name": "firstaid" }, { "level": 3, "name": "cooking" } ],
+    "items": {
+      "male": [ "boxer_shorts", "socks", "tux", "dress_shoes" ],
+      "female": [ "panties", "bra", "stockings", "maid_dress", "maid_hat", "dress_shoes" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "dkz_maid_model_b",
+    "name": "Chi Industries BioSynth® Model B",
+    "description": "Chi Industries BioSynth® Maid Model B.  Non-specialized loadout.",
+    "points": 0,
+    "traits": [ "mut_gkb_ears" ],
+    "CBMs": [ "bio_batteries", "bio_power_armor_interface", "bio_power_storage" ],
+    "skills": [ { "level": 1, "name": "melee" }, { "level": 2, "name": "firstaid" }, { "level": 3, "name": "cooking" } ],
+    "items": {
+      "male": [ "boxer_shorts", "socks", "tux", "dress_shoes" ],
+      "female": [ "panties", "bra", "stockings", "maid_dress", "maid_hat", "dress_shoes" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "dkz_maid_model_c",
+    "name": "Chi Industries BioSynth® Model C",
+    "description": "Chi Industries BioSynth® Maid Model C.  Close Combat Specialist.",
+    "points": 111,
+    "traits": [ "mut_gkb_ears" ],
+    "CBMs": [ "bio_batteries", "bio_power_armor_interface", "bio_power_storage" ],
+    "skills": [ { "level": 1, "name": "melee" }, { "level": 2, "name": "firstaid" }, { "level": 3, "name": "cooking" } ],
+    "items": {
+      "male": [ "boxer_shorts", "socks", "tux", "dress_shoes" ],
+      "female": [ "panties", "bra", "stockings", "maid_dress", "maid_hat", "dress_shoes" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "dkz_maid_model_c",
+    "name": "Chi Industries BioSynth® Model D",
+    "description": "Chi Industries BioSynth® Maid Model D.  Heavy Combat Specialist.",
+    "points": 133,
+    "traits": [ "mut_gkb_ears" ],
+    "CBMs": [ "bio_batteries", "bio_power_armor_interface", "bio_power_storage" ],
+    "skills": [ { "level": 1, "name": "melee" }, { "level": 2, "name": "firstaid" }, { "level": 3, "name": "cooking" } ],
     "items": {
       "male": [ "boxer_shorts", "socks", "tux", "dress_shoes" ],
       "female": [ "panties", "bra", "stockings", "maid_dress", "maid_hat", "dress_shoes" ]
