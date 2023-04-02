@@ -10,7 +10,7 @@
     "id": "dkz_maid_to_kill",
     "name": "Activate: Maid to Kill",
     "points": -1,
-    "description": "Activate: Maid to Kill Override Protocol\n\nRecieving Mission.",
+    "description": "Activate: Maid to Kill Override Protocol\n\nRecieving Mission.  Proceed with all haste to target.",
     "allowed_locs": [          
       "s_loc_dkz_GKB_CHISTORE1"  
 	],
@@ -18,7 +18,8 @@
       "dkz_maid_model_a",
       "dkz_maid_model_b",
       "dkz_maid_model_c",
-      "dkz_maid_model_d"
+      "dkz_maid_model_d",
+      "dkz_maid_model_e"
     ],
     "start_name": "In Town",
     "forced_traits": [ "DKZ_COMBAT", "mut_gkb_ears" ],

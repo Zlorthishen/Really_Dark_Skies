@@ -23,7 +23,7 @@
     "type": "profession",
     "id": "dkz_maid_model_b",
     "name": "Chi Industries BioSynth® Model B",
-    "description": "Chi Industries BioSynth® Maid Model B.  Non-specialized loadout.",
+    "description": "Chi Industries BioSynth® Maid Model B.  Standard laborer loadout.",
     "points": 0,
     "traits": [ "mut_gkb_ears" ],
     "CBMs": [ "bio_batteries", "bio_power_armor_interface", "bio_power_storage" ],
@@ -52,6 +52,20 @@
     "id": "dkz_maid_model_d",
     "name": "Chi Industries BioSynth® Model D",
     "description": "Chi Industries BioSynth® Maid Model D.  Heavy Combat Specialist.",
+    "points": 133,
+    "traits": [ "mut_gkb_ears" ],
+    "CBMs": [ "bio_batteries", "bio_power_armor_interface", "bio_power_storage" ],
+    "skills": [ { "level": 1, "name": "melee" }, { "level": 2, "name": "firstaid" }, { "level": 3, "name": "cooking" } ],
+    "items": {
+      "male": [ "boxer_shorts", "socks", "tux", "dress_shoes" ],
+      "female": [ "panties", "bra", "stockings", "maid_dress", "maid_hat", "dress_shoes" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "dkz_maid_model_e",
+    "name": "Chi Industries BioSynth® Model E",
+    "description": "Chi Industries BioSynth® Maid Model E.  Experimental.",
     "points": 133,
     "traits": [ "mut_gkb_ears" ],
     "CBMs": [ "bio_batteries", "bio_power_armor_interface", "bio_power_storage" ],
