@@ -2,7 +2,7 @@
   {
     "type": "MOD_INFO",
     "id": "realdarkskies_Arcana_patchmod",
-    "name": "<color_light_blue>Really Dark Skies</color> plus Arcana",
+    "name": "<color_light_blue>Really Dark Skies</color> plus <color_cyan>Arcana</color>",
     "authors": [ "Zlorthishen" ],
     "description": "A patchmod for Really Dark Skies which adds increased support for Arcana",
     "category": "misc_additions",

@@ -2,7 +2,7 @@
   {
     "type": "MOD_INFO",
     "id": "realdarkskies_aftershock_patchmod",
-    "name": "<color_light_blue>Really Dark Skies</color> plus Aftershock",
+    "name": "<color_light_blue>Really Dark Skies</color> plus <color_pink>Aftershock</color>",
     "authors": [ "Zlorthishen" ],
     "description": "A patchmod for Really Dark Skies which adds increased support for Aftershock",
     "category": "misc_additions",

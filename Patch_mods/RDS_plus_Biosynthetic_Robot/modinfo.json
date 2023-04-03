@@ -2,7 +2,7 @@
   {
     "type": "MOD_INFO",
     "id": "realdarkskies_gekkobots_patchmod",
-    "name": "<color_light_blue>Really Dark Skies</color> plus Bio-Synth Robot",
+    "name": "<color_light_blue>Really Dark Skies</color> plus <color_yellow>Bio-Synth Robot Expansion</color>",
     "authors": [ "Zlorthishen" ],
     "description": "A patchmod for Really Dark Skies which adds increased support for Bio-Synth Robot Expansion",
     "category": "misc_additions",
