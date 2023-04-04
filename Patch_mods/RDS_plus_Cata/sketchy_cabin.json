@@ -1,0 +1,137 @@
+[
+  {
+    "type": "overmap_special",
+    "id": "house_fight_xenoids",
+    "overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "sketchy_cabin_1_north" },
+      { "point": [ 1, 0, 0 ], "overmap": "sketchy_cabin_2_north" },
+      { "point": [ 0, 0, -1 ], "overmap": "sketchy_cabin_b1_north" },
+      { "point": [ 1, 0, -1 ], "overmap": "sketchy_cabin_b2_Xenoid_north" },
+      { "point": [ 0, 0, 1 ], "overmap": "sketchy_cabin_1_roof_north" },
+      { "point": [ 1, 0, 1 ], "overmap": "sketchy_cabin_2_roof_north" }
+    ],
+    "locations": [ "forest" ],
+    "city_distance": [ 5, -1 ],
+    "city_sizes": [ 0, 16 ],
+    "occurrences": [ 0, 3 ],
+    "flags": [ "CLASSIC", "ELECTRIC_GRID" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "sketchy_cabin_b2_Xenoid",
+    "name": "underground arena",
+    "sym": "O",
+    "color": "dark_gray",
+    "see_cost": 5,
+    "flags": [ "KNOWN_UP" ]
+  },
+  {
+    "type": "start_location",
+    "id": "house_fight_xenoids",
+    "name": "Underground Arena",
+    "terrain": [ "sketchy_cabin_b2_Xenoid" ]
+  },  
+  
+  
+  {
+    "type": "monstergroup",
+    "name": "GROUP_XENOID_GLADIATORS",
+    "default": "dkz_xenoid_enforcer",	
+    "monsters": [
+      { "monster": "dkz_xenoid_ranger", "freq": 90, "cost_multiplier": 0 },
+      { "monster": "dkz_xenoid_berserker", "freq": 70, "cost_multiplier": 0 },
+      { "monster": "dkz_xenoid_knight", "freq": 70, "cost_multiplier": 0 },
+      { "monster": "dkz_xenoid_paladin", "freq": 30, "cost_multiplier": 0 },
+      { "monster": "dkz_xenoid_templar", "freq": 10, "cost_multiplier": 0 }
+    ]
+  },  
+  
+  
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "sketchy_cabin_b2_Xenoid" ],
+    "weight": 1000,
+    "object": {
+      "rows": [
+        "                        ",
+        "||||             |||||| ",
+        "B.T|             |T..s| ",
+        "B..|||||||||||   |t..s| ",
+        "-=-|______+__|   ||++|| ",
+        "___u______+__|   |V..V| ",
+        "______|||||++|||||....| ",
+        "-|____|urr____rruW....| ",
+        ".|____|__________W.b.b| ",
+        "T|----|__________W.b.b| ",
+        "-|....W__________W.b.b| ",
+        "_+...6W____`_____W....| ",
+        "_+..h6W__________W....| ",
+        "-|..ddW_____`____W.b.b| ",
+        "T|----|__________W.b.b| ",
+        ".|____|__________W.b.b| ",
+        "-|____|urr____rruW....| ",
+        "______|||||++|||||....| ",
+        "___u______+__|   |t...| ",
+        "-=-|______+__|   |||..| ",
+        "B..|||||||||||     |<<| ",
+        "B.T|               |<<| ",
+        "||||               |||| ",
+        "                        "
+      ],
+      "terrain": {
+        " ": "t_rock",
+        ".": "t_floor",
+        "_": "t_thconc_floor",
+        "|": "t_concrete_wall",
+        "=": "t_door_bar_o",
+        "+": "t_door_metal_c",
+        "-": "t_bars",
+        "]": "t_thconc_floor",
+        "<": "t_stairs_up",
+        "6": "t_console_broken",
+        "B": "t_floor",
+        "S": "t_floor",
+        "T": "t_floor",
+        "V": "t_floor",
+        "W": "t_thconc_glass_port",
+        "b": "t_floor",
+        "d": "t_floor",
+        "h": "t_floor",
+        "r": "t_thconc_floor",
+        "s": "t_floor",
+        "t": "t_floor",
+        "u": "t_thconc_floor_olight"
+      },
+      "furniture": {
+        "B": "f_bed",
+        "F": "f_fridge",
+        "T": "f_toilet",
+        "V": "f_vending_o",
+        "b": "f_bench",
+        "d": "f_desk",
+        "h": "f_chair",
+        "r": "f_rack",
+        "s": "f_sink",
+        "t": "f_trashcan"
+      },
+      "mapping": {
+        "B": { "items": [ { "item": "bed", "chance": 75 } ] },
+        "r": { "items": [ { "item": "sketchy_cabin_weapons", "chance": 85 }, { "item": "sketchy_cabin_weapons", "chance": 85 } ] }
+      },
+      "place_toilets": [ { "x": 2, "y": 2 }, { "x": 18, "y": 2 }, { "x": 0, "y": 9 }, { "x": 0, "y": 14 }, { "x": 2, "y": 21 } ],
+      "place_loot": [
+        { "item": "note_sketchy_cabin", "x": 4, "y": 13 },
+        { "group": "sketchy_cabin_guard_weapons", "x": 5, "y": 13, "chance": 60 },
+        { "group": "trash", "x": 18, "y": 18, "repeat": [ 1, 3 ] },
+        { "group": "vending_food_items", "x": 18, "y": 5, "chance": 50, "repeat": 10 },
+        { "group": "vending_drink_items", "x": 21, "y": 5, "chance": 50, "repeat": 10 }
+      ],
+      "mapping": { "`": { "monster": [ { "monsters": "GROUP_XENOID_GLADIATORS", "chance": 95 } ] } },	  
+      "place_npcs": [
+        { "class": "slave_fight_ally", "x": 12, "y": 16 },
+        { "class": "slave_fight_ally", "x": 15, "y": 13 }
+      ]
+    }
+  }
+]
