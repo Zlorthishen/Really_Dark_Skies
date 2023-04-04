@@ -38,11 +38,11 @@
     "name": "GROUP_XENOID_GLADIATORS",
     "default": "dkz_xenoid_enforcer",	
     "monsters": [
-      { "monster": "dkz_xenoid_ranger", "freq": 90, "cost_multiplier": 0 },
-      { "monster": "dkz_xenoid_berserker", "freq": 70, "cost_multiplier": 0 },
-      { "monster": "dkz_xenoid_knight", "freq": 70, "cost_multiplier": 0 },
-      { "monster": "dkz_xenoid_paladin", "freq": 30, "cost_multiplier": 0 },
-      { "monster": "dkz_xenoid_templar", "freq": 10, "cost_multiplier": 0 }
+      { "monster": "dkz_xenoid_ranger", "freq": 90, "cost_multiplier": 10 },
+      { "monster": "dkz_xenoid_berserker", "freq": 70, "cost_multiplier": 15 },
+      { "monster": "dkz_xenoid_knight", "freq": 70, "cost_multiplier": 5 },
+      { "monster": "dkz_xenoid_paladin", "freq": 30, "cost_multiplier": 8 },
+      { "monster": "dkz_xenoid_templar", "freq": 10, "cost_multiplier": 10 }
     ]
   },  
   
@@ -65,9 +65,9 @@
         ".|____|__________W.b.b| ",
         "T|----|__________W.b.b| ",
         "-|....W__________W.b.b| ",
-        "_+...6W____`_____W....| ",
+        "_+...6W__________W....| ",
         "_+..h6W__________W....| ",
-        "-|..ddW_____`____W.b.b| ",
+        "-|..ddW__________W.b.b| ",
         "T|----|__________W.b.b| ",
         ".|____|__________W.b.b| ",
         "-|____|urr____rruW....| ",
@@ -127,7 +127,9 @@
         { "group": "vending_food_items", "x": 18, "y": 5, "chance": 50, "repeat": 10 },
         { "group": "vending_drink_items", "x": 21, "y": 5, "chance": 50, "repeat": 10 }
       ],
-      "mapping": { "`": { "monster": [ { "monsters": "GROUP_XENOID_GLADIATORS", "chance": 95 } ] } },	  
+	  
+      "place_monsters": [
+        { "monster": "GROUP_XENOID_GLADIATORS", "x": [ 10, 13 ], "y": [ 10, 13 ], "density": 0.15 , "repeat": 3} ],	  
       "place_npcs": [
         { "class": "slave_fight_ally", "x": 12, "y": 16 },
         { "class": "slave_fight_ally", "x": 15, "y": 13 }
