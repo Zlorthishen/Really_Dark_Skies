@@ -250,7 +250,7 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "dkz_abstorefront_chunk",
-    "weight": 300,
+    "weight": 400,
     "object": {
       "mapgensize": [ 2, 2 ],
       "rotation": [ 0, 3 ],
@@ -282,7 +282,7 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "dkz_abstorefront_chunk",
-    "weight": 250,
+    "weight": 300,
     "object": {
       "mapgensize": [ 2, 2 ],
       "rotation": [ 0, 3 ],
@@ -310,7 +310,7 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "dkz_abstorefront_chunk",
-    "weight": 350,
+    "weight": 300,
     "object": {
       "mapgensize": [ 2, 2 ],
       "rotation": [ 0, 3 ],
@@ -338,7 +338,7 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "dkz_abstorefront_chunk",
-    "weight": 250,
+    "weight": 300,
     "object": {
       "mapgensize": [ 2, 2 ],
       "rotation": [ 0, 3 ],
@@ -398,7 +398,7 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "dkz_abstorefront_chunk",
-    "weight": 175,
+    "weight": 50,
     "object": {
       "mapgensize": [ 2, 2 ],
       "rotation": [ 0, 3 ],
