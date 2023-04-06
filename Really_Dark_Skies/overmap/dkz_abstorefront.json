@@ -107,9 +107,10 @@
         { "class": "DKZ_QUISLING_THUG", "x": 17, "y": 19, "add_trait": "DKZ_QUISLING" },
         { "class": "DKZ_QUISLING_BANDIT", "x": 17, "y": 20, "add_trait": "DKZ_QUISLING" }
       ],
-      "place_monsters": [
-        { "monster": "GROUP_QUISSLING_HELPERS", "x": [ 1, 4 ], "y": [ 1, 4 ], "density": 0.17 },
-        { "monster": "GROUP_QUISSLING_HELPERS", "x": [ 19, 22 ], "y": [ 19, 22 ], "density": 0.19 }
+      "place_monster": [
+        { "group": "GROUP_QUISSLING_HELPERS", "x": [ 1, 4 ], "y": [ 1, 4 ] , "chance": 80, "repeat": 7 },
+        { "group": "GROUP_QUISSLING_HELPERS", "x": [ 19, 22 ], "y": [ 19, 22 ], "chance": 80, "repeat": 5 },
+        { "group": "GROUP_XENOID_BOSS", "x": [ 19, 22 ], "y": [ 19, 22 ] }
       ],
       "item": {
         "Ɓ": { "item": "shoulder_strap", "chance": 80 },
@@ -129,12 +130,12 @@
       "rows": [
         "                        ",
         "                        ",
-        "             |||||||||| ",
-        "             |B.B::..B| ",
-        "             |B.BBBB.B| ",
-        "             |B...B..B| ",
-        "       |||||||B..BB.BB| ",
-        "       |.....|B...B..B| ",
+        "        #####|||||||||| ",
+        "       ##...#|BBB::..B| ",
+        "       #.....|B.BBBB.B| ",
+        "       #....#|B...B..B| ",
+        "       |+|||||B..BB.BB| ",
+        "       |BBBBB|B...B..B| ",
         "       |.....|B...BB.B| ",
         "       |.....+...BB..B| ",
         "       |.F.F.|...~B.~B|#",

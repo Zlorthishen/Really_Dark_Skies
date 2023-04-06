@@ -117,31 +117,31 @@
           "class": "DKZ_MAQUIS_BEAST_MUTANT",
           "x": 75,
           "y": 75,
-          "add_trait": [ "DKZ_LEADER", "IGNORE_SOUND", "NO_BASH", "RETURN_TO_START_POS" ]
+          "add_trait": [ "DKZ_LEADER" ]
         },
         {
           "class": "DKZ_MAQUIS_TROG_MUTANT",
           "x": 73,
           "y": 75,
-          "add_trait": [ "DKZ_LEADER", "IGNORE_SOUND", "NO_BASH", "RETURN_TO_START_POS" ]
+          "add_trait": [ "DKZ_LEADER" ]
         },
         {
           "class": "DKZ_MAQUIS_BEAST_MUTANT",
           "x": 82,
           "y": 81,
-          "add_trait": [ "DKZ_COMBAT", "IGNORE_SOUND", "NO_BASH", "RETURN_TO_START_POS" ]
+          "add_trait": [ "DKZ_COMBAT" ]
         },
         {
           "class": "DKZ_MAQUIS_SPIDER_MUTANT",
           "x": 77,
           "y": 9,
-          "add_trait": [ "DKZ_COMBAT", "IGNORE_SOUND", "NO_BASH", "RETURN_TO_START_POS" ]
+          "add_trait": [ "DKZ_COMBAT" ]
         },
         {
           "class": "DKZ_MAQUIS_SPIDER_MUTANT",
           "x": 81,
           "y": 13,
-          "add_trait": [ "DKZ_COMBAT", "IGNORE_SOUND", "NO_BASH", "RETURN_TO_START_POS" ]
+          "add_trait": [ "DKZ_COMBAT" ]
         }
       ],
       "place_fields": [
@@ -321,6 +321,49 @@
   {
     "type": "mapgen",
     "method": "json",
+    "om_terrain": [ [ "racing_tower_z-4_annex1a", "racing_tower_z-4_annex1b" ] ],
+    "object": {
+      "fill_ter": "t_thconc_floor",
+      "rows": [
+        "################################################",
+        "rrrrrrrrrrrrr                                  #",
+        "rrrrrrrrrrrrr                                  #",
+        "rrrrrIrrrIrrrr                                 #",
+        "XxXXXxXXXxXWrrr                                #",
+        "rIrrrIrrrIrrrrr                                #",
+        "rIrrrIrrrIrrrrr                                #",
+        "rIrrrIrrrIrrrrr                                #",
+        "XxXXXxXXXxXWrrr                                #",
+        "rIrrrIrrrIrrrr                                 #",
+        "rrrrrrrrrrrrr                                  #",
+        "rrrrrrrrrrrrr                                  #",
+        "rrrrrrrrrrrrr                                  #",
+        "rrrrrrrrrrrrr                                  #",
+        "rIrrrIrrrIrrrr                                 #",
+        "XxXXXxXXXxXWrrr                                #",
+        "rIrrrIrrrIrrrrr                                #",
+        "rIrrrIrrrIrrrrr                                #",
+        "rIrrrIrrrIrrrrr                                #",
+        "XxXXXIXXXxXWrrr                                #",
+        "rIrrrIrrrIrrrr                                 #",
+        "rrrrrrrrrrrrr                                  #",
+        "rrrrrrrrrrr                                    #",
+        "################################################"
+		],
+      "palettes": [ "arcology_palette" ],
+      "terrain": {
+        "r": "t_railroad_rubble",
+        "-": "t_railroad_tie_h",
+        "I": "t_railroad_tie_v",
+        "X": "t_railroad_track",
+        "x": "t_railroad_track_on_tie",
+        "W": "t_buffer_stop"
+      }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
     "om_terrain": [
       [ "racing_tower_z-1_1_1", "racing_tower_z-1_2_1", "racing_tower_z-1_3_1", "racing_tower_z-1_4_1" ],
       [ "racing_tower_z-1_1_2", "racing_tower_z-1_2_2", "racing_tower_z-1_3_2", "racing_tower_z-1_4_2" ],
@@ -482,37 +525,37 @@
           "class": "DKZ_MAQUIS_MANTIS_MUTANT",
           "x": 79,
           "y": 9,
-          "add_trait": [ "DKZ_COMBAT", "IGNORE_SOUND", "NO_BASH", "RETURN_TO_START_POS" ]
+          "add_trait": [ "DKZ_COMBAT" ]
         },
         {
           "class": "DKZ_MAQUIS_SPIDER_MUTANT",
           "x": 78,
           "y": 11,
-          "add_trait": [ "DKZ_COMBAT", "IGNORE_SOUND", "NO_BASH", "RETURN_TO_START_POS" ]
+          "add_trait": [ "DKZ_COMBAT" ]
         },
         {
           "class": "DKZ_MAQUIS_SPIDER_MUTANT",
           "x": 76,
           "y": 10,
-          "add_trait": [ "DKZ_COMBAT", "IGNORE_SOUND", "NO_BASH", "RETURN_TO_START_POS" ]
+          "add_trait": [ "DKZ_COMBAT" ]
         },
         {
           "class": "DKZ_MAQUIS_MANTIS_MUTANT",
           "x": 79,
           "y": 12,
-          "add_trait": [ "DKZ_COMBAT", "IGNORE_SOUND", "NO_BASH", "RETURN_TO_START_POS" ]
+          "add_trait": [ "DKZ_COMBAT" ]
         },
         {
           "class": "DKZ_MAQUIS_RIOT_COP",
           "x": 93,
           "y": 84,
-          "add_trait": [ "DKZ_LEADER", "IGNORE_SOUND", "NO_BASH", "RETURN_TO_START_POS" ]
+          "add_trait": [ "DKZ_LEADER" ]
         },
         {
           "class": "DKZ_MAQUIS_RIOT_COP",
           "x": 5,
           "y": 11,
-          "add_trait": [ "DKZ_LEADER", "IGNORE_SOUND", "NO_BASH", "RETURN_TO_START_POS" ]
+          "add_trait": [ "DKZ_LEADER" ]
         }
       ],
       "liquids": { "T": { "liquid": "water_sewage", "amount": [ 1, 25 ] }, "t": { "liquid": "water_sewage", "amount": [ 2, 5 ] } },
@@ -683,25 +726,25 @@
           "class": "DKZ_MAQUIS_QUARTERMASTER",
           "x": 38,
           "y": 49,
-          "add_trait": [ "DKZ_LEADER", "DKZ_TEAM_LEADER", "IGNORE_SOUND", "NO_BASH", "RETURN_TO_START_POS" ]
+          "add_trait": [ "DKZ_LEADER", "DKZ_TEAM_LEADER" ]
         },
         {
           "class": "DKZ_MAQUIS_ELF_MUTANT",
           "x": 50,
           "y": 37,
-          "add_trait": [ "DKZ_COMBAT", "IGNORE_SOUND", "NO_BASH", "RETURN_TO_START_POS" ]
+          "add_trait": [ "DKZ_COMBAT" ]
         },
         {
           "class": "DKZ_MAQUIS_FELINE_MUTANT",
           "x": 50,
           "y": 38,
-          "add_trait": [ "DKZ_LEADER", "IGNORE_SOUND", "NO_BASH", "RETURN_TO_START_POS" ]
+          "add_trait": [ "DKZ_LEADER" ]
         },
         {
           "class": "DKZ_MAQUIS_MOTH_MUTANT",
           "x": 50,
           "y": 39,
-          "add_trait": [ "DKZ_LEADER", "IGNORE_SOUND", "NO_BASH", "RETURN_TO_START_POS" ]
+          "add_trait": [ "DKZ_LEADER" ]
         }
       ],
       "furniture": { "§": "f_tourist_table", "Ø": "f_stool", "Ẍ": "f_large_canvas_door", "ẍ": "f_large_canvas_wall" },
@@ -2066,37 +2109,37 @@
           "class": "DKZ_MAQUIS_BIONIC_ASSASSIN",
           "x": 70,
           "y": 4,
-          "add_trait": [ "DKZ_COMBAT", "IGNORE_SOUND", "NO_BASH", "RETURN_TO_START_POS" ]
+          "add_trait": [ "DKZ_COMBAT" ]
         },
         {
           "class": "DKZ_MAQUIS_RIOT_COP",
           "x": 71,
           "y": 3,
-          "add_trait": [ "DKZ_LEADER", "IGNORE_SOUND", "NO_BASH", "RETURN_TO_START_POS" ]
+          "add_trait": [ "DKZ_LEADER" ]
         },
         {
           "class": "DKZ_MAQUIS_RIOT_COP",
           "x": 73,
           "y": 3,
-          "add_trait": [ "DKZ_LEADER", "IGNORE_SOUND", "NO_BASH", "RETURN_TO_START_POS" ]
+          "add_trait": [ "DKZ_LEADER" ]
         },
         {
           "class": "DKZ_MAQUIS_CYBERCOP",
           "x": 73,
           "y": 5,
-          "add_trait": [ "DKZ_LEADER", "IGNORE_SOUND", "NO_BASH", "RETURN_TO_START_POS" ]
+          "add_trait": [ "DKZ_LEADER" ]
         },
         {
           "class": "DKZ_MAQUIS_BIONIC_DOCTOR",
           "x": 84,
           "y": 6,
-          "add_trait": [ "DKZ_MEDIC", "IGNORE_SOUND", "NO_BASH", "RETURN_TO_START_POS" ]
+          "add_trait": [ "DKZ_MEDIC" ]
         },
         {
           "class": "DKZ_MAQUIS_ELF_MUTANT",
           "x": 81,
           "y": 5,
-          "add_trait": [ "DKZ_MEDIC", "IGNORE_SOUND", "NO_BASH", "RETURN_TO_START_POS" ]
+          "add_trait": [ "DKZ_MEDIC" ]
         }
       ],
       "computers": {
@@ -2323,49 +2366,49 @@
           "class": "DKZ_MAQUIS_SNIPER",
           "x": 2,
           "y": 2,
-          "add_trait": [ "DKZ_COMBAT", "IGNORE_SOUND", "NO_BASH", "RETURN_TO_START_POS" ]
+          "add_trait": [ "DKZ_COMBAT" ]
         },
         {
           "class": "DKZ_MAQUIS_SNIPER",
           "x": 2,
           "y": 92,
-          "add_trait": [ "DKZ_COMBAT", "IGNORE_SOUND", "NO_BASH", "RETURN_TO_START_POS" ]
+          "add_trait": [ "DKZ_COMBAT" ]
         },
         {
           "class": "DKZ_MAQUIS_SNIPER",
           "x": 2,
           "y": 47,
-          "add_trait": [ "DKZ_COMBAT", "IGNORE_SOUND", "NO_BASH", "RETURN_TO_START_POS" ]
+          "add_trait": [ "DKZ_COMBAT" ]
         },
         {
           "class": "DKZ_MAQUIS_SNIPER",
           "x": 92,
           "y": 2,
-          "add_trait": [ "DKZ_COMBAT", "IGNORE_SOUND", "NO_BASH", "RETURN_TO_START_POS" ]
+          "add_trait": [ "DKZ_COMBAT" ]
         },
         {
           "class": "DKZ_MAQUIS_SNIPER",
           "x": 49,
           "y": 2,
-          "add_trait": [ "DKZ_COMBAT", "IGNORE_SOUND", "NO_BASH", "RETURN_TO_START_POS" ]
+          "add_trait": [ "DKZ_COMBAT" ]
         },
         {
           "class": "DKZ_MAQUIS_SNIPER",
           "x": 92,
           "y": 49,
-          "add_trait": [ "DKZ_COMBAT", "IGNORE_SOUND", "NO_BASH", "RETURN_TO_START_POS" ]
+          "add_trait": [ "DKZ_COMBAT" ]
         },
         {
           "class": "DKZ_MAQUIS_SNIPER",
           "x": 47,
           "y": 92,
-          "add_trait": [ "DKZ_COMBAT", "IGNORE_SOUND", "NO_BASH", "RETURN_TO_START_POS" ]
+          "add_trait": [ "DKZ_COMBAT" ]
         },
         {
           "class": "DKZ_MAQUIS_SNIPER",
           "x": 92,
           "y": 92,
-          "add_trait": [ "DKZ_COMBAT", "IGNORE_SOUND", "NO_BASH", "RETURN_TO_START_POS" ]
+          "add_trait": [ "DKZ_COMBAT" ]
         }
       ]
     }
@@ -2487,7 +2530,7 @@
           "class": "DKZ_MAQUIS_BIRD_MUTANT",
           "x": 31,
           "y": 20,
-          "add_trait": [ "DKZ_COMBAT", "IGNORE_SOUND", "NO_BASH", "RETURN_TO_START_POS" ]
+          "add_trait": [ "DKZ_COMBAT" ]
         }
       ]
     }
