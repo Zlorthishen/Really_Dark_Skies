@@ -17,27 +17,24 @@
       "bio_metabolics",
       "bio_power_storage_mkII"
     ],
-    "skills": [ 
-	  { "level": 4, "name": "gun" }, 
-	  { "level": 4, "name": "pistol" },
-	  { "level": 3, "name": "melee" },
+    "skills": [
+      { "level": 4, "name": "gun" },
+      { "level": 4, "name": "pistol" },
+      { "level": 3, "name": "melee" },
       { "level": 2, "name": "rifle" },
       { "level": 2, "name": "stabbing" },
-      { "level": 2, "name": "dodge" } 
-	],
+      { "level": 2, "name": "dodge" }
+    ],
     "items": {
       "both": {
         "items": [ "pants_cargo", "under_armor", "socks", "boots", "badge_cybercop", "smart_phone", "wristwatch" ],
-        "entries": [
-          { "group": "charged_two_way_radio" } 
-
-
-		  ]
+        "entries": [ { "group": "charged_two_way_radio" } ]
       },
       "male": [ "boxer_shorts" ],
       "female": [ "sports_bra", "boxer_shorts" ]
     }
-  },  {
+  },
+  {
     "type": "profession",
     "id": "bionic_maquis_mega_man",
     "name": "Bionic Maquis Mega Soldier",
@@ -58,10 +55,10 @@
       "bio_metabolics",
       "bio_hydraulics",
       "bio_blaster",
-	  "bio_power_armor_interface",
-	  "bio_painkiller",
-	  "bio_remote",
-	  "bio_ups",
+      "bio_power_armor_interface",
+      "bio_painkiller",
+      "bio_remote",
+      "bio_ups",
       "bio_power_storage_mkII",
       "bio_power_storage_mkII",
       "bio_power_storage_mkII",
@@ -73,22 +70,18 @@
       "bio_power_storage_mkII",
       "bio_power_storage_mkII"
     ],
-    "skills": [ 
-	  { "level": 5, "name": "gun" }, 
-	  { "level": 4, "name": "pistol" },
-	  { "level": 3, "name": "melee" },
+    "skills": [
+      { "level": 5, "name": "gun" },
+      { "level": 4, "name": "pistol" },
+      { "level": 3, "name": "melee" },
       { "level": 2, "name": "rifle" },
       { "level": 2, "name": "stabbing" },
-      { "level": 2, "name": "dodge" } 
-	],
+      { "level": 2, "name": "dodge" }
+    ],
     "items": {
       "both": {
         "items": [ "pants_cargo", "under_armor", "socks", "boots", "badge_cybercop", "smart_phone", "wristwatch" ],
-        "entries": [
-          { "group": "charged_two_way_radio" } 
-
-
-		  ]
+        "entries": [ { "group": "charged_two_way_radio" } ]
       },
       "male": [ "boxer_shorts" ],
       "female": [ "sports_bra", "boxer_shorts" ]
@@ -107,7 +100,7 @@
       "bio_armor_legs",
       "bio_armor_arms",
       "bio_cqb",
-      "bio_blade",	  
+      "bio_blade",
       "bio_geiger",
       "bio_adrenaline",
       "bio_night_vision",
@@ -151,7 +144,6 @@
       "female": [ "sports_bra", "boxer_shorts" ]
     }
   },
-  
   {
     "type": "profession",
     "id": "bionic_maquis_technican",
@@ -163,7 +155,7 @@
       "bio_tools",
       "bio_sunglasses",
       "bio_flashlight",
-      "bio_armor_torso",	  
+      "bio_armor_torso",
       "bio_hydraulics",
       "bio_cable",
       "bio_power_storage_mkII",
@@ -196,17 +188,7 @@
     "skills": [ { "level": 2, "name": "barter" }, { "level": 2, "name": "speech" } ],
     "no_bonus": "teleumbrella",
     "items": {
-      "both": [
-        "socks",
-        "suit",
-        "dress_shoes",
-        "gold_watch",
-        "knit_scarf",
-        "briefcase",
-        "smart_phone",
-        "file",
-        "teleumbrella"
-      ],
+      "both": [ "socks", "suit", "dress_shoes", "gold_watch", "knit_scarf", "briefcase", "smart_phone", "file", "teleumbrella" ],
       "male": [ "boxer_shorts" ],
       "female": [ "bra", "panties" ]
     }
