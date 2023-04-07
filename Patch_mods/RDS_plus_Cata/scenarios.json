@@ -2,7 +2,7 @@
   {
     "type": "scenario",
     "name": "Slave Fighter vs Alien Invader",
-    "description": "All your life you have been experimented on and forced to fight others for the amusement of your masters. Never having seen the sun or the outside the cataclysm gave you a chance at freedom. Now you just have to escape from your fellow combatants...",
+    "description": "All your life you have been experimented on and forced to fight others for the amusement of your masters. Never having seen the sun or the outside the cataclysm gave you a chance at freedom. Now you just have one more fight, but this time your opponent isn't human…",
     "flags": [ "LONE_START", "CHALLENGE" ],
     "id": "house_fight_xenoids",
     "points": -2,
