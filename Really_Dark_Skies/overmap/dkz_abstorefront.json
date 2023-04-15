@@ -11,7 +11,7 @@
         "_______o````b|XXX--XXX|4",
         "_______o````b|........| ",
         "_______o``a`b|.BƁ..ƁB.| ",
-        "_~~~~~~o`a``a|.BB..BB.| ",
+        "_~~~~~~o`a``a|.BB..ḆB.| ",
         "_______|xxDxx|.ḄḂ..BB.| ",
         "_______|..............X ",
         "_______|..............X ",
@@ -64,6 +64,7 @@
         "Ḃ": "t_floor",
         "Ɓ": "t_floor",
         "Ḅ": "t_floor",
+        "Ḇ": "t_floor",
         "_": "t_pavement",
         "~": "t_pavement_y",
         "+": "t_door_c",
@@ -89,6 +90,7 @@
         "Ḃ": "f_rack",
         "Ɓ": "f_rack",
         "Ḅ": "f_rack",
+        "Ḇ": "f_rack",
         "R": "f_dumpster",
         "L": "f_locker",
         "l": "f_locker",
@@ -117,6 +119,7 @@
         "Ɓ": { "item": "shoulder_strap", "chance": 80 },
         "Ḃ": { "item": "keffiyeh", "chance": 100 },
         "Ḅ": { "item": "pickelhaube", "chance": 100 },
+        "Ḇ": { "item": "1st_aid", "chance": 100 },
         ":": { "item": "sm_extinguisher", "chance": 100 }
       }
     }
