@@ -65,6 +65,7 @@
         "Ɓ": "t_floor",
         "Ḅ": "t_floor",
         "Ḇ": "t_floor",
+        "ḅ": "t_floor",
         "_": "t_pavement",
         "~": "t_pavement_y",
         "+": "t_door_c",
@@ -91,6 +92,7 @@
         "Ɓ": "f_rack",
         "Ḅ": "f_rack",
         "Ḇ": "f_rack",
+        "ḅ": "f_rack",
         "R": "f_dumpster",
         "L": "f_locker",
         "l": "f_locker",
@@ -120,6 +122,7 @@
         "Ḃ": { "item": "keffiyeh", "chance": 100 },
         "Ḅ": { "item": "pickelhaube", "chance": 100 },
         "Ḇ": { "item": "1st_aid", "chance": 100 },
+        "ḅ": { "item": "noise_emitter", "chance": 100 },
         ":": { "item": "sm_extinguisher", "chance": 100 }
       }
     }
