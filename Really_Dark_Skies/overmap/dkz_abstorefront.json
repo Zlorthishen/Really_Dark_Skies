@@ -122,7 +122,7 @@
         "Ḃ": { "item": "keffiyeh", "chance": 100 },
         "Ḅ": { "item": "pickelhaube", "chance": 100 },
         "Ḇ": { "item": "1st_aid", "chance": 100 },
-        "ḅ": { "item": "noise_emitter", "chance": 100 },
+        "ḅ": { "item": "tool_belt", "chance": 100 },
         ":": { "item": "sm_extinguisher", "chance": 100 }
       }
     }
@@ -145,11 +145,11 @@
         "       |+|||||B..BB..B| ",
         "       |BBBBB|B..BB..B| ",
         "       |.....+...BB..B| ",
-        "       |.F.F.|...~..~B|#",
+        "       |.F.F.|...~..~B| ",
         "       |||||||...~.~~~|~",
         "       |~.q~~+~~~~~~~~`~",
         "       |Q~.~.|<.~BBBBB|~",
-        "       ||||||||||||||||#",
+        "       |||||||||||||||| ",
         "                        ",
         "                        ",
         "                        ",
@@ -171,7 +171,7 @@
         "`": "t_sewage",
         "X": "t_open_air"
       },
-      "place_monster": [ { "monster": [ "dkz_mon_lurker_rectified" ], "x": [ 19, 21 ], "y": [ 10, 13 ], "chance": 100, "repeat": [ 2, 3 ] } ],
+      "place_monster": [ { "monster": [ "dkz_mon_lurker_rectified" ], "x": [ 19, 21 ], "y": [ 10, 13 ], "chance": 100 } ],
       "furniture": { "F": "f_home_furnace", "q": "f_sink", "Q": "f_toilet", "B": "f_rack" , "`": "f_rubble" }
     }
   },
