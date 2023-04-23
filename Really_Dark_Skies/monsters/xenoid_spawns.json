@@ -110,11 +110,11 @@
     "name": "GROUP_MIL_STRONG",
     "type": "monstergroup",
     "monsters": [
-      { "monster": "mon_dkz_glowdrone", "freq": 100, "cost_multiplier": 0, "pack_size": [ 2, 3 ] },
-      { "monster": "mon_dkz_scidrone", "freq": 90, "cost_multiplier": 0, "pack_size": [ 1, 3 ] },
+      { "monster": "mon_dkz_glowdrone", "freq": 100, "cost_multiplier": 0, "pack_size": [ 1, 2 ] },
+      { "monster": "mon_dkz_scidrone", "freq": 90, "cost_multiplier": 0, "pack_size": [ 1, 2 ] },
       { "monster": "dkz_xenoid_ranger", "freq": 10, "cost_multiplier": 0, "pack_size": [ 1, 2 ] },
-      { "monster": "dkz_xenoid_enforcer", "freq": 50, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
-      { "monster": "dkz_xenoid_knight", "freq": 70, "cost_multiplier": 0, "pack_size": [ 2, 4 ] },
+      { "monster": "dkz_xenoid_enforcer", "freq": 50, "cost_multiplier": 0, "pack_size": [ 1, 3 ] },
+      { "monster": "dkz_xenoid_knight", "freq": 70, "cost_multiplier": 0, "pack_size": [ 1, 2 ] },
       { "monster": "dkz_xenoid_fumigator", "freq": 30, "cost_multiplier": 0, "pack_size": [ 1, 2 ], "starts": 128 },
       { "monster": "dkz_xenoid_pyro", "freq": 50, "cost_multiplier": 0, "pack_size": [ 1, 2 ], "starts": 128 },
       { "monster": "mon_dkz_emissary", "freq": 100, "cost_multiplier": 25, "starts": 960 },
@@ -125,6 +125,7 @@
   },
   {
     "name": "GROUP_MIL_BASE",
+    "//": "Xenoids prioritize attacking military bases.. Starts with large groups of knights and drones, ends with emissaries, earlier than normal spawns.",	
     "type": "monstergroup",
     "monsters": [
       { "monster": "mon_dkz_glowdrone", "freq": 100, "cost_multiplier": 0, "pack_size": [ 2, 5 ] },
