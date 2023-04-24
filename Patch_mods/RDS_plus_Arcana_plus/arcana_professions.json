@@ -1,0 +1,18 @@
+[
+  {
+    "type": "scenario",
+    "copy-from": "dkz_combatpatrol",
+    "id": "dkz_combatpatrol",
+    "extend": {
+      "professions": [
+        "arcanist_bloodmage",
+        "arcanist_magehunter",
+        "arcanist_summoner",
+        "arcanist_shrike",
+        "arcanist_purifier",
+        "arcanist_operator",
+		"bio_weapon_e"
+      ]
+    }
+  }
+]

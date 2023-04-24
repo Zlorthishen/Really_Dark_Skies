@@ -1,0 +1,21 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "realdarkskies_Arcana_plus_patchmod",
+    "name": "<color_light_blue>Really Dark Skies</color> plus <color_cyan>Arcana</color>'s patchmods",
+    "authors": [ "Zlorthishen" ],
+    "description": "A patchmod for Really Dark Skies which adds increased support for Arcana, and its numerous patchmods",
+    "category": "misc_additions",
+    "version": "BN version, update 4/23/2023",
+    "dependencies": [
+      "bn",
+      "realdarkskies",
+      "Arcana_Dinomod_Patch",
+      "Arcana_Cata++_Patch",
+      "Arcana_Crit_Patch",
+      "Arcana_Magiclysm_Patch",
+      "Arcana_aftershock_Patch"
+    ],
+    "conflicts": [ "realdarkskies_Arcana_patchmod" ]
+  }
+]
