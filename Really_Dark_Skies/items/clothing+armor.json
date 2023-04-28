@@ -89,18 +89,7 @@
     "warmth": 5,
     "material_thickness": 1,
     "environmental_protection": 5,
-    "flags": [
-      "WATER_FRIENDLY",
-      "WATERPROOF",
-      "STURDY",
-      "SUN_GLASSES",
-      "VARSIZE",
-      "GAS_PROOF",
-      "ZOOM",
-      "NO_REPAIR",
-      "TRADER_AVOID",
-      "RADIOACTIVE"
-    ]
+    "flags": [ "WATER_FRIENDLY", "WATERPROOF", "STURDY", "NO_REPAIR", "TRADER_AVOID" ]
   },
   {
     "id": "dkz_riotshield_salvaged",
