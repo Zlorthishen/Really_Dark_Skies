@@ -1,5 +1,24 @@
 [
   {
+    "id": "dkz_xenofauna1",
+    "type": "harvest",
+    "entries": [
+      { "drop": "alien_meat", "type": "flesh", "mass_ratio": 0.23 },
+      { "drop": "alien_fat", "type": "flesh", "mass_ratio": 0.1 },
+      { "drop": "alien_offal", "type": "offal", "mass_ratio": 0.05 }
+    ]
+  },
+  {
+    "id": "dkz_xenofauna2",
+    "type": "harvest",
+    "entries": [
+      { "drop": "raw_alien_leather", "type": "skin", "mass_ratio": 0.03 },
+      { "drop": "alien_meat", "type": "flesh", "mass_ratio": 0.23 },
+      { "drop": "alien_fat", "type": "flesh", "mass_ratio": 0.1 },
+      { "drop": "alien_offal", "type": "offal", "mass_ratio": 0.05 }
+    ]
+  }, 
+  {
     "id": "dkz_stray",
     "type": "harvest",
     "entries": [
