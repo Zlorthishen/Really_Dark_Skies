@@ -131,6 +131,21 @@
     },
     "responses": [
       {
+        "text": "[MISSION] I am a Chi Industries Bio-Synth and was activated with orders to come to this location and find a 'Mr. Erikson'.",
+        "condition": {
+          "and": [
+            { "u_has_var": "Rendezvous_to_base", "type": "knowledge", "context": "flag", "value": "yes" },
+            { "not": { "u_has_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" } }
+          ]
+        },
+        "effect": [
+          { "u_add_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" },
+          { "npc_first_topic": "TALK_CHAD_ERIKSON_QUESTIONS" }
+        ],
+        "opinion": { "trust": 3, "value": 2 },
+        "topic": "TALK_CHAD_ERIKSON_N_SYNTH_MAID_TO_KILL"
+      },
+      {
         "text": "[MISSION] Sir!  Mission is Foxtrot Uniform Charlie Kilo!  Sir!",
         "condition": {
           "and": [
@@ -317,6 +332,20 @@
       "We do have plans to expand facilities here at Barter Tower, but the Maquis have been fighting for survival for weeks now.  If you want to take point on the task, I will leave base expansion entirely in our control.  Talk to the quartermaster on the ground level, he should still be wearing his postman uniform."
     ],
     "responses": [ { "text": "OK, Thanks.", "topic": "TALK_NONE" }, { "text": "OK, I have to go now.", "topic": "TALK_DONE" } ]
+  },
+  {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
+    "id": "TALK_CHAD_ERIKSON_N_SYNTH_MAID_TO_KILL",
+    "type": "talk_topic",
+    "dynamic_line": [ "When it all hit the fan I tried every trick I had to try to get an advantage against these Xenoids." ],
+    "responses": [
+      {
+        "text": "Thank you for activating me.  I have some questions.",
+        "opinion": { "trust": 5, "value": 1 },
+        "topic": "TALK_CHAD_ERIKSON_QUESTIONS"
+      },
+      { "text": "I didn't ask to be programmed to kill aliens at the end of the world.", "opinion": { "trust": -5, "value": -5 }, "topic": "TALK_DONE" }
+    ]
   },
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
