@@ -84,13 +84,13 @@
   {
     "type": "mutation",
     "id":  "KILLER",
-    "copy-from":"  "KILLER",
+    "copy-from":"KILLER",
     "extend": { "category": [ "XENOID" ] }
   },
   {
     "type": "mutation",
     "id":  "THINSKIN",
-    "copy-from":"  "THINSKIN",
+    "copy-from":"THINSKIN",
     "extend": { "category": [ "XENOID" ] }
   }
 ]
