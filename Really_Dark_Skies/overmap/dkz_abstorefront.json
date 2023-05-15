@@ -106,11 +106,11 @@
         { "chunks": [ "dkz_abstorefront_chunk" ], "x": 17, "y": 5 }
       ],
       "place_npcs": [
-        { "class": "DKZ_QUISLING_THUG", "x": 5, "y": 5, "add_trait": "DKZ_QUISLING" },
-        { "class": "DKZ_QUISLING_THUG", "x": 5, "y": 6, "add_trait": "DKZ_QUISLING" },
-        { "class": "DKZ_QUISLING_THUG", "x": 16, "y": 19, "add_trait": "DKZ_QUISLING" },
-        { "class": "DKZ_QUISLING_THUG", "x": 17, "y": 19, "add_trait": "DKZ_QUISLING" },
-        { "class": "DKZ_QUISLING_BANDIT", "x": 17, "y": 20, "add_trait": "DKZ_QUISLING" }
+        { "class": "DKZ_QUISLING_THUG", "x": 5, "y": 5, "add_trait": [ "NO_RANGED_CRIT", "DKZ_QUISLING" ] },
+        { "class": "DKZ_QUISLING_THUG", "x": 5, "y": 6, "add_trait": [ "NO_RANGED_CRIT", "DKZ_QUISLING" ] },
+        { "class": "DKZ_QUISLING_THUG", "x": 16, "y": 19, "add_trait": [ "NO_RANGED_CRIT", "DKZ_QUISLING" ] },
+        { "class": "DKZ_QUISLING_THUG", "x": 17, "y": 19, "add_trait": [ "NO_RANGED_CRIT", "DKZ_QUISLING" ] },
+        { "class": "DKZ_QUISLING_BANDIT", "x": 17, "y": 20, "add_trait": [ "NO_RANGED_CRIT", "DKZ_QUISLING" ] }
       ],
       "place_monster": [
         { "group": "GROUP_QUISSLING_HELPERS", "x": [ 1, 4 ], "y": [ 1, 4 ], "chance": 90, "repeat": 7 },
@@ -149,7 +149,7 @@
         "       |||||||...~.~~~|~",
         "       |~.q~~+~~~~~~~~`~",
         "       |Q~.~.|<.~BBBBB|~",
-        "       |||||||||||||||| ",
+        "       ||||||||||||||||#",
         "                        ",
         "                        ",
         "                        ",
