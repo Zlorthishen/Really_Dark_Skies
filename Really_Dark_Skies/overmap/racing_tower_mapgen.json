@@ -687,12 +687,12 @@
         "s": "t_pavement"
       },
       "place_nested": [
+        { "chunks": [ "racing_tower_NPC_D" ], "x": 50, "y": 50 },
         { "chunks": [ "racing_tower_4x4_surgery" ], "x": 68, "y": 17 },
         { "chunks": [ "racing_tower_4x4_surgery" ], "x": 64, "y": 24 },
         { "chunks": [ "racing_tower_4x4_medical" ], "x": 76, "y": 24 },
         { "chunks": [ "racing_tower_4x4_medical" ], "x": 76, "y": 28 },
         { "chunks": [ "racing_tower_4x4_medical" ], "x": 72, "y": 28 },
-        { "chunks": [ "racing_tower_NPC_D" ], "x": 50, "y": 50 },
         { "chunks": [ "racing_tower_4x4_store" ], "x": 16, "y": 12 },
         { "chunks": [ "racing_tower_4x4_store" ], "x": 16, "y": 20 },
         { "chunks": [ "racing_tower_4x4_store" ], "x": 28, "y": 12 },
