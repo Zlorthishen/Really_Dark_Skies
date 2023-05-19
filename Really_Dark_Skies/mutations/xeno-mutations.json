@@ -15,7 +15,6 @@
     "iv_sleep_message": "You gaze inside, beyond your fear, beyond good and evil, beyond the old humanity.",
     "memorial_message": "Prepared the way for the Xenoid Masters."
   },
-  
   {
     "type": "mutation",
     "id": "THRESH_XENOID",
@@ -26,13 +25,58 @@
     "profession": false,
     "purifiable": true,
     "threshold": true
-  },  
+  },
+  {
+    "type": "mutation",
+    "id": "XENO_EPIDERMIS",
+    "name": { "str": "Xeno-Epidermis" },
+    "points": 4,
+    "visibility": 1,
+    "ugliness": 1,
+    "description": "Alien influence has altered your skin, making it subtly easier to move, as well as providing minor protection.",
+    "types": [ "SKIN" ],
+    "purifiable": false,
+    "category": [ "XENOID" ],
+    "movecost_modifier": 0.95,
+    "armor": [ { "parts": "ALL", "physical": 1, "heat": 1 } ]
+  },
+  {
+    "type": "mutation",
+    "id": "XENO_METABOLISM",
+    "name": { "str": "Xeno-Metabolism" },
+    "points": 5,
+    "visibility": 0,
+    "ugliness": 0,
+    "description": "Alien influence has altered your metabolism, making you able to run multiple marathons while only needing a few hours of sleep each night.",
+    "types": [ "SKIN" ],
+    "category": [ "XENOID" ],
+    "purifiable": false,
+    "fatigue_modifier": -0.15,
+    "stamina_regen_modifier": 0.15
+  },
+  {
+    "type": "mutation",
+    "id": "XENO_REGENERATION",
+    "name": { "str": "Xeno-Regeneration" },
+    "points": 5,
+    "visibility": 0,
+    "ugliness": 0,
+    "description": "Alien influence has altered your physiology, making you wounds heal much faster than what is natural.",
+    "types": [ "HEALING" ],
+    "prereqs": [ "FASTHEALER2" ],
+    "category": [ "XENOID" ],
+    "threshreq": [ "THRESH_XENOID" ],
+    "purifiable": false,
+    "healing_awake": 0.3,
+    "healing_resting": 0.7,
+    "mending_modifier": 11.0
+  },
   {
     "type": "mutation",
     "id": "TOXICFLESH",
-    "copy-from":"TOXICFLESH",
+    "copy-from": "TOXICFLESH",
     "extend": { "category": [ "XENOID" ] }
-  },  
+  },
   {
     "type": "mutation",
     "id": "STR_ALPHA",
@@ -54,43 +98,61 @@
   {
     "type": "mutation",
     "id": "INFRARED",
-    "copy-from":"INFRARED",
+    "copy-from": "INFRARED",
+    "extend": { "category": [ "XENOID" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "FASTHEALER",
+    "copy-from": "FASTHEALER",
+    "extend": { "category": [ "XENOID" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "FASTHEALER2",
+    "copy-from": "FASTHEALER2",
     "extend": { "category": [ "XENOID" ] }
   },
   {
     "type": "mutation",
     "id": "PARAIMMUNE",
-    "copy-from":"PARAIMMUNE",
+    "copy-from": "PARAIMMUNE",
     "extend": { "category": [ "XENOID" ] }
   },
   {
     "type": "mutation",
     "id": "POISRESIST",
-    "copy-from":"POISRESIST",
+    "copy-from": "POISRESIST",
     "extend": { "category": [ "XENOID" ] }
   },
   {
     "type": "mutation",
     "id": "PAINRESIST",
-    "copy-from":"PAINRESIST",
+    "copy-from": "PAINRESIST",
     "extend": { "category": [ "XENOID" ] }
   },
   {
     "type": "mutation",
     "id": "TERRIFYING",
-    "copy-from":"TERRIFYING",
+    "copy-from": "TERRIFYING",
     "extend": { "category": [ "XENOID" ] }
   },
   {
     "type": "mutation",
-    "id":  "KILLER",
-    "copy-from":"KILLER",
+    "id": "KILLER",
+    "copy-from": "KILLER",
     "extend": { "category": [ "XENOID" ] }
   },
   {
     "type": "mutation",
-    "id":  "THINSKIN",
-    "copy-from":"THINSKIN",
+    "id": "PSYCHOPATH",
+    "copy-from": "PSYCHOPATH",
+    "extend": { "category": [ "XENOID" ] }
+  },
+  {
+    "type": "mutation",
+    "id": "THINSKIN",
+    "copy-from": "THINSKIN",
     "extend": { "category": [ "XENOID" ] }
   }
 ]
