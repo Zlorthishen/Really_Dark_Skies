@@ -349,8 +349,22 @@
       {
         "text": "I didn't ask to be programmed to kill aliens at the end of the world.",
         "opinion": { "trust": -5, "value": -5 },
-        "topic": "TALK_DONE"
+        "topic": "TALK_CHAD_ERIKSON_N_SYNTH_DODGE_DRAFT"
       }
+    ]
+  },
+  {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
+    "id": "TALK_CHAD_ERIKSON_N_SYNTH_DODGE_DRAFT",
+    "type": "talk_topic",
+    "dynamic_line": [ "Well I didn't ask to lead this alien resistance organization, but here we are.  Are you willing to help or not?" ],
+    "responses": [
+      {
+        "text": "Yes.  I have some questions.",
+        "opinion": { "trust": 2, "value": 1 },
+        "topic": "TALK_CHAD_ERIKSON_QUESTIONS"
+      },
+      { "text": "…", "effect": [ "hostile" ], "topic": "TALK_DONE" }
     ]
   },
   {
