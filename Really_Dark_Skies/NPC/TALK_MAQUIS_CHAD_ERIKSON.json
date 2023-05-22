@@ -135,6 +135,7 @@
         "condition": {
           "and": [
             { "u_has_var": "Rendezvous_to_base", "type": "knowledge", "context": "flag", "value": "yes" },
+            { "u_has_mission": "DKZ_N_SYNTH_MAID_TO_KILL" },
             { "not": { "u_has_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" } }
           ]
         },
@@ -150,6 +151,7 @@
         "condition": {
           "and": [
             { "u_has_var": "Rendezvous_to_base", "type": "knowledge", "context": "flag", "value": "yes" },
+            { "u_has_mission": "DKZ_MAQUIS_RENDEZVOUS_TO_BASE" },
             { "not": { "u_has_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" } }
           ]
         },
@@ -344,7 +346,11 @@
         "opinion": { "trust": 5, "value": 1 },
         "topic": "TALK_CHAD_ERIKSON_QUESTIONS"
       },
-      { "text": "I didn't ask to be programmed to kill aliens at the end of the world.", "opinion": { "trust": -5, "value": -5 }, "topic": "TALK_DONE" }
+      {
+        "text": "I didn't ask to be programmed to kill aliens at the end of the world.",
+        "opinion": { "trust": -5, "value": -5 },
+        "topic": "TALK_DONE"
+      }
     ]
   },
   {
