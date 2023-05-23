@@ -140,6 +140,7 @@
     "items": [
       { "group": "NC_MAQUIS_MERCHANT_books", "prob": 10 },
       { "group": "NC_MAQUIS_MERCHANT_misc_supplies", "prob": 10 },
+      { "group": "NC_MAQUIS_MERCHANT_swat_gear", "prob": 10 },
       { "item": "jerky", "count-min": 10, "count-max": 25, "prob": 10 },
       { "item": "tallow", "count-min": 10, "count-max": 25, "prob": 10 },
       { "item": "pemmican", "count-min": 10, "count-max": 25, "prob": 10 },
@@ -158,6 +159,38 @@
       { "group": "infantry_medical_gear", "prob": 40 },
       { "group": "schematics", "prob": 40 },
       { "group": "mut_lab", "prob": 40 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_MAQUIS_MERCHANT_swat_gear",
+    "subtype": "distribution",
+    "items": [
+      [ "ammo_satchel", 5 ],
+      [ "bootstrap", 5 ],
+      [ "chestpouch", 5 ],
+      [ "dragonskin", 5 ],
+      [ "flashbang", 30 ],
+      [ "goggles_ir", 10 ],
+      [ "goggles_nv", 10 ],
+      [ "helmet_lobster", 5 ],
+      [ "helmet_riot", 5 ],
+      [ "holo_sight", 20 ],
+      [ "holster", 15 ],
+      [ "bandolier_shotgun", 15 ],
+      [ "torso_bandolier_shotgun", 8 ],
+      [ "kevlar", 20 ],
+      [ "knife_combat", 10 ],
+      [ "legpouch_large", 5 ],
+      [ "mask_bal", 10 ],
+      [ "mask_gas", 10 ],
+      [ "modularvest", 15 ],
+      [ "smokebomb", 5 ],
+      [ "suppressor", 25 ],
+      [ "suppressor_compact", 20 ],
+      [ "swat_armor", 20 ],
+      [ "tac_fullhelmet", 5 ],
+      [ "tac_helmet", 10 ]
     ]
   },
   {
