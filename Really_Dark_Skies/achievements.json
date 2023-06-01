@@ -2,30 +2,28 @@
   {
     "id": "achievement_kill_stray",
     "type": "achievement",
-    "name": "<color_light_blue>There's another kind of zombie around.</color>",
+    "name": "<color_light_blue>[Really Dark Skies]</color> There's another kind of zombie around.",
     "requirements": [ { "event_statistic": "num_avatar_stray_kills", "is": ">=", "target": 1 } ]
   },
   {
     "id": "achievement_kill_alien",
     "type": "achievement",
-    "name": "<color_red>If it bleeds we can kill it.</color>",
+    "name": "<color_light_blue>[Really Dark Skies]</color> - <color_red>If it bleeds we can kill it.</color>",
     "hidden_by": [ "achievement_kill_stray" ],
     "requirements": [ { "event_statistic": "num_avatar_alien_kills", "is": ">=", "target": 1 } ]
   },
   {
     "id": "achievement_kill_alienrobot",
     "type": "achievement",
-    "name": "<color_red>By the toll of a billion deaths man has bought his birthright of the Earth, and it is his against all comers.</color>",
+    "name": "<color_light_blue>[Really Dark Skies]</color> - <color_red>By the toll of a billion deaths man has bought his birthright of the Earth, and it is his against all comers.</color>",
     "hidden_by": [ "achievement_kill_alien" ],
-    "requirements": [
-      { "event_statistic": "num_avatar_alienrobots_kills", "is": ">=", "target": 1 }
-    ]
+    "requirements": [ { "event_statistic": "num_avatar_alienrobots_kills", "is": ">=", "target": 1 } ]
   },
   {
-    "id": "achievement_arcana_dkz_RANDYS_FIXED_GENERATOR",
+    "id": "achievement_dkz_RANDYS_FIXED_GENERATOR",
     "type": "achievement",
     "name": { "str": "Power Overwhelming." },
-    "description": "Help Randy Erikson fix the secret generator at the refugee center.",
+    "description": "<color_light_blue>[Really Dark Skies]</color> Help Randy Erikson fix the secret generator at the refugee center.",
     "requirements": [ { "event_statistic": "num_avatar_dkz_RANDYS_FIXED_GENERATOR", "is": ">=", "target": 1 } ]
   },
   {
@@ -40,15 +38,13 @@
     "event_type": "character_gains_effect",
     "value_constraints": { "effect": { "equals": "dkz_RANDYS_FIXED_GENERATOR" } },
     "drop_fields": [ "effect" ]
-  },  
-  
-  
-  
+  },
   {
-    "id": "achievement_arcana_dkz_RANDYS_BUDDY",
+    "id": "achievement_dkz_RANDYS_BUDDY",
     "type": "achievement",
+    "hidden_by": [ "achievement_dkz_RANDYS_FIXED_GENERATOR" ],
     "name": { "str": "The game within the game." },
-    "description": "Help Randy Erikson find all the latest updates for Cataclysm - Bright Nights.",
+    "description": "<color_light_blue>[Really Dark Skies]</color> Help Randy Erikson find all the latest updates for Cataclysm - Bright Nights.",
     "requirements": [ { "event_statistic": "num_avatar_dkz_RANDYS_BUDDY", "is": ">=", "target": 1 } ]
   },
   {
@@ -63,9 +59,7 @@
     "event_type": "character_gains_effect",
     "value_constraints": { "effect": { "equals": "dkz_RANDYS_BUDDY" } },
     "drop_fields": [ "effect" ]
-  },  
-  
-  
+  },
   {
     "id": "avatar_kills_monster",
     "type": "event_transformation",
@@ -131,5 +125,5 @@
     "stat_type": "count",
     "event_transformation": "avatar_alienanimal_kills",
     "description": { "str": "alien animal killed", "str_pl": "alien animals killed" }
-  }  
+  }
 ]
