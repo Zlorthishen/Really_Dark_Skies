@@ -86,6 +86,27 @@
   },
   {
     "type": "mutation",
+    "id": "XENO_BIOLOGY",
+    "name": { "str": "Xeno-Biology" },
+    "points": 11,
+    "visibility": 0,
+    "ugliness": 0,
+    "description": "Alien influence has altered your fundamental biology, making you causing a variety of effects.  These include better hearing and pain tolerance, as well as increasing stamina, and decreasing food and water requirements.",
+    "types": [ "HEALING" ],
+    "prereqs": [ "TOXICFLESH", "XENO_REGENERATION" ],
+    "category": [ "XENOID" ],
+    "threshreq": [ "THRESH_XENOID" ],
+    "purifiable": false,
+    "social_modifiers": { "intimidate": 2 },
+    "hp_modifier_secondary": 0.13,	
+    "pain_recovery": 1.17,
+    "hearing_modifier": 1.13,
+    "max_stamina_modifier": 1.13,
+    "metabolism_modifier": -0.23,
+    "thirst_modifier": -0.23
+  },
+  {
+    "type": "mutation",
     "id": "TOXICFLESH",
     "copy-from": "TOXICFLESH",
     "extend": { "category": [ "XENOID" ] }
