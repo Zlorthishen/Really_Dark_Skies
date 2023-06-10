@@ -1,0 +1,12 @@
+[
+  {
+    "//1": "-----------------------------------------------------------------------------------------------------------------------",
+    "type": "item_group",
+    "id": "DKZ_guns_energy",
+    "//": "Assorted factory crafted energy weapons.",
+    "items": [
+      { "item": "heavy_railgun", "prob": 15 },
+      { "item": "atgmpod", "prob": 10 }
+    ]
+  }
+]
