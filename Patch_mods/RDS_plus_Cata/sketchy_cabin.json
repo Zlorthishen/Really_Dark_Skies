@@ -35,14 +35,14 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "dkz_sketchycabin_chunk",
-    "weight": 400,
+    "weight": 100,
     "object": {
       "mapgensize": [ 1, 1 ],
       "rotation": [ 0, 3 ],
       "rows": [
         "A"
       ],
-      "terrain": { "A": "t_null", " ": "t_null" },
+      "terrain": { "A": "t_null" },
       "place_monster": [ { "group": "GROUP_XENOID_BOSS", "x": 0, "y": 0 } ]
     }	
   },
@@ -50,14 +50,14 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "dkz_sketchycabin_chunk",
-    "weight": 400,
+    "weight": 2000,
     "object": {
       "mapgensize": [ 1,1 ],
       "rotation": [ 0, 3 ],
       "rows": [
         "A"
       ],
-      "terrain": { "A": "t_null", " ": "t_null" },
+      "terrain": { "A": "t_null" },
       "place_monster": [ { "group": "GROUP_MI-GO_BASE_COMMON", "x": 0, "y": 0 } ]
     }	
   },
@@ -65,14 +65,14 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "dkz_sketchycabin_chunk",
-    "weight": 100,
+    "weight": 1000,
     "object": {
       "mapgensize": [ 1,1 ],
       "rotation": [ 0, 3 ],
       "rows": [
         "A"
       ],
-      "terrain": { "A": "t_null", " ": "t_null" },
+      "terrain": { "A": "t_null" },
       "place_monster": [ { "group": "GROUP_TRIFFID", "x": 0, "y": 0} ]
     }	
   },

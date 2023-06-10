@@ -1,0 +1,56 @@
+[
+  {
+    "type": "talk_topic",
+    "id": "TALK_CHAD_ERIKSON_ROOT",
+    "responses": [
+      {
+        "text": "[MISSION] I am a Chi Industries Bio-Synth and was activated with orders to come to this location and find a 'Mr. Erikson'.",
+        "condition": {
+          "and": [
+            { "u_has_var": "Rendezvous_to_base", "type": "knowledge", "context": "flag", "value": "yes" },
+            { "u_has_mission": "DKZ_N_SYNTH_MAID_TO_KILL" },
+            { "not": { "u_has_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" } }
+          ]
+        },
+        "effect": [
+          { "u_add_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" },
+          { "npc_first_topic": "TALK_CHAD_ERIKSON_QUESTIONS" }
+        ],
+        "opinion": { "trust": 3, "value": 2 },
+        "topic": "TALK_CHAD_ERIKSON_N_SYNTH_MAID_TO_KILL"
+      }
+    ]
+  },
+  {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
+    "id": "TALK_CHAD_ERIKSON_N_SYNTH_MAID_TO_KILL",
+    "type": "talk_topic",
+    "dynamic_line": [ "When it all hit the fan I tried every trick I had to try to get an advantage against these Xenoids." ],
+    "responses": [
+      {
+        "text": "Thank you for activating me.  I have some questions.",
+        "opinion": { "trust": 5, "value": 1 },
+        "topic": "TALK_CHAD_ERIKSON_QUESTIONS"
+      },
+      {
+        "text": "I didn't ask to be programmed to kill aliens at the end of the world.",
+        "opinion": { "trust": -5, "value": -5 },
+        "topic": "TALK_CHAD_ERIKSON_N_SYNTH_DODGE_DRAFT"
+      }
+    ]
+  },
+  {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
+    "id": "TALK_CHAD_ERIKSON_N_SYNTH_DODGE_DRAFT",
+    "type": "talk_topic",
+    "dynamic_line": [ "Well I didn't ask to lead this alien resistance organization, but here we are.  Are you willing to help or not?" ],
+    "responses": [
+      {
+        "text": "Yes.  I have some questions.",
+        "opinion": { "trust": 2, "value": 1 },
+        "topic": "TALK_CHAD_ERIKSON_QUESTIONS"
+      },
+      { "text": "…", "effect": [ "hostile" ], "topic": "TALK_DONE" }
+    ]
+  }
+]

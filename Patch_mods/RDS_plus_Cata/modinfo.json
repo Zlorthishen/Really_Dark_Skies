@@ -5,6 +5,7 @@
     "name": "<color_light_blue>Really Dark Skies</color> plus <color_light_green>Cataclysm++</color>",
     "authors": [ "Zlorthishen" ],
     "description": "A patchmod for <color_light_blue>Really Dark Skies</color> which adds increased support for <color_light_green>Cataclysm++</color> mod",
+    "version": "BN version, update 6/10/2023",	
     "category": "misc_additions",
     "dependencies": [ "bn", "realdarkskies", "Cata++" ]
   }

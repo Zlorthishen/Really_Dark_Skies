@@ -6,7 +6,7 @@
     "authors": [ "Zlorthishen" ],
     "description": "A patchmod for Really Dark Skies which adds increased support for C.R.I.T. mod",
     "category": "misc_additions",
-    "version": "BN version, update 4/7/2023",			
+    "version": "BN version, update 6/10/2023",
     "dependencies": [ "bn", "realdarkskies", "crt_expansion" ]
   }
 ]
