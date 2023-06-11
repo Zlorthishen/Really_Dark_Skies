@@ -1,7 +1,7 @@
 [
   {
     "type": "palette",
-    "id": "mi-go_pal",
+    "id": "mi-go_palette",
     "//": "Due to the weird shape of rooms, numbers (and the letter a) are used to identify nested map IDs, so they have no special meaning in the palette.",
     "terrain": {
       "0": "t_floor_resin",
@@ -89,7 +89,7 @@
         ".|||+|.||16 ||||||..||.||..|||        i  T i    ",
         "........|||+|.||............||    |V    V    & ^"
       ],
-      "palettes": [ "mi-go_pal" ],
+      "palettes": [ "mi-go_palette" ],
       "place_monsters": [
         { "monster": "GROUP_MI-GO_BASE_CAPTORS", "x": [ 41, 42 ], "y": [ 19, 21 ], "density": 0.02, "repeat": [ 1, 2 ] },
         { "monster": "GROUP_MI-GO_BASE_BOSS", "x": [ 44, 46 ], "y": [ 20, 22 ], "density": 0.01, "repeat": [ 2, 3 ] }
@@ -132,17 +132,17 @@
         "vvv||vvvv|vv|vvv|vvvvvvv",
         "vv|||vvv|||||||||||vvv|v",
         "vv||vvv||||||||||||||v|v",
-        "vvvvvv||    P      |||||",
-        "vvvv||||    |           ",
-        "vvvv|PP     |           ",
-        "vv|||>      |           ",
-        "vvv||       F           ",
+        "vvvvvv||           |||||",
+        "vvvv||||                ",
+        "vvvv|PP                 ",
+        "vv|||>                  ",
+        "vvv||                   ",
         "vv||P              |||+|",
         "vvv||                   ",
         "vv|||                   ",
         "vvv||                   ",
         "vv|||                   ",
-        "vvv|||+||+|#|   P|##|  |",
+        "vvv|||    |#|   P|##|  |",
         "vvvv|| OO #1#  |||Pi|++|",
         "vvvv||    |#|  #T       ",
         "vvv|||         #F       ",
@@ -160,7 +160,7 @@
         { "chunks": [ "mi-go_outpost1_room21" ], "x": 17, "y": 17 },
         { "chunks": [ "mi-go_outpost1_room7" ], "x": 5, "y": 17 }
       ],
-      "palettes": [ "mi-go_pal" ]
+      "palettes": [ "mi-go_palette" ]
     }
   },
   {
@@ -173,9 +173,9 @@
       "rows": [		
         "vvvvvvvvvvvvvvvvvvvvvvvv",
         "vvvvvvvvvvvvvvvvvvvvvvvv",
-        "vvvvvvvvvvvvvvvvvvvvvvvv",
-        "vvv|vvvvvvvvvvvvvvvvvvvv",
-        "vvvvvvvvvvvvvvvvvvvvvvvv",
+        "vvvivvvvvvvvvvvvvvvvvvvv",
+        "vvi|ivvvvvvvvvvvvvvvvvvv",
+        "vvvivvvvvvvvvvvvvvvvvvvv",
         "vvvvvvvvvvvvtvtvvvvvvtvv",
         "vvvv,,,,,vvvvvvvtvtvvvvv",
         "vvv,,F,,,,v|vv|vv|vvtvtv",
@@ -199,7 +199,7 @@
       "place_nested": [
         { "chunks": [ "mi-go_outpost1_room17" ], "x": 12, "y": 16 }
       ],	  
-      "palettes": [ "mi-go_pal" ]
+      "palettes": [ "mi-go_palette" ]
     }
   },
   {
@@ -235,7 +235,7 @@
         "vvvvvvvvvvvvvvvvvvvvvvvv",
         "vvvvvvvvvvvvvvvvvvvvvvvv"
 		],
-      "palettes": [ "mi-go_pal" ]
+      "palettes": [ "mi-go_palette" ]
     }
   },
   {
@@ -260,18 +260,18 @@
         "vvvvvvvvvv::f:::::::::::",
         "vvvvvvvvvv:::::::t:::f::",
         "vvvvvvvvvv:::t::::::::::",
-        "vvvvvvvv::::::::::f:::::",
+        "vvvvvvvv::::::::::f:::i:",
         "vvvvvvv::::::::t::::::::",
-        "vvvvvvvv:::f:::::::::t::",
-        "vvvvvvv::::::::::t::::::",
-        "vvvvvvvv::::::::::::::::",
+        "vvvvvvvv:::f:::::::i:t::",
+        "vvvvvvv::::::::::t::::i:",
+        "vvvvvvvv::::::i:::i:::::",
         "vvvvvvvvv:::t:::::::::::",
-        "vvvvvvvvv::::::f::::::::",
-        "vvvvvvvvv::f::::::::::::",
-        "vvvvvvvvv:::::::::::::::",
-        "vvvvvvvvv:::::::::::::::"
+        "vvvvvvvvv::::::f:::::i::",
+        "vvvvvvvvv::f:::::i::::::",
+        "vvvvvvvvv::::i:::::::::i",
+        "vvvvvvvvv:::::::::::::i:"
       ],	 	  
-      "palettes": [ "mi-go_pal" ]
+      "palettes": [ "mi-go_palette" ]
     }
   },
   {
