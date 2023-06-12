@@ -181,14 +181,14 @@
         "vvvv,,,,,vvvvvvvtvtvvvvv",
         "vvv,,F,,,,v|vv|vv|vvtvtv",
         "vv,F,,,,,,|||||||||v|v|v",
-        "v,,,,,,,,,|&      ||||||",
+        "v,,,,,,,,,|P      ||||||",
         "v,F,,,,,,,||            ",
         "v,,,,,,,,,,+            ",
         "vv,F,,,,,,,+            ",
         "vvv,,F,,,,||            ",
         "vvvvv,,,||||||||||||    ",
         "vvvvtvv||V17   17       ",
-        "vvvvvvvv|               ",
+        "vvvvvvvv|^              ",
         "vvvvvtv||V              ",
         "vvvvvvvv|||||||||||     ",
         "vvvvvvtvv|              ",
@@ -197,6 +197,7 @@
         "vvvvvvvv||   >          ",
         "vvvvvvtvv|              "
       ],
+      "terrain": { "F": "t_platform_resin" },	 	  
       "place_nested": [
 		{ "chunks": [ "mi-go_outpost1_room17" ], "x": 10, "y": 14 },
 		{ "chunks": [ "mi-go_outpost1_room17" ], "x": 14, "y": 14 }
@@ -273,6 +274,7 @@
         "vvvvvvvvv::::i:::::::::i",
         "vvvvvvvvv:::::::::::::i:"
       ],	 	  
+      "terrain": { "f": "t_resin_roof", "i": "t_resin_roof" },	  	  
       "palettes": [ "mi-go_palette" ]
     }
   },
