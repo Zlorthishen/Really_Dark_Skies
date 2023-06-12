@@ -73,7 +73,7 @@
     ],
     "description_affix": "covered_in",
     "is_splattering": true,
-    "half_life": "10 days",
+    "half_life": "100 days",
     "phase": "liquid",
     "display_field": true,
     "looks_like": "fd_sludge"
