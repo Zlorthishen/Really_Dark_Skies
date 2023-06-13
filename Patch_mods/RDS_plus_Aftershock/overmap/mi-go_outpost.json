@@ -39,21 +39,26 @@
     "furniture": {
       "i": "f_alien_tendril",
       "n": "f_alien_table",
+      "Ñ": "f_alien_table",
       "N": "f_alien_table",
       "V": "f_alien_anemone",
       "&": "f_alien_gasper",
       "^": "f_alien_nerve",
       "f": "f_alien_zapper",
       "F": "f_alien_zapper",
-      "X": [ [ "f_null", 2 ], [ "f_alien_scar_small", 2 ],  [ "f_alien_scar", 4 ] ],
-      "x": [ [ "f_null", 2 ], [ "f_alien_scar_small", 5 ], [ "f_alien_scar", 3 ] ],
+      "X": [ [ "f_alien_scar_small", 1 ], [ "f_alien_scar", 6 ] ],
+      "x": [ [ "f_alien_scar_small", 5 ], [ "f_alien_scar", 2 ] ],
       "t": [ "f_alien_zapper", [ "f_alien_tendril", 4 ] ],
       "T": [ "f_alien_zapper", [ "f_alien_tendril", 4 ] ],
       "P": [ [ "f_alien_pod", 2 ], [ "f_alien_pod_organ", 5 ], "f_alien_pod_resin" ],
       "p": [ [ "f_alien_pod", 5 ], [ "f_alien_pod_organ", 2 ], "f_alien_pod_resin" ],
       "O": "f_alien_pod_resin"
     },
-    "items": { "n": [ { "item": "migo_table_study", "chance": 50, "repeat": 2 }, { "item": "migo_table_corpses", "chance": 50 } ], "N": [ { "item": "migo_table_study", "chance": 5 }, { "item": "migo_table_corpses", "chance": 95 } ] }
+    "items": {
+      "Ñ": [ { "item": "migo_table_study", "chance": 50, "repeat": 2 }, { "item": "migo_table_corpses", "chance": 75 } ],
+      "n": [ { "item": "migo_table_study", "chance": 50, "repeat": 2 }, { "item": "migo_table_corpses", "chance": 75 } ],
+      "N": [ { "item": "migo_table_study", "chance": 5 }, { "item": "migo_table_corpses", "chance": 95 } ]
+    }
   },
   {
     "type": "mapgen",
@@ -86,8 +91,8 @@
         "|&  +      |15|||||      |||||||+||   T      T i",
         "|   ||    ||      ||    || F||    |P P    i     ",
         "||   ||||+|||    |||||||||+|||18       T    i & ",
-        ".|||+|.||16 ||||||..||.||..|||        i  T i    ",
-        "........|||+|.||............||    |V    V    & N"
+        ".|||+|.||16 ||||||..||.||..|||        i  T i   x",
+        "........|||+|.||............||    |V    V   & xX"
       ],
       "palettes": [ "mi-go_palette" ],
       "place_monsters": [
@@ -142,10 +147,10 @@
         "vv|||                   ",
         "vvv||                   ",
         "vv|||                   ",
-        "vvv|||P |||##   P|##|  |",
-        "vvvv||P +^|1#  |||Pi||+|",
-        "vvvv||    ||#  #T       ",
-        "vvv|||         #F       ",
+        "vvv|||p |||##   P|##|O |",
+        "vvvv||p +^|1# P|||Pi||+|",
+        "vvvv||    ||#  |T       ",
+        "vvv|||         |F       ",
         "vvvv||       T ||       ",
         "vvvv||         P|       ",
         "vvvvv|       T  +       ",
@@ -665,16 +670,43 @@
       "mapgensize": [ 6, 6 ],
       "rotation": [ 0, 3 ],
       "rows": [
-        "@|#|@@",
-        "|# #@@",
-        "|##|||",
+        "@|##@@",
+        "|| |@@",
+        "||#|||",
         "|P   +",
-        "|  P||",
+        "|^ P||",
         "|||||@"
       ],
       "place_monster": [
         {
-          "monster": [ "dkz_mon_lurker_sewer", "dkz_mon_lurker", "dkz_mon_mossliz", "dkz_mon_packliz", "dkz_mon_wisp" ],
+          "monster": [ "dkz_mon_lurker_sewer", "dkz_mon_lurker" ],
+          "x": 2,
+          "y": 1,
+		  "chance": 100
+        }
+	  ],		  
+      "palettes": [ "mi-go_palette" ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "mi-go_outpost1_room14",
+    "//": "Large Xenoid holding cell",
+    "object": {
+      "mapgensize": [ 6, 6 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "@||#@@",
+        "|| #@@",
+        "||#|||",
+        "|P T||",
+        "|^   +",
+        "|||||@"
+      ],
+      "place_monster": [
+        {
+          "monster": [ "dkz_mon_mossliz", "dkz_mon_packliz", "dkz_mon_wisp" ],
           "x": 2,
           "y": 1,
 		  "chance": 100
