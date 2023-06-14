@@ -2003,9 +2003,9 @@
         { "class": "DKZ_MAQUIS_BIONIC_ASSASSIN", "x": 70, "y": 4, "add_trait": [ "DKZ_COMBAT" ] },
         { "class": "DKZ_MAQUIS_RIOT_COP", "x": 71, "y": 3, "add_trait": [ "DKZ_LEADER" ] },
         { "class": "DKZ_MAQUIS_RIOT_COP", "x": 73, "y": 3, "add_trait": [ "DKZ_LEADER" ] },
-        { "class": "DKZ_MAQUIS_CYBERCOP", "x": 73, "y": 5, "add_trait": [ "DKZ_LEADER" ] },
-        { "class": "DKZ_MAQUIS_MEDICAL_MUTANT", "x": 68, "y": 6, "add_trait": [ "DKZ_MEDIC" ] },
-        { "class": "DKZ_MAQUIS_ELF_MUTANT", "x": 66, "y": 5, "add_trait": [ "DKZ_MEDIC" ] }
+        { "class": "DKZ_MAQUIS_CYBERCOP", "x": 73, "y": 3, "add_trait": [ "DKZ_LEADER" ] },
+        { "class": "DKZ_MAQUIS_MEDICAL_MUTANT", "x": 65, "y": 4, "add_trait": [ "DKZ_MEDIC" ] },
+        { "class": "DKZ_MAQUIS_ELF_MUTANT", "x": 64, "y": 5, "add_trait": [ "DKZ_MEDIC" ] }
       ],
       "computers": {
         "6": {
