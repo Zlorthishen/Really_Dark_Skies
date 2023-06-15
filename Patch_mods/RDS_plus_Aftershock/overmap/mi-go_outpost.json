@@ -23,8 +23,8 @@
       ",": "t_platform_resin",
       ":": "t_resin_roof",
       "|": "t_wall_resin",
-      "#": "t_wall_resin_cage",
-      "+": "t_resin_hole_c",
+      "#": "t_wall_resin_cage",	  
+      "+": [ [ "t_resin_hole_c", 10 ], [ "t_resin_hole_o", 1 ] ],
       "<": "t_slope_up",
       ">": "t_slope_down",
       "p": "t_platform_resin",
@@ -55,6 +55,7 @@
       "O": "f_alien_pod_resin"
     },
     "items": {
+      "ň": { "item": "migo_table_corpses", "chance": 80, "repeat": 2 },
       "Ñ": [ { "item": "migo_table_study", "chance": 50, "repeat": 2 }, { "item": "migo_table_corpses", "chance": 75 } ],
       "n": [ { "item": "migo_table_study", "chance": 50, "repeat": 2 }, { "item": "migo_table_corpses", "chance": 75 } ],
       "N": [ { "item": "migo_table_study", "chance": 5 }, { "item": "migo_table_corpses", "chance": 95 } ]
@@ -148,16 +149,19 @@
         "vvv||                   ",
         "vv|||                   ",
         "vvv|||P |||##   P|##|O |",
-        "vvvv||P +^|1# P|||Pi||+|",
+        "vvvv||P +^|@# P|||Pi||+|",
         "vvvv||    ||#  |T       ",
         "vvv|||         |F       ",
         "vvvv||       T ||       ",
         "vvvv||         P|       ",
         "vvvvv|       T  +       ",
-        "vvv|||       < |||      ",
-        "vvvvv|       |+|T       "	  
+        "vvv|||        <|||      ",
+        "vvvvv|       +||T       "	  
       ],
-      "npcs": { "1": { "class": "mi-go_prisoner" } },	
+      "npcs": { "@": { "class": "mi-go_prisoner" } },	
+      "place_monsters": [
+        { "monster": "GROUP_MI-GO_BASE_CAPTORS", "x": [ 8, 12 ], "y": [ 8, 12 ], "density": 0.02, "repeat": [ 1, 2 ] }
+	  ],
       "place_nested": [
         { "chunks": [ "mi-go_outpost1_room2" ], "x": 13, "y": 4 },
         { "chunks": [ "mi-go_outpost1_room17" ], "x": 21, "y": 6 },
@@ -186,23 +190,25 @@
         "vvvvp,,,,vvvvvvvtvtvvvvv",
         "vvv,,F,,,pv|vv|vv|vvtvtv",
         "vv,F,,,,,,|||||||||v|v|v",
-        "vp,,,,,,,,|P      ||||||",
-        "v,F,,,,,,p||            ",
-        "vp,,,,,,,,,+            ",
-        "vv,F,,,,,,,+            ",
-        "vvvp,F,,,p||            ",
-        "vvvvv,,p||||||||||||    ",
-        "vvvvtvv||V17   17       ",
-        "vvvvvvvv|^              ",
-        "vvvvvtv||V              ",
-        "vvvvvvvv|||||||||||     ",
-        "vvvvvvtvv|              ",
-        "vvvvvvvv||              ",
-        "vvvvvtvvv|              ",
-        "vvvvvvvv||   >          ",
-        "vvvvvvtvv|              "
+        "vp,,,,,,,,|P VnNnV||||||",
+        "v,F,,,,,,p||           |",
+        "vp,,,,,,,,,+           #",
+        "vv,F,,,,,,,+           |",
+        "vvvp,F,,,p||           |",
+        "vvvvv,,p||||||||||      ",
+        "vvvvtvv||V17   17|      ",
+        "vvvvvvvv|^       |      ",
+        "vvvvvtv||V       |      ",
+        "vvvvvvvv||||||||||      ",
+        "vvvvvvtvv#Oňň# PTT      ",
+        "vvvvvvvv||T@@#          ",
+        "vvvvvtvvv|#||||++|      ",
+        "vvvvvvvv||Tň@|>         ",
+        "vvvvvvtvv#O@ň# PTT      "
       ],
-      "terrain": { "F": "t_platform_resin" },	 	  
+      "terrain": { "F": "t_platform_resin" },	
+ 	  
+      "npcs": { "@": { "class": "mi-go_prisoner" } },
       "place_nested": [
 		{ "chunks": [ "mi-go_outpost1_room17" ], "x": 10, "y": 14 },
 		{ "chunks": [ "mi-go_outpost1_room17" ], "x": 14, "y": 14 }
