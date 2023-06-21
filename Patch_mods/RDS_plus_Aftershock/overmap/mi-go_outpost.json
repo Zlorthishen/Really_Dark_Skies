@@ -38,6 +38,7 @@
     },
     "furniture": {
       "i": "f_alien_tendril",
+      "I": "f_alien_tendril",
       "n": "f_alien_table",
       "Ñ": "f_alien_table",
       "N": "f_alien_table",
@@ -195,8 +196,8 @@
         "vvvvp,,,,vvvvvvvtvtvvvvv",
         "vvv,,F,,,pv|vv|vv|vvtvtv",
         "vv,F,,,,,,|||||||||v|v|v",
-        "vp,,,,,,,,|P VnNnV||||||",
-        "v,F,,,,,,p|| 6  6  6   |",
+        "vp,,,,,,,,|& VnNnV||||||",
+        "v,F,,,,,,p|| 6  6  6  &|",
         "vp,,,,,,,,,+           #",
         "vv,F,,,,,,,+           |",
         "vvvp,F,,,p||P||+||   |+|",
