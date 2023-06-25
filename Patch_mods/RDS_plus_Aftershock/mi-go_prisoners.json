@@ -12,12 +12,15 @@
     "traits": [
       { "group": "NPC_starting_traits" }, 
 	  { "group": "Appearance_demographics" },
-      { "trait": "MIGO_HEAT_RESIST", "prob": 85 },
-      { "trait": "WARM_NATURED", "prob": 80 },
-      { "trait": "MIGO_BREATHE", "prob": 65 },
+      { "trait": "MIGO_HEAT_RESIST", "prob": 95 },
+      { "trait": "WARM_NATURED", "prob": 85 },
+      { "trait": "MIGO_BREATHE", "prob": 75 },
+      { "trait": "MIGO_EARS", "prob": 65 },
       { "trait": "MIGO_SCENT", "prob": 40 },
-      { "trait": "MIGO_EARS", "prob": 45 },
-      { "trait": "WINGS_migo", "prob": 20 },
+      { "trait": "WINGS_migo", "prob": 30 },
+      { "trait": "EERIE", "prob": 25 },
+      { "trait": "ELDRITCH", "prob": 10 },
+      { "trait": "THRESH_YUGGOTH", "prob": 5 },
       { "distribution": [ { "trait": "mouth_TENDRILS", "prob": 70 }, { "trait": "FACIAL_TENTACLES", "prob": 40 } ] },
       {
         "distribution": [
