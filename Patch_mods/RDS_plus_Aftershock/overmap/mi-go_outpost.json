@@ -91,7 +91,7 @@
         ".||||      +      |      | 14 |P F| T ||||||||||",
         "||10|   &  |+||   +  13  +    |i F|   VnNNnV    ",
         "|&  +      |15|||||      |||||||+|| T        T P",
-        "|   ||    ||      |      | F||    | 6  6        ",
+        "|   ||    ||      |      | F||    |6   6        ",
         "||   ||||+|||    |||||||||+|||18          6   & ",
         ".|||+|&||16 |||||||O||&||..|||                  ",
         ".||I.|..|||+|.||.I|........I||    |V O         x"
@@ -126,7 +126,7 @@
         { "chunks": [ "mi-go_outpost1_room20" ], "x": 40, "y": 10 },
         { "chunks": [ "mi-go_outpost1_room6" ], "x": 43, "y": 21 },
         { "chunks": [ "mi-go_outpost1_room6" ], "x": 40, "y": 20 },
-        { "chunks": [ "mi-go_outpost1_room6" ], "x": 37, "y": 20 }
+        { "chunks": [ "mi-go_outpost1_room6" ], "x": 36, "y": 20 }
       ]
     }
   },
@@ -141,29 +141,55 @@
         "%%%%%%%%%%%%%%%%%%%%%%%%",
         "%%%%%%%%%%%%%%%%%%%%%%%%",
         "%%%%%%%%%%%%%%%%%%%%%%%%",
-        "%%%%%%%%%%%%%%%%%%%%%%  ",
-        "%%%%%%%%%%%%%%%%%%%|||  ",
-        "%%%%%%%%%%%%%%%%|O||    ",
-        "%%%%%%%%%%%%%||||       ",
-        "%%%%%%%%%%%     |       ",
-        "%%%%%%%%%      <+       ",
-        "%%%%%%%%        |       ",
-        "%%%%%%%                 ",
-        "%%%%%%%                 ",
-        "%%%%%%                  ",
-        "%%%%%%                  ",
-        "%%%%%%                  ",
-        "%%%%%%                  ",
-        "%%%%%                   ",
-        "%%%%%                   ",
-        "%%%%%                   ",
-        "%%%%               |||||",
-        "%%%%                 + |",
-        "%%%%               | | |",
-        "%%%                |O|  ",
-        "%%%                |||| "
+        "%%%%%%%%%%%%##||%%%|||||",
+        "%%%%%%%%%%%||#I|||||NNV ",
+        "%%%%%%%||##|I#&ň|NN&    ",
+        "%%%%%#|#I#|&@|##|V   V||",
+        "%%%%%##&ň||### &| & NN|P",
+        "%%%%%#||#|     <+  P|||O",
+        "%%%%##P   &||+||||+|| P ",
+        "%%%##&  &|||F  T T  I   ",
+        "%%%%|||||| P  P   P  P P",
+        "%%%%#O6  6  6  6  6  6  ",
+        "%%###&                  ",
+        "%%%##O                  ",
+        "%%%%||6  6  6  6  6  6  ",
+        "%%%%#                   ",
+        "%%%##&                  ",
+        "%%%## 6  6  6  6  6  6  ",
+        "%%%#&                   ",
+        "%%%#O                   ",
+        "%%##O 6  6  6  &#|6  6  ",
+        "%%%#           #%|      ",
+        "%%%|+|         ||O      "
 		],
 
+      "npcs": { "@": { "class": "mi-go_prisoner" } },	
+      "place_nested": [
+        { "chunks": [ "mi-go_outpost1_room6" ], "x": 6, "y": 12 },
+        { "chunks": [ "mi-go_outpost1_room6" ], "x": 6, "y": 15 },
+        { "chunks": [ "mi-go_outpost1_room6" ], "x": 6, "y": 18 },
+        { "chunks": [ "mi-go_outpost1_room6" ], "x": 6, "y": 21 }, 
+		{ "chunks": [ "mi-go_outpost1_room6" ], "x": 9, "y": 12 },
+        { "chunks": [ "mi-go_outpost1_room6" ], "x": 9, "y": 15 },
+        { "chunks": [ "mi-go_outpost1_room6" ], "x": 9, "y": 18 },
+        { "chunks": [ "mi-go_outpost1_room6" ], "x": 9, "y": 21 },
+        { "chunks": [ "mi-go_outpost1_room6" ], "x": 12, "y": 12 },
+        { "chunks": [ "mi-go_outpost1_room6" ], "x": 12, "y": 21 },
+        { "chunks": [ "mi-go_outpost1_room6" ], "x": 21, "y": 12 },
+        { "chunks": [ "mi-go_outpost1_room6" ], "x": 12, "y": 18 },
+        { "chunks": [ "mi-go_outpost1_room6" ], "x": 18, "y": 12 },
+        { "chunks": [ "mi-go_outpost1_room6" ], "x": 12, "y": 15 },
+        { "chunks": [ "mi-go_outpost1_room6" ], "x": 15, "y": 12 },
+        { "chunks": [ "mi-go_outpost1_room6" ], "x": 15, "y": 15 },
+        { "chunks": [ "mi-go_outpost1_room6" ], "x": 21, "y": 15 },
+        { "chunks": [ "mi-go_outpost1_room6" ], "x": 15, "y": 18 },
+        { "chunks": [ "mi-go_outpost1_room6" ], "x": 18, "y": 15 },
+        { "chunks": [ "mi-go_outpost1_room6" ], "x": 18, "y": 18 },
+        { "chunks": [ "mi-go_outpost1_room6" ], "x": 18, "y": 21 },
+        { "chunks": [ "mi-go_outpost1_room6" ], "x": 21, "y": 18 },
+        { "chunks": [ "mi-go_outpost1_room6" ], "x": 21, "y": 21 }
+      ],
       "palettes": [ "mi-go_palette" ]
     }
   },  
@@ -202,7 +228,7 @@
       ],
       "npcs": { "@": { "class": "mi-go_prisoner" } },	
       "place_monsters": [
-        { "monster": "GROUP_MI-GO_BASE_CAPTORS", "x": [ 8, 12 ], "y": [ 8, 12 ], "density": 0.1, "repeat": [ 2, 5 ] }
+        { "monster": "GROUP_MI-GO_BASE_CAPTORS", "x": [ 8, 12 ], "y": [ 8, 12 ], "density": 0.07, "repeat": [ 2, 5 ] }
 	  ],
       "place_nested": [
         { "chunks": [ "mi-go_outpost1_room0" ], "x": 0, "y": 20 },
@@ -251,16 +277,16 @@
         "vvvvtvv||V17            ",
         "vvvvvvvv|^              ",
         "vvvvvtv||V      &       ",
-        "vvvvvvvv|||#||&    18  P",
-        "vvvvvvtvv|&ňP||| ||     ",
+        "vvvvvvvv|||#| &    18  P",
+        "vvvvvvtvv|&ň|||| ||     ",
         "vvvvvvvv||I@ň# |+|      ",
         "vvvvvtvvv|#|## I I      ",
         "vvvvvvvv||Iň@#>        T",
-        "vvvvvvtvv|&ňP|  P   P   "
+        "vvvvvvtvv|&ň||  P   P   "
       ],
       "terrain": { "F": "t_platform_resin" },
       "place_monsters": [
-        { "monster": "GROUP_MI-GO_BASE_CAPTORS", "x": [ 8, 12 ], "y": [ 8, 12 ], "density": 0.1, "repeat": [ 1, 2 ] }
+        { "monster": "GROUP_MI-GO_BASE_CAPTORS", "x": [ 8, 12 ], "y": [ 8, 12 ], "density": 0.07, "repeat": [ 1, 2 ] }
 	  ],
       "npcs": { "@": { "class": "mi-go_prisoner" } },
       "place_nested": [
@@ -594,7 +620,7 @@
         "@| ||@@",
         "@|+||@@"
       ],
-      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_COMMON", "x": [ 2, 3 ], "y": [ 1, 4 ], "density": 0.05, "repeat": [ 0, 2 ] } ],
+      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_COMMON", "x": [ 2, 3 ], "y": [ 1, 4 ], "density": 0.03, "repeat": [ 0, 2 ] } ],
       "palettes": [ "mi-go_palette" ]
     }
   },
@@ -614,7 +640,7 @@
         "@| ||@@",
         "@|+||@@"
       ],
-      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_COMMON", "x": [ 2, 3 ], "y": [ 1, 4 ], "density": 0.05, "repeat": [ 0, 2 ] } ],
+      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_COMMON", "x": [ 2, 3 ], "y": [ 1, 4 ], "density": 0.03, "repeat": [ 0, 2 ] } ],
       "palettes": [ "mi-go_palette" ]
     }
   },
@@ -718,7 +744,7 @@
         "@@@@@@@",
         "@@@@@@@"
       ],  
-      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_COMMON", "x": [ 2, 5 ], "y": [ 1, 5 ], "density": 0.05, "repeat": [ 0, 2 ] } ],	  
+      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_COMMON", "x": [ 2, 5 ], "y": [ 1, 5 ], "density": 0.03, "repeat": [ 0, 2 ] } ],	  
       "palettes": [ "mi-go_palette" ]
     }
   },
@@ -738,7 +764,7 @@
         "@@@@@@@",
         "@@@@@@@"
       ],  
-      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_COMMON", "x": [ 2, 5 ], "y": [ 1, 5 ], "density": 0.05, "repeat": [ 0, 2 ] } ],	  
+      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_COMMON", "x": [ 2, 5 ], "y": [ 1, 5 ], "density": 0.03, "repeat": [ 0, 2 ] } ],	  
       "palettes": [ "mi-go_palette" ]
     }
   },
@@ -758,7 +784,7 @@
         "||   i@",
         "@|+|||@"
       ],
-      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_COMMON", "x": [ 2, 5 ], "y": [ 1, 5 ], "density": 0.05, "repeat": [ 0, 2 ] } ],
+      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_COMMON", "x": [ 2, 5 ], "y": [ 1, 5 ], "density": 0.03, "repeat": [ 0, 2 ] } ],
       "palettes": [ "mi-go_palette" ]
     }
   },
@@ -778,7 +804,7 @@
         "||  ii@",
         "@|+|||@"
       ],
-      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_COMMON", "x": [ 2, 5 ], "y": [ 1, 5 ], "density": 0.05, "repeat": [ 0, 2 ] } ],
+      "place_monsters": [ { "monster": "GROUP_MI-GO_BASE_COMMON", "x": [ 2, 5 ], "y": [ 1, 5 ], "density": 0.03, "repeat": [ 0, 2 ] } ],
       "palettes": [ "mi-go_palette" ]
     }
   },
