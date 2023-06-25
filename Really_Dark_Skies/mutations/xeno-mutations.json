@@ -97,7 +97,6 @@
     "category": [ "XENOID" ],
     "threshreq": [ "THRESH_XENOID" ],
     "purifiable": false,
-    "social_modifiers": { "intimidate": 2 },
     "hp_modifier_secondary": 0.13,	
     "pain_recovery": 1.17,
     "hearing_modifier": 1.13,
@@ -105,6 +104,21 @@
     "stamina_regen_modifier": 0.11,	
     "metabolism_modifier": -0.23,
     "thirst_modifier": -0.23
+  },
+  {
+    "type": "mutation",
+    "id": "XENO_SOCIOLOGY",
+    "name": { "str": "Xeno-Sociology" },
+    "points": 13,
+    "visibility": 0,
+    "ugliness": 0,
+    "description": "Alien influence has altered your fundamental social outlook, allowing you to manipulate humans like hacking a computer",
+    "types": [ "HEALING" ],
+    "prereqs": [ "ALIEN_EMPLATHY", "TERRIFYING" ],
+    "category": [ "XENOID" ],
+    "threshreq": [ "THRESH_XENOID" ],
+    "purifiable": false,
+    "social_modifiers": { "lie": 15, "persuade": 5, "intimidate": 25 }
   },
   {
     "type": "mutation",
