@@ -1,8 +1,0 @@
-[
-  {
-    "type": "scenario",
-    "copy-from": "dkz_combatpatrol",
-    "id": "dkz_combatpatrol",
-    "extend": { "professions": [ "wasteland_cyborg" ] }
-  }
-]
