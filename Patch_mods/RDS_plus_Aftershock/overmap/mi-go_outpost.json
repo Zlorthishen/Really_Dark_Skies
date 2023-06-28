@@ -97,10 +97,10 @@
         "%%%#O    ||#            ",
         "%%##O 6  6  6  I#|6  X##",
         "%###           #||   ##^",
-        "%%#|+|         ||#   Ḟ#^"
+        "%%#|+|         ||#   ##^"
 	  ],
       "npcs": { "@": { "class": "mi-go_prisoner" } },	
-      "mapping": { "x": { "monster": [ { "monster": "mon_mi_go_myrmidon", "chance": 99 } ] } },		  
+      "mapping": { "X": { "monster": [ { "monster": "mon_mi_go_myrmidon", "chance": 99 } ] } },		  
       "place_nested": [
         { "chunks": [ "mi-go_outpost1_room6" ], "x": 6, "y": 12 },
         { "chunks": [ "mi-go_outpost1_room6" ], "x": 6, "y": 15 },
