@@ -1,0 +1,13 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "realdarkskies_Thogs_Vehicles_patchmod",
+    "name": "<color_light_blue>Really Dark Skies</color> plus <color_cyan>Thog's Vehicles</color>",
+    "authors": [ "Zlorthishen" ],
+    "description": "A patchmod for Really Dark Skies which adds increased support for Thog's Vehicles mod",
+    "category": "misc_additions",
+    "version": "BN version, update 6/28/2023",		
+    "dependencies": [ "bn", "realdarkskies", "Thogs_Vehicles" ],
+	"conflicts": ["realdarkskies_Arcana_plus_patchmod"]
+  }
+]

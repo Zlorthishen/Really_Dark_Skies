@@ -1,0 +1,17 @@
+[
+  {
+    "type": "scenario",
+    "copy-from": "dkz_combatpatrol",
+    "id": "dkz_combatpatrol",
+    "extend": {
+      "professions": [
+        "mili_jeepdriver",
+        "mili_THGTransportpilot",
+        "mili_THGvtolprototypepilot",
+        "mili_THGpilot",
+        "mili_scoutcardriver",
+        "mili_THGscoutpilot"
+      ]
+    }
+  }
+]
