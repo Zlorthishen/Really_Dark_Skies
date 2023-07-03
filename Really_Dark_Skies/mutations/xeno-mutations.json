@@ -20,11 +20,19 @@
     "id": "THRESH_XENOID",
     "name": { "str": "Xeno-Sapien" },
     "points": 666,
-    "description": "You reject your humanity and replace it with gifts from your Xenoid Masters",
+    "description": "You reject your humanity and replace it with gifts from your Xenoid Masters.",
     "valid": false,
     "profession": false,
     "purifiable": false,
-    "threshold": true
+    "threshold": true,
+    "metabolism_modifier": -0.17,
+    "thirst_modifier": -0.17,
+    "stamina_regen_modifier": 0.11,
+    "fatigue_modifier": -0.11,
+    "anger_relations": [ [ "ALIEN", -500 ], [ "ALIENROBOT", -500 ] ],
+    "armor": [ { "parts": "ALL", "physical": 3, "heat": 3 } ],
+    "ignored_by": [ "ALIEN", "ALIENROBOT" ]
+
   },
   {
     "type": "mutation",
