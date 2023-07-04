@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "realdarkskies_faction_warfare",
+    "name": "<color_light_blue>Really Dark Skies</color> - <color_red>FACTION WARFARE</color>",
+    "authors": [ "Zlorthishen" ],
+    "description": "A patchmod for Really Dark Skies which changes the bio-crystal 'Stray' zombies to be hostile to the Xenoids.",
+    "category": "monster_exclude",
+    "version": "BN version, update 5/27/2023",	    
+    "dependencies": [ "bn", "realdarkskies"]
+  }
+]

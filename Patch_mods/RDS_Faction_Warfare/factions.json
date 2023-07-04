@@ -1,0 +1,23 @@
+[
+  {
+    "type": "MONSTER_FACTION",
+    "name": "stray",
+    "hate": [
+      "small_animal",
+      "fish",
+      "animal",
+      "fox",
+      "cat",
+      "dog",
+      "xenoid",
+      "xenoid_bot",
+      "alien_herbivore",
+      "zombie",
+      "zombie_aquatic",
+      "mi-go",
+      "triffid",
+      "fungus"
+    ],
+    "by_mood": "bee"
+  }
+]
