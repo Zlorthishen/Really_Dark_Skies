@@ -1,5 +1,22 @@
 [
   {
+    "result": "grenade_xeno",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_EXPLOSIVE",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "time": "1 h",
+    "reversible": false,
+    "autolearn": true,	
+    "components": [
+      [ [ "dkz_powercell", 1 ] ],
+	  [ [ "copper", 2 ] ],
+	  [ [ "duct_tape", 5 ] ]
+    ]
+  },
+
+  {
     "result": "dkz_xenoid_mask_reclaimed_white",
     "type": "recipe",
     "category": "CC_ARMOR",

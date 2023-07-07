@@ -1,4 +1,63 @@
 [
+    {
+    "id": "grenade_xeno",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": { "str": "improvised xeno-grenade" },
+    "description": "This is a grenade made from salvaged xenoid power-cells, and some copper wire to form a short circuit.  You aren't sure what might happen, but it probably will explode.",
+    "weight": "500 g",
+    "volume": "350 ml",
+    "to_hit": -1,
+    "bashing": 5,
+    "material": [ "dkz_blend_mat", "dkz_biopoly_mat", "copper", "plastic" ],
+    "symbol": "*",
+    "looks_like": "EMPbomb",
+    "color": "cyan",
+    "use_action": {
+      "target": "grenade_xeno_act",
+      "msg": "You activate the short-circuit xeno-grenade.",
+      "target_charges": 3,
+      "active": true,
+      "menu_text": "Activate short-circuit",
+      "type": "transform"
+    },
+    "flags": [ "ACT_IN_FIRE", "TRADER_AVOID", "BOMB", "GRENADE" ]
+  },
+  {
+    "id": "grenade_xeno_act",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": { "str": "active improvised xeno-grenade" },
+    "description": "This xeno-grenade is active, and will shortly detonate, creating a large EMP field and powerful explosion.  You may not want to be holding it much longer.",
+    "weight": "500 g",
+    "volume": "350 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "to_hit": -1,
+    "bashing": 5,
+    "material": [ "dkz_blend_mat", "dkz_biopoly_mat", "copper", "plastic" ],
+    "symbol": "*",
+    "looks_like": "EMPbomb_act",	
+    "color": "cyan",
+    "initial_charges": 3,
+    "max_charges": 8,
+    "turns_per_charge": 1,
+    "use_action": {
+      "type": "explosion",
+      "draw_explosion_radius": 5,
+      "draw_explosion_color": "light_blue",
+      "emp_blast_radius": 11,
+      "sound_volume": 0,
+      "sound_msg": "Tick.",
+      "no_deactivate_msg": "You've already activated the short-circuit, try throwing it instead.",
+      "explosion": {
+        "damage": 40,
+        "radius": 5,
+        "fragment": { "impact": { "damage_type": "cut", "amount": 80, "armor_multiplier": 5 }, "range": 6 }
+      }
+    },
+    "flags": [ "ACT_IN_FIRE", "TRADER_AVOID" ]
+  },
   {
     "id": "dkz_xenoid_mask_reclaimed_white",
     "type": "ARMOR",
