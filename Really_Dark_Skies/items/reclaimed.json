@@ -1,10 +1,10 @@
 [
-    {
-    "id": "grenade_xeno",
+  {
+    "id": "improvised_grenade_xeno",
     "type": "TOOL",
     "category": "weapons",
     "name": { "str": "improvised xeno-grenade" },
-    "description": "This is a grenade made from salvaged xenoid power-cells, and some copper wire to form a short circuit.  You aren't sure what might happen, but it probably will explode.",
+    "description": "This is a grenade made from a salvaged xenoid power-cell, and some copper wire to form a short circuit.  You aren't sure what might happen, but it probably will explode.",
     "weight": "500 g",
     "volume": "350 ml",
     "to_hit": -1,
@@ -14,7 +14,7 @@
     "looks_like": "EMPbomb",
     "color": "cyan",
     "use_action": {
-      "target": "grenade_xeno_act",
+      "target": "improvised_grenade_xeno_act",
       "msg": "You activate the short-circuit xeno-grenade.",
       "target_charges": 3,
       "active": true,
@@ -24,7 +24,7 @@
     "flags": [ "ACT_IN_FIRE", "TRADER_AVOID", "BOMB", "GRENADE" ]
   },
   {
-    "id": "grenade_xeno_act",
+    "id": "improvised_grenade_xeno_act",
     "type": "TOOL",
     "category": "weapons",
     "name": { "str": "active improvised xeno-grenade" },
@@ -37,7 +37,7 @@
     "bashing": 5,
     "material": [ "dkz_blend_mat", "dkz_biopoly_mat", "copper", "plastic" ],
     "symbol": "*",
-    "looks_like": "EMPbomb_act",	
+    "looks_like": "EMPbomb_act",
     "color": "cyan",
     "initial_charges": 3,
     "max_charges": 8,
@@ -46,7 +46,8 @@
       "type": "explosion",
       "draw_explosion_radius": 5,
       "draw_explosion_color": "light_blue",
-      "emp_blast_radius": 11,
+      "scrambler_blast_radius": 7,
+      "emp_blast_radius": 13,
       "sound_volume": 0,
       "sound_msg": "Tick.",
       "no_deactivate_msg": "You've already activated the short-circuit, try throwing it instead.",
@@ -56,7 +57,68 @@
         "fragment": { "impact": { "damage_type": "cut", "amount": 80, "armor_multiplier": 5 }, "range": 6 }
       }
     },
-    "flags": [ "ACT_IN_FIRE", "TRADER_AVOID" ]
+    "flags": [ "RADIO_MODABLE", "RADIO_INVOKE_PROC", "BOMB", "NPC_ACTIVATE", "ACT_IN_FIRE", "TRADER_AVOID" ]
+  },
+  {
+    "id": "improvised_pipebomb_xeno",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": { "str": "improvised xeno-pipe bomb" },
+    "description": "This is a bomb made from a salvaged xenoid power-cell, and a pipe bomb taped together.  You aren't sure what might happen, but the pipe bomb explosion will probably be enhanced.",
+    "weight": "500 g",
+    "volume": "350 ml",
+    "to_hit": -1,
+    "bashing": 5,
+    "material": [ "dkz_blend_mat", "dkz_biopoly_mat", "copper", "plastic" ],
+    "symbol": "*",
+    "looks_like": "pipe_bomb",
+    "color": "cyan",
+    "use_action": {
+      "target": "improvised_pipebomb_xeno_act",
+      "msg": "You light the fuse on the xeno-pipe bomb.",
+      "target_charges": 6,
+      "active": true,
+      "need_fire": 1,
+      "menu_text": "Light fuse",
+      "type": "transform"
+    },
+    "flags": [ "ACT_IN_FIRE", "TRADER_AVOID", "BOMB", "GRENADE" ]
+  },
+  {
+    "id": "improvised_pipebomb_xeno_act",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": { "str": "active improvised xeno-pipe bomb" },
+    "description": "This xeno-pipebomb is active, and will shortly detonate, creating a large EMP field and an extremely powerful explosion.  You may not want to be holding it much longer.",
+    "weight": "500 g",
+    "volume": "350 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "to_hit": -1,
+    "bashing": 5,
+    "material": [ "dkz_blend_mat", "dkz_biopoly_mat", "copper", "plastic" ],
+    "symbol": "*",
+    "looks_like": "pipebomb_act",
+    "color": "cyan",
+    "initial_charges": 3,
+    "max_charges": 8,
+    "turns_per_charge": 1,
+    "use_action": {
+      "draw_explosion_radius": 11,
+      "draw_explosion_color": "light_blue",
+      "scrambler_blast_radius": 11,
+      "emp_blast_radius": 19,
+      "type": "explosion",
+      "sound_volume": 0,
+      "sound_msg": "ssss...",
+      "no_deactivate_msg": "You've already lit the %s, try throwing it instead.",
+      "explosion": {
+        "damage": 40,
+        "radius": 5,
+        "fragment": { "impact": { "damage_type": "cut", "amount": 120, "armor_multiplier": 7 }, "range": 12 }
+      }
+    },
+    "flags": [ "ACT_IN_FIRE", "BOMB", "TRADER_AVOID", "DANGEROUS" ]
   },
   {
     "id": "dkz_xenoid_mask_reclaimed_white",

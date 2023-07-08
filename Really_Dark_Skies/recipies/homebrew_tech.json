@@ -1,6 +1,6 @@
 [
   {
-    "result": "grenade_xeno",
+    "result": "improvised_grenade_xeno",
     "type": "recipe",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_EXPLOSIVE",
@@ -8,14 +8,22 @@
     "difficulty": 3,
     "time": "1 h",
     "reversible": false,
-    "autolearn": true,	
-    "components": [
-      [ [ "dkz_powercell", 1 ] ],
-	  [ [ "copper", 2 ] ],
-	  [ [ "duct_tape", 5 ] ]
-    ]
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "PRY", "level": 1 }, { "id": "SAW_M", "level": 1 } ],
+    "components": [ [ [ "dkz_powercell", 1 ] ], [ [ "copper", 2 ] ], [ [ "duct_tape", 5 ] ] ]
   },
-
+  {
+    "result": "improvised_pipebomb_xeno",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_EXPLOSIVE",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "1 m",
+    "reversible": false,
+    "autolearn": true,
+    "components": [ [ [ "dkz_powercell", 1 ] ], [ [ "improvised_pipebomb", 1 ] ], [ [ "duct_tape", 3 ] ] ]
+  },
   {
     "result": "dkz_xenoid_mask_reclaimed_white",
     "type": "recipe",
@@ -34,11 +42,6 @@
       { "id": "SAW_M", "level": 1 }
     ],
     "tools": [ [ [ "forge", 50 ] ] ],
-    "components": [
-      [ [ "dkz_xenoid_mask_salvaged", 1 ] ],
-      [ [ "sheet_kevlar", 1 ] ],
-      [ [ "steel_chunk", 1 ] ],
-      [ [ "w_paint", 3 ] ]
-    ]
+    "components": [ [ [ "dkz_xenoid_mask_salvaged", 1 ] ], [ [ "sheet_kevlar", 1 ] ], [ [ "steel_chunk", 1 ] ], [ [ "w_paint", 3 ] ] ]
   }
 ]
