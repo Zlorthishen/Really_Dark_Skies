@@ -166,7 +166,7 @@
         "topic": "TALK_DONE"
       },
       {
-        "text": "[MISSION] I got a message from the evacuation center's computer to meet up with someone named 'Chad' here!",
+        "text": "[MISSION] I got a message from the evacuation shelter's computer to meet up with someone named 'Chad' here!",
         "condition": {
           "and": [
             { "u_has_var": "Rendezvous_to_base", "type": "knowledge", "context": "flag", "value": "yes" },
@@ -180,6 +180,30 @@
         ],
         "opinion": { "trust": 1, "value": 5 },
         "topic": "TALK_CHAD_ERIKSON_MAQUIS_IS_RECRUITING"
+      },
+      {
+        "text": "[MISSION] Your nephew Randy wanted me to see how you are doing.",
+        "effect": { "u_add_var": "u_found_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" },
+        "condition": {
+          "and": [
+            { "not": { "u_has_var": "u_found_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" } },
+            { "u_has_mission": "MISSION_CHECK_UP_ON_BIG_BROTHER" }
+          ]
+        },
+        "opinion": { "trust": 3, "value": 4 },
+        "topic": "TALK_CHAD_ERIKSON_BIG_BROTHER"
+      },
+      {
+        "text": "[MISSION] Felix Fox sent me.",
+        "effect": { "u_add_var": "u_found_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" },
+        "condition": {
+          "and": [
+            { "not": { "u_has_var": "u_found_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" } },
+            { "u_has_mission": "MISSION_GO_MEET_THE_BIG_FED" }
+          ]
+        },
+        "opinion": { "trust": 2, "value": 3 },
+        "topic": "TALK_CHAD_ERIKSON_BIG_BROTHER"
       },
       {
         "text": "[MISSION] Sir!  Mission is Foxtrot Uniform Charlie Kilo!  Sir!",
@@ -240,30 +264,6 @@
       { "u_male": [ "Buddy, what do you want?" ], "no": [ "Lady, want do you want?" ] }
     ],
     "responses": [
-      {
-        "text": "[MISSION] Your nephew Randy wanted me to see how you are doing.",
-        "effect": { "u_add_var": "u_found_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" },
-        "condition": {
-          "and": [
-            { "not": { "u_has_var": "u_found_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" } },
-            { "u_has_mission": "MISSION_CHECK_UP_ON_BIG_BROTHER" }
-          ]
-        },
-        "opinion": { "trust": 3, "value": 4 },
-        "topic": "TALK_CHAD_ERIKSON_BIG_BROTHER"
-      },
-      {
-        "text": "[MISSION] Felix Fox sent me.",
-        "effect": { "u_add_var": "u_found_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" },
-        "condition": {
-          "and": [
-            { "not": { "u_has_var": "u_found_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" } },
-            { "u_has_mission": "MISSION_GO_MEET_THE_BIG_FED" }
-          ]
-        },
-        "opinion": { "trust": 2, "value": 3 },
-        "topic": "TALK_CHAD_ERIKSON_BIG_BROTHER"
-      },
       {
         "text": "Is there anything else I can to help the Maquis than doing generic missions?",
         "effect": { "u_add_var": "u_Talk_To_ChadErikson_about_BaseBuilding", "type": "general", "context": "meeting", "value": "yes" },
@@ -526,7 +526,7 @@
     "id": "TALK_CHAD_ERIKSON_ASK_ABOUT_RACING_ARCOLOGY",
     "type": "talk_topic",
     "dynamic_line": [
-      "Its a funny story about a Mexican cartel drug front, a CIA Honey-pot, an FBI Reco case, and the Library of Congress's newspaper archives.  The Cartel was trying to launder their drug and human trafficking money by building a large indoor go-cart race track.  Somehow the CIA had an agent within the that specific cartel and were able to influence the cartel to invest far more money than they should have, after which the FBI collected all the bad guys they had this building practically ready to open.  The FBI ended up giving most of the floors to the Library of Congress to store newspapers, and some of the other usual suspects took their share too.  Once this cataclysm happened and much of the government was destroyed, this site was commandeered to coordinate local responses against the Xenoids."
+      "Its a funny story about a Mexican cartel drug front, a CIA Honey-pot, an FBI Reco case, and the Library of Congress's newspaper archives.\n\nThe Cartel was trying to launder their drug and human trafficking money here in the states by building this large indoor go-cart race track.  Apparently the head guys kids loved go-cart racing and he thought it would be the perfect cover.\n\nSomehow a CIA agent had gotten within that specific cartel and were able to influence the cartel to invest far more money than they should have, and after which FBI collected all the bad guys the Federal Government had this building practically ready to open.  Not wanting anything to go watste,  the FBI ended up giving most of the floors to the Library of Congress to store newspapers, and some of the other usual suspects took their share too.\n\nOnce this cataclysm happened and much of the government was destroyed, this site was commandeered to coordinate local responses against the Xenoids."
     ],
     "responses": [
       { "text": "I have some questions about the Xenoids.", "topic": "TALK_CHAD_ERIKSON_ASK_ABOUT_XENOIDS" },
