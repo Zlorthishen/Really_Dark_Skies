@@ -166,6 +166,22 @@
         "topic": "TALK_DONE"
       },
       {
+        "text": "[MISSION] I got a message from the evacuation center's computer to meet up with someone named 'Chad' here!",
+        "condition": {
+          "and": [
+            { "u_has_var": "Rendezvous_to_base", "type": "knowledge", "context": "flag", "value": "yes" },
+            { "u_has_mission": "DKZ_MAQUIS_IS_RECRUITING" },
+            { "not": { "u_has_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" } }
+          ]
+        },
+        "effect": [
+          { "u_add_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" },
+          { "npc_first_topic": "TALK_CHAD_ERIKSON_QUESTIONS" }
+        ],
+        "opinion": { "trust": 1, "value": 5 },
+        "topic": "TALK_CHAD_ERIKSON_MAQUIS_IS_RECRUITING"
+      },
+      {
         "text": "[MISSION] Sir!  Mission is Foxtrot Uniform Charlie Kilo!  Sir!",
         "condition": {
           "and": [
@@ -318,6 +334,52 @@
       "We do have plans to expand facilities here at Barter Tower, but the Maquis have been fighting for survival for weeks now.  If you want to take point on the task, I will leave base expansion entirely in our control.  Talk to the quartermaster on the ground level, he should still be wearing his postman uniform."
     ],
     "responses": [ { "text": "OK, Thanks.", "topic": "TALK_NONE" }, { "text": "OK, I have to go now.", "topic": "TALK_DONE" } ]
+  },
+  {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
+    "id": "TALK_CHAD_ERIKSON_MAQUIS_IS_RECRUITING",
+    "type": "talk_topic",
+    "dynamic_line": [
+      "I prefer Mr. Erikson but yes, we did hijack some of the computer system of the emergency messaging system and direct survivors here.  Are you ready to get to work"
+    ],
+    "responses": [
+      {
+        "text": "No. I have to go.",
+        "effect": [
+          { "u_faction_rep": -2 },
+          { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": -2 }
+        ],
+        "opinion": { "trust": -3, "value": -1 },
+        "topic": "TALK_CHAD_ERIKSON_MAQUIS_IS_RECRUITING_REJECT"
+      },
+      {
+        "text": "Yes. What do you need done?",
+        "opinion": { "trust": 3, "value": 5 },
+        "effect": [
+          { "u_faction_rep": 2 },
+          { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 2 }
+        ],
+        "topic": "TALK_CHAD_ERIKSON_MAQUIS_IS_RECRUITING_ACCEPT"
+      },
+      { "text": "I would like to ask you about the Xenoids.", "topic": "TALK_CHAD_ERIKSON_ASK_ABOUT_XENOIDS" },
+      { "text": "I have so many questions about everything.", "topic": "TALK_CHAD_ERIKSON_QUESTIONS" }
+    ]
+  },
+  {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
+    "id": "TALK_CHAD_ERIKSON_MAQUIS_IS_RECRUITING_REJECT",
+    "type": "talk_topic",
+    "dynamic_line": [ "That is fine.  You can leave at any time, and feel free speak to the merchants on the lower floors." ],
+    "responses": [ { "text": "OK, Bye.", "topic": "TALK_DONE" } ]
+  },
+  {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
+    "id": "TALK_CHAD_ERIKSON_MAQUIS_IS_RECRUITING_ACCEPT",
+    "type": "talk_topic",
+    "dynamic_line": [
+      "I want you to take point on the task of coordinating additional facilities here at Barter Tower, I will leave base expansion entirely in our control.  Talk to the quartermaster on the ground level, he should still be wearing his postman uniform."
+    ],
+    "responses": [ { "text": "OK, Bye.", "topic": "TALK_DONE" } ]
   },
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
