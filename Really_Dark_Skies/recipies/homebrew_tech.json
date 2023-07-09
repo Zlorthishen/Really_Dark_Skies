@@ -34,7 +34,7 @@
     "autolearn": true,
     "using": [ [ "cordage", 1 ] ],
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "HAMMER", "level": 1 } ],
-    "components": [ [ [ "dkz_blend_mat", 16 ] ] ]
+    "components": [ [ [ "dkz_blend_scrap", 16 ] ] ]
   },
   {
     "result": "boots_xeno-scrap",
@@ -48,7 +48,7 @@
     "autolearn": true,
     "using": [ [ "cordage", 4 ] ],
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "HAMMER", "level": 1 } ],
-    "components": [ [ [ "dkz_blend_mat", 10 ] ] ]
+    "components": [ [ [ "dkz_blend_scrap", 10 ] ] ]
   },
   {
     "result": "helmet_xeno-scrap",
@@ -61,7 +61,7 @@
     "autolearn": true,
     "using": [ [ "cordage", 1 ] ],
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "HAMMER", "level": 1 } ],
-    "components": [ [ [ "dkz_blend_mat", 6 ] ] ]
+    "components": [ [ [ "dkz_blend_scrap", 6 ] ] ]
   },
   {
     "result": "armguard_xeno-scrap",
@@ -74,7 +74,7 @@
     "autolearn": true,
     "using": [ [ "cordage", 1 ] ],
     "qualities": [ { "id": "HAMMER", "level": 1 }, { "id": "SAW_M", "level": 1 } ],
-    "components": [ [ [ "dkz_blend_mat", 12 ] ] ]
+    "components": [ [ [ "dkz_blend_scrap", 12 ] ] ]
   },
   {
     "result": "legguard_xeno-scrap",
@@ -87,7 +87,7 @@
     "autolearn": true,
     "using": [ [ "cordage", 1 ] ],
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "HAMMER", "level": 1 } ],
-    "components": [ [ [ "dkz_blend_mat", 12 ] ] ]
+    "components": [ [ [ "dkz_blend_scrap", 12 ] ] ]
   },
   {
     "result": "improvised_grenade_xeno",
