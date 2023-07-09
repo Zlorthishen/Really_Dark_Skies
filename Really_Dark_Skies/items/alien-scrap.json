@@ -94,6 +94,20 @@
     "flags": [ "NO_SALVAGE" ]
   },
   {
+    "type": "GENERIC",
+    "id": "dkz_drone_lens",
+    "symbol": ".",
+    "color": "light_cyan",
+    "name": { "str": "small xenoid drone lens", "str_pl": "small xenoid drone lenses" },
+    "category": "spare_parts",
+    "description": "A small xenoid drone lens, useful for focusing or diffusing light.  Might be useful for crafting.",
+    "price": 6000,
+    "price_postapoc": 50,
+    "material": "dkz_biopoly_mat",
+    "weight": "17 g",
+    "volume": "3 ml"
+  },
+  {
     "type": "COMESTIBLE",
     "id": "dkz_biogel",
     "name": { "str": "xenoid hydrogel" },
