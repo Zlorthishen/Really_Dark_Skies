@@ -14,7 +14,7 @@
     "material": [ "dkz_biopoly_mat" ],
     "symbol": "/",
     "color": "light_gray",
-    "flags": [ "ALWAYS_TWOHAND", "TRADER_AVOID", "LEAK_DAM", "RADIOACTIVE" ]
+    "flags": [ "ALWAYS_TWOHAND", "TRADER_AVOID", "LEAK_DAM" ]
   },
   {
     "id": "dkz_flamesword_salvaged",
