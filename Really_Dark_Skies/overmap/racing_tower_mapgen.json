@@ -135,26 +135,26 @@
       },
       "terrain": {
         "'": [
-          "t_pavement_light",
-          "t_pavement",
-          "t_pavement",
-          "t_pavement",
-          "t_pavement",
-          "t_pavement",
-          "t_pavement",
-          "t_pavement",
-          "t_pavement",
-          "t_pavement",
-          "t_pavement",
-          "t_pavement"
+          "t_asphalt_floor_light",
+          "t_asphalt_floor",
+          "t_asphalt_floor",
+          "t_asphalt_floor",
+          "t_asphalt_floor",
+          "t_asphalt_floor",
+          "t_asphalt_floor",
+          "t_asphalt_floor",
+          "t_asphalt_floor",
+          "t_asphalt_floor",
+          "t_asphalt_floor",
+          "t_asphalt_floor"
         ],
         "▪": "t_open_air",
         "é": "t_dirt",
         "è": "t_dirt",
-        "s": "t_pavement",
-        "b": "t_pavement",
-        "S": "t_pavement",
-        "B": "t_pavement",
+        "s": "t_asphalt_floor",
+        "b": "t_asphalt_floor",
+        "S": "t_asphalt_floor",
+        "B": "t_asphalt_floor",
         "N": "t_machinery_heavy",
         "n": "t_machinery_light",
         "K": "t_generator_broken",
@@ -468,18 +468,18 @@
       "palettes": [ "arcology_palette" ],
       "terrain": {
         "'": [
-          "t_pavement_light",
-          "t_pavement",
-          "t_pavement",
-          "t_pavement",
-          "t_pavement",
-          "t_pavement",
-          "t_pavement",
-          "t_pavement",
-          "t_pavement",
-          "t_pavement",
-          "t_pavement",
-          "t_pavement"
+          "t_asphalt_floor_light",
+          "t_asphalt_floor",
+          "t_asphalt_floor",
+          "t_asphalt_floor",
+          "t_asphalt_floor",
+          "t_asphalt_floor",
+          "t_asphalt_floor",
+          "t_asphalt_floor",
+          "t_asphalt_floor",
+          "t_asphalt_floor",
+          "t_asphalt_floor",
+          "t_asphalt_floor"
         ],
         "X": "t_paper",
         "N": "t_machinery_heavy",
@@ -652,16 +652,16 @@
       "furniture": { "§": "f_tourist_table", "Ø": "f_stool", "Ẍ": "f_large_canvas_door", "ẍ": "f_large_canvas_wall" },
       "item": { "§": { "item": "deck_of_cards", "chance": 100 } },
       "terrain": {
-        "'": [ "t_pavement_light", [ "t_pavement", 80 ] ],
+        "'": [ "t_asphalt_floor_light", [ "t_asphalt_floor", 80 ] ],
         "Y": "t_zebra",
         "Z": [ "t_junk_wall", "t_junk_palisade", "t_junk_palisade" ],
         "z": [ "t_junk_palisade", "t_junk_palisade", "t_junk_wall" ],
-        "Ẍ": "t_pavement",
-        "ẇ": "t_pavement_light",
-        "§": "t_pavement",
-        "Ø": "t_pavement",
-        "B": "t_pavement",
-        "s": "t_pavement"
+        "Ẍ": "t_asphalt_floor",
+        "ẇ": "t_asphalt_floor_light",
+        "§": "t_asphalt_floor",
+        "Ø": "t_asphalt_floor",
+        "B": "t_asphalt_floor",
+        "s": "t_asphalt_floor"
       },
       "place_nested": [
         { "chunks": [ "racing_tower_NPC_D" ], "x": 50, "y": 50 },
@@ -829,7 +829,7 @@
         { "chunks": [ "racing_tower_7x7_food" ], "x": 56, "y": 63 },
         { "chunks": [ "racing_tower_7x7_food" ], "x": 26, "y": 56 }
       ],
-      "terrain": { "'": "t_pavement", "S": "t_dirt", "s": "t_dirt" }
+      "terrain": { "'": "t_asphalt_floor", "`": "t_asphalt_y_floor", "S": "t_dirt", "s": "t_dirt" }
     }
   },
   {
@@ -1056,7 +1056,15 @@
         { "chunks": [ "racing_tower_13x13comm" ], "x": 72, "y": 11 },
         { "chunks": [ "racing_tower_13x13golf" ], "x": 72, "y": 72 }
       ],
-      "terrain": { "'": "t_pavement", "S": "t_pavement", "s": "t_pavement", "B": "t_pavement", "b": "t_pavement", "K": "t_slot_machine" }
+      "terrain": {
+        "'": "t_asphalt_floor",
+        "y": "t_asphalt_y_floor",
+        "S": "t_asphalt_floor",
+        "s": "t_asphalt_floor",
+        "B": "t_asphalt_floor",
+        "b": "t_asphalt_floor",
+        "K": "t_slot_machine"
+      }
     }
   },
   {
@@ -1300,7 +1308,7 @@
         { "chunks": [ "racing_tower_6x6_junk" ], "x": 82, "y": 81 },
         { "chunks": [ "racing_tower_6x6_junk" ], "x": 82, "y": 87 }
       ],
-      "terrain": { "'": "t_pavement", "S": "t_dirt", "s": "t_dirt", "B": "t_dirt", "b": "t_dirt", "X": "t_chickenwire_fence" }
+      "terrain": { "'": "t_asphalt_floor", "S": "t_dirt", "s": "t_dirt", "B": "t_dirt", "b": "t_dirt", "X": "t_chickenwire_fence" }
     }
   },
   {
@@ -1509,7 +1517,13 @@
         { "chunks": [ "racing_tower_7x7_food" ], "x": 58, "y": 55 },
         { "chunks": [ "racing_tower_7x7_food" ], "x": 34, "y": 58 }
       ],
-      "terrain": { "'": "t_pavement", "S": "t_pavement", "s": "t_pavement", "B": "t_pavement", "b": "t_pavement" }
+      "terrain": {
+        "'": "t_asphalt_floor",
+        "S": "t_asphalt_floor",
+        "s": "t_asphalt_floor",
+        "B": "t_asphalt_floor",
+        "b": "t_asphalt_floor"
+      }
     }
   },
   {
@@ -1685,7 +1699,13 @@
         { "chunks": [ "racing_tower_6x6_junk" ], "x": 72, "y": 3 },
         { "chunks": [ "racing_tower_6x6_junk" ], "x": 78, "y": 3 }
       ],
-      "terrain": { "'": "t_pavement", "S": "t_pavement", "s": "t_pavement", "B": "t_pavement", "b": "t_pavement" }
+      "terrain": {
+        "'": "t_asphalt_floor",
+        "S": "t_asphalt_floor",
+        "s": "t_asphalt_floor",
+        "B": "t_asphalt_floor",
+        "b": "t_asphalt_floor"
+      }
     }
   },
   {
@@ -1736,30 +1756,30 @@
         "..G                                                                                          G..",
         ".##                                                                                          ##.",
         "..#                                                                                          #..",
-        "..G       ;            ========                                                      ;       G..",
-        ".##                   ==mm''''###                                                            ##.",
-        "..#                   =mm'''''dD#                                                            #..",
-        "..G                   =m''''''dD#                                                            G..",
-        ".##                   =''''`''dD#                                                            ##.",
-        "..#                   ='''`'`'dD#                                                            #..",
-        "..G                   ='''''''###                              ======||||======              G..",
-        ".##       ;           |'''''''=                               ==mm''''''''''mm==     ;       ##.",
-        "..#                   |'''`'''=                               =mm''''''''''''mm=             #..",
-        "..G                   |''```''=                               =m''''''`'''''''m=             G..",
-        ".##                   |'''`'''=                               =''''`````''`''''=             ##.",
-        "..#                   ='''`'''###                             ='''`'''`''''`'''=             #..",
-        "..G                   ='''`'''uU#                         JJ7J=''`''''''''`''''=             G..",
-        ".##                   =''''`''uU#                         J...=''''''''''''''''=             ##.",
-        "..#       ;           =m''''`'uU#                         J...=#uuuu#====#dddd#=     ;       #..",
-        "..G                   =mm'''''uU#                         J...J#UUUU#    #DDDD#              G..",
-        ".##                   ==mm''''###                         JJJJJ######    ######              ##.",
-        "..#                    ========                                                              #..",
-        "..G                          eee                                                             G..",
-        ".##                         Eeee                                                             ##.",
-        "..#                          eee                                                             #..",
-        "..G       ;                                                                          ;       G..",
-        ".##                                   --------------------                                   ##.",
-        "..#                                   -..................-                                   #..",
+        "..G       ;             =======                                                      ;       G..",
+        ".##                   ###''''mm==                                                            ##.",
+        "..#                   #Dd'''''mm=                                                            #..",
+        "..G                   #Dd'`''''m=                                                            G..",
+        ".##                   #Dd''`''''=                                                            ##.",
+        "..#                   #Dd'''`'''=                                                            #..",
+        "..G                   ###'''`'''=                                                            G..",
+        ".##       ;             ='''`'''|                                                    ;       ##.",
+        "..#                     =''```''|                                                            #..",
+        "..G                     ='''`'''|                                                            G..",
+        ".##                     ='''''''|                                                            ##.",
+        "..#                   ###'''''''=                                                            #..",
+        "..G                   #Uu'`'`'''=                         JJ7J                               G..",
+        ".##                   #Uu''`''''=                         J... ######    ######              ##.",
+        "..#       ;           #Uu''''''m=                         J... #UUUU#    #DDDD#      ;       #..",
+        "..G                   #Uu'''''mm=                         J...=#uuuu#====#dddd#=             G..",
+        ".##                   ###''''mm==                         JJJJ=#''''''''''''''#=             ##.",
+        "..#                     ========                              =''`''''''''`''''=             #..",
+        "..G                          eee                              ='''`'''`''''`'''=             G..",
+        ".##                         Eeee                              =''''`````''`''''=             ##.",
+        "..#                          eee                              =m''''''`'''''''m=             #..",
+        "..G       ;                                                   =mm''''''''''''mm=     ;       G..",
+        ".##                                   --------------------    ==mm''''''''''mm==             ##.",
+        "..#                                   -..................-     ======||||======              #..",
         "..G                                   -..................-                                   $..",
         ".##                                   -..................-                                   ##.",
         "..#                                   -..................-                                   #..",
@@ -1775,31 +1795,31 @@
         "..G                                   -..................-                                   G..",
         "..#                                   -..................-                                   #..",
         ".##                                   -..................-                                   ##.",
-        "..G                                   -..................-                                   G..",
-        "..#                                   -..................-                                   #..",
-        ".##                                   --------------------                                   ##.",
-        "..G       ;                                                                          ;       G..",
-        "..#                                                             eee                          #..",
-        ".##                                                             eeeE                         ##.",
-        "..G                                                             eee                          G..",
-        "..#                                                              ========                    #..",
-        ".##              ######    ######                              ###''''mm==                   ##.",
-        "..G              #DDDD#    #UUUU# eee                          #Uu'''''mm=                   G..",
-        "..#       ;     =#dddd#====#uuuu#=eee                          #Uu'`''''m=           ;       #..",
-        ".##             =''''''''''''''''=eee                          #Uu''`''''=                   ##.",
-        "..G             =''''`''''''''`''= E                           #Uu'''`'''=                   G..",
-        "..#             ='''`''''`'''`'''=                             ###'''`'''=                   #..",
-        ".##             =''''`''`````''''=                               ='''`'''|                   ##.",
-        "..G             =m'''''''`''''''m=                               =''```''|                   G..",
-        "..#             =mm''''''''''''mm=                               ='''`'''|                   #..",
-        ".##             ==mm''''''''''mm==                               ='''''''|                   ##.",
-        "..G       ;      ======||||======                              ###'''''''=           ;       G..",
-        "..#                                                            #Dd'`'`'''=                   #..",
-        ".##                                                            #Dd''`''''=                   ##.",
-        "..G                                                            #Dd''''''m=                   G..",
-        "..#                                                            #Dd'''''mm=                   #..",
-        ".##                                                            ###''''mm==                   ##.",
-        "..G                                                              ========                    G..",
+        "..G              ======||||======     -..................-                                   G..",
+        "..#             ==mm''''''''''mm==    -..................-                                   #..",
+        ".##             =mm''''''''''''mm=    --------------------                                   ##.",
+        "..G       ;     =m''''''`'''''''m=                                                   ;       G..",
+        "..#             =''''`````''`''''=                              eee                          #..",
+        ".##             ='''`'''`''''`'''=                              eeeE                         ##.",
+        "..G             =''`''''''''`''''=                              eee                          G..",
+        "..#             =''''''''''''''''=                              ========                     #..",
+        ".##             =#dddd#====#uuuu#=                             ==mm''''###                   ##.",
+        "..G              #DDDD#    #UUUU# eee                          =mm'''''uU#                   G..",
+        "..#       ;      ######    ###### eee                          =m''''''uU#           ;       #..",
+        ".##                               eee                          =''''`''uU#                   ##.",
+        "..G                                E                           ='''`'`'uU#                   G..",
+        "..#                                                            ='''''''###                   #..",
+        ".##                                                            |'''''''=                     ##.",
+        "..G                                                            |'''`'''=                     G..",
+        "..#                                                            |''```''=                     #..",
+        ".##                                                            |'''`'''=                     ##.",
+        "..G       ;                         s                          ='''`'''###           ;       G..",
+        "..#                                                            ='''`'''dD#                   #..",
+        ".##                                                            =''''`''dD#                   ##.",
+        "..G                                                            =m''''`'dD#                   G..",
+        "..#                                                            =mm'''''dD#                   #..",
+        ".##                                                            ==mm''''###                   ##.",
+        "..G                                                             ========                     G..",
         "..#       ;                                                                          ;       #..",
         ".##                                                                                          ##.",
         "..G                                                                                          G..",
@@ -1861,7 +1881,14 @@
         { "chunks": [ "racing_tower_6x6_junk" ], "x": 72, "y": 3 },
         { "chunks": [ "racing_tower_6x6_junk" ], "x": 78, "y": 3 }
       ],
-      "terrain": { "'": "t_pavement", "S": "t_pavement", "s": "t_pavement", "B": "t_pavement", "b": "t_pavement" }
+      "terrain": {
+        "'": "t_asphalt_floor",
+        "`": "t_asphalt_y_floor",
+        "S": "t_asphalt_floor",
+        "s": "t_asphalt_floor",
+        "B": "t_asphalt_floor",
+        "b": "t_asphalt_floor"
+      }
     }
   },
   {
@@ -1985,7 +2012,6 @@
         { "class": "DKZ_MAQUIS_ELF_MUTANT", "x": 64, "y": 5, "add_trait": [ "DKZ_MEDIC" ] }
       ],
       "place_monster": [ { "monster": "mon_mech_lifter", "x": [ 76, 79 ], "y": [ 4, 9 ], "repeat": [ 3, 4 ] } ],
-	  
       "computers": {
         "6": {
           "name": "Lab Console",
@@ -1998,11 +2024,12 @@
         "l": { "furniture": "f_makeshift_bed", "fields": { "field": "fd_blood" } }
       },
       "terrain": {
-        "'": "t_pavement",
-        "S": "t_pavement",
-        "s": "t_pavement",
-        "B": "t_pavement",
-        "b": "t_pavement",
+        "'": "t_asphalt_floor",
+        "`": "t_asphalt_y_floor",
+        "S": "t_asphalt_floor",
+        "s": "t_asphalt_floor",
+        "B": "t_asphalt_floor",
+        "b": "t_asphalt_floor",
         "L": "t_thconc_floor",
         "n": "t_thconc_floor",
         "N": "t_thconc_floor",
