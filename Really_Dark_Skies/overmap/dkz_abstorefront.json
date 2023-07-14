@@ -124,11 +124,11 @@
         { "group": "GROUP_XENOID_BOSS", "x": [ 19, 22 ], "y": [ 19, 22 ] }
       ],
       "items": {
-        "l": { "item": "DKZ_bashing_improvised", "chance": 80, "repeat": 3 },
-        "ľ": { "item": "DKZ_guns_energy", "chance": 40, "repeat": 3 },
-        "ŀ": { "item": "DKZ_guns_rifle_military", "chance": 30, "repeat": 3 }
-	  },
-	  "item": {
+        "l": { "item": "DKZ_bashing_improvised", "chance": 50, "repeat": 5 },
+        "ľ": { "item": "DKZ_guns_energy", "chance": 10, "repeat": 5 },
+        "ŀ": { "item": "DKZ_guns_rifle_military", "chance": 15, "repeat": 5 }
+      },
+      "item": {
         "Ɓ": { "item": "shoulder_strap", "chance": 90 },
         "Ḃ": { "item": "keffiyeh", "chance": 100 },
         "Ḅ": { "item": "pickelhaube", "chance": 100 },
@@ -149,15 +149,15 @@
         "                        ",
         "                        ",
         "             |||||||||| ",
-        "        #####|BBBBBBBB| ",
-        "       ##...#|B..BB..B| ",
-        "       #....X|B..BB..B| ",
-        "       |....#|B..BB..B| ",
-        "       |+|||||B..BB..B| ",
-        "       |BBBBB|B..BB..B| ",
-        "       |.....+...BB..B| ",
-        "       |.F.F.|...~..~B| ",
-        "       |||||||...~.~~~|~",
+        "       ######|........| ",
+        "      ##....X|........| ",
+        "      #......|..^..^..| ",
+        "      #..ľŀľŀ|........| ",
+        "      #|@|||||........| ",
+        "       |.B.BB|..^..^.~| ",
+        "       |.B...+......~.| ",
+        "       |.FFF.|...~..~.|#",
+        "       |||||||..^~.^~~|~",
         "       |~.q~~+~~~~~~~~`~",
         "       |Q~.~.|<.~BBBBB|~",
         "       ||||||||||||||||#",
@@ -175,16 +175,32 @@
         "|": "t_wall",
         "#": "t_rock",
         "<": "t_ladder_up",
-        "+": "t_door_c",
+        "+": "t_door_metal_c",
+        "@": "t_secretdoor_metal_c",
         ".": "t_floor",
+        "^": "t_column",
         "B": "t_floor",
         "G": "t_grate",
+        "ľ": "t_floor",
+        "ŀ": "t_floor",
         "~": "t_sewage",
         "`": "t_sewage",
         "X": "t_open_air"
       },
+      "items": {
+        "ľ": { "item": "DKZ_guns_energy", "chance": 70, "repeat": 3 },
+        "ŀ": { "item": "DKZ_guns_rifle_military", "chance": 70, "repeat": 3 }
+      },
       "place_monster": [ { "monster": [ "dkz_mon_lurker_rectified" ], "x": [ 19, 21 ], "y": [ 10, 13 ], "chance": 100 } ],
-      "furniture": { "F": "f_home_furnace", "q": "f_sink", "Q": "f_toilet", "B": "f_rack", "`": "f_rubble" }
+      "furniture": {
+        "ľ": "f_locker",
+        "ŀ": "f_locker",
+        "F": "f_home_furnace",
+        "q": "f_sink",
+        "Q": "f_toilet",
+        "B": "f_rack",
+        "`": "f_rubble"
+      }
     }
   },
   {
