@@ -191,7 +191,7 @@
         "ľ": { "item": "DKZ_guns_energy", "chance": 70, "repeat": 3 },
         "ŀ": { "item": "DKZ_guns_rifle_military", "chance": 70, "repeat": 3 }
       },
-      "place_monster": [ { "monster": [ "dkz_mon_lurker_rectified" ], "x": [ 19, 21 ], "y": [ 10, 13 ], "chance": 100 } ],
+      "place_monster": [ { "monster": [ "dkz_mon_lurker_rectified" ], "x": [ 19, 21 ], "y": [ 10, 13 ], "chance": 100, "repeat": 3  } ],
       "furniture": {
         "ľ": "f_locker",
         "ŀ": "f_locker",
