@@ -151,8 +151,8 @@
         "             |||||||||| ",
         "       ######|........| ",
         "      ##....X|........| ",
-        "      #......|..^..^..| ",
-        "      #..ľŀľŀ|........| ",
+        "      #l.....|..^..^..| ",
+        "      #l.ľŀľŀ|........| ",
         "      #|@|||||........| ",
         "       |.B.BB|..^..^.~| ",
         "       |.B...+......~.| ",
@@ -181,6 +181,7 @@
         "^": "t_column",
         "B": "t_floor",
         "G": "t_grate",
+        "l": "t_floor",
         "ľ": "t_floor",
         "ŀ": "t_floor",
         "~": "t_sewage",
@@ -188,6 +189,7 @@
         "X": "t_open_air"
       },
       "items": {
+        "l": { "item": "DKZ_guns_caseless", "chance": 70, "repeat": 5 },
         "ľ": { "item": "DKZ_guns_energy", "chance": 70, "repeat": 3 },
         "ŀ": { "item": "DKZ_guns_rifle_military", "chance": 70, "repeat": 3 }
       },
