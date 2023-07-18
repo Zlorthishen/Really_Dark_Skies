@@ -195,6 +195,7 @@
       },
       "place_monster": [ { "monster": [ "dkz_mon_lurker_rectified" ], "x": [ 19, 21 ], "y": [ 10, 13 ], "chance": 100, "repeat": 3  } ],
       "furniture": {
+        "l": "f_locker",
         "ľ": "f_locker",
         "ŀ": "f_locker",
         "F": "f_home_furnace",
