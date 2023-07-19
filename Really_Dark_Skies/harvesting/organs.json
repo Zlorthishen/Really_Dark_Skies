@@ -143,7 +143,7 @@
     "copy-from": "lung",
     "looks_like": "jabberwock_heart_desiccated",
     "name": "raw xenoid heart",
-    "description": "The heart from an alien.  It is purple and black, thick and rubbery, and clearly has more than four chambers.",
+    "description": "The heart from an alien.  It is purple and black, thick and rubbery, and clearly has more than four chambers.  The entire mass of flesh still twitches and quivers on occasion.",
     "color": "brown",
     "healthy": -11,
     "price_postapoc": 25,
@@ -200,6 +200,22 @@
     "price": 1500,
     "price_postapoc": 10,
     "volume": "250 ml",
-    "fun": 66
-  }
+    "fun": 66,
+    "flags": [ "NO_SALVAGE" ]
+  },
+  {
+    "id": "fungal_cyst",
+    "type": "GENERIC",
+    "category": "spare_parts",
+    "name": { "str": "alien fungal cyst" },
+    "description": "This is a gray rock-like object that is left from a fungal nexus.",
+    "weight": "500 g",
+    "volume": "250 ml",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": "alien_resin",
+    "symbol": ",",
+    "color": "light_gray",
+    "flags": [ "NO_SALVAGE" ]
+  }  
 ]
