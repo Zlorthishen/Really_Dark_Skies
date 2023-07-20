@@ -115,6 +115,18 @@
     "components": [ [ [ "dkz_powercell", 1 ] ], [ [ "improvised_pipebomb", 1 ] ], [ [ "duct_tape", 3 ] ] ]
   },
   {
+    "result": "xeno-dynamite",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_EXPLOSIVE",
+    "skill_used": "fabrication",
+    "difficulty": 1,
+    "time": "1 m",
+    "reversible": false,
+    "autolearn": true,
+    "components": [ [ [ "dkz_powercell", 1 ] ], [ [ "dynamite", 1 ] ], [ [ "duct_tape", 3 ] ] ]
+  },
+  {
     "result": "dkz_xenoid_mask_reclaimed_white",
     "type": "recipe",
     "category": "CC_ARMOR",
