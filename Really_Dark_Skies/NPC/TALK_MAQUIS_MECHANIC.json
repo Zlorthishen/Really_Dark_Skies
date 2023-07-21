@@ -216,37 +216,5 @@
       { "text": "Nice arrangement for everyone.", "topic": "TALK_MAQUIS_MECHANIC_ROOT" },
       { "text": "Ok, good bye.", "topic": "TALK_DONE" }
     ]
-  },
-  {
-    "//": "-----------------------------------------------------------------------------------------------------------------------",
-    "id": "DKZ_MAQUIS_MECHANIC_MOTOR_OIL_MISSION_1",
-    "type": "mission_definition",
-    "name": { "str": "Time for an oil change" },
-    "description": "Find six quarts of new motor oil in exchange for <reward_count:FMCNote> certified notes.",
-    "goal": "MGOAL_FIND_ITEM",
-    "difficulty": 3,
-    "value": 20000,
-    "item": "motor_oil",
-    "count": 6,
-    "end": {
-      "effect": [
-        { "u_buy_item": "FMCNote", "count": 19 },
-        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 1 },
-        { "npc_add_var": "Maquis_Mechanic_Mission1", "type": "mission", "context": "flag", "value": "yes" }
-      ]
-    },
-    "followup": "DKZ_MAQUIS_MECHANIC_MOTOR_OIL_MISSION_1",
-    "origins": [ "ORIGIN_SECONDARY" ],
-    "dialogue": {
-      "describe": "I need you to find me something.",
-      "offer": "I'm working on getting an old truck running, but I need a good six quarts of new motor oil to get it up and running again.  I even have some of the new money for your troubles.",
-      "accepted": "Thank you.  Motor oil is getting very hard to come by anymore.",
-      "rejected": "Oh well.  I'll see if I can find another supplier, thanks.",
-      "advice": "A gas station, house garage, there's plenty of places to look.",
-      "inquire": "How is the search going?",
-      "success": "Thanks.  Here's your payment.",
-      "success_lie": "What good does this do us?",
-      "failure": "I wonder where it all went…"
-    }
   }
 ]

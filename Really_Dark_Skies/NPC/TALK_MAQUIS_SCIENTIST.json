@@ -6,7 +6,6 @@
     "attitude": 0,
     "mission": 7,
     "chat": "TALK_MAQUIS_SCIENTIST_ROOT",
-    "mission_offered": "DKZ_MAQUIS_SCIENTIST_MATH_MISSION_1",
     "faction": "maquis"
   },
   {
@@ -229,35 +228,5 @@
       { "text": "Nice arrangement for everyone.", "topic": "TALK_MAQUIS_SCIENTIST_ROOT" },
       { "text": "Ok, good bye.", "topic": "TALK_DONE" }
     ]
-  },
-  {
-    "//": "-----------------------------------------------------------------------------------------------------------------------",
-    "id": "DKZ_MAQUIS_SCIENTIST_MATH_MISSION_1",
-    "type": "mission_definition",
-    "name": { "str": "Checking for MathMAX Software Updates" },
-    "description": "Find the latest MathMAX firmware patch for",
-    "goal": "MGOAL_FIND_ITEM",
-    "difficulty": 6,
-    "value": 20000,
-    "item": "software_math",
-    "count": 1,
-    "end": {
-      "effect": [
-        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 1 },
-        { "npc_add_var": "Maquis_Scientist_Mission1", "type": "mission", "context": "flag", "value": "yes" }
-      ]
-    },
-    "origins": [ "ORIGIN_SECONDARY" ],
-    "dialogue": {
-      "describe": "I need you to find me something.",
-      "offer": "I use a software package called MathMAX for my ongoing research, but I need a few add-ons to optimize the workflow.  Find me a USB drive that contains an update.",
-      "accepted": "Thank you.  The USB drive should display the contents as 'MathMAX'.",
-      "rejected": "Oh well.  I'll see if someone else can find it, thanks.",
-      "advice": "The best place would probably be a goverment research lab, but then again things like this seem to end up in the trash all the time.  Just keep your eyes open for a USB drive that displays the content as 'MathMAX'.",
-      "inquire": "How is the search going?",
-      "success": "Thanks.",
-      "success_lie": "What good does this do us?",
-      "failure": "I wonder where it all went…"
-    }
   }
 ]

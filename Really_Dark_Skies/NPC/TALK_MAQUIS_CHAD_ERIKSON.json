@@ -881,35 +881,5 @@
       { "text": "Lets change the subject.", "topic": "TALK_CHAD_ERIKSON_QUESTIONS" },
       { "text": "I have to go now.", "topic": "TALK_DONE" }
     ]
-  },
-  {
-    "//": "-----------------------------------------------------------------------------------------------------------------------",
-    "id": "MISSION_REFUGEE_CHAD_ERIKSON_1",
-    "type": "mission_definition",
-    "name": { "str": "Find a military operations map" },
-    "goal": "MGOAL_FIND_ITEM",
-    "description": "Mr. Erikson needs fire-power that the United States Military used to have.  Find a map of military operations so that you can know where the heavy guns can be found.",
-    "difficulty": 4,
-    "value": 0,
-    "item": "militarymap",
-    "origins": [ "ORIGIN_SECONDARY" ],
-    "end": {
-      "effect": [
-        { "u_faction_rep": 2 },
-        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 2 },
-        { "u_add_var": "gave_map_to_chad", "type": "knowledge", "context": "flag", "value": "yes" }
-      ]
-    },
-    "dialogue": {
-      "describe": "I need you to go into find me an operations map.  It doesn't matter if you look at it first, I just need some kind of intel for the local area.",
-      "offer": "The next time you go out salvaging I need you to find me an operations map for whatever military was in this area, things got crazy when the aliens first arrived and any new information would help.",
-      "accepted": "Thank you.",
-      "rejected": "Then why ask?",
-      "advice": "There is definitely one at the nearest military base, but its probably in the hidden underground center, but then again you could find an operation map on any random zombie soldier.",
-      "inquire": "How is the search going?",
-      "success": "Thanks!  Now to see what is around here.",
-      "success_lie": "Well where is it?",
-      "failure": "Disappointing."
-    }
   }
 ]
