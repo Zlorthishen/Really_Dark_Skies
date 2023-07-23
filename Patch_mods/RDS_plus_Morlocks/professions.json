@@ -1,0 +1,54 @@
+[
+  {
+    "type": "profession",
+    "id": "dkz_morlock_mutant_leonardo",
+    "name": "Mutant Morlock Weapon Master",
+    "description": "Morlock Sewer Mutant Weapon Master.",
+    "points": 0,
+    "traits": [ "MARTIAL_ARTS5" ],
+    "skills": [ { "level": 3, "name": "melee" }, { "level": 2, "name": "firstaid" } ],
+    "items": {
+      "male": [ "boxer_shorts", "socks", "tux", "dress_shoes", "gloves_light" ],
+      "female": [ "panties", "bra", "stockings", "maid_dress", "maid_hat", "dress_shoes" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "dkz_morlock_mutant_raphael",
+    "name": "Mutant Morlock Ninja Master",
+    "description": "Morlock Sewer Mutant Ninja Master.",
+    "points": 0,
+    "traits": [ "MARTIAL_ARTS2" ],
+    "skills": [ { "level": 3, "name": "melee" }, { "level": 2, "name": "firstaid" } ],
+    "items": {
+      "male": [ "boxer_shorts", "socks", "tux", "dress_shoes", "gloves_light" ],
+      "female": [ "panties", "bra", "stockings", "maid_dress", "maid_hat", "dress_shoes" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "dkz_morlock_mutant_donatello",
+    "name": "Mutant Morlock Shaolin Master",
+    "description": "Morlock Sewer Mutant Shaolin Monk.",
+    "points": 0,
+    "traits": [ "MARTIAL_ARTS3" ],
+    "skills": [ { "level": 3, "name": "melee" }, { "level": 2, "name": "firstaid" } ],
+    "items": {
+      "male": [ "boxer_shorts", "socks", "tux", "dress_shoes", "gloves_light" ],
+      "female": [ "panties", "bra", "stockings", "maid_dress", "maid_hat", "dress_shoes" ]
+    }
+  },
+  {
+    "type": "profession",
+    "id": "dkz_morlock_mutant_michelangelo",
+    "name": "Mutant Morlock Martial Arts Master",
+    "description": "Morlock Sewer Mutant Martial Arts Master.",
+    "points": 0,
+    "traits": [ "MARTIAL_ARTS" ],
+    "skills": [ { "level": 3, "name": "melee" }, { "level": 2, "name": "firstaid" } ],
+    "items": {
+      "male": [ "boxer_shorts", "socks", "tux", "dress_shoes", "gloves_light" ],
+      "female": [ "panties", "bra", "stockings", "maid_dress", "maid_hat", "dress_shoes" ]
+    }
+  }
+]
