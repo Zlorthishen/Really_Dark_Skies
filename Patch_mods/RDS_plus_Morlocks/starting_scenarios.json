@@ -10,8 +10,8 @@
     "id": "sewer_mutant_ninja_morlock",
     "name": "Sewer Mutant Ninja Morlock",
     "points": 2,
-    "description": "Since birth, your sole purpose in life has been the advancement of genetic science, willingly or not.  Once the Cataclysm struck, you left the lab, and wandered aimlessly, ending up in a forest.",
-    "start_name": "Wilderness",
+    "description": "Living beneath the city was peaceful, but with the Xenoids coming from above, now is the time to take the fight back to the surface.  Cowabunga.",
+    "start_name": "Morlock Village",
     "allowed_locs": [ "s_loc_dkz_morlock_village" ],
     "professions": [
       "dkz_morlock_mutant_leonardo",
@@ -19,6 +19,8 @@
       "dkz_morlock_mutant_donatello",
       "dkz_morlock_mutant_michelangelo"
     ],
+    "forced_traits": "DKZ_COMBAT",	
+    "missions": [ "DKZ_MAQUIS_IS_RECRUITING" ],	
     "traits": [
       "ELFAEYES",
       "NIGHTVISION2",

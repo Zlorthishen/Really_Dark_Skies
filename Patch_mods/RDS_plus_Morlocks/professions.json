@@ -17,7 +17,8 @@
     "items": {
       "male": [ "loincloth", "knee_pads", "elbow_pads" ],
       "female": [ "loincloth", "chestwrap", "knee_pads", "elbow_pads" ]
-    }
+    },
+    "flags": [ "SCEN_ONLY" ]
   },
   {
     "type": "profession",
@@ -37,7 +38,8 @@
     "items": {
       "male": [ "loincloth", "knee_pads", "elbow_pads" ],
       "female": [ "loincloth", "chestwrap", "knee_pads", "elbow_pads" ]
-    }
+    },
+    "flags": [ "SCEN_ONLY" ]
   },
   {
     "type": "profession",
@@ -57,7 +59,8 @@
     "items": {
       "male": [ "loincloth", "knee_pads", "elbow_pads" ],
       "female": [ "loincloth", "chestwrap", "knee_pads", "elbow_pads" ]
-    }
+    },
+    "flags": [ "SCEN_ONLY" ]
   },
   {
     "type": "profession",
@@ -77,6 +80,7 @@
     "items": {
       "male": [ "loincloth", "knee_pads", "elbow_pads" ],
       "female": [ "loincloth", "chestwrap", "knee_pads", "elbow_pads" ]
-    }
+    },
+    "flags": [ "SCEN_ONLY" ]
   }
 ]
