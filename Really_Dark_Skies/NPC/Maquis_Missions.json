@@ -347,15 +347,25 @@
     }
   },
   {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
+
     "id": "DKZ_MAQUIS_FELINE_MUTANT_FIND_CAT",
     "type": "mission_definition",
-    "name": { "str": "Find and save the internet famous cat 'Lucky'" },
+    "name": { "str": "'Lucky' Save" },
+
+    "description": "Find the famous internet meme cat.",	
     "goal": "MGOAL_FIND_MONSTER",
     "difficulty": 4,
     "value": 100000,
     "origins": [ "ORIGIN_SECONDARY" ],
     "has_generic_rewards": false,
+    "followup": "DKZ_MAQUIS_RETURN_z0_2_2",	
+	
     "start": {
+      "effect": [
+        "follow_only",
+        { "npc_add_var": "temporal_follower", "type": "general", "context": "maquis_riot_guard", "value": "yes" }
+      ],	
       "assign_mission_target": { "om_terrain": "trailhead", "reveal_radius": 5, "random": true, "search_range": 100, "min_distance": 25 },
       "update_mapgen": {
         "place_monster": [
