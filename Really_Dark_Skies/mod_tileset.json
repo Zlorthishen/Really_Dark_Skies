@@ -16,28 +16,6 @@
     ],
     "tiles-new": [
       {
-        "file": "Really_Dark_Skies_extras.png",
-        "tiles": [
-          { "id": "improvised_grenade_xeno", "fg": 4 },
-          { "id": "overlay_wielded_improvised_grenade_xeno", "fg": 20 },
-          { "id": "improvised_grenade_xeno_act", "fg": 5 },
-          { "id": "overlay_wielded_improvised_grenade_xeno_act", "fg": 21 },
-          { "id": "improvised_pipebomb_xeno", "fg": 0 },
-          { "id": "overlay_wielded_improvised_pipebomb_xeno", "fg": 16 },
-          { "id": "improvised_pipebomb_xeno_act", "fg": 1 },
-          { "id": "overlay_wielded_improvised_pipebomb_xeno_act", "fg": 17 },
-          { "id": "xeno-dynamite", "fg": 2 },
-          { "id": "overlay_wielded_xeno-dynamite", "fg": 18 },
-          { "id": "xeno-dynamite_act", "fg": 3 },
-          { "id": "overlay_wielded_xeno-dynamite_act", "fg": 19 }
-        ],
-        "//": "range 1 to 128",
-        "sprite_width": 32,
-        "sprite_height": 32,
-        "sprite_offset_x": 0,
-        "sprite_offset_y": 0
-      },
-      {
         "file": "Really_Dark_Skies_normal.png",
         "tiles": [
           { "id": "bg_shadow_item", "fg": 1, "rotates": false },
@@ -173,6 +151,7 @@
         "sprite_offset_x": 0,
         "sprite_offset_y": 0
       },
+  
       {
         "file": "Really_Dark_Skies_large.png",
         "tiles": [
@@ -208,7 +187,7 @@
           { "id": "mon_dkz_emissary_plague", "fg": 158, "rotates": false },
           { "id": "mon_dkz_emissary_war", "fg": 159, "rotates": false }
         ],
-        "//": "range 113 to 160",
+        "//": "range 129 to 160",
         "sprite_width": 64,
         "sprite_height": 80,
         "sprite_offset_x": -16,
