@@ -1,0 +1,20 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "realdarkskies_++",
+    "name": "<color_light_blue>Really Dark Skies</color> <color_white>++</color>",
+    "authors": [ "Zlorthishen" ],
+    "description": "A patchmod for Really Dark Skies which adds support for ALL MODS",
+    "category": "misc_additions",
+    "version": "BN version, update 6/10/2023",
+    "dependencies": [
+      "bn",
+      "realdarkskies",
+      "Arcana_Dinomod_Patch",
+      "Arcana_Cata++_Patch",
+      "Arcana_Crit_Patch",
+      "Arcana_Magiclysm_Patch",
+      "Arcana_aftershock_Patch"
+    ]
+  }
+]
