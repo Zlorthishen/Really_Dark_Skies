@@ -15,8 +15,8 @@
       { "level": 1, "name": "bashing" }
     ],
     "items": {
-      "male": [ "loincloth", "knee_pads", "elbow_pads" ],
-      "female": [ "loincloth", "chestwrap", "knee_pads", "elbow_pads" ]
+      "male": [ "loincloth", "knee_pads", "elbow_pads", "judo_belt_blue" ],
+      "female": [ "loincloth", "chestwrap", "knee_pads", "elbow_pads", "judo_belt_blue" ]
     },
     "flags": [ "SCEN_ONLY" ]
   },
@@ -36,8 +36,8 @@
       { "level": 2, "name": "bashing" }
     ],
     "items": {
-      "male": [ "loincloth", "knee_pads", "elbow_pads" ],
-      "female": [ "loincloth", "chestwrap", "knee_pads", "elbow_pads" ]
+      "male": [ "loincloth", "knee_pads", "elbow_pads", "judo_belt_brown" ],
+      "female": [ "loincloth", "chestwrap", "knee_pads", "elbow_pads", "judo_belt_brown" ]
     },
     "flags": [ "SCEN_ONLY" ]
   },
@@ -57,8 +57,8 @@
       { "level": 3, "name": "bashing" }
     ],
     "items": {
-      "male": [ "loincloth", "knee_pads", "elbow_pads" ],
-      "female": [ "loincloth", "chestwrap", "knee_pads", "elbow_pads" ]
+      "male": [ "loincloth", "knee_pads", "elbow_pads", "judo_belt_brown" ],
+      "female": [ "loincloth", "chestwrap", "knee_pads", "elbow_pads", "judo_belt_brown" ]
     },
     "flags": [ "SCEN_ONLY" ]
   },
@@ -78,8 +78,8 @@
       { "level": 2, "name": "bashing" }
     ],
     "items": {
-      "male": [ "loincloth", "knee_pads", "elbow_pads" ],
-      "female": [ "loincloth", "chestwrap", "knee_pads", "elbow_pads" ]
+      "male": [ "loincloth", "knee_pads", "elbow_pads", "judo_belt_black" ],
+      "female": [ "loincloth", "chestwrap", "knee_pads", "elbow_pads", "judo_belt_black" ]
     },
     "flags": [ "SCEN_ONLY" ]
   }

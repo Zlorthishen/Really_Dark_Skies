@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "realdarkskies_PK_REBALANCE_patchmod",
+    "name": "<color_light_blue>Really Dark Skies</color> plus <color_cyan>PKs Rebalancing</color>",
+    "authors": [ "Zlorthishen" ],
+    "description": "A patchmod for Really Dark Skies which adds increased support for PKs Rebalancing",
+    "category": "misc_additions",
+    "version": "BN version, update 7/28/2023",		
+    "dependencies": [ "bn", "realdarkskies", "PK_REBALANCE" ]
+  }
+]
