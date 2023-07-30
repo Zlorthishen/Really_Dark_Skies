@@ -137,7 +137,12 @@
           { "npc_first_topic": "TALK_CHAD_ERIKSON_QUESTIONS" }
         ],
         "opinion": { "trust": -1, "value": -1 },
-        "condition": { "not": { "u_has_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" } },
+        "condition": {
+          "and": [
+            { "not": { "u_has_var": "Rendezvous_to_base", "type": "knowledge", "context": "flag", "value": "yes" } },
+            { "not": { "u_has_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" } }
+          ]
+        },		
         "topic": "TALK_CHAD_ERIKSON_FIRSTMEET"
       },
       {
@@ -147,13 +152,23 @@
           { "npc_first_topic": "TALK_CHAD_ERIKSON_QUESTIONS" }
         ],
         "opinion": { "trust": 1, "value": 1 },
-        "condition": { "not": { "u_has_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" } },
+        "condition": {
+          "and": [
+            { "not": { "u_has_var": "Rendezvous_to_base", "type": "knowledge", "context": "flag", "value": "yes" } },
+            { "not": { "u_has_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" } }
+          ]
+        },		
         "topic": "TALK_CHAD_ERIKSON_QUESTIONS"
       },
       {
         "text": "Hi, Mr. Erikson.  Got a second to talk?",
         "topic": "TALK_CHAD_ERIKSON_QUESTIONS",
-        "condition": { "u_has_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" }
+        "condition": {
+          "and": [
+            { "not": { "u_has_var": "Rendezvous_to_base", "type": "knowledge", "context": "flag", "value": "yes" } },
+            { "not": { "u_has_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" } }
+          ]
+        }
       },
       {
         "text": "Hey Chad, nice to meet you too.  Bye.",
@@ -162,7 +177,12 @@
           { "npc_first_topic": "TALK_CHAD_ERIKSON_QUESTIONS" }
         ],
         "opinion": { "trust": -1, "value": -2 },
-        "condition": { "not": { "u_has_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" } },
+        "condition": {
+          "and": [
+            { "not": { "u_has_var": "Rendezvous_to_base", "type": "knowledge", "context": "flag", "value": "yes" } },
+            { "not": { "u_has_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" } }
+          ]
+        },		
         "topic": "TALK_DONE"
       },
       {
@@ -186,7 +206,8 @@
         "effect": { "u_add_var": "u_found_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" },
         "condition": {
           "and": [
-            { "not": { "u_has_var": "u_found_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" } },
+            { "u_has_var": "Rendezvous_to_base", "type": "knowledge", "context": "flag", "value": "yes" },
+  		    { "not": { "u_has_var": "u_found_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" } },
             { "u_has_mission": "MISSION_CHECK_UP_ON_BIG_BROTHER" }
           ]
         },

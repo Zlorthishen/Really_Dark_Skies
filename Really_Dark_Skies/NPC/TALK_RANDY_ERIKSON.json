@@ -637,7 +637,11 @@
         "min_distance": 200
       },
       "update_mapgen": { "place_npcs": [ { "class": "DKZ_CHAD_ERIKSON", "x": 5, "y": 5, "add_trait": "DKZ_LEADER" } ] },
-      "effect": [ { "u_add_var": "MrEriksonExists", "type": "knowledge", "context": "flag", "value": "yes" } ]
+     "effect": [
+	    { "u_faction_rep": 1 },
+        { "u_add_var": "MrEriksonExists", "type": "knowledge", "context": "flag", "value": "yes" },
+        { "u_add_var": "Rendezvous_to_base", "type": "knowledge", "context": "flag", "value": "yes" }
+      ]
     },
     "origins": [ "ORIGIN_SECONDARY" ],
     "dialogue": {
