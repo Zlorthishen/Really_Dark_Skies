@@ -1,0 +1,66 @@
+[
+  {
+    "type" : "overmap_terrain",
+    "id" : "morlock_lair_mid_a",
+    "name" : "morlock_lair",
+    "sym" : "M",
+    "color" : "i_light_green",
+    "see_cost" : 10
+  },
+  {
+    "type" : "overmap_terrain",
+    "id" : "morlock_lair_mid_b",
+    "name" : "morlock_lair",
+    "sym" : "M",
+    "color" : "i_light_green",
+    "see_cost" : 10
+  },
+  {
+    "type" : "overmap_terrain",
+    "id" : "morlock_lair_mid_c",
+    "name" : "morlock_lair",
+    "sym" : "M",
+    "color" : "i_light_green",
+    "see_cost" : 10
+  },
+  {
+    "type" : "overmap_terrain",
+    "id" : "morlock_lair_mid_d",
+    "name" : "morlock_lair",
+    "sym" : "M",
+    "color" : "i_light_green",
+    "see_cost" : 10
+  },
+  {
+    "type" : "overmap_terrain",
+    "id" : "morlock_lair_edge_a",
+    "name" : "morlock_lair",
+    "sym" : "M",
+    "color" : "i_light_green",
+    "see_cost" : 10
+  },
+  {
+    "type" : "overmap_terrain",
+    "id" : "morlock_lair_edge_b",
+    "name" : "morlock_lair",
+    "sym" : "M",
+    "color" : "i_light_green",
+    "see_cost" : 10
+  },
+  {
+    "type" : "overmap_terrain",
+    "id" : "morlock_lair_corner_a",
+    "name" : "morlock_lair",
+    "sym" : "M",
+    "color" : "i_light_green",
+    "see_cost" : 10
+  },
+  {
+    "type" : "overmap_terrain",
+    "id" : "morlock_lair_sewer_entry",
+    "name" : "morlock_lair",
+    "sym" : "M",
+    "color" : "i_light_green",
+    "see_cost" : 10
+  }
+]

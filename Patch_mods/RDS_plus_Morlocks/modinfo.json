@@ -6,7 +6,7 @@
     "authors": [ "Zlorthishen" ],
     "description": "A patchmod for <color_light_blue>Really Dark Skies</color> which adds increased support for the Morlock village mod",
     "category": "misc_additions",
-    "version": "BN version, update 7/29/2023",
+    "version": "BN version 1d41422, update 7/31/2023",
     "dependencies": [ "bn", "realdarkskies", "morlock_village" ]
   }
 ]

@@ -6,7 +6,7 @@
     "authors": [ "Zlorthishen" ],
     "description": "A patchmod for Really Dark Skies which changes the standard zombies to be friendly with the Xenoids.",
     "category": "monster_exclude",
-    "version": "BN version, update 7/4/2023",	    
+    "version": "BN version 1d41422, update 7/31/2023",
     "dependencies": [ "bn", "realdarkskies"]
   }
 ]

@@ -6,7 +6,7 @@
     "authors": [ "Zlorthishen" ],
     "description": "A patchmod for Really Dark Skies which changes the bio-crystal 'Stray' zombies to be hostile to the Xenoids.",
     "category": "monster_exclude",
-    "version": "BN version, update 7/11/2023",	    
+    "version": "BN version 1d41422, update 7/31/2023", 
     "dependencies": [ "bn", "realdarkskies"]
   }
 ]
