@@ -36,13 +36,7 @@
       "palettes": [ "morlock_village" ],
       "terrain":{"P": "t_rock","w": "t_wall_wood","W": "t_dock_deep"},
       "signs":{ "P": {"signage": "Secret Morlock Village" } },
- 
-      "mapping": { "W": { "monster": [ { "monster": "mon_sewer_fish", "chance": 50 } ] } },
-	  
-      "furniture":{
-        "1": "f_sofa",
-        "y": "f_sandbag_half"
-      }
+      "mapping": { "W": { "monster": [ { "monster": "mon_sewer_fish", "chance": 50 } ] } }
     }
   }
 ]
