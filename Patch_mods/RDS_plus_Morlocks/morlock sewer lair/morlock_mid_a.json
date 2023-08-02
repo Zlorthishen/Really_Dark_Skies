@@ -36,7 +36,7 @@
       "palettes": [ "morlock_village" ],
       "place_nested": [
         { "chunks": [ "morlock_mid_a_ring" ], "x": 0, "y": 0 },
-        { "chunks":  [ [ "null", 20], [ "morlock_mid_core", 80] ], "x": 0, "y": 0 }
+        { "chunks":  [ [ "null", 20], [ "morlock_mid_core_a", 80] ], "x": 0, "y": 0 }
       ]
     }
   },
@@ -77,7 +77,7 @@
       "palettes": [ "morlock_village" ],
       "place_nested": [
         { "chunks": [ "morlock_mid_a_ring" ], "x": 0, "y": 0 },
-        { "chunks":  [ [ "null", 20], [ "morlock_mid_core", 80] ], "x": 0, "y": 0 }
+        { "chunks":  [ [ "null", 20], [ "morlock_mid_core_a", 80] ], "x": 0, "y": 0 }
       ]
     }
   },
@@ -118,7 +118,7 @@
       "palettes": [ "morlock_village" ],
       "place_nested": [
         { "chunks": [ "morlock_mid_a_ring" ], "x": 0, "y": 0 },
-        { "chunks":  [ [ "null", 20], [ "morlock_mid_core", 80] ], "x": 0, "y": 0 }
+        { "chunks":  [ [ "null", 20], [ "morlock_mid_core_a", 80] ], "x": 0, "y": 0 }
       ]
     }
   },
@@ -159,7 +159,7 @@
       "palettes": [ "morlock_village" ],
       "place_nested": [
         { "chunks": [ "morlock_mid_a_ring" ], "x": 0, "y": 0 },
-        { "chunks":  [ [ "null", 20], [ "morlock_mid_core", 80] ], "x": 0, "y": 0 }
+        { "chunks":  [ [ "null", 20], [ "morlock_mid_core_a", 80] ], "x": 0, "y": 0 }
       ]
     }
   },
@@ -205,7 +205,7 @@
       ],
       "place_nested": [
         { "chunks": [ "morlock_mid_a_ring" ], "x": 0, "y": 0 },
-        { "chunks":  [ [ "null", 20], [ "morlock_mid_core", 80] ], "x": 0, "y": 0 }
+        { "chunks":  [ [ "null", 20], [ "morlock_mid_core_a", 80] ], "x": 0, "y": 0 }
       ]
     }
   },
@@ -249,7 +249,7 @@
       ],
       "place_nested": [
         { "chunks": [ "morlock_mid_a_ring" ], "x": 0, "y": 0 },
-        { "chunks":  [ [ "null", 20], [ "morlock_mid_core", 80] ], "x": 0, "y": 0 }
+        { "chunks":  [ [ "null", 20], [ "morlock_mid_core_a", 80] ], "x": 0, "y": 0 }
       ]
     }
   },
@@ -290,7 +290,7 @@
       "palettes": [ "morlock_village" ],
       "place_nested": [
         { "chunks": [ "morlock_mid_a_ring" ], "x": 0, "y": 0 },
-        { "chunks":  [ [ "null", 20], [ "morlock_mid_core", 80] ], "x": 0, "y": 0 }
+        { "chunks":  [ [ "null", 20], [ "morlock_mid_core_a", 80] ], "x": 0, "y": 0 }
       ]
     }
   },
@@ -332,7 +332,7 @@
       "terrain":{ ",": "t_sand" },
       "place_nested": [
         { "chunks": [ "morlock_mid_a_ring" ], "x": 0, "y": 0 },
-        { "chunks":  [ [ "null", 20], [ "morlock_mid_core", 80] ], "x": 0, "y": 0 }
+        { "chunks":  [ [ "null", 20], [ "morlock_mid_core_a", 80] ], "x": 0, "y": 0 }
       ]
     }
   },
@@ -381,7 +381,7 @@
       },
       "place_nested": [
         { "chunks": [ "morlock_mid_a_ring" ], "x": 0, "y": 0 },
-        { "chunks":  [ [ "null", 20], [ "morlock_mid_core", 80] ], "x": 0, "y": 0 }
+        { "chunks":  [ [ "null", 20], [ "morlock_mid_core_a", 80] ], "x": 0, "y": 0 }
       ]
     }
   }
