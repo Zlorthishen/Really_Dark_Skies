@@ -108,7 +108,7 @@
         "                        ",
         "                        "
       ],
-      "palettes": [ "morlock_village" ]
+      "palettes": [ "morlock_lair" ]
     }
   },
   {
@@ -181,7 +181,7 @@
         "                        ",
         "                        "
       ],
-      "palettes": [ "morlock_village" ]
+      "palettes": [ "morlock_lair" ]
     }
   },
   {
@@ -217,7 +217,7 @@
         "                        ",
         "                        "
       ],
-      "palettes": [ "morlock_village" ]
+      "palettes": [ "morlock_lair" ]
     }
   },
   {
@@ -364,7 +364,7 @@
         "                        ",
         "                        "
       ],
-      "palettes": [ "morlock_village" ]
+      "palettes": [ "morlock_lair" ]
     }
   }
 ]

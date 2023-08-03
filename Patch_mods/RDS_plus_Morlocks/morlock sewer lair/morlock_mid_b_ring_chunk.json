@@ -32,7 +32,7 @@
         ".BB=  ..            =d..",
         "..d=  ..            =.c."
       ],
-      "palettes": [ "morlock_village" ]
+      "palettes": [ "morlock_lair" ]
     }
   },
   {
@@ -68,7 +68,7 @@
         ".BB=  .....        .+..c",
         "..d=  ...          #=..."
       ],
-      "palettes": [ "morlock_village" ]
+      "palettes": [ "morlock_lair" ]
     }
   },
   {
@@ -104,7 +104,7 @@
         "...===..=Tc...=B.bbb=...",
         "..T=##..=============..."
       ],
-      "palettes": [ "morlock_village" ]
+      "palettes": [ "morlock_lair" ]
     }
   },
   {
@@ -140,7 +140,7 @@
         "c..=  ..          ===A..",
         "...=  ..            =A.."
       ],
-      "palettes": [ "morlock_village" ]
+      "palettes": [ "morlock_lair" ]
     }
   },
   {
@@ -176,7 +176,7 @@
         "...==H.......       =c..",
         "...=  .......       =..."
       ],
-      "palettes": [ "morlock_village" ]
+      "palettes": [ "morlock_lair" ]
     }
   },
   {
@@ -212,7 +212,7 @@
         ".BB= ....=N.DD=    .+..c",
         "..d=  ...======    #=..."
       ],
-      "palettes": [ "morlock_village" ]
+      "palettes": [ "morlock_lair" ]
     }
   }
 ]
