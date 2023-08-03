@@ -144,7 +144,7 @@
         "...=##..############=..."
       ],
       "rotation": 0,
-      "palettes": [ "morlock_village" ],
+      "palettes": [ "morlock_lair" ],
       "terrain":{ ",": "t_dirt" }
     }
   },
@@ -182,7 +182,7 @@
         "..b=##..############=..."
       ],
       "rotation": 0,
-      "palettes": [ "morlock_village" ],
+      "palettes": [ "morlock_lair" ],
       "terrain":{ "P": "t_dirt", ",": "t_dirt" },
       "monster":{ "P": [{"monster": "mon_pig_mutant_cave"}] }
     }

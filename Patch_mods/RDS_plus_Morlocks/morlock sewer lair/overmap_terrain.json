@@ -57,6 +57,14 @@
   },
   {
     "type" : "overmap_terrain",
+    "id" : "morlock_lair_corner_b",
+    "name" : "morlock_lair",
+    "sym" : "M",
+    "color" : "i_light_green",
+    "see_cost" : 10
+  },
+  {
+    "type" : "overmap_terrain",
     "id" : "morlock_lair_sewer_entry",
     "name" : "morlock_lair",
     "sym" : "M",

@@ -32,7 +32,7 @@
         "..b=            ....+...",
         "..b=            .. #=..."
       ],
-      "palettes": [ "morlock_village" ],
+      "palettes": [ "morlock_lair" ],
       "item": {
         "x": { "item": "brick", "amount": [10,30] },
         "X": { "item": "concrete", "chance": 50 }

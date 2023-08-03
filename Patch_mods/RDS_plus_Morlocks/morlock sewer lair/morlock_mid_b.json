@@ -33,7 +33,7 @@
         "######  ################"
       ],
       "rotation": [0,3],
-      "palettes": [ "morlock_village" ],
+      "palettes": [ "morlock_lair" ],
       "place_nested": [
         { "chunks": [ "morlock_mid_b_ring" ], "x": 0, "y": 0 },
         { "chunks":  [ [ "null", 20], [ "morlock_mid_core_a", 80] ], "x": 0, "y": 0 }
@@ -74,7 +74,7 @@
         "######  ################"
       ],
       "rotation": [0,3],
-      "palettes": [ "morlock_village" ],
+      "palettes": [ "morlock_lair" ],
       "terrain":{ ",": "t_dirt" },
       "place_nested": [
         { "chunks": [ "morlock_mid_b_ring" ], "x": 0, "y": 0 },
@@ -116,7 +116,7 @@
         "########################"
       ],
       "rotation": [0,3],
-      "palettes": [ "morlock_village" ],
+      "palettes": [ "morlock_lair" ],
       "place_nested": [
         { "chunks": [ "morlock_mid_b_ring" ], "x": 0, "y": 0 },
         { "chunks":  [ [ "null", 20], [ "morlock_mid_core_a", 80] ], "x": 0, "y": 0 }

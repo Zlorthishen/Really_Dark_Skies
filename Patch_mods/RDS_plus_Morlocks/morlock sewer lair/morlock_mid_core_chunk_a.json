@@ -32,7 +32,7 @@
         "                        ",
         "                        "
       ],
-      "palettes": [ "morlock_village" ],
+      "palettes": [ "morlock_lair" ],
       "terrain": { ";": "t_water_dp" }
     }
   },
@@ -69,7 +69,7 @@
         "                        ",
         "                        "
       ],
-      "palettes": [ "morlock_village" ],
+      "palettes": [ "morlock_lair" ],
       "terrain": { "Y": "t_rock_floor", "Z": "t_rock_floor" },
       "furniture": { "Y": "f_still", "Z": "f_fvat_empty" },
       "item": { "x": { "item": "sugar", "chance": 75, "amount": [ 1, 5 ] } }
@@ -144,7 +144,7 @@
         "                        ",
         "                        "
       ],
-      "palettes": [ "morlock_village" ],
+      "palettes": [ "morlock_lair" ],
       "item": { "x": { "item": "log", "chance": 60, "amount": 5 }, "X": { "item": "2x4", "chance": 60, "amount": [ 5, 15 ] } }
     }
   },
@@ -253,7 +253,7 @@
         "                        ",
         "                        "
       ],
-      "palettes": [ "morlock_village" ],
+      "palettes": [ "morlock_lair" ],
       "terrain": { ";": "t_sand" }
     }
   },
@@ -290,7 +290,7 @@
         "                        ",
         "                        "
       ],
-      "palettes": [ "morlock_village" ],
+      "palettes": [ "morlock_lair" ],
       "terrain": { ";": "t_dirt" }
     }
   },
@@ -327,7 +327,7 @@
         "                        ",
         "                        "
       ],
-      "palettes": [ "morlock_village" ],
+      "palettes": [ "morlock_lair" ],
       "terrain": { ";": "t_water_dp" }
     }
   },

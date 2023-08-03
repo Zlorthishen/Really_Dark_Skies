@@ -104,7 +104,7 @@
         "                        ",
         "                        "
       ],
-      "palettes": [ "morlock_village" ],
+      "palettes": [ "morlock_lair" ],
       "item": { "X": { "item": "meat", "chance": 50, "amount": [ 5, 10 ] } },
       "items": { "L": { "item": "butcher_fullkit", "chance": 85 } }
     }
@@ -142,7 +142,7 @@
         "                        ",
         "                        "
       ],
-      "palettes": [ "morlock_village" ],
+      "palettes": [ "morlock_lair" ],
       "items": { "b": { "item": "brainy_books", "chance": 90 } }
     }
   },
@@ -179,7 +179,7 @@
         "                        ",
         "                        "
       ],
-      "palettes": [ "morlock_village" ],
+      "palettes": [ "morlock_lair" ],
     "terrain":{ "z": "t_tree_mushroom_glow",  "Z": "t_tree_mushroom_bright" } 
     }
   },
@@ -253,7 +253,7 @@
         "                        ",
         "                        "
       ],
-      "palettes": [ "morlock_village" ],
+      "palettes": [ "morlock_lair" ],
       "terrain": { "y": "t_rock_floor", "Y": "t_rock_floor", "Z": "t_rock_floor" },
       "furniture": { "y": "f_kiln_metal_empty", "Y": "f_forge", "Z": "f_anvil" },
       "item": { "x": { "item": "steel_lump", "chance": 75, "amount": [ 10, 20 ] } },
@@ -293,7 +293,7 @@
         "                        ",
         "                        "
       ],
-      "palettes": [ "morlock_village" ],
+      "palettes": [ "morlock_lair" ],
       "terrain": { "y": "t_rock_floor", "Y": "t_rock_floor" },
       "furniture": { "y": "f_clay_kiln", "Y": "f_kiln_empty" },
       "item": {
