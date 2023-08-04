@@ -1,9 +1,9 @@
 [
   {
     "type": "start_location",
-    "id": "s_loc_dkz_morlock_village",
-    "name": "Morlock Villiage",
-    "terrain": [ "morlock_village_mid_a", "morlock_village_mid_b" ]
+    "id": "s_loc_dkz_morlock_lair",
+    "name": "Morlock Lair",
+    "terrain": [ "morlock_lair_mid_c", "morlock_lair_mid_d" ]
   },
   {
     "type": "scenario",
@@ -11,8 +11,8 @@
     "name": "Sewer Overflow",
     "points": 2,
     "description": "Living beneath the city was peaceful, but with the Xenoids coming from above, now is the time to take the fight back to the surface.  Cowabunga.",
-    "start_name": "Morlock Village",
-    "allowed_locs": [ "s_loc_dkz_morlock_village" ],
+    "start_name": "Morlock Lair",
+    "allowed_locs": [ "s_loc_dkz_morlock_lair" ],
     "professions": [
       "dkz_morlock_mutant_leonardo",
       "dkz_morlock_mutant_raphael",
