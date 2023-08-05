@@ -4,6 +4,8 @@
     "id": "morlock_lair",
     "terrain": {
       "#": "t_rock",
+      "$": "t_grate",
+	  "^": "t_column",
       ".": "t_rock_floor",
       "@": "t_rock_floor",
       "&": "t_rock_floor",

@@ -1,7 +1,7 @@
 [
   {
-    "type" : "mapgen",
-    "om_terrain" : ["morlock_lair_edge_b"],
+    "type": "mapgen",
+    "om_terrain": [ "morlock_lair_edge_b" ],
     "method": "json",
     "weight": 1000,
     "object": {
@@ -37,8 +37,8 @@
     }
   },
   {
-    "type" : "mapgen",
-    "om_terrain" : ["morlock_lair_edge_b"],
+    "type": "mapgen",
+    "om_terrain": [ "morlock_lair_edge_b" ],
     "method": "json",
     "weight": 1000,
     "object": {
@@ -74,8 +74,8 @@
     }
   },
   {
-    "type" : "mapgen",
-    "om_terrain" : ["morlock_lair_edge_b"],
+    "type": "mapgen",
+    "om_terrain": [ "morlock_lair_edge_b" ],
     "method": "json",
     "weight": 1000,
     "object": {
@@ -111,17 +111,17 @@
     }
   },
   {
-    "type" : "mapgen",
-    "om_terrain" : ["morlock_lair_edge_b"],
+    "type": "mapgen",
+    "om_terrain": [ "morlock_lair_edge_b" ],
     "method": "json",
-    "weight": 500,
+    "weight": 500000000,
     "object": {
       "fill_ter": "t_rock_floor",
       "rows": [
         "########################",
-        "########################",
-        "########################",
-        "#########,,M,,##########",
+        "~``$$$$$$$$$$$$$$$$$$$~~",
+        "$$$$#######======####$$$",
+        "#########,,M,,,,,#######",
         "######,,M,,,,M,M,M,,,,,#",
         "#z,,,,M,,,M,,,,,,,,,,,.#",
         ".,,,,,,,,m,m,m,m,,,M,,,.",
@@ -148,29 +148,29 @@
     }
   },
   {
-    "type" : "mapgen",
-    "om_terrain" : ["morlock_lair_edge_b"],
+    "type": "mapgen",
+    "om_terrain": [ "morlock_lair_edge_b" ],
     "method": "json",
-    "weight": 500,
+    "weight": 500000000,
     "object": {
       "fill_ter": "t_rock_floor",
       "rows": [
         "########################",
-        "########################",
-        "########################",
-        "########################",
+        "~~~~~~~~~~~~~~~~~~~~~~~~",
+        "$$$$$$$$$$$$$$$$$$$$$$$$",
+        "#####``####```##########",
         "########################",
         "########################",
         "....+.,,,,,,,,,,,,.+....",
         "....+.,,,,,,,,,,,,.+....",
-        "##..##x,,,,,,,,,,~##..##",
+        "##..##x,,,,`,,,,,~##..##",
         "##..##,,,,,,,,,,,~##..##",
         "##..##x,,,,,,P,,,~##..##",
         "##..##,,,P,,,,,,,~##..##",
         "##..##,,,,,,,,,,,~##..##",
         "##..##x,,,P,,P,,,~##..##",
         "##..##,,,,,,,,,,,~##..##",
-        "##..##x,,,,,,,,,,~##..##",
+        "##..##x,,,,,`,,,,~##..##",
         "##..+.,,,,,,,,,,,,.+....",
         "##..+.,,,,,,,,,,,,.+....",
         "##..##################H#",
@@ -182,13 +182,14 @@
       ],
       "rotation": 0,
       "palettes": [ "morlock_lair" ],
-      "terrain":{ "P": "t_dirt" },
-      "monster":{ "P": [{"monster": "mon_pig_mutant_cave"}] }
+      "terrain": { "P": "t_dirt" },
+      "item": { "&": { "item": "cattlefodder", "chance": 70, "repeat": 5 } },
+      "monster": { "P": [ { "monster": "mon_pig_mutant_cave" } ] }
     }
   },
   {
-    "type" : "mapgen",
-    "om_terrain" : ["morlock_lair_edge_b"],
+    "type": "mapgen",
+    "om_terrain": [ "morlock_lair_edge_b" ],
     "method": "json",
     "weight": 1000,
     "object": {
