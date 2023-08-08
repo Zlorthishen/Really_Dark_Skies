@@ -84,8 +84,8 @@
       "@": { "class": "DKZ_MAQUIS_GUARD" },
       "1": { "class": "DKZ_MAQUIS_GUARD" },
       "2": { "class": "DKZ_MAQUIS_MERCHANT" },
-      "3": { "class": "morlock_librarian" },
-      "4": { "class": "morlock_shroomer" }
+      "3": { "class": "DKZ_MAQUIS_MOTH_MUTANT" },
+      "4": { "class": "DKZ_MAQUIS_MANTIS_MUTANT" }
     },
     "items": {
       "b": { "item": "homebooks", "chance": 20 },

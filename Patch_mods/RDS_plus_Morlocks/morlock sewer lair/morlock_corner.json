@@ -76,7 +76,7 @@
       "palettes": [ "morlock_lair" ],
       "terrain": { "P": "t_rock", "w": "t_wall_wood", "W": "t_dock_deep" },
       "signs": { "P": { "signage": "Secret Morlock Village" } },
-      "mapping": { "W": { "monster": [ { "monster": "mon_sewer_fish", "chance": 90 } ] } }
+      "mapping": { "~": { "monster": [ { "monster": "mon_sewer_fish", "chance": 15 } ] } }
     }
   }
 ]

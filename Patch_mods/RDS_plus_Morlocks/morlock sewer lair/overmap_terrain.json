@@ -20,7 +20,7 @@
     "id" : "morlock_lair_mid_c",
     "name" : "morlock_lair",
     "sym" : "M",
-    "color" : "i_light_green",
+    "color" : "i_light_blue",
     "see_cost" : 10
   },
   {
@@ -28,7 +28,7 @@
     "id" : "morlock_lair_mid_d",
     "name" : "morlock_lair",
     "sym" : "M",
-    "color" : "i_light_green",
+    "color" : "i_light_blue",
     "see_cost" : 10
   },
   {
