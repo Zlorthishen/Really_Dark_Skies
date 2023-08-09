@@ -2011,7 +2011,6 @@
         { "class": "DKZ_MAQUIS_MEDICAL_MUTANT", "x": 65, "y": 4, "add_trait": [ "DKZ_MEDIC" ] },
         { "class": "DKZ_MAQUIS_ELF_MUTANT", "x": 64, "y": 5, "add_trait": [ "DKZ_MEDIC" ] }
       ],
-      "place_monster": [ { "monster": "mon_mech_lifter", "x": [ 76, 79 ], "y": [ 4, 9 ], "repeat": [ 3, 4 ] } ],
       "computers": {
         "6": {
           "name": "Lab Console",
