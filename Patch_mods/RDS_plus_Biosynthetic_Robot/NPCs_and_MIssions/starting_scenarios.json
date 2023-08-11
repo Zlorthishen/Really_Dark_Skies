@@ -10,7 +10,7 @@
     "id": "dkz_maid_to_kill",
     "name": "Activate: Maid to Kill",
     "points": -1,
-    "description": "Activate: Maid to Kill Override Protocol\n\nRecieving Mission.  Proceed with all haste to target.",
+    "description": "Activate: Maid to Kill Override Protocol\n\nRecieving Mission.  Multiple species on aliens and extra-terrestrials have invaded Earth and are seemingly bent on the eradication of humanity.  Proceed with all haste to target and rendezvous with the Maquis resistance.",
     "allowed_locs": [          
       "s_loc_dkz_GKB_CHISTORE1"  
 	],
