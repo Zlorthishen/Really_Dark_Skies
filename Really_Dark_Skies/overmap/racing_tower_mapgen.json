@@ -594,8 +594,8 @@
         "ZZ@''''''''''''''''''''''''''''''''''''''''''''''''''''''''-Dd'''''''''''''''''''''''''''''''@ZZ",
         "Zz@''''''''''''''''''''''''''''''''''''''''''''''''''''''''---'''''''''''''''''''''''''''''''@Zz",
         "Zz@'''''''''''''''''''''''''''''''---''''''''''''''''''''''''''''''''''''''''''''''''''''''''@ZZ",
-        "ZZ@'''''''''''''''''''''''''''''''dD-'Ø''''''''''''''''''''''''''''''''''''''''''''''''''''''@zZ",
-        "zZ@'''''''''''''''''''''''''''''''dD-'§''''''''''''''''''''''''''''''''''''''''''''''''''''''@ZZ",
+        "ZZ@'''''''''''''''''''''''''''''''dD-''''''''''''''''''''''''''''''''''''''''''''''''''''''''@zZ",
+        "zZ@'''''''''''''''''''''''''''''''dD-''''''''''''''''''''''''''''''''''''''''''''''''''''''''@ZZ",
         "z##c''''''''''''''''''''''''''''''dD-''''''''''''''''''''''''''''''''''''''''''''''''''''''' ##z",
         "::#    '''''''''''''''''''''''''''dD-''''''''''''''''''''''''''''''''''''''''''''''''''''    #::",
         "::#    '''''''''''''''''''''''''''dD-''''''''''''''''''''''''''''''''''''''''''''''''''''    #::",
@@ -644,12 +644,11 @@
       ],
       "palettes": [ "arcology_palette" ],
       "place_npcs": [
-        { "class": "DKZ_MAQUIS_QUARTERMASTER", "x": 38, "y": 49, "add_trait": [ "DKZ_LEADER", "DKZ_TEAM_LEADER" ] },
-        { "class": "DKZ_MAQUIS_ELF_MUTANT", "x": 50, "y": 37, "add_trait": [ "DKZ_COMBAT" ] },
-        { "class": "DKZ_MAQUIS_FELINE_MUTANT", "x": 50, "y": 38, "add_trait": [ "DKZ_LEADER" ] },
-        { "class": "DKZ_MAQUIS_MOTH_MUTANT", "x": 50, "y": 39, "add_trait": [ "DKZ_LEADER" ] }
+        { "class": "DKZ_MAQUIS_ELF_MUTANT", "x": 51, "y": 37, "add_trait": [ "DKZ_COMBAT" ] },
+        { "class": "DKZ_MAQUIS_FELINE_MUTANT", "x": 53, "y": 38, "add_trait": [ "DKZ_LEADER" ] },
+        { "class": "DKZ_MAQUIS_MOTH_MUTANT", "x": 55, "y": 39, "add_trait": [ "DKZ_LEADER" ] }
       ],
-      "furniture": { "§": "f_tourist_table", "Ø": "f_stool", "Ẍ": "f_large_canvas_door", "ẍ": "f_large_canvas_wall" },
+      "furniture": { "Ẍ": "f_large_canvas_door", "ẍ": "f_large_canvas_wall" },
       "item": { "§": { "item": "deck_of_cards", "chance": 100 } },
       "terrain": {
         "'": [ "t_asphalt_floor_light", [ "t_asphalt_floor", 80 ] ],
@@ -658,8 +657,6 @@
         "z": [ "t_junk_palisade", "t_junk_palisade", "t_junk_wall" ],
         "Ẍ": "t_asphalt_floor",
         "ẇ": "t_asphalt_floor_light",
-        "§": "t_asphalt_floor",
-        "Ø": "t_asphalt_floor",
         "B": "t_asphalt_floor",
         "s": "t_asphalt_floor"
       },

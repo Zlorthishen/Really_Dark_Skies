@@ -2,6 +2,14 @@
   {
     "type": "mapgen",
     "method": "json",
+    "update_mapgen_id": "dkz_quartermaster_spawn",
+    "object": {
+      "place_npcs": [ { "class": "DKZ_MAQUIS_QUARTERMASTER", "x": 14, "y": 14, "add_trait": [ "DKZ_LEADER", "DKZ_TEAM_LEADER" ] } ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
     "update_mapgen_id": "dkz_base_build_medical_1",
     "object": {
       "place_nested": [
