@@ -5,7 +5,8 @@
     "name" : "morlock_lair",
     "sym" : "M",
     "color" : "i_light_green",
-    "see_cost" : 10
+    "see_cost" : 10,
+    "flags": [ "SOURCE_PEOPLE" ]
   },
   {
     "type" : "overmap_terrain",
@@ -13,7 +14,8 @@
     "name" : "morlock_lair",
     "sym" : "M",
     "color" : "i_light_green",
-    "see_cost" : 10
+    "see_cost" : 10,
+    "flags": [ "SOURCE_PEOPLE" ]
   },
   {
     "type" : "overmap_terrain",
@@ -21,7 +23,8 @@
     "name" : "morlock_lair",
     "sym" : "M",
     "color" : "i_light_blue",
-    "see_cost" : 10
+    "see_cost" : 10,
+    "flags": [ "SOURCE_PEOPLE" ]
   },
   {
     "type" : "overmap_terrain",
@@ -29,7 +32,8 @@
     "name" : "morlock_lair",
     "sym" : "M",
     "color" : "i_light_blue",
-    "see_cost" : 10
+    "see_cost" : 10,
+    "flags": [ "SOURCE_PEOPLE" ]
   },
   {
     "type" : "overmap_terrain",
@@ -37,7 +41,8 @@
     "name" : "morlock_lair",
     "sym" : "M",
     "color" : "i_light_green",
-    "see_cost" : 10
+    "see_cost" : 10,
+    "flags": [ "SOURCE_PEOPLE" ]
   },
   {
     "type" : "overmap_terrain",
@@ -45,7 +50,8 @@
     "name" : "morlock_lair",
     "sym" : "M",
     "color" : "i_light_green",
-    "see_cost" : 10
+    "see_cost" : 10,
+    "flags": [ "SOURCE_PEOPLE" ]
   },
   {
     "type" : "overmap_terrain",
@@ -53,7 +59,8 @@
     "name" : "morlock_lair",
     "sym" : "M",
     "color" : "i_light_green",
-    "see_cost" : 10
+    "see_cost" : 10,
+    "flags": [ "SOURCE_PEOPLE" ]
   },
   {
     "type" : "overmap_terrain",
@@ -61,7 +68,8 @@
     "name" : "morlock_lair",
     "sym" : "M",
     "color" : "i_light_green",
-    "see_cost" : 10
+    "see_cost" : 10,
+    "flags": [ "SOURCE_PEOPLE" ]
   },
   {
     "type" : "overmap_terrain",
