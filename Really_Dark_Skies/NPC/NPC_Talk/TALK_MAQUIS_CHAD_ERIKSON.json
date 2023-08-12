@@ -36,7 +36,7 @@
             { "not": { "u_has_var": "Rendezvous_to_base", "type": "knowledge", "context": "flag", "value": "yes" } },
             { "not": { "u_has_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" } }
           ]
-        },		
+        },
         "topic": "TALK_CHAD_ERIKSON_FIRSTMEET"
       },
       {
@@ -51,7 +51,7 @@
             { "not": { "u_has_var": "Rendezvous_to_base", "type": "knowledge", "context": "flag", "value": "yes" } },
             { "not": { "u_has_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" } }
           ]
-        },		
+        },
         "topic": "TALK_CHAD_ERIKSON_QUESTIONS"
       },
       {
@@ -76,7 +76,7 @@
             { "not": { "u_has_var": "Rendezvous_to_base", "type": "knowledge", "context": "flag", "value": "yes" } },
             { "not": { "u_has_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" } }
           ]
-        },		
+        },
         "topic": "TALK_DONE"
       },
       {
@@ -101,7 +101,9 @@
         "condition": {
           "and": [
             { "u_has_var": "Rendezvous_to_base", "type": "knowledge", "context": "flag", "value": "yes" },
-  		    { "not": { "u_has_var": "u_found_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" } },
+            {
+              "not": { "u_has_var": "u_found_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" }
+            },
             { "u_has_mission": "MISSION_CHECK_UP_ON_BIG_BROTHER" }
           ]
         },
@@ -181,7 +183,17 @@
     "responses": [
       {
         "text": "Is there anything else I can to help the Maquis than doing generic missions?",
-        "effect": { "u_add_var": "u_Talk_To_ChadErikson_about_BaseBuilding", "type": "general", "context": "meeting", "value": "yes" },
+        "effect": [
+          { "u_add_var": "u_Talk_To_ChadErikson_about_BaseBuilding", "type": "general", "context": "meeting", "value": "yes" },
+          { "mapgen_update": "dkz_quartermaster_spawn", "om_terrain": "racing_tower_z0_2_2" }
+        ],
+        "condition": {
+          "and": [
+            {
+              "not": { "u_has_var": "u_Talk_To_ChadErikson_about_BaseBuilding", "type": "general", "context": "meeting", "value": "yes" }
+            }
+          ]
+        },
         "topic": "TALK_MAQUIS_CHAD_ERIKSON_BASE_BUILDING"
       },
       {
@@ -248,7 +260,7 @@
     "dynamic_line": [
       "We do have plans to expand facilities here at Barter Tower, but the Maquis have been fighting for survival for weeks now.  If you want to take point on the task, I will leave base expansion entirely in our control.  Talk to the quartermaster on the ground level, he should still be wearing his postman uniform."
     ],
-    "responses": [ { "text": "OK, Thanks.", "topic": "TALK_NONE" }, { "text": "OK, I have to go now.", "topic": "TALK_DONE" } ]
+    "responses": [ { "text": "OK, but I have another question.", "topic": "TALK_NONE" }, { "text": "OK, I have to go now.", "topic": "TALK_DONE" } ]
   },
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
