@@ -20,7 +20,7 @@
       { "item": "kacc", "prob": 30, "charges-min": 100, "charges-max": 100 },
       { "item": "xm556", "prob": 30, "charges-min": 100, "charges-max": 100 },
       { "item": "xm8", "prob": 30, "charges-min": 30, "charges-max": 30 },
-      { "item": "psg1", "prob": 50, "charges-min": 30, "charges-max": 30 }
-      { "item": "zx1sniper", "prob": 50, "charges-min": 1, "charges-max": 1 }
+      { "item": "psg1", "prob": 50, "charges-min": 30, "charges-max": 30 },
+      { "item": "zx1sniper", "prob": 50, "charges-min": 1, "charges-max": 1 } ]
   }	  
 ]
