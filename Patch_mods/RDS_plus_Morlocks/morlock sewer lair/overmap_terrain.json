@@ -187,6 +187,15 @@
   },
   {
     "type": "overmap_terrain",
+    "id": "morlock_lair_mid_e",
+    "name": "morlock_lair",
+    "sym": "M",
+    "color": "i_light_blue",
+    "see_cost": 10,
+    "flags": [ "SOURCE_PEOPLE" ]
+  },
+  {
+    "type": "overmap_terrain",
     "id": "morlock_lair_edge_a",
     "name": "morlock_lair",
     "sym": "M",

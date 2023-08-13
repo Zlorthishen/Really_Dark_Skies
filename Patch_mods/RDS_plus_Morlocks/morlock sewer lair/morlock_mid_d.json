@@ -36,7 +36,7 @@
       "rotation": [0,3],
       "palettes": [ "morlock_lair" ],
       "place_nested": [
-       { "chunks": [ "morlock_lair_mid_a_ring" ], "x": 0, "y": 0 },
+       { "chunks": [ "morlock_lair_mid_ring" ], "x": 0, "y": 0 },
         { "chunks":  [ "morlock_lair_mid_core_b"], "x": 0, "y": 0 }
       ]
     }
@@ -77,7 +77,7 @@
       "rotation": [0,3],
       "palettes": [ "morlock_lair" ],
       "place_nested": [
-        { "chunks": [ "morlock_lair_mid_a_ring" ], "x": 0, "y": 0 },
+        { "chunks": [ "morlock_lair_mid_ring" ], "x": 0, "y": 0 },
         { "chunks":  [ "morlock_lair_mid_core_b"],  "x": 0, "y": 0 }
       ]
     }

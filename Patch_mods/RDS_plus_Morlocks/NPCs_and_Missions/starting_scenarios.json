@@ -3,7 +3,7 @@
     "type": "start_location",
     "id": "s_loc_dkz_morlock_lair",
     "name": "Morlock Lair",
-    "terrain": [ "morlock_lair_mid_c", "morlock_lair_mid_d" ]
+    "terrain": [ "morlock_lair_mid_e" ]
   },
   {
     "type": "scenario",
@@ -17,7 +17,8 @@
       "dkz_morlock_mutant_leonardo",
       "dkz_morlock_mutant_raphael",
       "dkz_morlock_mutant_donatello",
-      "dkz_morlock_mutant_michelangelo"
+      "dkz_morlock_mutant_michelangelo",
+	  "dkz_morlock_mutant_casey_jones"
     ],
     "forced_traits": [ "PARKOUR", "DKZ_COMBAT" ],
     "missions": [ "DKZ_SEWER_OVERFLOW" ],
