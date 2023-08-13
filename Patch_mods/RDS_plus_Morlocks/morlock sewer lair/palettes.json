@@ -5,7 +5,7 @@
     "terrain": {
       "#": "t_rock",
       "$": "t_grate",
-	  "^": "t_column",
+      "^": "t_column_halfway",
       ".": "t_rock_floor",
       "@": "t_rock_floor",
       "&": "t_rock_floor",
@@ -49,9 +49,9 @@
       "X": "t_rock_floor",
       "~": "t_water_sh",
       "`": "t_sewage",
-      ",": "t_dirtfloor",
-      "z": ["t_tree_mushroom_glow", "t_tree_mushroom_glow", "t_tree_mushroom_glow", "t_tree_mushroom_glow", "t_tree_mushroom_bright"], 
-      "Z": ["t_tree_mushroom_bright","t_tree_mushroom_bright", "t_tree_mushroom_bright", "t_tree_mushroom_bright", "t_tree_mushroom_glow"] 
+      ",": "t_dirt",
+      "z": [ [ "t_tree_mushroom_glow", 7 ], [ "t_tree_mushroom_bright", 1 ] ],
+      "Z": [ [ "t_tree_mushroom_bright", 7 ], [ "t_tree_mushroom_glow", 1 ] ]
     },
     "furniture": {
       "a": "f_armchair",
@@ -87,7 +87,8 @@
       "1": { "class": "DKZ_MAQUIS_GUARD" },
       "2": { "class": "DKZ_MAQUIS_MERCHANT" },
       "3": { "class": "DKZ_MAQUIS_MOTH_MUTANT" },
-      "4": { "class": "DKZ_MAQUIS_MANTIS_MUTANT" }
+      "4": { "class": "DKZ_MAQUIS_SPIDER_MUTANT" },
+      "5": { "class": "DKZ_MAQUIS_MANTIS_MUTANT" }
     },
     "items": {
       "b": { "item": "homebooks", "chance": 20 },

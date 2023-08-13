@@ -3,7 +3,7 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "morlock_lair_mid_core_a",
-    "weight": 1000,
+    "weight": 500,
     "object": {
       "mapgensize": [ 24, 24 ],
       "rotation": [ 0, 3 ],
@@ -40,7 +40,7 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "morlock_lair_mid_core_a",
-    "weight": 1000,
+    "weight": 400,
     "object": {
       "mapgensize": [ 24, 24 ],
       "rotation": [ 0, 3 ],
@@ -78,7 +78,7 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "morlock_lair_mid_core_a",
-    "weight": 1000,
+    "weight": 300,
     "object": {
       "mapgensize": [ 24, 24 ],
       "rotation": [ 0, 3 ],
@@ -116,7 +116,7 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "morlock_lair_mid_core_a",
-    "weight": 1500,
+    "weight": 1725,
     "object": {
       "mapgensize": [ 24, 24 ],
       "rotation": [ 0, 3 ],
@@ -154,8 +154,8 @@
   {
     "type": "mapgen",
     "method": "json",
-    "nested_mapgen_id": "morlock_lair_mid_core_b",
-    "weight": 1000,	
+    "nested_mapgen_id": "morlock_lair_mid_core_a",
+    "weight": 700,	
     "object": {
       "mapgensize": [ 24, 24 ],
       "rotation": [ 0, 3 ],
@@ -194,8 +194,8 @@
     {
     "type": "mapgen",
     "method": "json",
-    "nested_mapgen_id": "morlock_lair_mid_core_b",
-    "weight": 1000,	
+    "nested_mapgen_id": "morlock_lair_mid_core_a",
+    "weight": 500,	
     "object": {
       "mapgensize": [ 24, 24 ],
       "rotation": [ 0, 3 ],
@@ -203,9 +203,9 @@
         "                        ",
         "                        ",
         "                        ",
-        "           .            ",
-        "          ...           ",
-        "         ..^..          ",
+        "                        ",
+        "                        ",
+        "                        ",
         "          ...           ",
         "        ===+====        ",
         "       ==;;;;;;==       ",
@@ -233,7 +233,7 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "morlock_lair_mid_core_a",
-    "weight": 1000,
+    "weight": 900,
     "object": {
       "mapgensize": [ 24, 24 ],
       "rotation": [ 0, 3 ],
