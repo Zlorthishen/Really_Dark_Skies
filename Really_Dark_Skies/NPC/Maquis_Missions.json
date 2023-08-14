@@ -141,13 +141,13 @@
     "start": {
       "effect": [
         "follow_only",
-        { "npc_add_var": "temporal_follower", "type": "general", "context": "maquis_riot_guard", "value": "yes" }
+        { "npc_add_var": "temporal_follower", "type": "general", "context": "maquis", "value": "yes" }
       ]
     },
     "end": {
       "effect": [
         { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 2 },
-        { "npc_add_var": "Maquis_Riot_Guard_Mission1", "type": "mission", "context": "flag", "value": "yes" },
+        { "npc_add_var": "maquis_Mission1", "type": "mission", "context": "flag", "value": "yes" },
         { "add_mission": "DKZ_MAQUIS_RETURN_z0_3_3" }
       ]
     },
@@ -180,7 +180,7 @@
     "start": {
       "effect": [
         "follow_only",
-        { "npc_add_var": "temporal_follower", "type": "general", "context": "maquis_riot_guard", "value": "yes" }
+        { "npc_add_var": "temporal_follower", "type": "general", "context": "maquis", "value": "yes" }
       ]
     },
     "followup": "DKZ_MAQUIS_RETURN_z0_2_2",
@@ -230,7 +230,7 @@
       "effect": [
         "stop_following",
         { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 2 },
-        { "npc_lose_var": "temporal_follower", "type": "general", "context": "maquis_riot_guard" }
+        { "npc_lose_var": "temporal_follower", "type": "general", "context": "maquis" }
       ]
     },
     "origins": [ "ORIGIN_SECONDARY" ],
@@ -273,7 +273,7 @@
       "effect": [
         "stop_following",
         { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 2 },
-        { "npc_lose_var": "temporal_follower", "type": "general", "context": "maquis_riot_guard" }
+        { "npc_lose_var": "temporal_follower", "type": "general", "context": "maquis" }
       ]
     },
     "origins": [ "ORIGIN_SECONDARY" ],
@@ -364,7 +364,7 @@
     "start": {
       "effect": [
         "follow_only",
-        { "npc_add_var": "temporal_follower", "type": "general", "context": "maquis_riot_guard", "value": "yes" }
+        { "npc_add_var": "temporal_follower", "type": "general", "context": "maquis", "value": "yes" }
       ],	
       "assign_mission_target": { "om_terrain": "trailhead", "reveal_radius": 5, "random": true, "search_range": 100, "min_distance": 25 },
       "update_mapgen": {
