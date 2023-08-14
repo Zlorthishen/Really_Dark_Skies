@@ -1,6 +1,74 @@
 [
   {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
+    "id": "DKZ_MORLOCK_RETURN_TO_SEWER_CENTRAL",
+    "type": "mission_definition",
+    "name": { "str": "Return to Sewer Central." },
+    "description": "Return to Sewer Central.",
+    "goal": "MGOAL_GO_TO_TYPE",
+    "destination": "morlock_lair_mid_e",
+    "difficulty": 1,
+    "urgent": true,
+    "deadline_low": 1,
+    "deadline_high": 1,
+    "value": 0,
+    "start": {
+      "assign_mission_target": {
+        "om_terrain": "morlock_lair_mid_e",
+        "om_special": "arcology_racing",
+        "reveal_radius": 0,
+        "search_range": 360,
+        "z": -2
+      }
+    },
+    "end": {
+      "effect": [
+        "stop_following",
+        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "morlock_lair", "adjustment": 2 },
+        { "npc_lose_var": "temporal_follower", "type": "general", "context": "maquis_riot_guard" }
+      ]
+    },
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "has_generic_rewards": false,
+    "dialogue": {
+      "describe": "…",
+      "offer": "Lets go back to base.",
+      "accepted": "Alright, lets be off.  You don't mind taking point, right?",
+      "rejected": "Well…",
+      "advice": "You keep a map around don't you?  I do, and you probably should too.",
+      "inquire": "We there yet?",
+      "success": "Thanks for having my back.  As I said, I owe you one.",
+      "success_lie": "Are you lost or something?",
+      "failure": "Can't believe we got lost…"
+    }
+  },
+  {
     "//": "----| STARTING SCENARIO MISSION |--------------------------------------------------------------------------------------",
+    "id": "DKZ_MORLOCK_RESCUE_JUNE_OFANNY",
+    "type": "mission_definition",
+    "name": { "str": "Save June O'Fanny" },
+    "description": "Go to the Channel 4 News Center and rescue June O'Fanny!",
+    "goal": "MGOAL_TALK_TO_NPC",
+    "destination": "ch4_news_tower_9b",
+    "difficulty": 1,
+    "urgent": true,
+    "deadline_low": 1,
+    "deadline_high": 1,
+    "value": 0,
+    "start": {
+      "assign_mission_target": { "om_terrain": "ch4_news_tower_9b", "om_special": "morlock_lair", "search_range": 33, "random": true },
+      "update_mapgen": { "place_npcs": [ { "class": "DKZ_MORLOCK_JUNE_OFANNY", "x": 7, "y": 21, "target": true } ] }
+    },
+    "end": {
+      "effect": [
+        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "morlock_lair", "adjustment": 2 },
+        { "add_mission": "DKZ_MORLOCK_RETURN_TO_SEWER_CENTRAL" }
+      ]
+    },
+    "origins": [ "ORIGIN_GAME_START" ]
+  },
+  {
+    "//": "----] 2nd mission: Join the Maquis [-----------------------------------------------------------------------------------",
     "id": "DKZ_SEWER_OVERFLOW",
     "type": "mission_definition",
     "name": { "str": "Sewer Overflow" },
@@ -27,6 +95,18 @@
         { "u_add_var": "Rendezvous_to_base", "type": "knowledge", "context": "flag", "value": "yes" }
       ]
     },
-    "origins": [ "ORIGIN_GAME_START" ]
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "has_generic_rewards": false,
+    "dialogue": {
+      "describe": "…",
+      "offer": "Lets go back to base.",
+      "accepted": "Alright, lets be off.  You don't mind taking point, right?",
+      "rejected": "Well…",
+      "advice": "You keep a map around don't you?  I do, and you probably should too.",
+      "inquire": "We there yet?",
+      "success": "Thanks for having my back.  As I said, I owe you one.",
+      "success_lie": "Are you lost or something?",
+      "failure": "Can't believe we got lost…"
+    }
   }
 ]

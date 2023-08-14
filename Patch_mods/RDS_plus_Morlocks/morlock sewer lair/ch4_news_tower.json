@@ -85,8 +85,8 @@
       "rows": [
         "ssssssssssssssssssssssssssssssssssssssssssssssss",
         "ssssssssssssssssssssssssssssssssssssssssssssssss",
-        "ss                                            ss",
-        "ssI%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%Iss",
+        "ss%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%ss",
+        "ssI%%%I%%%I%%%I%%%I%%%I%%I%%%I%%%I%%%I%%%I%%%Iss",
         "ss%|-HHH-HHH-HHH--|HHH-|--HHH|--HHH-HHH-HHH-|%ss",
         "ss%|::::::::::::::::::::::::::::::::::::::::|%ss",
         "ss%V::::::::::::::::::::::::::::::::::::::::V%ss",
@@ -128,7 +128,7 @@
         "ss%|~|!!!!!!||!!!!!!|~~~|Ycbbbc.......cbbbcY|%ss",
         "ss%|-|__,,__||__,,__|-----HHHHHGGHHGGHHHHH--|%ss",
         "ss%I  _,,,,_sx__,,__  I%%%%%I ssssssss I%%%%%Iss",
-        "ss    __,,__ss_,,,,_          ssssssss        ss",
+        "ss    __,,__ss_,,,,_  %%I%I%% ssssssss %%I%I%%ss",
         "ssssss__,,__ss__,,__ssssssssssssssssssssssssssss",
         "ssssss______ss______ssssssssssssssssssssssssssss"
       ],
@@ -274,7 +274,7 @@
         "///|:::::...::::::|-HHHGGHHH-|:::::|...:::::|///",
         "///V::::::::::::::............::::::::::::::V///",
         "///V::::::::::::::............::::::::::::::V///",
-        "///V::::::::::::::.a..........::::::::::::::V///",
+        "///V::::::::::::::............::::::::::::::V///",
         "///|::::::::::::::|-HHHGGHHH-|::::::::::::::|///",
         "///V::::::::::::::::::::::::::::::::::::::::V///",
         "///V::::::::::::::::::::::::::::::::::::::::V///",
@@ -522,12 +522,13 @@
         "///|:::::...|--|-|-|HHHGGHHH|-|-|--|...:::::|///",
         "///|:::::...|SS|T|T|........|T|T|SS|...:::::|///",
         "///|¦¦¦¦¦...+ii|+|+|........|+|+|ii+...|----|///",
-        "///|¦'''¦...|iiiiii|........|iiiiii|...|rrrr|///",
-        "///|¦'''§...|---|--||......||--|---|...+''''|///",
-        "///|¦'''¦...|>R<|///|......|///|>R<|...|rrrr|///",
-        "///|¦¦¦¦¦...|'R'|///D......!///|'R'|...|----|///"
+        "///|''''¦...|iiiiii|........|iiiiii|...|rrrr|///",
+        "///|''''¦...|---|--||......||--|---|...+''''|///",
+        "///|''''¦.·.|>R<|///|......|///|>R<|...|rrrr|///",
+        "///|¦¦!§¦...|'R'|///D......!///|'R'|...|----|///"
       ],
-      "terrain": { "¦": "t_wall_metal", "§": "t_secretdoor_metal_c" },
+      "terrain": { "¦": "t_wall_metal", "§": "t_card_military", "·": "t_floor" },
+	  "item": {"·": { "item": "id_military", "chance": 100 } },	  
       "place_nested": [
         { "chunks": [ [ "4x4_cr1_l", 20 ], [ "4x4_cr2_l", 20 ], [ "4x4_cr3_l", 20 ] ], "x": [ 20, 20 ], "y": [ 12, 12 ] },
         {
@@ -559,8 +560,8 @@
         { "chunks": [ [ "8x8_boss_ar", 20 ] ], "x": [ 24, 24 ], "y": [ 4, 4 ] }
       ],
       "place_monsters": [
-        { "monster": "GROUP_QUISSLING_HELPERS", "x": [ 5, 23 ], "y": [ 5, 23 ], "density": 0.05 },
-        { "monster": "GROUP_QUISSLING_HELPERS", "x": [ 28, 47 ], "y": [ 5, 23 ], "density": 0.05 }
+        { "monster": "GROUP_QUISSLING_HELPERS", "x": [ 5, 23 ], "y": [ 5, 23 ], "density": 0.11 },
+        { "monster": "GROUP_QUISSLING_HELPERS", "x": [ 28, 47 ], "y": [ 5, 23 ], "density": 0.11 }
       ],
       "palettes": [ "morlock_office_palette" ]
     }
@@ -605,16 +606,16 @@
         "///2zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz4///",
         "///2zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz4///",
         "///2zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz4///",
+        "///2zzzzzzzzzzzzzzzzzzzzzzzzzzz```zzzzzzzzzz4///",
+        "///2zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz`zzzz4///",
+        "///2zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz`zzz4///",
+        "///2zzzzzzzzzzzzzzzzzzzzz```zzzzzzzzzz`zzzzz4///",
+        "///2zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz``zzz4///",
         "///2zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz4///",
-        "///2zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz4///",
-        "///2zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz4///",
-        "///2zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz4///",
-        "///2zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz4///",
-        "///2zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz4///",
-        "///2zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz4///",
-        "///2zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz4///",
-        "///2zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz4///",
-        "///2zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz4///",
+        "///2zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz```zzzz4///",
+        "///2zzzzzzzzzzzzzzzzzzzzz`zzzzzzzzzzzzzzzzzz4///",
+        "///2zzzzzzzzzzzzzzzzzzzzz`zzzzzzzzzzzzzzzzzz4///",
+        "///2zzzzzzzzzzzzzzzzzzzzz`zzz````zzzzzzzzzzz4///",
         "///2zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz4///",
         "///533333333333333333333333333333333333333335///",
         "////////////////////////////////////////////////",
@@ -623,12 +624,13 @@
         "////////////////////////////////////////////////"
       ],
       "palettes": [ "morlock_office_palette" ],
+      "terrain": { "Ź": "t_metal_ventilation_shutter" },
       "place_nested": [
-        { "chunks": [ "roof_16x16_help" ], "x": [28,32 ], "y": [ 30, 38 ] },
-        { "chunks": [ "roof_16x16_help" ], "x": [28,32 ], "y": [ 30, 38 ] },
+
+        { "chunks": [ "roof_16x16_help" ], "x": [ 4, 8 ], "y": [ 32, 38 ] },  
+	  
         {
           "chunks": [
-            [ "null", 20 ],
             [ "roof_4x4_utility_1", 20 ],
             [ "roof_4x4_utility", 20 ],
             [ "roof_2x2_utilities", 20 ],
@@ -640,27 +642,14 @@
         },
         {
           "chunks": [
-            [ "null", 20 ],
             [ "roof_4x4_utility_1", 20 ],
             [ "roof_4x4_utility", 20 ],
             [ "roof_2x2_utilities", 20 ],
             [ "roof_2x2_utilities_c", 20 ],
             [ "roof_2x2_utilities_b", 20 ]
           ],
-          "x": [ 24, 40 ],
-          "y": [ 30, 38 ]
-        },
-        {
-          "chunks": [
-            [ "null", 20 ],
-            [ "roof_4x4_utility_1", 20 ],
-            [ "roof_4x4_utility", 20 ],
-            [ "roof_2x2_utilities", 20 ],
-            [ "roof_2x2_utilities_c", 20 ],
-            [ "roof_2x2_utilities_b", 20 ]
-          ],
-          "x": [ 24, 40 ],
-          "y": [ 6, 15 ]
+          "x": [ 24, 28 ],
+          "y": [ 6, 10 ]
         }
       ],
       "place_monsters": [
@@ -698,12 +687,12 @@
         "////////////////////////////////////////////////",
         "////////////////////////////////////////////////",
         "////////////////////////////////////////////////",
-        "////////////111111111//////111111111////////////",
-        "////////////4zz6z6zz2//////4zzzzzzz2////////////",
-        "////////////47zzzzzz2//////4z××z××z2////////////",
-        "////////////4zzzzzz72//////4z××z××z2////////////",
-        "////////////4zz6z6zz2//////4zzzzzzz2////////////",
-        "////////////333333333//////333333333////////////",
+        "////////////511111111//////111111115////////////",
+        "////////////47z6z6z72//////4zzzzzzz2////////////",
+        "////////////4zzz7zzz2//////4z××z××z2////////////",
+        "////////////4zzz7zzz2//////4z××z××z2////////////",
+        "////////////67z6z6z72//////4zzzzzzz2////////////",
+        "////////////533333333//////333333335////////////",
         "////////////////////////////////////////////////",
         "////////////////////////////////////////////////",
         "////////////////////////////////////////////////",

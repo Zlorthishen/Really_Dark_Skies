@@ -141,7 +141,7 @@
       { "point": [ 6, 2, 0 ], "overmap": "road_ew" },
       { "point": [ 0, 5, 0 ], "overmap": "road_ew" },
       { "point": [ 1, 5, 0 ], "overmap": "road_ew" },
-      { "point": [ 3, 5, 0 ], "overmap": "road_ew" },
+      { "point": [ 3, 5, 0 ], "overmap": "road_new" },
       { "point": [ 4, 5, 0 ], "overmap": "road_ew" },
       { "point": [ 6, 5, 0 ], "overmap": "road_ew" },
       { "point": [ 2, 0, 0 ], "overmap": "road_ns" },
@@ -184,7 +184,7 @@
       { "point": [ 6, 10, -1 ], "connection": "sewer_tunnel", "from": [ 6, 9, -1 ] },
       { "point": [ 7, 9, -1 ], "connection": "sewer_tunnel", "from": [ 6, 9, -1 ] }
     ],
-    "rotate": false,
+    "rotate": true,
     "locations": [ "land" ],
     "city_sizes": [ 5, 16 ],
     "occurrences": [ 1, 3 ],

@@ -4,7 +4,7 @@
     "id": "TALK_CHAD_ERIKSON_ROOT",
     "responses": [
       {
-        "text": "[MISSION] I am a martial artist from an underground town and my sensei instructed me to meet Chad Erikson.",
+        "text": "[MISSION] I am a martial artist from an underground town, I rescued June O'Fanny and she told me to come here and meet Chad Erikson.",
         "condition": {
           "and": [
             { "u_has_var": "Sewer_Overflow", "type": "knowledge", "context": "flag", "value": "yes" },

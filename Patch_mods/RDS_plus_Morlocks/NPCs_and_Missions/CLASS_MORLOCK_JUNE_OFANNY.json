@@ -1,0 +1,95 @@
+[
+  {
+    "type": "npc",
+    "id": "DKZ_MORLOCK_JUNE_OFANNY",
+    "class": "NC_MORLOCK_JUNE_OFANNY",
+    "attitude": 0,
+    "mission": 7,
+    "chat": "TALK_MORLOCK_JUNE_OFANNY_ROOT",
+    "name_unique": "June O'Fanny",
+    "gender": "female",
+    "faction": "maquis"
+  },
+  {
+    "type": "npc_class",
+    "id": "NC_MORLOCK_JUNE_OFANNY",
+    "name": { "str": "Morlock-June O'Fanny" },
+    "job_description": "I have been programmed defend humanity and eliminate internal threats to it.",
+    "common": false,
+    "traits": [
+      { "group": "DKZ_starting_traits" },
+      { "group": "Appearance_demographics" },
+      { "trait": "WAKEFUL", "prob": 100 },
+      { "trait": "GOODHEARING", "prob": 100 },
+      { "trait": "ROBUST", "prob": 100 },
+      { "trait": "PRETTY", "prob": 100 },
+      { "trait": "ANTIJUNK", "prob": 100 },
+      { "trait": "NAUSEA", "prob": 100 },
+      { "trait": "HUNGER", "prob": 100 },
+      { "trait": "DEX_ALPHA", "prob": 100 },
+      { "trait": "INT_ALPHA", "prob": 100 },
+      { "trait": "PER_ALPHA", "prob": 100 }
+    ],
+    "skills": [
+      { "skill": "ALL", "level": { "sum": [ { "dice": [ 3, 2 ] }, { "constant": -5 } ] } },
+      { "skill": "survival", "bonus": { "rng": [ 2, 3 ] } },
+      { "skill": "dodge", "bonus": { "rng": [ 2, 3 ] } },
+      { "skill": "melee", "bonus": { "rng": [ 2, 3 ] } },
+      { "skill": "unarmed", "bonus": { "rng": [ 1, 2 ] } },
+      { "skill": "bashing", "bonus": { "rng": [ 1, 2 ] } },
+      { "skill": "gun", "bonus": { "rng": [ 7, 9 ] } },
+      { "skill": "pistol", "bonus": { "rng": [ 7, 8 ] } },
+      { "skill": "shotgun", "bonus": { "rng": [ 2, 3 ] } },
+      { "skill": "smg", "bonus": { "rng": [ 6, 7 ] } },
+      { "skill": "rifle", "bonus": { "rng": [ 2, 3 ] } }
+    ],
+    "bionics": [
+      { "id": "bio_targeting", "chance": 100 },
+      { "id": "bio_power_armor_interface_mkII", "chance": 100 },
+      { "id": "bio_power_storage_mkII", "chance": 100 },
+      { "id": "bio_power_storage_mkII", "chance": 10 }
+    ],
+    "worn_override": "NC_MORLOCK_JUNE_OFANNY_worn",
+    "carry_override": "NC_MORLOCK_JUNE_OFANNY_carry",
+    "weapon_override": "NC_MORLOCK_JUNE_OFANNY_carry",
+    "bonus_str": { "rng": [ 2, 4 ] },
+    "bonus_dex": { "rng": [ -2, 1 ] },
+    "bonus_int": { "rng": [ -1, 1 ] },
+    "bonus_per": { "rng": [ 1, 3 ] }
+  },
+
+  {
+    "id": "NC_MORLOCK_JUNE_OFANNY_weapon",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [ { "item": "knife_butcher" } ]
+  },
+  {
+    "id": "NC_MORLOCK_JUNE_OFANNY_worn",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "boxer_shorts" },
+      { "item": "socks" },
+      { "item": "roller_shoes_off" },
+      { "item": "tshirt_tour" },
+      { "item": "pants_leather" },
+      { "item": "jacket_leather" },
+      { "item": "fancy_sunglasses" },
+      { "item": "backpack_leather" },
+      {
+        "item": "light_minus_battery_cell",
+        "ammo-item": "battery",
+        "charges": 150,
+        "container-item": "dkz_zenture_industries_premium_zwatch"
+      }
+    ]
+  },
+  {
+    "id": "NC_MORLOCK_JUNE_OFANNY_carry",
+    "type": "item_group",
+    "subtype": "collection",
+    "items": [ { "item": "camera" } ]
+  }  
+  
+]
