@@ -10,16 +10,34 @@
         "condition": { "npc_has_var": "temporal_follower", "type": "general", "context": "maquis", "value": "yes" },
         "topic": "TALK_COMBAT_COMMANDS"
       },
+      {
+        "text": "[MISSION] I'm here to rescue you",
+        "condition": { "u_has_mission": "DKZ_MORLOCK_RESCUE_JUNE_OFANNY" },
+        "opinion": { "trust": 2, "value": 5 },
+        "topic": "TALK_MORLOCK_JUNE_OFANNY_RESCUE"
+      },     
+	  {
+        "text": "[MISSION] We're here!",
+        "condition": { "npc_at_om_location": "morlock_lair_mid_e" },
+        "opinion": { "trust": 5, "value": 4 },
+        "topic": "TALK_MORLOCK_JUNE_OFANNY_ESCORT_DONE"
+      },
       { "text": "About that mission…", "topic": "TALK_MISSION_INQUIRE", "condition": "has_assigned_mission" },
       { "text": "See you later.", "topic": "TALK_DONE" }
     ]
   },
-
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
-    "id": "TALK_MORLOCK_JUNE_OFANNY_TRADE",
+    "id": "TALK_MORLOCK_JUNE_OFANNY_RESCUE",
     "type": "talk_topic",
-    "dynamic_line": [ "No.  I wouldn't sell you this gun.", "Go down stairs if you want to trade, I'm busy up here.", "Piss off." ],
-    "responses": [ { "text": "Well, bye.", "topic": "TALK_DONE", "opinion": { "trust": -2, "value": -2 } } ]
+    "dynamic_line": [ "I want to get back down to the safety of the sewer." ],
+    "responses": [ { "text": "OK, Let's go.", "effect": [ "follow_only" ], "topic": "TALK_DONE" } ]
+  },
+  {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
+    "id": "TALK_MORLOCK_JUNE_OFANNY_ESCORT_DONE",
+    "type": "talk_topic",
+    "dynamic_line": [ "I never thought I would be glad to be living in the sewers!" ],
+    "responses": [ { "text": "OK, Let's go.", "effect": [ "stop_following" ], "topic": "TALK_DONE" } ]
   }
 ]

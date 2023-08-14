@@ -412,10 +412,10 @@
         }
       ],
       "place_monsters": [
-        { "monster": "GROUP_ZOMBIE", "x": [ 4, 23 ], "y": [ 5, 23 ], "density": 0.01 },
-        { "monster": "GROUP_ZOMBIE", "x": [ 24, 43 ], "y": [ 29, 47 ], "density": 0.01 },
-        { "monster": "GROUP_ZOMBIE", "x": [ 4, 23 ], "y": [ 0, 18 ], "density": 0.01 },
-        { "monster": "GROUP_ZOMBIE", "x": [ 24, 43 ], "y": [ 24, 42 ], "density": 0.01 }
+        { "monster": "GROUP_ZOMBIE", "x": [ 4, 23 ], "y": [ 5, 23 ], "density": 0.02 },
+        { "monster": "GROUP_ZOMBIE", "x": [ 24, 43 ], "y": [ 29, 47 ], "density": 0.17 },
+        { "monster": "GROUP_ZOMBIE", "x": [ 4, 23 ], "y": [ 0, 18 ], "density": 0.02 },
+        { "monster": "GROUP_ZOMBIE", "x": [ 24, 43 ], "y": [ 24, 42 ], "density": 0.17 }
       ],
       "palettes": [ "morlock_office_palette" ]
     }
@@ -560,8 +560,8 @@
         { "chunks": [ [ "8x8_boss_ar", 20 ] ], "x": [ 24, 24 ], "y": [ 4, 4 ] }
       ],
       "place_monsters": [
-        { "monster": "GROUP_QUISSLING_HELPERS", "x": [ 5, 23 ], "y": [ 5, 23 ], "density": 0.11 },
-        { "monster": "GROUP_QUISSLING_HELPERS", "x": [ 28, 47 ], "y": [ 5, 23 ], "density": 0.11 }
+        { "monster": "GROUP_QUISSLING_HELPERS", "x": [ 9, 17 ], "y": [ 9, 17 ], "density": 0.11 },
+        { "monster": "GROUP_QUISSLING_HELPERS", "x": [ 28, 47 ], "y": [ 9, 17 ], "density": 0.11 }
       ],
       "palettes": [ "morlock_office_palette" ]
     }
@@ -606,16 +606,16 @@
         "///2zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz4///",
         "///2zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz4///",
         "///2zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz4///",
-        "///2zzzzzzzzzzzzzzzzzzzzzzzzzzz```zzzzzzzzzz4///",
-        "///2zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz`zzzz4///",
-        "///2zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz`zzz4///",
-        "///2zzzzzzzzzzzzzzzzzzzzz```zzzzzzzzzz`zzzzz4///",
-        "///2zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz``zzz4///",
         "///2zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz4///",
-        "///2zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz```zzzz4///",
-        "///2zzzzzzzzzzzzzzzzzzzzz`zzzzzzzzzzzzzzzzzz4///",
-        "///2zzzzzzzzzzzzzzzzzzzzz`zzzzzzzzzzzzzzzzzz4///",
-        "///2zzzzzzzzzzzzzzzzzzzzz`zzz````zzzzzzzzzzz4///",
+        "///2zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz4///",
+        "///2zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz4///",
+        "///2zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz4///",
+        "///2zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz4///",
+        "///2zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz4///",
+        "///2zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz4///",
+        "///2zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz4///",
+        "///2zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz4///",
+        "///2zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz4///",
         "///2zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz4///",
         "///533333333333333333333333333333333333333335///",
         "////////////////////////////////////////////////",

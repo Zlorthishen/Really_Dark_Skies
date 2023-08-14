@@ -81,7 +81,6 @@
       ]
     }
   },
-
   {
     "type": "mapgen",
     "method": "json",
@@ -125,8 +124,5 @@
       },
       "items": { "T": { "item": "pottery", "chance": 90 } }
     }
-  }  
-  
-  
-  
+  }
 ]
