@@ -7,7 +7,12 @@
     "responses": [
       {
         "text": "Lets set a combat strategy…",
-        "condition": { "npc_has_var": "temporal_follower", "type": "general", "context": "maquis", "value": "yes" },
+        "condition": {
+          "and": [
+            { "npc_has_var": "temporal_follower", "type": "general", "context": "maquis", "value": "yes" },
+            { "not": { "u_has_var": "u_saved_June_OFanny", "type": "general", "context": "maquis", "value": "yes" } }
+          ]
+        },
         "topic": "TALK_COMBAT_COMMANDS"
       },
       {
@@ -15,10 +20,10 @@
         "condition": { "u_has_mission": "DKZ_MORLOCK_RESCUE_JUNE_OFANNY" },
         "opinion": { "trust": 2, "value": 5 },
         "topic": "TALK_MORLOCK_JUNE_OFANNY_RESCUE"
-      },     
-	  {
-        "text": "[MISSION] We're here!",
-        "condition": { "npc_at_om_location": "morlock_lair_mid_e" },
+      },
+      {
+        "text": "[MISSION] You are saved!",
+        "condition": { "u_has_var": "u_saved_June_OFanny", "type": "general", "context": "maquis", "value": "yes" },
         "opinion": { "trust": 5, "value": 4 },
         "topic": "TALK_MORLOCK_JUNE_OFANNY_ESCORT_DONE"
       },
@@ -31,13 +36,25 @@
     "id": "TALK_MORLOCK_JUNE_OFANNY_RESCUE",
     "type": "talk_topic",
     "dynamic_line": [ "I want to get back down to the safety of the sewer." ],
-    "responses": [ { "text": "OK, Let's go.", "effect": [ "follow_only" ], "topic": "TALK_DONE" } ]
+    "responses": [
+      {
+        "text": "OK, Let's go.",
+        "effect": [ "follow_only", { "npc_add_var": "temporal_follower", "type": "general", "context": "maquis", "value": "yes" } ],
+        "topic": "TALK_DONE"
+      }
+    ]
   },
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MORLOCK_JUNE_OFANNY_ESCORT_DONE",
     "type": "talk_topic",
     "dynamic_line": [ "I never thought I would be glad to be living in the sewers!" ],
-    "responses": [ { "text": "OK, Let's go.", "effect": [ "stop_following" ], "topic": "TALK_DONE" } ]
+    "responses": [
+      {
+        "text": "You said it.",
+        "effect": [ { "npc_lose_var": "temporal_follower", "type": "general", "context": "maquis" }, "stop_following" ],
+        "topic": "TALK_DONE"
+      }
+    ]
   }
 ]

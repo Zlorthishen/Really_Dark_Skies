@@ -3,7 +3,7 @@
     "type": "npc",
     "id": "DKZ_MORLOCK_JUNE_OFANNY",
     "class": "NC_MORLOCK_JUNE_OFANNY",
-    "attitude": 0,
+    "attitude": 1,
     "mission": 7,
     "chat": "TALK_MORLOCK_JUNE_OFANNY_ROOT",
     "name_unique": "June O'Fanny",

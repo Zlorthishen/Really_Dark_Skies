@@ -13,18 +13,13 @@
     "deadline_high": 2,
     "value": 0,
     "start": {
-      "assign_mission_target": {
-        "om_terrain": "morlock_lair_mid_e",
-        "om_special": "morlock_lair",
-        "reveal_radius": 0,
-        "search_range": 17,
-        "z": -2
-      }
+      "assign_mission_target": { "om_terrain": "morlock_lair_mid_e", "om_special": "morlock_lair", "reveal_radius": 5, "search_range": 22, "z": -2 }
     },
     "end": {
       "effect": [
-        "stop_following","npc_thankful",
-        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "morlock_lair", "adjustment": 2 }
+	    "stop_following",
+        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "morlock_lair", "adjustment": 2 },
+        { "u_add_var": "u_saved_June_OFanny", "type": "general", "context": "maquis", "value": "yes" }
       ]
     },
     "origins": [ "ORIGIN_SECONDARY" ],
@@ -55,14 +50,12 @@
     "deadline_high": 1,
     "value": 0,
     "start": {
-      "assign_mission_target": { "om_terrain": "ch4_news_tower_9b", "om_special": "morlock_lair", "search_range": 17, "random": true },
+      "assign_mission_target": { "om_terrain": "ch4_news_tower_9b", "om_special": "morlock_lair", "search_range": 13, "random": false },
       "update_mapgen": { "place_npcs": [ { "class": "DKZ_MORLOCK_JUNE_OFANNY", "x": 7, "y": 21, "target": true } ] }
     },
     "end": {
-      "effect": [  
-	  "follow_only" ,
-	  
-        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "morlock_lair", "adjustment": 2 },		
+      "effect": [
+        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "morlock_lair", "adjustment": 2 },
         { "add_mission": "DKZ_MORLOCK_RETURN_TO_SEWER_CENTRAL" }
       ]
     },

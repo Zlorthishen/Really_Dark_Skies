@@ -11,7 +11,7 @@
       "&": "t_rock_floor",
       "©": "t_concrete_wall",
       "®": "t_junk_wall",
-      "=": "t_brick_wall",
+      "=": [ [ "t_brick_wall", 17 ], [ "t_brick_wall_halfway", 3 ] ],
       "-": "t_brick_wall",
       "|": "t_brick_wall",
       "+": "t_door_c",
@@ -113,7 +113,6 @@
       "C": { "item": "morlock_cookbook", "chance": 3 }
     }
   },
-  
   {
     "type": "palette",
     "id": "morlock_office_palette",
@@ -170,7 +169,7 @@
       "X": "t_generator_broken",
       "ń": "t_machinery_light",
       "N": "t_machinery_heavy",
-	   "`": "t_metal_floor_no_roof"
+      "`": "t_metal_floor_no_roof"
     },
     "furniture": {
       "?": "f_sofa",

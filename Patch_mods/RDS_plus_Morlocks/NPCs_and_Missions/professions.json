@@ -15,7 +15,7 @@
       { "level": 1, "name": "bashing" }
     ],
     "items": {
-      "both": [ "torch_lit", "mbag", "two_way_radio", "cloak_wool" ],
+      "both": [ "torch", "mbag", "two_way_radio", "cloak_wool" ],
       "male": [ "loincloth", "knee_pads", "elbow_pads", "judo_belt_blue" ],
       "female": [ "loincloth", "chestwrap", "knee_pads", "elbow_pads", "judo_belt_blue" ]
     },
@@ -37,7 +37,7 @@
       { "level": 2, "name": "bashing" }
     ],
     "items": {
-      "both": [ "torch_lit", "mbag", "two_way_radio", "cloak_wool" ],
+      "both": [ "torch", "mbag", "two_way_radio", "cloak_wool" ],
       "male": [ "loincloth", "knee_pads", "elbow_pads", "judo_belt_black" ],
       "female": [ "loincloth", "chestwrap", "knee_pads", "elbow_pads", "judo_belt_black" ]
     },
@@ -59,7 +59,7 @@
       { "level": 3, "name": "bashing" }
     ],
     "items": {
-      "both": [ "torch_lit", "mbag", "two_way_radio", "cloak_wool" ],
+      "both": [ "torch", "mbag", "two_way_radio", "cloak_wool" ],
       "male": [ "loincloth", "knee_pads", "elbow_pads", "judo_belt_brown" ],
       "female": [ "loincloth", "chestwrap", "knee_pads", "elbow_pads", "judo_belt_brown" ]
     },
@@ -81,7 +81,7 @@
       { "level": 2, "name": "bashing" }
     ],
     "items": {
-      "both": [ "torch_lit", "mbag", "two_way_radio", "cloak_wool" ],
+      "both": [ "torch", "mbag", "two_way_radio", "cloak_wool" ],
       "male": [ "loincloth", "knee_pads", "elbow_pads", "judo_belt_orange" ],
       "female": [ "loincloth", "chestwrap", "knee_pads", "elbow_pads", "judo_belt_orange" ]
     },
@@ -106,7 +106,7 @@
       { "level": 1, "name": "rifle" }
     ],
     "items": {
-      "both": [ "torch_lit", "mbag", "two_way_radio", "cloak_wool" ],
+      "both": [ "torch", "mbag", "two_way_radio", "cloak_wool" ],
       "male": [ "loincloth", "knee_pads", "elbow_pads" ],
       "female": [ "loincloth", "chestwrap", "knee_pads", "elbow_pads" ]
     },
