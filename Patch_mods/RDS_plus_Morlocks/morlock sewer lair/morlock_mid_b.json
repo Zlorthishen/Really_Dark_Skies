@@ -36,7 +36,7 @@
       "palettes": [ "morlock_lair" ],
       "place_nested": [
         { "chunks": [ "morlock_lair_mid_ring" ], "x": 0, "y": 0 },
-        { "chunks":  [ [ "null", 20], [ "morlock_lair_mid_core_a", 80] ], "x": 0, "y": 0 }
+        { "chunks":  [  "morlock_lair_mid_core_a"], "x": 0, "y": 0 }
       ]
     }
   },
@@ -77,7 +77,7 @@
       "palettes": [ "morlock_lair" ],
       "place_nested": [
         { "chunks": [ "morlock_lair_mid_ring" ], "x": 0, "y": 0 },
-        { "chunks":  [ [ "null", 20], [ "morlock_lair_mid_core_a", 80] ], "x": 0, "y": 0 }
+        { "chunks":  [ "morlock_lair_mid_core_a" ], "x": 0, "y": 0 }
       ]
     }
   },
@@ -118,7 +118,7 @@
       "palettes": [ "morlock_lair" ],
       "place_nested": [
         { "chunks": [ "morlock_lair_mid_ring" ], "x": 0, "y": 0 },
-        { "chunks":  [ [ "null", 20], [ "morlock_lair_mid_core_a", 80] ], "x": 0, "y": 0 }
+        { "chunks":  [ "morlock_lair_mid_core_a"], "x": 0, "y": 0 }
       ]
     }
   },
@@ -161,7 +161,7 @@
       "terrain":{ ",": "t_dirt" },
       "place_nested": [
         { "chunks": [ "morlock_lair_mid_ring" ], "x": 0, "y": 0 },
-        { "chunks":  [ [ "null", 20], [ "morlock_lair_mid_core_a", 80] ], "x": 0, "y": 0 }
+        { "chunks":  ["morlock_lair_mid_core_a"], "x": 0, "y": 0 }
       ]
     }
   },
@@ -203,7 +203,7 @@
       "terrain":{ ",": "t_dirt" },
       "place_nested": [
         { "chunks": [ "morlock_lair_mid_ring" ], "x": 0, "y": 0 },
-        { "chunks":  [ [ "null", 20], [ "morlock_lair_mid_core_a", 80] ], "x": 0, "y": 0 }
+        { "chunks":  [ "morlock_lair_mid_core_a" ], "x": 0, "y": 0 }
       ]
     }
   },
@@ -231,20 +231,20 @@
         "#########~~~~~~~~~~~~~##",
         "####~~###~~~~~~~~~~~~~##",
         "###~~~~###~~~~~~~~~~~###",
-        "##~~~~~~###~~~~~~~~~~## ",
-        "##~~~~~~~###~~~~~~~#### ",
+        "##~~~~~~###~~~~~~~~~~#  ",
+        "##~~~~~~~###~~~~~~~###  ",
         "###~~~~~~#####~~~~######",
         "####~~~~################",
         "########################",
         "########################",
-        "########################",
+        "######  ################",
         "######  ################"
       ],
       "rotation": [0,3],
       "palettes": [ "morlock_lair" ],
       "place_nested": [
         { "chunks": [ "morlock_lair_mid_ring" ], "x": 0, "y": 0 },
-        { "chunks":  [ [ "null", 20], [ "morlock_lair_mid_core_a", 80] ], "x": 0, "y": 0 }
+        { "chunks":  [ "morlock_lair_mid_core_a" ], "x": 0, "y": 0 }
       ]
     }
   },
@@ -285,7 +285,7 @@
       "palettes": [ "morlock_lair" ],
       "place_nested": [
         { "chunks": [ "morlock_lair_mid_ring" ], "x": 0, "y": 0 },
-        { "chunks":  [ [ "null", 20], [ "morlock_lair_mid_core_a", 80] ], "x": 0, "y": 0 }
+        { "chunks":  ["morlock_lair_mid_core_a"], "x": 0, "y": 0 }
       ]
     }
   }
