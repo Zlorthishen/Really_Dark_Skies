@@ -136,17 +136,17 @@
         "                        ",
         "                        ",
         "                        ",
-        "      =====++=====      ",
-        "      =x.........=      ",
-        "      =x........T=      ",
-        "      =...-|-...T=      ",
-        "      =...y|y...T=      ",
-        "      =x..-|-....=      ",
-        "      =x..y|y....=      ",
-        "      =...-|-...T=      ",
-        "      =.........T=      ",
-        "      =X........T=      ",
-        "      ============      ",
+        "      ===--++-----      ",
+        "      =XX.......T-      ",
+        "      =.........T-      ",
+        "      =..-|-.....-      ",
+        "      =..Y|y....T-      ",
+        "      =..-|-....T-      ",
+        "      =..Y|y....T-      ",
+        "      =..-|-.....-      ",
+        "      =.........T-      ",
+        "      =XX.......T-      ",
+        "      =====-++----      ",
         "                        ",
         "                        ",
         "                        ",
@@ -156,13 +156,14 @@
         "                        "
       ],
       "palettes": [ "morlock_lair" ],
-      "terrain": { "y": "t_rock_floor", "Y": "t_rock_floor" },
+      "terrain": { "y": "t_rock_floor", "Y": "t_rock_floor","X": "t_rock_floor", "T": "t_rock_floor" , "t": "t_rock_floor" },
       "furniture": { "y": "f_clay_kiln", "Y": "f_kiln_empty" },
       "item": {
-        "x": { "item": "clay_lump", "chance": 75, "amount": [ 20, 50 ] },
+		"Y": { "item": "pizza_meat", "chance": 90 },	  
+        "x": { "item": "flour", "chance": 75, "amount": [ 20, 50 ] },
         "X": { "item": "flour", "chance": 75, "amount": [ 1, 5 ] }
       },
-      "items": { "T": { "item": "pottery", "chance": 90 } }
+      "items": { "T": { "item": "dinnerware", "chance": 20 } }
     }
   }
   

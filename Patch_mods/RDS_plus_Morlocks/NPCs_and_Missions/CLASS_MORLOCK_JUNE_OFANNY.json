@@ -42,9 +42,7 @@
       { "skill": "smg", "bonus": { "rng": [ 6, 7 ] } },
       { "skill": "rifle", "bonus": { "rng": [ 2, 3 ] } }
     ],
-    "bionics": [
-      { "id": "bio_targeting", "chance": 100 }
-    ],
+    "bionics": [ { "id": "bio_targeting", "chance": 100 } ],
     "worn_override": "NC_MORLOCK_JUNE_OFANNY_worn",
     "carry_override": "NC_MORLOCK_JUNE_OFANNY_carry",
     "weapon_override": "NC_MORLOCK_JUNE_OFANNY_carry",
@@ -53,7 +51,6 @@
     "bonus_int": { "rng": [ 2, 3 ] },
     "bonus_per": { "rng": [ 4, 5 ] }
   },
-
   {
     "id": "NC_MORLOCK_JUNE_OFANNY_weapon",
     "type": "item_group",
@@ -73,6 +70,9 @@
       { "item": "jacket_leather" },
       { "item": "fancy_sunglasses" },
       { "item": "backpack_leather" },
+      { "item": "usp_9mm", "ammo-item": "9mmfmj", "charges": 15, "container-item": "holster" },
+      { "group": "charged_two_way_radio" },
+      { "item": "knife_combat", "container-item": "sheath" },
       {
         "item": "light_minus_battery_cell",
         "ammo-item": "battery",
@@ -86,6 +86,5 @@
     "type": "item_group",
     "subtype": "collection",
     "items": [ { "item": "camera" } ]
-  }  
-  
+  }
 ]
