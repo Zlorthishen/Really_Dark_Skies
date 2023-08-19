@@ -90,10 +90,18 @@
       { "point": [ 0, 7, 7 ], "overmap": "apartments_mod_tower_013_south" },
       { "point": [ 1, 6, 7 ], "overmap": "apartments_mod_tower_103_south" },
       { "point": [ 0, 6, 7 ], "overmap": "apartments_mod_tower_003_south" },
+	  
+	  
+	  
       { "point": [ 0, 8, 0 ], "overmap": "s_baseballfield_a1_north" },
       { "point": [ 1, 8, 0 ], "overmap": "s_baseballfield_a2_north" },
       { "point": [ 0, 9, 0 ], "overmap": "s_baseballfield_b1_north" },
       { "point": [ 1, 9, 0 ], "overmap": "s_baseballfield_b2_north" },
+	  
+	  
+	  
+	  
+	  
       { "point": [ 4, 4, -1 ], "overmap": "ch4_news_tower_1_south" },
       { "point": [ 3, 4, -1 ], "overmap": "ch4_news_tower_2_south" },
       { "point": [ 4, 3, -1 ], "overmap": "ch4_news_tower_3_south" },
