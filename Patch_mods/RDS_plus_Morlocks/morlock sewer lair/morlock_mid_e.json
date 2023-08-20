@@ -1,0 +1,40 @@
+[
+  {
+    "type": "mapgen",
+    "om_terrain": [ "morlock_lair_mid_e" ],
+    "method": "json",
+    "weight": 1000,
+    "object": {
+      "fill_ter": "t_rock_floor",
+      "rows": [
+        "----=,            ,=----",
+        "-###z,,          ,,z###-",
+        "-#©©©,            ,©©©#-",
+        "-#©©©      ©©      ©©©#-",
+        "=z©©©  *   ©©   *  ©©©z=",
+        " ,                    ,,",
+        "                        ",
+        "    *     H  H     *    ",
+        "        ^      ^        ",
+        "         YYYYYY         ",
+        "       H YYYYYY H       ",
+        "   ©{    YYYYYY    ©©   ",
+        "   ©©    YYYYYY    ©©   ",
+        "       H YYYYYY H       ",
+        "         YYYYYY         ",
+        "        ^      ^        ",
+        "    *     H  H     *    ",
+        "                        ",
+        " ,,               ,,  ,,",
+        "=z©©©  *   ©©   *  ©©©z=",
+        "-#©©©      ©©      ©©©#-",
+        "-#©©©,             ©©©#-",
+        "-###z,,           ,z###-",
+        "----=             ,=----"
+      ],
+      "rotation": [ 0, 3 ],
+      "furniture": { "Y": "f_tatami" },
+      "palettes": [ "morlock_lair" ]
+    }
+  }
+]
