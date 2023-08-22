@@ -25,10 +25,96 @@
     "vision_day": 1,
     "vision_night": 30,
     "harvest": "mutant_fish",
-    "reproduction": { "baby_egg": "egg_fish", "baby_count": 2, "baby_timer": 19 },
+
+    "fear_triggers": ["PLAYER_CLOSE", "FIRE", "HURT" ],	
+    "reproduction": { "baby_egg": "egg_fish", "baby_count": 2, "baby_timer": 29 },
     "baby_flags": [ "SPRING", "SUMMER", "AUTUMN", "WINTER" ],
     "path_settings": { "max_dist": 5 },
     "death_function": [ "NORMAL" ],
     "flags": [ "SEES", "SMELLS", "WARM", "AQUATIC" ]
+  },
+
+  
+  {
+    "id": "mon_gator_nice",
+    "type": "MONSTER",
+    "name": { "str": "sewer gator" },
+    "description": "In the late 20th century, there was an urban legend about pet alligators getting flushed down the toilet and growing to adulthood in sewers.  This large specimen looks like it sees humans as something that should be wary of.",
+    "default_faction": "gator",
+    "bodytype": "gator",
+    "categories": [ "WILDLIFE" ],
+    "species": [ "REPTILE" ],
+    "volume": "92500 ml",
+    "weight": "120 kg",
+    "hp": 95,
+    "speed": 90,
+    "material": [ "flesh" ],
+    "symbol": "A",
+    "color": "light_green",
+    "aggression": -30,
+    "morale": 50,
+    "melee_skill": 4,
+    "melee_dice": 1,
+    "melee_dice_sides": 10,
+    "melee_cut": 12,
+    "dodge": 2,
+    "armor_bash": 6,
+    "armor_cut": 8,
+    "armor_bullet": 6,
+    "vision_day": 3,
+    "vision_night": 35,
+    "harvest": "animal_large_noskin",
+    "path_settings": { "max_dist": 8 },
+    "special_attacks": [
+      {
+        "type": "bite",
+        "cooldown": 20,
+        "accuracy": 6,
+        "damage_max_instance": [
+          { "damage_type": "stab", "amount": 9, "armor_multiplier": 0.5 },
+          { "damage_type": "bash", "amount": 27, "armor_multiplier": 0.5 }
+        ],
+        "effects": [ { "id": "grabbed", "duration": 1000, "bp": "torso" } ],
+        "no_infection_chance": 2
+      }
+    ],
+    "fear_triggers": ["PLAYER_CLOSE", "FIRE", "HURT" ],
+    "placate_triggers": [ "MEAT" ],
+    "death_function": [ "NORMAL" ],
+    "flags": [ "SEES", "HEARS", "GOODHEARING", "SMELLS", "KEENNOSE", "PATH_AVOID_DANGER_1", "ANIMAL", "BLEED", "ATTACKMON", "SWIMS" ]
+  },
+  {
+    "id": "mon_sewer_snake_nice",
+    "type": "MONSTER",
+    "name": { "str": "sewer snake" },
+    "description": "An aggressive mutant variety of the worm snake, turned pale yellow from its underground life.  It swarms beneath the ground and is named for its habit of infesting sewer lines.",
+    "default_faction": "mutant",
+    "bodytype": "snake",
+    "species": [ "REPTILE" ],
+    "diff": 2,
+    "volume": "30000 ml",
+    "weight": "40750 g",
+    "hp": 11,
+    "speed": 90,
+    "material": [ "flesh" ],
+    "symbol": "s",
+    "color": "yellow",
+    "aggression": -95,
+    "morale": 40,
+    "melee_skill": 6,
+    "melee_dice": 1,
+    "melee_dice_sides": 4,
+    "melee_cut": 2,
+    "dodge": 1,
+    "vision_day": 1,
+    "vision_night": 30,
+
+    "fear_triggers": ["PLAYER_CLOSE", "FIRE", "HURT" ],	
+    "harvest": "mutant_animal_large_noskin",
+    "path_settings": { "max_dist": 5 },
+    "death_function": [ "NORMAL" ],
+    "flags": [ "SEES", "SMELLS", "WARM", "VENOM", "SWIMS" ]
   }
+
+
   ]
