@@ -104,8 +104,8 @@
         "      ▒®™™™™™™™™®▓      ",
         "       ®™™™™™™™™®▒      ",
         "      ▓®®®™™™™®®®▓      ",
-        "      ░.™.™™™™®░™▓      ",
-        "      ░.™.™™™™™▓{▓      ",
+        "      ░Ø™Ø™™™™®░™▓      ",
+        "      ░Ø™Ø™™™™™▓¦▓      ",
         "      ▒▓▓▓▓▓▓▓▓▓▓▓      ",
         "                        ",
         "                        ",
@@ -115,33 +115,90 @@
         "                        "
       ],
       "palettes": [ "morlock_lair" ],
-      "terrain": { ".": "t_junk_floor" },
-      "furniture": { ".": "f_beaded_door" },
+      "terrain": { "Ø": "t_junk_floor" ,"¦": "t_junk_floor" },
+      "furniture": { "Ø": "f_beaded_door","¦": "f_rope_up" },
       "place_nested": [
-        { "chunks": [ "morlock_lair_4x4_science" ], "x": 11, "y": 11 },
-        { "chunks": [ "morlock_lair_4x4_science" ], "x": 7, "y": 11 },
-        { "chunks": [ "morlock_lair_4x4_science" ], "x": 11, "y": 7 },
-        { "chunks": [ "morlock_lair_4x4_science" ], "x": 7, "y": 7 }
+        { "chunks": [ "morlock_lair_4x4_technik" ], "x": 12, "y": 10 },
+        { "chunks": [ "morlock_lair_4x4_technik" ], "x": 8, "y": 10 },
+        { "chunks": [ "morlock_lair_4x4_technik" ], "x": 12, "y": 6 },
+        { "chunks": [ "morlock_lair_4x4_technik" ], "x": 8, "y": 6 }
       ]
     }
   },
   {
     "type": "mapgen",
     "method": "json",
-    "nested_mapgen_id": "morlock_lair_4x4_science",
+    "nested_mapgen_id": "morlock_lair_4x4_technik",
     "weight": 50,
     "object": {
       "mapgensize": [ 4, 4 ],
       "rotation": [ 0, 3 ],
       "rows": [
         "    ",
-        "  B ",
-        " -b ",
+        " bb ",
+        " -B ",
         "    "
       ],
       "terrain": { " ": "t_null" },
-      "furniture": { "-": "f_camp_chair", "b": "f_lab_bench", "B": "f_shaker" },
-      "items": { " ": { "item": "trash", "chance": 1 }, "b": { "item": "mut_lab", "chance": 80, "repeat": [ 2, 3 ] } }
+      "furniture": { "-": "f_camp_chair", "b": "f_lab_bench", "B": "f_drill_press" },
+      "items": { " ": { "item": "trash", "chance": 1 }, "b": { "item": "tools_drawer", "chance": 80, "repeat": [ 2, 3 ] } }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "morlock_lair_4x4_technik",
+    "weight": 50,
+    "object": {
+      "mapgensize": [ 4, 4 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "    ",
+        " bb ",
+        " -B ",
+        "  c "
+      ],
+      "terrain": { " ": "t_null" },
+      "furniture": { "-": "f_camp_chair", "c": "f_air_compressor", "B": "f_heavy_lathe" },
+      "items": { " ": { "item": "trash", "chance": 1 }, "b": { "item": "tools_drawer", "chance": 80, "repeat": [ 2, 3 ] } }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "morlock_lair_4x4_technik",
+    "weight": 50,
+    "object": {
+      "mapgensize": [ 4, 4 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "    ",
+        "  b ",
+        " -B ",
+        "  b "
+      ],
+      "terrain": { " ": "t_null" },
+      "furniture": { "-": "f_camp_chair", "b": "f_lab_bench", "B": "f_hydraulic_press" },
+      "items": { " ": { "item": "trash", "chance": 1 }, "b": { "item": "tools_drawer", "chance": 80, "repeat": [ 2, 3 ] } }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "morlock_lair_4x4_technik",
+    "weight": 25,
+    "object": {
+      "mapgensize": [ 4, 4 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "    ",
+        "    ",
+        "  B ",
+        "    "
+      ],
+      "terrain": { " ": "t_null" },
+      "furniture": { "B": "f_robotic_assembler" },
+      "items": { " ": { "item": "trash", "chance": 1 }, "b": { "item": "tools_drawer", "chance": 80, "repeat": [ 2, 3 ] } }
     }
   }
 ]
