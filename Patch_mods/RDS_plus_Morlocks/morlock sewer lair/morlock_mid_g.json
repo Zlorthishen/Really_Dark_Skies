@@ -1,0 +1,147 @@
+[
+  {
+    "type": "mapgen",
+    "om_terrain": [ "morlock_lair_mid_g" ],
+    "method": "json",
+    "weight": 1000,
+    "object": {
+      "fill_ter": "t_rock_floor",
+      "rows": [
+        "####                ####",
+        "######  #######  #######",
+        "######   #####   #######",
+        "###©©©    ###     ©©©###",
+        " ##©©©            ©©©## ",
+        " ##©©©            ©©©## ",
+        "                        ",
+        "                        ",
+        " ###                ### ",
+        " ##©©               ### ",
+        " ##©©               ### ",
+        " ###                ### ",
+        " ###                ### ",
+        " ###                ### ",
+        " ###               ©©## ",
+        " ###               ©©## ",
+        "                        ",
+        "                        ",
+        " ##©©©            ©©©## ",
+        " ##©©©            ©©©## ",
+        "###©©©    ###     ©©©###",
+        "######   #####   #######",
+        "######  #######  #######",
+        "####                ####"
+      ],
+      "terrain": { " ": [ [ "t_rock_floor", 13 ], [ "t_dirt", 3 ] ] },
+      "palettes": [ "morlock_lair" ],
+      "place_nested": [
+        { "chunks": [ "morlock_lair_mid_ring_b" ], "x": 0, "y": 0 },
+        { "chunks": [ "morlock_lair_mid_core_g" ], "x": 0, "y": 0 }
+      ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "om_terrain": [ "morlock_lair_mid_g" ],
+    "method": "json",
+    "weight": 1000,
+    "object": {
+      "fill_ter": "t_rock_floor",
+      "rows": [
+        "####                ####",
+        "######  #######  #######",
+        "######   #####   #######",
+        "###©©©    #©©     ©©©###",
+        " ##©©©     ©©     ©©©## ",
+        " ##©©©            ©©©## ",
+        "                        ",
+        "                        ",
+        "                        ",
+        " ##                  ## ",
+        " ##                 ### ",
+        " ###                ### ",
+        " ###                ### ",
+        " ##                 ##  ",
+        " ##                     ",
+        "                        ",
+        "                        ",
+        "                        ",
+        " ##©©©            ©©©## ",
+        " ##©©©     ©©     ©©©## ",
+        "###©©©    #©©     ©©©###",
+        "######   #####   #######",
+        "######  #######  #######",
+        "####                ####"
+      ],
+      "terrain": { " ": [ [ "t_rock_floor", 13 ], [ "t_dirt", 3 ] ] },
+      "palettes": [ "morlock_lair" ],
+      "place_nested": [
+        { "chunks": [ "morlock_lair_mid_ring_b" ], "x": 0, "y": 0 },
+        { "chunks": [ "morlock_lair_mid_core_g" ], "x": 0, "y": 0 }
+      ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "morlock_lair_mid_core_g",
+    "weight": 500,
+    "object": {
+      "mapgensize": [ 24, 24 ],
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "       ®®®®®®®®®®       ",
+        "       ®™™™™™™™™®▒      ",
+        "      ▒®™™™™™™™™®▓      ",
+        "      ▓®™™™™™™™™®▓      ",
+        "       ®™™™™™™™™®       ",
+        "       ®™™™™™™™™®       ",
+        "       ®™™™™™™™™®       ",
+        "      ▒®™™™™™™™™®▓      ",
+        "       ®™™™™™™™™®▒      ",
+        "      ▓®®®™™™™®®®▓      ",
+        "      ░.™.™™™™®░™▓      ",
+        "      ░.™.™™™™™▓{▓      ",
+        "      ▒▓▓▓▓▓▓▓▓▓▓▓      ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "palettes": [ "morlock_lair" ],
+      "terrain": { ".": "t_junk_floor" },
+      "furniture": { ".": "f_beaded_door" },
+      "place_nested": [
+        { "chunks": [ "morlock_lair_4x4_science" ], "x": 11, "y": 11 },
+        { "chunks": [ "morlock_lair_4x4_science" ], "x": 7, "y": 11 },
+        { "chunks": [ "morlock_lair_4x4_science" ], "x": 11, "y": 7 },
+        { "chunks": [ "morlock_lair_4x4_science" ], "x": 7, "y": 7 }
+      ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "morlock_lair_4x4_science",
+    "weight": 50,
+    "object": {
+      "mapgensize": [ 4, 4 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "    ",
+        "  B ",
+        " -b ",
+        "    "
+      ],
+      "terrain": { " ": "t_null" },
+      "furniture": { "-": "f_camp_chair", "b": "f_lab_bench", "B": "f_shaker" },
+      "items": { " ": { "item": "trash", "chance": 1 }, "b": { "item": "mut_lab", "chance": 80, "repeat": [ 2, 3 ] } }
+    }
+  }
+]
