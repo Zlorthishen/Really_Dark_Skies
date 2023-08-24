@@ -105,7 +105,7 @@
         "       ®™™™™™™™™®▒      ",
         "      ▓®®®™™™™®®®▓      ",
         "      ░Ø™Ø™™™™®░™▓      ",
-        "      ░Ø™Ø™™™™™▓¦▓      ",
+        "      ░Ø™Ø™™™™™▓{▓      ",
         "      ▒▓▓▓▓▓▓▓▓▓▓▓      ",
         "                        ",
         "                        ",
@@ -115,8 +115,8 @@
         "                        "
       ],
       "palettes": [ "morlock_lair" ],
-      "terrain": { "Ø": "t_junk_floor" ,"¦": "t_junk_floor" },
-      "furniture": { "Ø": "f_beaded_door","¦": "f_rope_up" },
+      "terrain": { "Ø": "t_junk_floor" },
+      "furniture": { "Ø": "f_beaded_door" },
       "place_nested": [
         { "chunks": [ "morlock_lair_4x4_technik" ], "x": 12, "y": 10 },
         { "chunks": [ "morlock_lair_4x4_technik" ], "x": 8, "y": 10 },
@@ -198,7 +198,45 @@
       ],
       "terrain": { " ": "t_null" },
       "furniture": { "B": "f_robotic_assembler" },
-      "items": { " ": { "item": "trash", "chance": 1 }, "b": { "item": "tools_drawer", "chance": 80, "repeat": [ 2, 3 ] } }
+      "items": { " ": { "item": "trash", "chance": 1 } }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "morlock_lair_4x4_technik",
+    "weight": 75,
+    "object": {
+      "mapgensize": [ 4, 4 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "    ",
+        " BB ",
+        " AB ",
+        "    "
+      ],
+      "terrain": { "A": "t_machinery_old", " ": "t_null" },
+      "furniture": { "B": "f_server" },
+      "items": { " ": { "item": "trash", "chance": 1 } }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "morlock_lair_4x4_technik",
+    "weight": 75,
+    "object": {
+      "mapgensize": [ 4, 4 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "    ",
+        "  B ",
+        "  A ",
+        "    "
+      ],
+      "terrain": { " ": "t_null" },
+      "furniture": { "A": "f_bellows" , "B": "f_forge" },
+      "items": { " ": { "item": "trash", "chance": 1 } }
     }
   }
 ]
