@@ -3,7 +3,10 @@
     "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MORLOCK_JUNE_OFANNY_ROOT",
     "type": "talk_topic",
-    "dynamic_line": [ "Thank you for opening the door.  I was trapped in here!", "I'm got myself locked in here.  Thanks for letting me out!" ],
+    "dynamic_line": [
+      "Thank you for opening the door.  I was trapped in here!",
+      "I'm got myself locked in here.  Thanks for letting me out!"
+    ],
     "responses": [
       {
         "text": "Lets set a combat strategy…",
@@ -17,13 +20,23 @@
       },
       {
         "text": "[MISSION] I'm here to rescue you",
-        "condition": { "u_has_mission": "DKZ_MORLOCK_RESCUE_JUNE_OFANNY" },
+        "condition": {
+          "and": [
+            { "u_has_mission": "DKZ_MORLOCK_RESCUE_JUNE_OFANNY" },
+            { "not": { "u_has_var": "u_saved_June_OFanny", "type": "general", "context": "maquis", "value": "yes" } }
+          ]
+        },
         "opinion": { "trust": 2, "value": 5 },
         "topic": "TALK_MORLOCK_JUNE_OFANNY_RESCUE"
       },
       {
         "text": "[MISSION] You are saved!",
-        "condition": { "u_has_var": "u_saved_June_OFanny", "type": "general", "context": "maquis", "value": "yes" },
+        "condition": {
+          "and": [
+            { "npc_has_var": "temporal_follower", "type": "general", "context": "maquis", "value": "yes" },
+            { "u_has_var": "u_saved_June_OFanny", "type": "general", "context": "maquis", "value": "yes" }
+          ]
+        },
         "opinion": { "trust": 5, "value": 4 },
         "topic": "TALK_MORLOCK_JUNE_OFANNY_ESCORT_DONE"
       },

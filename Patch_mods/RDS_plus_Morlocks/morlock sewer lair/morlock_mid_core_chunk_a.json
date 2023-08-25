@@ -3,7 +3,7 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "morlock_lair_mid_core_a",
-    "weight": 500,
+    "weight": 100,
     "object": {
       "mapgensize": [ 24, 24 ],
       "rotation": [ 0, 3 ],
@@ -40,7 +40,7 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "morlock_lair_mid_core_a",
-    "weight": 400,
+    "weight": 100,
     "object": {
       "mapgensize": [ 24, 24 ],
       "rotation": [ 0, 3 ],
@@ -78,7 +78,7 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "morlock_lair_mid_core_a",
-    "weight": 300,
+    "weight": 100,
     "object": {
       "mapgensize": [ 24, 24 ],
       "rotation": [ 0, 3 ],
@@ -147,7 +147,7 @@
         "                        "
       ],
       "palettes": [ "morlock_lair" ],
-      "mapping": { ";": { "monster": [ { "monster": "mon_fish_blinky", "chance": 3 } ] } },
+      "mapping": { ";": { "monster": [ { "monster": "mon_fish_blinky", "chance": 7 } ] } },
       "terrain": { ";": "t_water_dp" }
     }
   },
@@ -155,7 +155,7 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "morlock_lair_mid_core_a",
-    "weight": 700,	
+    "weight": 700,
     "object": {
       "mapgensize": [ 24, 24 ],
       "rotation": [ 0, 3 ],
@@ -165,16 +165,16 @@
         "                        ",
         "                        ",
         "                        ",
-        "                        ",
-        "       .......          ",
-        "      .===+===.         ",
-        "      .=xx..Z=          ",
-        "      .=x...Z=          ",
-        "      .=....Z=          ",
-        "      .=YHYHY=          ",
-        "       =======          ",
-        "                        ",
-        "                        ",
+        "        .^.^.           ",
+        "     ...........        ",
+        "     ..§§§+§§§..        ",
+        "      .§xx..Z§.         ",
+        "      .§x...Z§.         ",
+        "      .§....Z§.         ",
+        "      .§YHYHY§.         ",
+        "     ..§§§§§§§..        ",
+        "     ..... .....        ",
+        "     ...     ...        ",
         "                        ",
         "                        ",
         "                        ",
@@ -186,16 +186,16 @@
         "                        "
       ],
       "palettes": [ "morlock_lair" ],
-      "terrain": { "Y": "t_rock_floor", "Z": "t_rock_floor" },
+      "terrain": { "§": "t_rock_smooth", "Y": "t_rock_floor", "Z": "t_rock_floor" },
       "furniture": { "Y": "f_still", "Z": "f_fvat_empty" },
       "item": { "x": { "item": "sugar", "chance": 75, "amount": [ 1, 5 ] } }
     }
   },
-    {
+  {
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "morlock_lair_mid_core_a",
-    "weight": 500,	
+    "weight": 500,
     "object": {
       "mapgensize": [ 24, 24 ],
       "rotation": [ 0, 3 ],
@@ -207,12 +207,12 @@
         "                        ",
         "                        ",
         "          ...           ",
-        "        ===+====        ",
-        "       ==;;;;;;==       ",
-        "       =;;;;;;;;=       ",
-        "       =;;;;;;;;=       ",
-        "       ==aTaH.l==       ",
-        "        ========        ",
+        "        ¦¦¦+¦¦¦¦        ",
+        "       ¦¦;;;;;;¦¦       ",
+        "       ¦;;;;;;;;¦       ",
+        "       ¦;;;;;.,,¦       ",
+        "       ¦¦aTa.,Z¦¦       ",
+        "        ¦¦¦¦¦¦¦¦        ",
         "                        ",
         "                        ",
         "                        ",
@@ -226,7 +226,7 @@
         "                        "
       ],
       "palettes": [ "morlock_lair" ],
-      "terrain": { ";": "t_water_dp" }
+      "terrain": { "¦": [ [ "t_wall_log", 60 ], [ "t_wall_log_chipped", 25 ], [ "t_wall_log_broken", 15 ] ], ";": "t_water_dp" }
     }
   },
   {

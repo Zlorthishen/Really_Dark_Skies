@@ -37,8 +37,7 @@
       [ "cutlass", 3 ],
       [ "lajatang", 5 ],
       [ "bagh_nakha", 5 ],
-      [ "sai_weapon", 25 ],
-      [ "scabbard", 30 ]
+      [ "sai_weapon", 25 ]
     ]
   },
   {
@@ -60,8 +59,8 @@
         "        ^      ^     ,  ",
         ",        YYYYYY      ,, ",
         ",     H, YYyYYY  H    ,,",
-        " , ©©    YyyyYY    ©©  ,",
-        " , ©©    YYyyyY    ©©  ,",
+        " , ©©    YYYYyY    ©©  ,",
+        " , ©©    YYyYYY    ©©  ,",
         ",     H, YYYyYY  H    ,,",
         ",        YYYYYY      ,, ",
         "        ^      ^     ,  ",
@@ -76,7 +75,9 @@
       ],
       "terrain": { " ": [ [ "t_rock_floor", 13 ], [ "t_dirt", 2 ] ] },
       "furniture": { "y": "f_tatami", "Y": "f_tatami" },
-      "items": { "y": { "item": "DKZ_morlock_weapons", "chance": 17 }, "Y": { "item": "DKZ_morlock_weapons", "chance": 3 } },
+      "items": { "y": { "item": "DKZ_morlock_weapons", "chance": 75 }, "Y": { "item": "DKZ_morlock_weapons", "chance": 1 } },
+      "item": { "y": { "item": "scabbard", "chance": 50 } },
+	  
       "palettes": [ "morlock_lair" ]
     }
   }

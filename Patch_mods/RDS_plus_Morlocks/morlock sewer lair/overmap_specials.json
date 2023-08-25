@@ -215,7 +215,7 @@
       { "point": [ 0, 2, -2 ], "overmap": "morlock_lair_edge_a_west" },
       { "point": [ 1, 2, -2 ], "overmap": "morlock_lair_mid_b_north" },
       { "point": [ 2, 2, -2 ], "overmap": "morlock_lair_mid_c_north" },
-      { "point": [ 3, 2, -2 ], "overmap": "morlock_lair_mid_f_north" },
+      { "point": [ 3, 2, -2 ], "overmap": "morlock_lair_mid_h_north" },
       { "point": [ 4, 2, -2 ], "overmap": "morlock_lair_mid_c_north" },
       { "point": [ 5, 2, -2 ], "overmap": "morlock_lair_mid_b_north" },
       { "point": [ 6, 2, -2 ], "overmap": "morlock_lair_edge_a_east" },
@@ -230,7 +230,7 @@
       { "point": [ 1, 4, -2 ], "overmap": "morlock_lair_mid_b_north" },
       { "point": [ 2, 4, -2 ], "overmap": "morlock_lair_mid_c_north" },
       { "point": [ 3, 4, -2 ], "overmap": "morlock_lair_mid_f_north" },
-      { "point": [ 4, 4, -2 ], "overmap": "morlock_lair_mid_f_north" },
+      { "point": [ 4, 4, -2 ], "overmap": "morlock_lair_mid_h_north" },
       { "point": [ 5, 4, -2 ], "overmap": "morlock_lair_mid_b_north" },
       { "point": [ 6, 4, -2 ], "overmap": "morlock_lair_edge_a_east" },
       { "point": [ 0, 5, -2 ], "overmap": "morlock_lair_edge_b_west" },
@@ -273,16 +273,22 @@
       { "point": [ 6, 0, -1 ], "overmap": "morlock_lair_sewer_entry_north" },
       { "point": [ 0, 9, -1 ], "overmap": "morlock_lair_sewer_entry_south" },
       { "point": [ 6, 9, -1 ], "overmap": "morlock_lair_sewer_entry_south" },
+	  
+	  
       { "point": [ 0, 2, 0 ], "overmap": "road_ew" },
       { "point": [ 1, 2, 0 ], "overmap": "road_ew" },
       { "point": [ 3, 2, 0 ], "overmap": "road_ew" },
       { "point": [ 4, 2, 0 ], "overmap": "road_esw" },
       { "point": [ 6, 2, 0 ], "overmap": "road_ew" },
+	  
       { "point": [ 0, 5, 0 ], "overmap": "road_ew" },
       { "point": [ 1, 5, 0 ], "overmap": "road_ew" },
       { "point": [ 3, 5, 0 ], "overmap": "road_ew" },
       { "point": [ 4, 5, 0 ], "overmap": "road_ew" },
       { "point": [ 6, 5, 0 ], "overmap": "road_ew" },
+	  
+	  
+	  
       { "point": [ 2, 0, 0 ], "overmap": "road_ns" },
       { "point": [ 2, 1, 0 ], "overmap": "road_ns" },
       { "point": [ 2, 3, 0 ], "overmap": "road_ns" },
@@ -291,6 +297,8 @@
       { "point": [ 2, 7, 0 ], "overmap": "road_ns" },
       { "point": [ 2, 8, 0 ], "overmap": "road_ns" },
       { "point": [ 2, 9, 0 ], "overmap": "road_ns" },
+	  
+	  
       { "point": [ 5, 0, 0 ], "overmap": "road_ns" },
       { "point": [ 5, 1, 0 ], "overmap": "road_ns" },
       { "point": [ 5, 3, 0 ], "overmap": "road_nes" },
@@ -299,6 +307,10 @@
       { "point": [ 5, 7, 0 ], "overmap": "road_ns" },
       { "point": [ 5, 8, 0 ], "overmap": "road_ns" },
       { "point": [ 5, 9, 0 ], "overmap": "road_ns" },
+	  
+	  
+	  
+	  
       { "point": [ 2, 2, 0 ], "overmap": "road_nesw_manhole" },
       { "point": [ 2, 5, 0 ], "overmap": "road_nesw_manhole" },
       { "point": [ 5, 2, 0 ], "overmap": "road_nesw_manhole" },
@@ -307,8 +319,27 @@
     "connections": [
       { "point": [ -1, 2, 0 ], "connection": "local_road", "from": [ 0, 2, 0 ] },
       { "point": [ -1, 5, 0 ], "connection": "local_road", "from": [ 0, 5, 0 ] },
-      { "point": [ 10, 2, 0 ], "connection": "local_road", "from": [ 9, 2, 0 ] },
-      { "point": [ 10, 5, 0 ], "connection": "local_road", "from": [ 9, 5, 0 ] },
+      { "point": [ 7, 2, 0 ], "connection": "local_road", "from": [ 6, 2, 0 ] },
+      { "point": [ 7, 5, 0 ], "connection": "local_road", "from": [ 6, 5, 0 ] },
+	  
+	  
+      { "point": [ 2, -1, 0 ], "connection": "local_road", "from": [ 2, 0, 0 ] },
+      { "point": [ 5, -1, 0 ], "connection": "local_road", "from": [ 5, 0, 0 ] },
+	  
+      { "point": [ 2, 10, 0 ], "connection": "local_road", "from": [ 2, 9, 0 ] },
+      { "point": [ 5, 10, 0 ], "connection": "local_road", "from": [ 5, 9, 0 ] },
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
       { "point": [ -1, -1, -2 ], "connection": "subway_tunnel", "from": [ 0, -1, -2 ] },
       { "point": [ 5, 4, -1 ], "connection": "sewer_tunnel", "from": [ 4, 4, -1 ] },
       { "point": [ 2, 4, -1 ], "connection": "sewer_tunnel", "from": [ 3, 4, -1 ] },
