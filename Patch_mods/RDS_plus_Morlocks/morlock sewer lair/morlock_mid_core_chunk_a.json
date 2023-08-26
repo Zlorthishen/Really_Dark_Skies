@@ -233,7 +233,7 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "morlock_lair_mid_core_a",
-    "weight": 900,
+    "weight": 400,
     "object": {
       "mapgensize": [ 24, 24 ],
       "rotation": [ 0, 3 ],

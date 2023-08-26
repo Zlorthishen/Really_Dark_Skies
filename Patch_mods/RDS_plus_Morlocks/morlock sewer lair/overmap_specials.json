@@ -23,7 +23,7 @@
       { "point": [ 6, 1, 2 ], "overmap": "homeless_0_0_2_south" },
       { "point": [ 6, 0, 2 ], "overmap": "homeless_1_0_2_south" },
       { "point": [ 6, 1, 3 ], "overmap": "homeless_0_0_roof_south" },
-      { "point": [ 6, 0, 3 ], "overmap": "homeless_1_0_roof_south" },	
+      { "point": [ 6, 0, 3 ], "overmap": "homeless_1_0_roof_south" },
       { "point": [ 3, 0, 0 ], "overmap": "s_clothes_1_west" },
       { "point": [ 3, 0, 1 ], "overmap": "s_clothes_roof_1_west" },
       { "point": [ 3, 1, 0 ], "overmap": "cs_internet_cafe_south" },
@@ -58,10 +58,30 @@
       { "point": [ 1, 3, -1 ], "overmap": "cathedral_b_NE_north" },
       { "point": [ 0, 4, -1 ], "overmap": "cathedral_b_SW_north" },
       { "point": [ 1, 4, -1 ], "overmap": "cathedral_b_SE_north" },
+	  
+
+
+      { "point": [ 0, 6, -1 ], "overmap": "morlock_lair_corner_c_north" },
+      { "point": [ 1, 6, -1 ], "overmap": "morlock_lair_corner_c_east" },
+      { "point": [ 1, 7, -1 ], "overmap": "morlock_lair_corner_c_south" },
+      { "point": [ 0, 7, -1 ], "overmap": "morlock_lair_corner_c_west" },
+	  
+	  
+	  
+	  
+	  
+	  
+
+	  
+	  
+	  
+	  
       { "point": [ 1, 7, 0 ], "overmap": "apartments_mod_tower_110_south" },
       { "point": [ 0, 7, 0 ], "overmap": "apartments_mod_tower_010_south" },
       { "point": [ 1, 6, 0 ], "overmap": "apartments_mod_tower_100_south" },
       { "point": [ 0, 6, 0 ], "overmap": "apartments_mod_tower_000_south" },
+	  
+
       { "point": [ 1, 7, 1 ], "overmap": "apartments_mod_tower_111_south" },
       { "point": [ 0, 7, 1 ], "overmap": "apartments_mod_tower_011_south" },
       { "point": [ 1, 6, 1 ], "overmap": "apartments_mod_tower_101_south" },
@@ -90,18 +110,10 @@
       { "point": [ 0, 7, 7 ], "overmap": "apartments_mod_tower_013_south" },
       { "point": [ 1, 6, 7 ], "overmap": "apartments_mod_tower_103_south" },
       { "point": [ 0, 6, 7 ], "overmap": "apartments_mod_tower_003_south" },
-	  
-	  
-	  
       { "point": [ 0, 8, 0 ], "overmap": "s_baseballfield_a1_north" },
       { "point": [ 1, 8, 0 ], "overmap": "s_baseballfield_a2_north" },
       { "point": [ 0, 9, 0 ], "overmap": "s_baseballfield_b1_north" },
       { "point": [ 1, 9, 0 ], "overmap": "s_baseballfield_b2_north" },
-	  
-	  
-	  
-	  
-	  
       { "point": [ 4, 4, -1 ], "overmap": "ch4_news_tower_1_south" },
       { "point": [ 3, 4, -1 ], "overmap": "ch4_news_tower_2_south" },
       { "point": [ 4, 3, -1 ], "overmap": "ch4_news_tower_3_south" },
@@ -149,9 +161,7 @@
       { "point": [ 6, 4, 3 ], "overmap": "parking_garage_roof_0_west" },
       { "point": [ 6, 3, 3 ], "overmap": "parking_garage_roof_1_west" },
       { "point": [ 6, 4, 4 ], "overmap": "parking_garage_roof_top_west" },
-	  
-	  
-	  { "point": [ 4, 6, 0 ], "overmap": "city_block2_1_east" },
+      { "point": [ 4, 6, 0 ], "overmap": "city_block2_1_east" },
       { "point": [ 4, 6, 1 ], "overmap": "city_block2_flr2_1_east" },
       { "point": [ 4, 6, 2 ], "overmap": "city_block2_roof_1_east" },
       { "point": [ 4, 7, 0 ], "overmap": "city_block2_2_east" },
@@ -163,8 +173,7 @@
       { "point": [ 4, 9, 0 ], "overmap": "city_block2_4_east" },
       { "point": [ 4, 9, 1 ], "overmap": "city_block2_flr2_4_east" },
       { "point": [ 4, 9, 2 ], "overmap": "city_block2_roof_4_east" },
-	  
-	  { "point": [ 3, 9, 0 ], "overmap": "city_block2_1_west" },
+      { "point": [ 3, 9, 0 ], "overmap": "city_block2_1_west" },
       { "point": [ 3, 9, 1 ], "overmap": "city_block2_flr2_1_west" },
       { "point": [ 3, 9, 2 ], "overmap": "city_block2_roof_1_west" },
       { "point": [ 3, 8, 0 ], "overmap": "city_block2_2_west" },
@@ -176,9 +185,7 @@
       { "point": [ 3, 6, 0 ], "overmap": "city_block2_4_west" },
       { "point": [ 3, 6, 1 ], "overmap": "city_block2_flr2_4_west" },
       { "point": [ 3, 6, 2 ], "overmap": "city_block2_roof_4_west" },
-	  
-	  
-	  { "point": [ 6, 9, 0 ], "overmap": "city_block2_1_west" },
+      { "point": [ 6, 9, 0 ], "overmap": "city_block2_1_west" },
       { "point": [ 6, 9, 1 ], "overmap": "city_block2_flr2_1_west" },
       { "point": [ 6, 9, 2 ], "overmap": "city_block2_roof_1_west" },
       { "point": [ 6, 8, 0 ], "overmap": "city_block2_2_west" },
@@ -190,14 +197,6 @@
       { "point": [ 6, 6, 0 ], "overmap": "city_block2_4_west" },
       { "point": [ 6, 6, 1 ], "overmap": "city_block2_flr2_4_west" },
       { "point": [ 6, 6, 2 ], "overmap": "city_block2_roof_4_west" },
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
       { "point": [ 0, 0, -2 ], "overmap": "morlock_lair_corner_b_north" },
       { "point": [ 1, 0, -2 ], "overmap": "morlock_lair_edge_b_north" },
       { "point": [ 2, 0, -2 ], "overmap": "morlock_lair_edge_a_north" },
@@ -241,14 +240,14 @@
       { "point": [ 5, 5, -2 ], "overmap": "morlock_lair_mid_a_north" },
       { "point": [ 6, 5, -2 ], "overmap": "morlock_lair_edge_b_east" },
       { "point": [ 0, 6, -2 ], "overmap": "morlock_lair_edge_a_west" },
-      { "point": [ 1, 6, -2 ], "overmap": "morlock_lair_mid_b_north" },
+      { "point": [ 1, 6, -2 ], "overmap": "morlock_lair_mid_i_north" },
       { "point": [ 2, 6, -2 ], "overmap": "morlock_lair_mid_c_north" },
       { "point": [ 3, 6, -2 ], "overmap": "morlock_lair_mid_d_north" },
       { "point": [ 4, 6, -2 ], "overmap": "morlock_lair_mid_c_north" },
       { "point": [ 5, 6, -2 ], "overmap": "morlock_lair_mid_b_north" },
       { "point": [ 6, 6, -2 ], "overmap": "morlock_lair_edge_a_east" },
       { "point": [ 0, 7, -2 ], "overmap": "morlock_lair_edge_b_west" },
-      { "point": [ 1, 7, -2 ], "overmap": "morlock_lair_mid_a_north" },
+      { "point": [ 1, 7, -2 ], "overmap": "morlock_lair_mid_i_north" },
       { "point": [ 2, 7, -2 ], "overmap": "morlock_lair_mid_d_north" },
       { "point": [ 3, 7, -2 ], "overmap": "morlock_lair_mid_c_north" },
       { "point": [ 4, 7, -2 ], "overmap": "morlock_lair_mid_d_north" },
@@ -273,22 +272,16 @@
       { "point": [ 6, 0, -1 ], "overmap": "morlock_lair_sewer_entry_north" },
       { "point": [ 0, 9, -1 ], "overmap": "morlock_lair_sewer_entry_south" },
       { "point": [ 6, 9, -1 ], "overmap": "morlock_lair_sewer_entry_south" },
-	  
-	  
       { "point": [ 0, 2, 0 ], "overmap": "road_ew" },
       { "point": [ 1, 2, 0 ], "overmap": "road_ew" },
       { "point": [ 3, 2, 0 ], "overmap": "road_ew" },
       { "point": [ 4, 2, 0 ], "overmap": "road_esw" },
       { "point": [ 6, 2, 0 ], "overmap": "road_ew" },
-	  
       { "point": [ 0, 5, 0 ], "overmap": "road_ew" },
       { "point": [ 1, 5, 0 ], "overmap": "road_ew" },
       { "point": [ 3, 5, 0 ], "overmap": "road_ew" },
       { "point": [ 4, 5, 0 ], "overmap": "road_ew" },
       { "point": [ 6, 5, 0 ], "overmap": "road_ew" },
-	  
-	  
-	  
       { "point": [ 2, 0, 0 ], "overmap": "road_ns" },
       { "point": [ 2, 1, 0 ], "overmap": "road_ns" },
       { "point": [ 2, 3, 0 ], "overmap": "road_ns" },
@@ -297,8 +290,6 @@
       { "point": [ 2, 7, 0 ], "overmap": "road_ns" },
       { "point": [ 2, 8, 0 ], "overmap": "road_ns" },
       { "point": [ 2, 9, 0 ], "overmap": "road_ns" },
-	  
-	  
       { "point": [ 5, 0, 0 ], "overmap": "road_ns" },
       { "point": [ 5, 1, 0 ], "overmap": "road_ns" },
       { "point": [ 5, 3, 0 ], "overmap": "road_nes" },
@@ -307,10 +298,6 @@
       { "point": [ 5, 7, 0 ], "overmap": "road_ns" },
       { "point": [ 5, 8, 0 ], "overmap": "road_ns" },
       { "point": [ 5, 9, 0 ], "overmap": "road_ns" },
-	  
-	  
-	  
-	  
       { "point": [ 2, 2, 0 ], "overmap": "road_nesw_manhole" },
       { "point": [ 2, 5, 0 ], "overmap": "road_nesw_manhole" },
       { "point": [ 5, 2, 0 ], "overmap": "road_nesw_manhole" },
@@ -321,26 +308,13 @@
       { "point": [ -1, 5, 0 ], "connection": "local_road", "from": [ 0, 5, 0 ] },
       { "point": [ 7, 2, 0 ], "connection": "local_road", "from": [ 6, 2, 0 ] },
       { "point": [ 7, 5, 0 ], "connection": "local_road", "from": [ 6, 5, 0 ] },
-	  
-	  
       { "point": [ 2, -1, 0 ], "connection": "local_road", "from": [ 2, 0, 0 ] },
       { "point": [ 5, -1, 0 ], "connection": "local_road", "from": [ 5, 0, 0 ] },
-	  
       { "point": [ 2, 10, 0 ], "connection": "local_road", "from": [ 2, 9, 0 ] },
       { "point": [ 5, 10, 0 ], "connection": "local_road", "from": [ 5, 9, 0 ] },
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
       { "point": [ -1, -1, -2 ], "connection": "subway_tunnel", "from": [ 0, -1, -2 ] },
+      { "point": [ 6, 2, -1 ], "connection": "sewer_tunnel", "from": [ 6, 3, -1 ] },
+      { "point": [ 7, 4, -1 ], "connection": "sewer_tunnel", "from": [ 6, 4, -1 ] },
       { "point": [ 5, 4, -1 ], "connection": "sewer_tunnel", "from": [ 4, 4, -1 ] },
       { "point": [ 2, 4, -1 ], "connection": "sewer_tunnel", "from": [ 3, 4, -1 ] },
       { "point": [ 3, 2, -1 ], "connection": "sewer_tunnel", "from": [ 3, 3, -1 ] },
@@ -358,7 +332,7 @@
       { "point": [ 6, 10, -1 ], "connection": "sewer_tunnel", "from": [ 6, 9, -1 ] },
       { "point": [ 7, 9, -1 ], "connection": "sewer_tunnel", "from": [ 6, 9, -1 ] }
     ],
-    "rotate": true,
+    "rotate": false,
     "locations": [ "land" ],
     "city_sizes": [ 11, 16 ],
     "occurrences": [ 1, -1 ],

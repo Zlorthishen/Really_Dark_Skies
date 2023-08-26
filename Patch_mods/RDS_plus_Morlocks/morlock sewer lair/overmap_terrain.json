@@ -149,7 +149,7 @@
   {
     "type": "overmap_terrain",
     "id": "morlock_lair_mid_a",
-    "name": "morlock_lair",
+    "name": "Morlock Lair Remnants",
     "sym": "M",
     "mondensity": 0,
     "color": "i_light_green",
@@ -159,7 +159,7 @@
   {
     "type": "overmap_terrain",
     "id": "morlock_lair_mid_b",
-    "name": "morlock_lair",
+    "name": "Morlock Lair Remnants",
     "sym": "M",
     "mondensity": 0,
     "color": "i_light_green",
@@ -169,7 +169,7 @@
   {
     "type": "overmap_terrain",
     "id": "morlock_lair_mid_c",
-    "name": "morlock_lair",
+    "name": "Morlock Lair Ruins",
     "sym": "M",
     "mondensity": 0,
     "color": "i_light_blue",
@@ -179,8 +179,9 @@
   {
     "type": "overmap_terrain",
     "id": "morlock_lair_mid_d",
-    "name": "morlock_lair",
+    "name": "Morlock Lair Ruins",
     "sym": "M",
+    "mondensity": 0,
     "color": "i_light_blue",
     "see_cost": 10,
     "flags": [ "SOURCE_PEOPLE" ]
@@ -188,8 +189,9 @@
   {
     "type": "overmap_terrain",
     "id": "morlock_lair_mid_e",
-    "name": "morlock_lair",
+    "name": "Morlock Lair Inner Sanctum",
     "sym": "M",
+    "mondensity": 0,
     "color": "i_light_blue",
     "see_cost": 10,
     "flags": [ "SOURCE_PEOPLE" ]
@@ -197,8 +199,9 @@
   {
     "type": "overmap_terrain",
     "id": "morlock_lair_mid_f",
-    "name": "morlock_lair",
+    "name": "Morlock 'Sewer Pizzeria'",
     "sym": "M",
+    "mondensity": 0,
     "color": "i_light_blue",
     "see_cost": 10,
     "flags": [ "SOURCE_PEOPLE" ]
@@ -206,8 +209,9 @@
   {
     "type": "overmap_terrain",
     "id": "morlock_lair_mid_g",
-    "name": "morlock_lair",
+    "name": "Morlock Technician's Workshop",
     "sym": "M",
+    "mondensity": 0,
     "color": "i_light_blue",
     "see_cost": 10,
     "flags": [ "SOURCE_PEOPLE" ]
@@ -215,8 +219,19 @@
   {
     "type": "overmap_terrain",
     "id": "morlock_lair_mid_h",
-    "name": "morlock_lair",
+    "name": "Morlock Guest Barracks",
     "sym": "M",
+    "mondensity": 0,
+    "color": "i_light_blue",
+    "see_cost": 10,
+    "flags": [ "SOURCE_PEOPLE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "morlock_lair_mid_i",
+    "name": "Morlock Lair Foundations",
+    "sym": "M",
+    "mondensity": 0,
     "color": "i_light_blue",
     "see_cost": 10,
     "flags": [ "SOURCE_PEOPLE" ]
@@ -224,7 +239,7 @@
   {
     "type": "overmap_terrain",
     "id": "morlock_lair_edge_a",
-    "name": "morlock_lair",
+    "name": "Morlock Lair Rubble",
     "sym": "M",
     "mondensity": 0,
     "color": "i_light_green",
@@ -234,7 +249,7 @@
   {
     "type": "overmap_terrain",
     "id": "morlock_lair_edge_b",
-    "name": "morlock_lair",
+    "name": "Morlock Lair Remains",
     "sym": "M",
     "mondensity": 0,
     "color": "i_light_green",
@@ -244,7 +259,7 @@
   {
     "type": "overmap_terrain",
     "id": "morlock_lair_corner_a",
-    "name": "morlock_lair",
+    "name": "Morlock Lair False Entrance",
     "sym": "M",
     "mondensity": 0,
     "color": "i_light_green",
@@ -254,7 +269,17 @@
   {
     "type": "overmap_terrain",
     "id": "morlock_lair_corner_b",
-    "name": "morlock_lair",
+    "name": "Morlock Lair Guardpost",
+    "sym": "M",
+    "mondensity": 0,
+    "color": "i_light_green",
+    "see_cost": 10,
+    "flags": [ "SOURCE_PEOPLE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "morlock_lair_corner_c",
+    "name": "Morlock Lair Squatters Zone",
     "sym": "M",
     "mondensity": 0,
     "color": "i_light_green",
@@ -264,7 +289,7 @@
   {
     "type": "overmap_terrain",
     "id": "morlock_lair_sewer_entry",
-    "name": "morlock_lair",
+    "name": "sewer",
     "sym": "M",
     "mondensity": 2,
     "color": "i_light_green",

@@ -73,11 +73,10 @@
         "-###z,,           ,z###-",
         "----,             ,,----"
       ],
-      "terrain": { " ": [ [ "t_rock_floor", 13 ], [ "t_dirt", 2 ] ] },
+      "terrain": { " ": [ [ "t_rock_floor", 13 ], [ "t_dirt", 5 ] ] },
       "furniture": { "y": "f_tatami", "Y": "f_tatami" },
-      "items": { "y": { "item": "DKZ_morlock_weapons", "chance": 75 }, "Y": { "item": "DKZ_morlock_weapons", "chance": 1 } },
+      "items": { "y": { "item": "DKZ_morlock_weapons", "chance": 50 }, "Y": { "item": "DKZ_morlock_weapons", "chance": 1 } },
       "item": { "y": { "item": "scabbard", "chance": 50 } },
-	  
       "palettes": [ "morlock_lair" ]
     }
   }
