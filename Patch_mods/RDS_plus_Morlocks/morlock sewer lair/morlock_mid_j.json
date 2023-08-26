@@ -1,7 +1,7 @@
 [
   {
     "type": "mapgen",
-    "om_terrain": [ "morlock_lair_mid_h" ],
+    "om_terrain": [ "morlock_lair_mid_j" ],
     "method": "json",
     "weight": 1000,
     "object": {
@@ -36,13 +36,13 @@
       "palettes": [ "morlock_lair" ],
       "place_nested": [
         { "chunks": [ "morlock_lair_mid_ring_b" ], "x": 0, "y": 0 },
-        { "chunks": [ "morlock_lair_mid_core_h" ], "x": 0, "y": 0 }
+        { "chunks": [ "morlock_lair_mid_core_j" ], "x": 0, "y": 0 }
       ]
     }
   },
   {
     "type": "mapgen",
-    "om_terrain": [ "morlock_lair_mid_h" ],
+    "om_terrain": [ "morlock_lair_mid_j" ],
     "method": "json",
     "weight": 1000,
     "object": {
@@ -77,14 +77,14 @@
       "palettes": [ "morlock_lair" ],
       "place_nested": [
         { "chunks": [ "morlock_lair_mid_ring_b" ], "x": 0, "y": 0 },
-        { "chunks": [ "morlock_lair_mid_core_h" ], "x": 0, "y": 0 }
+        { "chunks": [ "morlock_lair_mid_core_j" ], "x": 0, "y": 0 }
       ]
     }
   },
   {
     "type": "mapgen",
     "method": "json",
-    "nested_mapgen_id": "morlock_lair_mid_core_h",
+    "nested_mapgen_id": "morlock_lair_mid_core_j",
     "weight": 500,
     "object": {
       "mapgensize": [ 24, 24 ],
@@ -129,7 +129,7 @@
   {
     "type": "mapgen",
     "method": "json",
-    "nested_mapgen_id": "morlock_lair_mid_core_h",
+    "nested_mapgen_id": "morlock_lair_mid_core_j",
     "weight": 500,
     "object": {
       "mapgensize": [ 24, 24 ],

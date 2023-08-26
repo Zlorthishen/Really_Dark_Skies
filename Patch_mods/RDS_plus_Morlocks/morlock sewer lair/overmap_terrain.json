@@ -219,7 +219,7 @@
   {
     "type": "overmap_terrain",
     "id": "morlock_lair_mid_h",
-    "name": "Morlock Guest Barracks",
+    "name": "Morlock 'Sushiya + Ramen-ya'",
     "sym": "M",
     "mondensity": 0,
     "color": "i_light_blue",
@@ -230,6 +230,26 @@
     "type": "overmap_terrain",
     "id": "morlock_lair_mid_i",
     "name": "Morlock Lair Foundations",
+    "sym": "M",
+    "mondensity": 0,
+    "color": "i_light_blue",
+    "see_cost": 10,
+    "flags": [ "SOURCE_PEOPLE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "morlock_lair_mid_j",
+    "name": "Morlock Barracks",
+    "sym": "M",
+    "mondensity": 0,
+    "color": "i_light_blue",
+    "see_cost": 10,
+    "flags": [ "SOURCE_PEOPLE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "morlock_lair_mid_k",
+    "name": "Morlock Barracks",
     "sym": "M",
     "mondensity": 0,
     "color": "i_light_blue",

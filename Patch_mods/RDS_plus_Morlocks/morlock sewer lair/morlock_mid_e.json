@@ -60,7 +60,7 @@
         ",        YYYYYY      ,, ",
         ",     H, YYyYYY  H    ,,",
         " , ©©    YYYYyY    ©©  ,",
-        " , ©©    YYyYYY    ©©  ,",
+        " , ©©    YYyŸYY    ©©  ,",
         ",     H, YYYyYY  H    ,,",
         ",        YYYYYY      ,, ",
         "        ^      ^     ,  ",
@@ -74,9 +74,9 @@
         "----,             ,,----"
       ],
       "terrain": { " ": [ [ "t_rock_floor", 13 ], [ "t_dirt", 5 ] ] },
-      "furniture": { "y": "f_tatami", "Y": "f_tatami" },
+      "furniture": { "Ÿ": "f_tatami", "y": "f_tatami", "Y": "f_tatami" },
       "items": { "y": { "item": "DKZ_morlock_weapons", "chance": 50 }, "Y": { "item": "DKZ_morlock_weapons", "chance": 1 } },
-      "item": { "y": { "item": "scabbard", "chance": 50 } },
+      "item": { "Ÿ": { "item": "torch_lit", "chance": 100 }, "y": { "item": "scabbard", "chance": 50 } },
       "palettes": [ "morlock_lair" ]
     }
   }
