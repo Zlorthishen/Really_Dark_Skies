@@ -48,14 +48,20 @@
     "name": "GROUP_XENOID_BOSS",
     "default": "dkz_xenoid_knight",
     "monsters": [
-      { "monster": "dkz_xenoid_enforcer", "freq": 75, "cost_multiplier": 0, "pack_size": [ 3, 7 ] },
       { "monster": "dkz_xenoid_knight", "freq": 80, "cost_multiplier": 0, "pack_size": [ 1, 2 ] },
       { "monster": "dkz_xenoid_fumigator", "freq": 60, "cost_multiplier": 10, "pack_size": [ 1, 2 ] },
-      { "monster": "dkz_xenoid_pyro", "freq": 10, "cost_multiplier": 0, "pack_size": [ 1, 2 ], "starts": 64 },
-      { "monster": "mon_dkz_emissary", "freq": 5, "cost_multiplier": 50, "starts": 360 },
-      { "monster": "mon_dkz_emissary_plague", "freq": 2, "cost_multiplier": 50, "starts": 720 },
-      { "monster": "mon_dkz_emissary_flame", "freq": 2, "cost_multiplier": 50, "starts": 600 },
-      { "monster": "mon_dkz_emissary_war", "freq": 1, "cost_multiplier": 50, "starts": 600 }
+      { "monster": "dkz_xenoid_pyro", "freq": 10, "cost_multiplier": 0, "starts": 256 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_XENOID_EMISSARY",
+    "default": "dkz_xenoid_knight",
+    "monsters": [
+      { "monster": "mon_dkz_emissary", "freq": 60, "cost_multiplier": 50, "starts": 360 },
+      { "monster": "mon_dkz_emissary_plague", "freq": 25, "cost_multiplier": 50, "starts": 720 },
+      { "monster": "mon_dkz_emissary_flame", "freq": 20, "cost_multiplier": 50, "starts": 600 },
+      { "monster": "mon_dkz_emissary_war", "freq": 5, "cost_multiplier": 50, "starts": 600 }
     ]
   },
   {
