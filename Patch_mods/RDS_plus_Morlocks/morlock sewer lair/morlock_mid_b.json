@@ -1,7 +1,7 @@
 [
   {
-    "type" : "mapgen",
-    "om_terrain" : ["morlock_lair_mid_b"],
+    "type": "mapgen",
+    "om_terrain": [ "morlock_lair_mid_b" ],
     "method": "json",
     "weight": 800,
     "object": {
@@ -32,17 +32,17 @@
         "######  ##~~~~~~########",
         "######  ################"
       ],
-      "rotation": [0,3],
+      "rotation": [ 0, 3 ],
       "palettes": [ "morlock_lair" ],
       "place_nested": [
         { "chunks": [ "morlock_lair_mid_ring_a" ], "x": 0, "y": 0 },
-        { "chunks":  [  "morlock_lair_mid_core_a"], "x": 0, "y": 0 }
+        { "chunks": [ "morlock_lair_mid_core_a" ], "x": 0, "y": 0 }
       ]
     }
   },
   {
-    "type" : "mapgen",
-    "om_terrain" : ["morlock_lair_mid_b"],
+    "type": "mapgen",
+    "om_terrain": [ "morlock_lair_mid_b" ],
     "method": "json",
     "weight": 100,
     "object": {
@@ -73,17 +73,17 @@
         "######   ###############",
         "######  ################"
       ],
-      "rotation": [0,3],
+      "rotation": [ 0, 3 ],
       "palettes": [ "morlock_lair" ],
       "place_nested": [
         { "chunks": [ "morlock_lair_mid_ring_a" ], "x": 0, "y": 0 },
-        { "chunks":  [ "morlock_lair_mid_core_a" ], "x": 0, "y": 0 }
+        { "chunks": [ "morlock_lair_mid_core_a" ], "x": 0, "y": 0 }
       ]
     }
   },
   {
-    "type" : "mapgen",
-    "om_terrain" : ["morlock_lair_mid_b"],
+    "type": "mapgen",
+    "om_terrain": [ "morlock_lair_mid_b" ],
     "method": "json",
     "weight": 100,
     "object": {
@@ -114,18 +114,17 @@
         "#####   ################",
         "######  ################"
       ],
-      "rotation": [0,3],
+      "rotation": [ 0, 3 ],
       "palettes": [ "morlock_lair" ],
       "place_nested": [
         { "chunks": [ "morlock_lair_mid_ring_a" ], "x": 0, "y": 0 },
-        { "chunks":  [ "morlock_lair_mid_core_a"], "x": 0, "y": 0 }
+        { "chunks": [ "morlock_lair_mid_core_a" ], "x": 0, "y": 0 }
       ]
     }
   },
-  
   {
-    "type" : "mapgen",
-    "om_terrain" : ["morlock_lair_mid_b"],
+    "type": "mapgen",
+    "om_terrain": [ "morlock_lair_mid_b" ],
     "method": "json",
     "weight": 1000,
     "object": {
@@ -156,18 +155,18 @@
         "#####,   ##,,,,#########",
         "######  ################"
       ],
-      "rotation": [0,3],
+      "rotation": [ 0, 3 ],
       "palettes": [ "morlock_lair" ],
-      "terrain":{ ",": "t_dirt" },
+      "terrain": { ",": "t_dirt" },
       "place_nested": [
         { "chunks": [ "morlock_lair_mid_ring_a" ], "x": 0, "y": 0 },
-        { "chunks":  ["morlock_lair_mid_core_a"], "x": 0, "y": 0 }
+        { "chunks": [ "morlock_lair_mid_core_a" ], "x": 0, "y": 0 }
       ]
     }
   },
   {
-    "type" : "mapgen",
-    "om_terrain" : ["morlock_lair_mid_b"],
+    "type": "mapgen",
+    "om_terrain": [ "morlock_lair_mid_b" ],
     "method": "json",
     "weight": 100,
     "object": {
@@ -198,18 +197,18 @@
         "########################",
         "######  ################"
       ],
-      "rotation": [0,3],
+      "rotation": [ 0, 3 ],
       "palettes": [ "morlock_lair" ],
-      "terrain":{ ",": "t_dirt" },
+      "terrain": { ",": "t_dirt" },
       "place_nested": [
         { "chunks": [ "morlock_lair_mid_ring_a" ], "x": 0, "y": 0 },
-        { "chunks":  [ "morlock_lair_mid_core_a" ], "x": 0, "y": 0 }
+        { "chunks": [ "morlock_lair_mid_core_a" ], "x": 0, "y": 0 }
       ]
     }
   },
   {
-    "type" : "mapgen",
-    "om_terrain" : ["morlock_lair_mid_b"],
+    "type": "mapgen",
+    "om_terrain": [ "morlock_lair_mid_b" ],
     "method": "json",
     "weight": 100,
     "object": {
@@ -240,17 +239,17 @@
         "######  ################",
         "######  ################"
       ],
-      "rotation": [0,3],
+      "rotation": [ 0, 3 ],
       "palettes": [ "morlock_lair" ],
       "place_nested": [
         { "chunks": [ "morlock_lair_mid_ring_a" ], "x": 0, "y": 0 },
-        { "chunks":  [ "morlock_lair_mid_core_a" ], "x": 0, "y": 0 }
+        { "chunks": [ "morlock_lair_mid_core_a" ], "x": 0, "y": 0 }
       ]
     }
   },
   {
-    "type" : "mapgen",
-    "om_terrain" : ["morlock_lair_mid_b"],
+    "type": "mapgen",
+    "om_terrain": [ "morlock_lair_mid_b" ],
     "method": "json",
     "weight": 100,
     "object": {
@@ -281,11 +280,11 @@
         "##.##...################",
         "##......################"
       ],
-      "rotation": [0,3],
+      "rotation": [ 0, 3 ],
       "palettes": [ "morlock_lair" ],
       "place_nested": [
         { "chunks": [ "morlock_lair_mid_ring_a" ], "x": 0, "y": 0 },
-        { "chunks":  ["morlock_lair_mid_core_a"], "x": 0, "y": 0 }
+        { "chunks": [ "morlock_lair_mid_core_a" ], "x": 0, "y": 0 }
       ]
     }
   }

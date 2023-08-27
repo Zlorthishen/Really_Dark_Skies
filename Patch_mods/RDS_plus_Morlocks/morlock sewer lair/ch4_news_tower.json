@@ -29,9 +29,9 @@
         "~z'#________,____,____,'',____,____,________#'z~",
         "~z'#________,____,____,'',____,____,________#'z~",
         "~z'#________#######Ź#HHGGHH#Ź#######________#'z~",
-        "~z'#________#'R<#```#''''''#```#'R<#________#'z~",
+        "~z'#________#'R†#```#''''''#```#'R†#________#'z~",
         "~z'Ź___,,___#'R'#```!''''''!```#'R'#___,,___Ź'z~",
-        "~zZ#__,,,,__#'''#```!''''''!```#'''#___,,___#'z~",
+        "~zZ#__,,,,__#'R'#```!''''''!```#'R'#___,,___#'z~",
         "~~~#___,,___#'''#``{#''''''#``{#'''#__,,,,__#'z~",
         "~~~#___,,___##+######HHGGHH######+##___,,___#'z~",
         "~~~#________________________________________#'z~",
@@ -58,6 +58,7 @@
       ],
       "palettes": [ "morlock_office_palette" ],
       "terrain": {
+        "†": "t_wood_stairs_up_broken",
         "Ź": "t_metal_ventilation_shutter",
         "±": "t_gates_mech_control",
         "°": "t_pit_shallow",
@@ -65,9 +66,8 @@
         "Z": "t_sewage_pump"
       },
       "place_monsters": [
-        { "monster": "GROUP_XENOID_SQUAD", "x": [ 9, 17 ], "y": [ 9, 17 ], "density": 0.07 }
+        { "monster": "GROUP_XENOID_SQUAD", "x": [ 9, 17 ], "y": [ 9, 17 ], "density": 0.11 }
       ],
-
       "place_vehicles": [
         { "vehicle": "car", "x": 8, "y": 6, "rotation": 90, "chance": 15, "fuel": 0, "status": -1 },
         { "vehicle": "car", "x": 14, "y": 6, "rotation": 90, "chance": 15, "fuel": 0, "status": -1 },
@@ -82,6 +82,55 @@
         { "vehicle": "car", "x": 33, "y": 39, "rotation": 270, "chance": 15, "fuel": 0, "status": -1 },
         { "vehicle": "car", "x": 40, "y": 40, "rotation": 90, "chance": 15 },
         { "vehicle": "beetle", "x": 28, "y": 40, "rotation": 270, "chance": 15, "fuel": 0, "status": -1 }
+      ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ [ "ch4_news_garage_down_0", "ch4_news_garage_down_1" ] ],
+    "weight": 250,
+    "object": {
+      "fill_ter": "t_thconc_floor",
+      "rows": [
+        "|||||||||||||||||||||||||||||||||||||||||||||||#",
+        "|EEEEEEE!       ''''''''''''''''''''''''''|@@@|#",
+        "|EEEEEEE!       ''''''''''''''''''''''''''|@@@|#",
+        "|EEEEEEE!       -    -    -    -    -    -f'''|#",
+        "|EEEEEEE!       -    -    -    -    -    -f'''|#",
+        "|EEEEEEE!       -    -    -    -    -    -g''&|#",
+        ";EEEEEEE!       -    -    -    -    -    -f''&|#",
+        ";|||||x||x'     -    -    -    -    -    -f&''|#",
+        ";|'<'|||'''                               |'''|#",
+        ";|'''''''''                               |DDD|#",
+        ";|'''''''''                               |DDD|;",
+        ";|'''''''''                               |##g|;",
+        ";|'''''''''                               |##;;;",
+        ";|'''''''''                               |#####",
+        ";|'''|||'''                               |#####",
+        ";|||||x||x'     -    -    -    -    -    -|#####",
+        ";EEEEEEE!       -    -    -    -    -    -|#####",
+        "|EEEEEEE!       -    -    -    -    -    -|#####",
+        "|EEEEEEE!       -    -    -    -    -    -|#####",
+        "|EEEEEEE!       -    -    -    -    -    -|#####",
+        "|EEEEEEE!       ''''''''''''''''''''''''''|#####",
+        "|EEEEEEE!       ''''''''''''''''''''''''''|#####",
+        "|||||||||||||||||||||||||||||||||||||||||||#####",
+        "################################################"
+      ],
+      "palettes": [ "parking_palette" ],
+      "place_monsters": [
+        { "monster": "GROUP_XENOID_BOSS", "x": [ 9, 17 ], "y": [ 9, 17 ], "density": 0.07 }
+      ],	  
+      "place_vehicles": [
+        { "vehicle": "parking_garage", "x": 18, "y": 4, "chance": 50, "status": 0, "rotation": 270 },
+        { "vehicle": "parking_garage", "x": 28, "y": 4, "chance": 50, "status": 0, "rotation": 270 },
+        { "vehicle": "parking_garage", "x": 33, "y": 4, "chance": 50, "status": 0, "rotation": 270 },
+        { "vehicle": "parking_garage", "x": 38, "y": 4, "chance": 50, "status": 0, "rotation": 270 },
+        { "vehicle": "parking_garage", "x": 19, "y": 18, "chance": 50, "status": 0, "rotation": 90 },
+        { "vehicle": "parking_garage", "x": 29, "y": 18, "chance": 50, "status": 0, "rotation": 90 },
+        { "vehicle": "parking_garage", "x": 34, "y": 18, "chance": 50, "status": 0, "rotation": 90 },
+        { "vehicle": "parking_garage", "x": 39, "y": 18, "chance": 50, "status": 0, "rotation": 90 }
       ]
     }
   },
@@ -608,11 +657,11 @@
         "///2zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz4///",
         "///2zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz4///",
         "///2zzzzzzzz|---|-Ź-|zzzzzz|-Ź-|---|zzzzzzzz4///",
-        "///2zzzzzzzz|>R'|XXX|zzzzzz|ńńń|>R'|zzzzzzzz4///",
-        "///2zzzzzzzz|'R'|XXX|zzzzzz|'''|'R'|zzzzzzzz4///",
-        "///2zzzzzzzz|'''|x'N|zzzzzz|''N|'''|zzzzzzzz4///",
-        "///2zzzzzzzz|'''|}'ń|zzzzzz|}'N|'''|zzzzzzzz4///",
-        "///2zzzzzzzz|-=-|-!-|zzzzzz|-!-|-=-|zzzzzzzz4///",
+        "///2zzzzzzzz|>R'|ńXX|zzzzzz|ńńń|>R'|zzzzzzzz4///",
+        "///2zzzzzzzz|'R'|'XX|zzzzzz|'''|'R'|zzzzzzzz4///",
+        "///2zzzzzzzz|'''|'XX|zzzzzz|''N|'''|zzzzzzzz4///",
+        "///2zzzzzzzz|'''|}'N|zzzzzz|}'N|'''|zzzzzzzz4///",
+        "///2zzzzzzzz|-+-|-!-|zzzzzz|-!-|-=-|zzzzzzzz4///",
         "///2zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz4///",
         "///2zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz4///",
         "///2zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz4///",
@@ -638,7 +687,8 @@
       "palettes": [ "morlock_office_palette" ],
       "terrain": { "Ź": "t_metal_ventilation_shutter" },
       "place_nested": [
-        { "chunks": [ "roof_16x16_help" ], "x": [ 4, 8 ], "y": [ 32, 38 ] },
+        { "chunks": [ "roof_16x16_help" ], "x": [ 7, 8 ], "y": [ 32, 38 ] },
+        { "chunks": [ "roof_16x16_help" ], "x": [ 7, 8 ], "y": [ 7, 8 ] },
         {
           "chunks": [
             [ "roof_4x4_utility_1", 20 ],
@@ -702,7 +752,7 @@
         "////////////47z6z6z72//////4zzzzzzz2////////////",
         "////////////4zzz7zzz2//////4z××z××z2////////////",
         "////////////4zzz7zzz2//////4z××z××z2////////////",
-        "////////////67z6z6z72//////4zzzzzzz2////////////",
+        "////////////47z6z6z72//////4zzzzzzz2////////////",
         "////////////533333333//////333333335////////////",
         "////////////////////////////////////////////////",
         "////////////////////////////////////////////////",

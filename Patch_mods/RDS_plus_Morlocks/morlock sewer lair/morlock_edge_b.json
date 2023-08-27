@@ -40,7 +40,7 @@
     "type": "mapgen",
     "om_terrain": [ "morlock_lair_edge_b" ],
     "method": "json",
-    "weight": 1000000,
+    "weight": 100,
     "object": {
       "fill_ter": "t_rock_floor",
       "rows": [

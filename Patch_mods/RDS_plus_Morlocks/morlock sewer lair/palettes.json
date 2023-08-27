@@ -91,7 +91,7 @@
     "mapping": {
       "H": { "furniture": "f_brazier", "item": { "item": "log", "amount": [ 1, 3 ] }, "fields": { "field": "fd_fire" } },
       "N": { "furniture": "f_fireplace", "item": { "item": "log", "amount": [ 1, 3 ] }, "fields": { "field": "fd_fire" } },
-      "¶": { "furniture": "f_55gal_firebarrel", "item": { "item": "log", "amount": [ 1, 3 ] }, "fields": { "field": "fd_fire" } }
+      "¶": { "furniture": "f_55gal_firebarrel", "item": { "item": "weeks_old_newspaper", "amount": [ 50, 70 ] }, "fields": { "field": "fd_fire" } }
     },
     "npcs": {
       "@": { "class": "DKZ_MAQUIS_GUARD" },
