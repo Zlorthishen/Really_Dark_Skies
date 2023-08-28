@@ -5,15 +5,14 @@
     "name": "Parking Garage Underground",
     "looks_like": "parking_garage_down_0",
     "copy-from": "parking_garage_down_0"
-  },  
-    {
+  },
+  {
     "type": "overmap_terrain",
     "id": "ch4_news_garage_down_1",
     "name": "Parking Garage Underground",
     "looks_like": "parking_garage_down_1",
     "copy-from": "parking_garage_down_1"
-  },  
-
+  },
   {
     "type": "overmap_terrain",
     "id": "ch4_news_tower_1",
@@ -168,7 +167,7 @@
     "sym": "M",
     "mondensity": 0,
     "color": "i_light_green",
-    "see_cost": 10,
+    "see_cost": 2,
     "flags": [ "SOURCE_PEOPLE" ]
   },
   {
@@ -178,7 +177,7 @@
     "sym": "M",
     "mondensity": 0,
     "color": "i_light_green",
-    "see_cost": 10,
+    "see_cost": 2,
     "flags": [ "SOURCE_PEOPLE" ]
   },
   {
@@ -188,7 +187,7 @@
     "sym": "M",
     "mondensity": 0,
     "color": "i_light_blue",
-    "see_cost": 10,
+    "see_cost": 2,
     "flags": [ "SOURCE_PEOPLE" ]
   },
   {
@@ -198,7 +197,7 @@
     "sym": "M",
     "mondensity": 0,
     "color": "i_light_blue",
-    "see_cost": 10,
+    "see_cost": 2,
     "flags": [ "SOURCE_PEOPLE" ]
   },
   {
@@ -208,9 +207,9 @@
     "sym": "M",
     "mondensity": 0,
     "color": "i_light_blue",
-    "see_cost": 10,
+    "see_cost": 2,
     "flags": [ "SOURCE_PEOPLE" ]
-  },  
+  },
   {
     "type": "overmap_terrain",
     "id": "morlock_lair_mid_f",
@@ -218,9 +217,9 @@
     "sym": "M",
     "mondensity": 0,
     "color": "i_light_blue",
-    "see_cost": 10,
+    "see_cost": 2,
     "flags": [ "SOURCE_PEOPLE" ]
-  },  
+  },
   {
     "type": "overmap_terrain",
     "id": "morlock_lair_mid_g",
@@ -228,9 +227,9 @@
     "sym": "M",
     "mondensity": 0,
     "color": "i_light_blue",
-    "see_cost": 10,
+    "see_cost": 2,
     "flags": [ "SOURCE_PEOPLE" ]
-  },  
+  },
   {
     "type": "overmap_terrain",
     "id": "morlock_lair_mid_h",
@@ -238,7 +237,7 @@
     "sym": "M",
     "mondensity": 0,
     "color": "i_light_blue",
-    "see_cost": 10,
+    "see_cost": 2,
     "flags": [ "SOURCE_PEOPLE" ]
   },
   {
@@ -248,7 +247,7 @@
     "sym": "M",
     "mondensity": 0,
     "color": "i_light_blue",
-    "see_cost": 10,
+    "see_cost": 2,
     "flags": [ "SOURCE_PEOPLE" ]
   },
   {
@@ -258,7 +257,7 @@
     "sym": "M",
     "mondensity": 0,
     "color": "i_light_blue",
-    "see_cost": 10,
+    "see_cost": 2,
     "flags": [ "SOURCE_PEOPLE" ]
   },
   {
@@ -268,7 +267,7 @@
     "sym": "M",
     "mondensity": 0,
     "color": "i_light_blue",
-    "see_cost": 10,
+    "see_cost": 2,
     "flags": [ "SOURCE_PEOPLE" ]
   },
   {
@@ -278,7 +277,7 @@
     "sym": "M",
     "mondensity": 0,
     "color": "i_light_green",
-    "see_cost": 10,
+    "see_cost": 2,
     "flags": [ "SOURCE_PEOPLE" ]
   },
   {
@@ -288,17 +287,7 @@
     "sym": "M",
     "mondensity": 0,
     "color": "i_light_green",
-    "see_cost": 10,
-    "flags": [ "SOURCE_PEOPLE" ]
-  },
-  {
-    "type": "overmap_terrain",
-    "id": "morlock_lair_subway_station",
-    "name": "Morlock Secret Subway Station",
-    "sym": "M",
-    "mondensity": 0,
-    "color": "i_light_blue",
-    "see_cost": 10,
+    "see_cost": 2,
     "flags": [ "SOURCE_PEOPLE" ]
   },
   {
@@ -308,7 +297,7 @@
     "sym": "M",
     "mondensity": 0,
     "color": "i_light_green",
-    "see_cost": 10,
+    "see_cost": 2,
     "flags": [ "SOURCE_PEOPLE" ]
   },
   {
@@ -318,7 +307,7 @@
     "sym": "M",
     "mondensity": 0,
     "color": "i_light_green",
-    "see_cost": 10,
+    "see_cost": 2,
     "flags": [ "SOURCE_PEOPLE" ]
   },
   {
@@ -328,7 +317,7 @@
     "sym": "M",
     "mondensity": 0,
     "color": "i_light_green",
-    "see_cost": 10,
+    "see_cost": 2,
     "flags": [ "SOURCE_PEOPLE" ]
   },
   {
