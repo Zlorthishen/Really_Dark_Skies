@@ -1,7 +1,7 @@
 [
   {
     "type" : "mapgen",
-    "om_terrain" : ["morlock_lair_edge_c"],
+    "om_terrain" : ["morlock_lair_subway_station"],
     "method": "json",
     "weight": 1000,
     "object": {
@@ -38,7 +38,7 @@
   },
   {
     "type" : "mapgen",
-    "om_terrain" : ["morlock_lair_edge_c"],
+    "om_terrain" : ["morlock_lair_subway_station"],
     "method": "json",
     "weight": 1000,
     "object": {
@@ -75,7 +75,7 @@
   },
   {
     "type" : "mapgen",
-    "om_terrain" : ["morlock_lair_edge_c "],
+    "om_terrain" : ["morlock_lair_subway_station "],
     "method": "json",
     "weight": 1000,
     "object": {

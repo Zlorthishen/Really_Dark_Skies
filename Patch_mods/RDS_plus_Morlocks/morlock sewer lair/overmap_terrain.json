@@ -254,7 +254,7 @@
   {
     "type": "overmap_terrain",
     "id": "morlock_lair_mid_j",
-    "name": "Morlock Barracks",
+    "name": "Morlock Hive Warren",
     "sym": "M",
     "mondensity": 0,
     "color": "i_light_blue",
@@ -293,7 +293,7 @@
   },
   {
     "type": "overmap_terrain",
-    "id": "morlock_lair_edge_c",
+    "id": "morlock_lair_subway_station",
     "name": "Morlock Secret Subway Station",
     "sym": "M",
     "mondensity": 0,

@@ -69,7 +69,7 @@
       "terrain": { " ": [ [ "t_rock_floor", 13 ], [ "t_dirt", 5 ] ] },
       "furniture": { "Ÿ": "f_tatami", "y": "f_tatami", "Y": "f_tatami" },
       "items": { "y": { "item": "DKZ_morlock_weapons", "chance": 29 }, "Y": { "item": "DKZ_morlock_weapons", "chance": 2 } },
-      "item": { "Ÿ": { "item": "torch_lit", "chance": 100 }, "y": { "item": "scabbard", "chance": 50 } },
+      "item": { "Ÿ": { "item": "torch", "chance": 100 }, "y": { "item": "scabbard", "chance": 50 } },
       "palettes": [ "morlock_lair" ]
     }
   }

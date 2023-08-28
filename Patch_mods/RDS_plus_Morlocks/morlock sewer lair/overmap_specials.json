@@ -259,7 +259,7 @@
       { "point": [ 0, 9, -2 ], "overmap": "morlock_lair_corner_a_west" },
       { "point": [ 1, 9, -2 ], "overmap": "morlock_lair_edge_a_south" },
       { "point": [ 2, 9, -2 ], "overmap": "morlock_lair_edge_b_south" },
-      { "point": [ 3, 9, -2 ], "overmap": "morlock_lair_edge_c_south" },
+      { "point": [ 3, 9, -2 ], "overmap": "morlock_lair_subway_station_south" },
       { "point": [ 4, 9, -2 ], "overmap": "morlock_lair_edge_b_south" },
       { "point": [ 5, 9, -2 ], "overmap": "morlock_lair_edge_a_south" },
       { "point": [ 6, 9, -2 ], "overmap": "morlock_lair_corner_a_south" },
@@ -330,10 +330,10 @@
       { "point": [ 6, 10, -1 ], "connection": "sewer_tunnel", "from": [ 6, 9, -1 ] },
       { "point": [ 7, 9, -1 ], "connection": "sewer_tunnel", "from": [ 6, 9, -1 ] }
     ],
-    "rotate": false,
+    "rotate": true,
     "locations": [ "land" ],
     "city_sizes": [ 11, 16 ],
-    "occurrences": [ 1, -1 ],
-    "flags": [ "GLOBALLY UNIQUE", "URBAN", "UNIQUE", "SAFE_AT_WORLDGEN", "ELECTRIC_GRID" ]
+    "occurrences": [ 0, -1 ],
+    "flags": [ "GLOBALLY UNIQUE", "URBAN", "UNIQUE", "ELECTRIC_GRID" ]
   }
 ]
