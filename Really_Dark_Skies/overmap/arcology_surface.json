@@ -2,7 +2,7 @@
   {
     "type": "mapgen",
     "method": "json",
-    "om_terrain": [ "arcology_outer_parking_entry" ],
+    "om_terrain": [ "racing_arcology_outer_parking_entry" ],
     "weight": 1,
     "object": {
       "fill_ter": "t_pavement",
@@ -43,7 +43,7 @@
   {
     "type": "mapgen",
     "method": "json",
-    "om_terrain": [ "arcology_outer_parking" ],
+    "om_terrain": [ "racing_arcology_outer_parking" ],
     "weight": 1,
     "object": {
       "fill_ter": "t_pavement",
@@ -84,7 +84,7 @@
   {
     "type": "mapgen",
     "method": "json",
-    "om_terrain": [ "arcology_outer_parking_corner" ],
+    "om_terrain": [ "racing_arcology_outer_parking_corner" ],
     "weight": 1,
     "object": {
       "fill_ter": "t_pavement",
@@ -124,7 +124,7 @@
   {
     "type": "mapgen",
     "method": "json",
-    "om_terrain": [ [ "arcology_parking_1", "arcology_parking_2", "arcology_parking_3", "arcology_parking_4", "arcology_parking_5" ] ],
+    "om_terrain": [ [ "racing_arcology_parking_1", "racing_arcology_parking_2", "racing_arcology_parking_3", "racing_arcology_parking_4", "racing_arcology_parking_5" ] ],
     "weight": 1,
     "object": {
       "fill_ter": "t_sidewalk",
