@@ -35,6 +35,7 @@
       ],
       "rotation": 0,
       "palettes": [ "morlock_lair" ],
+      "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],	 
       "place_terrain": [ 
         { "ter": "t_rock", "repeat": [ 5, 20 ], "x": [ 4, 20 ], "y": [ 4, 20 ] },
         { "ter": "t_dirt", "repeat": [ 5, 20 ], "x": [ 4, 20 ], "y": [ 4, 20 ] },

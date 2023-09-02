@@ -33,6 +33,7 @@
         "##~~##.,z#######...==..."
       ],
       "rotation": 0,
+      "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],	 	  
       "palettes": [ "morlock_lair" ],
       "terrain": { "○": "t_window_bars_alarm"  },
       "npcs": { "9": { "class": "DKZ_MAQUIS_GUARD" }, "5": { "class": "DKZ_MAQUIS_MERCHANT" } },

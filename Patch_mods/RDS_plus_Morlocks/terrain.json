@@ -7,8 +7,8 @@
     "symbol": "7",
     "color": [ "light_gray", "light_gray", "light_gray", "light_gray" ],
     "move_cost": 2,
-	"looks_like": "t_tree_mushroom",
-    "light_emitted": 25,	
+    "looks_like": "t_tree_mushroom",
+    "light_emitted": 25,
     "flags": [ "FLAMMABLE_ASH", "NOITEM", "REDUCE_SCENT" ],
     "bash": {
       "str_min": 40,
@@ -16,9 +16,7 @@
       "sound": "crunch!",
       "sound_fail": "whack!",
       "ter_set": "t_dirt",
-      "items": [ 
-       { "item": "veggy", "count": [ 10, 25 ] }, 
-       { "item": "withered", "count": [ 10, 25 ] } ]
+      "items": [ { "item": "veggy", "count": [ 10, 25 ] }, { "item": "withered", "count": [ 10, 25 ] } ]
     }
   },
   {
@@ -29,8 +27,8 @@
     "symbol": "7",
     "color": [ "light_gray", "light_gray", "light_gray", "light_gray" ],
     "move_cost": 2,
-	"looks_like": "t_tree_mushroom",
-    "light_emitted": 60,	
+    "looks_like": "t_tree_mushroom",
+    "light_emitted": 60,
     "flags": [ "FLAMMABLE_ASH", "NOITEM", "REDUCE_SCENT" ],
     "bash": {
       "str_min": 40,
@@ -38,13 +36,10 @@
       "sound": "crunch!",
       "sound_fail": "whack!",
       "ter_set": "t_dirt",
-      "items": [ 
-       { "item": "veggy", "count": [ 10, 25 ] }, 
-       { "item": "withered", "count": [ 10, 25 ] } ]
+      "items": [ { "item": "veggy", "count": [ 10, 25 ] }, { "item": "withered", "count": [ 10, 25 ] } ]
     }
   },
-
-{
+  {
     "type": "terrain",
     "id": "t_tree_mushroom",
     "name": "giant mushroom",
@@ -52,8 +47,7 @@
     "symbol": "7",
     "color": [ "light_gray", "light_gray", "light_gray", "light_gray" ],
     "move_cost": 2,
-
-    "light_emitted": 2,		
+    "light_emitted": 2,
     "flags": [ "FLAMMABLE_ASH", "NOITEM", "REDUCE_SCENT" ],
     "bash": {
       "str_min": 40,
@@ -61,11 +55,7 @@
       "sound": "crunch!",
       "sound_fail": "whack!",
       "ter_set": "t_dirt",
-      "items": [ 
-       { "item": "veggy", "count": [ 10, 25 ] }, 
-       { "item": "withered", "count": [ 10, 25 ] } ]
+      "items": [ { "item": "veggy", "count": [ 10, 25 ] }, { "item": "withered", "count": [ 10, 25 ] } ]
     }
-  }  
-  
-  
+  }
 ]

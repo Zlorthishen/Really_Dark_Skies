@@ -32,6 +32,8 @@
         "    |........6..........",
         "    |--|..*.....^......H"
       ],
+
+      "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],	  
       "rotation": [ 0 ],
       "palettes": [ "morlock_lair" ]
     }

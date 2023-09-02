@@ -33,6 +33,7 @@
         "...=############.,##=H.."
       ],
       "rotation": 0,
+      "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],	 
       "palettes": [ "morlock_lair" ]
     }
   },
@@ -70,6 +71,7 @@
         "...=############..##=H.."
       ],
       "rotation": 0,
+      "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],	 
       "palettes": [ "morlock_lair" ]
     }
   },
@@ -107,6 +109,7 @@
         "...=############..##=H.."
       ],
       "rotation": 0,
+      "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],	 
       "palettes": [ "morlock_lair" ]
     }
   }
