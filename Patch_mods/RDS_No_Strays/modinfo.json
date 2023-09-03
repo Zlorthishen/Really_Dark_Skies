@@ -1,0 +1,49 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "realdarkskies_no_strays",
+    "name": "<color_light_blue>Really Dark Skies</color> without the Biocrystal type zombies",
+    "authors": [ "Zlorthishen" ],
+    "description": "A patchmod for <color_light_blue>Really Dark Skies</color> which removes the biocrystal zombies, known as 'Strays'",
+    "category": "misc_additions",
+    "version": "BN version 1d41422, update 9/3/2023",
+    "dependencies": [ "bn", "realdarkskies" ]
+  },
+  {
+    "type": "MONSTER_BLACKLIST",
+    "monsters": [
+      "dkz_mon_stray",
+      "dkz_mon_stray",
+      "dkz_mon_stray_soldier",
+      "dkz_mon_stray_fireman",
+      "dkz_mon_stray_big",
+      "dkz_mon_stray_eater",
+      "dkz_mon_stray_tender",
+      "dkz_mon_stray_crackle",
+      "dkz_mon_stray_electric",
+      "dkz_mon_stray_fast",
+      "dkz_mon_stray_prowler",
+      "dkz_mon_stray_predator",
+      "dkz_mon_stray_heavy",
+      "dkz_mon_stray_goliath",
+      "dkz_mon_stray_titan",
+      "dkz_mon_stray_titan",
+      "dkz_mon_stray_child",
+      "dkz_mon_stray_creepler",
+      "dkz_mon_stray_wretch",
+      "dkz_mon_stray_wretch_tough",
+      "dkz_mon_stray_wretch_tendrils",
+      "dkz_mon_stray_wretch_elec",
+      "dkz_mon_stray_wretchmother",
+      "dkz_mon_crystal_baby",
+      "dkz_mon_crystal_sprout",
+      "dkz_mon_crystal_shriek",
+      "dkz_mon_crystal_whip",
+      "dkz_mon_crystal_zap",
+      "dkz_mon_crystal_wall",
+      "dkz_mon_crystal_hive",
+      "dkz_mon_crystal_mite",
+      "dkz_mon_crystal_mite_fat"
+    ]
+  }
+]

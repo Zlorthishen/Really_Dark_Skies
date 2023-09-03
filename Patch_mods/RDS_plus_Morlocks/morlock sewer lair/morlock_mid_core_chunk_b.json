@@ -189,45 +189,6 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "morlock_lair_mid_core_b",
-    "weight": 500,
-    "object": {
-      "mapgensize": [ 24, 24 ],
-      "rotation": [ 0, 3 ],
-      "rows": [
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "      ............      ",
-        "      ^.---------.      ",
-        "      ..-..Cxxxx-.      ",
-        "      ..+..Cc..x-.      ",
-        "      .#-..C2..x-.      ",
-        "      .#------+--.      ",
-        "       #-XXXX..s-       ",
-        "        -.......-       ",
-        "        -.2....H-       ",
-        "        -CCrLrCC-       ",
-        "        ---------       ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        "
-      ],
-      "palettes": [ "morlock_lair" ],
-      "item": { "X": { "item": "meat", "chance": 50, "amount": [ 5, 10 ] } },
-      "items": { "L": { "item": "butcher_fullkit", "chance": 85 } }
-    }
-  },
-  {
-    "type": "mapgen",
-    "method": "json",
-    "nested_mapgen_id": "morlock_lair_mid_core_b",
     "weight": 800,	
     "object": {	
       "mapgensize": [ 24, 24 ],
@@ -260,47 +221,6 @@
       ],
       "palettes": [ "morlock_lair" ],
       "terrain":{ "¦": "t_drystone_wall","4": "t_dirt","z": "t_tree_mushroom_glow",  "Z": "t_tree_mushroom_bright" } 
-    }
-  },
-  {
-    "type": "mapgen",
-    "method": "json",
-    "nested_mapgen_id": "morlock_lair_mid_core_b",
-    "weight": 700,
-    "object": {
-      "mapgensize": [ 24, 24 ],
-      "rotation": [ 0, 3 ],
-      "rows": [
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "       ..........       ",
-        "      ..---++---..      ",
-        "      .--xx..xx--.      ",
-        "      .-y......T-.      ",
-        "      .-y......T-.      ",
-        "      .-y......T-.      ",
-        "      .-....1...-.      ",
-        "       -........-       ",
-        "       -........-       ",
-        "       --NCZYLN--       ",
-        "        --------        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        "
-      ],
-      "palettes": [ "morlock_lair" ],
-      "terrain": { "y": "t_rock_floor", "Y": "t_rock_floor", "Z": "t_rock_floor" },
-      "furniture": { "y": "f_kiln_metal_empty", "Y": "f_forge", "Z": "f_anvil" },
-      "item": { "x": { "item": "steel_lump", "chance": 75, "amount": [ 10, 20 ] } },
-      "items": { "L": { "item": "blacksmith_fullkit", "chance": 80 } }
     }
   },
   {
