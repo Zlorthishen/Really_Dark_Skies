@@ -91,8 +91,8 @@
         "                        ",
         "          ----          ",
         "        ---DD---        ",
-        "       --H..2.H-        ",
-        "       -...1...--       ",
+        "       --H....H-        ",
+        "       -.......--       ",
         "       -nnn..nnn-       ",
         "       -........-       ",
         "       -nnn..nnn-       ",
@@ -134,7 +134,7 @@
         "        -.cTT-----      ",
         "       .------BB-       ",
         "       ...-d....-       ",
-        "        ..+.1.c.-       ",
+        "        ..+...c.-       ",
         "         .-..TTT-       ",
         "         .-------       ",
         "                        ",
@@ -222,46 +222,6 @@
       "palettes": [ "morlock_lair" ],
       "item": { "X": { "item": "meat", "chance": 50, "amount": [ 5, 10 ] } },
       "items": { "L": { "item": "butcher_fullkit", "chance": 85 } }
-    }
-  },
-  {
-    "type": "mapgen",
-    "method": "json",
-    "nested_mapgen_id": "morlock_lair_mid_core_b",
-    "weight": 500,
-    "object": {
-      "mapgensize": [ 24, 24 ],
-      "rotation": [ 0, 3 ],
-      "rows": [
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "      . ..^..^....      ",
-        "      .▫▫▫▫++▫▫▫▫.      ",
-        "      .▫bbb..bbb▫.      ",
-        "      .▫b......b▫.      ",
-        "      .▫b.bbbb.b▫.      ",
-        "      .▫bbb3Dbb.▫.      ",
-        "      .▫b....b..▫.      ",
-        "      .▫b.bbbb.b▫.      ",
-        "      .▫b..b..b.▫.      ",
-        "      .▫bbb.bb.b▫.      ",
-        "      .▫▫▫▫▫▫▫▫▫▫.      ",
-        "      ............      ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        ",
-        "                        "
-      ],
-      "palettes": [ "morlock_lair" ],
-
-      "terrain": { "▫": "t_wall_wood" },	  
-      "items": { "b": { "item": "brainy_books", "chance": 33 } }
     }
   },
   {

@@ -263,7 +263,17 @@
   {
     "type": "overmap_terrain",
     "id": "morlock_lair_mid_k",
-    "name": "Morlock Barracks",
+    "name": "Morlock Old Barracks",
+    "sym": "M",
+    "mondensity": 0,
+    "color": "i_light_blue",
+    "see_cost": 2,
+    "flags": [ "SOURCE_PEOPLE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "morlock_lair_mid_l",
+    "name": "Morlock Used Book Store",
     "sym": "M",
     "mondensity": 0,
     "color": "i_light_blue",
@@ -284,6 +294,16 @@
     "type": "overmap_terrain",
     "id": "morlock_lair_edge_b",
     "name": "Morlock Lair Remains",
+    "sym": "M",
+    "mondensity": 0,
+    "color": "i_light_green",
+    "see_cost": 2,
+    "flags": [ "SOURCE_PEOPLE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "morlock_lair_edge_c",
+    "name": "Morlock Lair Ruins",
     "sym": "M",
     "mondensity": 0,
     "color": "i_light_green",

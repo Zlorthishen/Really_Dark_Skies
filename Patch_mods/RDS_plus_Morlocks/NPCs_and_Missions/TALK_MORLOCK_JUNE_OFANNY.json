@@ -13,10 +13,33 @@
         "condition": {
           "and": [
             { "npc_has_var": "temporal_follower", "type": "general", "context": "maquis", "value": "yes" },
+            { "not": { "u_has_mission": "DKZ_MORLOCK_RESCUE_JUNE_OFANNY" } },
             { "not": { "u_has_var": "u_saved_June_OFanny", "type": "general", "context": "maquis", "value": "yes" } }
           ]
         },
         "topic": "TALK_COMBAT_COMMANDS"
+      },
+      {
+        "text": "Stay here until I come back.",
+        "condition": {
+          "and": [
+            { "npc_has_var": "temporal_follower", "type": "general", "context": "maquis", "value": "yes" },
+            { "not": { "u_has_mission": "DKZ_MORLOCK_RESCUE_JUNE_OFANNY" } },
+            { "not": { "u_has_var": "u_saved_June_OFanny", "type": "general", "context": "maquis", "value": "yes" } }
+          ]
+        },
+        "topic": "TALK_MORLOCK_JUNE_OFANNY_STAY_PUT"
+      },
+      {
+        "text": "Come with me.",
+        "condition": {
+          "and": [
+            { "not": { "npc_has_var": "temporal_follower", "type": "general", "context": "maquis", "value": "yes" } },
+            { "not": { "u_has_mission": "DKZ_MORLOCK_RESCUE_JUNE_OFANNY" } },
+            { "not": { "u_has_var": "u_saved_June_OFanny", "type": "general", "context": "maquis", "value": "yes" } }
+          ]
+        },
+        "topic": "TALK_MORLOCK_JUNE_OFANNY_FOLLOW"
       },
       {
         "text": "[MISSION] I'm here to rescue you",
@@ -43,6 +66,20 @@
       { "text": "About that mission…", "topic": "TALK_MISSION_INQUIRE", "condition": "has_assigned_mission" },
       { "text": "See you later.", "topic": "TALK_DONE" }
     ]
+  },
+  {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
+    "id": "TALK_MORLOCK_JUNE_OFANNY_STAY_PUT",
+    "type": "talk_topic",
+    "dynamic_line": [ "Please come back!" ],
+    "responses": [ { "text": "Stay here.", "effect": [ "stop_following" ], "topic": "TALK_DONE" } ]
+  },
+  {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
+    "id": "TALK_MORLOCK_JUNE_OFANNY_FOLLOW",
+    "type": "talk_topic",
+    "dynamic_line": [ "Alright I'm following you." ],
+    "responses": [ { "text": "Lets get going.", "effect": [ "follow_only" ], "topic": "TALK_DONE" } ]
   },
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
