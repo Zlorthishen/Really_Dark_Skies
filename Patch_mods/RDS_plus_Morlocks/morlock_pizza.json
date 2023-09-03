@@ -3,12 +3,12 @@
     "id": "cookbook_morlock_pizza",
     "type": "BOOK",
     "name": "morlock cookbook",
-    "description": "A hand written notebook full of nightmarish Morlock pizza recipes, such as peanut butter and clam, chocolate and clam, sausage and marshmellow, and others.",
-    "weight": 1887,
-    "volume": "1250 ml",
+    "description": "A small scrap of paper full of nightmarish Morlock pizza recipes, such as peanut butter and clam pizza, chocolate and clam pizza, sausage and marshmallow pizza, or even pineapple pizza.  Apparently the secret ingredient is to not use clean water.",
+    "weight": 137,
+    "volume": "750 ml",
     "price": 900,
     "bashing": 5,
-    "material": [ "paper", "leather" ],
+    "material": [ "paper" ],
     "symbol": "?",
     "color": "light_gray",
     "skill": "cooking",
@@ -101,7 +101,7 @@
       [ [ "peanutbutter", 1 ], [ "peanutbutter_imitation", 1 ] ],
       [ [ "can_clam", 1 ] ],
       [ [ "sauce_red", 1 ], [ "seasoning_italian", 5 ], [ "wild_herbs", 10 ] ],
-      [ [ "water", 1 ], [ "water_clean", 1 ] ]
+      [ [ "water", 1 ] ]
     ]
   },
   {
@@ -121,7 +121,7 @@
       [ [ "peanutbutter", 1 ], [ "peanutbutter_imitation", 1 ] ],
       [ [ "can_clam", 1 ] ],
       [ [ "sauce_red", 1 ], [ "seasoning_italian", 5 ], [ "wild_herbs", 10 ] ],
-      [ [ "water", 1 ], [ "water_clean", 1 ] ]
+      [ [ "water", 1 ] ]
     ]
   },
   {
@@ -141,7 +141,7 @@
       [ [ "sausage_cooked", 1 ], [ "sausage_raw", 1 ], [ "sausage", 1 ], [ "sweet_sausage", 1 ] ],
       [ [ "marshmellow", 1 ] ],
       [ [ "sauce_red", 1 ], [ "seasoning_italian", 5 ], [ "wild_herbs", 10 ] ],
-      [ [ "water", 1 ], [ "water_clean", 1 ] ]
+      [ [ "water", 1 ] ]
     ]
   }
 ]
