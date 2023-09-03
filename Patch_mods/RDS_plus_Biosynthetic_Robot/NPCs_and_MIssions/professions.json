@@ -120,8 +120,7 @@
       { "level": 5, "name": "melee" }
     ],
     "items": {
-      "male": [ "boxer_shorts", "socks", "tux", "dress_shoes", "gloves_light" ],
-      "female": [ "panties", "bra", "stockings", "maid_dress", "maid_hat", "dress_shoes" ]
+      "both": [ "gkb_chi_powarmor" , "gkb_chi_powarmor_helmet"]
     }
   },
   {
@@ -162,8 +161,7 @@
       { "level": 5, "name": "melee" }
     ],
     "items": {
-      "male": [ "boxer_shorts", "socks", "tux", "dress_shoes", "gloves_light" ],
-      "female": [ "panties", "bra", "stockings", "maid_dress", "maid_hat", "dress_shoes" ]
+      "both": [ "gkb_chi_powarmor" , "gkb_chi_powarmor_helmet"]
     }
   }
 ]

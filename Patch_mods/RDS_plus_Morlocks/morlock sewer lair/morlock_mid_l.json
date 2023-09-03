@@ -82,7 +82,7 @@
       ],
       "palettes": [ "morlock_lair" ],
       "terrain": { "▫": "t_wall_wood" },	  
-      "items": { "b": { "item": "brainy_books", "chance": 33 } }
+      "items": { "b": { "item": "brainy_books", "chance": 40 },  "D": { "item": "atomic_lamp", "chance": 100 } }
     }
   }
 
