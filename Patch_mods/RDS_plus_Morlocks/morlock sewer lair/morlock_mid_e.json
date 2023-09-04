@@ -66,7 +66,7 @@
         "####z,,           ,z###-",
         "----,             ,,----"
       ],
-      "terrain": { " ": [ [ "t_rock_floor", 13 ], [ "t_dirt", 7 ] ] },
+      "terrain": { " ": [ [ "t_rock_floor", 11 ], [ "t_dirt", 3 ] ] },
       "furniture": { "Ÿ": "f_tatami", "y": "f_tatami", "Y": "f_tatami" },
       "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],	 	  
       "items": { "y": { "item": "DKZ_morlock_weapons", "chance": 29 }, "Y": { "item": "DKZ_morlock_weapons", "chance": 2 } },

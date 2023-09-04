@@ -6,14 +6,15 @@
     "name": { "str": "Escape from Channel 4." },
     "description": "Safely escort June O'Fanny out of the Channel 4 News building and down to the Morlock's Sewer Lair.",
     "goal": "MGOAL_GO_TO_TYPE",
-    "destination": "morlock_lair_mid_h",
+    "destination": "morlock_lair_mid_e",
     "difficulty": 1,
     "urgent": true,
     "deadline_low": 2,
     "deadline_high": 2,
     "value": 0,
+	"followup":"DKZ_SEWER_OVERFLOW",
     "start": {
-      "assign_mission_target": { "om_terrain": "morlock_lair_mid_h", "om_special": "morlock_lair", "reveal_radius": 5, "search_range": 22, "z": -2 }
+      "assign_mission_target": { "om_terrain": "morlock_lair_mid_e", "om_special": "morlock_lair", "reveal_radius": 5, "search_range": 22, "z": -2 }
     },
     "end": {
       "effect": [
