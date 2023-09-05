@@ -1,5 +1,23 @@
 [
   {
+    "type": "item_group",
+    "id": "DKZ_morlock_sushi_veg",
+    "items": [
+      [ "onigiri", 1 ],
+      [ "sushi_veggyroll", 1 ],
+      [ "tofu_fried", 1 ],
+      [ "tofu_stirfry", 1 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "DKZ_morlock_sushi_meat",
+    "items": [
+      [ "sushi_fishroll", 1 ],
+      [ "sushi_meatroll", 1 ]
+    ]
+  },
+  {
     "type": "mapgen",
     "om_terrain": [ "morlock_lair_mid_h" ],
     "method": "json",
@@ -34,7 +52,7 @@
       ],
       "rotation": [ 0, 3 ],
       "palettes": [ "morlock_lair" ],
-      "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],	 
+      "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],
       "place_nested": [
         { "chunks": [ "morlock_lair_mid_ring_b" ], "x": 0, "y": 0 },
         { "chunks": [ "morlock_lair_mid_core_h" ], "x": 0, "y": 0 }
@@ -76,7 +94,7 @@
       ],
       "rotation": [ 0, 3 ],
       "palettes": [ "morlock_lair" ],
-      "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],	 
+      "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],
       "place_nested": [
         { "chunks": [ "morlock_lair_mid_ring_b" ], "x": 0, "y": 0 },
         { "chunks": [ "morlock_lair_mid_core_h" ], "x": 0, "y": 0 }
@@ -89,6 +107,7 @@
     "nested_mapgen_id": "morlock_lair_mid_core_h",
     "weight": 500,
     "object": {
+      "faction_owner": [ { "id": "maquis", "x": [ 0, 15 ], "y": [ 0, 23 ] } ],
       "mapgensize": [ 24, 24 ],
       "rotation": [ 0, 3 ],
       "rows": [
@@ -99,15 +118,15 @@
         "                        ",
         "                        ",
         "      ▓▓▓▓▓▓▓▓▓▓▓       ",
-        "      ▓xxXCNrNsU▓       ",
-        "      ▓XX.C.@..U▓       ",
-        "      ▓..cCCCCCC▓       ",
-        "      ▓.cTT...c.▓       ",
+        "      ▓xxXCUrNŇŇ▓       ",
+        "      ▓XX.Ć.@..s▓       ",
+        "      ▓..1ĆCCĈCC▓       ",
+        "      ▓.cṮT...c.▓       ",
         "      ▓.cTT..TTc▓       ",
-        "      ▓..cc..TTc▓       ",
+        "      ▓..cc..ṮTc▓       ",
         "      ▓......c..▓       ",
-        "      ▓..*...*..▓       ",
-        "      ▓tnn...nnt▓       ",
+        "      ▓.*.´´´.*.▓       ",
+        "      ▓t..´´´..t▓       ",
         "      ▓▓▓▓+▓+▓▓▓▓       ",
         "      ...........       ",
         "                        ",
@@ -118,13 +137,23 @@
         "                        "
       ],
       "palettes": [ "morlock_lair" ],
-      "furniture": { "@": "f_stool" },
+	  "terrain": {"´": "t_carpet_red"},
+      "furniture": { "Ṯ": "f_table", "Ć": "f_counter", "Ĉ": "f_counter", "Ň": "f_fridge_on",  "@": "f_stool", "1": "f_chair" },
+      "items": {
+        "Ć": { "item": "DKZ_morlock_sushi_meat", "chance": 80, "repeat": [ 1, 2 ] },
+        "Ĉ": { "item": "DKZ_morlock_sushi_veg", "chance": 80, "repeat": [ 1, 2 ] },
+        "T": { "item": "dinnerware", "chance": 10, "repeat": [ 2, 3 ] }
+      },
       "item": {
-        "r": { "item": "sashimi", "chance": 25, "repeat": [ 5, 6 ] },
+        "Ć": { "item": "ceramic_plate", "chance": 100 },
+        "Ĉ": { "item": "ceramic_plate", "chance": 100 },
+        "Ṯ": { "item": "atomic_lamp", "chance": 100 },
+        "r": { "item": "sashimi", "chance": 75, "repeat": [ 1, 3 ] },
+        "U": { "item": "soysauce", "chance": 75, "repeat": [ 5, 7 ] },
+        "Ň": { "item": "sushi_rice", "chance": 75, "repeat": [ 5, 7 ] },
         "x": { "item": "dry_rice", "chance": 75, "amount": [ 20, 50 ] },
         "X": { "item": "dry_rice", "chance": 75, "amount": [ 1, 5 ] }
-      },
-      "items": { "T": { "item": "dinnerware", "chance": 20, "repeat": [ 2, 3 ] } }
+      }
     }
   }
 ]
