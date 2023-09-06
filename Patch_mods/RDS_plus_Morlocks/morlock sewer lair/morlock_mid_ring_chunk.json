@@ -78,7 +78,7 @@
   {
     "type": "mapgen",
     "method": "json",
-    "nested_mapgen_id": "morlock_lair_mid_ring_a",
+    "nested_mapgen_id": "morlock_lair_mid_ring_b",
     "object": {
       "mapgensize": [ 24, 24 ],
       "rotation": [0,3],
@@ -165,10 +165,10 @@
         "              ..   .....",
         "              ...  ...  ",
         "              .......   ",
-        "              .......   ",
+        "              .^..^..   ",
         "       ..............   ",
         "       ..............   ",
-        "       ..    ........   ",
+        "       ..    ..^..^..   ",
         "       ..     .......   ",
         "      ...      ....     ",
         ".........       ..      ",
@@ -258,7 +258,7 @@
   {
     "type": "mapgen",
     "method": "json",
-    "nested_mapgen_id": "morlock_lair_mid_ring_a",
+    "nested_mapgen_id": "morlock_lair_mid_ring_b",
     "object": {
       "mapgensize": [ 24, 24 ],
       "rotation": [0,3],
@@ -307,7 +307,7 @@
         "#=+=              .+...=",
         "....              .=====",
         "....              .=.BB=",
-        "  ..              .+.@d=",
+        "  ..              .+..d=",
         "  ..              .=====",
         "  ..              .=d.B=",
         " ...              .+..B=",
@@ -330,7 +330,7 @@
   {
     "type": "mapgen",
     "method": "json",
-    "nested_mapgen_id": "morlock_lair_mid_ring_a",
+    "nested_mapgen_id": "morlock_lair_mid_ring_b",
     "object": {
       "mapgensize": [ 24, 24 ],
       "rotation": [0,3],
@@ -366,7 +366,7 @@
   {
     "type": "mapgen",
     "method": "json",
-    "nested_mapgen_id": "morlock_lair_mid_ring_a",
+    "nested_mapgen_id": "morlock_lair_mid_ring_b",
     "object": {
       "mapgensize": [ 24, 24 ],
       "rotation": [0,3],
@@ -402,7 +402,7 @@
   {
     "type": "mapgen",
     "method": "json",
-    "nested_mapgen_id": "morlock_lair_mid_ring_b",
+    "nested_mapgen_id": "morlock_lair_mid_ring_a",
     "object": {
       "mapgensize": [ 24, 24 ],
       "rotation": [0,3],
@@ -417,10 +417,10 @@
         "             ...  ......",
         "             ...  ...   ",
         "             ........   ",
+        "       .........^..^.   ",
         "       ..............   ",
         "       ..............   ",
-        "       ..............   ",
-        "       ...    .......   ",
+        "       ...    ..^..^.   ",
         "       ...    .......   ",
         "       ...      ...     ",
         "..........      ...     ",
@@ -438,7 +438,7 @@
   {
     "type": "mapgen",
     "method": "json",
-    "nested_mapgen_id": "morlock_lair_mid_ring_b",
+    "nested_mapgen_id": "morlock_lair_mid_ring_a",
     "object": {
       "mapgensize": [ 24, 24 ],
       "rotation": [0,3],
@@ -453,10 +453,10 @@
         "      ..........  ......",
         "      ..........  ......",
         "      ...............   ",
-        "             ........   ",
+        "             ...^..^.   ",
         "             ........   ",
         "       ..............   ",
-        "       ..............   ",
+        "       .........^..^.   ",
         "       ..............   ",
         "       ...    ...       ",
         "..........    ...       ",

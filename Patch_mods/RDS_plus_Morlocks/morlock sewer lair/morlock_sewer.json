@@ -74,5 +74,44 @@
       "palettes": [ "sewers" ],
       "terrain":{">": "t_stairs_down", "%": "t_wall_metal", "*": "t_secretdoor_metal_c"}
     }
+  },
+  {
+    "type" : "mapgen",
+    "om_terrain" : ["morlock_lair_sewer_entry"],
+    "method": "json",
+    "weight": 1000,
+    "object": {
+      "fill_ter": "t_rock",
+      "rows": [
+        "         o-~~~o         ",
+        "         o-~~~o         ",
+        "         o-~~~o         ",
+        "    oooooo-~~~oooooo    ",
+        " oooo~~~~~-~~~~~~~~oo   ",
+        " o  ~~~~~~-~~~~~~~~~o   ",
+        " o  ~~~~~~-~~~~~~~~~o   ",
+        " o  ~~~~~~-~~~~~~~~~o   ",
+        " o  p~~~~~-~~~~~~~~~o   ",
+        "ooooo~~~~------~~~~~o   ",
+        "    o~~~~-%%%%-~~~~~o   ",
+        "    o~~~~-%%%%-~~~~~o   ",
+        "    o~~~~-%>-%-~~~~~oooo",
+        "ooooo~~~~-*--%-~~~~~~~~~",
+        "~~~~~~~~~-%%%%-~~~~~~~~~",
+        "~~~~~~~~~------~~~~~~ooo",
+        "ooo~~~~~~~~~~-~~~~~~oo  ",
+        "  o~~~~~~~~~~-~~~~~~o   ",
+        "  o~~~~~~~~~~-~~~~~~o   ",
+        "  o~~~~~~~~~~-~~~~~~o   ",
+        "  o~~~~~~~~~~-~~~~~~o   ",
+        "  oo~~~~~~~~~-ooooooo   ",
+        "   ooooooo~~~-o  o      ",
+        "         o~~~-o  o      ",
+        "         o~~~-o  o      "
+      ],
+      "rotation": 0,
+      "palettes": [ "sewers" ],
+      "terrain":{">": "t_stairs_down", "%": "t_wall_metal", "*": "t_secretdoor_metal_c"}
+    }
   }
 ]

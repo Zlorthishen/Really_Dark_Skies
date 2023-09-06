@@ -94,12 +94,13 @@
       "¶": { "furniture": "f_55gal_firebarrel", "item": { "item": "weeks_old_newspaper", "amount": [ 50, 70 ] }, "fields": { "field": "fd_fire" } }
     },
     "npcs": {
-      "@": { "class": "DKZ_MAQUIS_GUARD" },
       "1": { "class": "DKZ_MAQUIS_GUARD" },
       "2": { "class": "DKZ_MAQUIS_MERCHANT" },
       "3": { "class": "DKZ_MAQUIS_MOTH_MUTANT" },
       "4": { "class": "DKZ_MAQUIS_SPIDER_MUTANT" },
       "5": { "class": "DKZ_MAQUIS_MANTIS_MUTANT" }
+      "6": { "class": "DKZ_MORLOCK_DEMOLITIONS" }
+      "7": { "class": "DKZ_MAQUIS_GUARD" }
     },
     "items": {
       "b": { "item": "homebooks", "chance": 20 },
