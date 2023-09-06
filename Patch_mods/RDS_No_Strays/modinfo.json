@@ -5,8 +5,8 @@
     "name": "<color_light_blue>Really Dark Skies</color> without the Biocrystal type zombies",
     "authors": [ "Zlorthishen" ],
     "description": "A patchmod for <color_light_blue>Really Dark Skies</color> which removes the biocrystal zombies, known as 'Strays'",
-    "category": "misc_additions",
-    "version": "BN version 1d41422, update 9/3/2023",
+    "category": "monster_exclude",
+    "version": "BN version 1eeea09, update 9/5/2023",
     "dependencies": [ "bn", "realdarkskies" ]
   },
   {
