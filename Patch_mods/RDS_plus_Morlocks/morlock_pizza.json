@@ -14,9 +14,9 @@
     "skill": "cooking",
     "required_level": 1,
     "max_level": 1,
-    "intelligence": 7,
+    "intelligence": 3,
     "time": "5 m",
-    "fun": -5
+    "fun": -1
   },
   {
     "type": "COMESTIBLE",
@@ -51,7 +51,7 @@
     "comestible_type": "FOOD",
     "symbol": "%",
     "calories": 452,
-    "description": "A delicious pizza with sausage and marshmellows on top.",
+    "description": "A delicious pizza with sausage and marshmallows on top.",
     "price": 990,
     "price_postapoc": 600,
     "material": [ "wheat", "milk" ],
