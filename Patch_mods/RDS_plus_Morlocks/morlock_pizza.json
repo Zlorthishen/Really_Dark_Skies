@@ -99,7 +99,7 @@
     "components": [
       [ [ "flour", 30 ] ],
       [ [ "peanutbutter", 1 ], [ "peanutbutter_imitation", 1 ] ],
-      [ [ "can_clam", 1 ] ],
+      [ [ "can_clams", 1 ] ],
       [ [ "sauce_red", 1 ], [ "seasoning_italian", 5 ], [ "wild_herbs", 10 ] ],
       [ [ "water", 1 ] ]
     ]
@@ -119,7 +119,7 @@
     "components": [
       [ [ "flour", 30 ] ],
       [ [ "peanutbutter", 1 ], [ "peanutbutter_imitation", 1 ] ],
-      [ [ "can_clam", 1 ] ],
+      [ [ "can_clams", 1 ] ],
       [ [ "sauce_red", 1 ], [ "seasoning_italian", 5 ], [ "wild_herbs", 10 ] ],
       [ [ "water", 1 ] ]
     ]
@@ -139,7 +139,7 @@
     "components": [
       [ [ "flour", 30 ] ],
       [ [ "sausage_cooked", 1 ], [ "sausage_raw", 1 ], [ "sausage", 1 ], [ "sweet_sausage", 1 ] ],
-      [ [ "marshmellow", 1 ] ],
+      [ [ "marshmallow", 1 ] ],
       [ [ "sauce_red", 1 ], [ "seasoning_italian", 5 ], [ "wild_herbs", 10 ] ],
       [ [ "water", 1 ] ]
     ]

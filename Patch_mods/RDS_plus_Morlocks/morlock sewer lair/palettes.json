@@ -98,8 +98,8 @@
       "2": { "class": "DKZ_MAQUIS_MERCHANT" },
       "3": { "class": "DKZ_MAQUIS_MOTH_MUTANT" },
       "4": { "class": "DKZ_MAQUIS_SPIDER_MUTANT" },
-      "5": { "class": "DKZ_MAQUIS_MANTIS_MUTANT" }
-      "6": { "class": "DKZ_MORLOCK_DEMOLITIONS" }
+      "5": { "class": "DKZ_MAQUIS_MANTIS_MUTANT" },
+      "6": { "class": "DKZ_MORLOCK_DEMOLITIONS" },
       "7": { "class": "DKZ_MAQUIS_GUARD" }
     },
     "items": {
