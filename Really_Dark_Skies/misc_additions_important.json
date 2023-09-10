@@ -184,6 +184,8 @@
     "weight": "13 kg",
     "speed": 70,
     "hp": 20,
+    "fear_triggers": [  "HURT", "SOUND" ],
+    "placate_triggers": [ "PLAYER_NEAR_BABY" ],	  
     "reproduction": { "baby_monster": "mon_cat_chonker_kitten", "baby_count": 8, "baby_timer": 60 }
   }
 ]
