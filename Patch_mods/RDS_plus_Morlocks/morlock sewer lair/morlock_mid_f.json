@@ -36,7 +36,7 @@
       "palettes": [ "morlock_lair" ],
       "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],	 
       "place_nested": [
-        { "chunks": [ "morlock_lair_mid_ring_b" ], "x": 0, "y": 0 },
+        { "chunks": [ "morlock_lair_mid_ring_c" ], "x": 0, "y": 0 },
         { "chunks": [ "morlock_lair_mid_core_f" ], "x": 0, "y": 0 }
       ]
     }
@@ -78,7 +78,7 @@
       "palettes": [ "morlock_lair" ],
       "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],	 
       "place_nested": [
-        { "chunks": [ "morlock_lair_mid_ring_b" ], "x": 0, "y": 0 },
+        { "chunks": [ "morlock_lair_mid_ring_c" ], "x": 0, "y": 0 },
         { "chunks": [ "morlock_lair_mid_core_f" ], "x": 0, "y": 0 }
       ]
     }
@@ -102,9 +102,9 @@
         "      =Z,.......T-      ",
         "      =.........T-      ",
         "      =.*........-      ",
-        "      =.X.|y....T-      ",
-        "      =.X.|-..7.T-      ",
-        "      =.X.|y....T-      ",
+        "      =.X.|y...7T-      ",
+        "      =.X.|-....T-      ",
+        "      =.X.|y...8T-      ",
         "      =.*........-      ",
         "      =,........T-      ",
         "      =,Z,......T-      ",
@@ -118,8 +118,8 @@
         "                        "
       ],
       "palettes": [ "morlock_lair" ],
-      "terrain": { "y": "t_rock_floor", "Y": "t_rock_floor", "X": "t_rock_floor", "T": "t_rock_floor", "t": "t_rock_floor" },
-      "furniture": { "y": "f_woodstove", "Y": "f_kiln_empty" },
+      "terrain": { "y": "t_rock_floor", "Y": "t_rock_floor", "X": "t_rock_floor", "T": "t_rock_floor", "t": "t_rock_floor" , "7": "t_rock_floor", "8": "t_rock_floor" },
+      "furniture": { "y": "f_woodstove", "Y": "f_kiln_empty" , "7": "f_armchair", "8": "f_armchair" },
       "item": {
         "y": { "item": "pizza_meat", "chance": 3 },
         "x": { "item": "flour", "chance": 75, "amount": [ 20, 50 ] },
@@ -146,12 +146,12 @@
         "      ====++======      ",
         "      =.........X=      ",
         "      =.........==      ",
-        "      =..TT..y..X=      ",
+        "      =.7TT..y..X=      ",
         "      =..TT.....==      ",
-        "      =.....7...x=      ",
+        "      =..8......x=      ",
         "      =.........==      ",
         "      =..TT..y..X=      ",
-        "      =..TT.....==      ",
+        "      =.aTT.....==      ",
         "      =..,......x=      ",
         "      ======++====      ",
         "       ... z.,z, .      ",
@@ -163,8 +163,8 @@
         "                        "
       ],
       "palettes": [ "morlock_lair" ],
-      "terrain": { "y": "t_rock_floor", "Y": "t_rock_floor", "X": "t_rock_floor", "T": "t_rock_floor", "t": "t_rock_floor" },
-      "furniture": { "y": "f_woodstove", "Y": "f_kiln_empty" },
+      "terrain": { "y": "t_rock_floor", "Y": "t_rock_floor", "X": "t_rock_floor", "T": "t_rock_floor", "t": "t_rock_floor" , "7": "t_rock_floor", "8": "t_rock_floor" },
+      "furniture": { "y": "f_woodstove", "Y": "f_kiln_empty" , "7": "f_armchair", "8": "f_armchair" },
       "item": {
         "y": { "item": "pizza_meat", "chance": 3 },
         "x": { "item": "flour", "chance": 75, "amount": [ 20, 50 ] },

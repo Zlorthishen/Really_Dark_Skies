@@ -3,10 +3,7 @@
     "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MORLOCK_JUNE_OFANNY_ROOT",
     "type": "talk_topic",
-    "dynamic_line": [
-      "Thank you for opening the door.  I was trapped in here!",
-      "I'm got myself locked in here.  Thanks for letting me out!"
-    ],
+    "dynamic_line": [ "Thank you for opening the door.  I was trapped in here!" ],
     "responses": [
       {
         "text": "Lets set a combat strategy…",
@@ -64,7 +61,7 @@
         "topic": "TALK_MORLOCK_JUNE_OFANNY_ESCORT_DONE"
       },
       { "text": "About that mission…", "topic": "TALK_MISSION_INQUIRE", "condition": "has_assigned_mission" },
-      { "text": "See you later.", "topic": "TALK_DONE" }
+      { "text": "Alright, lets get going.", "topic": "TALK_DONE" }
     ]
   },
   {

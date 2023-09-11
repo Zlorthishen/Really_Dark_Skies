@@ -36,7 +36,7 @@
       "palettes": [ "morlock_lair" ],
       "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],	 
       "place_nested": [
-        { "chunks": [ "morlock_lair_mid_ring_b" ], "x": 0, "y": 0 },
+        { "chunks": [ "morlock_lair_mid_ring_c" ], "x": 0, "y": 0 },
         { "chunks": [ "morlock_lair_mid_core_g" ], "x": 0, "y": 0 }
       ]
     }
@@ -78,7 +78,7 @@
       "palettes": [ "morlock_lair" ],
       "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],	 
       "place_nested": [
-        { "chunks": [ "morlock_lair_mid_ring_b" ], "x": 0, "y": 0 },
+        { "chunks": [ "morlock_lair_mid_ring_c" ], "x": 0, "y": 0 },
         { "chunks": [ "morlock_lair_mid_core_g" ], "x": 0, "y": 0 }
       ]
     }
