@@ -33,11 +33,8 @@
         "----###   ######   #----"
       ],
       "palettes": [ "morlock_lair" ],
-
-      "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],	 	  
-      "place_nested": [
-        { "chunks": [ "morlock_lair_mid_core_j" ], "x": 0, "y": 0 }
-      ]
+      "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],
+      "place_nested": [ { "chunks": [ "morlock_lair_mid_core_j" ], "x": 0, "y": 0 } ]
     }
   },
   {
@@ -74,11 +71,8 @@
         "----#   #######   ##----"
       ],
       "palettes": [ "morlock_lair" ],
-
-      "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],	 	  
-      "place_nested": [
-        { "chunks": [ "morlock_lair_mid_core_j" ], "x": 0, "y": 0 }
-      ]
+      "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],
+      "place_nested": [ { "chunks": [ "morlock_lair_mid_core_j" ], "x": 0, "y": 0 } ]
     }
   },
   {
@@ -99,10 +93,10 @@
         "     ,,,,Ø,,,,,,Ø,,     ",
         "     ,ØØ`ØØØØØØ,ØØ,     ",
         "     ,Ø`.ØTTT....Ø,     ",
-        "     ,Ø.ØØccc....Ø,     ",
-        "     ,Ø.,.,,.5..AØ,     ",
-        "     ,ØØØ.,.¶,.AAØ,     ",
-        "     ,Ød,.,,4,.ØØØ,     ",
+        "     ,Ø.ØØccc...4Ø,     ",
+        "     ,Ø.,.,,....AØ,     ",
+        "     ,ØØØ5,.Z,.AAØ,     ",
+        "     ,Ød,.,,.,.ØØØ,     ",
         "     ,Ød,.......,Ø,     ",
         "     ,ØØØØØ,.,bØ,Ø,     ",
         "     ,Ø,,,Ø,..bØ,Ø,     ",
@@ -115,7 +109,6 @@
         "                        "
       ],
       "palettes": [ "morlock_lair" ],
-      "terrain": { "Ø": "t_paper", "4": "t_dirt" , "5": "t_dirt" }
-    }
+      "terrain": { "Ø": "t_paper", "4": "t_dirt", "5": "t_dirt" }
   }
 ]
