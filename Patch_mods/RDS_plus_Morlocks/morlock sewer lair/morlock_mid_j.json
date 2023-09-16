@@ -110,5 +110,5 @@
       ],
       "palettes": [ "morlock_lair" ],
       "terrain": { "Ø": "t_paper", "4": "t_dirt", "5": "t_dirt" }
-  }
+  }}
 ]
