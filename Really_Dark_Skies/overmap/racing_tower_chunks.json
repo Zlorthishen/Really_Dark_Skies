@@ -1078,8 +1078,7 @@
       "terrain": { " ": "t_null" },
       "furniture": { "C": "f_bench", "T": "f_table" },
       "place_npcs": [
-        { "class": "DKZ_MAQUIS_ATHLETIC", "x": 1, "y": 1, "add_trait": "DKZ_COMBAT" },
-        { "class": "DKZ_MAQUIS_MECHANIC", "x": 4, "y": 4, "add_trait": "DKZ_TECH"}
+        { "class": "DKZ_MAQUIS_ATHLETIC", "x": 1, "y": 1, "add_trait": "DKZ_COMBAT" }
       ],
       "items": { " ": { "item": "trash", "chance": 1 }, "T": { "item": "scavenged_foods", "chance": 20, "repeat": [ 1, 2 ] } }
     }
@@ -1106,8 +1105,7 @@
       "terrain": { " ": "t_null" },
       "furniture": { "C": "f_bench", "T": "f_table" },
       "place_npcs": [
-        { "class": "DKZ_MAQUIS_ATHLETIC", "x": 1, "y": 1, "add_trait": "DKZ_COMBAT" },
-        { "class": "DKZ_MAQUIS_GUARD", "x": 3, "y": 1, "add_trait": "DKZ_COMBAT"}
+        { "class": "DKZ_MAQUIS_ATHLETIC", "x": 1, "y": 1, "add_trait": "DKZ_COMBAT" }
       ],
       "items": { " ": { "item": "trash", "chance": 1 }, "T": { "item": "scavenged_foods", "chance": 20, "repeat": [ 2, 3 ] } }
     }
@@ -1134,8 +1132,7 @@
       "terrain": { " ": "t_null" },
       "furniture": { "C": "f_bench", "T": "f_table" },
       "place_npcs": [
-        { "class": "DKZ_MAQUIS_ATHLETIC", "x": 4, "y": 1, "add_trait": "DKZ_COMBAT" },
-        { "class": "DKZ_MAQUIS_GUARD", "x": 2, "y": 2, "add_trait": "DKZ_COMBAT"}
+        { "class": "DKZ_MAQUIS_ATHLETIC", "x": 4, "y": 1, "add_trait": "DKZ_COMBAT" }
       ],
       "items": { " ": { "item": "trash", "chance": 1 }, "T": { "item": "scavenged_foods", "chance": 20, "repeat": [ 1, 2 ] } }
     }
@@ -1160,8 +1157,7 @@
         "       "
       ],
       "place_npcs": [
-        { "class": "DKZ_MAQUIS_ATHLETIC", "x": 4, "y": 1, "add_trait": "DKZ_COMBAT" },
-        { "class": "DKZ_MAQUIS_GUARD", "x": 2, "y": 2, "add_trait": "DKZ_COMBAT" }
+        { "class": "DKZ_MAQUIS_ATHLETIC", "x": 4, "y": 1, "add_trait": "DKZ_COMBAT" }
       ],
       "terrain": { " ": "t_null" },
       "furniture": { "C": "f_bench", "T": "f_table" },
@@ -1189,8 +1185,7 @@
       ],
       "terrain": { " ": "t_null" },
       "place_npcs": [
-        { "class": "DKZ_MAQUIS_ATHLETIC", "x": 5, "y": 1, "add_trait": "DKZ_COMBAT" },
-        { "class": "DKZ_MAQUIS_GUARD", "x": 3, "y": 3, "add_trait": "DKZ_COMBAT" }
+        { "class": "DKZ_MAQUIS_ATHLETIC", "x": 5, "y": 1, "add_trait": "DKZ_COMBAT" }
       ],
       "furniture": { "C": "f_bench", "S": "f_stool", "T": "f_table" },
       "items": { " ": { "item": "trash", "chance": 1 }, "T": { "item": "scavenged_foods", "chance": 20, "repeat": [ 1, 2 ] } }
@@ -1217,7 +1212,6 @@
       ],
       "terrain": { " ": "t_null" },
       "place_npcs": [
-        { "class": "DKZ_MAQUIS_CYBERCOP", "x": 1, "y": 1, "add_trait": "DKZ_COMBAT" },
         { "class": "DKZ_MAQUIS_ATHLETIC", "x": 3, "y": 1, "add_trait": "DKZ_COMBAT" }
       ],
       "furniture": { "C": "f_bench", "S": "f_stool", "T": "f_table", "X": "f_table", "V": "f_trashcan" },
@@ -1249,8 +1243,6 @@
         "       "
       ],
       "place_npcs": [
-        { "class": "DKZ_MAQUIS_GUARD", "x": 1, "y": 6, "add_trait": "DKZ_COMBAT" },
-        { "class": "DKZ_MAQUIS_MANTIS_MUTANT", "x": 1, "y": 2, "add_trait": "DKZ_COMBAT" },
         { "class": "DKZ_MAQUIS_ATHLETIC", "x": 5, "y": 5, "add_trait": "DKZ_COMBAT" }
       ],
       "terrain": { " ": "t_null" },

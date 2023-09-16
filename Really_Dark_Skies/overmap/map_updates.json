@@ -7,6 +7,27 @@
       "place_npcs": [ { "class": "DKZ_MAQUIS_QUARTERMASTER", "x": 14, "y": 14, "add_trait": [ "DKZ_LEADER", "DKZ_TEAM_LEADER" ] } ]
     }
   },
+  
+  
+  {
+    "type": "mapgen",
+    "method": "json",
+    "update_mapgen_id": "dkz_base_build_combat_1",
+    "object": {
+      "place_nested": [
+        { "chunks": [ "racing_tower_4x4_medical" ], "x": 4, "y": 0 },
+        { "chunks": [ "racing_tower_4x4_medical" ], "x": 4, "y": 4 },
+        { "chunks": [ "racing_tower_4x4_medical" ], "x": 4, "y": 8 },
+        { "chunks": [ "racing_tower_4x4_medical" ], "x": 0, "y": 8 }
+      ]
+    }
+  },
+  
+  
+  
+  
+  
+  
   {
     "type": "mapgen",
     "method": "json",
