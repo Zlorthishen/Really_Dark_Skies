@@ -1,43 +1,5 @@
 [
   {
-    "//": "-----------------------------------------------------------------------------------------------------------------------",
-    "id": "DKZ_MORLOCK_RETURN_TO_SEWER_CENTRAL",
-    "type": "mission_definition",
-    "name": { "str": "Escape from Channel 4." },
-    "description": "Safely escort June O'Fanny out of the Channel 4 News building and down to the Morlock's Sewer Lair.",
-    "goal": "MGOAL_GO_TO_TYPE",
-    "destination": "morlock_lair_mid_e",
-    "difficulty": 1,
-    "urgent": true,
-    "deadline_low": 2,
-    "deadline_high": 2,
-    "value": 0,
-	"followup":"DKZ_SEWER_OVERFLOW",
-    "start": {
-      "assign_mission_target": { "om_terrain": "morlock_lair_mid_e", "om_special": "morlock_lair", "reveal_radius": 5, "search_range": 22, "z": -2 }
-    },
-    "end": {
-      "effect": [
-        { "npc_lose_var": "temporal_follower", "type": "general", "context": "maquis" },
-        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "morlock_lair", "adjustment": 2 },
-        { "u_add_var": "u_saved_June_OFanny", "type": "general", "context": "maquis", "value": "yes" }
-      ]
-    },
-    "origins": [ "ORIGIN_SECONDARY" ],
-    "has_generic_rewards": false,
-    "dialogue": {
-      "describe": "…",
-      "offer": "Lets go back to base.",
-      "accepted": "Alright, lets be off.  You don't mind taking point, right?",
-      "rejected": "Well…",
-      "advice": "You keep a map around don't you?  I do, and you probably should too.",
-      "inquire": "We there yet?",
-      "success": "Thanks for having my back.  As I said, I owe you one.",
-      "success_lie": "Are you lost or something?",
-      "failure": "Can't believe we got lost…"
-    }
-  },
-  {
     "//": "----| STARTING SCENARIO MISSION |--------------------------------------------------------------------------------------",
     "id": "DKZ_MORLOCK_RESCUE_JUNE_OFANNY",
     "type": "mission_definition",
@@ -56,7 +18,7 @@
     },
     "end": {
       "effect": [
-		{ "npc_add_var": "temporal_follower", "type": "general", "context": "maquis", "value": "yes" },
+        { "npc_add_var": "temporal_follower", "type": "general", "context": "maquis", "value": "yes" },
         { "u_adjust_var": "maquis_morale", "type": "counter", "context": "morlock_lair", "adjustment": 2 },
         { "add_mission": "DKZ_MORLOCK_RETURN_TO_SEWER_CENTRAL" }
       ]
@@ -64,11 +26,51 @@
     "origins": [ "ORIGIN_GAME_START" ]
   },
   {
-    "//": "----] 2nd mission: Join the Maquis [-----------------------------------------------------------------------------------",
+    "//": "----] 2nd mission: Return to Sewer [-----------------------------------------------------------------------------------",
+    "id": "DKZ_MORLOCK_RETURN_TO_SEWER_CENTRAL",
+    "type": "mission_definition",
+    "name": { "str": "Escape from Channel 4." },
+    "description": "Safely escort June O'Fanny out of the Channel 4 News building and down to the Morlock's Sewer Lair.",
+    "goal": "MGOAL_GO_TO_TYPE",
+    "destination": "morlock_lair_mid_e",
+    "difficulty": 1,
+    "urgent": true,
+    "deadline_low": 2,
+    "deadline_high": 2,
+    "value": 0,
+    "start": {
+      "effect": [ "follow_only", { "npc_add_var": "temporal_follower", "type": "general", "context": "maquis", "value": "yes" } ],
+      "assign_mission_target": { "om_terrain": "morlock_lair_mid_e", "om_special": "morlock_lair", "reveal_radius": 5, "search_range": 22, "z": -2 }
+    },
+    "end": {
+      "effect": [
+        { "npc_lose_var": "temporal_follower", "type": "general", "context": "maquis" },
+        "stop_following",
+        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "morlock_lair", "adjustment": 2 },
+        { "u_add_var": "u_saved_June_OFanny", "type": "general", "context": "maquis", "value": "yes" },
+        { "add_mission": "DKZ_SEWER_OVERFLOW" }
+      ]
+    },
+    "origins": [ "ORIGIN_SECONDARY" ],
+    "has_generic_rewards": false,
+    "dialogue": {
+      "describe": "…",
+      "offer": "Lets go back to base.",
+      "accepted": "Alright, lets be off.  You don't mind taking point, right?",
+      "rejected": "Well…",
+      "advice": "You keep a map around don't you?  I do, and you probably should too.",
+      "inquire": "We there yet?",
+      "success": "Thanks for having my back.  As I said, I owe you one.",
+      "success_lie": "Are you lost or something?",
+      "failure": "Can't believe we got lost…"
+    }
+  },
+  {
+    "//": "----] 3rd mission: Join the Maquis [-----------------------------------------------------------------------------------",
     "id": "DKZ_SEWER_OVERFLOW",
     "type": "mission_definition",
     "name": { "str": "Sewer Overflow" },
-    "description": "You must proceed to this location.",
+    "description": "You must proceed to this location and report the attack on the Channel 4 News Building.",
     "goal": "MGOAL_TALK_TO_NPC",
     "destination": "racing_tower_z7_4_1",
     "difficulty": 1,

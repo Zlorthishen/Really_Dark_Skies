@@ -10,7 +10,6 @@
         "condition": {
           "and": [
             { "npc_has_var": "temporal_follower", "type": "general", "context": "maquis", "value": "yes" },
-            { "not": { "u_has_mission": "DKZ_MORLOCK_RESCUE_JUNE_OFANNY" } },
             { "not": { "u_has_var": "u_saved_June_OFanny", "type": "general", "context": "maquis", "value": "yes" } }
           ]
         },
@@ -21,7 +20,7 @@
         "condition": {
           "and": [
             { "npc_has_var": "temporal_follower", "type": "general", "context": "maquis", "value": "yes" },
-            { "not": { "u_has_mission": "DKZ_MORLOCK_RESCUE_JUNE_OFANNY" } },
+            { "u_has_mission": "DKZ_MORLOCK_RETURN_TO_SEWER_CENTRAL" },
             { "not": { "u_has_var": "u_saved_June_OFanny", "type": "general", "context": "maquis", "value": "yes" } }
           ]
         },
@@ -32,7 +31,7 @@
         "condition": {
           "and": [
             { "not": { "npc_has_var": "temporal_follower", "type": "general", "context": "maquis", "value": "yes" } },
-            { "not": { "u_has_mission": "DKZ_MORLOCK_RESCUE_JUNE_OFANNY" } },
+            { "u_has_mission": "DKZ_MORLOCK_RETURN_TO_SEWER_CENTRAL" },
             { "not": { "u_has_var": "u_saved_June_OFanny", "type": "general", "context": "maquis", "value": "yes" } }
           ]
         },
@@ -46,6 +45,7 @@
             { "not": { "u_has_var": "u_saved_June_OFanny", "type": "general", "context": "maquis", "value": "yes" } }
           ]
         },
+		"effect": [{ "add_mission": "DKZ_MORLOCK_RETURN_TO_SEWER_CENTRAL" }],
         "opinion": { "trust": 2, "value": 5 },
         "topic": "TALK_MORLOCK_JUNE_OFANNY_RESCUE"
       },
