@@ -45,7 +45,6 @@
             { "not": { "u_has_var": "u_saved_June_OFanny", "type": "general", "context": "maquis", "value": "yes" } }
           ]
         },
-		"effect": [{ "add_mission": "DKZ_MORLOCK_RETURN_TO_SEWER_CENTRAL" }],
         "opinion": { "trust": 2, "value": 5 },
         "topic": "TALK_MORLOCK_JUNE_OFANNY_RESCUE"
       },

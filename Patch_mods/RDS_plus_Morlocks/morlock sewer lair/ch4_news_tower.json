@@ -57,6 +57,12 @@
         "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~z''z~~~~~~~~~z~"
       ],
       "palettes": [ "morlock_office_palette" ],
+      "place_zones": [
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 24, 47 ], "y": [ 0, 23 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 0, 23 ], "y": [ 24, 47 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 24, 47 ], "y": [ 24, 47 ] }
+      ],
       "terrain": {
         "Ź": "t_metal_ventilation_shutter",
         "☼": "t_gates_mech_control",
@@ -64,9 +70,7 @@
         "z": "t_sewage_pipe",
         "Z": "t_sewage_pump"
       },
-      "place_monsters": [
-        { "monster": "GROUP_XENOID_SQUAD", "x": [ 9, 17 ], "y": [ 9, 17 ], "density": 0.07 }
-      ],
+      "place_monsters": [ { "monster": "GROUP_XENOID_SQUAD", "x": [ 9, 17 ], "y": [ 9, 17 ], "density": 0.07 } ],
       "place_vehicles": [
         { "vehicle": "car", "x": 8, "y": 6, "rotation": 90, "chance": 15, "fuel": 0, "status": -1 },
         { "vehicle": "car", "x": 14, "y": 6, "rotation": 90, "chance": 15, "fuel": 0, "status": -1 },
@@ -118,9 +122,7 @@
         "################################################"
       ],
       "palettes": [ "parking_palette" ],
-      "place_monsters": [
-        { "monster": "GROUP_XENOID_BOSS", "x": [ 9, 17 ], "y": [ 9, 17 ], "density": 0.07 }
-      ],	  
+      "place_monsters": [ { "monster": "GROUP_XENOID_BOSS", "x": [ 9, 17 ], "y": [ 9, 17 ], "density": 0.07 } ],
       "place_vehicles": [
         { "vehicle": "parking_garage", "x": 18, "y": 4, "chance": 50, "status": 0, "rotation": 270 },
         { "vehicle": "parking_garage", "x": 28, "y": 4, "chance": 50, "status": 0, "rotation": 270 },
@@ -189,6 +191,12 @@
         "ss    __,,__ss_,,,,_  %%I%I%% ssssssss %%I%I%%ss",
         "ssssss__,,__ss__,,__ssssssssssssssssssssssssssss",
         "ssssss______ss______ssssssssssssssssssssssssssss"
+      ],      
+	  "place_zones": [
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 24, 47 ], "y": [ 0, 23 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 0, 23 ], "y": [ 24, 47 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 24, 47 ], "y": [ 24, 47 ] }
       ],
       "place_monsters": [ { "monster": "GROUP_QUISSLING_HELPERS", "x": [ 5, 23 ], "y": [ 5, 23 ], "density": 0.15 } ],
       "palettes": [ "morlock_office_palette" ],
@@ -347,6 +355,12 @@
         "////////////////////////////////////////////////",
         "////////////////////////////////////////////////",
         "////////////////////////////////////////////////"
+      ],      
+	  "place_zones": [
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 24, 47 ], "y": [ 0, 23 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 0, 23 ], "y": [ 24, 47 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 24, 47 ], "y": [ 24, 47 ] }
       ],
       "place_nested": [
         { "chunks": [ [ "4x4_cr1_l", 20 ], [ "4x4_cr2_l", 20 ], [ "4x4_cr3_l", 20 ] ], "x": [ 20, 20 ], "y": [ 12, 12 ] },
@@ -510,6 +524,12 @@
         "///|''''+...|---|--||......||--|---|...+''''|///",
         "///|rrrr|...|>R<|///|......|///|>R<|...|rrrr|///",
         "///|----|...|'R'|///!......!///|'R'|...|----|///"
+      ],      
+	  "place_zones": [
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 24, 47 ], "y": [ 0, 23 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 0, 23 ], "y": [ 24, 47 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 24, 47 ], "y": [ 24, 47 ] }
       ],
       "place_nested": [
         { "chunks": [ [ "4x4_cr1_l", 20 ], [ "4x4_cr2_l", 20 ], [ "4x4_cr3_l", 20 ] ], "x": [ 20, 20 ], "y": [ 12, 12 ] },
@@ -584,12 +604,14 @@
         "///|''''¦...|---|--||......||--|---|...+''''|///",
         "///|''''¦...|>R<|///|......|///|>R<|...|rrrr|///",
         "///|¦¦!§¦·..|'R'|///D......!///|'R'|...|----|///"
+      ],      
+	  "place_zones": [
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 24, 47 ], "y": [ 0, 23 ] }
       ],
       "terrain": { "¦": "t_wall_metal", "§": "t_card_military", "·": "t_floor" },
       "item": { "·": { "item": "id_military", "chance": 100 } },
       "place_nested": [
-	  
-	  
         { "chunks": [ [ "4x4_cr1_l", 20 ], [ "4x4_cr2_l", 20 ], [ "4x4_cr3_l", 20 ] ], "x": [ 20, 20 ], "y": [ 12, 12 ] },
         {
           "chunks": [ [ "4x4_cr1_r", 20 ], [ "4x4_cr2_r", 20 ], [ "4x4_cr3_r", 20 ] ],
@@ -619,9 +641,6 @@
         { "chunks": [ [ "8x8_boss_al", 20 ] ], "x": [ 16, 16 ], "y": [ 4, 4 ] },
         { "chunks": [ [ "8x8_boss_ar", 20 ] ], "x": [ 24, 24 ], "y": [ 4, 4 ] }
       ],
-	  
-	  
-	  
       "place_monsters": [
         { "monster": "GROUP_XENOID_MINI_DRONES", "x": [ 9, 17 ], "y": [ 9, 17 ], "density": 0.05 },
         { "monster": "GROUP_XENOID_SQUAD", "x": [ 9, 17 ], "y": [ 9, 17 ], "density": 0.07 },
@@ -687,6 +706,12 @@
         "////////////////////////////////////////////////",
         "////////////////////////////////////////////////",
         "////////////////////////////////////////////////"
+      ],      
+	  "place_zones": [
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 24, 47 ], "y": [ 0, 23 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 0, 23 ], "y": [ 24, 47 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 24, 47 ], "y": [ 24, 47 ] }
       ],
       "palettes": [ "morlock_office_palette" ],
       "terrain": { "Ź": "t_metal_ventilation_shutter" },
@@ -779,6 +804,12 @@
         "////////////////////////////////////////////////",
         "////////////////////////////////////////////////",
         "////////////////////////////////////////////////"
+      ],      
+	  "place_zones": [
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 24, 47 ], "y": [ 0, 23 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 0, 23 ], "y": [ 24, 47 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 24, 47 ], "y": [ 24, 47 ] }
       ],
       "palettes": [ "morlock_office_palette" ]
     }
