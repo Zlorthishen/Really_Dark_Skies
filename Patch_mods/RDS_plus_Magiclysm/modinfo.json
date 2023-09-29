@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "realdarkskies_magiclysm_patchmod",
+    "name": "<color_light_blue>Really Dark Skies</color> plus magiclysm",
+    "authors": [ "Zlorthishen" ],
+    "description": "A patchmod for <color_light_blue>Really Dark Skies</color> which adds increased support for magiclysm mod",
+    "category": "misc_additions",
+	"version": "BN version 28777f1, update 9/28/2023",
+    "dependencies": [ "bn", "realdarkskies", "magiclysm" ]
+  }
+]
