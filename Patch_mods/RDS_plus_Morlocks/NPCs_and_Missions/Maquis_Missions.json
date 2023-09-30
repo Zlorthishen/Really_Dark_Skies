@@ -18,7 +18,6 @@
     },
     "end": {
       "effect": [
-        { "npc_add_var": "temporal_follower", "type": "general", "context": "maquis", "value": "yes" },
         { "u_adjust_var": "maquis_morale", "type": "counter", "context": "morlock_lair", "adjustment": 2 },
         { "add_mission": "DKZ_MORLOCK_RETURN_TO_SEWER_CENTRAL" }
       ]
@@ -39,10 +38,12 @@
     "deadline_high": 2,
     "value": 0,
     "start": {
+	 "effect":[ "follow_only", { "clear_npc_rule": "investigate_noises" }]  ,
       "assign_mission_target": { "om_terrain": "morlock_lair_mid_e", "om_special": "morlock_lair", "reveal_radius": 5, "search_range": 22, "z": -2 }
     },
     "end": {
       "effect": [
+	  "stop_following",
         { "u_adjust_var": "maquis_morale", "type": "counter", "context": "morlock_lair", "adjustment": 2 },
         { "u_add_var": "u_saved_June_OFanny", "type": "general", "context": "maquis", "value": "yes" }
       ]
