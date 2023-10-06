@@ -71,8 +71,8 @@
       [ "accessories", 2 ],
       [ "barrel", 1 ],
       [ "mechanism", 4 ],
-      [ "muzzle", 1 ], ]
-    ],
+      [ "muzzle", 1 ] 
+	  ],
     "flags": [ "RELOAD_ONE", "WATERPROOF_GUN", "NEVER_JAMS" ],
     "faults": [  ]
   },
@@ -168,8 +168,8 @@
     "ranged_damage": { "damage_type": "bullet", "amount": 10 },
     "dispersion": 90,
     "durability": 9,
-    "ammo": "8x40mm",
-    "color": "5x50",
+    "ammo": "5x50",
+    "color": "dark_gray",
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 6 ] ],
     "handling": 15,
     "barrel_length": "1500 ml",
