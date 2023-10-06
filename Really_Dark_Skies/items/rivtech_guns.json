@@ -1,12 +1,28 @@
 [
-
+  {
+    "id": "8x40_500_mag",
+    "looks_like": "stanag30",
+    "type": "MAGAZINE",
+    "name": { "str": "RMFB250 5x50mm magazine" },
+    "description": "A 500 round drum magazine for use with Rivtech 8x40mm caseless firearms.",
+    "weight": "1400 g",
+    "volume": "4 L",
+    "price": 100000,
+    "price_postapoc": 1000,
+    "material": [ "superalloy", "plastic" ],
+    "symbol": "#",
+    "color": "dark_gray",
+    "ammo_type": "8x40mm",
+    "capacity": 500,
+    "reliability": 10
+  },  
+  
   {
     "id": "rm101_pistol",
     "copy-from": "pistol_base",
     "type": "GUN",
-    "name": { "str": "RM101 Sharpe Pistol" },
-    "//": "Rivtech don't come cheap.",
-    "description": "Considered beyond overkill by all, the Rivtech M101 is quite simply a breech-loading single-shot 'Sharpe' pistol that uses 20x66mm 'shotgun' round.",
+    "name": { "str": "RM101 Dueling Pistol" },
+    "description": "Considered beyond overkill by all, the Rivtech M101 is quite simply a breech-loading single-shot 'Dueling Pistol' that uses a 20x66mm 'shotgun' round.",
     "weight": "1750 g",
     "volume": "750 ml",
     "price": 290000,
@@ -24,24 +40,47 @@
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "barrel", 1 ],
-      [ "grip", 1 ],
       [ "mechanism", 4 ],
       [ "muzzle", 1 ],
-      [ "sights", 1 ],
-      [ "stock", 1 ],
-      [ "underbarrel mount", 1 ]
+      [ "stock", 1 ]
     ],
     "flags": [ "RELOAD_ONE", "WATERPROOF_GUN", "NEVER_JAMS" ],
     "faults": [  ]
   },
-
-
-
+  {
+    "id": "rm101_pistol",
+    "copy-from": "pistol_base",
+    "type": "GUN",
+    "name": { "str": "RM101 Deluxe Dueling Pistol" },
+    "description": "Considered beyond overkill by all, the Rivtech M101 is quite simply a breech-loading single-shot 'Dueling Pistol' that uses a 20x66mm 'shotgun' round.  This model includes a beautiful wooden stock.",
+    "weight": "1750 g",
+    "volume": "750 ml",
+    "price": 290000,
+    "price_postapoc": 11000,
+    "to_hit": -2,
+    "bashing": 12,
+    "material": [ "superalloy", "ceramic" ],
+    "dispersion": 285,
+    "durability": 9,
+    "ranged_damage": { "damage_type": "bullet", "amount": 4 },
+    "ammo": "20x66mm",
+    "range": 6,
+    "color": "dark_gray",
+    "clip_size": 1,	
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "barrel", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ], ]
+    ],
+    "flags": [ "RELOAD_ONE", "WATERPROOF_GUN", "NEVER_JAMS" ],
+    "faults": [  ]
+  },
   {
     "id": "needle_rifle",
     "copy-from": "rifle_base",
     "type": "GUN",
-    "name": { "str": "RM432" },
+    "name": { "str": "RM432 MDW" },
     "description": "This assault rifle fires 5x50mm armor-piercing flechette cartridges.  Rivtech attempted to have this weapon classified as a special purpose individual weapon, however the real reason is that they wanted to make sure the military grants kept coming.",
     "weight": "3950 g",
     "volume": "2250 ml",
@@ -74,7 +113,88 @@
     "magazines": [ [ "5x50", [ "5x50_100_mag", "5x50_50_mag" ] ] ],
     "flags": [ "WATERPROOF_GUN", "NEVER_JAMS" ],
     "faults": [  ]
+  },
+  
+  {
+    "id": "needle_lmg",
+    "copy-from": "mg_base",
+    "type": "GUN",
+    "name": { "str": "RM648 LMG" },
+    "description": "Utilizing a powerful and unusual caliber, the Rivtech RM614 light machine gun was designed for durability and extreme volume of sustained fire under the worst possible circumstances.  Accepts RMXB500 box and RMGD250 drum magazines.",
+    "weight": "4600 g",
+    "volume": "2750 ml",
+    "price": 3750000,
+    "price_postapoc": 15000,
+    "to_hit": -2,
+    "bashing": 12,
+    "material": [ "superalloy", "ceramic" ],
+    "ranged_damage": { "damage_type": "bullet", "amount": 5 },
+    "dispersion": 70,
+    "durability": 9,
+    "ammo": "5x50",
+    "color": "dark_gray",
+    "reload": 200,
+    "handling": 15,
+    "barrel_length": "500 ml",
+    "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 4 ], [ "AUTO", "auto", 6 ] ],
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazine_well": "500 ml",
+    "magazines": [ [ "8x40mm", [ "8x40_250_mag", "8x40_500_mag" ] ] ],
+    "flags": [ "WATERPROOF_GUN", "NEVER_JAMS" ],
+    "faults": [  ]
+  },
+  {
+    "id": "needle_hmg",
+    "copy-from": "mg_base",
+    "type": "GUN",
+    "name": { "str": "RM864 HMG" },
+    "description": "Utilizing a powerful and unusual caliber, the Rivtech RM298 heavy machine gun was designed for durability and extreme volume of sustained fire under the worst possible circumstances.  Accepts RMXB500 box and RMGD250 drum magazines.",
+    "weight": "24500 g",
+    "volume": "4500 ml",
+    "price": 7500000,
+    "price_postapoc": 15000,
+    "material": [ "superalloy", "ceramic" ],
+    "range": -6,
+    "ranged_damage": { "damage_type": "bullet", "amount": 10 },
+    "dispersion": 90,
+    "durability": 9,
+    "ammo": "8x40mm",
+    "color": "5x50",
+    "modes": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 6 ] ],
+    "handling": 15,
+    "barrel_length": "1500 ml",
+    "magazine_well": "1500 ml",
+    "valid_mod_locations": [ [ "barrel", 1 ], [ "grip", 1 ], [ "mechanism", 4 ], [ "rail", 1 ], [ "sights", 1 ], [ "sling", 1 ], [ "stock", 1 ] ],
+    "magazines": [ [ "8x40mm", [ "8x40_500_mag", "8x40_250_mag" ] ] ],
+    "flags": [ "WATERPROOF_GUN", "NEVER_JAMS" ],
+    "faults": [  ]
   }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
 
 ]
