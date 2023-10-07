@@ -1,5 +1,22 @@
 [
   {
+    "type": "item_group",
+    "id": "DKZ_morlock_pizza",
+    "items": [
+      [ "pizza_sardine_pb", 1 ],
+      [ "pizza_clam_pb", 1 ],
+      [ "pizza_sausage_caramel", 1 ],
+      [ "pizza_sausage_marshmallow", 1 ],
+      [ "pizza_sardine_chocolate", 1 ],
+      [ "pizza_clam_chocolate", 1 ],
+      [ "pizza_sardine_cabbage", 1 ],
+      [ "pizza_clam_cabbage", 1 ],
+      [ "pizza_pineapple", 3 ],
+      [ "pizza_offal", 1 ],
+      [ "pizza_pixy", 2 ]
+    ]
+  },
+  {
     "type": "mapgen",
     "om_terrain": [ "morlock_lair_mid_f" ],
     "method": "json",
@@ -34,7 +51,7 @@
       ],
       "rotation": [ 0, 3 ],
       "palettes": [ "morlock_lair" ],
-      "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],	 
+      "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],
       "place_nested": [
         { "chunks": [ "morlock_lair_mid_ring_c" ], "x": 0, "y": 0 },
         { "chunks": [ "morlock_lair_mid_core_f" ], "x": 0, "y": 0 }
@@ -76,7 +93,7 @@
       ],
       "rotation": [ 0, 3 ],
       "palettes": [ "morlock_lair" ],
-      "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],	 
+      "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],
       "place_nested": [
         { "chunks": [ "morlock_lair_mid_ring_c" ], "x": 0, "y": 0 },
         { "chunks": [ "morlock_lair_mid_core_f" ], "x": 0, "y": 0 }
@@ -102,9 +119,9 @@
         "      =Z,.......T-      ",
         "      =.........T-      ",
         "      =.*........-      ",
-        "      =.X.|y...7T-      ",
+        "      =.X.|y...7Ť-      ",
         "      =.X.|-....T-      ",
-        "      =.X.|y...8T-      ",
+        "      =.X.|y...8Ť-      ",
         "      =.*........-      ",
         "      =,........T-      ",
         "      =,Z,......T-      ",
@@ -118,14 +135,23 @@
         "                        "
       ],
       "palettes": [ "morlock_lair" ],
-      "terrain": { "y": "t_rock_floor", "Y": "t_rock_floor", "X": "t_rock_floor", "T": "t_rock_floor", "t": "t_rock_floor" , "7": "t_rock_floor", "8": "t_rock_floor" },
-      "furniture": { "y": "f_woodstove", "Y": "f_kiln_empty" , "7": "f_armchair", "8": "f_armchair" },
+      "terrain": {
+        "Ť": "t_rock_floor",
+        "y": "t_rock_floor",
+        "Y": "t_rock_floor",
+        "X": "t_rock_floor",
+        "T": "t_rock_floor",
+        "t": "t_rock_floor",
+        "7": "t_rock_floor",
+        "8": "t_rock_floor"
+      },
+      "furniture": { "y": "f_woodstove", "Y": "f_kiln_empty", "Ť": "f_table", "7": "f_armchair", "8": "f_armchair" },
       "item": {
         "y": { "item": "pizza_meat", "chance": 3 },
         "x": { "item": "flour", "chance": 75, "amount": [ 20, 50 ] },
         "X": { "item": "flour", "chance": 75, "amount": [ 1, 5 ] }
       },
-      "items": { "T": { "item": "dinnerware", "chance": 20 } }
+      "items": { "Ť": { "item": "DKZ_morlock_pizza", "chance": 95 }, "T": { "item": "dinnerware", "chance": 20 } }
     }
   },
   {
@@ -146,8 +172,8 @@
         "      ====++======      ",
         "      =.........X=      ",
         "      =.........==      ",
-        "      =.7TT..y..X=      ",
-        "      =..TT.....==      ",
+        "      =.7ŤT..y..X=      ",
+        "      =..ŤT.....==      ",
         "      =..8......x=      ",
         "      =.........==      ",
         "      =..TT..y..X=      ",
@@ -163,14 +189,23 @@
         "                        "
       ],
       "palettes": [ "morlock_lair" ],
-      "terrain": { "y": "t_rock_floor", "Y": "t_rock_floor", "X": "t_rock_floor", "T": "t_rock_floor", "t": "t_rock_floor" , "7": "t_rock_floor", "8": "t_rock_floor" },
-      "furniture": { "y": "f_woodstove", "Y": "f_kiln_empty" , "7": "f_armchair", "8": "f_armchair" },
+      "terrain": {
+        "Ť": "t_rock_floor",
+        "y": "t_rock_floor",
+        "Y": "t_rock_floor",
+        "X": "t_rock_floor",
+        "T": "t_rock_floor",
+        "t": "t_rock_floor",
+        "7": "t_rock_floor",
+        "8": "t_rock_floor"
+      },
+      "furniture": { "Ť": "f_table", "y": "f_woodstove", "Y": "f_kiln_empty", "7": "f_armchair", "8": "f_armchair" },
       "item": {
         "y": { "item": "pizza_meat", "chance": 3 },
         "x": { "item": "flour", "chance": 75, "amount": [ 20, 50 ] },
         "X": { "item": "flour", "chance": 75, "amount": [ 1, 5 ] }
       },
-      "items": { "T": { "item": "dinnerware", "chance": 20 } }
+      "items": { "Ť": { "item": "DKZ_morlock_pizza", "chance": 95 }, "T": { "item": "dinnerware", "chance": 20 } }
     }
   }
 ]

@@ -34,7 +34,7 @@
       ],
       "terrain": { " ": [ [ "t_rock_floor", 13 ], [ "t_dirt", 3 ] ] },
       "palettes": [ "morlock_lair" ],
-      "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],	 
+      "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],
       "place_nested": [
         { "chunks": [ "morlock_lair_mid_ring_c" ], "x": 0, "y": 0 },
         { "chunks": [ "morlock_lair_mid_core_g" ], "x": 0, "y": 0 }
@@ -76,7 +76,7 @@
       ],
       "terrain": { " ": [ [ "t_rock_floor", 13 ], [ "t_dirt", 3 ] ] },
       "palettes": [ "morlock_lair" ],
-      "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],	 
+      "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],
       "place_nested": [
         { "chunks": [ "morlock_lair_mid_ring_c" ], "x": 0, "y": 0 },
         { "chunks": [ "morlock_lair_mid_core_g" ], "x": 0, "y": 0 }
@@ -237,7 +237,7 @@
         "    "
       ],
       "terrain": { " ": "t_null" },
-      "furniture": { "A": "f_bellows" , "B": "f_forge" },
+      "furniture": { "A": "f_bellows", "B": "f_forge" },
       "items": { " ": { "item": "trash", "chance": 1 } }
     }
   }

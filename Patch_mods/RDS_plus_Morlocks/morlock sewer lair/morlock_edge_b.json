@@ -33,7 +33,7 @@
         "..A=##..########..##=..."
       ],
       "rotation": 0,
-      "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],	 
+      "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],
       "palettes": [ "morlock_lair" ]
     }
   },
@@ -71,7 +71,7 @@
         "...=##..########..##=..."
       ],
       "rotation": 0,
-      "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],	 
+      "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],
       "palettes": [ "morlock_lair" ]
     }
   },
@@ -109,7 +109,7 @@
         ".c.=##.,z###########=BB."
       ],
       "rotation": 0,
-      "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],	 
+      "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],
       "palettes": [ "morlock_lair" ]
     }
   },
@@ -147,10 +147,10 @@
         "...=##..############=BB."
       ],
       "rotation": 0,
-      "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],	 
+      "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],
       "palettes": [ "morlock_lair" ]
     }
-  },  
+  },
   {
     "type": "mapgen",
     "om_terrain": [ "morlock_lair_edge_b" ],
@@ -185,7 +185,7 @@
         "...=##..########..##=..."
       ],
       "rotation": 0,
-      "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],	 
+      "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],
       "palettes": [ "morlock_lair" ]
     }
   },
@@ -224,7 +224,7 @@
       ],
       "rotation": 0,
       "palettes": [ "morlock_lair" ],
-      "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],	 
+      "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],
       "terrain": { "P": "t_dirt" },
       "item": { "&": { "item": "cattlefodder", "chance": 70, "repeat": 5 } },
       "monster": { "P": [ { "monster": "mon_pig_mutant_cave" } ] }

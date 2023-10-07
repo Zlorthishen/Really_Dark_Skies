@@ -1,7 +1,7 @@
 [
   {
-    "type" : "mapgen",
-    "om_terrain" : ["morlock_lair_edge_a"],
+    "type": "mapgen",
+    "om_terrain": [ "morlock_lair_edge_a" ],
     "method": "json",
     "weight": 1000,
     "object": {
@@ -33,13 +33,13 @@
         "...=############.,##=H.."
       ],
       "rotation": 0,
-      "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],	 
+      "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],
       "palettes": [ "morlock_lair" ]
     }
   },
   {
-    "type" : "mapgen",
-    "om_terrain" : ["morlock_lair_edge_a"],
+    "type": "mapgen",
+    "om_terrain": [ "morlock_lair_edge_a" ],
     "method": "json",
     "weight": 1000,
     "object": {
@@ -71,13 +71,13 @@
         "...=############..##=H.."
       ],
       "rotation": 0,
-      "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],	 
+      "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],
       "palettes": [ "morlock_lair" ]
     }
   },
   {
-    "type" : "mapgen",
-    "om_terrain" : ["morlock_lair_edge_a"],
+    "type": "mapgen",
+    "om_terrain": [ "morlock_lair_edge_a" ],
     "method": "json",
     "weight": 1000,
     "object": {
@@ -109,7 +109,7 @@
         "...=############..##=H.."
       ],
       "rotation": 0,
-      "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],	 
+      "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],
       "palettes": [ "morlock_lair" ]
     }
   }

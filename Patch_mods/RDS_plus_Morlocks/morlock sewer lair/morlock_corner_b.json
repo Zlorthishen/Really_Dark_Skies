@@ -24,18 +24,18 @@
         "#######,........yA9A#.,#",
         "######Z,......,######...",
         "######.......,z#####,.,.",
-        "######yy▓▓▓○▓▓▓▓##Z,,,z#",
+        "######yy▓▓○○○▓▓▓##Z,,,z#",
         "######..▓ 5   ▓#.,,..,##",
         "####~~..+     +.......##",
         "###~~~..▓     ▓,..#==+==",
         "##~~~~..▓  ¶  ▓z,..=R...",
-        "##~~##..▓▓▓▓▓▓▓,...=R...",
-        "##~~##.,z#######...==..."
+        "##~~##..▓▓    +,...=R...",
+        "##~~##.,z▓▓▓▓▓▓#...==..."
       ],
       "rotation": 0,
-      "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],	 	  
+      "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],
       "palettes": [ "morlock_lair" ],
-      "terrain": { "○": "t_window_bars_alarm"  },
+      "terrain": { "○": "t_window_bars_alarm" },
       "furniture": { "9": "f_sofa", "y": "f_sandbag_half" }
     }
   }

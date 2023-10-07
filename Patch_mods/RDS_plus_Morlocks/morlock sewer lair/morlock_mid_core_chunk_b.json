@@ -3,7 +3,7 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "morlock_lair_mid_core_b",
-    "weight": 1000,	
+    "weight": 1000,
     "object": {
       "mapgensize": [ 24, 24 ],
       "rotation": [ 0, 3 ],
@@ -189,8 +189,8 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "morlock_lair_mid_core_b",
-    "weight": 800,	
-    "object": {	
+    "weight": 800,
+    "object": {
       "mapgensize": [ 24, 24 ],
       "rotation": [ 0, 3 ],
       "rows": [
@@ -220,7 +220,7 @@
         "                        "
       ],
       "palettes": [ "morlock_lair" ],
-      "terrain":{ "¦": "t_drystone_wall","4": "t_dirt","z": "t_tree_mushroom_glow",  "Z": "t_tree_mushroom_bright" } 
+      "terrain": { "¦": "t_drystone_wall", "4": "t_dirt", "z": "t_tree_mushroom_glow", "Z": "t_tree_mushroom_bright" }
     }
   },
   {

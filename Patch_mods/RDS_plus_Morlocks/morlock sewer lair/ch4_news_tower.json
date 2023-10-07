@@ -191,8 +191,8 @@
         "ss    __,,__ss_,,,,_  %%I%I%% ssssssss %%I%I%%ss",
         "ssssss__,,__ss__,,__ssssssssssssssssssssssssssss",
         "ssssss______ss______ssssssssssssssssssssssssssss"
-      ],      
-	  "place_zones": [
+      ],
+      "place_zones": [
         { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] },
         { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 24, 47 ], "y": [ 0, 23 ] },
         { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 0, 23 ], "y": [ 24, 47 ] },
@@ -355,8 +355,8 @@
         "////////////////////////////////////////////////",
         "////////////////////////////////////////////////",
         "////////////////////////////////////////////////"
-      ],      
-	  "place_zones": [
+      ],
+      "place_zones": [
         { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] },
         { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 24, 47 ], "y": [ 0, 23 ] },
         { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 0, 23 ], "y": [ 24, 47 ] },
@@ -524,8 +524,8 @@
         "///|''''+...|---|--||......||--|---|...+''''|///",
         "///|rrrr|...|>R<|///|......|///|>R<|...|rrrr|///",
         "///|----|...|'R'|///!......!///|'R'|...|----|///"
-      ],      
-	  "place_zones": [
+      ],
+      "place_zones": [
         { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] },
         { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 24, 47 ], "y": [ 0, 23 ] },
         { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 0, 23 ], "y": [ 24, 47 ] },
@@ -604,8 +604,8 @@
         "///|''''¦...|---|--||......||--|---|...+''''|///",
         "///|''''¦...|>R<|///|......|///|>R<|...|rrrr|///",
         "///|¦¦!§¦·..|'R'|///D......!///|'R'|...|----|///"
-      ],      
-	  "place_zones": [
+      ],
+      "place_zones": [
         { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] },
         { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 24, 47 ], "y": [ 0, 23 ] }
       ],
@@ -706,8 +706,8 @@
         "////////////////////////////////////////////////",
         "////////////////////////////////////////////////",
         "////////////////////////////////////////////////"
-      ],      
-	  "place_zones": [
+      ],
+      "place_zones": [
         { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] },
         { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 24, 47 ], "y": [ 0, 23 ] },
         { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 0, 23 ], "y": [ 24, 47 ] },
@@ -804,8 +804,8 @@
         "////////////////////////////////////////////////",
         "////////////////////////////////////////////////",
         "////////////////////////////////////////////////"
-      ],      
-	  "place_zones": [
+      ],
+      "place_zones": [
         { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] },
         { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 24, 47 ], "y": [ 0, 23 ] },
         { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 0, 23 ], "y": [ 24, 47 ] },

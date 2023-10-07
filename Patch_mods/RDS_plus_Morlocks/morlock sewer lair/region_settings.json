@@ -2,6 +2,6 @@
   {
     "type": "region_overlay",
     "regions": [ "all" ],
-	"city": {  "shops": { "morlock_lair": 11 }   }
-	}
+    "city": { "shops": { "morlock_lair": 11 } }
+  }
 ]

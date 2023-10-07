@@ -33,8 +33,7 @@
         "##~$$#+-########..##=..."
       ],
       "rotation": 0,
-
-      "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],	 	  
+      "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],
       "palettes": [ "morlock_lair" ],
       "terrain": { "P": "t_dirt", "w": "t_wall_wood", "W": "t_dock_deep" },
       "signs": { "P": { "signage": "Wrong Way" } },

@@ -5,7 +5,7 @@
     "nested_mapgen_id": "morlock_lair_mid_ring_b",
     "object": {
       "mapgensize": [ 24, 24 ],
-      "rotation": [0,3],
+      "rotation": [ 0, 3 ],
       "rows": [
         "...=  ..    =========A..",
         "...+....    =DDD.DDD=A..",
@@ -41,7 +41,7 @@
     "nested_mapgen_id": "morlock_lair_mid_ring_b",
     "object": {
       "mapgensize": [ 24, 24 ],
-      "rotation": [0,3],
+      "rotation": [ 0, 3 ],
       "rows": [
         "...=#===========..##=A..",
         "...===BB..d=BBN=..#H=A..",
@@ -77,7 +77,7 @@
     "nested_mapgen_id": "morlock_lair_mid_ring_b",
     "object": {
       "mapgensize": [ 24, 24 ],
-      "rotation": [0,3],
+      "rotation": [ 0, 3 ],
       "rows": [
         "...=            ..##=A.T",
         "..d=   ............#=...",
@@ -113,7 +113,7 @@
     "nested_mapgen_id": "morlock_lair_mid_ring_b",
     "object": {
       "mapgensize": [ 24, 24 ],
-      "rotation": [0,3],
+      "rotation": [ 0, 3 ],
       "rows": [
         "...=#  =========..##=l..",
         "B..=#  =UUUUUUU=...#=l..",
