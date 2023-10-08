@@ -1,10 +1,30 @@
 [
   {
-    "id": "8x40_500_mag",
+    "//": "--------------------------------------------------------------------------------------------------------",
+    "id": "5x50_250_mag",
     "looks_like": "stanag30",
     "type": "MAGAZINE",
-    "name": { "str": "RMFB250 5x50mm magazine" },
-    "description": "A 500 round drum magazine for use with Rivtech 8x40mm caseless firearms.",
+    "name": { "str": "RMFB250 5x50mm drum magazine" },
+    "description": "A 250 round drum magazine for use with Rivtech 5x50 flechette firearms.",
+    "weight": "340 g",
+    "volume": "2 L",
+    "price": 70000,
+    "price_postapoc": 1000,
+    "material": [ "superalloy", "plastic" ],
+    "symbol": "#",
+    "color": "dark_gray",
+    "ammo_type": "5x50",
+    "capacity": 250,
+    "reliability": 10,
+    "reload_time": 60
+  },
+  {
+    "//": "--------------------------------------------------------------------------------------------------------",
+    "id": "5x50_500_mag",
+    "looks_like": "stanag30",
+    "type": "MAGAZINE",
+    "name": { "str": "RMFB500 5x50mm drum magazine" },
+    "description": "A 500 round drum magazine for use with Rivtech 5x50 flechette firearms.",
     "weight": "1400 g",
     "volume": "4 L",
     "price": 100000,
@@ -12,12 +32,29 @@
     "material": [ "superalloy", "plastic" ],
     "symbol": "#",
     "color": "dark_gray",
-    "ammo_type": "8x40mm",
+    "ammo_type": "5x50",
     "capacity": 500,
     "reliability": 10
-  },  
-  
+  },
   {
+    "id": "u_needlegun",
+    "type": "GUNMOD",
+    "name": { "str": "underslung flechette gun" },
+    "description": "A small underslung 'gun' that fires 5x50 flechette , which can be mounted under the barrel of many rifles.  It has an 10-round integrated magazine.",
+    "weight": "1250 g",
+    "volume": "750 ml",
+    "price": 650000,
+    "price_postapoc": 10000,
+    "material": [ "superalloy", "plastic" ],
+    "symbol": ":",
+    "color": "light_red",
+    "location": "underbarrel",
+    "mod_target_category": [ [ "RIFLES" ], [ "MACHINE_GUNS" ], [ "GATLING_GUNS" ], [ "M_XBOWS" ] ],
+    "gun_data": { "ammo": "5x50", "skill": "pistol", "dispersion": 225, "durability": 10, "clip_size": 10 },
+    "flags": [ "RELOAD_ONE" ]
+  },
+  {
+    "//": "--------------------------------------------------------------------------------------------------------",
     "id": "rm101_pistol",
     "copy-from": "pistol_base",
     "type": "GUN",
@@ -29,25 +66,20 @@
     "price_postapoc": 11000,
     "to_hit": -2,
     "bashing": 12,
-    "material": [ "superalloy", "ceramic" ],
+    "material": [ "superalloy", "plastic" ],
     "dispersion": 285,
     "durability": 9,
     "ranged_damage": { "damage_type": "bullet", "amount": 4 },
     "ammo": "20x66mm",
     "range": 6,
     "color": "dark_gray",
-    "clip_size": 1,	
-    "valid_mod_locations": [
-      [ "accessories", 2 ],
-      [ "barrel", 1 ],
-      [ "mechanism", 4 ],
-      [ "muzzle", 1 ],
-      [ "stock", 1 ]
-    ],
+    "clip_size": 1,
+    "valid_mod_locations": [ [ "accessories", 2 ], [ "barrel", 1 ], [ "mechanism", 4 ], [ "muzzle", 1 ], [ "stock", 1 ] ],
     "flags": [ "RELOAD_ONE", "WATERPROOF_GUN", "NEVER_JAMS" ],
     "faults": [  ]
   },
   {
+    "//": "--------------------------------------------------------------------------------------------------------",
     "id": "rm101_pistol",
     "copy-from": "pistol_base",
     "type": "GUN",
@@ -59,24 +91,20 @@
     "price_postapoc": 11000,
     "to_hit": -2,
     "bashing": 12,
-    "material": [ "superalloy", "ceramic" ],
+    "material": [ "superalloy", "wood" ],
     "dispersion": 285,
     "durability": 9,
     "ranged_damage": { "damage_type": "bullet", "amount": 4 },
     "ammo": "20x66mm",
     "range": 6,
     "color": "dark_gray",
-    "clip_size": 1,	
-    "valid_mod_locations": [
-      [ "accessories", 2 ],
-      [ "barrel", 1 ],
-      [ "mechanism", 4 ],
-      [ "muzzle", 1 ] 
-	  ],
+    "clip_size": 1,
+    "valid_mod_locations": [ [ "accessories", 2 ], [ "barrel", 1 ], [ "mechanism", 4 ], [ "muzzle", 1 ] ],
     "flags": [ "RELOAD_ONE", "WATERPROOF_GUN", "NEVER_JAMS" ],
     "faults": [  ]
   },
   {
+    "//": "--------------------------------------------------------------------------------------------------------",
     "id": "needle_rifle",
     "copy-from": "rifle_base",
     "type": "GUN",
@@ -114,8 +142,8 @@
     "flags": [ "WATERPROOF_GUN", "NEVER_JAMS" ],
     "faults": [  ]
   },
-  
   {
+    "//": "--------------------------------------------------------------------------------------------------------",
     "id": "needle_lmg",
     "copy-from": "mg_base",
     "type": "GUN",
@@ -149,11 +177,12 @@
       [ "underbarrel", 1 ]
     ],
     "magazine_well": "500 ml",
-    "magazines": [ [ "8x40mm", [ "8x40_250_mag", "8x40_500_mag" ] ] ],
+    "magazines": [ [ "5x50", [ "5x50_250_mag" ] ] ],
     "flags": [ "WATERPROOF_GUN", "NEVER_JAMS" ],
     "faults": [  ]
   },
   {
+    "//": "--------------------------------------------------------------------------------------------------------",
     "id": "needle_hmg",
     "copy-from": "mg_base",
     "type": "GUN",
@@ -171,30 +200,12 @@
     "ammo": "5x50",
     "color": "dark_gray",
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 6 ] ],
+    "valid_mod_locations": [ [ "barrel", 1 ], [ "grip", 1 ], [ "mechanism", 4 ], [ "rail", 1 ], [ "sights", 1 ], [ "sling", 1 ], [ "stock", 1 ] ],
     "handling": 15,
     "barrel_length": "1500 ml",
     "magazine_well": "1500 ml",
-    "valid_mod_locations": [ [ "barrel", 1 ], [ "grip", 1 ], [ "mechanism", 4 ], [ "rail", 1 ], [ "sights", 1 ], [ "sling", 1 ], [ "stock", 1 ] ],
-    "magazines": [ [ "8x40mm", [ "8x40_500_mag", "8x40_250_mag" ] ] ],
+    "magazines": [ [ "5x50", [ "5x50_100_mag", "5x50_250_mag", "5x50_500_mag" ] ] ],
     "flags": [ "WATERPROOF_GUN", "NEVER_JAMS" ],
     "faults": [  ]
   }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-
-
 ]

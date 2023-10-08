@@ -20,7 +20,12 @@
     "encumbrance": 25,
     "warmth": 25,
     "material_thickness": 3,
-    "use_action": { "type": "transform", "target": "roller_boots_quad", "msg": "You pop the wheels into roller-skating style.", "moves": 1500 },
+    "use_action": {
+      "type": "transform",
+      "target": "roller_boots_quad",
+      "msg": "You pop the wheels into roller-skating style.",
+      "moves": 1500
+    },
     "flags": [ "VARSIZE", "REQUIRES_BALANCE" ]
   },
   {
@@ -43,7 +48,12 @@
     "encumbrance": 25,
     "warmth": 25,
     "material_thickness": 3,
-    "use_action": { "type": "transform", "target": "roller_boots_inline", "msg": "You pop the wheels into inline-skating style.", "moves": 1500 },
+    "use_action": {
+      "type": "transform",
+      "target": "roller_boots_inline",
+      "msg": "You pop the wheels into inline-skating style.",
+      "moves": 1500
+    },
     "flags": [ "VARSIZE", "ROLLER_QUAD", "REQUIRES_BALANCE" ]
   },
   {
@@ -80,7 +90,7 @@
     "price": 100,
     "price_postapoc": 10,
     "material": [ "bone", "leather" ],
-    "flags": [ "FANCY" , "TRADER_AVOID"],
+    "flags": [ "FANCY", "TRADER_AVOID" ],
     "symbol": "u",
     "color": "white",
     "use_action": "MEDITATE"

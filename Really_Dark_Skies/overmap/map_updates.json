@@ -7,8 +7,6 @@
       "place_npcs": [ { "class": "DKZ_MAQUIS_QUARTERMASTER", "x": 14, "y": 14, "add_trait": [ "DKZ_LEADER", "DKZ_TEAM_LEADER" ] } ]
     }
   },
-  
-  
   {
     "type": "mapgen",
     "method": "json",
@@ -22,12 +20,6 @@
       ]
     }
   },
-  
-  
-  
-  
-  
-  
   {
     "type": "mapgen",
     "method": "json",

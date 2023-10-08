@@ -117,7 +117,6 @@
         { "class": "DKZ_MAQUIS_TROG_MUTANT", "x": 73, "y": 75, "add_trait": [ "DKZ_LEADER" ] },
         { "class": "DKZ_MAQUIS_BEAST_MUTANT", "x": 82, "y": 81, "add_trait": [ "DKZ_COMBAT" ] }
       ],
-
       "place_monster": [ { "monster": "mon_albino_penguin", "x": [ 68, 68 ], "y": [ 90, 90 ], "repeat": [ 3, 4 ] } ],
       "furniture": { "b": "f_hanging_meathook", "B": "f_butcher_rack" },
       "item": { "B": { "item": "knife_butcher", "chance": 75 } },

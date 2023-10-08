@@ -30,21 +30,13 @@
         "    t                   ",
         "               r        "
       ],
-      "terrain": {
-        "t": "t_stump",
-        "T": "t_trunk",
-        "x": "t_pit_shallow",
-        "R": "t_pit",
-        "X": "t_pit",
-        "z": "t_dirt",
-        "Z": "t_dirt"
-      },
+      "terrain": { "t": "t_stump", "T": "t_trunk", "x": "t_pit_shallow", "R": "t_pit", "X": "t_pit", "z": "t_dirt", "Z": "t_dirt" },
       "place_npcs": [
         { "class": "DKZ_QUISLING_THUG", "x": 13, "y": 13, "add_trait": "DKZ_QUISLING" },
         { "class": "DKZ_QUISLING_THUG", "x": 13, "y": 12, "add_trait": "DKZ_QUISLING" },
         { "class": "DKZ_QUISLING_THUG", "x": 12, "y": 12, "add_trait": "DKZ_QUISLING" },
         { "class": "DKZ_QUISLING_BANDIT", "x": 12, "y": 13, "add_trait": "DKZ_QUISLING" }
-      ],	  
+      ],
       "furniture": { "x": "f_null", "X": "f_null", "R": "f_null" },
       "monster": {
         "X": { "monster": "dkz_xenoid_ranger" },
@@ -59,7 +51,7 @@
     "type": "mapgen",
     "method": "json",
     "update_mapgen_id": "xenoid_dropsite_forest_five",
-    "object": {	
+    "object": {
       "rows": [
         "                        ",
         "            r        r  ",
@@ -86,19 +78,11 @@
         "                        ",
         "                        "
       ],
-      "terrain": {
-        "t": "t_stump",
-        "T": "t_trunk",
-        "x": "t_pit_shallow",
-        "R": "t_pit",
-        "X": "t_pit",
-        "z": "t_dirt",
-        "Z": "t_dirt"
-      },
+      "terrain": { "t": "t_stump", "T": "t_trunk", "x": "t_pit_shallow", "R": "t_pit", "X": "t_pit", "z": "t_dirt", "Z": "t_dirt" },
       "place_npcs": [
         { "class": "DKZ_QUISLING_THUG", "x": 12, "y": 12, "add_trait": "DKZ_QUISLING" },
         { "class": "DKZ_QUISLING_BANDIT", "x": 12, "y": 13, "add_trait": "DKZ_QUISLING" }
-      ],	  
+      ],
       "furniture": { "x": "f_null", "X": "f_null", "R": "f_null" },
       "monster": {
         "X": { "monster": "dkz_xenoid_ranger" },

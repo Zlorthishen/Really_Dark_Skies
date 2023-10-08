@@ -124,7 +124,15 @@
   {
     "type": "mapgen",
     "method": "json",
-    "om_terrain": [ [ "racing_arcology_parking_1", "racing_arcology_parking_2", "racing_arcology_parking_3", "racing_arcology_parking_4", "racing_arcology_parking_5" ] ],
+    "om_terrain": [
+      [
+        "racing_arcology_parking_1",
+        "racing_arcology_parking_2",
+        "racing_arcology_parking_3",
+        "racing_arcology_parking_4",
+        "racing_arcology_parking_5"
+      ]
+    ],
     "weight": 1,
     "object": {
       "fill_ter": "t_sidewalk",
