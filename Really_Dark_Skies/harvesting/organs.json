@@ -133,7 +133,7 @@
     "healthy": -19,
     "price_postapoc": 25,
     "quench": -5,
-    "fun": -50,	
+    "fun": -50,
     "calories": 54,
     "vitamins": [ [ "vitA", 6 ], [ "vitC", 2 ], [ "calcium", 0 ], [ "iron", 8 ], [ "vitB", 155 ] ]
   },
@@ -148,7 +148,7 @@
     "healthy": -11,
     "price_postapoc": 25,
     "quench": -7,
-    "fun": -20,	
+    "fun": -20,
     "calories": 33,
     "vitamins": [ [ "vitA", 11 ], [ "vitC", 233 ], [ "calcium", 7 ], [ "iron", 77 ], [ "vitB", 1 ] ]
   },
@@ -217,5 +217,5 @@
     "symbol": ",",
     "color": "light_gray",
     "flags": [ "NO_SALVAGE" ]
-  }  
+  }
 ]
