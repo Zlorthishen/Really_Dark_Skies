@@ -91,8 +91,7 @@
     "color": "light_gray",
     "valid_mod_locations": [ [ "accessories", 1 ], [ "mechanism", 1 ] ],
     "flags": [ "WATERPROOF_GUN" ],
-    "clip_size": 2,
-    "magazines": [ [ "8x40mm" ] ]
+    "clip_size": 2
   },
   {
     "//": "--------------------------------------------------------------------------------------------------------",
@@ -267,7 +266,7 @@
     "handling": 15,
     "barrel_length": "1500 ml",
     "magazine_well": "1500 ml",
-    "magazines": [ [ "5x50", [ "5x50_100_mag", "5x50_250_mag", "5x50_500_mag" ] ] ],
+    "magazines": [ [ "5x50", [ "5x50_250_mag", "5x50_500_mag" ] ] ],
     "flags": [ "WATERPROOF_GUN", "NEVER_JAMS" ],
     "faults": [  ]
   }
