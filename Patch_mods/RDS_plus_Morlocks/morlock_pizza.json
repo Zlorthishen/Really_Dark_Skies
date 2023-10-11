@@ -39,7 +39,7 @@
     "volume": "1 L",
     "charges": 4,
     "flags": [ "EATEN_COLD", "EATEN_HOT" ],
-    "fun": 15,
+    "fun": 1,
     "vitamins": [ [ "vitA", 12 ], [ "vitC", 4 ], [ "calcium", 25 ], [ "iron", 23 ] ]
   },
   {
@@ -82,7 +82,7 @@
     "volume": "1 L",
     "charges": 4,
     "flags": [ "EATEN_COLD", "EATEN_HOT" ],
-    "fun": 15,
+    "fun": 1,
     "vitamins": [ [ "vitA", 12 ], [ "vitC", 4 ], [ "calcium", 25 ], [ "iron", 23 ] ]
   },
   {
@@ -125,7 +125,7 @@
     "volume": "1 L",
     "charges": 4,
     "flags": [ "EATEN_COLD", "EATEN_HOT" ],
-    "fun": 15,
+    "fun": 1,
     "vitamins": [ [ "vitA", 12 ], [ "vitC", 4 ], [ "calcium", 25 ], [ "iron", 23 ] ]
   },
   {
@@ -168,7 +168,7 @@
     "volume": "1 L",
     "charges": 4,
     "flags": [ "EATEN_COLD", "EATEN_HOT" ],
-    "fun": 17,
+    "fun": 2,
     "vitamins": [ [ "vitA", 12 ], [ "vitC", 4 ], [ "calcium", 25 ], [ "iron", 23 ] ]
   },
   {
@@ -211,7 +211,7 @@
     "volume": "1 L",
     "charges": 4,
     "flags": [ "EATEN_COLD", "EATEN_HOT" ],
-    "fun": 15,
+    "fun": 1,
     "vitamins": [ [ "vitA", 12 ], [ "vitC", 4 ], [ "calcium", 25 ], [ "iron", 23 ] ]
   },
   {
@@ -255,7 +255,7 @@
     "volume": "1 L",
     "charges": 4,
     "flags": [ "EATEN_COLD", "EATEN_HOT" ],
-    "fun": 15,
+    "fun": 1,
     "vitamins": [ [ "vitA", 12 ], [ "vitC", 4 ], [ "calcium", 25 ], [ "iron", 23 ] ]
   },
   {
@@ -298,7 +298,7 @@
     "volume": "1 L",
     "charges": 4,
     "flags": [ "EATEN_COLD", "EATEN_HOT" ],
-    "fun": 15,
+    "fun": 1,
     "vitamins": [ [ "vitA", 12 ], [ "vitC", 4 ], [ "calcium", 25 ], [ "iron", 23 ] ]
   },
   {
@@ -341,7 +341,7 @@
     "volume": "1 L",
     "charges": 4,
     "flags": [ "EATEN_COLD", "EATEN_HOT" ],
-    "fun": 15,
+    "fun": 1,
     "vitamins": [ [ "vitA", 12 ], [ "vitC", 4 ], [ "calcium", 25 ], [ "iron", 23 ] ]
   },
   {
@@ -470,7 +470,7 @@
     "volume": "1 L",
     "charges": 4,
     "flags": [ "EATEN_COLD", "EATEN_HOT" ],
-    "fun": 20,
+    "fun": 5,
     "vitamins": [ [ "vitA", 12 ], [ "vitC", 4 ], [ "calcium", 25 ], [ "iron", 23 ] ]
   },
   {
