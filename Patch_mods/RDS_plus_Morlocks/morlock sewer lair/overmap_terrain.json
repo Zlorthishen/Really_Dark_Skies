@@ -263,7 +263,7 @@
   {
     "type": "overmap_terrain",
     "id": "morlock_lair_mid_k",
-    "name": "Morlock Old Barracks",
+    "name": "Morlock Clinic",
     "sym": "M",
     "mondensity": 0,
     "color": "i_light_blue",
