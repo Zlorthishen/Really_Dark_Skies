@@ -1,0 +1,21 @@
+[
+  {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
+    "id": "TALK_MORLOCK_JASON_ALBRIGHT_ROOT",
+    "type": "talk_topic",
+    "dynamic_line": {
+      "u_is_wearing": "badge_marshal",
+      "yes": [ "Are you lost, marshal?", "Don't start any trouble marshal, you aren't the law anymore." ],
+      "no": [ "Don't cause any trouble here, I'd rather kill monsters than people.", "Safe travels." ]
+    },
+    "responses": [
+      {
+        "text": "Lets set a combat strategy…",
+        "condition": { "npc_has_var": "temporal_follower", "type": "general", "context": "maquis", "value": "yes" },
+        "topic": "TALK_COMBAT_COMMANDS"
+      },
+
+      { "text": "See you later.", "topic": "TALK_DONE" }
+    ]
+  }
+]

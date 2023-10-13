@@ -1,0 +1,85 @@
+[
+  {
+    "type": "npc",
+    "id": "DKZ_MORLOCK_JASON_ALBRIGHT",
+    "class": "NC_MORLOCK_JASON_ALBRIGHT",
+    "attitude": 0,
+    "mission": 7,
+    "chat": "TALK_MORLOCK_JASON_ALBRIGHT_ROOT",
+    "gender": "male",
+    "faction": "maquis"
+  },
+  {
+    "type": "npc_class",
+    "id": "NC_MORLOCK_JASON_ALBRIGHT",
+    "name": { "str": "Morlock Mutant Weapons Master" },
+    "job_description": "I'm to eat pizza and kick xenoids off the surface.",
+    "common": false,
+    "traits": [
+      { "trait": "DKZ_COMBAT", "prob": 100 },
+      { "trait": "THRESH_CEPHALOPOD", "prob": 100 },
+      { "trait": "GILLS_CEPH", "prob": 100 },
+      { "trait": "MARTIAL_ARTS5", "prob": 100 },
+      { "trait": "MEATARIAN", "prob": 100 },
+      { "trait": "PARKOUR", "prob": 100 },
+      { "trait": "CEPH_EYES", "prob": 100 },
+      { "trait": "CEPH_VISION", "prob": 100 },
+      { "trait": "PROF_MA_ORANGE", "prob": 100 },
+      { "trait": "LEG_TENTACLES", "prob": 100 },
+      { "trait": "LEG_TENT_BRACE", "prob": 100 },
+      { "trait": "SHELL2", "prob": 100 },
+      { "trait": "INK_GLANDS", "prob": 100 },
+      { "trait": "HUNGER", "prob": 100 },
+      { "trait": "SLEEK_SCALES", "prob": 100 }	 
+    ],
+    "skills": [
+      { "skill": "ALL", "level": { "sum": [ { "dice": [ 3, 2 ] }, { "constant": -4 } ] } },
+      { "skill": "survival", "bonus": { "rng": [ 2, 3 ] } },
+      { "skill": "firstaid", "bonus": { "rng": [ 1, 2 ] } },
+      { "skill": "dodge", "bonus": { "rng": [ 2, 3 ] } },
+      { "skill": "melee", "bonus": { "rng": [ 4, 5 ] } },
+      { "skill": "unarmed", "bonus": { "rng": [ 4, 5 ] } },
+      { "skill": "bashing", "bonus": { "rng": [ 2, 4 ] } },
+      { "skill": "stabbing", "bonus": { "rng": [ 3, 5 ] } },
+      { "skill": "cutting", "bonus": { "rng": [ 3, 5 ] } },
+      { "skill": "gun", "bonus": { "rng": [ 0, 1 ] } },
+      { "skill": "shotgun", "bonus": { "rng": [ 0, 1 ] } },
+      { "skill": "pistol", "bonus": { "rng": [ 0, 1 ] } },
+      { "skill": "rifle", "bonus": { "rng": [ 0, 1 ] } }
+    ],
+
+    "worn_override": "NC_MORLOCK_JASON_ALBRIGHT_worn",
+    "carry_override": "NC_MORLOCK_JASON_ALBRIGHT_carry",
+    "bonus_str": { "rng": [ 3, 5 ] },
+    "bonus_dex": { "rng": [ 3, 5 ] },
+    "bonus_int": { "rng": [ -2, -1 ] },
+    "bonus_per": { "rng": [ 2, 3 ] }
+  },
+  {
+    "id": "NC_MORLOCK_JASON_ALBRIGHT_worn",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "loincloth" },
+      { "item": "elbow_pads" },
+      { "item": "pants_leather" },
+      { "item": "bscabbard" },
+      { "item": "crt_legguard" },
+	  
+      { "group": "charged_two_way_radio" },
+      { "item": "knife_butcher", "container-item": "sheath" },
+      {
+        "item": "light_minus_battery_cell",
+        "ammo-item": "battery",
+        "charges": 150,
+        "container-item": "dkz_zenture_industries_premium_zwatch"
+      }
+    ]
+  },
+    {
+    "id": "NC_MORLOCK_JASON_ALBRIGHT_carry",
+    "type": "item_group",
+    "subtype": "collection",
+    "items": [ { "item": "camera" } ]
+  }
+]
