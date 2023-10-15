@@ -396,9 +396,9 @@
       { "id": "shieldbash" },
       {
         "type": "spell",
-        "spell_data": { "id": "dkz_monspell_stun" },
-        "cooldown": 13,
-        "monster_message": "<color_pink>%1$s gesticulates at %3$s and a pulse of disorienting psionic energy ripples through the air!</color>"
+        "spell_data": { "id": "dkz_monspell_panic" },
+        "cooldown": 11,
+        "monster_message": "<color_pink>The %1$s gesticulates at %3$s and a pulse of fear-inducing psionic energy ripples through the air!</color>"
       },
       {
         "type": "gun",
@@ -471,9 +471,9 @@
       { "id": "shieldbash" },
       {
         "type": "spell",
-        "spell_data": { "id": "dkz_monspell_panic" },
-        "cooldown": 4,
-        "monster_message": "<color_pink>The %1$s gesticulates at %3$s and a pulse of fear-inducing psionic energy ripples through the air!</color>"
+        "spell_data": { "id": "dkz_monspell_stun" },
+        "cooldown": 13,
+        "monster_message": "<color_pink>%1$s gesticulates at %3$s and a pulse of disorienting psionic energy ripples through the air!</color>"
       },
       {
         "type": "gun",
@@ -851,9 +851,9 @@
       [ "BIO_OP_DISARM", 10 ],
       {
         "type": "spell",
-        "spell_data": { "id": "dkz_monspell_stun" },
-        "cooldown": 7,
-        "monster_message": "<color_pink>%1$s gesticulates at %3$s and a pulse of disorienting psionic energy ripples through the air!</color>"
+        "spell_data": { "id": "dkz_monspell_panic" },
+        "cooldown": 4,
+        "monster_message": "<color_pink>The %1$s gesticulates at %3$s and a pulse of fear-inducing psionic energy ripples through the air!</color>"
       },
       {
         "type": "gun",
@@ -928,9 +928,9 @@
       [ "BIO_OP_TAKEDOWN", 15 ],
       {
         "type": "spell",
-        "spell_data": { "id": "dkz_monspell_panic" },
-        "cooldown": 3,
-        "monster_message": "<color_pink>The %1$s gesticulates at %3$s and a pulse of fear-inducing psionic energy ripples through the air!</color>"
+        "spell_data": { "id": "dkz_monspell_stun" },
+        "cooldown": 7,
+        "monster_message": "<color_pink>%1$s gesticulates at %3$s and a pulse of disorienting psionic energy ripples through the air!</color>"
       },
       {
         "type": "gun",
