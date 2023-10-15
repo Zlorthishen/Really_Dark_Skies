@@ -22,13 +22,13 @@
       },
       "update_mapgen": { "place_npcs": [ { "class": "DKZ_CHAD_ERIKSON", "x": 5, "y": 5, "target": true } ] },
       "effect": [
-	    { "u_faction_rep": -1 },
+        { "u_faction_rep": -1 },
         { "u_add_var": "MrEriksonExists", "type": "knowledge", "context": "flag", "value": "yes" },
         { "u_add_var": "Rendezvous_to_base", "type": "knowledge", "context": "flag", "value": "yes" }
       ]
     },
     "origins": [ "ORIGIN_GAME_START" ]
-  },  
+  },
   {
     "//": "----| STARTING SCENARIO MISSION for The Sky is Falling ----------------------------------------------------------------",
     "id": "DKZ_MAQUIS_IS_RECRUITING",
@@ -123,7 +123,7 @@
       "success_lie": "Well where is it?",
       "failure": "Disappointing."
     }
-  },  
+  },
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "DKZ_MAQUIS_KILL_12_XENOIDS",
@@ -139,10 +139,7 @@
     "value": 125000,
     "origins": [ "ORIGIN_SECONDARY" ],
     "start": {
-      "effect": [
-        "follow_only",
-        { "npc_add_var": "temporal_follower", "type": "general", "context": "maquis", "value": "yes" }
-      ]
+      "effect": [ "follow_only", { "npc_add_var": "temporal_follower", "type": "general", "context": "maquis", "value": "yes" } ]
     },
     "end": {
       "effect": [
@@ -178,15 +175,12 @@
     "value": 25000,
     "origins": [ "ORIGIN_SECONDARY" ],
     "start": {
-      "effect": [
-        "follow_only",
-        { "npc_add_var": "temporal_follower", "type": "general", "context": "maquis", "value": "yes" }
-      ]
+      "effect": [ "follow_only", { "npc_add_var": "temporal_follower", "type": "general", "context": "maquis", "value": "yes" } ]
     },
     "followup": "DKZ_MAQUIS_RETURN_z0_2_2",
     "end": {
       "effect": [
-	    { "u_faction_rep": 1 },	  
+        { "u_faction_rep": 1 },
         { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 1 },
         { "u_add_var": "Maquis_Guard_Mission1", "type": "mission", "context": "flag", "value": "yes" },
         { "add_mission": "DKZ_MAQUIS_RETURN_z0_2_2" }
@@ -348,24 +342,18 @@
   },
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
-
     "id": "DKZ_MAQUIS_FELINE_MUTANT_FIND_CAT",
     "type": "mission_definition",
     "name": { "str": "'Lucky' Save" },
-
-    "description": "Find the famous internet meme cat.",	
+    "description": "Find the famous internet meme cat.",
     "goal": "MGOAL_FIND_MONSTER",
     "difficulty": 4,
     "value": 100000,
     "origins": [ "ORIGIN_SECONDARY" ],
     "has_generic_rewards": false,
-    "followup": "DKZ_MAQUIS_RETURN_z0_2_2",	
-	
+    "followup": "DKZ_MAQUIS_RETURN_z0_2_2",
     "start": {
-      "effect": [
-        "follow_only",
-        { "npc_add_var": "temporal_follower", "type": "general", "context": "maquis", "value": "yes" }
-      ],	
+      "effect": [ "follow_only", { "npc_add_var": "temporal_follower", "type": "general", "context": "maquis", "value": "yes" } ],
       "assign_mission_target": { "om_terrain": "trailhead", "reveal_radius": 5, "random": true, "search_range": 100, "min_distance": 25 },
       "update_mapgen": {
         "place_monster": [
@@ -392,7 +380,7 @@
       "success_lie": "What?!  You're lying, I can tell!  Did you even bring a cage?",
       "failure": "Oh no!  I guess they are too much for you…"
     }
-  },  
+  },
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "MISSION_OPERATION_SCIENCE_FIELD_TRIP",
@@ -417,7 +405,7 @@
     },
     "end": {
       "effect": [
-	    { "u_faction_rep": 5 },	  
+        { "u_faction_rep": 5 },
         { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 25 },
         { "u_adjust_var": "maquis_recruit", "type": "counter", "context": "combat_recruit", "adjustment": 0 }
       ]
@@ -719,7 +707,7 @@
     "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "DKZ_MAQUIS_ENGINEER_MISSION_2",
     "type": "mission_definition",
-    "name": { "str": "Looking for hackPRO exploit scripts" },
+    "name": { "str": "Looking for hackPRO" },
     "description": "Find the last hackPRO exploits and hacks",
     "goal": "MGOAL_FIND_ITEM",
     "difficulty": 6,
@@ -742,38 +730,6 @@
       "advice": "The best place would probably be a goverment research lab, but then again things like this seem to end up in the trash all the time.  Just keep your eyes open for a USB drive that displays the content as 'hackPRO'.",
       "inquire": "How is the search going?",
       "success": "Thanks.",
-      "success_lie": "What good does this do us?",
-      "failure": "I wonder where it all went…"
-    }
-  },
-  {
-    "//": "-----------------------------------------------------------------------------------------------------------------------",
-    "id": "DKZ_MAQUIS_MECHANIC_MOTOR_OIL_MISSION_1",
-    "type": "mission_definition",
-    "name": { "str": "Time for an oil change" },
-    "description": "Find six quarts of new motor oil in exchange for <reward_count:FMCNote> certified notes.",
-    "goal": "MGOAL_FIND_ITEM",
-    "difficulty": 3,
-    "value": 20000,
-    "item": "motor_oil",
-    "count": 6,
-    "end": {
-      "effect": [
-        { "u_buy_item": "FMCNote", "count": 19 },
-        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "refugee_center", "adjustment": 1 },
-        { "npc_add_var": "Maquis_Mechanic_Mission1", "type": "mission", "context": "flag", "value": "yes" }
-      ]
-    },
-    "followup": "DKZ_MAQUIS_MECHANIC_MOTOR_OIL_MISSION_1",
-    "origins": [ "ORIGIN_SECONDARY" ],
-    "dialogue": {
-      "describe": "I need you to find me something.",
-      "offer": "I'm working on getting an old truck running, but I need a good six quarts of new motor oil to get it up and running again.  I even have some of the new money for your troubles.",
-      "accepted": "Thank you.  Motor oil is getting very hard to come by anymore.",
-      "rejected": "Oh well.  I'll see if I can find another supplier, thanks.",
-      "advice": "A gas station, house garage, there's plenty of places to look.",
-      "inquire": "How is the search going?",
-      "success": "Thanks.  Here's your payment.",
       "success_lie": "What good does this do us?",
       "failure": "I wonder where it all went…"
     }
