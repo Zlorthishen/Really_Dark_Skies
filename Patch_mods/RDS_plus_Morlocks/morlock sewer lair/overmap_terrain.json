@@ -203,7 +203,7 @@
   {
     "type": "overmap_terrain",
     "id": "morlock_lair_mid_e",
-    "name": "Morlock Lair Inner Sanctum",
+    "name": "Morlock's Inner Sanctum",
     "sym": "M",
     "mondensity": 0,
     "color": "i_light_blue",
@@ -213,7 +213,7 @@
   {
     "type": "overmap_terrain",
     "id": "morlock_lair_mid_f",
-    "name": "Morlock 'Sewer Pizzeria'",
+    "name": "'Sewer Pizzeria'",
     "sym": "M",
     "mondensity": 0,
     "color": "i_light_blue",
@@ -253,7 +253,7 @@
   {
     "type": "overmap_terrain",
     "id": "morlock_lair_mid_j",
-    "name": "Morlock Hive Warren",
+    "name": "Hive Warren",
     "sym": "M",
     "mondensity": 0,
     "color": "i_light_blue",
@@ -263,7 +263,7 @@
   {
     "type": "overmap_terrain",
     "id": "morlock_lair_mid_k",
-    "name": "Morlock Clinic",
+    "name": "The Underground Clinic",
     "sym": "M",
     "mondensity": 0,
     "color": "i_light_blue",
@@ -273,7 +273,7 @@
   {
     "type": "overmap_terrain",
     "id": "morlock_lair_mid_l",
-    "name": "Morlock Used Book Store",
+    "name": "Very-Used Book Store",
     "sym": "M",
     "mondensity": 0,
     "color": "i_light_blue",
@@ -333,7 +333,7 @@
   {
     "type": "overmap_terrain",
     "id": "morlock_lair_corner_c",
-    "name": "Morlock Lair Squatters Zone",
+    "name": "Unfriendly Squatters Zone",
     "sym": "M",
     "mondensity": 0,
     "color": "i_light_green",
