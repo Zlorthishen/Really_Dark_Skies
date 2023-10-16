@@ -80,6 +80,6 @@
     "id": "NC_MORLOCK_JASON_ALBRIGHT_carry",
     "type": "item_group",
     "subtype": "collection",
-    "items": [ { "item": "camera" } ]
+    "items": [ { "item": "zweihander" } ]
   }
 ]

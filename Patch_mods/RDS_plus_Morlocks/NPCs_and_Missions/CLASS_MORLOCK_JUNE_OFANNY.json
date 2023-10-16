@@ -65,15 +65,13 @@
     "entries": [
       { "item": "boxer_shorts" },
       { "item": "socks" },
-      { "item": "roller_shoes_off" },
+      { "item": "roller_shoes_on" },
       { "item": "tshirt_tour" },
       { "item": "pants_leather" },
       { "item": "jacket_leather" },
       { "item": "fancy_sunglasses" },
       { "item": "backpack_leather" },
-      { "item": "usp_9mm", "ammo-item": "9mmfmj", "charges": 15, "container-item": "holster" },
       { "group": "charged_two_way_radio" },
-      { "item": "knife_combat", "container-item": "sheath" },
       {
         "item": "light_minus_battery_cell",
         "ammo-item": "battery",

@@ -45,7 +45,6 @@
             { "not": { "u_has_var": "u_saved_June_OFanny", "type": "general", "context": "maquis", "value": "yes" } }
           ]
         },
-        "opinion": { "trust": 2, "value": 5 },
         "topic": "TALK_MORLOCK_JUNE_OFANNY_RESCUE"
       },
       {
@@ -60,7 +59,16 @@
         "topic": "TALK_MORLOCK_JUNE_OFANNY_ESCORT_DONE"
       },
       { "text": "About that mission…", "topic": "TALK_MISSION_INQUIRE", "condition": "has_assigned_mission" },
-      { "text": "Alright, lets get going.", "topic": "TALK_DONE" }
+      {
+        "text": "Alright, lets get going.",
+        "condition": {
+          "and": [
+            { "not": { "u_has_mission": "DKZ_MORLOCK_RESCUE_JUNE_OFANNY" } },
+            { "not": { "u_has_var": "u_saved_June_OFanny", "type": "general", "context": "maquis", "value": "yes" } }
+          ]
+        },
+        "topic": "TALK_DONE"
+      }
     ]
   },
   {
@@ -81,10 +89,14 @@
     "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MORLOCK_JUNE_OFANNY_RESCUE",
     "type": "talk_topic",
-    "dynamic_line": [ "I want to get back down to the safety of the sewer." ],
+    "dynamic_line": [
+      "I want to get back down to the safety of the sewer, but I'm not any use in a fight.  Please make sure the way down to the basement is clear."
+    ],
     "responses": [
+      { "text": "Alright, I will go and clear the way and be back soon.", "topic": "TALK_DONE" },
       {
-        "text": "OK, Let's go.",
+        "text": "The way is clear, lets go.",
+        "opinion": { "trust": 2, "value": 5 },		
         "effect": [ "follow_only", { "npc_add_var": "temporal_follower", "type": "general", "context": "maquis", "value": "yes" } ],
         "topic": "TALK_DONE"
       }
