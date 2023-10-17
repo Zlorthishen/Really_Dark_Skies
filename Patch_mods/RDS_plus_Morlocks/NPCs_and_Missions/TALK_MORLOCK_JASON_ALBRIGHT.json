@@ -4,7 +4,7 @@
     "id": "TALK_MORLOCK_JASON_ALBRIGHT_FIRST",
     "type": "talk_topic",
     "dynamic_line": [
-      "I wish there was more time for you to have trained, but extraordinary times call for extraordinary measures.  You must rescue June O'Fanny from the top of the Channel 4 News Building."
+      "I wish there was more time for you to have trained, but these extraordinary times call for extraordinary measures.  You must rescue June O'Fanny from the top of the Channel 4 News Building."
     ],
     "responses": [
       {
@@ -79,10 +79,16 @@
     "id": "TALK_MORLOCK_JASON_ALBRIGHT_ABOUT_RESCUE",
     "type": "talk_topic",
     "dynamic_line": [
-      "June O'Fanny has sent me a message saying that she is trapped in the panic room on the top floor of the Channel 4 News Building.  She tells me that the building has been attacked by a powerful force of Xenoid aliens.  She doesn't have any food or water in that room so if you fail to save her, she has vital informationt that could help turn the tide in this, cataclysm.  Do you have any questions or are you ready to go?"
+      "June O'Fanny has sent me a message saying that she is trapped in the panic room on the top floor of the Channel 4 News Building.  She tells me that the building has been attacked by a powerful force of Xenoid aliens.  She doesn't have any food or water in that room so if you fail to save her, she has vital information that could help turn the tide in this, cataclysm.  Do you have any questions or are you ready to go?"
     ],
     "responses": [
       { "text": "What is the best way to get to her?", "topic": "TALK_MORLOCK_JASON_ALBRIGHT_ABOUT_ROUTE" },
+      { "text": "Do you have any advice for this mission?", "topic": "TALK_MORLOCK_JASON_ALBRIGHT_RESCUE_ADVICE" },
+      {
+        "text": "[INT 13] What vital information does she have?",
+        "topic": "TALK_MORLOCK_JASON_ALBRIGHT_ASK_INTEL",
+        "condition": { "u_has_intelligence": 13 }
+      },
       { "text": "I'm have another question.", "topic": "TALK_NONE" },
       { "text": "I'm ready to go.", "topic": "TALK_DONE" }
     ]
@@ -94,6 +100,22 @@
     "dynamic_line": [
       "Well the Channel 4 News Building is built directly above the inner sanctum here, so you don't have far to go.  The parking garage is connected to the larger sewer system.  Once you get in the basement parking garage its easy enough to climb up the elevator shaft to the roof of the building."
     ],
+    "responses": [ { "text": "I'm have another question.", "topic": "TALK_NONE" }, { "text": "I'm ready to go.", "topic": "TALK_DONE" } ]
+  },
+  {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
+    "id": "TALK_MORLOCK_JASON_ALBRIGHT_RESCUE_ADVICE",
+    "type": "talk_topic",
+    "dynamic_line": [
+      "There are a few weapons scattered around this mat here, and all of the old adobe houses are derelict and available real-estate, however there are a few places around here where folks might get angry if you grab their stuff."
+    ],
+    "responses": [ { "text": "I'm have another question.", "topic": "TALK_NONE" }, { "text": "I'm ready to go.", "topic": "TALK_DONE" } ]
+  },
+  {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
+    "id": "TALK_MORLOCK_JASON_ALBRIGHT_ASK_INTEL",
+    "type": "talk_topic",
+    "dynamic_line": [ "Thats a question we will have to ask June O'Fanny when she is safely back down here." ],
     "responses": [ { "text": "I'm have another question.", "topic": "TALK_NONE" }, { "text": "I'm ready to go.", "topic": "TALK_DONE" } ]
   }
 ]
