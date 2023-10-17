@@ -52,7 +52,7 @@
             { "u_has_var": "u_saved_June_OFanny", "type": "general", "context": "maquis", "value": "yes" }
           ]
         },
-        "topic": "TALK_MISSION_LIST"
+        "topic": "TALK_MORLOCK_JASON_ALBRIGHT_SEWER_OVERFLOW"
       },
       {
         "text": "Can you tell me about my first [MISSION] again?",
@@ -128,5 +128,22 @@
     "type": "talk_topic",
     "dynamic_line": [ "Thats a question we will have to ask June O'Fanny when she is safely back down here." ],
     "responses": [ { "text": "I'm have another question.", "topic": "TALK_NONE" }, { "text": "I'm ready to go.", "topic": "TALK_DONE" } ]
+  },
+  {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
+    "id": "TALK_MORLOCK_JASON_ALBRIGHT_SEWER_OVERFLOW",
+    "type": "talk_topic",
+    "dynamic_line": [ "Now that June O'Fanny is safe, you must make contact with another resistance cell, are you ready for a fairly long journey?" ],
+    "responses": [
+      { "text": "I have something else to do first.", "topic": "TALK_DONE" },
+      {
+        "text": "I'm ready to go right now.",
+        "effect": [
+          { "u_adjust_var": "maquis_morale", "type": "counter", "context": "morlock_lair", "adjustment": 2 },
+          { "add_mission": "DKZ_SEWER_OVERFLOW" }
+        ],
+        "topic": "TALK_DONE"
+      }
+    ]
   }
 ]

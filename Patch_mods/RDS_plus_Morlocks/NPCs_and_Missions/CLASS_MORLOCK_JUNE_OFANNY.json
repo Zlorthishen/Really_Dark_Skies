@@ -70,11 +70,10 @@
       { "item": "jacket_leather" },
       { "item": "fancy_sunglasses" },
       { "item": "backpack_leather" },
-      { "group": "charged_two_way_radio" },
       {
         "item": "light_minus_battery_cell",
         "ammo-item": "battery",
-        "charges": 150,
+        "charges": 0,
         "container-item": "dkz_zenture_industries_premium_zwatch"
       }
     ]
