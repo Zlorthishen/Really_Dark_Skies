@@ -4,11 +4,11 @@
     "id": "TALK_MORLOCK_JASON_ALBRIGHT_FIRST",
     "type": "talk_topic",
     "dynamic_line": [
-      "I wish there was more time for you to have trained, but extraordinary times call for extraordinary measures.  You must save June O'Fanny from certain death."
+      "I wish there was more time for you to have trained, but extraordinary times call for extraordinary measures.  You must rescue June O'Fanny from the top of the Channel 4 News Building."
     ],
     "responses": [
       {
-        "text": "Do you have any advice for the [MISSION] ?",
+        "text": "Do you have any advice for the [MISSION]?",
         "effect": [ { "npc_first_topic": "TALK_MORLOCK_JASON_ALBRIGHT_ROOT" } ],
         "condition": {
           "and": [
@@ -31,6 +31,19 @@
     },
     "responses": [
       {
+        "text": "That is a very nice watch.",
+        "effect": { "u_add_var": "u_Talk_To_JasonAlbright_about_Watch", "type": "general", "context": "meeting", "value": "yes" },
+        "condition": {
+          "and": [
+            {
+              "not": { "u_has_var": "u_Talk_To_JasonAlbright_about_Watch", "type": "general", "context": "meeting", "value": "yes" }
+            }
+          ]
+        },
+        "opinion": { "trust": 1, "value": 1 },
+        "topic": "TALK_JASON_ALBRIGHT_ASK_ABOUT_WATCH"
+      },
+      {
         "text": "Can you tell me about my first [MISSION] again?",
         "condition": {
           "and": [
@@ -40,6 +53,25 @@
         },
         "topic": "TALK_MORLOCK_JASON_ALBRIGHT_ABOUT_RESCUE"
       }
+    ]
+  },
+  {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
+    "id": "TALK_JASON_ALBRIGHT_ASK_ABOUT_WATCH",
+    "type": "talk_topic",
+    "dynamic_line": [ "You want one?  I have an extra one stashed somewhere, but I don't have any batteries." ],
+    "responses": [
+      {
+        "text": "Not right now, maybe later.",
+        "effect": { "u_add_var": "u_Talk_To_JasonAlbright_about_Watch", "type": "general", "context": "meeting", "value": "no" },
+        "topic": "TALK_NONE"
+      },
+      {
+        "text": "Sure, I'll take one.",
+        "effect": [ { "u_buy_item": "dkz_zenture_industries_basic_zwatch" } ],
+        "topic": "TALK_NONE"
+      },
+      { "text": "No thanks, I'll pass.", "topic": "TALK_NONE" }
     ]
   },
   {
