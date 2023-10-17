@@ -8,6 +8,7 @@
     "attitude": 1,
     "mission": 3,
     "chat": "TALK_MORLOCK_JASON_ALBRIGHT_FIRST",
+    "mission_offered": "DKZ_SEWER_OVERFLOW",	
     "faction": "maquis"
   },
   {

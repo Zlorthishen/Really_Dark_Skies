@@ -66,7 +66,7 @@
     "//": "----] 3rd mission: Join the Maquis [-----------------------------------------------------------------------------------",
     "id": "DKZ_SEWER_OVERFLOW",
     "type": "mission_definition",
-    "name": { "str": "Sewer Overflow" },
+    "name": { "str": "The Sewer Overflow" },
     "description": "You must proceed to this location and report the attack on the Channel 4 News Building.",
     "goal": "MGOAL_TALK_TO_NPC",
     "destination": "racing_tower_z7_4_1",

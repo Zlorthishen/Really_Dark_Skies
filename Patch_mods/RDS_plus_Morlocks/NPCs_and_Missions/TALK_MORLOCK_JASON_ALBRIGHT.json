@@ -43,6 +43,17 @@
         "opinion": { "trust": 1, "value": 1 },
         "topic": "TALK_JASON_ALBRIGHT_ASK_ABOUT_WATCH"
       },
+      { "text": "Is there anything I can do to help you out?", "topic": "" },
+      {
+        "text": "Now that I saved June O'Fanny, is there another mission?",
+        "condition": {
+          "and": [
+            { "not": { "u_has_mission": "DKZ_MORLOCK_RESCUE_JUNE_OFANNY" } },
+            { "u_has_var": "u_saved_June_OFanny", "type": "general", "context": "maquis", "value": "yes" }
+          ]
+        },
+        "topic": "TALK_MISSION_LIST"
+      },
       {
         "text": "Can you tell me about my first [MISSION] again?",
         "condition": {
@@ -79,7 +90,7 @@
     "id": "TALK_MORLOCK_JASON_ALBRIGHT_ABOUT_RESCUE",
     "type": "talk_topic",
     "dynamic_line": [
-      "June O'Fanny has sent me a message saying that she is trapped in the panic room on the top floor of the Channel 4 News Building.  She tells me that the building has been attacked by a powerful force of Xenoid aliens.  She doesn't have any food or water in that room so if you fail to save her, she has vital information that could help turn the tide in this, cataclysm.  Do you have any questions or are you ready to go?"
+      "June O'Fanny has sent me a message saying that she is trapped in the panic room on the top floor of the Channel 4 News Building.  She tells me that the building has been attacked by a powerful force of Xenoid aliens.  She doesn't have any food or water in that room so if you cannot fail to save her, she has vital information that could help turn the tide in this, cataclysm.  Do you have any questions or are you ready to go?"
     ],
     "responses": [
       { "text": "What is the best way to get to her?", "topic": "TALK_MORLOCK_JASON_ALBRIGHT_ABOUT_ROUTE" },
