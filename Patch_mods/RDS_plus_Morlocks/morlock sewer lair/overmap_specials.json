@@ -329,7 +329,7 @@
       { "point": [ 6, 10, -1 ], "connection": "sewer_tunnel", "from": [ 6, 9, -1 ] },
       { "point": [ 7, 9, -1 ], "connection": "sewer_tunnel", "from": [ 6, 9, -1 ] }
     ],
-    "rotate": false,
+    "rotate": true,
     "locations": [ "land" ],
     "city_sizes": [ 11, 16 ],
     "occurrences": [ 0, -1 ],

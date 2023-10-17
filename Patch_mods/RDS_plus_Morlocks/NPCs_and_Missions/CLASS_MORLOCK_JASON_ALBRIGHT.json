@@ -3,10 +3,11 @@
     "type": "npc",
     "id": "DKZ_MORLOCK_JASON_ALBRIGHT",
     "class": "NC_MORLOCK_JASON_ALBRIGHT",
-    "attitude": 0,
-    "mission": 7,
-    "chat": "TALK_MORLOCK_JASON_ALBRIGHT_ROOT",
+    "name_unique": "Jason Albright",
     "gender": "male",
+    "attitude": 1,
+    "mission": 3,
+    "chat": "TALK_MORLOCK_JASON_ALBRIGHT_FIRST",
     "faction": "maquis"
   },
   {
@@ -17,6 +18,7 @@
     "common": false,
     "traits": [
       { "trait": "DKZ_COMBAT", "prob": 100 },
+      { "trait": "ELFA_EARS", "prob": 100 },
       { "trait": "THRESH_CEPHALOPOD", "prob": 100 },
       { "trait": "GILLS_CEPH", "prob": 100 },
       { "trait": "MARTIAL_ARTS5", "prob": 100 },
@@ -30,7 +32,7 @@
       { "trait": "SHELL2", "prob": 100 },
       { "trait": "INK_GLANDS", "prob": 100 },
       { "trait": "HUNGER", "prob": 100 },
-      { "trait": "SLEEK_SCALES", "prob": 100 }	 
+      { "trait": "SLEEK_SCALES", "prob": 100 }
     ],
     "skills": [
       { "skill": "ALL", "level": { "sum": [ { "dice": [ 3, 2 ] }, { "constant": -4 } ] } },
@@ -47,7 +49,6 @@
       { "skill": "pistol", "bonus": { "rng": [ 0, 1 ] } },
       { "skill": "rifle", "bonus": { "rng": [ 0, 1 ] } }
     ],
-
     "worn_override": "NC_MORLOCK_JASON_ALBRIGHT_worn",
     "carry_override": "NC_MORLOCK_JASON_ALBRIGHT_carry",
     "bonus_str": { "rng": [ 3, 5 ] },
@@ -65,7 +66,6 @@
       { "item": "pants_leather" },
       { "item": "bscabbard" },
       { "item": "crt_legguard" },
-	  
       { "group": "charged_two_way_radio" },
       { "item": "knife_butcher", "container-item": "sheath" },
       {
@@ -76,7 +76,7 @@
       }
     ]
   },
-    {
+  {
     "id": "NC_MORLOCK_JASON_ALBRIGHT_carry",
     "type": "item_group",
     "subtype": "collection",

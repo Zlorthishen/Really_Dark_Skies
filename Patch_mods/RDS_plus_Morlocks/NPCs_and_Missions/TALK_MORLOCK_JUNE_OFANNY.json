@@ -96,7 +96,7 @@
       { "text": "Alright, I will go and clear the way and be back soon.", "topic": "TALK_DONE" },
       {
         "text": "The way is clear, lets go.",
-        "opinion": { "trust": 2, "value": 5 },		
+        "opinion": { "trust": 2, "value": 5 },
         "effect": [ "follow_only", { "npc_add_var": "temporal_follower", "type": "general", "context": "maquis", "value": "yes" } ],
         "topic": "TALK_DONE"
       }
