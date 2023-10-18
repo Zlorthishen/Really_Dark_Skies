@@ -428,7 +428,7 @@
     "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "DKZ_MAQUIS_MOTH_MUTANT_DEW_THE_DEW_MISSION_1",
     "type": "mission_definition",
-    "name": { "str": "Got to have my favorite cola." },
+    "name": { "str": "Dew the Do." },
     "description": "Find a dozen cans of the best energy cola that ever existed.",
     "goal": "MGOAL_FIND_ITEM",
     "difficulty": 6,
