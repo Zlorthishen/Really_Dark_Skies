@@ -70,8 +70,8 @@
     "coverage": 100,
     "flags": [ "FLAMMABLE_ASH", "NOITEM", "WALL", "NO_SCENT" ],
     "bash": {
-      "str_min": 12,
-      "str_max": 16,
+      "str_min": 13,
+      "str_max": 17,
       "sound": "ccccccrrrrrrip!",
       "sound_fail": "blamp!",
       "sound_vol": 8,
@@ -92,8 +92,8 @@
     "roof": "t_roof_paper",
     "flags": [ "TRANSPARENT", "FLAMMABLE_ASH", "SUPPORTS_ROOF", "COLLAPSES", "INDOORS", "FLAT", "ROAD" ],
     "bash": {
-      "str_min": 12,
-      "str_max": 16,
+      "str_min": 13,
+      "str_max": 17,
       "sound": "ccccccrrrrrrip!",
       "sound_fail": "blamp!",
       "sound_vol": 8,

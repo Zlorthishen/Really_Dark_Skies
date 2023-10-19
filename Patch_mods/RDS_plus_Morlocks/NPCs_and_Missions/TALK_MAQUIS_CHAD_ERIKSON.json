@@ -27,12 +27,6 @@
     "id": "TALK_CHAD_ERIKSON_SEWER_OVERFLOW",
     "type": "talk_topic",
     "dynamic_line": [ "I will take whomever is willing to join up." ],
-    "responses": [
-      {
-        "text": "I have some questions.",
-        "opinion": { "trust": 1, "value": 3 },
-        "topic": "TALK_CHAD_ERIKSON_QUESTIONS"
-      }
-    ]
+    "responses": [ { "text": "I have some questions.", "opinion": { "trust": 1, "value": 3 }, "topic": "TALK_CHAD_ERIKSON_QUESTIONS" } ]
   }
 ]

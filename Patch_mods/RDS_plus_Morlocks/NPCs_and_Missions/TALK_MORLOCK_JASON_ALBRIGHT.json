@@ -52,7 +52,7 @@
             { "u_has_var": "u_saved_June_OFanny", "type": "general", "context": "maquis", "value": "yes" }
           ]
         },
-        "topic": "TALK_MORLOCK_JASON_ALBRIGHT_SEWER_OVERFLOW"
+        "topic": "TALK_MORLOCK_JASON_ALBRIGHT_CONTACT_MAQUIS"
       },
       {
         "text": "Can you tell me about my first [MISSION] again?",
@@ -66,6 +66,117 @@
       }
     ]
   },
+  {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
+    "id": "TALK_MORLOCK_JASON_ALBRIGHT_ABOUT_RESCUE",
+    "type": "talk_topic",
+    "dynamic_line": [
+      "June O'Fanny has sent me a message saying that she is trapped in the panic room on the top floor of the Channel 4 News Building.  She tells me that the building has been attacked by a powerful force of Xenoid aliens.  She doesn't have any food or water in that room so if you cannot fail to save her, she has vital information that could help turn the tide in this, cataclysm.  Do you have any questions or are you ready to go?"
+    ],
+    "responses": [
+      { "text": "What is the best way to get to her?", "topic": "TALK_MORLOCK_JASON_ALBRIGHT_ABOUT_ROUTE" },
+      { "text": "Do you have any advice for this mission?", "topic": "TALK_MORLOCK_JASON_ALBRIGHT_RESCUE_ADVICE" },
+      {
+        "text": "[INT 13] What vital information does she have?",
+        "effect": { "u_add_var": "u_Talk_To_JasonAlbirght_about_Information", "type": "general", "context": "meeting", "value": "yes" },
+        "condition": {
+          "and": [
+            {
+              "u_has_intelligence": 13,
+              "not": { "u_has_var": "u_Talk_To_JasonAlbirght_about_Information", "type": "general", "context": "meeting", "value": "yes" }
+            }
+          ]
+        },
+        "topic": "TALK_MORLOCK_JASON_ALBRIGHT_ASK_INTEL"
+      },
+      {
+        "text": "What is this place?",
+        "effect": { "u_add_var": "u_Talk_To_JasonAlbirght_about_Lair", "type": "general", "context": "meeting", "value": "yes" },
+        "condition": {
+          "and": [
+            {
+              "not": { "u_has_var": "u_Talk_To_JasonAlbirght_about_Lair", "type": "general", "context": "meeting", "value": "yes" }
+            }
+          ]
+        },
+        "topic": "TALK_MORLOCK_JASON_ALBRIGHT_ABOUT_LAIR"
+      },
+      { "text": "I'm ready to go.", "topic": "TALK_DONE" }
+    ]
+  },
+  {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
+    "id": "TALK_MORLOCK_JASON_ALBRIGHT_ABOUT_ROUTE",
+    "type": "talk_topic",
+    "dynamic_line": [
+      "Well the Channel 4 News Building is built directly above the inner sanctum here, so you don't have far to go.  The parking garage is connected to the larger sewer system.  Once you get in the basement parking garage its easy enough to climb up the elevator shaft to the roof of the building."
+    ],
+    "responses": [
+      { "text": "I have another question.", "topic": "TALK_MORLOCK_JASON_ALBRIGHT_ABOUT_RESCUE" },
+      { "text": "I'm ready to go.", "topic": "TALK_DONE" }
+    ]
+  },
+  {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
+    "id": "TALK_MORLOCK_JASON_ALBRIGHT_RESCUE_ADVICE",
+    "type": "talk_topic",
+    "dynamic_line": [
+      "There are a few weapons scattered around this mat here, and all of the old adobe houses are derelict and available real-estate, however there are a few places around here where folks might get angry if you grab their stuff."
+    ],
+    "responses": [
+      { "text": "I have another question.", "topic": "TALK_MORLOCK_JASON_ALBRIGHT_ABOUT_RESCUE" },
+      { "text": "I'm ready to go.", "topic": "TALK_DONE" }
+    ]
+  },
+  {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
+    "id": "TALK_MORLOCK_JASON_ALBRIGHT_ASK_INTEL",
+    "type": "talk_topic",
+    "dynamic_line": [ "Thats a question we will have to ask June O'Fanny when she is safely back down here." ],
+    "responses": [
+      { "text": "I have another question.", "topic": "TALK_MORLOCK_JASON_ALBRIGHT_ABOUT_RESCUE" },
+      { "text": "I'm ready to go.", "topic": "TALK_DONE" }
+    ]
+  },
+  {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
+    "id": "TALK_MORLOCK_JASON_ALBRIGHT_ABOUT_LAIR",
+    "type": "talk_topic",
+    "dynamic_line": [
+      "This whole area was fairly large frontier town in the very early 1820s, and for a while was a burgeoning industrial area at the start of the Industrial Revolution in America, however a severe flood in 1888 wiped out most of the mills, and then the subsequent blizzard that winter drove nearly everyone out of the area.  Since then this whole place has had dozens of uses, from speak-easyies in the 1920s, hippie-communes in the 1960's or underground raves in the early 2000's, its a tale as old as time, an older settlement gets covered up, forgotten about and built over, reused, rebuilt, and then forgotten about again."
+    ],
+    "responses": [ { "text": "I have another question.", "topic": "TALK_MORLOCK_JASON_ALBRIGHT_ABOUT_RESCUE" } ]
+  },
+  {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
+    "id": "TALK_MORLOCK_JASON_ALBRIGHT_CONTACT_MAQUIS",
+    "type": "talk_topic",
+    "dynamic_line": [
+      "Now that June O'Fanny is safe, you must make contact with another resistance cell, are you ready for a fairly long journey?"
+    ],
+    "responses": [
+      { "text": "I have something else to do first.", "topic": "TALK_DONE" },
+      {
+        "text": "I'm ready to go right now.",
+        "effect": [
+          { "u_adjust_var": "maquis_morale", "type": "counter", "context": "morlock_lair", "adjustment": 2 },
+          { "add_mission": "DKZ_SEWER_OVERFLOW" }
+        ],
+        "topic": "TALK_MORLOCK_JASON_ALBRIGHT_THE_SEWER_OVERFLOWS"
+      }
+    ]
+  },
+  
+  {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
+    "id": "TALK_MORLOCK_JASON_ALBRIGHT_THE_SEWER_OVERFLOWS",
+    "type": "talk_topic",
+    "dynamic_line": [
+      "When you make contact with Mr. Erikson, be sure to use the phrase 'sewer overflow' to identify yourself."
+    ],
+    "responses": [ { "text": "Alright.", "topic": "TALK_DONE" } ]
+  },
+  
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_JASON_ALBRIGHT_ASK_ABOUT_WATCH",
@@ -83,67 +194,6 @@
         "topic": "TALK_NONE"
       },
       { "text": "No thanks, I'll pass.", "topic": "TALK_NONE" }
-    ]
-  },
-  {
-    "//": "-----------------------------------------------------------------------------------------------------------------------",
-    "id": "TALK_MORLOCK_JASON_ALBRIGHT_ABOUT_RESCUE",
-    "type": "talk_topic",
-    "dynamic_line": [
-      "June O'Fanny has sent me a message saying that she is trapped in the panic room on the top floor of the Channel 4 News Building.  She tells me that the building has been attacked by a powerful force of Xenoid aliens.  She doesn't have any food or water in that room so if you cannot fail to save her, she has vital information that could help turn the tide in this, cataclysm.  Do you have any questions or are you ready to go?"
-    ],
-    "responses": [
-      { "text": "What is the best way to get to her?", "topic": "TALK_MORLOCK_JASON_ALBRIGHT_ABOUT_ROUTE" },
-      { "text": "Do you have any advice for this mission?", "topic": "TALK_MORLOCK_JASON_ALBRIGHT_RESCUE_ADVICE" },
-      {
-        "text": "[INT 13] What vital information does she have?",
-        "topic": "TALK_MORLOCK_JASON_ALBRIGHT_ASK_INTEL",
-        "condition": { "u_has_intelligence": 13 }
-      },
-      { "text": "I'm have another question.", "topic": "TALK_NONE" },
-      { "text": "I'm ready to go.", "topic": "TALK_DONE" }
-    ]
-  },
-  {
-    "//": "-----------------------------------------------------------------------------------------------------------------------",
-    "id": "TALK_MORLOCK_JASON_ALBRIGHT_ABOUT_ROUTE",
-    "type": "talk_topic",
-    "dynamic_line": [
-      "Well the Channel 4 News Building is built directly above the inner sanctum here, so you don't have far to go.  The parking garage is connected to the larger sewer system.  Once you get in the basement parking garage its easy enough to climb up the elevator shaft to the roof of the building."
-    ],
-    "responses": [ { "text": "I'm have another question.", "topic": "TALK_NONE" }, { "text": "I'm ready to go.", "topic": "TALK_DONE" } ]
-  },
-  {
-    "//": "-----------------------------------------------------------------------------------------------------------------------",
-    "id": "TALK_MORLOCK_JASON_ALBRIGHT_RESCUE_ADVICE",
-    "type": "talk_topic",
-    "dynamic_line": [
-      "There are a few weapons scattered around this mat here, and all of the old adobe houses are derelict and available real-estate, however there are a few places around here where folks might get angry if you grab their stuff."
-    ],
-    "responses": [ { "text": "I'm have another question.", "topic": "TALK_NONE" }, { "text": "I'm ready to go.", "topic": "TALK_DONE" } ]
-  },
-  {
-    "//": "-----------------------------------------------------------------------------------------------------------------------",
-    "id": "TALK_MORLOCK_JASON_ALBRIGHT_ASK_INTEL",
-    "type": "talk_topic",
-    "dynamic_line": [ "Thats a question we will have to ask June O'Fanny when she is safely back down here." ],
-    "responses": [ { "text": "I'm have another question.", "topic": "TALK_NONE" }, { "text": "I'm ready to go.", "topic": "TALK_DONE" } ]
-  },
-  {
-    "//": "-----------------------------------------------------------------------------------------------------------------------",
-    "id": "TALK_MORLOCK_JASON_ALBRIGHT_SEWER_OVERFLOW",
-    "type": "talk_topic",
-    "dynamic_line": [ "Now that June O'Fanny is safe, you must make contact with another resistance cell, are you ready for a fairly long journey?" ],
-    "responses": [
-      { "text": "I have something else to do first.", "topic": "TALK_DONE" },
-      {
-        "text": "I'm ready to go right now.",
-        "effect": [
-          { "u_adjust_var": "maquis_morale", "type": "counter", "context": "morlock_lair", "adjustment": 2 },
-          { "add_mission": "DKZ_SEWER_OVERFLOW" }
-        ],
-        "topic": "TALK_DONE"
-      }
     ]
   }
 ]

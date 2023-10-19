@@ -30,7 +30,7 @@
         "text": "Come with me.",
         "condition": {
           "and": [
-            { "not": { "npc_has_var": "temporal_follower", "type": "general", "context": "maquis", "value": "yes" } },
+            { "npc_has_var": "temporal_follower", "type": "general", "context": "maquis", "value": "yes"  },
             { "u_has_mission": "DKZ_MORLOCK_RETURN_TO_SEWER_CENTRAL" },
             { "not": { "u_has_var": "u_saved_June_OFanny", "type": "general", "context": "maquis", "value": "yes" } }
           ]
@@ -51,10 +51,11 @@
         "text": "[MISSION] You are saved!",
         "condition": {
           "and": [
-            { "npc_has_var": "temporal_follower", "type": "general", "context": "maquis", "value": "yes" },
+            { "not": { "u_has_mission": "DKZ_MORLOCK_RESCUE_JUNE_OFANNY" } },
             { "u_has_var": "u_saved_June_OFanny", "type": "general", "context": "maquis", "value": "yes" }
           ]
         },
+        "effect": [ { "npc_first_topic": "TALK_MORLOCK_JUNE_OFANNY_RESCUED" } ],
         "opinion": { "trust": 5, "value": 4 },
         "topic": "TALK_MORLOCK_JUNE_OFANNY_ESCORT_DONE"
       },
@@ -70,6 +71,13 @@
         "topic": "TALK_DONE"
       }
     ]
+  },
+  {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
+    "id": "TALK_MORLOCK_JUNE_OFANNY_RESCUED",
+    "type": "talk_topic",
+    "dynamic_line": [ "Thanks for the rescue.  Be sure to expand this story line at some point!" ],
+    "responses": [ { "text": "I'll expect a ping on discord.", "topic": "TALK_DONE" } ]
   },
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
@@ -97,7 +105,11 @@
       {
         "text": "The way is clear, lets go.",
         "opinion": { "trust": 2, "value": 5 },
-        "effect": [ "follow_only", { "npc_add_var": "temporal_follower", "type": "general", "context": "maquis", "value": "yes" } ],
+        "effect": [
+          "follow_only",
+          { "add_mission": "DKZ_MORLOCK_RETURN_TO_SEWER_CENTRAL" },
+          { "npc_add_var": "temporal_follower", "type": "general", "context": "maquis", "value": "yes" }
+        ],
         "topic": "TALK_DONE"
       }
     ]
