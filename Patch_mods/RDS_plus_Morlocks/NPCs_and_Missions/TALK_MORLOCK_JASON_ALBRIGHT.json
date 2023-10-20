@@ -30,6 +30,8 @@
       "no": [ "Do you need any more help?" ]
     },
     "responses": [
+
+      { "text": "I'm lost. How do I get out of here?", "topic": "TALK_MORLOCK_JASON_ALBRIGHT_EXITS" },	
       {
         "text": "That is a very nice watch.",
         "effect": { "u_add_var": "u_Talk_To_JasonAlbright_about_Watch", "type": "general", "context": "meeting", "value": "yes" },
@@ -43,7 +45,6 @@
         "opinion": { "trust": 1, "value": 1 },
         "topic": "TALK_JASON_ALBRIGHT_ASK_ABOUT_WATCH"
       },
-      { "text": "Is there anything I can do to help you out?", "topic": "" },
       {
         "text": "Now that I saved June O'Fanny, is there another mission?",
         "condition": {
@@ -66,6 +67,18 @@
       }
     ]
   },
+
+  {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
+    "id": "TALK_MORLOCK_JASON_ALBRIGHT_EXITS",
+    "type": "talk_topic",
+    "dynamic_line": [
+      "The lair can be excessively difficult to navigate, but its easier once you remember that the exits are in the corners of the entire area, along with several old subway connections that are guarded at all times.  There is also a secret exit in the Technican's Workshop area, just be sure to close the door behind you."
+    ],
+    "responses": [
+      { "text": "Thanks.  I'll try to ", "topic": "TALK_DONE" }
+    ]
+  },  
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MORLOCK_JASON_ALBRIGHT_ABOUT_RESCUE",
@@ -109,7 +122,7 @@
     "id": "TALK_MORLOCK_JASON_ALBRIGHT_ABOUT_ROUTE",
     "type": "talk_topic",
     "dynamic_line": [
-      "Well the Channel 4 News Building is built directly above the inner sanctum here, so you don't have far to go.  The parking garage is connected to the larger sewer system.  Once you get in the basement parking garage its easy enough to climb up the elevator shaft to the roof of the building."
+      "Well the Channel 4 News Building is built directly above the inner sanctum here, so you don't have far to go.  The parking garage is connected to the larger sewer system.  Once you get in the basement parking garage its easy enough to climb up the elevator shaft to the roof of the building.  If you go to the Technical Workshop there is a secret exit directly into the parking garage."
     ],
     "responses": [
       { "text": "I have another question.", "topic": "TALK_MORLOCK_JASON_ALBRIGHT_ABOUT_RESCUE" },
