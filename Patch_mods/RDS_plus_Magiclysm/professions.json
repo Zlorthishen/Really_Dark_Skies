@@ -7,11 +7,7 @@
       "professions": [
         "wizard_novice",
         "pyromaniac",
-        "druid",
-        "novice_necromancer",
-        "novice_stormshaper",
-        "novice_earthshaper",
-        "novice_technomancer"
+        "druid"
       ]
     }
   }
