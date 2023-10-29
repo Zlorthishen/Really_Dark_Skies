@@ -17,11 +17,9 @@
       "dkz_morlock_mutant_leonardo",
       "dkz_morlock_mutant_raphael",
       "dkz_morlock_mutant_donatello",
-      "dkz_morlock_mutant_michelangelo",
-      "dkz_morlock_mutant_casey_jones"
+      "dkz_morlock_mutant_michelangelo"
     ],
     "forced_traits": [ "PARKOUR", "DKZ_COMBAT" ],
-    "missions": [ "DKZ_MORLOCK_RESCUE_JUNE_OFANNY" ],
     "traits": [
       "PROF_SKATER",
       "PROF_MA_ORANGE",
