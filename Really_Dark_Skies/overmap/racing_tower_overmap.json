@@ -1,6 +1,6 @@
 [
   {
-    "type": "city_building",
+    "type": "overmap_special",
     "id": "arcology_racing",
     "overmaps": [
       { "point": [ 2, 0, -4 ], "overmap": "racing_tower_z-4_1_1_north" },
@@ -263,6 +263,9 @@
     "rotate": false,
     "locations": [ "land" ],
     "flags": [ "GLOBALLY UNIQUE", "URBAN", "UNIQUE", "SAFE_AT_WORLDGEN", "ELECTRIC_GRID" ],
+    "city_distance": [ 1, -1 ],
+    "city_sizes": [ 13, -1 ],
+    "occurrences": [ 0, -1 ],
     "connections": [
       { "point": [ 2, -3, 0 ], "connection": "local_road", "from": [ 2, -2, 0 ] },
       { "point": [ 4, -3, 0 ], "connection": "local_road", "from": [ 4, 2, 0 ] },
