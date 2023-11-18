@@ -83,7 +83,7 @@
         "·": "t_railroad_rubble",
         "≡": "t_railroad_tie_h",
         "═": "t_railroad_track",
-        "─": "t_railroad_track_on_tie"
+        "─": "t_railroad_track_on_tie",
         "║": "t_buffer_stop"
       },
       "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],
