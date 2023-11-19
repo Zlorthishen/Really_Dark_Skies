@@ -8,6 +8,13 @@
     ],
     "responses": [
       {
+        "text": "I have some bad news.",
+        "condition": { "u_has_var":"u_killed_June_OFanny", "type": "flag", "context": "death", "value": "yes" } 
+        },
+        "opinion": { "trust": -10, "value": -25 },
+        "topic": "TALK_JASON_ALBRIGHT_DEAD_JUNE"
+      },	
+      {
         "text": "Do you have any advice for the [MISSION]?",
         "effect": [ { "npc_first_topic": "TALK_MORLOCK_JASON_ALBRIGHT_ROOT" } ],
         "condition": {
@@ -33,16 +40,18 @@
 
       { "text": "I'm lost. How do I get out of here?", "topic": "TALK_MORLOCK_JASON_ALBRIGHT_EXITS" },	
       {
+        "text": "I have some bad news.",
+        "condition": { "u_has_var":"u_killed_June_OFanny", "type": "flag", "context": "death", "value": "yes" } 
+        },
+        "opinion": { "trust": -10, "value": -25 },
+        "topic": "TALK_JASON_ALBRIGHT_DEAD_JUNE"
+      },
+      {
         "text": "That is a very nice watch.",
         "effect": { "u_add_var": "u_Talk_To_JasonAlbright_about_Watch", "type": "general", "context": "meeting", "value": "yes" },
-        "condition": {
-          "and": [
-            {
-              "not": { "u_has_var": "u_Talk_To_JasonAlbright_about_Watch", "type": "general", "context": "meeting", "value": "yes" }
-            }
-          ]
+        "condition": { "not": { "u_has_var": "u_Talk_To_JasonAlbright_about_Watch", "type": "general", "context": "meeting", "value": "yes" } }
         },
-        "opinion": { "trust": 1, "value": 1 },
+        "opinion": { "trust": 1, "value": -1 },
         "topic": "TALK_JASON_ALBRIGHT_ASK_ABOUT_WATCH"
       },
       {
@@ -58,7 +67,7 @@
       {
         "text": "Can you tell me about my first [MISSION] again?",
         "condition": {
-          "and": [
+          "or": [
             { "u_has_mission": "DKZ_MORLOCK_RESCUE_JUNE_OFANNY" },
             { "not": { "u_has_var": "u_saved_June_OFanny", "type": "general", "context": "maquis", "value": "yes" } }
           ]
@@ -68,6 +77,17 @@
     ]
   },
 
+  {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
+    "id": "TALK_JASON_ALBRIGHT_DEAD_JUNE",
+    "type": "talk_topic",
+    "dynamic_line": [
+      "I can't believe that I'll never see her again."
+    ],
+    "responses": [
+      { "text": "Thanks.  I'll try to ", "topic": "TALK_DONE" }
+    ]
+  },  
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MORLOCK_JASON_ALBRIGHT_EXITS",
@@ -87,7 +107,7 @@
       "June O'Fanny has sent me a message saying that she is trapped in the panic room on the top floor of the Channel 4 News Building.  She tells me that the building has been attacked by a powerful force of Xenoid aliens.  She doesn't have any food or water in that room so if you cannot fail to save her, she has vital information that could help turn the tide in this, cataclysm.  Do you have any questions or are you ready to go?"
     ],
     "responses": [
-      { "text": "What is the best way to get to her?", "topic": "TALK_MORLOCK_JASON_ALBRIGHT_ABOUT_ROUTE" },
+      { "text": "What is the best route to get to June?", "topic": "TALK_MORLOCK_JASON_ALBRIGHT_ABOUT_ROUTE" },
       { "text": "Do you have any advice for this mission?", "topic": "TALK_MORLOCK_JASON_ALBRIGHT_RESCUE_ADVICE" },
       {
         "text": "[INT 13] What vital information does she have?",
