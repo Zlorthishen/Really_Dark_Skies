@@ -2,11 +2,11 @@
   {
     "type": "MOD_INFO",
     "id": "realdarkskies_faction_alterations",
-    "name": "<color_light_blue>Really Dark Skies</color> unfun faction alterations",
+    "name": "<color_light_blue>Really Dark Skies</color> blob-faction alterations",
     "authors": [ "Zlorthishen" ],
     "description": "A patchmod for Really Dark Skies which changes the standard zombies to be friendly with the Xenoids.",
     "category": "monster_exclude",
-    "version": "BN version 1eeea09, update 9/5/2023",
+    "version": "BN version 1eeea09, update 11/18/2023",
     "dependencies": [ "bn", "realdarkskies"]
   }
 ]
