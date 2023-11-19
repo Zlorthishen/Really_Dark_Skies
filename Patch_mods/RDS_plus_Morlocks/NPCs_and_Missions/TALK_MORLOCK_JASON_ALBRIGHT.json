@@ -11,7 +11,7 @@
         "text": "Do you have any advice for the [MISSION]?",
         "effect": [ { "npc_first_topic": "TALK_MORLOCK_JASON_ALBRIGHT_ROOT" } ],
         "condition": {
-          "and": [
+          "or": [
             { "u_has_mission": "DKZ_MORLOCK_RESCUE_JUNE_OFANNY" },
             { "not": { "u_has_var": "u_saved_June_OFanny", "type": "general", "context": "maquis", "value": "yes" } }
           ]
