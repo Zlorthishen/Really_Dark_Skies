@@ -1,0 +1,105 @@
+[
+  {
+    "type": "overmap_terrain",
+    "id": "mi-go_outpost0",
+    "name": "mi-go outpost",
+    "sym": "<",
+    "color": "dark_gray",
+    "mondensity": 2,
+    "flags": [ "RISK_HIGH" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "mi-go_outpost1",
+    "name": "mi-go outpost",
+    "sym": "<",
+    "color": "dark_gray",
+    "mondensity": 2,
+    "flags": [ "RISK_HIGH" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "mi-go_outpost2",
+    "name": "mi-go outpost",
+    "sym": ">",
+    "color": "light_gray",
+    "mondensity": 2,
+    "flags": [ "RISK_HIGH" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "mi-go_outpost1-1",
+    "name": "mi-go outpost",
+    "sym": "_",
+    "color": "light_gray",
+    "mondensity": 2,
+    "flags": [ "RISK_HIGH" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "mi-go_outpost2-1",
+    "name": "mi-go outpost",
+    "sym": "V",
+    "color": "light_gray",
+    "mondensity": 2,
+    "flags": [ "RISK_HIGH" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "mi-go_outpost2-2",
+    "name": "mi-go outpost",
+    "sym": "^",
+    "color": "light_gray",
+    "mondensity": 2,
+    "flags": [ "RISK_HIGH" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "mi-go_outpost2-3",
+    "name": "mi-go outpost",
+    "sym": "_",
+    "color": "light_gray",
+    "mondensity": 2,
+    "flags": [ "RISK_HIGH" ]
+  },
+  {
+    "type": "overmap_special",
+    "id": "Mi-Go Outpost",
+    "overmaps": [
+      { "point": [ 1, 0, -1 ], "overmap": "mi-go_outpost0_north" },
+      { "point": [ 2, 0, -1 ], "overmap": "mi-go_outpost0_east" },
+      { "point": [ 2, 1, -1 ], "overmap": "mi-go_outpost0_south" },
+      { "point": [ 1, 1, -1 ], "overmap": "mi-go_outpost0_west" },
+      { "point": [ 1, 0, 0 ], "overmap": "mi-go_outpost2_north" },
+      { "point": [ 0, 0, 0 ], "overmap": "mi-go_outpost1_north" },
+      { "point": [ 0, 0, 1 ], "overmap": "mi-go_outpost1-1_north" },
+      { "point": [ 2, 0, 0 ], "overmap": "mi-go_outpost2_east" },
+      { "point": [ 2, -1, 0 ], "overmap": "mi-go_outpost1_east" },
+      { "point": [ 2, -1, 1 ], "overmap": "mi-go_outpost1-1_east" },
+      { "point": [ 2, 1, 0 ], "overmap": "mi-go_outpost2_south" },
+      { "point": [ 3, 1, 0 ], "overmap": "mi-go_outpost1_south" },
+      { "point": [ 3, 1, 1 ], "overmap": "mi-go_outpost1-1_south" },
+      { "point": [ 1, 1, 0 ], "overmap": "mi-go_outpost2_west" },
+      { "point": [ 1, 2, 0 ], "overmap": "mi-go_outpost1_west" },
+      { "point": [ 1, 2, 1 ], "overmap": "mi-go_outpost1-1_west" },
+      { "point": [ 1, 0, 1 ], "overmap": "mi-go_outpost2-1_north" },
+      { "point": [ 1, 0, 2 ], "overmap": "mi-go_outpost2-2_north" },
+      { "point": [ 1, 0, 3 ], "overmap": "mi-go_outpost2-3_north" },
+      { "point": [ 2, 0, 1 ], "overmap": "mi-go_outpost2-1_east" },
+      { "point": [ 2, 0, 2 ], "overmap": "mi-go_outpost2-2_east" },
+      { "point": [ 2, 0, 3 ], "overmap": "mi-go_outpost2-3_east" },
+      { "point": [ 2, 1, 1 ], "overmap": "mi-go_outpost2-1_south" },
+      { "point": [ 2, 1, 2 ], "overmap": "mi-go_outpost2-2_south" },
+      { "point": [ 2, 1, 3 ], "overmap": "mi-go_outpost2-3_south" },
+      { "point": [ 1, 1, 1 ], "overmap": "mi-go_outpost2-1_west" },
+      { "point": [ 1, 1, 2 ], "overmap": "mi-go_outpost2-2_west" },
+      { "point": [ 1, 1, 3 ], "overmap": "mi-go_outpost2-3_west" }
+    ],
+    "locations": [ "forest" ],
+    "city_distance": [ 5, -1 ],
+    "occurrences": [ 30, 50 ],
+    "rotate": false,
+    "spawns": { "group": "GROUP_MI-GO_BASE_COMMON", "population": [ 8, 10 ], "radius": [ 1, 4 ] },
+    "flags": [ "MI-GO", "UNIQUE" ]
+  }
+]

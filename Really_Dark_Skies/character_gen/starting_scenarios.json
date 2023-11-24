@@ -39,7 +39,10 @@
       "demolition_expert",
       "mili_pilot",
       "security",
-      "specops"
+      "specops",
+      "afs_holo_fighter",
+      "afs_mastadon_swat",
+      "afs_bio_operator"
     ],
     "start_name": "In Town",
     "forced_traits": "DKZ_COMBAT",
