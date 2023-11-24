@@ -1,8 +1,0 @@
-[
-  {
-    "type": "scenario",
-    "copy-from": "dkz_combatpatrol",
-    "id": "dkz_combatpatrol",
-    "extend": { "professions": [ "afs_holo_fighter", "afs_mastadon_swat", "afs_bio_operator" ] }
-  }
-]
