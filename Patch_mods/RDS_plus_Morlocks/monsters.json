@@ -5,7 +5,7 @@
     "name": { "str": "seweranha" },
     "description": "A large mutant variety of carp.  It has shimmering green scales and a mouth lined with three jagged rows of razor-sharp teeth.",
     "default_faction": "mutant",
-	"looks_like": "mon_sewer_fish",
+    "looks_like": "mon_sewer_fish",
     "bodytype": "fish",
     "species": [ "FISH" ],
     "volume": "30 L",
@@ -25,16 +25,13 @@
     "vision_day": 1,
     "vision_night": 30,
     "harvest": "mutant_fish",
-
-    "fear_triggers": ["PLAYER_CLOSE", "FIRE", "HURT" ],	
+    "fear_triggers": [ "PLAYER_CLOSE", "FIRE", "HURT" ],
     "reproduction": { "baby_egg": "egg_fish", "baby_count": 2, "baby_timer": 29 },
     "baby_flags": [ "SPRING", "SUMMER", "AUTUMN", "WINTER" ],
     "path_settings": { "max_dist": 5 },
     "death_function": [ "NORMAL" ],
     "flags": [ "SEES", "SMELLS", "WARM", "AQUATIC" ]
   },
-
-  
   {
     "id": "mon_gator_nice",
     "type": "MONSTER",
@@ -78,7 +75,7 @@
         "no_infection_chance": 2
       }
     ],
-    "fear_triggers": ["PLAYER_CLOSE", "FIRE", "HURT" ],
+    "fear_triggers": [ "PLAYER_CLOSE", "FIRE", "HURT" ],
     "placate_triggers": [ "MEAT" ],
     "death_function": [ "NORMAL" ],
     "flags": [ "SEES", "HEARS", "GOODHEARING", "SMELLS", "KEENNOSE", "PATH_AVOID_DANGER_1", "ANIMAL", "BLEED", "ATTACKMON", "SWIMS" ]
@@ -108,13 +105,10 @@
     "dodge": 1,
     "vision_day": 1,
     "vision_night": 30,
-
-    "fear_triggers": ["PLAYER_CLOSE", "FIRE", "HURT" ],	
+    "fear_triggers": [ "PLAYER_CLOSE", "FIRE", "HURT" ],
     "harvest": "mutant_animal_large_noskin",
     "path_settings": { "max_dist": 5 },
     "death_function": [ "NORMAL" ],
     "flags": [ "SEES", "SMELLS", "WARM", "VENOM", "SWIMS" ]
   }
-
-
-  ]
+]
