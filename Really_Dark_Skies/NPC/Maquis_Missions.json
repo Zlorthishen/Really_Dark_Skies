@@ -9,8 +9,8 @@
     "destination": "racing_tower_z7_4_1",
     "difficulty": 1,
     "urgent": true,
-    "deadline_low": 1,
-    "deadline_high": 1,
+    "deadline_low": 3,
+    "deadline_high": 4,
     "value": 0,
     "start": {
       "assign_mission_target": {
