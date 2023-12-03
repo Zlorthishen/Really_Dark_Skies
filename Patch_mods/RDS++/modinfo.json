@@ -6,21 +6,20 @@
     "authors": [ "Zlorthishen" ],
     "description": "A patchmod for Really Dark Skies which adds support for ALL MODS",
     "category": "misc_additions",
-    "version": "BN version 1d41422, update 7/31/2023",
-    "conflicts": ["realdarkskies_no_strays","realdarkskies_faction_alterations" ],
+    "version": "BN version 58294c5, update 12/3/2023",
+    "conflicts": [ "realdarkskies_no_strays", "realdarkskies_faction_alterations" ],
     "dependencies": [
       "bn",
       "realdarkskies",
-	  "realdarkskies_Arcana_plus_patchmod",
+      "realdarkskies_Arcana_plus_patchmod",
       "realdarkskies_advtech_patchmod",
-	  "realdarkskies_aftershock_patchmod",
-	  "realdarkskies_gekkobots_patchmod",
-	  "realdarkskies_CATA_patchmod",
-	  "realdarkskies_CRIT_patchmod",
-	  "realdarkskies_Dino_patchmod",
-	  "realdarkskies_morlock_village_patchmod",
-	  "realdarkskies_magiclysm_patchmod",
-	  "realdarkskies_secronom_patchmod"
+      "realdarkskies_gekkobots_patchmod",
+      "realdarkskies_CATA_patchmod",
+      "realdarkskies_CRIT_patchmod",
+      "realdarkskies_Dino_patchmod",
+      "realdarkskies_morlock_village_patchmod",
+      "realdarkskies_magiclysm_patchmod",
+      "realdarkskies_secronom_patchmod"
     ]
   }
 ]
