@@ -24,6 +24,7 @@
       { "trait": "GOODHEARING", "prob": 100 },
       { "trait": "ROBUST", "prob": 100 },
       { "trait": "PRETTY", "prob": 100 },
+      { "trait": "PACIFIST", "prob": 100 },
       { "trait": "ANTIJUNK", "prob": 100 },
       { "trait": "DEX_ALPHA", "prob": 100 },
       { "trait": "INT_ALPHA", "prob": 100 },
