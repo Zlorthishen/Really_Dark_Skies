@@ -6,6 +6,12 @@
     "dynamic_line": [ "Thank you for opening the door.  I was trapped in here!" ],
     "responses": [
       {
+        "text": "This [MISSION] failed, so you're dead.  Sorry.",
+        "condition": { "u_has_var": "u_killed_June_OFanny", "type": "flag", "context": "death", "value": "yes" },
+        "effect": [ "npc_die" ],		
+        "topic": "TALK_DONE"
+      },
+      {
         "text": "Lets set a combat strategy…",
         "condition": {
           "and": [
