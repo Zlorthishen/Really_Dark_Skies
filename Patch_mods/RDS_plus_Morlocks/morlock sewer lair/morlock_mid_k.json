@@ -194,5 +194,61 @@
         "p": "f_straw_bed"
       }
     }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "morlock_lair_mid_core_k",
+    "weight": 500,
+    "object": {
+      "mapgensize": [ 24, 24 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "      ¦¦¦¦¦  §§§§§      ",
+        "      ¦p.p¦..§.N.§      ",
+        "      ¦.p.+..§..f§      ",
+        "      ¦¦¦¦¦..+..T§      ",
+        "      ¦b..+..§sss§      ",
+        "      ¦b..¦..§§§§§z     ",
+        "      ¦¦¦¦¦z.......     ",
+        "      ¦bb.¦,.......     ",
+        "      ¦...+..§§+§§z     ",
+        "      ¦¦¦¦¦..§...§      ",
+        "      ¦qq.¦..§.B.§      ",
+        "      ¦...+..§.A.§      ",
+        "      ¦¦¦¦¦..§§§§§      ",
+        "          ....          ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "palettes": [ "morlock_lair" ],
+      "terrain": {
+        "§": "t_rock_smooth",
+        "y": "t_rock_floor",
+        "¦": [ [ "t_wall_log", 60 ], [ "t_wall_log_chipped", 35 ], [ "t_wall_log_broken", 5 ] ],
+        "Y": "t_rock_floor",
+        "X": "t_rock_floor",
+        "T": "t_rock_floor",
+        "t": "t_rock_floor"
+      },
+      "furniture": {
+        "A": "f_autodoc",
+        "B": "f_autodoc_couch",
+        "f": "f_stool",
+        "s": "f_sofa",
+        "T": "f_coffee_table",
+        "b": "f_makeshift_bed",
+        "q": "f_bed_frame",
+        "p": "f_straw_bed"
+      }
+    }
   }
 ]

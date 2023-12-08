@@ -66,12 +66,12 @@
         "####z,,           ,z###-",
         "----,             ,,----"
       ],
-
+      "rotation": 0,
       "place_npcs": [ { "class": "DKZ_MORLOCK_JASON_ALBRIGHT", "x": 11, "y": 11, "add_trait": [ "DKZ_LEADER" ] } ],	  
       "terrain": { " ": [ [ "t_rock_floor", 11 ], [ "t_dirt", 3 ] ] },
       "furniture": { "y": "f_tatami", "Y": "f_tatami" },
       "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],
-      "items": { "y": { "item": "DKZ_morlock_weapons", "chance": 29 }, "Y": { "item": "DKZ_morlock_weapons", "chance": 2 } },
+      "items": { "y": { "item": "DKZ_morlock_weapons", "chance": 33 }, "Y": { "item": "DKZ_morlock_weapons", "chance": 5 } },
       "item": {  "y": { "item": "scabbard", "chance": 50 } },
       "palettes": [ "morlock_lair" ]
     }
