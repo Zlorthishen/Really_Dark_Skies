@@ -8,9 +8,49 @@
       {
         "text": "This [MISSION] failed, so you're dead.  Sorry.",
         "condition": { "u_has_var": "u_killed_June_OFanny", "type": "flag", "context": "death", "value": "yes" },
-        "effect": [ "npc_die" ],		
+        "effect": [ "npc_die" ],
         "topic": "TALK_DONE"
       },
+      {
+        "text": "[MISSION] I'm here to rescue you",
+        "condition": {
+          "and": [
+            { "u_has_mission": "DKZ_MORLOCK_RESCUE_JUNE_OFANNY" },
+            { "not": { "u_has_var": "u_saved_June_OFanny", "type": "general", "context": "maquis", "value": "yes" } }
+          ]
+        },
+        "topic": "TALK_MORLOCK_JUNE_OFANNY_RESCUE"
+      },
+      {
+        "text": "[MISSION] You are saved!",
+        "condition": {
+          "and": [
+            { "not": { "u_has_mission": "DKZ_MORLOCK_RESCUE_JUNE_OFANNY" } },
+            { "u_has_var": "u_saved_June_OFanny", "type": "general", "context": "maquis", "value": "yes" }
+          ]
+        },
+        "effect": [ { "npc_first_topic": "TALK_MORLOCK_JUNE_OFANNY_RESCUED" } ],
+        "opinion": { "trust": 5, "value": 4 },
+        "topic": "TALK_MORLOCK_JUNE_OFANNY_ESCORT_DONE"
+      },
+      {
+        "text": "Alright, lets get going.",
+        "condition": {
+          "and": [
+            { "not": { "u_has_mission": "DKZ_MORLOCK_RESCUE_JUNE_OFANNY" } },
+            { "not": { "u_has_var": "u_saved_June_OFanny", "type": "general", "context": "maquis", "value": "yes" } }
+          ]
+        },
+        "topic": "TALK_DONE"
+      }
+    ]
+  },
+  {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
+    "id": "TALK_MORLOCK_JUNE_OFANNY_ESCORTING_BACK",
+    "type": "talk_topic",
+    "dynamic_line": [ "Lets get back to the safety of the sewer." ],
+    "responses": [
       {
         "text": "Lets set a combat strategy…",
         "condition": {
@@ -36,22 +76,12 @@
         "text": "Come with me.",
         "condition": {
           "and": [
-            { "npc_has_var": "temporal_follower", "type": "general", "context": "maquis", "value": "yes"  },
+            { "npc_has_var": "temporal_follower", "type": "general", "context": "maquis", "value": "yes" },
             { "u_has_mission": "DKZ_MORLOCK_RETURN_TO_SEWER_CENTRAL" },
             { "not": { "u_has_var": "u_saved_June_OFanny", "type": "general", "context": "maquis", "value": "yes" } }
           ]
         },
         "topic": "TALK_MORLOCK_JUNE_OFANNY_FOLLOW"
-      },
-      {
-        "text": "[MISSION] I'm here to rescue you",
-        "condition": {
-          "and": [
-            { "u_has_mission": "DKZ_MORLOCK_RESCUE_JUNE_OFANNY" },
-            { "not": { "u_has_var": "u_saved_June_OFanny", "type": "general", "context": "maquis", "value": "yes" } }
-          ]
-        },
-        "topic": "TALK_MORLOCK_JUNE_OFANNY_RESCUE"
       },
       {
         "text": "[MISSION] You are saved!",
@@ -64,17 +94,6 @@
         "effect": [ { "npc_first_topic": "TALK_MORLOCK_JUNE_OFANNY_RESCUED" } ],
         "opinion": { "trust": 5, "value": 4 },
         "topic": "TALK_MORLOCK_JUNE_OFANNY_ESCORT_DONE"
-      },
-      { "text": "About that mission…", "topic": "TALK_MISSION_INQUIRE", "condition": "has_assigned_mission" },
-      {
-        "text": "Alright, lets get going.",
-        "condition": {
-          "and": [
-            { "not": { "u_has_mission": "DKZ_MORLOCK_RESCUE_JUNE_OFANNY" } },
-            { "not": { "u_has_var": "u_saved_June_OFanny", "type": "general", "context": "maquis", "value": "yes" } }
-          ]
-        },
-        "topic": "TALK_DONE"
       }
     ]
   },
@@ -107,11 +126,11 @@
       "I want to get back down to the safety of the sewer, but I'm not any use in a fight.  Please make sure the way down to the basement is clear."
     ],
     "responses": [
-      { "text": "Alright, I will go and clear the way and be back soon.", "topic": "TALK_DONE" },
       {
         "text": "The way is clear, lets go.",
         "opinion": { "trust": 2, "value": 5 },
         "effect": [
+          { "npc_first_topic": "TALK_MORLOCK_JUNE_OFANNY_ESCORTING_BACK" },
           "follow_only",
           { "add_mission": "DKZ_MORLOCK_RETURN_TO_SEWER_CENTRAL" },
           { "npc_add_var": "temporal_follower", "type": "general", "context": "maquis", "value": "yes" }

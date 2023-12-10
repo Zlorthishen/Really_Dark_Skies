@@ -32,6 +32,7 @@
         "######           #######",
         "####                ####"
       ],
+      "rotation": 0,
       "terrain": { " ": [ [ "t_rock_floor", 13 ], [ "t_dirt", 3 ] ] },
       "palettes": [ "morlock_lair" ],
       "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],
@@ -74,6 +75,7 @@
         "######           #######",
         "######            ######"
       ],
+      "rotation": 0,
       "terrain": { " ": [ [ "t_rock_floor", 13 ], [ "t_dirt", 3 ] ] },
       "palettes": [ "morlock_lair" ],
       "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],
