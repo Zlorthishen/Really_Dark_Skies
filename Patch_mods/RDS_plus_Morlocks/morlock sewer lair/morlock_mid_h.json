@@ -119,11 +119,9 @@
         "                        "
       ],
       "palettes": [ "morlock_lair" ],
-	  "terrain": {"´": "t_carpet_red"},
-      "furniture": { "Ṯ": "f_table",  "Ň": "f_fridge_on",  "7": "f_stool", "1": "f_chair" },
-      "items": {
-        "T": { "item": "dinnerware", "chance": 25, "repeat": [ 2, 3 ] }
-      },
+      "terrain": { "´": "t_carpet_red" },
+      "furniture": { "Ṯ": "f_table", "Ň": "f_fridge_on", "7": "f_stool", "1": "f_chair" },
+      "items": { "T": { "item": "dinnerware", "chance": 25, "repeat": [ 2, 3 ] } },
       "item": {
         "Ṯ": { "item": "atomic_lamp", "chance": 100 },
         "r": { "item": "sashimi", "chance": 75, "repeat": [ 1, 3 ] },

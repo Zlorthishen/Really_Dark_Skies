@@ -8,7 +8,7 @@
     "chat": "TALK_MORLOCK_JASON_ALBRIGHT_FIRST",
     "name_unique": "Jason Albright",
     "gender": "male",
-	"faction": "maquis"
+    "faction": "maquis"
   },
   {
     "type": "npc_class",

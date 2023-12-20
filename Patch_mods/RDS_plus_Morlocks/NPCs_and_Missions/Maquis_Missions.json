@@ -16,11 +16,7 @@
       "assign_mission_target": { "om_terrain": "ch4_news_tower_9b", "om_special": "morlock_lair", "search_range": 13, "random": false },
       "update_mapgen": { "place_npcs": [ { "class": "DKZ_MORLOCK_JUNE_OFANNY", "x": 7, "y": 21, "target": true } ] }
     },
-    "end": {
-      "effect": [
-        { "u_adjust_var": "maquis_morale", "type": "counter", "context": "morlock_lair", "adjustment": 2 }
-      ]
-    },
+    "end": { "effect": [ { "u_adjust_var": "maquis_morale", "type": "counter", "context": "morlock_lair", "adjustment": 2 } ] },
     "fail": { "effect": [ { "u_add_var": "u_killed_June_OFanny", "type": "flag", "context": "death", "value": "yes" } ] },
     "origins": [ "ORIGIN_GAME_START" ]
   },
@@ -48,7 +44,6 @@
         { "u_add_var": "u_saved_June_OFanny", "type": "general", "context": "maquis", "value": "yes" }
       ]
     },
-
     "origins": [ "ORIGIN_SECONDARY" ],
     "has_generic_rewards": false,
     "fail": { "effect": [ { "u_add_var": "u_killed_June_OFanny", "type": "flag", "context": "death", "value": "yes" } ] },
@@ -63,7 +58,6 @@
       "success_lie": "Are you lost or something?",
       "failure": "Can't believe we got lost…"
     }
-
   },
   {
     "//": "----] 3rd mission: Join the Maquis [-----------------------------------------------------------------------------------",

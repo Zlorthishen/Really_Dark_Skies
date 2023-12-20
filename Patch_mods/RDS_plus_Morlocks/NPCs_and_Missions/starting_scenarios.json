@@ -19,7 +19,7 @@
       "dkz_morlock_mutant_donatello",
       "dkz_morlock_mutant_michelangelo"
     ],
-    "missions": [ "DKZ_MORLOCK_RESCUE_JUNE_OFANNY" ],	
+    "missions": [ "DKZ_MORLOCK_RESCUE_JUNE_OFANNY" ],
     "forced_traits": [ "PARKOUR", "DKZ_COMBAT" ],
     "traits": [
       "PROF_SKATER",
