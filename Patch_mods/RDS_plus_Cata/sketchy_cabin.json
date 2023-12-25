@@ -30,7 +30,7 @@
     "id": "house_fight_xenoids",
     "name": "Underground Arena",
     "terrain": [ "sketchy_cabin_b2_Aliens" ]
-  },   
+  },
   {
     "type": "mapgen",
     "method": "json",
@@ -39,12 +39,10 @@
     "object": {
       "mapgensize": [ 1, 1 ],
       "rotation": [ 0, 3 ],
-      "rows": [
-        "A"
-      ],
+      "rows": [ "A" ],
       "terrain": { "A": "t_null" },
       "place_monster": [ { "group": "GROUP_XENOID_BOSS", "x": 0, "y": 0 } ]
-    }	
+    }
   },
   {
     "type": "mapgen",
@@ -52,14 +50,12 @@
     "nested_mapgen_id": "dkz_sketchycabin_chunk",
     "weight": 2000,
     "object": {
-      "mapgensize": [ 1,1 ],
+      "mapgensize": [ 1, 1 ],
       "rotation": [ 0, 3 ],
-      "rows": [
-        "A"
-      ],
+      "rows": [ "A" ],
       "terrain": { "A": "t_null" },
       "place_monster": [ { "group": "GROUP_MI-GO_BASE_COMMON", "x": 0, "y": 0 } ]
-    }	
+    }
   },
   {
     "type": "mapgen",
@@ -67,14 +63,12 @@
     "nested_mapgen_id": "dkz_sketchycabin_chunk",
     "weight": 1000,
     "object": {
-      "mapgensize": [ 1,1 ],
+      "mapgensize": [ 1, 1 ],
       "rotation": [ 0, 3 ],
-      "rows": [
-        "A"
-      ],
+      "rows": [ "A" ],
       "terrain": { "A": "t_null" },
-      "place_monster": [ { "group": "GROUP_TRIFFID", "x": 0, "y": 0} ]
-    }	
+      "place_monster": [ { "group": "GROUP_TRIFFID", "x": 0, "y": 0 } ]
+    }
   },
   {
     "type": "mapgen",
@@ -156,13 +150,8 @@
         { "group": "vending_food_items", "x": 18, "y": 5, "chance": 50, "repeat": 10 },
         { "group": "vending_drink_items", "x": 21, "y": 5, "chance": 50, "repeat": 10 }
       ],
-      "place_nested": [
-        { "chunks": [ "dkz_sketchycabin_chunk" ], "x": 12, "y": 12 }
-		],  
-      "place_npcs": [
-        { "class": "slave_fight_ally", "x": 12, "y": 16 },
-        { "class": "slave_fight_ally", "x": 15, "y": 13 }
-      ]
+      "place_nested": [ { "chunks": [ "dkz_sketchycabin_chunk" ], "x": 12, "y": 12 } ],
+      "place_npcs": [ { "class": "slave_fight_ally", "x": 12, "y": 16 }, { "class": "slave_fight_ally", "x": 15, "y": 13 } ]
     }
   }
 ]

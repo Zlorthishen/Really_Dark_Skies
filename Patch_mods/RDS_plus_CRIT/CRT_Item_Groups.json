@@ -18,9 +18,6 @@
     "type": "item_group",
     "id": "DKZ_cutting_military",
     "//": "Military quality cutting weapons.",
-    "items": [
-      { "item": "knife_crt", "prob": 75 }
-    ]
+    "items": [ { "item": "knife_crt", "prob": 75 } ]
   }
-  
 ]

@@ -6,8 +6,8 @@
     "authors": [ "Zlorthishen" ],
     "description": "A patchmod for Really Dark Skies which adds increased support for Arcana",
     "category": "misc_additions",
-    "version": "BN version 1eeea09, update 9/5/2023",
+    "version": "BN version 58294c5, update 12/25/2023",
     "dependencies": [ "bn", "realdarkskies", "Arcana" ],
-	"conflicts": ["realdarkskies_Arcana_plus_patchmod"]
+    "conflicts": [ "realdarkskies_Arcana_plus_patchmod" ]
   }
 ]

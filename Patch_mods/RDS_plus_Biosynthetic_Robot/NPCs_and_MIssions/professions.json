@@ -70,7 +70,7 @@
       "bio_face_mask",
       "bio_metabolics",
       "bio_ups",
-      "bio_ears",	  
+      "bio_ears",
       "bio_power_armor_interface_mkII",
       "bio_power_storage_mkII",
       "bio_power_storage_mkII",
@@ -108,7 +108,7 @@
       "bio_night_vision",
       "bio_metabolics",
       "bio_ups",
-      "bio_ears",	  
+      "bio_ears",
       "bio_power_armor_interface_mkII",
       "bio_power_storage_mkII",
       "bio_power_storage_mkII",
@@ -121,9 +121,7 @@
       { "level": 3, "name": "pistol" },
       { "level": 5, "name": "melee" }
     ],
-    "items": {
-      "both": [ "gkb_chi_powarmor" , "gkb_chi_powarmor_helmet"]
-    }
+    "items": { "both": [ "gkb_chi_powarmor", "gkb_chi_powarmor_helmet" ] }
   },
   {
     "type": "profession",
@@ -148,7 +146,7 @@
       "bio_painkiller",
       "bio_remote",
       "bio_ups",
-      "bio_ears",	  
+      "bio_ears",
       "bio_power_armor_interface_mkII",
       "bio_power_storage_mkII",
       "bio_power_storage_mkII",
@@ -163,8 +161,6 @@
       { "level": 5, "name": "pistol" },
       { "level": 5, "name": "melee" }
     ],
-    "items": {
-      "both": [ "gkb_chi_powarmor" , "gkb_chi_powarmor_helmet"]
-    }
+    "items": { "both": [ "gkb_chi_powarmor", "gkb_chi_powarmor_helmet" ] }
   }
 ]

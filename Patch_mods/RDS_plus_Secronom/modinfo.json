@@ -6,7 +6,7 @@
     "authors": [ "Zlorthishen" ],
     "description": "A patchmod for <color_light_blue>Really Dark Skies</color> which adds increased support for <color_light_red>Secronom</color>",
     "category": "misc_additions",
-    "version": "BN version 1eeea09, update 9/5/2023",
+    "version": "BN version 58294c5, update 12/25/2023",
     "dependencies": [ "bn", "realdarkskies", "secronom", "secronom_lore_expansion" ]
   }
 ]

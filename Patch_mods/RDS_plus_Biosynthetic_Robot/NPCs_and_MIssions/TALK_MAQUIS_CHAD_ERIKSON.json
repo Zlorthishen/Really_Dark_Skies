@@ -25,7 +25,9 @@
     "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_CHAD_ERIKSON_N_SYNTH_MAID_TO_KILL",
     "type": "talk_topic",
-    "dynamic_line": [ "When it all hit the fan I tried every trick I had to try to get an advantage against these Xenoids.  One of those tricks was hacking into Chi Industries main server and sending out an activation script." ],
+    "dynamic_line": [
+      "When it all hit the fan I tried every trick I had to try to get an advantage against these Xenoids.  One of those tricks was hacking into Chi Industries main server and sending out an activation script."
+    ],
     "responses": [
       {
         "text": "Thank you for activating me.  I have some questions.",

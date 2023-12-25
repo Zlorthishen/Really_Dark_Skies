@@ -7,12 +7,9 @@
     "object": {
       "mapgensize": [ 1, 1 ],
       "rotation": [ 0, 3 ],
-      "rows": [
-        " "
-      ],
-      "place_npcs": [ { "class": "DKZ_MAQUIS_RAPTOR_MUTANT", "x": 0, "y": 0, "add_trait": "DKZ_COMBAT" } ],  
+      "rows": [ " " ],
+      "place_npcs": [ { "class": "DKZ_MAQUIS_RAPTOR_MUTANT", "x": 0, "y": 0, "add_trait": "DKZ_COMBAT" } ],
       "terrain": { " ": "t_null" }
-	  
     }
   }
 ]

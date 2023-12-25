@@ -4,10 +4,7 @@
     "type": "item_group",
     "id": "DKZ_guns_energy",
     "//": "Assorted factory crafted energy weapons.",
-    "items": [
-      { "item": "laser_rifle_secro", "prob": 15 },
-      { "item": "lmilaser", "prob": 10 }
-    ]
+    "items": [ { "item": "laser_rifle_secro", "prob": 15 }, { "item": "lmilaser", "prob": 10 } ]
   },
   {
     "type": "item_group",
@@ -21,6 +18,7 @@
       { "item": "xm556", "prob": 30, "charges-min": 100, "charges-max": 100 },
       { "item": "xm8", "prob": 30, "charges-min": 30, "charges-max": 30 },
       { "item": "psg1", "prob": 50, "charges-min": 30, "charges-max": 30 },
-      { "item": "zx1sniper", "prob": 50, "charges-min": 1, "charges-max": 1 } ]
-  }	  
+      { "item": "zx1sniper", "prob": 50, "charges-min": 1, "charges-max": 1 }
+    ]
+  }
 ]
