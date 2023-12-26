@@ -1,6 +1,6 @@
 [
   {
-    "id": "riv_scope",
+    "id": "acog_scope",
     "copy-from": "rifle_scope",
     "type": "GUNMOD",
     "name": { "str": "RS1219 scope" },
@@ -213,7 +213,7 @@
     "price_postapoc": 11000,
     "to_hit": -2,
     "bashing": 12,
-    "material": [ "superalloy", "plastic" ],
+    "material": [ "superalloy", "ceramic" ],
     "dispersion": 285,
     "durability": 9,
     "ranged_damage": { "damage_type": "bullet", "amount": 4 },
@@ -313,7 +313,7 @@
     "reload": 200,
     "handling": 15,
     "barrel_length": "500 ml",
-    "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 4 ], [ "AUTO", "auto", 6 ] ],
+    "modes": [ [ "BURST", "burst", 3 ], [ "AUTO", "auto", 5 ] ],
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "barrel", 1 ],
@@ -349,7 +349,7 @@
     "ammo": "5x50",
     "built_in_mods": [ "riv_scope" ],
     "color": "dark_gray",
-    "modes": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 6 ] ],
+    "modes": [ [ "AUTO", "auto", 5 ] ],
     "valid_mod_locations": [ [ "barrel", 1 ], [ "grip", 1 ], [ "mechanism", 4 ], [ "rail", 1 ], [ "sights", 1 ], [ "sling", 1 ], [ "stock", 1 ] ],
     "handling": 15,
     "barrel_length": "1500 ml",
