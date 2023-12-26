@@ -1,6 +1,6 @@
 [
   {
-    "id": "acog_scope",
+    "id": "riv_scope",
     "copy-from": "rifle_scope",
     "type": "GUNMOD",
     "name": { "str": "RS1219 scope" },
