@@ -16,7 +16,8 @@
       { "monster": "dkz_mon_stray_heavy", "freq": 10, "cost_multiplier": 2, "pack_size": [ 1, 4 ] },
       { "monster": "dkz_mon_crystal_mite", "freq": 10, "cost_multiplier": 0, "pack_size": [ 3, 7 ] },
       { "monster": "dkz_mon_crystal_mite", "freq": 20, "cost_multiplier": 0, "pack_size": [ 2, 5 ] },
-      { "monster": "dkz_mon_crystal_mite", "freq": 80, "cost_multiplier": 0, "pack_size": [ 1, 2 ] }
+      { "monster": "dkz_mon_crystal_mite", "freq": 80, "cost_multiplier": 0, "pack_size": [ 1, 2 ] },
+      { "monster": "dkz_mon_crystal_mite_fat", "freq": 1, "cost_multiplier": 0, "pack_size": [ 1, 2 ] }
     ]
   },
   {

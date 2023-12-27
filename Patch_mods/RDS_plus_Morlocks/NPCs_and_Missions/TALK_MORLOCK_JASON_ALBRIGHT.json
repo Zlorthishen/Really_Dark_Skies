@@ -49,6 +49,15 @@
         "topic": "TALK_JASON_ALBRIGHT_DEAD_JUNE"
       },
       {
+        "text": "Any guns around here?",
+        "effect": { "u_add_var": "u_Talk_To_JasonAlbright_about_Guns", "type": "general", "context": "meeting", "value": "yes" },
+        "condition": {
+          "not": { "u_has_var": "u_Talk_To_JasonAlbright_about_Guns", "type": "general", "context": "meeting", "value": "yes" }
+        },
+        "opinion": { "trust": -5, "value": 5 },
+        "topic": "TALK_JASON_ALBRIGHT_ASK_ABOUT_GUNS"
+      },
+      {
         "text": "That is a very nice watch.",
         "effect": { "u_add_var": "u_Talk_To_JasonAlbright_about_Watch", "type": "general", "context": "meeting", "value": "yes" },
         "condition": {
@@ -200,6 +209,13 @@
     "id": "TALK_MORLOCK_JASON_ALBRIGHT_THE_SEWER_OVERFLOWS",
     "type": "talk_topic",
     "dynamic_line": [ "When you make contact with Mr. Erikson, be sure to use the phrase 'sewer overflow' to identify yourself." ],
+    "responses": [ { "text": "Alright.", "topic": "TALK_DONE" } ]
+  },
+  {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
+    "id": "TALK_JASON_ALBRIGHT_ASK_ABOUT_GUNS",
+    "type": "talk_topic",
+    "dynamic_line": [ "If you need more powerful weapon, you can find a locker hidden from the nearby mushrooms.  Look behind the crumbling walls." ],
     "responses": [ { "text": "Alright.", "topic": "TALK_DONE" } ]
   },
   {
