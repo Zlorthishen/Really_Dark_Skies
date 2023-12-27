@@ -3,7 +3,7 @@
     "type": "npc",
     "id": "DKZ_MORLOCK_JASON_ALBRIGHT",
     "class": "NC_MORLOCK_JASON_ALBRIGHT",
-    "attitude": 1,
+    "attitude": 0,
     "mission": 7,
     "chat": "TALK_MORLOCK_JASON_ALBRIGHT_FIRST",
     "name_unique": "Jason Albright",
