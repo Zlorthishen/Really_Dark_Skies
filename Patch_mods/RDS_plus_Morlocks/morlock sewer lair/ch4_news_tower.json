@@ -224,7 +224,7 @@
       ],
       "place_monsters": [
         { "monster": "GROUP_QUISSLING_HELPERS", "x": [ 5, 23 ], "y": [ 5, 23 ], "density": 0.11 },
-        { "monster": "GROUP_CHANNEL4_MONSTERS", "x": [ 4, 23 ], "y": [ 5, 23 ], "density": 0.23 },
+        { "monster": "GROUP_CHANNEL4_MONSTERS", "x": [ 4, 23 ], "y": [ 5, 23 ], "density": 0.29 },
         { "monster": "GROUP_CHANNEL4_MONSTERS", "x": [ 24, 43 ], "y": [ 29, 47 ], "density": 0.23 },
         { "monster": "GROUP_CHANNEL4_MONSTERS", "x": [ 4, 23 ], "y": [ 0, 18 ], "density": 0.23 },
         { "monster": "GROUP_CHANNEL4_MONSTERS", "x": [ 24, 43 ], "y": [ 24, 42 ], "density": 0.23 }
@@ -764,9 +764,7 @@
         { "chunks": [ [ "roof_4x4_utility_1", 50 ], [ "roof_4x4_utility", 50 ] ], "x": 37, "y": 37 }
       ],
       "place_monsters": [
-        { "monster": "GROUP_CHANNEL4_MONSTERS", "x": [ 5, 23 ], "y": [ 6, 23 ], "density": 0.11 },
-        { "monster": "GROUP_CHANNEL4_MONSTERS", "x": [ 5, 23 ], "y": [ 6, 18 ], "density": 0.11 },
-        { "monster": "GROUP_XENOID_SQUAD", "x": [ 9, 17 ], "y": [ 9, 17 ], "density": 0.03 }
+        { "monster": "GROUP_XENOID_MINI_DRONES", "x": [ 9, 17 ], "y": [ 9, 17 ], "density": 0.11 }
       ]
     }
   },
