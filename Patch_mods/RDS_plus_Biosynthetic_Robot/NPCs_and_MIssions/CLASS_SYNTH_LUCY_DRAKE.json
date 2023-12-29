@@ -12,12 +12,11 @@
   {
     "type": "npc_class",
     "id": "NC_SYNTH_LUCY_DRAKE",
-    "name": { "str": "Maquis-SWAT Cop" },
-    "job_description": "I'm to keep the peace and provide combat support.",
+    "name": { "str": "Lucy Drake" },
+    "job_description": "I'm to find my place in this world.",
     "common": false,
     "traits": [
-      { "group": "DKZ_starting_traits" },
-      { "group": "Appearance_demographics" },
+      { "trait": "hair_white_long", "prob": 100 },
       { "trait": "WAKEFUL", "prob": 100 },
       { "trait": "GOODHEARING", "prob": 100 },
       { "trait": "ROBUST", "prob": 100 },
@@ -82,7 +81,7 @@
     "id": "NC_SYNTH_LUCY_DRAKE_weapon",
     "subtype": "distribution",
     "entries": [
-      { "item": "chi_digisword", "prob": 100 }
+      { "item": "chi_digisword_on", "prob": 100 }
     ]
   },
   {
@@ -90,6 +89,6 @@
     "type": "item_group",
     "subtype": "collection",
     "items": [
-      { "item": "chi_digisword", "prob": 100 } ]
+      { "item": "chi_digisword_on", "prob": 100 } ]
   }
 ]

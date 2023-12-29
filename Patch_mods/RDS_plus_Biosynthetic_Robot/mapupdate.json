@@ -1,0 +1,15 @@
+[
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_NPC_B",
+    "weight": 1000,
+    "object": {
+      "mapgensize": [ 1, 1 ],
+      "rotation": [ 0, 3 ],
+      "rows": [ " " ],
+      "place_npcs": [ { "class": "DKZ_SYNTH_LUCY_DRAKE", "x": 0, "y": 0, "add_trait": "DKZ_COMBAT" } ],
+      "terrain": { " ": "t_null" }
+    }
+  }
+]
