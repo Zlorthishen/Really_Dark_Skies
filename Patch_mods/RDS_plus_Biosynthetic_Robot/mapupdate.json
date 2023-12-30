@@ -16,7 +16,7 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "racing_tower_NPC_B",
-    "weight": 1000,
+    "weight": 1000000,
     "object": {
       "mapgensize": [ 1, 1 ],
       "rotation": [ 0, 3 ],
@@ -29,12 +29,38 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "racing_tower_NPC_B",
-    "weight": 1000,
+    "weight": 1,
     "object": {
       "mapgensize": [ 1, 1 ],
       "rotation": [ 0, 3 ],
       "rows": [ " " ],
       "place_npcs": [ { "class": "DKZ_SYNTH_NURSE", "x": 0, "y": 0, "add_trait": "DKZ_COMBAT" } ],
+      "terrain": { " ": "t_null" }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_NPC_B+",
+    "weight": 1000,
+    "object": {
+      "mapgensize": [ 1, 1 ],
+      "rotation": [ 0, 3 ],
+      "rows": [ " " ],
+      "place_npcs": [ { "class": "DKZ_SYNTH_SWAT", "x": 0, "y": 0, "add_trait": "DKZ_COMBAT" } ],
+      "terrain": { " ": "t_null" }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_NPC_B+",
+    "weight": 1000,
+    "object": {
+      "mapgensize": [ 1, 1 ],
+      "rotation": [ 0, 3 ],
+      "rows": [ " " ],
+      "place_npcs": [ { "class": "DKZ_SYNTH_POLICE", "x": 0, "y": 0, "add_trait": "DKZ_COMBAT" } ],
       "terrain": { " ": "t_null" }
     }
   }

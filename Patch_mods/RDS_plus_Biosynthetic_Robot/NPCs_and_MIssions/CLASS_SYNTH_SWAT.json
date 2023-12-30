@@ -1,9 +1,9 @@
 [
   {
     "type": "npc",
-    "id": "DKZ_SYNTH_NURSE",
+    "id": "DKZ_SYNTH_SWAT",
     "name_suffix": "Synthetic",
-    "class": "NC_SYNTH_NURSE",
+    "class": "NC_SYNTH_SWAT",
     "attitude": 0,
     "mission": 7,
     "chat": "TALK_SYNTH_LUCY_DRAKE_ROOT",
@@ -12,7 +12,7 @@
   },
   {
     "type": "npc_class",
-    "id": "NC_SYNTH_NURSE",
+    "id": "NC_SYNTH_SWAT",
     "name": { "str": "Synthetic Maid" },
     "job_description": "A bio-synthetic maid.",
     "traits": [ { "trait": "hair_brown_long" }, { "trait": "mut_gkb_ears" }, { "trait": "SKIN_LIGHT" } ],
@@ -21,20 +21,20 @@
     "bonus_dex": { "rng": [ -2, 2 ] },
     "bonus_int": { "rng": [ -2, 2 ] },
     "bonus_per": { "rng": [ 0, 2 ] },
-    "worn_override": "NC_SYNTH_NURSE_worn",
-    "carry_override": "NC_SYNTH_NURSE_carry",
-    "weapon_override": "NC_SYNTH_NURSE_weapon",
+    "worn_override": "NC_SYNTH_SWAT_worn",
+    "carry_override": "NC_SYNTH_SWAT_carry",
+    "weapon_override": "NC_SYNTH_SWAT_weapon",
     "skills": [ { "skill": "ALL", "level": { "sum": [ { "dice": [ 3, 2 ] }, { "constant": -3 } ] } } ]
   },
   {
     "type": "item_group",
-    "id": "NC_SYNTH_NURSE_weapon",
+    "id": "NC_SYNTH_SWAT_weapon",
     "subtype": "distribution",
     "entries": [ { "item": "bat" } ]
   },
   {
     "type": "item_group",
-    "id": "NC_SYNTH_NURSE_worn",
+    "id": "NC_SYNTH_SWAT_worn",
     "subtype": "collection",
     "entries": [
       { "item": "panties" },
@@ -47,7 +47,7 @@
   },
   {
     "type": "item_group",
-    "id": "NC_SYNTH_NURSE_carry",
+    "id": "NC_SYNTH_SWAT_carry",
     "subtype": "collection",
     "entries": [ { "item": "null" } ]
   }

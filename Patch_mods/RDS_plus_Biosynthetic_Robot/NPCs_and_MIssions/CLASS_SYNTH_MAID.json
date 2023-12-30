@@ -24,7 +24,7 @@
     "worn_override": "NC_SYNTH_MAID_worn",
     "carry_override": "NC_SYNTH_MAID_carry",
     "weapon_override": "NC_SYNTH_MAID_weapon",
-    "skills": [ { "skill": "ALL", "level": { "sum": [ { "dice": [ 3, 2 ] }, { "constant": -2 } ] } } ]
+    "skills": [ { "skill": "ALL", "level": { "sum": [ { "dice": [ 3, 2 ] }, { "constant": -3 } ] } } ]
   },
   {
     "type": "item_group",

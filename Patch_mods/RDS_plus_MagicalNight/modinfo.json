@@ -1,0 +1,13 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "realdarkskies_MagicalNights_patchmod",
+    "name": "<color_light_blue>Really Dark Skies</color> plus Magical Nights",
+    "authors": [ "Zlorthishen" ],
+    "description": "A patchmod for <color_light_blue>Really Dark Skies</color> which adds increased support for Magical Nights",
+    "category": "misc_additions",
+    "version": "BN version 58294c5, update 12/30/2023",
+    "conflicts": [ "magiclysm" ],
+    "dependencies": [ "bn", "realdarkskies", "MagicalNights" ]
+  }
+]

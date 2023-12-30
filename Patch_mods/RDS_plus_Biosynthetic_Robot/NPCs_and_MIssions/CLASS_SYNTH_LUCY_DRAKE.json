@@ -26,7 +26,7 @@
       { "trait": "STR_ALPHA", "prob": 100 }
     ],
     "skills": [
-      { "skill": "ALL", "level": { "sum": [ { "dice": [ 3, 2 ] }, { "constant": -4 } ] } },
+      { "skill": "ALL", "level": { "sum": [ { "dice": [ 3, 2 ] }, { "constant": -3 } ] } },
       { "skill": "survival", "bonus": { "rng": [ 2, 3 ] } },
       { "skill": "firstaid", "bonus": { "rng": [ 1, 2 ] } },
       { "skill": "dodge", "bonus": { "rng": [ 2, 3 ] } },
