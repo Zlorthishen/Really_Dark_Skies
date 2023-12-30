@@ -3,6 +3,7 @@
     "type": "npc",
     "id": "DKZ_SYNTH_LUCY_DRAKE",
     "class": "NC_SYNTH_LUCY_DRAKE",
+    "name_suffix": "Synthetic",
     "attitude": 0,
     "mission": 7,
     "chat": "TALK_SYNTH_LUCY_DRAKE_ROOT",

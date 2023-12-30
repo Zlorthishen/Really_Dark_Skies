@@ -1,0 +1,54 @@
+[
+  {
+    "type": "npc",
+    "id": "DKZ_SYNTH_LABORER",
+    "name_suffix": "Synthetic",
+    "class": "NC_SYNTH_LABORER",
+    "attitude": 0,
+    "mission": 7,
+    "chat": "TALK_SYNTH_LUCY_DRAKE_ROOT",
+    "gender": "male",
+    "faction": "maquis"
+  },
+  {
+    "type": "npc_class",
+    "id": "NC_SYNTH_LABORER",
+    "name": { "str": "Synthetic laborer" },
+    "job_description": "A bio-synthetic laborer.",
+    "traits": [ { "trait": "hair_brown_long" }, { "trait": "mut_gkb_ears" }, { "trait": "SKIN_LIGHT" } ],
+    "common": false,
+    "bonus_str": { "rng": [ -1, 1 ] },
+    "bonus_dex": { "rng": [ -2, 2 ] },
+    "bonus_int": { "rng": [ -2, 2 ] },
+    "bonus_per": { "rng": [ 0, 2 ] },
+    "worn_override": "NC_SYNTH_LABORER_worn",
+    "carry_override": "NC_SYNTH_LABORER_carry",
+    "weapon_override": "NC_SYNTH_LABORER_weapon",
+    "skills": [ { "skill": "ALL", "level": { "sum": [ { "dice": [ 3, 2 ] }, { "constant": -2 } ] } } ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_SYNTH_LABORER_weapon",
+    "subtype": "distribution",
+    "entries": [ { "item": "bat" } ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_SYNTH_LABORER_worn",
+    "subtype": "collection",
+    "entries": [
+      { "item": "panties" },
+      { "item": "bra" },
+      { "item": "stockings" },
+      { "item": "maid_dress" },
+      { "item": "maid_hat" },
+      { "item": "dress_shoes" }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_SYNTH_LABORER_carry",
+    "subtype": "collection",
+    "entries": [ { "item": "null" } ]
+  }
+]
