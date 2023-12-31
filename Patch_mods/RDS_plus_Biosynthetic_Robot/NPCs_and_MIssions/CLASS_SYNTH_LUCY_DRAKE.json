@@ -72,24 +72,18 @@
     "id": "NC_SYNTH_LUCY_DRAKE_worn",
     "type": "item_group",
     "subtype": "collection",
-    "entries": [
-      { "item": "gkb_chi_powarmor_helmet_on", "prob": 100 },
-      { "item": "gkb_chi_powarmor_on", "prob": 100 }
-    ]
+    "entries": [ { "item": "gkb_chi_powarmor_helmet_on", "prob": 100 }, { "item": "gkb_chi_powarmor_on", "prob": 100 } ]
   },
   {
     "type": "item_group",
     "id": "NC_SYNTH_LUCY_DRAKE_weapon",
     "subtype": "distribution",
-    "entries": [
-      { "item": "chi_digisword_on", "prob": 100 }
-    ]
+    "entries": [ { "item": "chi_digisword_on", "prob": 100 } ]
   },
   {
     "id": "NC_SYNTH_LUCY_DRAKE_carry",
     "type": "item_group",
     "subtype": "collection",
-    "items": [
-      { "item": "chi_digisword_on", "prob": 100 } ]
+    "items": [ { "item": "chi_digisword_on", "prob": 100 } ]
   }
 ]

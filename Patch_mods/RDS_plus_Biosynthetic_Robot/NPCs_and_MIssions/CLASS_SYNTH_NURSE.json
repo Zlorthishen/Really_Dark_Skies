@@ -14,7 +14,7 @@
     "type": "npc_class",
     "id": "NC_SYNTH_NURSE",
     "name": { "str": "Synthetic Maid" },
-    "job_description": "A bio-synthetic maid.",
+    "job_description": "A bio-synthetic nurse.",
     "traits": [ { "trait": "hair_brown_long" }, { "trait": "mut_gkb_ears" }, { "trait": "SKIN_LIGHT" } ],
     "common": false,
     "bonus_str": { "rng": [ -1, 1 ] },

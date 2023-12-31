@@ -36,7 +36,7 @@
     "type": "item_group",
     "id": "NC_SYNTH_LABORER_worn",
     "subtype": "collection",
-    "entries": [	
+    "entries": [
       { "item": "briefs" },
       { "item": "socks" },
       { "item": "tshirt" },
