@@ -15,7 +15,7 @@
     "id": "NC_SYNTH_NURSE",
     "name": { "str": "Synthetic Maid" },
     "job_description": "A bio-synthetic nurse.",
-    "traits": [ { "trait": "hair_brown_long" }, { "trait": "mut_gkb_ears" }, { "trait": "SKIN_LIGHT" } ],
+    "traits": [ { "trait": "hair_black_long" }, { "trait": "mut_gkb_ears" }, { "trait": "SKIN_LIGHT" } ],
     "common": false,
     "bonus_str": { "rng": [ -1, 1 ] },
     "bonus_dex": { "rng": [ -2, 2 ] },
@@ -30,7 +30,7 @@
     "type": "item_group",
     "id": "NC_SYNTH_NURSE_weapon",
     "subtype": "distribution",
-    "entries": [ { "item": "bat" } ]
+    "entries": [ { "item": "scalpel" } ]
   },
   {
     "type": "item_group",
@@ -40,8 +40,12 @@
       { "item": "panties" },
       { "item": "bra" },
       { "item": "stockings" },
-      { "item": "maid_dress" },
-      { "item": "maid_hat" },
+      { "item": "skirt" },
+      { "item": "dress_shirt" },
+      { "item": "wristwatch" },
+      { "item": "gloves_medical" },
+      { "item": "coat_lab" },
+      { "item": "stethoscope" },
       { "item": "dress_shoes" }
     ]
   },
