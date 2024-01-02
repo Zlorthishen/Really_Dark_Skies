@@ -63,6 +63,22 @@
     ]
   },
   {
+    "//": "1x1 NPC for RDS+Arcana",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_NPC_A",
+    "weight": 0,
+    "object": { "mapgensize": [ 1, 1 ], "rotation": [ 0, 3 ], "rows": [ " " ], "terrain": { " ": "t_null" } }
+  },
+  {
+    "//": "1x1 NPC for RDS+Biosynth",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_NPC_B",
+    "weight": 0,
+    "object": { "mapgensize": [ 1, 1 ], "rotation": [ 0, 3 ], "rows": [ " " ], "terrain": { " ": "t_null" } }
+  },
+  {
     "//": "1x1 NPC for RDS+Dino",
     "type": "mapgen",
     "method": "json",

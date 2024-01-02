@@ -159,5 +159,35 @@
     "intelligence": 12,
     "time": "30 m",
     "fun": -3
+  },
+  {
+    "id": "migo_map",
+    "copy-from": "abstractmap",
+    "type": "GENERIC",
+    "name": "map of monsters",
+    "description": "This is a haphazardly drawn map.  It has alien hieroglyphs scrawled along side of seemingly random locations.",
+    "color": "white",
+    "use_action": {
+      "type": "reveal_map",
+      "radius": 333,
+      "terrain": [
+        "mi-go_outpost0",
+        "mi-go_outpost1",
+        "mi-go_outpost2",
+        "mi-go_outpost1-1",
+        "mi-go_outpost2-1",
+        "mi-go_outpost2-2",
+        "mi-go_outpost2-3",
+        "mi-go_camp1",
+        "mi-go_camp2",
+        "mi-go_camp1",
+        "mi-go_camp2",
+        "mi-go_scout_tower_1",
+        "mi-go_scout_tower_2",
+        "mi-go_scout_tower_3",
+        "mi-go_scout_tower_4"
+      ],
+      "message": "You add the locations to your map."
+    }
   }
 ]

@@ -667,7 +667,8 @@
         "s": "t_asphalt_floor"
       },
       "place_nested": [
-        { "chunks": [ "racing_tower_NPC_D" ], "x": 50, "y": 50 },
+        { "chunks": [ "racing_tower_NPC_B" ], "x": 50, "y": 50 },
+        { "chunks": [ "racing_tower_NPC_D" ], "x": 53, "y": 51 },
         { "chunks": [ "racing_tower_4x4_store" ], "x": 16, "y": 11 },
         { "chunks": [ "racing_tower_4x4_store" ], "x": 16, "y": 20 },
         { "chunks": [ "racing_tower_4x4_store" ], "x": 28, "y": 12 },
