@@ -178,14 +178,12 @@
         "mi-go_outpost2-1",
         "mi-go_outpost2-2",
         "mi-go_outpost2-3",
-        "mi-go_camp1",
-        "mi-go_camp2",
-        "mi-go_camp1",
-        "mi-go_camp2",
         "mi-go_scout_tower_1",
         "mi-go_scout_tower_2",
         "mi-go_scout_tower_3",
-        "mi-go_scout_tower_4"
+        "mi-go_scout_tower_4",
+        "mi-go_camp1",
+        "mi-go_camp2"
       ],
       "message": "You add the locations to your map."
     }
