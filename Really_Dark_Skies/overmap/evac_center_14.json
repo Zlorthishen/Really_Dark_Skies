@@ -3,7 +3,7 @@
     "type": "mapgen",
     "method": "json",
     "om_terrain": "evac_center_14",
-    "weight": 1000000,
+    "weight": 99999999,
     "object": {
       "faction_owner": [ { "id": "free_merchants", "x": [ 0, 15 ], "y": [ 0, 23 ] } ],
       "fill_ter": "t_floor",
