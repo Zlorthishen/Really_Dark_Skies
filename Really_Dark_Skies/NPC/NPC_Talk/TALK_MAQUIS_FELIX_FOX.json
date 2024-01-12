@@ -68,6 +68,13 @@
   },
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
+    "id": "TALK_MAQUIS_FELIX_FOX_RENDEZVOUS_TO_BASE",
+    "type": "talk_topic",
+    "dynamic_line": [ "Well you are pretty far away from the tall tower Mr. Erikson calls home." ],
+    "responses": [ { "text": "Ok, Thanks.", "topic": "TALK_NONE" }, { "text": "Ok, I have to go now.", "topic": "TALK_DONE" } ]
+  },
+  {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MAQUIS_FELIX_FOX_LEADERSHIP",
     "type": "talk_topic",
     "dynamic_line": {

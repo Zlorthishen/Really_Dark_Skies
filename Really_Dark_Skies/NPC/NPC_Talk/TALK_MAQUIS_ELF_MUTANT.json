@@ -75,8 +75,12 @@
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MAQUIS_ELF_MUTANT_RENDEZVOUS_TO_BASE",
-    "type": "talk_topic",
-    "dynamic_line": [ "I'm not sure where Chad is at right now." ],
+    "type": "talk_topic",    
+	"dynamic_line": [
+      "I'm not sure if I'm the right person for the job.",
+      "That sounds way above my paygrade.  Try upstairs.",
+      "Why are you asking me?"
+    ],
     "responses": [ { "text": "Ok, Thanks.", "topic": "TALK_NONE" }, { "text": "Ok, I have to go now.", "topic": "TALK_DONE" } ]
   },
   {
