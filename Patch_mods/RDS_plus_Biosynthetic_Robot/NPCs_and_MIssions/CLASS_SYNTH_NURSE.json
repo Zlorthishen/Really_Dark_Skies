@@ -24,7 +24,18 @@
     "worn_override": "NC_SYNTH_NURSE_worn",
     "carry_override": "NC_SYNTH_NURSE_carry",
     "weapon_override": "NC_SYNTH_NURSE_weapon",
-    "skills": [ { "skill": "ALL", "level": { "sum": [ { "dice": [ 3, 2 ] }, { "constant": -3 } ] } } ]
+    "skills": [
+      { "skill": "ALL", "level": { "sum": [ { "dice": [ 3, 2 ] }, { "constant": -3 } ] } },
+      { "skill": "firstaid", "bonus": { "rng": [ 2, 6 ] } },
+      { "skill": "computer", "bonus": { "rng": [ 1, 2 ] } },
+      { "skill": "electronics", "bonus": { "rng": [ 2, 3 ] } },
+      { "skill": "dodge", "bonus": { "rng": [ 2, 3 ] } },
+      { "skill": "melee", "bonus": { "rng": [ 2, 4 ] } },
+      { "skill": "unarmed", "bonus": { "rng": [ 1, 2 ] } },
+      { "skill": "bashing", "bonus": { "rng": [ 1, 2 ] } },
+      { "skill": "stabbing", "bonus": { "rng": [ 1, 2 ] } },
+      { "skill": "cutting", "bonus": { "rng": [ 1, 2 ] } }
+    ]
   },
   {
     "type": "item_group",

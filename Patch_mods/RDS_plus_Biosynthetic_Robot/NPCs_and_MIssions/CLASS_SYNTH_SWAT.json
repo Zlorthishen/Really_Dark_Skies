@@ -24,7 +24,16 @@
     "worn_override": "NC_SYNTH_SWAT_worn",
     "carry_override": "NC_SYNTH_SWAT_carry",
     "weapon_override": "NC_SYNTH_SWAT_weapon",
-    "skills": [ { "skill": "ALL", "level": { "sum": [ { "dice": [ 3, 2 ] }, { "constant": -3 } ] } } ]
+    "skills": [
+      { "skill": "ALL", "level": { "sum": [ { "dice": [ 3, 2 ] }, { "constant": -3 } ] } },
+      { "skill": "dodge", "bonus": { "rng": [ 2, 4 ] } },
+      { "skill": "melee", "bonus": { "rng": [ 1, 4 ] } },
+      { "skill": "unarmed", "bonus": { "rng": [ 4, 6 ] } },
+      { "skill": "throw", "bonus": { "rng": [ 0, 2 ] } },
+      { "skill": "gun", "bonus": { "rng": [ 1, 3 ] } },
+      { "skill": "pistol", "bonus": { "rng": [ 1, 3 ] } },
+      { "skill": "rifle", "bonus": { "rng": [ 0, 2 ] } }
+    ]
   },
   {
     "type": "item_group",
