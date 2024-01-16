@@ -30,6 +30,36 @@
     "origins": [ "ORIGIN_GAME_START" ]
   },
   {
+    "//": "----| STARTING SCENARIO MISSION for Have Mech, Will Travel ------------------------------------------------------------",
+    "id": "DKZ_HAVE_MECH_WILL_TRAVEL",
+    "type": "mission_definition",
+    "name": { "str": "Rendezvous at Headquarters" },
+    "description": "You saw the message in the mech's debug log directing everyone still alive how to get to the to the local Maquis resistance base and speak to 'Chad'.",
+    "goal": "MGOAL_TALK_TO_NPC",
+    "destination": "racing_tower_z7_4_1",
+    "difficulty": 1,
+    "urgent": true,
+    "deadline_low": 3,
+    "deadline_high": 4,
+    "value": 0,
+    "start": {
+      "assign_mission_target": {
+        "om_terrain": "racing_tower_z7_4_1",
+        "om_special": "arcology_racing",
+        "search_range": 444,
+        "random": true,
+        "min_distance": 77
+      },
+      "update_mapgen": { "place_npcs": [ { "class": "DKZ_CHAD_ERIKSON", "x": 5, "y": 5, "target": true } ] },
+      "effect": [
+        { "u_faction_rep": -1 },
+        { "u_add_var": "MrEriksonExists", "type": "knowledge", "context": "flag", "value": "yes" },
+        { "u_add_var": "Rendezvous_to_base", "type": "knowledge", "context": "flag", "value": "yes" }
+      ]
+    },
+    "origins": [ "ORIGIN_GAME_START" ]
+  },
+  {
     "//": "----| STARTING SCENARIO MISSION for The Sky is Falling ----------------------------------------------------------------",
     "id": "DKZ_MAQUIS_IS_RECRUITING",
     "type": "mission_definition",
@@ -46,9 +76,9 @@
       "assign_mission_target": {
         "om_terrain": "racing_tower_z7_4_1",
         "om_special": "arcology_racing",
-        "search_range": 44,
+        "search_range": 77,
         "random": true,
-        "min_distance": 11
+        "min_distance": 22
       },
       "update_mapgen": { "place_npcs": [ { "class": "DKZ_CHAD_ERIKSON", "x": 5, "y": 5, "target": true } ] },
       "effect": [
