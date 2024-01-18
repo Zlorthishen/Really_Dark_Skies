@@ -96,6 +96,38 @@
         "topic": "TALK_CHAD_ERIKSON_MAQUIS_IS_RECRUITING"
       },
       {
+        "text": "[MISSION] My recon mech gave me a message that I should get here to fight aliens.",
+        "condition": {
+          "and": [
+            { "u_has_var": "Rendezvous_to_base", "type": "knowledge", "context": "flag", "value": "yes" },
+            { "u_has_mission": "DKZ_HAVE_MECH_WILL_TRAVEL" },
+            { "not": { "u_has_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" } }
+          ]
+        },
+        "effect": [
+          { "u_add_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" },
+          { "npc_first_topic": "TALK_CHAD_ERIKSON_QUESTIONS" }
+        ],
+        "opinion": { "trust": 1, "value": 5 },
+        "topic": "TALK_CHAD_ERIKSON_MAQUIS_IS_RECRUITING"
+      },
+      {
+        "text": "[MISSION] I got a message from the evacuation shelter's computer to meet up with someone named 'Chad' here!",
+        "condition": {
+          "and": [
+            { "u_has_var": "Rendezvous_to_base", "type": "knowledge", "context": "flag", "value": "yes" },
+            { "u_has_mission": "DKZ_MAQUIS_IS_RECRUITING" },
+            { "not": { "u_has_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" } }
+          ]
+        },
+        "effect": [
+          { "u_add_var": "u_met_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" },
+          { "npc_first_topic": "TALK_CHAD_ERIKSON_QUESTIONS" }
+        ],
+        "opinion": { "trust": 1, "value": 5 },
+        "topic": "TALK_CHAD_ERIKSON_MAQUIS_IS_RECRUITING"
+      },
+      {
         "text": "[MISSION] Your nephew Randy wanted me to see how you are doing.",
         "effect": { "u_add_var": "u_found_Chad_Erikson", "type": "general", "context": "meeting", "value": "yes" },
         "condition": {
