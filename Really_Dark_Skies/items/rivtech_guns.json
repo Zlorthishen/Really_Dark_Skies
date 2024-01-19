@@ -44,6 +44,42 @@
     "handling_modifier": 2
   },
   {
+    "id": "riv_super_trigger",
+    "type": "GUNMOD",
+    "name": { "str": "Rivtech Super-Trigger" },
+    "description": "The RivTech™ Super-Trigger.",
+    "weight": "120 g",
+    "volume": "250 ml",
+    "integral_volume": "0 ml",
+    "integral_weight": "0 g",
+    "price": "200000 USD",
+    "price_postapoc": "5000 USD",
+    "material": [ "superalloy" ],
+    "symbol": ":",
+    "min_skills": [ [ "weapon", 5 ] ],
+    "color": "dark_gray",
+    "location": "mechanism",
+    "install_time": "45 m",
+    "dispersion_modifier": -2
+  },
+  {
+    "id": "riv_belt_clip",
+    "type": "GUNMOD",
+    "name": { "str": "Rivtec belt clip" },
+    "description": "This is a belt clip that attaches to the grip or slide of a pistol so as to facilitate 'Mexican carry', the practice of carrying without a holster.  It does not offer any protection for the trigger, so users are strongly advised to carry with the chamber empty or select a firearm with a very heavy trigger pull.",
+    "weight": "40 g",
+    "volume": "250 ml",
+    "integral_volume": "0 ml",
+    "price": "20 USD",
+    "price_postapoc": "50 cent",
+    "material": "steel",
+    "symbol": ":",
+    "color": "light_gray",
+    "location": "accessories",
+    "mod_targets": [ "rugerlcp", "kp32", "kp3at", "kpf9", "cop_38", "moss_brownie" ],
+    "flags": [ "IS_ARMOR", "SKINTIGHT", "COMPACT", "WATER_FRIENDLY" ]
+  }  
+  {
     "//": "--------------------------------------------------------------------------------------------------------",
     "id": "rm2000_smg",
     "copy-from": "rm2000_smg",
