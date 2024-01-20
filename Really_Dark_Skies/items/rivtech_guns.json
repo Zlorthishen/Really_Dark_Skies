@@ -78,7 +78,7 @@
     "location": "accessories",
     "mod_targets": [ "rugerlcp", "kp32", "kp3at", "kpf9", "cop_38", "moss_brownie" ],
     "flags": [ "IS_ARMOR", "SKINTIGHT", "COMPACT", "WATER_FRIENDLY" ]
-  }  
+  },
   {
     "//": "--------------------------------------------------------------------------------------------------------",
     "id": "rm2000_smg",
