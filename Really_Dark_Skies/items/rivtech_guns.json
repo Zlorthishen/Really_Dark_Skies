@@ -1,6 +1,25 @@
 [
   {
-    "id": "acog_scope",
+    "id": "riv_shoulder_strap",
+    "type": "GUNMOD",
+    "name": { "str": "RV shoulder strap" },
+    "description": "A RivTech™ shoulder strap allows the rifle to be worn over your shoulders like a piece of clothing, and has proprietary magnetic attachment system which allows the firearm to be straped to power armor",
+    "weight": "100 g",
+    "volume": "250 ml",
+    "integral_volume": "100 ml",
+    "price": "480 cent",
+    "price_postapoc": "10 cent",
+    "material": "cotton",
+    "symbol": ":",
+    "color": "green",
+    "location": "sling",
+    "flags": [ "POWERARMOR_MOD","STURDY","IS_ARMOR", "BELTED", "COMPACT", "OVERSIZE", "WATER_FRIENDLY" ]
+  },
+
+
+
+  {
+    "id": "riv_scope",
     "copy-from": "rifle_scope",
     "type": "GUNMOD",
     "name": { "str": "RS1219 scope" },
@@ -77,7 +96,7 @@
     "color": "light_gray",
     "location": "accessories",
     "mod_targets": [ "rugerlcp", "kp32", "kp3at", "kpf9", "cop_38", "moss_brownie" ],
-    "flags": [ "IS_ARMOR", "SKINTIGHT", "COMPACT", "WATER_FRIENDLY" ]
+    "flags": [ "IS_ARMOR", "POWERARMOR_MOD","STURDY",  "COMPACT", "WATER_FRIENDLY" ]
   },
   {
     "//": "--------------------------------------------------------------------------------------------------------",
