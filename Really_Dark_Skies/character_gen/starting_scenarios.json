@@ -32,7 +32,7 @@
     "allowed_locs": [ "s_loc_dkz_garage_gas_2" ],
     "forced_traits": "DKZ_TECH",
     "flags": [ "CITY_START", "LONE_START" ],
-    "professions": [ "mech_pilot_scenario" ],
+    "professions": [ "recon_mech_pilot_scenario", "combat_mech_pilot_scenario" ],
     "start_name": "In Town",
     "missions": [ "DKZ_HAVE_MECH_WILL_TRAVEL" ]
   },

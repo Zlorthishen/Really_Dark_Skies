@@ -1,15 +1,22 @@
 [
-
   {
     "type": "profession",
-    "id": "mech_pilot_scenario",
+    "id": "combat_mech_pilot_scenario",
     "name": "Mech Pilot",
-    "description": "You were once trained as an elite pilot, to operate the newly protyped combat mech suits, the goverment's responce to rumored Chinese models.  Now instead of fighting PLA-Mechs you are fighting Xenoids trying to destroy humanity.",
+    "description": "You were once trained as an elite combat mech pilot, to operate the newly protyped combat mech suits, the goverment's responce to rumored Chinese models.  Now instead of fighting PLA-Mechs you are fighting Xenoids trying to destroy humanity.",
     "copy-from": "mech_pilot",
-    "pets": [ { "name": "mon_mech_recon", "amount": 1 } ],	
+    "pets": [ { "name": "mon_mech_combat", "amount": 1 } ],
     "flags": [ "SCEN_ONLY" ]
   },
-
+  {
+    "type": "profession",
+    "id": "recon_mech_pilot_scenario",
+    "name": "Mech Pilot",
+    "description": "You were once trained as an elite recon mech pilot, to operate the newly protyped combat mech suits, the goverment's responce to rumored Chinese models.  Now instead of fighting PLA-Mechs you are fighting Xenoids trying to destroy humanity.",
+    "copy-from": "mech_pilot",
+    "pets": [ { "name": "mon_mech_recon", "amount": 1 } ],
+    "flags": [ "SCEN_ONLY" ]
+  },
   {
     "type": "profession",
     "id": "bionic_maquis_combat",
