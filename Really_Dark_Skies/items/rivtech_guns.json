@@ -2,7 +2,7 @@
   {
     "id": "riv_shoulder_strap",
     "type": "GUNMOD",
-    "name": { "str": "RV shoulder strap" },
+    "name": { "str": "Rivtech shoulder strap" },
     "description": "A RivTech™ shoulder strap allows the rifle to be worn over your shoulders like a piece of clothing, and has proprietary magnetic attachment system which allows the firearm to be straped to power armor",
     "weight": "100 g",
     "volume": "250 ml",
@@ -13,11 +13,45 @@
     "symbol": ":",
     "color": "green",
     "location": "sling",
-    "flags": [ "POWERARMOR_MOD","STURDY","IS_ARMOR", "BELTED", "COMPACT", "OVERSIZE", "WATER_FRIENDLY" ]
+    "flags": [ "POWERARMOR_MOD", "STURDY", "IS_ARMOR", "BELTED", "COMPACT", "OVERSIZE", "WATER_FRIENDLY" ]
   },
-
-
-
+  {
+    "id": "riv_bipod",
+    "type": "GUNMOD",
+    "name": { "str": "bipod" },
+    "description": "Bipods are commonly used on rifles and machine guns to provide a forward rest and reduce motion.  Although they greatly improve handling of recoil they are usable only on certain surfaces and are slow to equip.",
+    "weight": "400 g",
+    "volume": "500 ml",
+    "price": "680 USD",
+    "price_postapoc": "5 USD",
+    "to_hit": -1,
+    "bashing": 10,
+    "material": "steel",
+    "symbol": ":",
+    "color": "brown",
+    "location": "underbarrel",
+    "handling_modifier": 42,
+    "flags": [ "BIPOD", "SLOW_WIELD" ]
+  },
+  {
+    "id": "riv_bayonet",
+    "type": "GUNMOD",
+    "name": { "str": "integrated bayonet" },
+    "description": "This is the bayonet integrated in the firearm.",
+    "weight": "1 g",
+    "volume": "250 ml",
+    "price": "40 USD",
+    "price_postapoc": "5 USD",
+    "to_hit": -1,
+    "cutting": 10,
+    "material": [ "steel" ],
+    "symbol": ":",
+    "color": "light_gray",
+    "location": "underbarrel",
+    "mode_modifier": [ [ "REACH", "bayonet", 2, [ "MELEE", "REACH_ATTACK" ] ] ],
+    "qualities": [ [ "CUT", 1 ], [ "COOK", 1 ], [ "BUTCHER", -18 ] ],
+    "flags": [ "STAB", "SLOW_WIELD" ]
+  },
   {
     "id": "riv_scope",
     "copy-from": "rifle_scope",
@@ -84,7 +118,7 @@
   {
     "id": "riv_belt_clip",
     "type": "GUNMOD",
-    "name": { "str": "Rivtec belt clip" },
+    "name": { "str": "Rivtech belt clip" },
     "description": "This is a belt clip that attaches to the grip or slide of a pistol so as to facilitate 'Mexican carry', the practice of carrying without a holster.  It does not offer any protection for the trigger, so users are strongly advised to carry with the chamber empty or select a firearm with a very heavy trigger pull.",
     "weight": "40 g",
     "volume": "250 ml",
@@ -95,8 +129,17 @@
     "symbol": ":",
     "color": "light_gray",
     "location": "accessories",
-    "mod_targets": [ "rugerlcp", "kp32", "kp3at", "kpf9", "cop_38", "moss_brownie" ],
-    "flags": [ "IS_ARMOR", "POWERARMOR_MOD","STURDY",  "COMPACT", "WATER_FRIENDLY" ]
+    "mod_targets": [
+      "needlepistol",
+      "rm103a_pistol",
+      "rm97_pistol",
+      "rm98_pistol",
+      "rm99_pistol",
+      "rm228",
+      "rm101_pistol",
+      "rm101plus_pistol"
+    ],
+    "flags": [ "IS_ARMOR", "POWERARMOR_MOD", "STURDY", "COMPACT", "WATER_FRIENDLY" ]
   },
   {
     "//": "--------------------------------------------------------------------------------------------------------",
