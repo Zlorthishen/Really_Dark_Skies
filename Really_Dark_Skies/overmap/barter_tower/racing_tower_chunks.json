@@ -540,17 +540,24 @@
       "rotation": [ 0, 3 ],
       "faction_owner": [ { "id": "maquis", "x": [ 0, 5 ], "y": [ 0, 5 ] } ],
       "rows": [
-        "    ",
+        "A  B",
         " -  ",
         "    ",
-        "    "
+        "C  D"
       ],
       "terrain": { " ": "t_null" },
       "place_npcs": [
         { "class": "DKZ_MAQUIS_MERCHANT", "x": 1, "y": 1, "add_trait": "DKZ_LEADER" },
         { "class": "DKZ_MAQUIS_ELF_MUTANT", "x": 2, "y": 2, "add_trait": "DKZ_COMBAT" }
       ],
-      "furniture": { "-": "f_camp_chair" }
+      "furniture": { "-": "f_camp_chair", "A": "f_table", "B": "f_table", "C": "f_table", "D": "f_table" },
+      "items": {
+        " ": { "item": "trash_junkyard", "chance": 1 },
+        "A": { "item": "guns_milspec", "chance": 80, "repeat": [ 1, 2 ] },
+        "B": { "item": "guns_common", "chance": 40, "repeat": [ 3, 5 ] },
+        "C": { "item": "specialty_goods", "chance": 80, "repeat": [ 2, 1 ] },
+        "D": { "item": "scavenged_foods", "chance": 40, "repeat": [ 3, 5 ] }
+      }
     }
   },
   {
@@ -564,17 +571,24 @@
       "rotation": [ 0, 3 ],
       "faction_owner": [ { "id": "maquis", "x": [ 0, 5 ], "y": [ 0, 5 ] } ],
       "rows": [
-        "    ",
+        "A  B",
         " -  ",
         "    ",
-        "    "
+        "C  D"
       ],
       "terrain": { " ": "t_null" },
       "place_npcs": [
         { "class": "DKZ_MAQUIS_MERCHANT", "x": 1, "y": 1, "add_trait": "DKZ_LEADER" },
         { "class": "DKZ_MAQUIS_GUARD", "x": 2, "y": 2, "add_trait": "DKZ_COMBAT" }
       ],
-      "furniture": { "-": "f_camp_chair" } 
+      "furniture": { "-": "f_camp_chair", "A": "f_table", "B": "f_table", "C": "f_table", "D": "f_table" },
+      "items": {
+        " ": { "item": "trash_junkyard", "chance": 1 },
+        "A": { "item": "guns_milspec", "chance": 80, "repeat": [ 1, 2 ] },
+        "B": { "item": "guns_common", "chance": 40, "repeat": [ 3, 5 ] },
+        "C": { "item": "specialty_goods", "chance": 80, "repeat": [ 2, 1 ] },
+        "D": { "item": "scavenged_foods", "chance": 40, "repeat": [ 3, 5 ] }
+      }
     }
   },
   {
@@ -589,16 +603,22 @@
       "faction_owner": [ { "id": "maquis", "x": [ 0, 5 ], "y": [ 0, 5 ] } ],
       "rows": [
         "    ",
-        " -  ",
-        "  - ",
+        " AB ",
+        " D- ",
         "    "
       ],
       "terrain": { " ": "t_null" },
       "place_npcs": [
         { "class": "DKZ_MAQUIS_MERCHANT", "x": 2, "y": 2, "add_trait": "DKZ_LEADER" },
-        { "class": "DKZ_MAQUIS_ELF_MUTANT", "x": 1, "y": 1, "add_trait": "DKZ_COMBAT" }
+        { "class": "DKZ_MAQUIS_ELF_MUTANT", "x": 0, "y": 3, "add_trait": "DKZ_COMBAT" }
       ],
-      "furniture": { "-": "f_camp_chair" } 
+      "furniture": { "-": "f_camp_chair", "A": "f_table", "B": "f_table", "C": "f_table", "D": "f_table" },
+      "items": {
+        " ": { "item": "trash_junkyard", "chance": 1 },
+        "A": { "item": "guns_milspec", "chance": 80, "repeat": [ 1, 2 ] },
+        "B": { "item": "guns_common", "chance": 40, "repeat": [ 3, 5 ] },
+        "D": { "item": "scavenged_foods", "chance": 40, "repeat": [ 3, 5 ] }
+      }
     }
   },
   {
@@ -613,8 +633,8 @@
       "faction_owner": [ { "id": "maquis", "x": [ 0, 5 ], "y": [ 0, 5 ] } ],
       "rows": [
         "    ",
-        "    ",
-        " -  ",
+        " BC ",
+        " -D ",
         "    "
       ],
       "terrain": { " ": "t_null" },
@@ -622,7 +642,13 @@
         { "class": "DKZ_MAQUIS_MERCHANT", "x": 1, "y": 2, "add_trait": "DKZ_LEADER" },
         { "class": "DKZ_MAQUIS_GUARD", "x": 3, "y": 2, "add_trait": "DKZ_COMBAT" }
       ],
-      "furniture": { "-": "f_camp_chair" }
+      "furniture": { "-": "f_camp_chair", "A": "f_table", "B": "f_table", "C": "f_table", "D": "f_table" },
+      "items": {
+        " ": { "item": "trash_junkyard", "chance": 1 },
+        "B": { "item": "guns_common", "chance": 70, "repeat": [ 3, 5 ] },
+        "C": { "item": "bionics", "chance": 25, "repeat": [ 4, 7 ] },
+        "D": { "item": "specialty_goods", "chance": 100, "repeat": [ 2, 3 ] }
+      }
     }
   },
   {
@@ -637,8 +663,8 @@
       "faction_owner": [ { "id": "maquis", "x": [ 0, 5 ], "y": [ 0, 5 ] } ],
       "rows": [
         "    ",
-        " -  ",
-        "    ",
+        " -D ",
+        " CA ",
         "    "
       ],
       "terrain": { " ": "t_null" },
@@ -646,7 +672,13 @@
         { "class": "DKZ_MAQUIS_MERCHANT", "x": 1, "y": 1, "add_trait": "DKZ_LEADER" },
         { "class": "DKZ_MAQUIS_GUARD", "x": 1, "y": 3, "add_trait": "DKZ_COMBAT" }
       ],
-      "furniture": { "-": "f_camp_chair" } 
+      "furniture": { "-": "f_camp_chair", "A": "f_table", "B": "f_table", "C": "f_table", "D": "f_table" },
+      "items": {
+        " ": { "item": "trash_junkyard", "chance": 1 },
+        "A": { "item": "scavenged_foods", "chance": 80, "repeat": [ 3, 5 ] },
+        "C": { "item": "scavenged_foods", "chance": 30, "repeat": [ 5, 9 ] },
+        "D": { "item": "guns_common", "chance": 20, "repeat": [ 1, 2 ] }
+      }
     }
   },
   {
@@ -661,8 +693,8 @@
       "faction_owner": [ { "id": "maquis", "x": [ 0, 5 ], "y": [ 0, 5 ] } ],
       "rows": [
         "    ",
-        " -  ",
-        "    ",
+        " -D ",
+        " BC ",
         "    "
       ],
       "terrain": { " ": "t_null" },
@@ -670,7 +702,14 @@
         { "class": "DKZ_MAQUIS_MERCHANT", "x": 1, "y": 1, "add_trait": "DKZ_LEADER" },
         { "class": "DKZ_MAQUIS_ELF_MUTANT", "x": 0, "y": 3, "add_trait": "DKZ_COMBAT" }
       ],
-      "furniture": { "-": "f_camp_chair" }
+      "furniture": { "-": "f_camp_chair", "A": "f_table", "B": "f_table", "C": "f_table", "D": "f_table" },
+      "items": {
+        " ": { "item": "trash_junkyard", "chance": 1 },
+        "A": { "item": "scavenged_foods", "chance": 80, "repeat": [ 3, 5 ] },
+        "B": { "item": "specialty_goods", "chance": 80, "repeat": [ 1, 3 ] },
+        "C": { "item": "scavenged_foods", "chance": 30, "repeat": [ 5, 9 ] },
+        "D": { "item": "guns_common", "chance": 20, "repeat": [ 1, 2 ] }
+      }
     }
   },
   {
