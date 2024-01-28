@@ -2,7 +2,7 @@
   {
     "type": "mapgen",
     "method": "json",
-    "om_terrain": [ "triffid_state_park_0_0" ],
+    "om_terrain": [ "dkz_triffid_state_park_0_0" ],
     "weight": 100,
     "object": {
       "rows": [
@@ -17,8 +17,8 @@
         "|.....1.#....#..#4.4.4..",
         "|.fa..........t...______",
         "|...#....1.#4___________",
-        "|T.1g.4.&t_>>___________",
-        "|....S.#B__>>_..t.T4.4..",
+        "|T.1g.4.&t______________",
+        "|....S.#B_____..t.T4.4..",
         "|.#...s_B___............",
         "|...7..____..1#.7..a..4.",
         "|.4..f.t__t......#......",
@@ -27,8 +27,8 @@
         "|#.1#.___.1.....1....c..",
         "|..#.4___...#....#......",
         "|.4#4.___..g.b4.S#d#....",
-        "|.s.#..__4..1.....#...4.",
-        "|..1.4.___.4..e.7...1...",
+        "|.s.#..__4..1.....#..77.",
+        "|..1.4.___.4..e.7...17>.",
         "|......_._.............."
       ],
       "terrain": {
@@ -52,7 +52,7 @@
         "s": "t_shrub_blueberry",
         "t": "t_tree_deadpine",
         "|": "t_chainfence_h",
-        ">": "t_slope_down"
+        ">": "t_triffid_slope_down"
       },
       "furniture": { "&": "f_trashcan", "B": "f_bench", "b": "f_bluebell", "f": "f_dandelion" },
       "place_item": [
@@ -68,21 +68,21 @@
   {
     "type": "mapgen",
     "method": "json",
-    "om_terrain": [ "triffid_state_park_0_1" ],
+    "om_terrain": [ "dkz_triffid_state_park_0_1" ],
     "weight": 100,
     "object": {
       "rows": [
-        "|...#..___.....##.......",
-        "|..#.#.___#...7...4..#..",
-        "|##7#..___..#...1....T..",
+        "|...#..___.....##....7..",
+        "|..#.#.___#...7...4...>.",
+        "|##7#..___..#...1....T.7",
         "|..#..4___..1..#.#.t.S..",
         "|.B...#___#....7....#..#",
         "|..#...___...#...4#...4.",
         "|.t..7____.7...f.#..1...",
         "|.....____#.t...###.....",
         "|#..#.____7...#..#.#..7.",
-        "|#...4_>>___##..t..B.u..",
-        "|.f.#__>>_cbbc..s......#",
+        "|#...4______##..t..B.u..",
+        "|.f.#_____cbbc..s......#",
         "|.u.._____caac_..###.4..",
         "|....___4.caac__#4______",
         "|.#14___..cbbc__________",
@@ -119,7 +119,7 @@
         "t": "t_tree_deadpine",
         "u": "t_underbrush",
         "|": "t_chainfence_h",
-        ">": "t_slope_down"
+        ">": "t_triffid_slope_down"
       },
       "furniture": { "&": "f_trashcan", "B": "f_bluebell", "a": "f_table", "b": "f_bench", "d": "f_bench", "f": "f_dandelion" },
       "place_monsters": [ { "monster": "GROUP_TRIFFID", "x": [ 7, 19 ], "y": [ 6, 21 ], "repeat": 4 } ],
@@ -135,12 +135,12 @@
   {
     "type": "mapgen",
     "method": "json",
-    "om_terrain": [ "triffid_state_park_1_0" ],
+    "om_terrain": [ "dkz_triffid_state_park_1_0" ],
     "weight": 100,
     "object": {
       "rows": [
         "|||.......---.......||||",
-        "___.......-c-.......___|",
+        "_._.......-c-.......___|",
         "_4_.......Df0.......___|",
         "___.......-a-........._|",
         "_7_.......---........._|",
@@ -149,8 +149,8 @@
         "__d...................s|",
         "4_d...................s|",
         "ddd...............pppps|",
-        "d>>d..................s|",
-        "d>>d..................s|",
+        "d..d..................s|",
+        "d..d..................s|",
         "__dd..................s|",
         "_4_d..................s|",
         "____.............ppppps|",
@@ -160,9 +160,9 @@
         "___#..................s|",
         "4___.............ppppps|",
         "__7_..................s|",
-        "____........dd........s|",
-        "__#_#_____ddddd_1_#_7__|",
-        "_1___#_7___dddS___4__#_|"
+        "__7_........dd........s|",
+        "_>7_#_____ddddd_1_#_7__|",
+        "_77__#_7___dddS___4__#_|"
       ],
       "terrain": {
         "#": "t_underbrush",
@@ -183,7 +183,7 @@
         "p": "t_pavement_y",
         "s": "t_sidewalk",
         "|": "t_chainfence_v",
-        ">": "t_slope_down"
+        ">": "t_triffid_slope_down"
       },
       "furniture": { "a": "f_desk", "c": "f_chair" },
       "place_items": [
@@ -201,20 +201,20 @@
   {
     "type": "mapgen",
     "method": "json",
-    "om_terrain": [ "triffid_state_park_1_1" ],
+    "om_terrain": [ "dkz_triffid_state_park_1_1" ],
     "weight": 100,
     "object": {
       "rows": [
-        "...........___.........|",
-        "...4...7...___..#......|",
-        "....#......___..4...#..|",
+        "..7........___.........|",
+        ".>7....7...___..#......|",
+        "..7.#......___..4...#..|",
         ".#.7..4.#..____...1#4#.|",
         "..*.......___s__.#.u#..|",
         "........4___...___#.#7.|",
         "....1.f.____.U..___.f#.|",
         ".4.....____4S..t____...|",
-        "..#7#..>>_U..ww..___4.1|",
-        "....#4_>>..Uwwww..___..|",
+        "..#7#..___U..ww..___4.1|",
+        "....#4___..Uwwww..___..|",
         ".#f#____4.twwWWwwt.__..|",
         "..#.___...wwWWWWww.__#b|",
         "_______U.wwWWWWWww.&__T|",
@@ -255,7 +255,7 @@
         "u": "t_underbrush",
         "w": "t_water_sh",
         "|": "t_chainfence_h",
-        ">": "t_slope_down"
+        ">": "t_triffid_slope_down"
       },
       "furniture": { "&": "f_trashcan", "*": "f_datura", "b": "f_bluebell", "c": "f_cattails", "f": "f_dandelion", "i": "f_cattails" },
       "place_item": [ { "item": "rock", "x": 2, "y": 6 }, { "item": "rock", "x": 18, "y": 21 } ],
@@ -263,8 +263,84 @@
     }
   },
   {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "dkz_triffid_state_roots" ],
+    "weight": 100,
+    "object": {
+      "fill_ter": "t_root_floor",
+      "rows": [
+        "%%%%%%%%%%%%%%%%%%%%%%%%",
+        "%%%%%%%%%%%%%%%%%%%%%%%%",
+        "%%%%%%%%%%%%%%%%%PPPPPPP",
+        "%%%%%%%%%PPP.P.@P@..T..P",
+        "%%%%%%PPPPP..P..@@.PP..P",
+        "%%%%%PP..D...P...@..P..P",
+        "%%%%PP>..PPPPPPPPPPPPPPP",
+        "%%%%P....D.....PPPPPPPP.",
+        "%%%PPDPPPP...T....PPPP..",
+        "%%%P..PP...........PP.T.",
+        "%%%T..PPPP...PPDPPPP....",
+        "%%%.PPPPPP...T.....D.P!P",
+        "%%%PDPPPPP......@@@PPPPP",
+        "%%%P........PPPP@T@P...P",
+        "%%%P...T....PPP....P...P",
+        "%%%PPPP......PP....PPP.P",
+        "%%P...PPPPPDPPPPPPDPPPDP",
+        "%%PPPDPPPP@@T.PPP....T.P",
+        "%%PP!....D....@PP......P",
+        "%%PPP@@@.P....@@D......P",
+        "%%P.T..@PPPP.DPPPPPPPPPP",
+        "%%PP...PPPPP.PPD.......P",
+        "%%PPPPPPPP..T..PP.T...<P",
+        "%%PPPPPPPP..........PPPP"
+      ],
+      "palettes": [ "triffid" ],
+      "terrain": { "%": "t_rock", ">": "t_triffid_slope_down", "<": "t_triffid_slope_up" },
+      "monster": { "!": { "monster": "mon_creeper_hub", "chance": 60 } }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "dkz_triffid_state_finale" ],
+    "weight": 100,
+    "object": {
+      "fill_ter": "t_root_floor",
+      "rows": [
+        "%%%%%%%%%%%%%%%%%%%%%%%%",
+        "%%%%%%%%%%%%%%%%%%%%%%%%",
+        "%%%%%%%%%%%%%%%%%PPPPPPP",
+        "%%%%%%%%%.PP.P.@P@..T..P",
+        "%%%%%%PT.........PPP..!P",
+        "%%%%%PPPPPPPP.....PP...P",
+        "%%%%PP<.T...PPPPPPP....P",
+        "%%%%P.....P..@@@@@...TPP",
+        "%%%PT..!PPPPPPPPPPPPPPPP",
+        "%%%...PPPPP.......T.!PPP",
+        "%%%T.PP!.T..!PP......D.P",
+        "%%%.@@@....PPPPDPPPPPP.P",
+        "%%%P.....PPPP.....T.!P.P",
+        "%%%P.!PPPPP@@@!PP....P.P",
+        "%%%P..PPPPPPDPPP....PP.P",
+        "%%%P.PPPPP....P..T..PP.P",
+        "%%P..PPP!...TPPDPP..PP.P",
+        "%%PDPPPPPPPDPP..PPDPPPDP",
+        "%%P....PT.PPP..PPT......",
+        "%%P....P....PP.PP.......",
+        "%%P....D...PP..PP.......",
+        "%%PPPDPP...D....D.......",
+        "%%PP...PPPDP..TPP.....HP",
+        "%%PP...D...PP..PP.....PP"
+      ],
+      "palettes": [ "triffid" ],
+      "terrain": { "%": "t_rock",">": "t_rock", "<": "t_triffid_slope_up" },
+      "monster": { "H": { "monster": "mon_triffid_heart" }, "!": { "monster": "mon_creeper_hub", "chance": 60 } }
+    }
+  },
+  {
     "type": "overmap_terrain",
-    "id": [ "triffid_state_park_0_0", "triffid_state_park_0_1", "triffid_state_park_1_1" ],
+    "id": [ "dkz_triffid_state_park_0_0", "dkz_triffid_state_park_0_1", "dkz_triffid_state_park_1_1" ],
     "copy-from": "generic_city_building_no_sidewalk",
     "name": "state park",
     "sym": "S",
@@ -274,7 +350,7 @@
   },
   {
     "type": "overmap_terrain",
-    "id": "triffid_state_park_1_0",
+    "id": "dkz_triffid_state_park_1_0",
     "copy-from": "generic_city_building",
     "name": "state park parking",
     "sym": "$",
@@ -283,21 +359,43 @@
     "flags": [ "RISK_HIGH" ]
   },
   {
+    "type": "overmap_terrain",
+    "id": "dkz_triffid_state_roots",
+    "name": "triffid roots",
+    "sym": "T",
+    "color": "light_red",
+    "see_cost": 5,
+    "mondensity": 2,
+    "spawns": { "group": "GROUP_TRIFFID", "population": [ 40, 45 ], "chance": 90 },
+    "flags": [ "KNOWN_UP", "KNOWN_DOWN", "RISK_HIGH" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "dkz_triffid_state_finale",
+    "name": "triffid heart",
+    "sym": "T",
+    "color": "red",
+    "see_cost": 5,
+    "mondensity": 2,
+    "spawns": { "group": "GROUP_TRIFFID_HEARTGUARDS", "population": [ 50, 60 ], "chance": 90 },
+    "flags": [ "KNOWN_UP", "RISK_HIGH" ]
+  },
+  {
     "type": "overmap_special",
-    "id": "triffid_state_park",
+    "id": "dkz_triffid_state_park",
     "overmaps": [
-      { "point": [ 0, 0, 0 ], "overmap": "triffid_state_park_0_0_north" },
-      { "point": [ 0, 1, 0 ], "overmap": "triffid_state_park_0_1_north" },
-      { "point": [ 1, 0, 0 ], "overmap": "triffid_state_park_1_0_north" },
-      { "point": [ 1, 1, 0 ], "overmap": "triffid_state_park_1_1_north" },
-      { "point": [ 0, 0, -1 ], "overmap": "triffid_roots" },
-      { "point": [ 0, 1, -1 ], "overmap": "triffid_roots" },
-      { "point": [ 1, 0, -1 ], "overmap": "triffid_roots" },
-      { "point": [ 1, 1, -1 ], "overmap": "triffid_roots" },
-      { "point": [ 0, 0, -2 ], "overmap": "triffid_finale" },
-      { "point": [ 0, 1, -2 ], "overmap": "triffid_finale" },
-      { "point": [ 1, 0, -2 ], "overmap": "triffid_finale" },
-      { "point": [ 1, 1, -2 ], "overmap": "triffid_finale" }
+      { "point": [ 0, 0, 0 ], "overmap": "dkz_triffid_state_park_0_0_north" },
+      { "point": [ 0, 1, 0 ], "overmap": "dkz_triffid_state_park_0_1_north" },
+      { "point": [ 1, 0, 0 ], "overmap": "dkz_triffid_state_park_1_0_north" },
+      { "point": [ 1, 1, 0 ], "overmap": "dkz_triffid_state_park_1_1_north" },
+      { "point": [ 0, 0, -1 ], "overmap": "dkz_triffid_state_roots_north" },
+      { "point": [ 0, 1, -1 ], "overmap": "dkz_triffid_state_roots_west" },
+      { "point": [ 1, 0, -1 ], "overmap": "dkz_triffid_state_roots_east" },
+      { "point": [ 1, 1, -1 ], "overmap": "dkz_triffid_state_roots_south" },
+      { "point": [ 0, 0, -2 ], "overmap": "dkz_triffid_state_finale_north" },
+      { "point": [ 0, 1, -2 ], "overmap": "dkz_triffid_state_finale_west" },
+      { "point": [ 1, 0, -2 ], "overmap": "dkz_triffid_state_finale_east" },
+      { "point": [ 1, 1, -2 ], "overmap": "dkz_triffid_state_finale_south" }
     ],
     "locations": [ "land" ],
     "city_distance": [ 0, -1 ],
