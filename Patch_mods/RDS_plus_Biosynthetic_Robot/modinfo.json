@@ -6,7 +6,7 @@
     "authors": [ "Zlorthishen" ],
     "description": "A patchmod for Really Dark Skies which adds increased support for Bio-Synth Robot Expansion",
     "category": "misc_additions",
-    "version": "BN version 8ccee48, update 01/12/2024",
+    "version": "BN version 01d5610, update 02/06/2024",
     "dependencies": [ "bn", "realdarkskies", "gekkobots" ]
   }
 ]
