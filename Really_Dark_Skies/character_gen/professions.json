@@ -234,7 +234,7 @@
     "skills": [ { "level": 8, "name": "driving" }, { "level": 1, "name": "pistol" }, { "level": 2, "name": "mechanics" } ],
     "items": {
       "both": {
-        "items": [ "jumpsuit", "gloves_tactical", "boots_combat", "helmet_mechpilot", "legrig" ],
+        "items": [ "jumpsuit", "gloves_tactical", "boots_combat", "tac_fullhelmet", "legrig" ],
         "entries": [
           { "item": "rm103a_pistol", "container-item": "XL_holster", "charges": 10 },
           { "item": "tacvest", "contents-group": "army_mags_rm11b" }
@@ -255,7 +255,7 @@
     "skills": [ { "level": 8, "name": "driving" }, { "level": 1, "name": "pistol" }, { "level": 2, "name": "mechanics" } ],
     "items": {
       "both": {
-        "items": [ "jumpsuit", "gloves_tactical", "boots_combat", "helmet_mechpilot", "legrig" ],
+        "items": [ "jumpsuit", "gloves_tactical", "boots_combat", "tac_fullhelmet", "legrig" ],
         "entries": [
           { "item": "rm103a_pistol", "container-item": "XL_holster", "charges": 10 },
           { "item": "tacvest", "contents-group": "army_mags_rm11b" }
