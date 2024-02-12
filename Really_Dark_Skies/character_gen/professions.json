@@ -224,5 +224,47 @@
       "male": [ "boxer_shorts" ],
       "female": [ "sports_bra", "boxer_shorts" ]
     }
-  }
+  },
+  {
+    "type": "profession",
+    "id": "combat_mech_pilot_scenario",
+    "name": "Combat Mech Pilot",
+    "description": "You were trained as an elite pilot, to operate the newly prototyped combat mech suits, the government's response to captured Chinese intel.",
+    "points": 8,
+    "skills": [ { "level": 8, "name": "driving" }, { "level": 1, "name": "pistol" }, { "level": 2, "name": "mechanics" } ],
+    "items": {
+      "both": {
+        "items": [ "jumpsuit", "gloves_tactical", "boots_combat", "helmet_mechpilot", "legrig" ],
+        "entries": [
+          { "item": "rm103a_pistol", "container-item": "XL_holster", "charges": 10 },
+          { "item": "tacvest", "contents-group": "army_mags_rm11b" }
+        ]
+      },
+      "male": [ "briefs" ],
+      "female": [ "sports_bra", "panties" ]
+    },
+    "pets": [ { "name": "mon_mech_combat", "amount": 1 } ],
+    "flags": [ "SCEN_ONLY" ]
+  },
+  {
+    "type": "profession",
+    "id": "recon_mech_pilot_scenario",
+    "name": "Recon Mech Pilot",
+    "description": "You were trained as an elite pilot, to operate the newly prototyped recon mech suits, the government's response to captured Chinese intel.",
+    "points": 8,
+    "skills": [ { "level": 8, "name": "driving" }, { "level": 1, "name": "pistol" }, { "level": 2, "name": "mechanics" } ],
+    "items": {
+      "both": {
+        "items": [ "jumpsuit", "gloves_tactical", "boots_combat", "helmet_mechpilot", "legrig" ],
+        "entries": [
+          { "item": "rm103a_pistol", "container-item": "XL_holster", "charges": 10 },
+          { "item": "tacvest", "contents-group": "army_mags_rm11b" }
+        ]
+      },
+      "male": [ "briefs" ],
+      "female": [ "sports_bra", "panties" ]
+    },
+    "pets": [ { "name": "mon_mech_recon", "amount": 1 } ],
+    "flags": [ "SCEN_ONLY" ]
+  }  
 ]

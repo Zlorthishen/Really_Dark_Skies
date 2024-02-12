@@ -54,5 +54,18 @@
     "forced_traits": "DKZ_COMBAT",
     "flags": [ "FIRE_START", "CHALLENGE", "CITY_START" ],
     "missions": [ "DKZ_MAQUIS_RENDEZVOUS_TO_BASE" ]
-  }
+  },
+  {
+    "type": "scenario",
+    "id": "dkz_haz_mech",
+    "name": "Have Mech, Will Travel",
+    "points": -5,
+    "description": "You were in your prototype combat mech when it all hit the fan.  You just woke up from a week long nap, you are down to your last battery, and your recieving a message about joining 'The Maquis' to fight the invading aliens.",
+    "allowed_locs": [ "s_loc_dkz_garage_gas_2" ],
+    "forced_traits": "DKZ_TECH",
+    "flags": [ "CITY_START", "LONE_START" ],
+    "professions": [ "recon_mech_pilot_scenario", "combat_mech_pilot_scenario" ],
+    "start_name": "In Town",
+    "missions": [ "DKZ_HAVE_MECH_WILL_TRAVEL" ]
+  }  
 ]
