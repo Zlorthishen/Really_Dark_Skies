@@ -3,7 +3,7 @@
     "type": "clothing_mod",
     "id": "dkz_xeno-plated",
     "flag": "dkz_xeno-plated",
-    "item": "dkz_blend_mat",
+    "item": "dkz_blend_scrap",
     "implement_prompt": "Add the Prismetallic metal",
     "destroy_prompt": "Remove the Prismetallic metal",
     "mod_value": [
@@ -17,7 +17,7 @@
     "type": "clothing_mod",
     "id": "dkz_xeno-weave",
     "flag": "dkz_xeno-weave",
-    "item": "dkz_weave_mat",
+    "item": "dkz_weave_scrap",
     "implement_prompt": "Weave with chromogenic material",
     "destroy_prompt": "Destroy the chromogenic material",
     "mod_value": [
