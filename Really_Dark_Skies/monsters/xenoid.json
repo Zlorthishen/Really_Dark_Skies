@@ -162,7 +162,7 @@
     "armor_bash": 5,
     "armor_stab": 7,
     "armor_cut": 5,
-    "armor_bullet": 5,
+    "armor_bullet": 25,
     "harvest": "dkz_mhuman_chipped",
     "special_attacks": [
       [ "PARROT", 5 ],
@@ -237,7 +237,7 @@
     "armor_bash": 5,
     "armor_stab": 7,
     "armor_cut": 5,
-    "armor_bullet": 5,
+    "armor_bullet": 25,
     "harvest": "dkz_mhuman_chipped",
     "special_attacks": [
       [ "PARROT", 5 ],
@@ -388,7 +388,7 @@
     "armor_bash": 5,
     "armor_stab": 7,
     "armor_cut": 5,
-    "armor_bullet": 5,
+    "armor_bullet": 25,
     "harvest": "dkz_mhuman_chipped",
     "special_attacks": [
       [ "PARROT", 5 ],
@@ -463,7 +463,7 @@
     "armor_bash": 5,
     "armor_stab": 7,
     "armor_cut": 5,
-    "armor_bullet": 5,
+    "armor_bullet": 25,
     "harvest": "dkz_mhuman_chipped",
     "special_attacks": [
       [ "PARROT", 5 ],
@@ -537,7 +537,7 @@
     "armor_bash": 5,
     "armor_stab": 7,
     "armor_cut": 5,
-    "armor_bullet": 5,
+    "armor_bullet": 25,
     "emit_fields": [ { "emit_id": "emit_relax_gas", "delay": "1 s" } ],
     "harvest": "dkz_mhuman_chipped",
     "special_attacks": [
@@ -612,7 +612,7 @@
     "armor_bash": 5,
     "armor_stab": 7,
     "armor_cut": 5,
-    "armor_bullet": 5,
+    "armor_bullet": 25,
     "harvest": "dkz_mhuman_chipped",
     "special_attacks": [
       [ "PARROT", 2 ],
@@ -690,7 +690,7 @@
     "armor_bash": 13,
     "armor_stab": 19,
     "armor_cut": 13,
-    "armor_bullet": 13,
+    "armor_bullet": 33,
     "emit_fields": [ { "emit_id": "emit_relax_gas", "delay": "1 s" } ],
     "harvest": "dkz_mhuman_chipped",
     "special_attacks": [
@@ -764,7 +764,7 @@
     "armor_bash": 13,
     "armor_stab": 19,
     "armor_cut": 13,
-    "armor_bullet": 13,
+    "armor_bullet": 33,
     "harvest": "dkz_mhuman2_chipped",
     "special_attacks": [
       [ "PARROT", 5 ],
@@ -840,7 +840,7 @@
     "armor_bash": 13,
     "armor_stab": 19,
     "armor_cut": 13,
-    "armor_bullet": 13,
+    "armor_bullet": 33,
     "harvest": "dkz_mhuman2_chipped",
     "special_attacks": [
       [ "PARROT", 20 ],
@@ -917,7 +917,7 @@
     "armor_bash": 13,
     "armor_stab": 19,
     "armor_cut": 13,
-    "armor_bullet": 13,
+    "armor_bullet": 33,
     "harvest": "dkz_mhuman2_chipped",
     "special_attacks": [
       [ "PARROT", 20 ],
@@ -994,7 +994,7 @@
     "armor_bash": 14,
     "armor_stab": 20,
     "armor_cut": 14,
-    "armor_bullet": 14,
+    "armor_bullet": 40,
     "harvest": "dkz_mhuman2_chipped",
     "special_attacks": [
       [ "PARROT", 20 ],
