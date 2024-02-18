@@ -215,14 +215,14 @@
     "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_JASON_ALBRIGHT_ASK_ABOUT_GUNS",
     "type": "talk_topic",
-    "dynamic_line": [ "If you need more powerful weapon, you can find a locker hidden from the nearby mushrooms.  Look behind the crumbling walls." ],
+    "dynamic_line": [ "If you need more powerful weapon, you can find a locker hidden from the nearby mushrooms.  Look behind the crumbling walls, but you may have to step though a broken sewage pipe." ],
     "responses": [ { "text": "Alright.", "topic": "TALK_DONE" } ]
   },
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_JASON_ALBRIGHT_ASK_ABOUT_WATCH",
     "type": "talk_topic",
-    "dynamic_line": [ "You want one?  I have an extra one stashed somewhere, but I don't have any batteries." ],
+    "dynamic_line": [ "You want one?  I have an extra one stashed somewhere, but I don't have any batteries.  Sorry.S" ],
     "responses": [
       {
         "text": "Not right now, maybe later.",
