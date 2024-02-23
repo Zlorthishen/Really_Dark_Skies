@@ -52,8 +52,8 @@
         "  , ,   ^      ^     ,,,",
         ",  ,z    YYYYYY H    ,, ",
         ",   ,  H YYyYYY  ,,   ,,",
-        " ,©©     YYYYyY  ,z ©© ,",
-        " ,©©     YYyYYY   , ©© ,",
+        " ,©©b    YYYYyY  ,z ©© ,",
+        " ,©©b    YYyYYY   , ©© ,",
         ",   ,    YYYyYY H     ,,",
         ",  ,   H YYYYYY      ,, ",
         "  ,     ^      ^     ,  ",
@@ -75,7 +75,8 @@
       "items": {
         "y": { "item": "DKZ_morlock_weapons", "chance": 33 },
         "Y": { "item": "DKZ_morlock_weapons", "chance": 5 },
-        "l": { "item": "DKZ_guns_caseless", "chance": 80, "repeat": 5 }
+        "l": { "item": "DKZ_guns_caseless", "chance": 80, "repeat": 5 },
+        "b": { "item": "book_martial", "chance": 20, "repeat": 5 }
       },
       "palettes": [ "morlock_lair" ]
     }
