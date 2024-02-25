@@ -11,6 +11,19 @@
       "place_npcs": [ { "class": "DKZ_SYNTH_MAID", "x": 0, "y": 0, "add_trait": "DKZ_COMBAT" } ],
       "terrain": { " ": "t_null" }
     }
+  },  
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "sky_marshal_NPC_B",
+    "weight": 1,
+    "object": {
+      "mapgensize": [ 1, 1 ],
+      "rotation": [ 0, 3 ],
+      "rows": [ " " ],
+      "place_npcs": [ { "class": "DKZ_SYNTH_MAID", "x": 0, "y": 0, "add_trait": "DKZ_COMBAT" } ],
+      "terrain": { " ": "t_null" }
+    }
   },
   {
     "type": "mapgen",
