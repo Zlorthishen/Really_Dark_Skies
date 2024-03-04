@@ -42,18 +42,18 @@
       "fill_ter": "t_rock_floor",
       "rows": [
         "----,,             -----",
-        "####z,,            #l¬ -",
-        "##©©©,     ©©      ©©©¬-",
-        "##©©©      ©©      ©©©~¬",
+        "####z,,           ##¬¬ -",
+        "##©©©,     ©©     #©l©¬-",
+        "##©©©      ©©      ©©©~-",
         ",z©©©  *   ,    *  ©©©¬-",
         " ,        ,z,      ,,,~,",
         "           ,         ,,,",
-        "    *    Z   Z     *   ,",
+        "    *    Z   Z     *  H,",
         "  , ,   ^      ^     ,,,",
         ",  ,z    YYYYYY Z    ,, ",
         ",   ,  Z YYyYYY  ,,   ,,",
         " ,©©b    YYYYyY  ,z ©© ,",
-        " ,©©b    YYyYYY   , ©© ,",
+        " ,©©ḃ    YYyYYY   , ©© ,",
         ",   ,    YYYyYY Z     ,,",
         ",  ,   Z YYYYYY      ,, ",
         "  ,     ^      ^     ,  ",
@@ -69,14 +69,15 @@
       "rotation": 0,
       "place_npcs": [ { "class": "DKZ_MORLOCK_JASON_ALBRIGHT", "x": 11, "y": 11, "add_trait": [ "DKZ_LEADER" ] } ],
       "terrain": { " ": [ [ "t_rock_floor", 11 ], [ "t_dirt", 5 ] ] },
-      "furniture": { "y": "f_tatami", "Y": "f_tatami", "l": "f_locker" },
+      "furniture": { "ḃ": "f_bookcase", "y": "f_tatami", "Y": "f_tatami", "l": "f_locker" },
       "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],
       "item": { "y": { "item": "scabbard", "chance": 50 }, "l": { "item": "8mm_caseless", "chance": 500 } },
       "items": {
         "y": { "item": "DKZ_morlock_weapons", "chance": 33 },
         "Y": { "item": "DKZ_morlock_weapons", "chance": 5 },
-        "l": { "item": "DKZ_guns_caseless", "chance": 80, "repeat": 5 },
-        "b": { "item": "book_martial", "chance": 20, "repeat": 5 }
+        "l": { "item": "DKZ_guns_caseless", "chance": 80, "repeat": 3 },
+        "ḃ": { "item": "book_martial", "chance": 100 },
+        "b": { "item": "book_martial", "chance": 20, "repeat": 3 }
       },
       "palettes": [ "morlock_lair" ]
     }
