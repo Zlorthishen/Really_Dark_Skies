@@ -74,7 +74,6 @@
       },
       "gaspumps": { "&": {  } },
       "toilets": { "t": {  } },
-      "item": { "y": { "item": "huge_atomic_battery_cell", "chance": 100} },
       "place_vendingmachines": [ { "item_group": "vending_food", "x": 31, "y": 6 }, { "item_group": "vending_drink", "x": 32, "y": 6 } ]
 	  
     }
