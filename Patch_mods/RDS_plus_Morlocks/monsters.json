@@ -36,7 +36,7 @@
     "id": "mon_gator_nice",
     "type": "MONSTER",
     "name": { "str": "sewer gator" },
-    "description": "In the late 20th century, there was an urban legend about pet alligators getting flushed down the toilet and growing to adulthood in sewers.  This large specimen looks like it sees humans as something that should be wary of.",
+    "description": "In the late 20th century, there was an urban legend about pet alligators getting flushed down the toilet and growing to adulthood in sewers.  This large specimen looks like it sees humans as friendly.",
     "default_faction": "gator",
     "bodytype": "gator",
     "categories": [ "WILDLIFE" ],

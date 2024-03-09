@@ -147,7 +147,46 @@
         "                        "
       ],
       "palettes": [ "morlock_lair" ],
-      "mapping": { ";": { "monster": [ { "monster": "mon_fish_blinky", "chance": 17 } ] } },
+      "mapping": { ";": { "monster": [ { "monster": "mon_fish_blinky", "chance": 23 } ] } },
+      "terrain": { ";": "t_water_dp" }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "morlock_lair_mid_core_a",
+    "weight": 875,
+    "object": {
+      "mapgensize": [ 24, 24 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "             ##         ",
+        "         ~~~~##         ",
+        "        ~~~~~~~~##      ",
+        "     ##~~~~~~~~~##      ",
+        "     ##~~~~;;~~~~~      ",
+        "      ~~~~;;;;~~~~      ",
+        "      ~~~;;;;;;~~~      ",
+        "      ~~~~;;;;~~~~      ",
+        "      ~~~~;;;~~~~       ",
+        "       ~~~~;~~~~~       ",
+        "       ~~~~~~~~~        ",
+        "        ~~~~~~          ",
+        "         ~~~~           ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        ",
+        "                        "
+      ],
+      "palettes": [ "morlock_lair" ],
+      "mapping": { ";": { "monster": [ { "monster": "mon_sewer_fish_nice", "chance": 11 } ] } },
       "terrain": { ";": "t_water_dp" }
     }
   },
