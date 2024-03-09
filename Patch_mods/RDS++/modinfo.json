@@ -11,6 +11,7 @@
     "dependencies": [
       "bn",
       "realdarkskies",
+	  "realdarkskies_MagicalNights_patchmod",	  
       "realdarkskies_Arcana_plus_patchmod",
       "realdarkskies_advtech_patchmod",
       "realdarkskies_gekkobots_patchmod",
@@ -18,7 +19,6 @@
       "realdarkskies_CRIT_patchmod",
       "realdarkskies_Dino_patchmod",
       "realdarkskies_morlock_village_patchmod",
-      "realdarkskies_magiclysm_patchmod",
       "realdarkskies_secronom_patchmod"
     ]
   }

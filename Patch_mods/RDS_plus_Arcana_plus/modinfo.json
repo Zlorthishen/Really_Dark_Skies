@@ -13,7 +13,7 @@
       "Arcana_Dinomod_Patch",
       "Arcana_Cata++_Patch",
       "Arcana_Crit_Patch",
-      "Arcana_Magiclysm_Patch",
+	  "Arcana_MagiclalNights_Patch",
       "Arcana_aftershock_Patch"
     ],
     "conflicts": [ "realdarkskies_Arcana_patchmod" ]
