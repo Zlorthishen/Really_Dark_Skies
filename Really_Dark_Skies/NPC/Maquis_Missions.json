@@ -16,7 +16,7 @@
       "assign_mission_target": {
         "om_terrain": "racing_tower_z7_4_1",
         "om_special": "arcology_racing",
-        "search_range": 444,
+        "search_range": 777,
         "random": true,
         "min_distance": 77
       },
@@ -46,7 +46,7 @@
       "assign_mission_target": {
         "om_terrain": "racing_tower_z7_4_1",
         "om_special": "arcology_racing",
-        "search_range": 444,
+        "search_range": 777,
         "random": true,
         "min_distance": 77
       },
@@ -76,9 +76,9 @@
       "assign_mission_target": {
         "om_terrain": "racing_tower_z7_4_1",
         "om_special": "arcology_racing",
-        "search_range": 77,
+        "search_range": 111,
         "random": true,
-        "min_distance": 22
+        "min_distance": 33
       },
       "update_mapgen": { "place_npcs": [ { "class": "DKZ_CHAD_ERIKSON", "x": 5, "y": 5, "target": true } ] },
       "effect": [
@@ -139,10 +139,10 @@
         "om_terrain": "racing_tower_z7_4_1",
         "om_special": "arcology_racing",
         "reveal_radius": 0,
-        "search_range": 750,
+        "search_range": 777,
         "z": 7,
         "random": true,
-        "min_distance": 200
+        "min_distance": 77
       },
       "update_mapgen": { "place_npcs": [ { "class": "DKZ_CHAD_ERIKSON", "x": 5, "y": 5, "add_trait": "DKZ_LEADER" } ] },
      "effect": [
