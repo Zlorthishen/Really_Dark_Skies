@@ -227,10 +227,33 @@
   },
   {
     "type": "profession",
+    "id": "lifting_mech_pilot_scenario",
+    "name": "Lifting Mech Pilot",
+    "description": "You were trained as a logistical support, using the newly introduced lifting mech.",
+    "points": 6,
+    "traits": "DKZ_TECH",	
+    "skills": [ { "level": 2, "name": "driving" }, { "level": 1, "name": "pistol" }, { "level": 8, "name": "mechanics" } ],
+    "items": {
+      "both": {
+        "items": [ "jumpsuit", "gloves_tactical", "boots_combat", "tac_fullhelmet", "legrig", "huge_atomic_battery_cell"  ],
+        "entries": [
+          { "item": "rm103a_pistol", "container-item": "XL_holster", "charges": 10 },
+          { "item": "tacvest", "contents-group": "army_mags_rm11b" }
+        ]
+      },
+      "male": [ "briefs" ],
+      "female": [ "sports_bra", "panties" ]
+    },
+    "pets": [ { "name": "mon_mech_lifter", "amount": 1 } ],
+    "flags": [ "SCEN_ONLY" ]
+  },
+  {
+    "type": "profession",
     "id": "combat_mech_pilot_scenario",
     "name": "Combat Mech Pilot",
     "description": "You were trained as an elite pilot, to operate the newly prototyped combat mech suits, the government's response to captured Chinese intel.",
     "points": 8,
+    "traits": "DKZ_COMBAT",	
     "skills": [ { "level": 8, "name": "driving" }, { "level": 1, "name": "pistol" }, { "level": 2, "name": "mechanics" } ],
     "items": {
       "both": {
@@ -252,6 +275,7 @@
     "name": "Recon Mech Pilot",
     "description": "You were trained as an elite pilot, to operate the newly prototyped recon mech suits, the government's response to captured Chinese intel.",
     "points": 8,
+    "traits": "DKZ_COMBAT",	
     "skills": [ { "level": 8, "name": "driving" }, { "level": 1, "name": "pistol" }, { "level": 2, "name": "mechanics" } ],
     "items": {
       "both": {
