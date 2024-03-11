@@ -103,6 +103,433 @@
     "object": { "mapgensize": [ 1, 1 ], "rotation": [ 0, 3 ], "rows": [ " " ], "terrain": { " ": "t_null" } }
   },
   {
+    "//": "4x4 scientist ",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_4x4_science",
+    "weight": 550,
+    "object": {
+      "faction_owner": [ { "id": "maquis", "x": [ 0, 3 ], "y": [ 0, 3 ] } ],
+      "mapgensize": [ 4, 4 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        " -  ",
+        " bb ",
+        "-bb-",
+        " -  "
+      ],
+      "terrain": { " ": "t_null" },
+      "furniture": { "-": "f_camp_chair", "b": "f_tourist_table" },
+      "items": { " ": { "item": "trash", "chance": 1 }, "b": { "item": "tools_science", "chance": 80, "repeat": [ 1, 2 ] } }
+    }
+  },
+  {
+    "//": "4x4 scientist ",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_4x4_science",
+    "weight": 750,
+    "object": {
+      "faction_owner": [ { "id": "maquis", "x": [ 0, 3 ], "y": [ 0, 3 ] } ],
+      "mapgensize": [ 4, 4 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "    ",
+        " bb ",
+        " bb ",
+        "    "
+      ],
+      "terrain": { " ": "t_null" },
+      "furniture": { "-": "f_camp_chair", "b": "f_tourist_table" },
+      "items": { " ": { "item": "trash", "chance": 1 }, "b": { "item": "supplies_reagents_lab", "chance": 90, "repeat": [ 2, 3 ] } }
+    }
+  },
+  {
+    "//": "4x4 scientist ",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_4x4_science",
+    "weight": 500,
+    "object": {
+      "faction_owner": [ { "id": "maquis", "x": [ 0, 3 ], "y": [ 0, 3 ] } ],
+      "mapgensize": [ 4, 4 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "  - ",
+        "-bb ",
+        " bb-",
+        "  - "
+      ],
+      "terrain": { " ": "t_null" },
+      "furniture": { "-": "f_camp_chair", "b": "f_tourist_table" },
+      "items": { " ": { "item": "trash", "chance": 1 }, "b": { "item": "surgery", "chance": 80, "repeat": [ 1, 2 ] } }
+    }
+  },
+  {
+    "//": "4x4 scientist ",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_4x4_science",
+    "weight": 50,
+    "object": {
+      "faction_owner": [ { "id": "maquis", "x": [ 0, 3 ], "y": [ 0, 3 ] } ],
+      "mapgensize": [ 4, 4 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "  - ",
+        " bB-",
+        "-bb-",
+        " -  "
+      ],
+      "terrain": { " ": "t_null" },
+      "furniture": { "-": "f_camp_chair", "b": "f_lab_bench", "B": "f_shaker" },
+      "items": { " ": { "item": "trash", "chance": 1 }, "b": { "item": "mut_lab", "chance": 80, "repeat": [ 2, 3 ] } }
+    }
+  },
+  {
+    "//": "4x4 scientist ",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_4x4_science",
+    "weight": 150,
+    "object": {
+      "faction_owner": [ { "id": "maquis", "x": [ 0, 3 ], "y": [ 0, 3 ] } ],
+      "mapgensize": [ 4, 4 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        " -  ",
+        " Bb ",
+        " Bb-",
+        "  - "
+      ],
+      "terrain": { " ": "t_null" },
+      "furniture": { "-": "f_camp_chair", "b": "f_lab_bench", "B": "f_fume_hood" },
+      "items": { " ": { "item": "trash", "chance": 1 }, "b": { "item": "chem_lab", "chance": 70, "repeat": [ 2, 3 ] } }
+    }
+  },
+  {
+    "//": "4x4 scientist ",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_4x4_science",
+    "weight": 150,
+    "object": {
+      "faction_owner": [ { "id": "maquis", "x": [ 0, 3 ], "y": [ 0, 3 ] } ],
+      "mapgensize": [ 4, 4 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        " -  ",
+        "-bb ",
+        " bb-",
+        " -  "
+      ],
+      "terrain": { " ": "t_null" },
+      "furniture": { "-": "f_camp_chair", "b": "f_lab_bench" },
+      "place_npcs": [ { "class": "DKZ_MAQUIS_SCIENTIST", "x": 0, "y": 1, "add_trait": "DKZ_SCIENTIST" } ],
+      "items": { " ": { "item": "trash", "chance": 1 }, "b": { "item": "chem_lab", "chance": 50, "repeat": [ 2, 3 ] } }
+    }
+  },
+  {
+    "//": "4x4 scientist ",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_4x4_science",
+    "weight": 150,
+    "object": {
+      "faction_owner": [ { "id": "maquis", "x": [ 0, 3 ], "y": [ 0, 3 ] } ],
+      "mapgensize": [ 4, 4 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        " -  ",
+        " bb ",
+        "-bb-",
+        "  - "
+      ],
+      "terrain": { " ": "t_null" },
+      "furniture": { "-": "f_camp_chair", "b": "f_lab_bench" },
+      "place_npcs": [ { "class": "DKZ_MAQUIS_SCIENTIST", "x": 1, "y": 0, "add_trait": "DKZ_SCIENTIST" } ],
+      "items": { " ": { "item": "trash", "chance": 1 }, "b": { "item": "xenoid_scrap", "chance": 90, "repeat": [ 3, 5 ] } }
+    }
+  },
+  {
+    "//": "5x5 two firepits ",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_5x5_camp",
+    "weight": 50,
+    "object": {
+      "mapgensize": [ 5, 5 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "     ",
+        "     ",
+        "  b  ",
+        "     ",
+        "     "
+      ],
+      "terrain": { " ": "t_null" },
+      "furniture": { "b": "f_55gal_firebarrel" },
+      "mapping": { "b": { "furniture": "f_firering", "fields": { "field": "fd_fire" } } },
+      "items": { " ": { "item": "trash", "chance": 1 } }
+    }
+  },
+  {
+    "//": "5x5 two firepits ",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_5x5_camp",
+    "weight": 25,
+    "object": {
+      "mapgensize": [ 5, 5 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "  -  ",
+        "  bd ",
+        "- d -",
+        "  b -",
+        " - - "
+      ],
+      "terrain": { " ": "t_null", "b": "t_dirt" },
+      "furniture": { "-": "f_camp_chair", "b": "f_firering" },
+      "mapping": { "b": { "furniture": "f_firering", "fields": { "field": "fd_fire" } } },
+      "items": { " ": { "item": "trash", "chance": 1 }, "d": { "item": "logs", "chance": 100, "repeat": [ 1, 2 ] } }
+    }
+  },
+  {
+    "//": "5x5 firepit",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_5x5_camp",
+    "weight": 25,
+    "object": {
+      "mapgensize": [ 5, 5 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "  -  ",
+        "-d  -",
+        " bd  ",
+        " -  -",
+        "   - "
+      ],
+      "terrain": { " ": "t_null", "b": "t_dirt" },
+      "furniture": { "-": "f_camp_chair", "b": "f_firering" },
+      "mapping": { "b": { "furniture": "f_firering", "fields": { "field": "fd_fire" } } },
+      "items": { " ": { "item": "trash", "chance": 1 }, "d": { "item": "logs", "chance": 100, "repeat": [ 1, 2 ] } }
+    }
+  },
+  {
+    "//": "5x5 firepit",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_5x5_camp",
+    "weight": 25,
+    "object": {
+      "mapgensize": [ 5, 5 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "  -  ",
+        "-   -",
+        "  bd ",
+        " -  -",
+        "   - "
+      ],
+      "terrain": { " ": "t_null", "b": "t_dirt" },
+      "furniture": { "-": "f_camp_chair", "b": "f_firering" },
+      "mapping": { "b": { "furniture": "f_firering", "fields": { "field": "fd_fire" } } },
+      "items": { " ": { "item": "trash", "chance": 1 }, "d": { "item": "logs", "chance": 100, "repeat": [ 1, 2 ] } }
+    }
+  },
+  {
+    "//": "5x5 brazier",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_5x5_camp",
+    "weight": 25,
+    "object": {
+      "mapgensize": [ 5, 5 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "     ",
+        "-   -",
+        "  bd ",
+        "    -",
+        "     "
+      ],
+      "terrain": { " ": "t_null" },
+      "furniture": { "-": "f_camp_chair", "b": "f_brazier" },
+      "mapping": { "b": { "furniture": "f_brazier", "fields": { "field": "fd_fire" } } },
+      "items": { " ": { "item": "trash", "chance": 1 }, "d": { "item": "logs", "chance": 100, "repeat": [ 1, 2 ] } }
+    }
+  },
+  {
+    "//": "5x5 two brazier, no chairs",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_5x5_camp",
+    "weight": 25,
+    "object": {
+      "mapgensize": [ 5, 5 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "     ",
+        "  b  ",
+        "  dd ",
+        "  b  ",
+        "     "
+      ],
+      "terrain": { " ": "t_null" },
+      "furniture": { "-": "f_camp_chair", "b": "f_brazier" },
+      "mapping": { "b": { "furniture": "f_brazier", "fields": { "field": "fd_fire" } } },
+      "items": { " ": { "item": "trash", "chance": 1 }, "d": { "item": "logs", "chance": 100, "repeat": [ 1, 2 ] } }
+    }
+  },
+  {
+    "//": "5x5 two brazier, no chairs",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_5x5_camp",
+    "weight": 1000,
+    "object": {
+      "mapgensize": [ 5, 5 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "     ",
+        "  b  ",
+        "   d ",
+        "  b  ",
+        "     "
+      ],
+      "terrain": { " ": "t_null" },
+      "furniture": { "-": "f_camp_chair", "b": "f_brazier" },
+      "mapping": { "b": { "furniture": "f_brazier", "fields": { "field": "fd_fire" } } },
+      "items": { " ": { "item": "trash", "chance": 1 }, "d": { "item": "logs", "chance": 100, "repeat": [ 1, 2 ] } }
+    }
+  },
+  {
+    "//": "5x5 motorcross bike",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_5x5_camp",
+    "weight": 250,
+    "object": {
+      "mapgensize": [ 5, 5 ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        " xx  ",
+        " xx T",
+        "  x -",
+        "     ",
+        "     "
+      ],
+      "terrain": { " ": "t_null" },
+      "place_vehicles": [ { "vehicle": "motorcycle_cross", "x": 1, "y": 1, "chance": 100, "rotation": 270, "status": 2 } ],
+      "furniture": { "-": "f_camp_chair", "T": "f_tourist_table" },
+      "mapping": { "x": { "fields": { "field": "fd_mechanical_fluid" } } },
+      "place_npcs": [ { "class": "DKZ_MAQUIS_MECHANIC", "x": 3, "y": 5, "add_trait": "DKZ_TECH" } ],
+      "items": { " ": { "item": "trash_junkyard", "chance": 3 }, "T": { "item": "tools_mechanic", "chance": 100, "repeat": [ 3, 5 ] } }
+    }
+  },
+  {
+    "//": "5x5 golf cart",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_5x5_camp",
+    "weight": 250,
+    "object": {
+      "mapgensize": [ 5, 5 ],
+      "faction_owner": [ { "id": "maquis", "x": [ 0, 5 ], "y": [ 0, 5 ] } ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        " xx  ",
+        "xx  T",
+        "x   -",
+        "     ",
+        "     "
+      ],
+      "terrain": { " ": "t_null" },
+      "place_vehicles": [ { "vehicle": "golf_cart", "x": 1, "y": 1, "chance": 100, "rotation": 270, "status": 2 } ],
+      "furniture": { "-": "f_camp_chair", "T": "f_tourist_table" },
+      "mapping": { "x": { "fields": { "field": "fd_mechanical_fluid" } } },
+      "place_npcs": [ { "class": "DKZ_MAQUIS_ENGINEER", "x": 3, "y": 5, "add_trait": "DKZ_TECH" } ],
+      "items": { " ": { "item": "trash_junkyard", "chance": 1 }, "T": { "item": "tools_mechanic", "chance": 100, "repeat": [ 3, 5 ] } }
+    }
+  },
+  {
+    "//": "5x5 golf cart 4 seat",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_5x5_camp",
+    "weight": 250,
+    "object": {
+      "mapgensize": [ 5, 5 ],
+      "faction_owner": [ { "id": "maquis", "x": [ 0, 5 ], "y": [ 0, 5 ] } ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "  x  ",
+        "xxx  ",
+        "  x -",
+        "    T",
+        "     "
+      ],
+      "terrain": { " ": "t_null" },
+      "place_vehicles": [ { "vehicle": "golf_cart_4seat", "x": 1, "y": 1, "chance": 100, "rotation": 270, "status": 2 } ],
+      "furniture": { "-": "f_camp_chair", "T": "f_tourist_table" },
+      "mapping": { "x": { "fields": { "field": "fd_mechanical_fluid" } } },
+      "place_npcs": [ { "class": "DKZ_MAQUIS_ENGINEER", "x": 3, "y": 5, "add_trait": "DKZ_TECH" } ],
+      "items": { " ": { "item": "trash_junkyard", "chance": 1 }, "T": { "item": "tools_mechanic", "chance": 100, "repeat": [ 3, 5 ] } }
+    }
+  },
+  {
+    "//": "5x5 motorcross bike",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_5x5_camp",
+    "weight": 250,
+    "object": {
+      "mapgensize": [ 5, 5 ],
+      "faction_owner": [ { "id": "maquis", "x": [ 0, 5 ], "y": [ 0, 5 ] } ],
+      "rotation": [ 0, 3 ],
+      "rows": [
+        "   x ",
+        " xxx ",
+        "  xx ",
+        "  -T ",
+        "     "
+      ],
+      "terrain": { " ": "t_null" },
+      "place_vehicles": [ { "vehicle": "motorcycle_cross", "x": 2, "y": 2, "chance": 100, "rotation": 180, "status": 2 } ],
+      "furniture": { "-": "f_camp_chair", "T": "f_tourist_table" },
+      "mapping": { "x": { "fields": { "field": "fd_mechanical_fluid" } } },
+      "place_npcs": [ { "class": "DKZ_MAQUIS_MECHANIC", "x": 4, "y": 4, "add_trait": "DKZ_TECH" } ],
+      "items": { " ": { "item": "trash_junkyard", "chance": 2 }, "T": { "item": "tools_mechanic", "chance": 100, "repeat": [ 3, 5 ] } }
+    }
+  },
+  {
+    "//": "4x4 motorcycle",
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "racing_tower_5x5_camp",
+    "weight": 250,
+    "object": {
+      "mapgensize": [ 5, 5 ],
+      "rotation": [ 0, 3 ],
+      "faction_owner": [ { "id": "maquis", "x": [ 0, 5 ], "y": [ 0, 5 ] } ],
+      "rows": [
+        "  x  ",
+        "  xx ",
+        "   xx",
+        " -  x",
+        " T   "
+      ],
+      "terrain": { " ": "t_null" },
+      "place_vehicles": [ { "vehicle": "motorcycle", "x": 4, "y": 1, "chance": 100, "rotation": 90, "status": 2 } ],
+      "furniture": { "-": "f_camp_chair", "T": "f_tourist_table" },
+      "mapping": { "x": { "fields": { "field": "fd_mechanical_fluid" } } },
+      "place_npcs": [ { "class": "DKZ_MAQUIS_ENGINEER", "x": 5, "y": 1, "add_trait": "DKZ_TECH" } ],
+      "items": { " ": { "item": "trash_junkyard", "chance": 1 }, "T": { "item": "tools_mechanic", "chance": 100, "repeat": [ 3, 5 ] } }
+    }
+  },
+  {
     "//": "4x4 shopkeeper",
     "type": "mapgen",
     "method": "json",
@@ -672,6 +1099,7 @@
       ],
       "terrain": { " ": "t_null" },
       "furniture": { "C": "f_bench", "T": "f_table" },
+      "place_npcs": [ { "class": "DKZ_MAQUIS_ATHLETIC", "x": 1, "y": 1, "add_trait": "DKZ_COMBAT" } ],
       "items": { " ": { "item": "trash", "chance": 1 }, "T": { "item": "scavenged_foods", "chance": 20, "repeat": [ 1, 2 ] } }
     }
   },
@@ -696,6 +1124,7 @@
       ],
       "terrain": { " ": "t_null" },
       "furniture": { "C": "f_bench", "T": "f_table" },
+      "place_npcs": [ { "class": "DKZ_MAQUIS_ATHLETIC", "x": 1, "y": 1, "add_trait": "DKZ_COMBAT" } ],
       "items": { " ": { "item": "trash", "chance": 1 }, "T": { "item": "scavenged_foods", "chance": 20, "repeat": [ 2, 3 ] } }
     }
   },
@@ -720,6 +1149,7 @@
       ],
       "terrain": { " ": "t_null" },
       "furniture": { "C": "f_bench", "T": "f_table" },
+      "place_npcs": [ { "class": "DKZ_MAQUIS_ATHLETIC", "x": 4, "y": 1, "add_trait": "DKZ_COMBAT" } ],
       "items": { " ": { "item": "trash", "chance": 1 }, "T": { "item": "scavenged_foods", "chance": 20, "repeat": [ 1, 2 ] } }
     }
   },
@@ -742,6 +1172,7 @@
         "    CC ",
         "       "
       ],
+      "place_npcs": [ { "class": "DKZ_MAQUIS_ATHLETIC", "x": 4, "y": 1, "add_trait": "DKZ_COMBAT" } ],
       "terrain": { " ": "t_null" },
       "furniture": { "C": "f_bench", "T": "f_table" },
       "items": { " ": { "item": "trash", "chance": 1 }, "T": { "item": "scavenged_foods", "chance": 20, "repeat": [ 1, 2 ] } }
@@ -767,6 +1198,7 @@
         "       "
       ],
       "terrain": { " ": "t_null" },
+      "place_npcs": [ { "class": "DKZ_MAQUIS_ATHLETIC", "x": 5, "y": 1, "add_trait": "DKZ_COMBAT" } ],
       "furniture": { "C": "f_bench", "S": "f_stool", "T": "f_table" },
       "items": { " ": { "item": "trash", "chance": 1 }, "T": { "item": "scavenged_foods", "chance": 20, "repeat": [ 1, 2 ] } }
     }
@@ -791,6 +1223,7 @@
         "       "
       ],
       "terrain": { " ": "t_null" },
+      "place_npcs": [ { "class": "DKZ_MAQUIS_ATHLETIC", "x": 3, "y": 1, "add_trait": "DKZ_COMBAT" } ],
       "furniture": { "C": "f_bench", "S": "f_stool", "T": "f_table", "X": "f_table", "V": "f_trashcan" },
       "items": {
         " ": { "item": "trash", "chance": 1 },
@@ -819,6 +1252,7 @@
         "  CCC  ",
         "       "
       ],
+      "place_npcs": [ { "class": "DKZ_MAQUIS_ATHLETIC", "x": 5, "y": 5, "add_trait": "DKZ_COMBAT" } ],
       "terrain": { " ": "t_null" },
       "furniture": { "C": "f_bench", "S": "f_stool", "T": "f_table", "X": "f_table" },
       "items": { " ": { "item": "trash", "chance": 1 }, "T": { "item": "scavenged_foods", "chance": 10, "repeat": [ 1, 2 ] } },

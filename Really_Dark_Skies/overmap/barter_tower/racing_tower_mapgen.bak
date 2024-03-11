@@ -111,6 +111,7 @@
         "########################rrrrXrrrXrrrrrrXrrrXrrrr################################################"
       ],
       "palettes": [ "racing_arcology_palette" ],
+      "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "free_merchants", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],
       "place_npcs": [
         { "class": "DKZ_MAQUIS_BEAST_MUTANT", "x": 75, "y": 75, "add_trait": [ "DKZ_LEADER" ] },
         { "class": "DKZ_MAQUIS_TROG_MUTANT", "x": 73, "y": 75, "add_trait": [ "DKZ_LEADER" ] },
@@ -498,7 +499,9 @@
       "furniture": { "V": "f_vending_o", "T": "f_standing_tank", "Y": "f_washer", "y": "f_dryer" },
       "place_nested": [
         { "chunks": [ "racing_tower_4x4_store" ], "x": 3, "y": 7 },
-        { "chunks": [ "racing_tower_4x4_store" ], "x": 89, "y": 84 }
+        { "chunks": [ "racing_tower_4x4_store" ], "x": 89, "y": 84 },
+        { "chunks": [ "racing_tower_5x5_camp" ], "x": 72, "y": 78 },
+        { "chunks": [ "racing_tower_5x5_camp" ], "x": 80, "y": 78 }
       ]
     }
   },
@@ -646,6 +649,11 @@
         { "signage": "BARTER TOWER - Living Humans Only Allowed", "x": 95, "y": 0 },
         { "signage": "BARTER TOWER - Living Humans Only Allowed", "x": 95, "y": 95 }
       ],
+      "place_npcs": [
+        { "class": "DKZ_MAQUIS_ELF_MUTANT", "x": 51, "y": 37, "add_trait": [ "DKZ_COMBAT" ] },
+        { "class": "DKZ_MAQUIS_FELINE_MUTANT", "x": 53, "y": 38, "add_trait": [ "DKZ_LEADER" ] },
+        { "class": "DKZ_MAQUIS_MOTH_MUTANT", "x": 55, "y": 39, "add_trait": [ "DKZ_LEADER" ] }
+      ],
       "furniture": { "Ẍ": "f_large_canvas_door", "ẍ": "f_large_canvas_wall" },
       "item": { "§": { "item": "deck_of_cards", "chance": 100 } },
       "terrain": {
@@ -659,6 +667,8 @@
         "s": "t_asphalt_floor"
       },
       "place_nested": [
+        { "chunks": [ "racing_tower_NPC_B" ], "x": 50, "y": 50 },
+        { "chunks": [ "racing_tower_NPC_D" ], "x": 53, "y": 51 },
         { "chunks": [ "racing_tower_4x4_store" ], "x": 16, "y": 11 },
         { "chunks": [ "racing_tower_4x4_store" ], "x": 16, "y": 20 },
         { "chunks": [ "racing_tower_4x4_store" ], "x": 28, "y": 12 },
@@ -2018,7 +2028,9 @@
         { "class": "DKZ_MAQUIS_BIONIC_ASSASSIN", "x": 70, "y": 4, "add_trait": [ "DKZ_COMBAT" ] },
         { "class": "DKZ_MAQUIS_RIOT_COP", "x": 71, "y": 3, "add_trait": [ "DKZ_LEADER" ] },
         { "class": "DKZ_MAQUIS_RIOT_COP", "x": 73, "y": 3, "add_trait": [ "DKZ_LEADER" ] },
-        { "class": "DKZ_MAQUIS_CYBERCOP", "x": 73, "y": 3, "add_trait": [ "DKZ_LEADER" ] }
+        { "class": "DKZ_MAQUIS_CYBERCOP", "x": 73, "y": 3, "add_trait": [ "DKZ_LEADER" ] },
+        { "class": "DKZ_MAQUIS_MEDICAL_MUTANT", "x": 65, "y": 4, "add_trait": [ "DKZ_MEDIC" ] },
+        { "class": "DKZ_MAQUIS_ELF_MUTANT", "x": 64, "y": 5, "add_trait": [ "DKZ_MEDIC" ] }
       ],
       "computers": {
         "6": {
@@ -2089,7 +2101,29 @@
         { "chunks": [ "racing_tower_6x6_junk" ], "x": 24, "y": 4 },
         { "chunks": [ "racing_tower_6x6_junk" ], "x": 30, "y": 4 },
         { "chunks": [ "racing_tower_6x6_junk" ], "x": 36, "y": 4 },
-        { "chunks": [ "racing_tower_6x6_junk" ], "x": 42, "y": 4 }
+        { "chunks": [ "racing_tower_6x6_junk" ], "x": 42, "y": 4 },
+        { "chunks": [ "racing_tower_4x4_science" ], "x": 3, "y": 9 },
+        { "chunks": [ "racing_tower_4x4_science" ], "x": 3, "y": 13 },
+        { "chunks": [ "racing_tower_4x4_science" ], "x": 3, "y": 18 },
+        { "chunks": [ "racing_tower_4x4_science" ], "x": 3, "y": 27 },
+        { "chunks": [ "racing_tower_4x4_science" ], "x": 3, "y": 31 },
+        { "chunks": [ "racing_tower_4x4_science" ], "x": 3, "y": 36 },
+        { "chunks": [ "racing_tower_4x4_science" ], "x": 3, "y": 40 },
+        { "chunks": [ "racing_tower_4x4_science" ], "x": 9, "y": 89 },
+        { "chunks": [ "racing_tower_4x4_science" ], "x": 13, "y": 89 },
+        { "chunks": [ "racing_tower_4x4_science" ], "x": 18, "y": 89 },
+        { "chunks": [ "racing_tower_4x4_science" ], "x": 27, "y": 89 },
+        { "chunks": [ "racing_tower_4x4_science" ], "x": 31, "y": 89 },
+        { "chunks": [ "racing_tower_4x4_science" ], "x": 36, "y": 89 },
+        { "chunks": [ "racing_tower_4x4_science" ], "x": 40, "y": 89 },
+        { "chunks": [ "racing_tower_4x4_science" ], "x": 89, "y": 43 },
+        { "chunks": [ "racing_tower_4x4_science" ], "x": 89, "y": 52 },
+        { "chunks": [ "racing_tower_4x4_science" ], "x": 89, "y": 56 },
+        { "chunks": [ "racing_tower_4x4_science" ], "x": 89, "y": 61 },
+        { "chunks": [ "racing_tower_4x4_science" ], "x": 89, "y": 65 },
+        { "chunks": [ "racing_tower_4x4_science" ], "x": 89, "y": 74 },
+        { "chunks": [ "racing_tower_4x4_science" ], "x": 89, "y": 79 },
+        { "chunks": [ "racing_tower_4x4_science" ], "x": 89, "y": 83 }
       ]
     }
   },
@@ -2235,7 +2269,17 @@
           "status": 0
         }
       ],
-      "terrain": { "'": "t_pavement", "X": "t_metal_floor_no_roof", "B": "t_metal_flat_roof" }
+      "terrain": { "'": "t_pavement", "X": "t_metal_floor_no_roof", "B": "t_metal_flat_roof" },
+      "place_npcs": [
+        { "class": "DKZ_MAQUIS_SNIPER", "x": 2, "y": 2, "add_trait": [ "DKZ_COMBAT" ] },
+        { "class": "DKZ_MAQUIS_SNIPER", "x": 2, "y": 92, "add_trait": [ "DKZ_COMBAT" ] },
+        { "class": "DKZ_MAQUIS_SNIPER", "x": 2, "y": 47, "add_trait": [ "DKZ_COMBAT" ] },
+        { "class": "DKZ_MAQUIS_SNIPER", "x": 92, "y": 2, "add_trait": [ "DKZ_COMBAT" ] },
+        { "class": "DKZ_MAQUIS_SNIPER", "x": 49, "y": 2, "add_trait": [ "DKZ_COMBAT" ] },
+        { "class": "DKZ_MAQUIS_SNIPER", "x": 92, "y": 49, "add_trait": [ "DKZ_COMBAT" ] },
+        { "class": "DKZ_MAQUIS_SNIPER", "x": 47, "y": 92, "add_trait": [ "DKZ_COMBAT" ] },
+        { "class": "DKZ_MAQUIS_SNIPER", "x": 92, "y": 92, "add_trait": [ "DKZ_COMBAT" ] }
+      ]
     }
   },
   {
@@ -2349,7 +2393,8 @@
         "................................................................................................",
         "................................................................................................"
       ],
-      "palettes": [ "racing_arcology_palette" ]
+      "palettes": [ "racing_arcology_palette" ],
+      "place_npcs": [ { "class": "DKZ_MAQUIS_BIRD_MUTANT", "x": 31, "y": 20, "add_trait": [ "DKZ_COMBAT" ] } ]
     }
   }
 ]
