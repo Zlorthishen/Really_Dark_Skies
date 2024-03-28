@@ -12,6 +12,7 @@
     "conflicts": [
       "dda",
       "darkskies",
+	  "generic_guns",
       "no_survivor_armor",
       "no_mutagen",
       "no_scifi",
