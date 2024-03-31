@@ -1249,7 +1249,6 @@
     "vision_night": 5,
     "harvest": "exempt",
     "special_attacks": [ [ "SHRIEK_ALERT", 20 ], [ "SHRIEK_STUN", 1 ] ],
-    "special_when_hit": [ "ZAPBACK", 100 ],
     "death_function": [ "MELT" ],
     "flags": [ "SEES", "IMMOBILE", "HARDTOSHOOT", "NOGIB", "ELECTRIC", "WARM", "NO_BREATHE", "NOHEAD", "ARTHROPOD_BLOOD" ]
   },
@@ -1281,7 +1280,6 @@
     "vision_night": 5,
     "harvest": "exempt",
     "special_attacks": [ [ "RANGED_PULL", 20 ], [ "STRETCH_ATTACK", 20 ] ],
-    "special_when_hit": [ "ZAPBACK", 100 ],
     "death_function": [ "MELT" ],
     "flags": [ "SEES", "IMMOBILE", "NOGIB", "ELECTRIC", "WARM", "NO_BREATHE", "NOHEAD", "ARTHROPOD_BLOOD" ]
   },
@@ -1310,7 +1308,6 @@
     "vision_night": 5,
     "harvest": "exempt",
     "emit_fields": [ { "emit_id": "emit_shock_cloud", "delay": "2  s" } ],
-    "special_when_hit": [ "ZAPBACK", 100 ],
     "death_function": [ "MELT" ],
     "flags": [ "IMMOBILE", "NOGIB", "ELECTRIC", "WARM", "NO_BREATHE", "NOHEAD", "ARTHROPOD_BLOOD" ]
   },
@@ -1338,7 +1335,6 @@
     "vision_night": 5,
     "luminance": 10,
     "harvest": "exempt",
-    "special_when_hit": [ "ZAPBACK", 100 ],
     "death_function": [ "MELT" ],
     "flags": [ "IMMOBILE", "NOGIB", "ELECTRIC", "WARM", "NO_BREATHE", "NOHEAD", "ARTHROPOD_BLOOD" ]
   },
@@ -1373,7 +1369,6 @@
     "harvest": "exempt",
     "reproduction": { "baby_monster": "dkz_mon_crystal_mite", "baby_count": 4, "baby_timer": 60 },
     "special_attacks": [ [ "BOOMER_GLOW", 20 ], [ "STRETCH_ATTACK", 20 ], [ "LONGSWIPE", 20 ] ],
-    "special_when_hit": [ "ZAPBACK", 100 ],
     "death_function": [ "BOOMER_GLOW", "NORMAL" ],
     "flags": [ "SEES", "IMMOBILE", "NOGIB", "ELECTRIC", "WARM", "NO_BREATHE", "NOHEAD", "ARTHROPOD_BLOOD" ]
   },
