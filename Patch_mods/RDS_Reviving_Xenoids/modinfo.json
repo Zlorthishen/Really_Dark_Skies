@@ -1,0 +1,18 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "realdarkskies_reviving_xenoids",
+    "name": "<color_light_blue>Really Dark Skies</color> with reviving Xenoids",
+    "authors": [ "Zlorthishen" ],
+    "description": "A patchmod for <color_light_blue>Really Dark Skies</color> which makes Xenoids revive like zombies",
+    "category": "rebalance",
+    "version": "BN version 2263c8f, update 04/14/2024",
+    "conflicts": [ "realdarkskies_no_reviving_strays", "no_reviving_zombies" ],
+    "dependencies": [ "bn", "realdarkskies" ]
+  },
+  {
+    "type": "monster_adjustment",
+    "species": "ALIEN",
+    "flag": { "name": "REVIVES", "value": true }
+  }
+]
