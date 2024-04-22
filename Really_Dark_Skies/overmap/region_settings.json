@@ -2,6 +2,10 @@
   {
     "type": "region_overlay",
     "regions": [ "all" ],
+    "map_extras": {
+      "forest_thick": { "chance": 10, "extras": { "mx_biocystal_growth": 10 } },
+      "forest": { "chance": 10, "extras": { "mx_biocystal_growth": 20 } }
+    },	
     "city": { "shops": { "dkz_garage_gas_mech": 10,"dkz_abstorefront": 10, "arcology_racing": 5 } }
   }
 ]
