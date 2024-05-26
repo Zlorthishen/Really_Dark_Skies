@@ -28,7 +28,25 @@
           ]
         },
         "topic": "TALK_MORLOCK_JASON_ALBRIGHT_ABOUT_RESCUE"
-      }
+      },
+      {
+        "text": "I've already finished her rescue mission.",
+        "condition": {
+          "and": [
+            { "not": { "u_has_mission": "DKZ_MORLOCK_RESCUE_JUNE_OFANNY" } },
+            { "u_has_var": "u_saved_June_OFanny", "type": "general", "context": "maquis", "value": "yes" }
+          ]
+        },
+        "effect": [ { "npc_first_topic": "TALK_MORLOCK_JASON_ALBRIGHT_ROOT" } ],		
+        "topic": "TALK_MORLOCK_JASON_ALBRIGHT_CONTACT_MAQUIS"
+      },
+      {
+        "text": "I have some bad news, June didn't make it.",
+        "condition": { "u_has_var": "u_killed_June_OFanny", "type": "flag", "context": "death", "value": "yes" },
+        "opinion": { "trust": -10, "value": -25 },
+        "effect": [ { "npc_first_topic": "TALK_MORLOCK_JASON_ALBRIGHT_ROOT" } ],			
+        "topic": "TALK_JASON_ALBRIGHT_DEAD_JUNE"
+      },	  
     ]
   },
   {
