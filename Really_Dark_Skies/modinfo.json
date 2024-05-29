@@ -6,7 +6,7 @@
     "authors": [ "Zlorthishen" ],
     "lua_api_version": 2,
     "description": "A supplement mod that increments the Cataclysm Bright Nights experience by adding an inscrutable evil, extra-terrestrial humanoid paramilitary expeditionary force to your typical survival scenario. /n/n Complements to the vanilla adding the evil aliens 'The Xenoids', a regenerating, alternative style of zombies called 'Strays', and terrifyingly armored [REDACTED], and even expansions to old foes like Mi-Go's, and Triffids!  <color_light_red>Prepare for a challenge.</color>",
-    "version": "BN version 8917570, update 05/27/2024",
+    "version": "BN version 8666d70, update 05/28/2024",
     "category": "content",
     "dependencies": [ "bn" ],
     "conflicts": [
