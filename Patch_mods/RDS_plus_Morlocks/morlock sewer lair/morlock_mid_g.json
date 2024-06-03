@@ -95,22 +95,22 @@
       "rows": [
         "                        ",
         "                        ",
-        "              ®®®       ",
-        "           ®®®®™®®®     ",
-        "      ▓▓▓▓▓®™™™™™™®     ",
-        "      ▓™™™™™™™™™™™®     ",
-        "      ▓™™™™™™™™™™™®▓    ",
+        "             ®®®®       ",
+        "           ®®®™ ®®®     ",
+        "   ▒▓▓▓░▓▓▓®      ®▓▒   ",
+        "      ▓™™™™®      ®▓▓   ",
+        "      ▓™™™™™      ™▓    ",
+        "      ▓™™™™™      ™▓    ",
+        "      ▓™™™™™      ™▓    ",
+        "      ▓™™™™™      ™▓    ",
         "      ▓™™™™™™™™™™™™▓    ",
         "      ▓™™™™™™™™™™™™▓    ",
-        "      ▓™™™™™™™™™™™™▓    ",
-        "      ®®™™™™™™™™™™™▓    ",
-        "       ®™™™™™™™™™™™▓    ",
-        "      ▒®™™™™™™™™™®▓▓    ",
-        "       ®™™™™™™™™®▒      ",
-        "      ▓®™™™™™™®®®▓      ",
-        "      ▓®™™™™™™®░™▓      ",
-        "      ░Ø™™™™™™™▓{▓      ",
-        "      ▒▓▓▓▓▓▓▓▓▓▓▓      ",
+        "      ▒™™™™™™™™™™™▓▓    ",
+        "      ▓™™™™™™™™™™™░     ",
+        "      ▓™™™™™™™®®®▓▓     ",
+        "      ░™™™™™™™®Ø™▓      ",
+        "      ▒™™™™™™™░▓{▓      ",
+        "      ▓▓░▓▓▓▓▓▓▓▓▓      ",
         "                        ",
         "                        ",
         "                        ",
@@ -125,7 +125,6 @@
       "place_nested": [
         { "chunks": [ "morlock_lair_4x4_technik" ], "x": 12, "y": 10 },
         { "chunks": [ "morlock_lair_4x4_technik" ], "x": 8, "y": 10 },
-        { "chunks": [ "morlock_lair_4x4_technik" ], "x": 12, "y": 6 },
         { "chunks": [ "morlock_lair_4x4_technik" ], "x": 8, "y": 6 }
       ]
     }
@@ -160,7 +159,7 @@
       "rows": [
         "    ",
         " bb ",
-        " -B ",
+        " -BB",
         "  c "
       ],
       "terrain": { " ": "t_null" },
@@ -172,7 +171,7 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "morlock_lair_4x4_technik",
-    "weight": 50,
+    "weight": 25,
     "object": {
       "mapgensize": [ 4, 4 ],
       "rotation": [ 0, 3 ],
@@ -191,13 +190,13 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "morlock_lair_4x4_technik",
-    "weight": 25,
+    "weight": 125,
     "object": {
       "mapgensize": [ 4, 4 ],
       "rotation": [ 0, 3 ],
       "rows": [
-        "    ",
-        "    ",
+        "  B ",
+        "  B ",
         "  B ",
         "    "
       ],
@@ -210,37 +209,18 @@
     "type": "mapgen",
     "method": "json",
     "nested_mapgen_id": "morlock_lair_4x4_technik",
-    "weight": 75,
+    "weight": 175,
     "object": {
       "mapgensize": [ 4, 4 ],
       "rotation": [ 0, 3 ],
       "rows": [
-        "    ",
+        " BA ",
         " BB ",
         " AB ",
-        "    "
+        " BB "
       ],
       "terrain": { "A": "t_machinery_old", " ": "t_null" },
       "furniture": { "B": "f_server" },
-      "items": { " ": { "item": "trash", "chance": 1 } }
-    }
-  },
-  {
-    "type": "mapgen",
-    "method": "json",
-    "nested_mapgen_id": "morlock_lair_4x4_technik",
-    "weight": 75,
-    "object": {
-      "mapgensize": [ 4, 4 ],
-      "rotation": [ 0, 3 ],
-      "rows": [
-        "    ",
-        "  B ",
-        "  A ",
-        "    "
-      ],
-      "terrain": { " ": "t_null" },
-      "furniture": { "A": "f_bellows", "B": "f_forge" },
       "items": { " ": { "item": "trash", "chance": 1 } }
     }
   }

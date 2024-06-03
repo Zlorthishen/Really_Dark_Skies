@@ -147,7 +147,6 @@
     "responses": [
       {
         "text": "You said it.",
-        "effect": [ { "npc_lose_var": "temporal_follower", "type": "general", "context": "maquis" }, "stop_following" ],
         "topic": "TALK_DONE"
       }
     ]
