@@ -233,7 +233,7 @@
     "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_JASON_ALBRIGHT_ASK_ABOUT_GUNS",
     "type": "talk_topic",
-    "dynamic_line": [ "If you need more powerful weapon, you can find a locker hidden from the nearby mushrooms.  Look behind the crumbling walls, but you may have to step though a puddle of sewage.  There may also be random caches of other weapons around these warrens.  Feel free to dispose of them." ],
+    "dynamic_line": [ "If you need more powerful weapon, you can find a locker hidden from the nearby mushrooms.  Look behind the boarded up door, but you may have to step though a puddle of sewage.  There may also be random caches of other weapons around these warrens.  Feel free to take them too." ],
     "responses": [ { "text": "Alright.", "topic": "TALK_DONE" } ]
   },
   {
