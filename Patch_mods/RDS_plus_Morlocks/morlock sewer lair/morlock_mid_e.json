@@ -1,6 +1,40 @@
 [
   {
     "type": "item_group",
+    "id": "DKZ_morlock_martial_books",
+    "items": [
+      [ "manual_aikido", 1 ],
+      [ "manual_barbaran", 1 ],
+      [ "manual_fencing", 4 ],
+      [ "manual_judo", 5 ],
+      [ "manual_karate", 5 ],
+      [ "manual_niten", 2 ],
+      [ "manual_taekwondo", 2 ],
+      [ "manual_tai_chi", 2 ],
+      [ "manual_zui_quan", 2 ],
+      [ "manual_sojutsu", 5 ],
+      [ "manual_medievalpole", 2 ],
+      [ "manual_swordsmanship", 1 ]
+    ]
+  },   {
+    "type": "item_group",
+    "id": "DKZ_morlock_kungfu_books",
+    "items": [
+      [ "manual_centipede", 1 ],
+      [ "manual_crane", 1 ],
+      [ "manual_dragon", 1 ],
+      [ "manual_leopard", 1 ],
+      [ "manual_lizard", 1 ],
+      [ "manual_scorpion", 1 ],
+      [ "manual_snake", 1 ],
+      [ "manual_tiger", 1 ],
+      [ "manual_toad", 1 ],
+      [ "manual_venom_snake", 1 ],
+      [ "manual_wingchun", 1 ]
+    ]
+  },  
+  {
+    "type": "item_group",
     "id": "DKZ_morlock_weapons",
     "items": [
       [ "knife_rm42", 1 ],
@@ -42,7 +76,7 @@
       "fill_ter": "t_rock_floor",
       "rows": [
         "----,,            #-----",
-        "####z,,           #  ±¬-",
+        "####z,,           #  +¬-",
         "##©©©,     ©©     #ľŀ©~-",
         "##©©©      ©©     #©©©~-",
         ",z©©©  *   ,    *  ©©©¬-",
@@ -52,7 +86,7 @@
         "  , ,   ^      ^     ,,,",
         ",  ,z    YYYYYY Z    ,, ",
         ",   ,  Z YYyYYY  ,,   ,,",
-        " ,©©b    YYYYyY  ,z ©© ,",
+        " ,©©ḇ    YYYYyY  ,z ©© ,",
         " ,©©ḃ    YYyYYY   , ©© ,",
         ",   ,    YYYyYY Z     ,,",
         ",  ,   Z YYYYYY      ,, ",
@@ -69,20 +103,22 @@
       "rotation": 0,
       "place_npcs": [ { "class": "DKZ_MORLOCK_JASON_ALBRIGHT", "x": 11, "y": 11, "add_trait": [ "DKZ_LEADER" ] } ],
       "terrain": { " ": [ [ "t_rock_floor", 11 ], [ "t_dirt", 5 ] ] },
-      "furniture": { "ḃ": "f_bookcase", "y": "f_tatami", "Y": "f_tatami", "ŀ": "f_locker" , "ľ": "f_locker" },
+      "furniture": { "ḇ": "f_bookcase","ḃ": "f_bookcase", "y": "f_tatami", "Y": "f_tatami", "ŀ": "f_locker" , "ľ": "f_locker" },
       "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],
       "item": {
-        "y": { "item": "scabbard", "chance": 60 },
+        "ḃ": { "item": "manual_ninjutsu", "chance": 95 },
+        "ḇ": { "item": "manual_ninjutsu", "chance": 15 },
         "ŀ": [ { "item": "8mm_caseless", "chance": 300 }, { "item": "shoulder_strap", "chance": 200 }, { "item": "knife_combat", "chance": 50 } ],
         "ľ": [ { "item": "8mm_caseless", "chance": 300 }, { "item": "holster", "chance": 200 }, { "item": "knife_combat", "chance": 50 } ],
-        "ḃ": { "item": "manual_ninjutsu", "chance": 100 }
+        "y": { "item": "scabbard", "chance": 60 }
       },
       "items": {
         "y": { "item": "DKZ_morlock_weapons", "chance": 40 },
         "Y": { "item": "DKZ_morlock_weapons", "chance": 5 },
         "ŀ": { "item": "DKZ_guns_caseless_rifles", "chance": 60, "repeat": 4 },
         "ľ": { "item": "DKZ_guns_caseless_pistols", "chance": 60, "repeat": 4 },
-        "b": { "item": "book_martial", "chance": 40, "repeat": 3 }
+        "ḃ": { "item": "DKZ_morlock_martial_books", "chance": 90, "repeat": 2 },
+        "ḇ": { "item": "DKZ_morlock_kungfu_books", "chance": 90, "repeat": 2 }
       },
       "palettes": [ "morlock_lair" ]
     }
