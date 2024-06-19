@@ -127,7 +127,6 @@
       "ANIMAL",
       "PET_WONT_FOLLOW",
       "PET_MOUNTABLE",
-      "CATTLEFODDER",
 	  "ARTHROPOD_BLOOD"
     ]
   },
@@ -179,8 +178,7 @@
       "ATTACKMON",
       "SWIMS",
       "PET_WONT_FOLLOW",
-      "DOGFOOD",
-	  "ARTHROPOD_BLOOD"
+"ARTHROPOD_BLOOD"
     ]
   },
   {
@@ -217,7 +215,6 @@
       "FLIES",
       "SWARMS",
       "PET_WONT_FOLLOW",
-      "CATFOOD",
 	  "ARTHROPOD_BLOOD"
     ]
   },
