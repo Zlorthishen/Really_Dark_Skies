@@ -6,7 +6,7 @@
     "authors": [ "Zlorthishen" ],
     "description": "A patchmod for Really Dark Skies which allows the player to repair Xeno-Tech",
     "category": "misc_additions",
-    "version": "BN version 2263c8f, update 04/07/2024",
+    "version": "BN version 3982ae0, update 06/23/2024",
     "dependencies": [ "bn", "realdarkskies" ]
   }
 ]
