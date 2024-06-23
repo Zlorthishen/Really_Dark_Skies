@@ -97,7 +97,7 @@
         "                        ",
         "                        ",
         "             ®®®®       ",
-        "           ®®® A®®®     ",
+        "           ®®® Ā®®®     ",
         "   ▒▓▓▓░▓▒▓®™™™™™™®▓▓▓▒ ",
         "      ▓    ®™™™™™™®▓    ",
         "      ▓     ™™™™™™ ▓    ",
@@ -121,7 +121,7 @@
       ],
       "rotation": 0,	  
       "palettes": [ "morlock_lair" ],
-      "terrain": { "Ø": "t_junk_floor", "A": "t_machinery_old" },
+      "terrain": { "Ø": "t_junk_floor", "Ā": "t_machinery_old" },
       "furniture": { "Ø": "f_beaded_door" },
       "place_nested": [
         { "chunks": [ "morlock_lair_4x4_technik" ], "x": 12, "y": 10 },

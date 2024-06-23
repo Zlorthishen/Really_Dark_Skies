@@ -146,6 +146,15 @@
         "topic": "TALK_MORLOCK_JASON_ALBRIGHT_ASK_INTEL"
       },
       {
+        "text": "That is a very nice watch.",
+        "effect": { "u_add_var": "u_Talk_To_JasonAlbright_about_Watch", "type": "general", "context": "meeting", "value": "yes" },
+        "condition": {
+          "not": { "u_has_var": "u_Talk_To_JasonAlbright_about_Watch", "type": "general", "context": "meeting", "value": "yes" }
+        },
+        "opinion": { "trust": 1, "value": -1 },
+        "topic": "TALK_JASON_ALBRIGHT_ASK_ABOUT_WATCH"
+      },	  
+      {
         "text": "What is this place?",
         "effect": { "u_add_var": "u_Talk_To_JasonAlbirght_about_Lair", "type": "general", "context": "meeting", "value": "yes" },
         "condition": {
