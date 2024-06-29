@@ -17,7 +17,7 @@
     "default": "dkz_mon_crystal_sprout",
     "monsters": [
 	  { "monster": "dkz_mon_crystal_shriek", "freq": 60, "cost_multiplier": 0 },
-      { "monster": "dkz_mon_crystal_zap", "freq": 25, "cost_multiplier": 0 },
+      { "monster": "dkz_mon_crystal_sprout", "freq": 25, "cost_multiplier": 0 },
       { "monster": "dkz_mon_crystal_wall", "freq": 13, "cost_multiplier": 0 },	
       { "monster": "dkz_mon_crystal_hive", "freq": 2, "cost_multiplier": 0 }	
     ]

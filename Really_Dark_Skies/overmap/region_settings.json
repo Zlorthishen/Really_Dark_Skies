@@ -3,8 +3,9 @@
     "type": "region_overlay",
     "regions": [ "all" ],
     "map_extras": {
-      "forest_thick": { "chance": 10, "extras": { "mx_biocystal_growth": 75 } },
-      "forest": { "chance": 10, "extras": { "mx_biocystal_growth": 50 } }
+      "field": { "chance": 100, "extras": { "mx_biocystal_growth": 5 } },
+      "forest_thick": { "chance": 100, "extras": { "mx_biocystal_growth": 5 } },
+      "forest": { "chance": 100, "extras": { "mx_biocystal_growth": 2 } }
     },	
     "city": { "shops": { "dkz_garage_gas_mech": 10,"dkz_abstorefront": 10, "arcology_racing": 5 } }
   }
