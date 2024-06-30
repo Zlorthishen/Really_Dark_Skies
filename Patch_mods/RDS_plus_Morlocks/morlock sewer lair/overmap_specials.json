@@ -239,7 +239,7 @@
       { "point": [ 5, 6, -2 ], "overmap": "morlock_lair_mid_b_north" },
       { "point": [ 6, 6, -2 ], "overmap": "morlock_lair_edge_a_east" },
       { "point": [ 0, 7, -2 ], "overmap": "morlock_lair_edge_b_west" },
-      { "point": [ 1, 7, -2 ], "overmap": "morlock_lair_mid_i_north" },
+      { "point": [ 1, 7, -2 ], "overmap": "morlock_lair_mid_i_east" },
       { "point": [ 2, 7, -2 ], "overmap": "morlock_lair_mid_d_north" },
       { "point": [ 3, 7, -2 ], "overmap": "morlock_lair_mid_c_north" },
       { "point": [ 4, 7, -2 ], "overmap": "morlock_lair_mid_d_north" },

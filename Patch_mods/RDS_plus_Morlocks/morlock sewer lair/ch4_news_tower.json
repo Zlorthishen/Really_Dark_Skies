@@ -1,6 +1,6 @@
 [
   {
-    "//": "--| CHANNEL FOUR NEWS BUILDING |------------------------------------------------------------------------",
+    "//": "--| CHANNEL FOUR NEWS BUILDING - BASEMENT PARKING |-----------------------------------------------------",
     "type": "mapgen",
     "om_terrain": [ [ "ch4_news_tower_1", "ch4_news_tower_2" ], [ "ch4_news_tower_3", "ch4_news_tower_4" ] ],
     "method": "json",
@@ -18,10 +18,10 @@
         "z''#,_____,_____,_____,'',_____,_____,_____,#'z~",
         "z''#,_____,_____,_____,'',_____,_____,_____,#'z~",
         "z''#________________________________________#'z~",
-        "z''#________________________________________#'zz",
-        "zZ'#________________________________________#'Z'",
-        "'''#________________________________________#'''",
-        "Zz'#________________________________________#'zz",
+        "z''#_____─__________________________________#'zz",
+        "zZ'#___─___─_________________________┬______#'Z'",
+        "'''#_____─__________________________________#'''",
+        "Zz'#___________________________________┬____#'zz",
         "zz'#________________________________________#'Z~",
         "~z'#___,,___,____,____,'',____,____,___,,___#'z~",
         "~z'#__,,,,__,____,____,'',____,____,___,,___#'z~",
@@ -37,9 +37,9 @@
         "~~~#___,,___##!######HHGGHH######!##___,,___#'z~",
         "~~~#________________________________________#'z~",
         "~~~#________________________________________#'zz",
+        "~~~#_____________________┬__________________#'z~",
         "~~~#________________________________________#'z~",
-        "~~~#________________________________________#'z~",
-        "~~~#____,,______,,__________________________#'z~",
+        "~~~#____,,______,,___________┬______________#'z~",
         "~~~#___,,,,_____,,__________________________#'z~",
         "~~~#____,,_____,,,,_________________________#'zz",
         "~~~##☼††‡‡††____,,__☼#89#___________________#'z~",
@@ -67,17 +67,16 @@
       "furniture": { "†": "f_barricade_road", "‡": "f_barricade_road" },
       "terrain": {
         "Ź": "t_metal_ventilation_shutter",
+        "─": "t_pavement",
+        "┬": "t_pavement",
         "†": "t_pavement",
         "‡": "t_pavement_y",
         "°": "t_pit_shallow",
         "z": "t_sewage_pipe",
         "Z": "t_sewage_pump"
       },
-      "place_monsters": [
-        { "monster": "GROUP_XENOID_SQUAD", "x": [ 9, 17 ], "y": [ 9, 17 ], "density": 0.11 },
-        { "monster": "GROUP_XENOID_MINI_DRONES", "x": [ 33, 41 ], "y": [ 9, 17 ], "density": 0.13 },
-        { "monster": "GROUP_XENOID_MINI_DRONES", "x": [ 33, 41 ], "y": [ 33, 41 ], "density": 0.07 }
-      ],
+      "mapping": { "─": { "monster": [ { "monster": "dkz_xenoid_enforcer", "chance": 100 } ] },
+	  "┬": { "monster": [ { "monster": "dkz_xenoid_ranger", "chance": 100 } ] } },
       "place_vehicles": [
         { "vehicle": "car_sports", "x": 8, "y": 6, "rotation": 90, "chance": 100, "fuel": 10, "status": 0 },
         { "vehicle": "car", "x": 14, "y": 6, "rotation": 90, "chance": 100, "fuel": 10, "status": 0 },
@@ -111,6 +110,7 @@
     }
   },
   {
+    "//": "--| CHANNEL FOUR PARKING ANNEX |------------------------------------------------------------------------",	  
     "type": "mapgen",
     "method": "json",
     "om_terrain": [ [ "ch4_news_garage_down_0", "ch4_news_garage_down_1" ] ],
@@ -161,6 +161,8 @@
     }
   },
   {
+
+    "//": "--| CHANNEL FOUR NEWS BUILDING - GROUND FLOOR |---------------------------------------------------------",	  
     "type": "mapgen",
     "om_terrain": [ [ "ch4_news_tower_5", "ch4_news_tower_6" ], [ "ch4_news_tower_7", "ch4_news_tower_8" ] ],
     "method": "json",
@@ -333,6 +335,7 @@
     }
   },
   {
+    "//": "--| CHANNEL FOUR NEWS BUILDING - UPPER FLOORS |---------------------------------------------------------",	 	  
     "type": "mapgen",
     "om_terrain": [ [ "ch4_news_tower_9", "ch4_news_tower_10" ], [ "ch4_news_tower_11", "ch4_news_tower_12" ] ],
     "method": "json",
@@ -631,14 +634,14 @@
       "terrain": { "¦": "t_wall_metal", "§": "t_card_military", "·": "t_floor" },
       "item": { "·": { "item": "id_military", "chance": 100 } },
       "place_nested": [
-        { "chunks": [ [ "dx4_cr1_l", 20 ], [ "dx4_cr2_l", 20 ], [ "dx4_cr3_l", 20 ] ], "x": [ 20, 20 ], "y": [ 12, 12 ] },
+        { "chunks": [ [ "dx4_cr1_l", 30 ], [ "dx4_cr2_l", 30 ], [ "dx4_cr3_l", 30 ] ], "x": [ 20, 20 ], "y": [ 12, 12 ] },
         {
-          "chunks": [ [ "dx4_cr1_r", 20 ], [ "dx4_cr2_r", 20 ], [ "dx4_cr3_r", 20 ] ],
+          "chunks": [ [ "dx4_cr1_r", 30 ], [ "dx4_cr2_r", 30 ], [ "dx4_cr3_r", 30 ] ],
           "x": [ 24, 24 ],
           "y": [ 12, 12 ]
         },
         {
-          "chunks": [ [ "d_office_glass_al", 20 ], [ "d_office_private_al", 20 ], [ "d_office_al", 20 ], [ "d_office_slide_al", 20 ] ],
+          "chunks": [ [ "d_office_private_al", 90 ], [ "d_office_al", 10 ]],
           "x": [ 2, 2 ],
           "y": [ 1, 1 ]
         },
@@ -648,12 +651,12 @@
           "y": [ 14, 14 ]
         },
         {
-          "chunks": [ [ "d_office_glass_ar", 20 ], [ "d_office_private_ar", 20 ], [ "d_office_ar", 20 ], [ "d_office_slide_ar", 20 ] ],
+          "chunks": [  [ "d_office_private_ar", 90 ], [ "d_office_ar", 10 ] ],
           "x": [ 30, 30 ],
           "y": [ 1, 1 ]
         },
         {
-          "chunks": [ [ "dx5_register_or", 20 ], [ "dx5_office_or", 20 ], [ "dx5_sofas_or", 20 ] ],
+          "chunks": [ [ "dx5_register_or", 20 ], [ "dx5_office_or", 20 ], [ "dx5_sofas_or", 60 ] ],
           "x": [ 39, 39 ],
           "y": [ 14, 14 ]
         },
