@@ -332,7 +332,17 @@
   },
   {
     "type": "overmap_terrain",
-    "id": "morlock_lair_corner_c",
+    "id": "morlock_lair_corner_c1",
+    "name": "Unfriendly Squatters Zone",
+    "sym": "M",
+    "mondensity": 0,
+    "color": "i_light_green",
+    "see_cost": 0,
+    "flags": [ "SOURCE_PEOPLE" ]
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "morlock_lair_corner_c2",
     "name": "Unfriendly Squatters Zone",
     "sym": "M",
     "mondensity": 0,
