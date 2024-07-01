@@ -116,8 +116,8 @@
       "items": {
         "y": { "item": "DKZ_morlock_weapons", "chance": 40 },
         "Y": { "item": "DKZ_morlock_weapons", "chance": 5 },
-        "ŀ": { "item": "DKZ_guns_caseless_rifles", "chance": 60, "repeat": 4 },
-        "ľ": { "item": "DKZ_guns_caseless_pistols", "chance": 60, "repeat": 4 },
+        "ŀ": { "item": "DKZ_guns_caseless_rifles", "chance": 90, "repeat": 3 },
+        "ľ": { "item": "DKZ_guns_caseless_pistols", "chance": 90, "repeat": 3 },
         "ḃ": { "item": "DKZ_morlock_martial_books", "chance": 90, "repeat": 2 },
         "ḇ": { "item": "DKZ_morlock_kungfu_books", "chance": 90, "repeat": 2 }
       },

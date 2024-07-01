@@ -75,22 +75,16 @@
         "z": "t_sewage_pipe",
         "Z": "t_sewage_pump"
       },
-      "mapping": { "─": { "monster": [ { "monster": "dkz_xenoid_enforcer", "chance": 100 } ] },
-	  "┬": { "monster": [ { "monster": "dkz_xenoid_ranger", "chance": 100 } ] } },
+      "mapping": {
+        "─": { "monster": [ { "monster": "dkz_xenoid_enforcer", "chance": 100 } ] },
+        "┬": { "monster": [ { "monster": "dkz_xenoid_ranger", "chance": 100 } ] }
+      },
       "place_vehicles": [
         { "vehicle": "car_sports", "x": 8, "y": 6, "rotation": 90, "chance": 100, "fuel": 10, "status": 0 },
         { "vehicle": "car", "x": 14, "y": 6, "rotation": 90, "chance": 100, "fuel": 10, "status": 0 },
         { "vehicle": "beetle", "x": 15, "y": 18, "rotation": 90, "chance": 100, "fuel": 10, "status": 0 },
         { "vehicle": "car", "x": 20, "y": 18, "rotation": 90, "chance": 100, "fuel": 10, "status": 0 },
-        {
-          "vehicle": "motorcycle_sidecart",
-          "x": 28,
-          "y": 18,
-          "rotation": 90,
-          "chance": 100,
-          "fuel": 100,
-          "status": 0
-        },
+        { "vehicle": "motorcycle_upgraded", "x": 28, "y": 18, "rotation": 90, "chance": 100, "fuel": 100, "status": 0 },
         { "vehicle": "car", "x": 33, "y": 18, "rotation": 90, "chance": 100, "fuel": 10, "status": 0 },
         { "vehicle": "car", "x": 35, "y": 7, "rotation": 90, "chance": 100, "fuel": 100, "status": 0 },
         { "vehicle": "beetle", "x": 41, "y": 5, "rotation": 90, "chance": 100, "fuel": 10, "status": 0 },
@@ -110,7 +104,7 @@
     }
   },
   {
-    "//": "--| CHANNEL FOUR PARKING ANNEX |------------------------------------------------------------------------",	  
+    "//": "--| CHANNEL FOUR PARKING ANNEX |------------------------------------------------------------------------",
     "type": "mapgen",
     "method": "json",
     "om_terrain": [ [ "ch4_news_garage_down_0", "ch4_news_garage_down_1" ] ],
@@ -161,8 +155,7 @@
     }
   },
   {
-
-    "//": "--| CHANNEL FOUR NEWS BUILDING - GROUND FLOOR |---------------------------------------------------------",	  
+    "//": "--| CHANNEL FOUR NEWS BUILDING - GROUND FLOOR |---------------------------------------------------------",
     "type": "mapgen",
     "om_terrain": [ [ "ch4_news_tower_5", "ch4_news_tower_6" ], [ "ch4_news_tower_7", "ch4_news_tower_8" ] ],
     "method": "json",
@@ -322,7 +315,7 @@
           "y": [ 14, 14 ]
         },
         {
-          "chunks": [[ "dx8_meeting_al", 34 ], [ "dx8_office_al", 34 ], [ "dx8_eating_al", 34 ] ],
+          "chunks": [ [ "dx8_meeting_al", 34 ], [ "dx8_office_al", 34 ], [ "dx8_eating_al", 34 ] ],
           "x": [ 16, 16 ],
           "y": [ 4, 4 ]
         },
@@ -335,7 +328,7 @@
     }
   },
   {
-    "//": "--| CHANNEL FOUR NEWS BUILDING - UPPER FLOORS |---------------------------------------------------------",	 	  
+    "//": "--| CHANNEL FOUR NEWS BUILDING - UPPER FLOORS |---------------------------------------------------------",
     "type": "mapgen",
     "om_terrain": [ [ "ch4_news_tower_9", "ch4_news_tower_10" ], [ "ch4_news_tower_11", "ch4_news_tower_12" ] ],
     "method": "json",
@@ -411,7 +404,13 @@
           "y": [ 24, 24 ]
         },
         {
-          "chunks": [ [ "d_office_slide_dl", 20 ], [ "d_glass_dl", 20 ], [ "d_private_dl", 20 ], [ "d_crowded_dl", 20 ], [ "d_generic_dl", 20 ] ],
+          "chunks": [
+            [ "d_office_slide_dl", 20 ],
+            [ "d_glass_dl", 20 ],
+            [ "d_private_dl", 20 ],
+            [ "d_crowded_dl", 20 ],
+            [ "d_generic_dl", 20 ]
+          ],
           "x": [ 2, 2 ],
           "y": [ 31, 31 ]
         },
@@ -640,21 +639,13 @@
           "x": [ 24, 24 ],
           "y": [ 12, 12 ]
         },
-        {
-          "chunks": [ [ "d_office_private_al", 90 ], [ "d_office_al", 10 ]],
-          "x": [ 2, 2 ],
-          "y": [ 1, 1 ]
-        },
+        { "chunks": [ [ "d_office_private_al", 90 ], [ "d_office_al", 10 ] ], "x": [ 2, 2 ], "y": [ 1, 1 ] },
         {
           "chunks": [ [ "dx5_register_ol", 20 ], [ "dx5_office1_ol", 10 ], [ "dx5_office2_ol", 10 ], [ "dx5_sofas_ol", 20 ] ],
           "x": [ 4, 4 ],
           "y": [ 14, 14 ]
         },
-        {
-          "chunks": [  [ "d_office_private_ar", 90 ], [ "d_office_ar", 10 ] ],
-          "x": [ 30, 30 ],
-          "y": [ 1, 1 ]
-        },
+        { "chunks": [ [ "d_office_private_ar", 90 ], [ "d_office_ar", 10 ] ], "x": [ 30, 30 ], "y": [ 1, 1 ] },
         {
           "chunks": [ [ "dx5_register_or", 20 ], [ "dx5_office_or", 20 ], [ "dx5_sofas_or", 60 ] ],
           "x": [ 39, 39 ],

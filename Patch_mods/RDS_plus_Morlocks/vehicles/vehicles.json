@@ -1,5 +1,21 @@
 [
   {
+    "id": "motorcycle_upgraded",
+    "type": "vehicle",
+    "name": "Motorcycle",
+    "blueprint": [ "o#>o" ],
+    "parts": [
+      { "x": 0, "y": 0, "parts": [ "frame_vertical_2", "saddle_motor", "motorcycle_kickstand" ] },
+      { "x": 1, "y": 0, "parts": [ "frame_handle", { "part": "tank", "fuel": "gasoline" } ] },
+      { "x": -1, "y": 0, "parts": [ "frame_vertical", "wheel_mount_light", "wheel_motorbike_rear" ] },
+      { "x": 2, "y": 0, "parts": [ "frame_vertical", "wheel_mount_light_steerable", "wheel_motorbike" ] },
+      { "x": 0, "y": 0, "parts": [ "controls", "controls_electronic", "vehicle_alarm" ] },
+      { "x": 0, "y": 0, "parts": [ "horn_car", "engine_inline4", "alternator_car" ] },
+      { "x": 1, "y": 0, "parts": [ "headlight", "battery_car" ] },
+      { "x": -1, "y": 0, "parts": [ "muffler", "box" ] }
+    ]
+  },
+  {
     "id": "NewsHelio1",
     "type": "vehicle",
     "name": "Channel Four News Helicopter",
@@ -81,7 +97,7 @@
       { "x": -2, "y": 2, "part": "seat" },
       { "x": -2, "y": 0, "part": "seat" },
       { "x": -2, "y": 0, "part": "seatbelt" },
-      { "x": -2, "y": 2, "part": "seatbelt" },	 
+      { "x": -2, "y": 2, "part": "seatbelt" },
       { "x": -3, "y": 1, "part": "aisle_vertical" },
       { "x": -4, "y": 0, "part": "door_sliding" },
       { "x": -4, "y": 1, "part": "door_sliding" },
@@ -201,11 +217,11 @@
       { "x": 2, "y": 2, "part": "halfboard_ne" },
       { "x": 1, "y": 3, "part": "halfboard_ne" },
       { "x": 1, "y": -1, "part": "halfboard_nw" },
-      { "x": 0, "y": 1, "part": "aisle_vertical" }, 
+      { "x": 0, "y": 1, "part": "aisle_vertical" },
       { "x": -2, "y": 2, "part": "seat" },
       { "x": -2, "y": 0, "part": "seat" },
       { "x": -2, "y": 0, "part": "seatbelt" },
-      { "x": -2, "y": 2, "part": "seatbelt" },	 
+      { "x": -2, "y": 2, "part": "seatbelt" },
       { "x": -3, "y": 1, "part": "aisle_vertical" },
       { "x": -3, "y": -1, "part": "board_sw" },
       { "x": -3, "y": 3, "part": "board_se" },
@@ -255,9 +271,6 @@
   {
     "type": "vehicle_group",
     "id": "channel_four_helicopters",
-    "vehicles": [
-      [ "NewsHelio1", 200 ],
-      [ "NewsHelio2", 200 ]
-    ]
+    "vehicles": [ [ "NewsHelio1", 200 ], [ "NewsHelio2", 200 ] ]
   }
 ]
