@@ -76,8 +76,8 @@
         "Z": "t_sewage_pump"
       },
       "mapping": {
-        "─": { "monster": [ { "monster": "dkz_xenoid_enforcer", "chance": 100 } ] },
-        "┬": { "monster": [ { "monster": "dkz_xenoid_ranger", "chance": 100 } ] }
+        "─": { "monster": [ { "monster": "dkz_xenoid_enforcer", "chance": 50 } ] },
+        "┬": { "monster": [ { "monster": "dkz_xenoid_ranger", "chance": 50 } ] }
       },
       "place_vehicles": [
         { "vehicle": "car_sports", "x": 8, "y": 6, "rotation": 90, "chance": 100, "fuel": 10, "status": 0 },
