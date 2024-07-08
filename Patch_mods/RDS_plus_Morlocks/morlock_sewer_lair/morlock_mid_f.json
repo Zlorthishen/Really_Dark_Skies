@@ -205,7 +205,7 @@
         "7": "t_rock_floor",
         "8": "t_rock_floor"
       },
-      "furniture": { "Ť": "f_table", "y": "f_woodstove", "Y": "f_kiln_empty", "7": "f_armchair", "8": "f_armchair" },
+      "furniture": { "Ť": "f_table", "Ṯ": "f_table", "y": "f_woodstove", "Y": "f_kiln_empty", "7": "f_armchair", "8": "f_armchair" },
       "item": {
 		"Ṯ": { "item": "atomic_lamp", "chance": 100 },
         "y": { "item": "pizza_meat", "chance": 3 },
