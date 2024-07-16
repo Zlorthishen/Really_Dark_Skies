@@ -84,5 +84,12 @@
     "type": "item_group",
     "subtype": "collection",
     "items": [ { "item": "camera" } ]
+  },
+  
+  {
+    "type": "effect_type",
+    "id": "time_since_June_rescued",
+    "name": [ "June Rescued" ],
+    "desc": [ "AI tag for June O'Fanny to measure the time since the rescue mission was completed." ]
   }
 ]

@@ -91,7 +91,7 @@
             { "u_has_var": "u_saved_June_OFanny", "type": "general", "context": "maquis", "value": "yes" }
           ]
         },
-        "effect": [ { "npc_first_topic": "TALK_MORLOCK_JUNE_OFANNY_RESCUED" } ],
+        "effect": [ { "npc_first_topic": "TALK_MORLOCK_JUNE_OFANNY_RESCUED" }, { "u_add_effect": "time_since_June_rescued", "duration": "7 days"} ],
         "opinion": { "trust": 5, "value": 4 },
         "topic": "TALK_MORLOCK_JUNE_OFANNY_ESCORT_DONE"
       }
@@ -101,8 +101,8 @@
     "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MORLOCK_JUNE_OFANNY_RESCUED",
     "type": "talk_topic",
-    "dynamic_line": [ "Thanks for the rescue.  Be sure to expand this story line at some point!" ],
-    "responses": [ { "text": "I'll expect a ping on discord.", "topic": "TALK_DONE" } ]
+    "dynamic_line": [ "Thanks for the rescue.  Don't go too far away though, I might need an escort to another location soon.  It will be a much farther away so you might want to look for a fast way to get there.  The Channel Four News helicopter is still on the roof of the building, but its out of fuel." ],
+    "responses": [ { "text": "I'll check it out.", "topic": "TALK_DONE" } ]
   },
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
@@ -131,7 +131,6 @@
         "opinion": { "trust": 2, "value": 5 },
         "effect": [
           { "npc_first_topic": "TALK_MORLOCK_JUNE_OFANNY_ESCORTING_BACK" },
-          "follow_only",
           { "add_mission": "DKZ_MORLOCK_RETURN_TO_SEWER_CENTRAL" },
           { "npc_add_var": "temporal_follower", "type": "general", "context": "maquis", "value": "yes" }
         ],
@@ -143,7 +142,7 @@
     "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_MORLOCK_JUNE_OFANNY_ESCORT_DONE",
     "type": "talk_topic",
-    "dynamic_line": [ "I never thought I would be glad to be living in the sewers!" ],
+    "dynamic_line": [ "I never thought I would be glad to be in the sewers!  I have to figure out a way to another safehouse." ],
     "responses": [
       {
         "text": "You said it.",
