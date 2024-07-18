@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "realdarkskies_More_StrayS_patchmod",
+    "name": "<color_light_blue>Really Dark Skies</color> plus more Biocrystal Zombies",
+    "authors": [ "Zlorthishen" ],
+    "description": "A patchmod for <color_light_blue>Really Dark Skies</color> that adds more monsters spawns for the biocrystal \"Stray\" zombies",
+    "category": "misc_additions",
+    "version": "BN version 011b3e3, update 07/17/2024",
+    "dependencies": [ "bn", "realdarkskies"]
+  }
+]
