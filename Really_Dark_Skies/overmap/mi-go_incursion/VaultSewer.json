@@ -1,38 +1,5 @@
 [
   {
-    "name": "GROUP_VAULT_SEWERS",
-    "type": "monstergroup",
-    "default": "mon_centipede_giant",
-    "monsters": [
-      { "monster": "mon_chud", "freq": 50, "cost_multiplier": 1 },
-      { "monster": "mon_one_eye", "freq": 25, "cost_multiplier": 1 }
-    ]
-  },
-  {
-    "name": "GROUP_VAULT_SWIMMING",
-    "type": "monstergroup",
-    "default": "mon_sewer_fish",
-    "monsters": [ { "monster": "mon_sewer_snake", "freq": 250, "cost_multiplier": 1 } ]
-  },
-  {
-    "id": "vault_survival",
-    "type": "item_group",
-    "magazine": 100,
-    "ammo": 90,
-    "items": [
-      { "group": "guns_rare_readied", "prob": 35 },
-      { "group": "hazmat_mask", "prob": 20 },
-      { "group": "ammo_pocket_batteries_full", "prob": 15 },
-      { "item": "radio", "prob": 10 },
-      { "group": "drugs_heal_simple", "prob": 10 },
-      { "item": "knife_combat", "prob": 20 },
-      { "group": "mil_armor", "prob": 15 },
-      { "group": "hazmat_torso", "prob": 20 },
-      { "group": "rad_gear", "prob": 20 },
-      { "group": "hardware_clothing", "prob": 15 }
-    ]
-  },
-  {
     "method": "json",
     "om_terrain": [ [ "vault_sewer_1", "vault_sewer_2", "vault_sewer_3" ], [ "vault_sewer_10", "vault_sewer_11", "vault_sewer_12" ] ],
     "type": "mapgen",
