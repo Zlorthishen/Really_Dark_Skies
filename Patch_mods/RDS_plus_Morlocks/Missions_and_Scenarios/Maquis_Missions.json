@@ -76,7 +76,7 @@
         "om_special": "arcology_racing",
         "search_range": 888,
         "random": true,
-        "min_distance": 77
+        "min_distance": 22
       },
       "update_mapgen": { "place_npcs": [ { "class": "DKZ_CHAD_ERIKSON", "x": 5, "y": 5, "target": true } ] },
       "effect": [
@@ -116,7 +116,7 @@
         "om_special": "sky_marshal_farm",
         "search_range": 888,
         "random": true,
-        "min_distance": 77
+        "min_distance": 22
       }
     },
     "origins": [ "ORIGIN_SECONDARY" ],
