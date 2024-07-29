@@ -98,7 +98,7 @@
     "id": "THRESH_XENOID",
     "name": { "str": "Xeno-Sapien" },
     "points": 666,
-    "description": "You reject your humanity and replace it with gifts from your Xenoid Masters.",
+    "description": "You have altered your humanity and augmented it with \"gifts\" from the Xenoids.",
     "valid": false,
     "profession": false,
     "purifiable": false,
