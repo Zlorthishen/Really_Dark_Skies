@@ -1,6 +1,6 @@
 [
   {
-    "//": "--| THE INSECT HIVE |-----------------------------------------------------------------------------------",	  
+    "//": "--| THE INSECT HIVE |-----------------------------------------------------------------------------------",
     "type": "mapgen",
     "om_terrain": [ "morlock_lair_mid_j" ],
     "method": "json",
@@ -35,7 +35,17 @@
       ],
       "palettes": [ "morlock_lair" ],
       "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],
-      "place_nested": [ { "chunks": [ "morlock_lair_mid_core_j" ], "x": 0, "y": 0 } ]
+      "place_nested": [
+        { "chunks": [ "morlock_lair_mid_core_j" ], "x": 0, "y": 0 },
+        { "chunks": [ "morlock_lair_mid_core_j_extra" ], "x": 0, "y": 0 },
+        { "chunks": [ "morlock_lair_mid_core_j_extra" ], "x": 0, "y": 8 },
+        { "chunks": [ "morlock_lair_mid_core_j_extra" ], "x": 0, "y": 16 },
+        { "chunks": [ "morlock_lair_mid_core_j_extra" ], "x": 8, "y": 0 },
+        { "chunks": [ "morlock_lair_mid_core_j_extra" ], "x": 8, "y": 16 },
+        { "chunks": [ "morlock_lair_mid_core_j_extra" ], "x": 16, "y": 0 },
+        { "chunks": [ "morlock_lair_mid_core_j_extra" ], "x": 16, "y": 8 },
+        { "chunks": [ "morlock_lair_mid_core_j_extra" ], "x": 16, "y": 16 }
+      ]
     }
   },
   {
@@ -73,7 +83,17 @@
       ],
       "palettes": [ "morlock_lair" ],
       "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],
-      "place_nested": [ { "chunks": [ "morlock_lair_mid_core_j" ], "x": 0, "y": 0 } ]
+      "place_nested": [
+        { "chunks": [ "morlock_lair_mid_core_j" ], "x": 0, "y": 0 },
+        { "chunks": [ "morlock_lair_mid_core_j_extra" ], "x": 0, "y": 0 },
+        { "chunks": [ "morlock_lair_mid_core_j_extra" ], "x": 0, "y": 8 },
+        { "chunks": [ "morlock_lair_mid_core_j_extra" ], "x": 0, "y": 16 },
+        { "chunks": [ "morlock_lair_mid_core_j_extra" ], "x": 8, "y": 0 },
+        { "chunks": [ "morlock_lair_mid_core_j_extra" ], "x": 8, "y": 16 },
+        { "chunks": [ "morlock_lair_mid_core_j_extra" ], "x": 16, "y": 0 },
+        { "chunks": [ "morlock_lair_mid_core_j_extra" ], "x": 16, "y": 8 },
+        { "chunks": [ "morlock_lair_mid_core_j_extra" ], "x": 16, "y": 16 }
+      ]
     }
   },
   {
@@ -89,7 +109,7 @@
         "                        ",
         "                        ",
         "                        ",
-        "       °°°°°°°°°°°      ",
+        "     °°°°°°°°°°°°°°     ",
         "     °,°^°Ø°ØØØØ°°°     ",
         "     °°°°°Ø°°°°Ø°°°     ",
         "     °ØØ°ØØØØ°°ØØØ°     ",
@@ -102,7 +122,7 @@
         "     °ØØØØØ°.°bØ°Ø°     ",
         "     °°°°°Ø°°.bØ°°°     ",
         "     °°°Ø°°°°°ØØ°°°     ",
-        "      °°ØØØØØØØ°°°      ",
+        "     °°°ØØØØØØØ°°°°     ",
         "                        ",
         "                        ",
         "                        ",
@@ -110,7 +130,112 @@
         "                        "
       ],
       "palettes": [ "morlock_lair" ],
-      "terrain": { "Ø": "t_hpaper", "°": "t_floor_hpaper", "4": "t_floor_hpaper", "5": "t_floor_hpaper" }
+      "terrain": {  " ": "t_null", "Ø": "t_hpaper", "°": "t_floor_hpaper", "4": "t_floor_hpaper", "5": "t_floor_hpaper" }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "morlock_lair_mid_core_j_extra",
+    "weight": 50,
+    "object": {
+      "mapgensize": [ 8, 8 ],
+      "rows": [
+        "        ",
+        " ØØØ°°° ",
+        " Ø°°°Ø  ",
+        " °°°°°° ",
+        " °°°°°° ",
+        "  °°°°Ø ",
+        " ØØ°°ØØ ",
+        "        "
+      ],
+      "palettes": [ "morlock_lair" ],
+      "terrain": { " ": "t_null", "Ø": "t_hpaper", "°": "t_floor_hpaper" }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "morlock_lair_mid_core_j_extra",
+    "weight": 50,
+    "object": {
+      "mapgensize": [ 8, 8 ],
+      "rows": [
+        "        ",
+        " ØØ°    ",
+        " Ø°°°°Ø ",
+        " °°°°°° ",
+        " °°^°   ",
+        " Ø°°°°Ø ",
+        " ØØ°°ØØ ",
+        "        "
+      ],
+      "palettes": [ "morlock_lair" ],
+      "terrain": { " ": "t_null", "Ø": "t_hpaper", "°": "t_floor_hpaper" }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "morlock_lair_mid_core_j_extra",
+    "weight": 50,
+    "object": {
+      "mapgensize": [ 8, 8 ],
+      "rows": [
+        "        ",
+        " ØØ°°°  ",
+        " Ø°°°°  ",
+        " °°°°°° ",
+        " °°   ° ",
+        " Ø°°°°Ø ",
+        " ØØ°°Ø  ",
+        "        "
+      ],
+      "palettes": [ "morlock_lair" ],
+      "terrain": { " ": "t_null", "Ø": "t_hpaper", "°": "t_floor_hpaper" }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "morlock_lair_mid_core_j_extra",
+    "weight": 50,
+    "object": {
+      "mapgensize": [ 8, 8 ],
+      "rows": [
+        "        ",
+        "  Ø°°   ",
+        "  Ø°°°  ",
+        " °°°°°° ",
+        " °°   ° ",
+        " Ø°°°°Ø ",
+        " ØØ°°Ø  ",
+        "        "
+      ],
+      "palettes": [ "morlock_lair" ],
+      "terrain": { " ": "t_null", "Ø": "t_hpaper", "°": "t_floor_hpaper" }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "nested_mapgen_id": "morlock_lair_mid_core_j_extra",
+    "weight": 50,
+    "object": {
+      "mapgensize": [ 8, 8 ],
+      "rows": [
+        "        ",
+        " ØØ°°°° ",
+        " Ø°°°°Ø ",
+        " °°°°°° ",
+        " °°   ° ",
+        " Ø°°    ",
+        " ØØ°°   ",
+        "        "
+      ],
+      "palettes": [ "morlock_lair" ],
+      "terrain": { " ": "t_null", "Ø": "t_hpaper", "°": "t_floor_hpaper" }
     }
   }
 ]

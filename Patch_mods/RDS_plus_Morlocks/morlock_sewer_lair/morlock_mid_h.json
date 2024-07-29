@@ -107,7 +107,7 @@
         "      ▓.cṮT...c.▓       ",
         "      ▓.cTT..TTc▓       ",
         "      ▓..c...ṮTc▓       ",
-        "      ▓......c..▓       ",
+        "      ▓......0..▓       ",
         "      ▓a.´´´´´..▓       ",
         "      ▓Ta´´´´´.t▓       ",
         "      ▓▓▓▓+▓+▓▓▓▓       ",
@@ -121,7 +121,7 @@
       ],
       "palettes": [ "morlock_lair" ],
       "terrain": { "´": "t_carpet_red" },
-      "furniture": { "Ṯ": "f_table", "Ň": "f_fridge_on", "7": "f_stool", "1": "f_chair" },
+      "furniture": { "Ṯ": "f_table", "Ň": "f_fridge_on", "7": "f_stool", "0": "f_stool", "1": "f_chair" },
       "items": { "T": { "item": "dinnerware", "chance": 25, "repeat": [ 2, 3 ] } },
       "item": {
         "Ṯ": { "item": "atomic_lamp", "chance": 100 },

@@ -1,0 +1,85 @@
+[
+  {
+    "type": "npc",
+    "id": "DKZ_MORLOCK_ALPHA_CHEF",
+    "class": "NC_MORLOCK_ALPHA_CHEF",
+    "attitude": 0,
+    "mission": 7,
+    "chat": "TALK_MORLOCK_ALPHA_CHEF_ROOT",
+    "gender": "male",
+    "faction": "maquis"
+  },
+  {
+    "type": "npc_class",
+    "id": "NC_MORLOCK_ALPHA_CHEF",
+    "name": { "str": "Morlock Sushi Chef" },
+    "job_description": "I'm to keep the make sushi!",
+    "common": false,
+    "traits": [
+      { "group": "DKZ_starting_traits" },
+      { "group": "Appearance_demographics" },
+      { "trait": "WAKEFUL", "prob": 50 },
+      { "trait": "GOODHEARING", "prob": 25 },
+      { "trait": "ROBUST", "prob": 70 },
+      { "trait": "DEX_ALPHA", "prob": 30 },
+      { "trait": "STR_ALPHA", "prob": 90 }
+    ],
+    "skills": [
+      { "skill": "ALL", "level": { "sum": [ { "dice": [ 3, 2 ] }, { "constant": -4 } ] } },
+      { "skill": "cooking", "bonus": { "rng": [ 8, 9 ] } },
+      { "skill": "survival", "bonus": { "rng": [ 1, 2 ] } },
+      { "skill": "firstaid", "bonus": { "rng": [ 1, 2 ] } },
+      { "skill": "dodge", "bonus": { "rng": [ 2, 3 ] } },
+      { "skill": "melee", "bonus": { "rng": [ 5, 7 ] } },
+      { "skill": "unarmed", "bonus": { "rng": [ 1, 2 ] } },
+      { "skill": "bashing", "bonus": { "rng": [ 2, 3 ] } },
+      { "skill": "stabbing", "bonus": { "rng": [ 3, 5 ] } },
+      { "skill": "cutting", "bonus": { "rng": [ 3, 5 ] } },
+      { "skill": "gun", "bonus": { "rng": [ 1, 2 ] } },
+      { "skill": "shotgun", "bonus": { "rng": [ 1, 1 ] } },
+      { "skill": "pistol", "bonus": { "rng": [ 1, 2 ] } },
+      { "skill": "rifle", "bonus": { "rng": [ 1, 2 ] } }
+    ],
+    "worn_override": "NC_MORLOCK_ALPHA_CHEF_worn",
+    "weapon_override": "NC_MORLOCK_ALPHA_CHEF_weapon",
+    "carry_override": "NC_MORLOCK_ALPHA_CHEF_carry",
+    "bonus_str": { "rng": [ 0, 1 ] },
+    "bonus_dex": { "rng": [ 4, 5 ] },
+    "bonus_int": { "rng": [ 0, 1 ] },
+    "bonus_per": { "rng": [ 2, 3 ] }
+  },
+  {
+    "//": "----------INVENTORY LOADOUTS-----------------------------------------------------------------------------------",
+    "id": "NC_MORLOCK_ALPHA_CHEF_worn",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "distribution": [ { "item": "boxer_shorts", "prob": 100 } ] },
+      { "distribution": [ { "item": "socks", "prob": 100 } ] },
+      { "distribution": [ { "item": "jeans", "prob": 100 } ] },
+      { "distribution": [ { "item": "tshirt", "prob": 80 } ] },
+      { "distribution": [ { "item": "jacket_chef", "prob": 100 } ] },
+      { "distribution": [ { "item": "helmet_army", "prob": 100 } ] },
+      { "distribution": [ { "item": "boots_combat", "prob": 100} ]  },
+      { "distribution": [ { "item": "keffiyeh", "prob": 100 } ]  },
+      { "distribution": [ { "item": "backpack", "prob": 100 } ]  },
+      { "item": "fancy_sunglasses", "prob": 100 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "NC_MORLOCK_ALPHA_CHEF_weapon",
+    "subtype": "distribution",
+    "entries": [
+      {
+        "distribution": [ { "item": "knife_chef", "prob": 50 }, { "item": "knife_butcher", "prob": 50} ]
+      }
+    ]
+  },
+  {
+    "id": "NC_MORLOCK_ALPHA_CHEF_carry",
+    "type": "item_group",
+    "subtype": "collection",
+    "items": [ { "item": "baton", "prob": 100 } ]
+  }
+]

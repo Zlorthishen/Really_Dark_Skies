@@ -1,7 +1,7 @@
 [
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
-    "id": "TALK_MAQUIS_FELINE_MUTANT_ROOT",
+    "id": "TALK_MORLOCK_FELINE_MUTANT_ROOT",
     "type": "talk_topic",
     "dynamic_line": {
       "u_is_wearing": "badge_marshal",
@@ -24,8 +24,8 @@
           ]
         }
       },
-      { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_MAQUIS_FELINE_MUTANT_ROOT" },
-      { "text": "What are you doing here?", "topic": "TALK_MAQUIS_FELINE_MUTANT_DOING" },
+      { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_MORLOCK_FELINE_MUTANT_ROOT" },
+      { "text": "What are you doing here?", "topic": "TALK_MORLOCK_FELINE_MUTANT_DOING" },
       {
         "text": "[MISSION] I'm looking for Chad Erikson, Randy sent me.",
         "effect": { "npc_add_var": "npc_Asked_Guards_about_Leaders", "type": "general", "context": "meeting", "value": "yes" },
@@ -36,7 +36,7 @@
             { "u_has_mission": "MISSION_CHECK_UP_ON_BIG_BROTHER" }
           ]
         },
-        "topic": "TALK_MAQUIS_FELINE_MUTANT_BIG_BROTHER"
+        "topic": "TALK_MORLOCK_FELINE_MUTANT_BIG_BROTHER"
       },
       {
         "text": "[MISSION] I have important information for resistance leadership.",
@@ -48,7 +48,7 @@
             { "u_has_mission": "DKZ_RIOT_RENDEZVOUS_TO_BASE" }
           ]
         },
-        "topic": "TALK_MAQUIS_FELINE_MUTANT_RENDEZVOUS_TO_BASE"
+        "topic": "TALK_MORLOCK_FELINE_MUTANT_RENDEZVOUS_TO_BASE"
       },
       {
         "text": "Is there anything I can do to help you out?",
@@ -61,14 +61,14 @@
   },
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
-    "id": "TALK_MAQUIS_FELINE_MUTANT_BIG_BROTHER",
+    "id": "TALK_MORLOCK_FELINE_MUTANT_BIG_BROTHER",
     "type": "talk_topic",
     "dynamic_line": [ "I'm not sure where Chad is at right now." ],
     "responses": [ { "text": "Ok, Thanks.", "topic": "TALK_NONE" }, { "text": "Ok, I have to go now.", "topic": "TALK_DONE" } ]
   },
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
-    "id": "TALK_MAQUIS_FELINE_MUTANT_RENDEZVOUS_TO_BASE",
+    "id": "TALK_MORLOCK_FELINE_MUTANT_RENDEZVOUS_TO_BASE",
     "type": "talk_topic",    
 	"dynamic_line": [
       "I'm not sure if I'm the right person for the job.",
@@ -79,7 +79,7 @@
   },
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
-    "id": "TALK_MAQUIS_FELINE_MUTANT_DOING",
+    "id": "TALK_MORLOCK_FELINE_MUTANT_DOING",
     "type": "talk_topic",
     "dynamic_line": [
       "I'm minding my own business, mind your own.",
@@ -87,8 +87,8 @@
       "I keep the peace down here between other scavengers, but everyone is very civil to each other since there are monsters outside."
     ],
     "responses": [
-      { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_MAQUIS_FELINE_MUTANT_ROOT" },
-      { "text": "Nice arrangement for everyone.", "topic": "TALK_MAQUIS_FELINE_MUTANT_ROOT" },
+      { "text": "Let's trade.", "effect": "start_trade", "topic": "TALK_MORLOCK_FELINE_MUTANT_ROOT" },
+      { "text": "Nice arrangement for everyone.", "topic": "TALK_MORLOCK_FELINE_MUTANT_ROOT" },
       { "text": "Ok, I'll leave you to it.", "topic": "TALK_DONE" }
     ]
   }
