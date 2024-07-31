@@ -90,8 +90,8 @@
     "iv_morale_max": 100,
     "iv_sleep": true,
     "iv_sleep_dur": 20,
-    "iv_sleep_message": "You gaze inside, beyond your fear, beyond good and evil, beyond the old humanity.",
-    "memorial_message": "Prepared the way for the Xenoid Masters."
+    "iv_sleep_message": "You gaze inside, beyond your fear, beyond good and evil, beyond what you thought existed.",
+    "memorial_message": "Stole the power of the Xenoids."
   },
   {
     "type": "mutation",
