@@ -63,8 +63,13 @@
     "description": "You were in your prototype combat mech when it all hit the fan.  You just woke up from a week long nap, you are down to your last battery, and your recieving a message about joining 'The Maquis' to fight the invading aliens.",
     "allowed_locs": [ "sloc_house", "sloc_mall_loading_area", "sloc_mall_food_court", "sloc_apartments_rooftop", "sloc_hospital" ],
     "flags": [ "CITY_START", "LONE_START" ],
-    "professions": [ "lifting_mech_pilot_scenario", "recon_mech_pilot_scenario", "combat_mech_pilot_scenario" ],
+    "professions": [
+      "lifting_mech_pilot_scenario",
+      "recon_mech_pilot_scenario",
+      "combat_mech_pilot_scenario",
+      "prototype_mech_pilot_scenario"
+    ],
     "start_name": "In Town",
     "missions": [ "DKZ_HAVE_MECH_WILL_TRAVEL" ]
-  }  
+  }
 ]
