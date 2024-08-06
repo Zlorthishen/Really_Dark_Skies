@@ -29,7 +29,13 @@
           { "id": "xeno-dynamite", "fg": 2 },
           { "id": "overlay_wielded_xeno-dynamite", "fg": 18 },
           { "id": "xeno-dynamite_act", "fg": 3 },
-          { "id": "overlay_wielded_xeno-dynamite_act", "fg": 19 }
+          { "id": "overlay_wielded_xeno-dynamite_act", "fg": 19 },
+          { "id": "brand_jacket", "fg": 13 },
+          { "id": "overlay_worn_brand_jacket", "fg": 29 },
+          { "id": "brand_shorts", "fg": 14 },
+          { "id": "overlay_worn_brand_shorts", "fg": 30 },
+          { "id": "brand_pants", "fg": 15 },
+          { "id": "overlay_worn_brand_pants", "fg": 31 }
         ],
         "//": "range 1 to 128",
         "sprite_width": 32,

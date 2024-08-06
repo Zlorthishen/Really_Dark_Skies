@@ -118,5 +118,80 @@
     "material_thickness": 3,
     "techniques": [ "WBLOCK_3" ],
     "flags": [ "OVERSIZE", "BELTED", "RESTRICT_HANDS", "BLOCK_WHILE_WORN", "NO_REPAIR", "TRADER_AVOID" ]
-  }
+  },
+  
+  {
+    "id": "brand_jacket",
+    "type": "ARMOR",
+    "name": { "str": "BRAND™ jacket" },
+    "description": "A professional-looking wool blazer.  Quite cumbersome.",
+    "weight": "680 g",
+    "volume": "3500 ml",
+    "price": "120 USD",
+    "price_postapoc": "50 cent",
+    "material": [ "kevlar", "cotton"  ],
+    "symbol": "[",
+    "looks_like": "jacket_light",
+    "color": "cyan",
+    "covers": [ "torso", "arms" ],
+    "coverage": 85,
+    "encumbrance": 15,
+    "storage": "1 L",
+    "warmth": 30,
+    "material_thickness": 3,
+    "valid_mods": [ "steel_padded", "alloy_padded" ],
+    "flags": [ "VARSIZE", "FANCY", "WATERPROOF"  ]
+  },
+
+  {
+    "id": "brand_shorts",
+    "repairs_like": "jeans",
+    "type": "ARMOR",
+    "name": { "str_sp": "BRAND™ shorts" },
+    "description": "A pair of basketball shorts.  Comfortable and light.",
+    "weight": "290 g",
+    "volume": "1 L",
+    "price": "13 USD",
+    "price_postapoc": "50 cent",
+    "to_hit": 1,
+    "material": [ "kevlar", "cotton"  ],
+    "symbol": "[",
+    "looks_like": "shorts",
+    "color": "cyan",
+    "covers": [ "legs" ],
+    "encumbrance": 7,
+    "coverage": 50,
+    "storage": "500 ml",
+    "warmth": 15,
+    "material_thickness": 2,
+    "valid_mods": [ "steel_padded", "alloy_padded","dkz_xeno-weave", "dkz_xeno-plated" ],
+    "flags": [ "VARSIZE", "FANCY", "WATERPROOF"   ]
+  },
+
+  {
+    "id": "brand_pants",
+    "repairs_like": "jeans",
+    "type": "ARMOR",
+    "name": { "str": "BRAND™ pants", "str_pl": "pairs of BRAND™ pants" },
+    "description": "A pair of pants designed for dirt bikers and motorcyclists.",
+    "weight": "1340 g",
+    "volume": "750 ml",
+    "price": "100 USD",
+    "price_postapoc": "750 cent",
+    "material": [ "kevlar", "cotton" ],
+    "symbol": "[",
+    "looks_like": "pants_leather",
+    "color": "cyan",
+    "covers": [ "legs" ],
+    "coverage": 100,
+    "encumbrance": 10,
+    "storage": "1 L",
+    "warmth": 25,
+    "material_thickness": 3,
+    "environmental_protection": 2,
+    "valid_mods": [ "steel_padded", "alloy_padded","dkz_xeno-weave", "dkz_xeno-plated" ],
+    "flags": [ "VARSIZE", "FANCY", "WATERPROOF" ]
+  }  
+  
+  
 ]
