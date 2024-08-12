@@ -98,39 +98,5 @@
       "success_lie": "Are you lost or something?",
       "failure": "Can't believe we got lost…"
     }
-  },
-  {
-    "//": "----] June's mission: Fly to the Sky Marshal |-------------------------------------------------------------------------",
-    "id": "DKZ_HEAD_TO_THE_FARM",
-    "type": "mission_definition",
-    "name": { "str": "Head to the Farm" },
-    "description": "It's time to leave the sewer and get to the farm.",
-    "goal": "MGOAL_GO_TO_TYPE",
-    "destination": "sky_marshal_farm_13_2ndfloor",
-    "difficulty": 1,
-    "urgent": true,
-    "value": 0,
-    "start": {
-      "assign_mission_target": {
-        "om_terrain": "sky_marshal_farm_13_2ndfloor",
-        "om_special": "sky_marshal_farm",
-        "search_range": 888,
-        "random": true,
-        "min_distance": 22
-      }
-    },
-    "origins": [ "ORIGIN_SECONDARY" ],
-    "has_generic_rewards": false,
-    "dialogue": {
-      "describe": "…",
-      "offer": "Lets go back to base.",
-      "accepted": "Alright, lets be off.  You don't mind taking point, right?",
-      "rejected": "Well…",
-      "advice": "You keep a map around don't you?  I do, and you probably should too.",
-      "inquire": "We there yet?",
-      "success": "Thanks for having my back.  As I said, I owe you one.",
-      "success_lie": "Are you lost or something?",
-      "failure": "Can't believe we got lost…"
-    }
   }
 ]
