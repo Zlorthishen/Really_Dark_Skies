@@ -59,7 +59,7 @@
       { "distribution": [ { "item": "jeans", "prob": 100 } ] },
       { "distribution": [ { "item": "tshirt", "prob": 80 } ] },
       { "distribution": [ { "item": "jacket_chef", "prob": 100 } ] },
-      { "distribution": [ { "item": "helmet_army", "prob": 100 } ] },
+      { "distribution": [ { "item": "hat_chef", "prob": 100 } ] },
       { "distribution": [ { "item": "boots_combat", "prob": 100} ]  },
       { "distribution": [ { "item": "keffiyeh", "prob": 100 } ]  },
       { "distribution": [ { "item": "backpack", "prob": 100 } ]  },

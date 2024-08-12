@@ -1,0 +1,22 @@
+[
+  {
+    "id": "hat_chef",
+    "repairs_like": "balaclava",
+    "type": "ARMOR",
+    "name": "toque",
+    "description": "A traditional chef's hat, standing tall and proud against the vulgarities of the world.",
+    "weight": "140 g",
+    "volume": "500 ml",
+    "price": 500,
+    "material": [ "cotton" ],
+    "symbol": "[",
+    "looks_like": "hat_cotton",
+    "color": "white",
+    "covers": [ "HEAD" ],
+    "coverage": 75,
+    "encumbrance": 15,
+    "warmth": 5,
+    "material_thickness": 2,
+    "environmental_protection": 1
+  }
+]
