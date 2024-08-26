@@ -33,7 +33,7 @@
         "    |--|..,,,..,........"
       ],
       "rotation": [ 0 ],
-      "mapping": { ",": { "monster": [ { "monster": "mon_one_eye", "chance": 50 } ] } },
+      "mapping": { ",": { "monster": [ { "monster": "mon_one_eye", "chance": 10 } ] } },
       "palettes": [ "morlock_lair" ]
     }
   },
@@ -71,7 +71,7 @@
         "    |--|..*.....^..,..,."
       ],
       "rotation": [ 0 ],
-      "mapping": { ",": { "monster": [ { "monster": "mon_chud", "chance": 50 } ] } },
+      "mapping": { ",": { "monster": [ { "monster": "mon_chud", "chance": 10 } ] } },
       "palettes": [ "morlock_lair" ]
     }
   },
@@ -109,7 +109,7 @@
         "    |--|..,,,..,........"
       ],
       "rotation": [ 0 ],
-      "mapping": { ",": { "monster": [ { "monster": "mon_one_eye", "chance": 50 } ] } },
+      "mapping": { ",": { "monster": [ { "monster": "mon_one_eye", "chance": 10 } ] } },
       "palettes": [ "morlock_lair" ]
     }
   },
@@ -147,7 +147,7 @@
         "    |--|..*.....^..,..,."
       ],
       "rotation": [ 0 ],
-      "mapping": { ",": { "monster": [ { "monster": "mon_chud", "chance": 50 } ] } },
+      "mapping": { ",": { "monster": [ { "monster": "mon_chud", "chance": 10 } ] } },
       "palettes": [ "morlock_lair" ]
     }
   }

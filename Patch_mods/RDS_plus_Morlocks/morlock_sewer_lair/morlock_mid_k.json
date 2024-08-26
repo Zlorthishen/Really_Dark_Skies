@@ -1,6 +1,6 @@
 [
   {
-    "//": "--| UNDERGROUND CYBERNETIC CLINIC |---------------------------------------------------------------------",	  
+    "//": "--| UNDERGROUND CYBERNETIC CLINIC |---------------------------------------------------------------------",
     "type": "mapgen",
     "om_terrain": [ "morlock_lair_mid_k" ],
     "method": "json",

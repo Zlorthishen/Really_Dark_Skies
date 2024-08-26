@@ -84,7 +84,15 @@
         { "vehicle": "car", "x": 14, "y": 6, "rotation": 90, "chance": 100, "fuel": 10, "status": 0 },
         { "vehicle": "beetle", "x": 15, "y": 18, "rotation": 90, "chance": 100, "fuel": 10, "status": 0 },
         { "vehicle": "car", "x": 20, "y": 18, "rotation": 90, "chance": 100, "fuel": 10, "status": 0 },
-        { "vehicle": "motorcycle_upgraded", "x": 28, "y": 18, "rotation": 90, "chance": 100, "fuel": 100, "status": 0 },
+        {
+          "vehicle": "motorcycle_upgraded",
+          "x": 28,
+          "y": 18,
+          "rotation": 90,
+          "chance": 100,
+          "fuel": 100,
+          "status": 0
+        },
         { "vehicle": "car", "x": 33, "y": 18, "rotation": 90, "chance": 100, "fuel": 10, "status": 0 },
         { "vehicle": "car", "x": 35, "y": 7, "rotation": 90, "chance": 100, "fuel": 100, "status": 0 },
         { "vehicle": "beetle", "x": 41, "y": 5, "rotation": 90, "chance": 100, "fuel": 10, "status": 0 },

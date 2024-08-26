@@ -130,7 +130,7 @@
         "                        "
       ],
       "palettes": [ "morlock_lair" ],
-      "terrain": {  " ": "t_null", "Ø": "t_hpaper", "°": "t_floor_hpaper", "4": "t_floor_hpaper", "5": "t_floor_hpaper" }
+      "terrain": { " ": "t_null", "Ø": "t_hpaper", "°": "t_floor_hpaper", "4": "t_floor_hpaper", "5": "t_floor_hpaper" }
     }
   },
   {

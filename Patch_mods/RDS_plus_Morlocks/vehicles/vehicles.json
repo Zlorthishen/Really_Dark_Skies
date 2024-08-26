@@ -268,10 +268,12 @@
       { "x": -1, "y": -1, "part": "roof" },
       { "x": -1, "y": 3, "part": "roof" },
       { "x": -2, "y": -1, "part": "roof" },
-      { "x": -1, "y": 3, "part": "door_sliding" },
       { "x": -2, "y": 3, "part": "door_sliding" },
       { "x": -2, "y": -1, "part": "door_sliding" },
-      { "x": -1, "y": -1, "part": "door_sliding" },
+
+      { "x": -1, "y": 3, "part": "board_vertical" },
+      { "x": -1, "y": -1, "part": "board_vertical" },	  
+	  
       { "x": -2, "y": 0, "part": "alternator_car" },
       { "x": -2, "y": 2, "part": "alternator_car" }
     ],

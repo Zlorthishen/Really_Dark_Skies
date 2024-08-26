@@ -1,6 +1,6 @@
 [
   {
-    "//": "--| TECHNCAL WORKSHOP |---------------------------------------------------------------------------------",	  
+    "//": "--| TECHNCAL WORKSHOP |---------------------------------------------------------------------------------",
     "type": "mapgen",
     "om_terrain": [ "morlock_lair_mid_g" ],
     "method": "json",
@@ -119,7 +119,7 @@
         "                        ",
         "                        "
       ],
-      "rotation": 0,	  
+      "rotation": 0,
       "palettes": [ "morlock_lair" ],
       "terrain": { "Ø": "t_junk_floor", "Ā": "t_machinery_old" },
       "furniture": { "Ø": "f_beaded_door" },

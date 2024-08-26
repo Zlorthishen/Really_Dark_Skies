@@ -1,6 +1,6 @@
 [
   {
-    "//": "--| INNER NINJA SANCTUM |-------------------------------------------------------------------------------",	  
+    "//": "--| INNER NINJA SANCTUM |-------------------------------------------------------------------------------",
     "type": "item_group",
     "id": "DKZ_morlock_martial_books",
     "items": [
@@ -17,7 +17,8 @@
       [ "manual_medievalpole", 2 ],
       [ "manual_swordsmanship", 1 ]
     ]
-  },   {
+  },
+  {
     "type": "item_group",
     "id": "DKZ_morlock_kungfu_books",
     "items": [
@@ -33,7 +34,7 @@
       [ "manual_venom_snake", 1 ],
       [ "manual_wingchun", 1 ]
     ]
-  },  
+  },
   {
     "type": "item_group",
     "id": "DKZ_morlock_weapons",
@@ -104,22 +105,38 @@
       "rotation": 0,
       "place_npcs": [ { "class": "DKZ_MORLOCK_JASON_ALBRIGHT", "x": 11, "y": 11, "add_trait": [ "DKZ_LEADER" ] } ],
       "terrain": { " ": [ [ "t_rock_floor", 11 ], [ "t_dirt", 5 ] ] },
-      "furniture": { "ḇ": "f_bookcase","ḃ": "f_bookcase", "y": "f_tatami", "Y": "f_tatami", "ŀ": "f_locker" , "ľ": "f_locker" },
+      "furniture": { "ḇ": "f_bookcase", "ḃ": "f_bookcase", "y": "f_tatami", "Y": "f_tatami", "ŀ": "f_locker", "ľ": "f_locker" },
       "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],
       "item": {
         "ḃ": { "item": "manual_ninjutsu", "chance": 95 },
         "ḇ": { "item": "manual_ninjutsu", "chance": 15 },
-        "ŀ": [ { "item": "8mm_caseless", "chance": 300 }, { "item": "shoulder_strap", "chance": 200 }, { "item": "knife_combat", "chance": 50 } ],
-        "ľ": [ { "item": "8mm_caseless", "chance": 300 }, { "item": "holster", "chance": 200 }, { "item": "knife_combat", "chance": 50 } ],
+        "ŀ": [
+          { "item": "8mm_caseless", "chance": 300 },
+          { "item": "shoulder_strap", "chance": 80 },
+          { "item": "bootsheath", "chance": 80 },
+          { "item": "knife_combat", "chance": 80 }
+        ],
+        "ľ": [
+          { "item": "8mm_caseless", "chance": 300 },
+          { "item": "holster", "chance": 80 },
+          { "item": "sheath", "chance": 80 },
+          { "item": "knife_combat", "chance": 80 }
+        ],
         "y": { "item": "scabbard", "chance": 60 }
       },
       "items": {
         "y": { "item": "DKZ_morlock_weapons", "chance": 40 },
         "Y": { "item": "DKZ_morlock_weapons", "chance": 5 },
-        "ŀ": { "item": "DKZ_guns_caseless_rifles", "chance": 90, "repeat": 3 },
-        "ľ": { "item": "DKZ_guns_caseless_pistols", "chance": 90, "repeat": 3 },
-        "ḃ": { "item": "DKZ_morlock_martial_books", "chance": 90, "repeat": 2 },
-        "ḇ": { "item": "DKZ_morlock_kungfu_books", "chance": 90, "repeat": 2 }
+        "ŀ": [
+          { "item": "DKZ_guns_caseless_rifles", "chance": 60, "repeat": 2 },
+          { "item": "DKZ_guns_pistol_common", "chance": 60, "repeat": 2 }
+        ],
+        "ľ": [
+          { "item": "DKZ_guns_caseless_pistols", "chance": 60, "repeat": 2 },
+          { "item": "DKZ_guns_rifle_common", "chance": 60, "repeat": 2 }
+        ],
+        "ḃ": { "item": "DKZ_morlock_martial_books", "chance": 60, "repeat": 2 },
+        "ḇ": { "item": "DKZ_morlock_kungfu_books", "chance": 60, "repeat": 2 }
       },
       "palettes": [ "morlock_lair" ]
     }

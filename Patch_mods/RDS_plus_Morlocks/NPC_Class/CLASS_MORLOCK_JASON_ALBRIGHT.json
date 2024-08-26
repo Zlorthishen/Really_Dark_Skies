@@ -32,6 +32,7 @@
       { "trait": "SHELL2", "prob": 100 },
       { "trait": "INK_GLANDS", "prob": 100 },
       { "trait": "HUNGER", "prob": 100 },
+      { "trait": "SHARKTEETH", "prob": 100 },
       { "trait": "SLEEK_SCALES", "prob": 100 }
     ],
     "skills": [
