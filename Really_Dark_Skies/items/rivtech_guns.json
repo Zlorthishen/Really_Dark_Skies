@@ -170,40 +170,35 @@
     "copy-from": "rm2000_smg",
     "type": "GUN",
     "name": { "str": "RM2000 submachine gun" },
-    "description": "Utilizing a powerful and unusual caliber, the RivTech™ RM2000 submachine gun was designed for durability and ease of carrying under less than ideal circumstances, includes an integrated scope and suppressor.  Accepts stick magazines.",
-    "built_in_mods": [ "riv_scope", "riv_suppressor" ]
+    "description": "Utilizing a powerful and unusual caliber, the RivTech™ RM2000 submachine gun was designed for durability and ease of carrying under less than ideal circumstances, includes an integrated scope and suppressor.  Accepts stick magazines."
   },
   {
     "id": "rm298",
     "copy-from": "rm298",
     "type": "GUN",
     "name": { "str": "RM298 HMG" },
-    "description": "Utilizing a powerful and unusual caliber, the RivTech™ RM298 heavy machine gun was designed for durability and extreme volume of sustained fire under the worst possible circumstances.  Accepts RMXB500 box and RMGD250 drum magazines.",
-    "built_in_mods": [ "riv_scope", "riv_suppressor" ]
+    "description": "Utilizing a powerful and unusual caliber, the RivTech™ RM298 heavy machine gun was designed for durability and extreme volume of sustained fire under the worst possible circumstances.  Accepts RMXB500 box and RMGD250 drum magazines."
   },
   {
     "id": "rm51_assault_rifle",
     "copy-from": "rm51_assault_rifle",
     "type": "GUN",
     "name": { "str": "RM51 assault rifle" },
-    "description": "Originally produced for military use, the RivTech™ RM51 assault rifle was designed for durability and ease of use under less than ideal circumstances, with its considerable bulk minimized by a compact and ergonomic layout.  Accepts box magazines.",
-    "built_in_mods": [ "riv_scope", "riv_suppressor" ]
+    "description": "Originally produced for military use, the RivTech™ RM51 assault rifle was designed for durability and ease of use under less than ideal circumstances, with its considerable bulk minimized by a compact and ergonomic layout.  Accepts box magazines."
   },
   {
     "id": "rm614_lmg",
     "copy-from": "rm614_lmg",
     "type": "GUN",
     "name": { "str": "RM614 LMG" },
-    "description": "Utilizing a powerful and unusual caliber, the RivTech™ RM614 light machine gun was designed for durability and extreme volume of sustained fire under the worst possible circumstances.  Accepts RMXB500 box and RMGD250 drum magazines.",
-    "built_in_mods": [ "riv_scope", "riv_suppressor" ]
+    "description": "Utilizing a powerful and unusual caliber, the RivTech™ RM614 light machine gun was designed for durability and extreme volume of sustained fire under the worst possible circumstances.  Accepts RMXB500 box and RMGD250 drum magazines."
   },
   {
     "id": "rm88_battle_rifle",
     "copy-from": "rm88_battle_rifle",
     "type": "GUN",
     "name": { "str": "RM88 battle rifle" },
-    "description": "Originally produced for military use, the RivTech™ RM88 battle rifle was designed for durability and extreme firepower under less than ideal circumstances, with a heavy ported barrel for maximum controllability.  Accepts box and RMGD250 drum magazines.",
-    "built_in_mods": [ "riv_scope", "riv_suppressor" ]
+    "description": "Originally produced for military use, the RivTech™ RM88 battle rifle was designed for durability and extreme firepower under less than ideal circumstances, with a heavy ported barrel for maximum controllability.  Accepts box and RMGD250 drum magazines."
   },
   {
     "//": "--------------------------------------------------------------------------------------------------------",
@@ -388,7 +383,6 @@
     "symbol": "(",
     "color": "dark_gray",
     "ammo": "5x50",
-    "built_in_mods": [ "riv_scope", "riv_suppressor" ],
     "ranged_damage": { "damage_type": "bullet", "amount": 10 },
     "dispersion": 220,
     "durability": 9,
@@ -429,7 +423,6 @@
     "dispersion": 70,
     "durability": 9,
     "ammo": "5x50",
-    "built_in_mods": [ "riv_scope" ],
     "color": "dark_gray",
     "reload": 200,
     "handling": 15,
@@ -468,7 +461,6 @@
     "dispersion": 90,
     "durability": 9,
     "ammo": "5x50",
-    "built_in_mods": [ "riv_scope" ],
     "color": "dark_gray",
     "modes": [ [ "AUTO", "auto", 5 ] ],
     "valid_mod_locations": [ [ "barrel", 1 ], [ "grip", 1 ], [ "mechanism", 4 ], [ "rail", 1 ], [ "sights", 1 ], [ "sling", 1 ], [ "stock", 1 ] ],
