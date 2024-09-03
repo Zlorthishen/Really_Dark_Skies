@@ -91,7 +91,7 @@
         " ,©©ḇ  ,,YYYYyY  ,z ©© ,",
         " ,©©ḃ    YYyYYY   , ©© ,",
         ",   ,    YYYyYY,Z     ,,",
-        ",  ,  ,Z YYYYYY ,,   ,, ",
+        ",  ,  ,Z YYYYYY ,,   ,,¥",
         "  ,     ^,,   ,^     ,  ",
         "  , *     Z, ,Z,   *    ",
         "   ,    ,,,   ,,        ",
@@ -104,7 +104,7 @@
       ],
       "rotation": 0,
       "place_npcs": [ { "class": "DKZ_MORLOCK_JASON_ALBRIGHT", "x": 11, "y": 11, "add_trait": [ "DKZ_LEADER" ] } ],
-      "terrain": { " ": [ [ "t_rock_floor", 11 ], [ "t_dirt", 5 ] ] },
+      "terrain": { " ": [ [ "t_rock_floor", 11 ], [ "t_dirt", 5 ] ],  "¥": "t_utility_light" },
       "furniture": { "ḇ": "f_bookcase", "ḃ": "f_bookcase", "y": "f_tatami", "Y": "f_tatami", "ŀ": "f_locker", "ľ": "f_locker" },
       "place_zones": [ { "type": "NPC_INVESTIGATE_ONLY", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],
       "item": {

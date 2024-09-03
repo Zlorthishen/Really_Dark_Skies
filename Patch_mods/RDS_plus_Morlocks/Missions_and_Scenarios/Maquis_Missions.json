@@ -58,45 +58,5 @@
       "success_lie": "Are you lost or something?",
       "failure": "Can't believe we got lost…"
     }
-  },
-  {
-    "//": "----] 3rd mission: Join the Maquis [-----------------------------------------------------------------------------------",
-    "id": "DKZ_SEWER_OVERFLOW",
-    "type": "mission_definition",
-    "name": { "str": "The Sewer Overflow" },
-    "description": "You must proceed to this location and report the attack on the Channel 4 News Building.",
-    "goal": "MGOAL_TALK_TO_NPC",
-    "destination": "racing_tower_z7_4_1",
-    "difficulty": 1,
-    "urgent": true,
-    "value": 0,
-    "start": {
-      "assign_mission_target": {
-        "om_terrain": "racing_tower_z7_4_1",
-        "om_special": "arcology_racing",
-        "search_range": 888,
-        "random": true,
-        "min_distance": 22
-      },
-      "update_mapgen": { "place_npcs": [ { "class": "DKZ_CHAD_ERIKSON", "x": 5, "y": 5, "target": true } ] },
-      "effect": [
-        { "u_add_var": "MrEriksonExists", "type": "knowledge", "context": "flag", "value": "yes" },
-        { "u_add_var": "Sewer_Overflow", "type": "knowledge", "context": "flag", "value": "yes" },
-        { "u_add_var": "Rendezvous_to_base", "type": "knowledge", "context": "flag", "value": "yes" }
-      ]
-    },
-    "origins": [ "ORIGIN_SECONDARY" ],
-    "has_generic_rewards": false,
-    "dialogue": {
-      "describe": "…",
-      "offer": "Lets go back to base.",
-      "accepted": "Alright, lets be off.  You don't mind taking point, right?",
-      "rejected": "Well…",
-      "advice": "You keep a map around don't you?  I do, and you probably should too.",
-      "inquire": "We there yet?",
-      "success": "Thanks for having my back.  As I said, I owe you one.",
-      "success_lie": "Are you lost or something?",
-      "failure": "Can't believe we got lost…"
-    }
   }
 ]
