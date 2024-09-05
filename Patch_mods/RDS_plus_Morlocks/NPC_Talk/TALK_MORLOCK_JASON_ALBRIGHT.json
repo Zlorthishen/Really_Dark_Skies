@@ -108,6 +108,13 @@
   },
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
+    "id": "TALK_MORLOCK_JASON_ALBRIGHT_CONTACT_MAQUIS",
+    "type": "talk_topic",
+    "dynamic_line": [ "I don't have a direct way to contact the Resistance, but I know they have a contact at the refugee center." ],
+    "responses": [ { "text": "Thanks.  I'll try to ", "topic": "TALK_DONE" } ]
+  },
+  {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
     "id": "TALK_JASON_ALBRIGHT_DEAD_JUNE",
     "type": "talk_topic",
     "dynamic_line": [ "I can't believe that I'll never see her again." ],
