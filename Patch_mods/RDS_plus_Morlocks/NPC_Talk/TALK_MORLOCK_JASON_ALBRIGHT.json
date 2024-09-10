@@ -13,6 +13,8 @@
         "opinion": { "trust": -10, "value": -25 },
         "topic": "TALK_JASON_ALBRIGHT_DEAD_JUNE"
       },
+
+      { "text": "I'm lost. How do I get out of here?", "topic": "TALK_MORLOCK_JASON_ALBRIGHT_EXITS" },	  
       {
         "text": "[MISSION] Do you have any advice for the rescue?",
         "effect": [ { "npc_first_topic": "TALK_MORLOCK_JASON_ALBRIGHT_ROOT" } ],
@@ -125,9 +127,9 @@
     "id": "TALK_MORLOCK_JASON_ALBRIGHT_EXITS",
     "type": "talk_topic",
     "dynamic_line": [
-      "The lair can be excessively difficult to navigate, but its easier once you remember that the exits are in the corners of the entire area, along with several old subway connections that are guarded at all times.  There is also a secret exit in the Technican's Workshop area, just be sure to close the door behind you."
+      "Well, from the training sanctuary here you are near a few intersting spots, first is the Underground Autodoc, where you can get medical treatment or install bionics.  Next there is the insect warren, where some of the more mutated morlocks hang out, don't stare,  Also there is the Technican's workshop.  And the finally the 'Sushiya + Ramen-ya' restaurant, my personal favorite place to eat, although further away you will also encounter the pizzaria where you can get a genuine sewer'izza, if you can stomach it.  There are even a couple of libraries close by.\n\nThe farther you go away from the centeral training sanctuary the less interesting the become, though you may encouter some lakes the fish there shouldn't be hostile, so please don't harm them.  There are also rumors of a ladders that go up into the basement of a nearby apartment complex, but that place is overrun by mindless mutant monsters.\n\nAround the perimiter of the lair you will encounter fortified points, do not engage in hostile actions with them, everyone here relies on keeping this place safe.\n\nThe lair can be excessively difficult to navigate, but its easier once you remember that the exits are in the corners of the entire area, along with several old subway connections that are guarded at all times. "
     ],
-    "responses": [ { "text": "Thanks.  I'll try to ", "topic": "TALK_DONE" } ]
+    "responses": [ { "text": "Thanks for the information, I'll go explore", "topic": "TALK_DONE" } ]
   },
   {
     "//": "-----------------------------------------------------------------------------------------------------------------------",
