@@ -9,8 +9,8 @@
     "destination": "racing_tower_z7_4_1",
     "difficulty": 1,
     "urgent": true,
-    "deadline_low": 3,
-    "deadline_high": 4,
+    "deadline_low": 4,
+    "deadline_high": 5,
     "value": 0,
     "start": {
       "assign_mission_target": {
@@ -39,8 +39,8 @@
     "destination": "racing_tower_z7_4_1",
     "difficulty": 1,
     "urgent": true,
-    "deadline_low": 3,
-    "deadline_high": 4,
+    "deadline_low": 4,
+    "deadline_high": 5,
     "value": 0,
     "start": {
       "assign_mission_target": {
@@ -69,8 +69,8 @@
     "destination": "racing_tower_z7_4_1",
     "difficulty": 1,
     "urgent": true,
-    "deadline_low": 5,
-    "deadline_high": 7,
+    "deadline_low": 7,
+    "deadline_high": 11,
     "value": 0,
     "start": {
       "assign_mission_target": {
