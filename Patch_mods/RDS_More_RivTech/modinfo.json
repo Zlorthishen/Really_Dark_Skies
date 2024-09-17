@@ -1,0 +1,13 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "realdarkskies_more_rivtech",
+    "name": "<color_light_blue>Really Dark Skies</color> with more RivTech Guns",
+    "authors": [ "Zlorthishen" ],
+    "description": "A patchmod for <color_light_blue>Really Dark Skies</color> adds additional RivTech Guns",
+    "category": "monster_exclude",
+    "version": "BN version 20d8acc, update 09/16/2024",
+    "dependencies": [ "bn", "realdarkskies" ],
+	"conflicts": [ "no_rivtech_guns" ]
+  }
+]
