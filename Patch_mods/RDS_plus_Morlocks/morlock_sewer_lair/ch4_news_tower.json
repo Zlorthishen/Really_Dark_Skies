@@ -577,11 +577,7 @@
           "x": [ 4, 4 ],
           "y": [ 14, 14 ]
         },
-        {
-          "chunks": [ [ "d_office_glass_ar", 20 ], [ "d_office_ar", 20 ], [ "d_office_slide_ar", 20 ], [ "d_office_crowded_ar", 20 ] ],
-          "x": [ 30, 30 ],
-          "y": [ 1, 1 ]
-        },
+        { "chunks": [ [ "d_newsroom_ar", 100 ] ], "x": [ 30, 30 ], "y": [ 1, 1 ] },
         {
           "chunks": [ [ "dx5_register_or", 20 ], [ "dx5_office_or", 20 ], [ "dx5_sofas_or", 20 ] ],
           "x": [ 39, 39 ],
@@ -653,7 +649,7 @@
           "x": [ 4, 4 ],
           "y": [ 14, 14 ]
         },
-        { "chunks": [ [ "d_office_private_ar", 90 ], [ "d_office_ar", 10 ] ], "x": [ 30, 30 ], "y": [ 1, 1 ] },
+        { "chunks": [ [ "d_newsroom_ar", 100 ] ], "x": [ 30, 30 ], "y": [ 1, 1 ] },
         {
           "chunks": [ [ "dx5_register_or", 20 ], [ "dx5_office_or", 20 ], [ "dx5_sofas_or", 60 ] ],
           "x": [ 39, 39 ],
