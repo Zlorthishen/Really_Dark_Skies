@@ -128,7 +128,7 @@
     "phase": "liquid",
     "category": "chems",
     "fun": -13,
-    "flags": [ "USE_EAT_VERB", "IRREPLACEABLE_CONSUMABLE" ],
+    "flags": [ "USE_EAT_VERB" ],
     "use_action": {
       "type": "consume_drug",
       "activation_message": "You swallow the alien hydrogel and it seems to gleefully glide down your throat.  You feel kind of strange.",
