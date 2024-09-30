@@ -62,7 +62,19 @@
         { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] },
         { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 24, 47 ], "y": [ 0, 23 ] },
         { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 0, 23 ], "y": [ 24, 47 ] },
-        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 24, 47 ], "y": [ 24, 47 ] }
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 24, 47 ], "y": [ 24, 47 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 0, 23 ], "y": [ 24, 47 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 24, 47 ], "y": [ 24, 47 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 0, 23 ], "y": [ 48, 47 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 24, 47 ], "y": [ 48, 72 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis",  "x": [ 24, 47 ], "y": [ 0, 23 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 24, 47 ], "y": [ 24, 47 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis",  "x": [ 48, 47 ], "y": [ 0, 23 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 48, 72 ], "y": [ 24, 47 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis",  "x": [ 24, 47 ], "y": [ 24, 47 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 24, 47 ],  "y": [ 24, 47 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis",  "x": [ 48, 47 ],"y": [ 48, 47 ]  },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 48, 72 ],  "y": [ 48, 72 ] }
       ],
       "furniture": { "†": "f_barricade_road", "‡": "f_barricade_road" },
       "terrain": {
@@ -226,7 +238,19 @@
         { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] },
         { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 24, 47 ], "y": [ 0, 23 ] },
         { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 0, 23 ], "y": [ 24, 47 ] },
-        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 24, 47 ], "y": [ 24, 47 ] }
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 24, 47 ], "y": [ 24, 47 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 0, 23 ], "y": [ 24, 47 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 24, 47 ], "y": [ 24, 47 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 0, 23 ], "y": [ 48, 47 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 24, 47 ], "y": [ 48, 72 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis",  "x": [ 24, 47 ], "y": [ 0, 23 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 24, 47 ], "y": [ 24, 47 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis",  "x": [ 48, 47 ], "y": [ 0, 23 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 48, 72 ], "y": [ 24, 47 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis",  "x": [ 24, 47 ], "y": [ 24, 47 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 24, 47 ],  "y": [ 24, 47 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis",  "x": [ 48, 47 ],"y": [ 48, 47 ]  },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 48, 72 ],  "y": [ 48, 72 ] }
       ],
       "place_monsters": [
         { "monster": "GROUP_QUISSLING_HELPERS", "x": [ 5, 23 ], "y": [ 5, 23 ], "density": 0.11 },
@@ -397,7 +421,19 @@
         { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] },
         { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 24, 47 ], "y": [ 0, 23 ] },
         { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 0, 23 ], "y": [ 24, 47 ] },
-        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 24, 47 ], "y": [ 24, 47 ] }
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 24, 47 ], "y": [ 24, 47 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 0, 23 ], "y": [ 24, 47 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 24, 47 ], "y": [ 24, 47 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 0, 23 ], "y": [ 48, 47 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 24, 47 ], "y": [ 48, 72 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis",  "x": [ 24, 47 ], "y": [ 0, 23 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 24, 47 ], "y": [ 24, 47 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis",  "x": [ 48, 47 ], "y": [ 0, 23 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 48, 72 ], "y": [ 24, 47 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis",  "x": [ 24, 47 ], "y": [ 24, 47 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 24, 47 ],  "y": [ 24, 47 ] },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis",  "x": [ 48, 47 ],"y": [ 48, 47 ]  },
+        { "type": "NPC_NO_INVESTIGATE", "faction": "maquis", "x": [ 48, 72 ],  "y": [ 48, 72 ] }
       ],
       "place_nested": [
         { "chunks": [ [ "dx4_cr1_l", 20 ], [ "dx4_cr2_l", 20 ], [ "dx4_cr3_l", 20 ] ], "x": [ 20, 20 ], "y": [ 12, 12 ] },
@@ -540,7 +576,7 @@
         "///V::::::::::::::::::::::::::::::::::::::::V///",
         "///|::::::::::::::::::::::::::::::::::::::::|///",
         "///V::::::::::::::::::::::::::::::::::::::::V///",
-        "///V::::::::::::::|----------|::::::::::::::V///",
+        "///V::::::::::::::|--+----+--|::::::::::::::V///",
         "///V::::::::::::::|.::::::::.|::::::::::::::V///",
         "///|::::::::::::::|.::::::::.|::::::::::::::|///",
         "///V::::::::::::::..::::::::..::::::::::::::V///",
@@ -563,15 +599,12 @@
       "place_nested": [
         { "chunks": [ [ "dx4_cr1_l", 20 ], [ "dx4_cr2_l", 20 ], [ "dx4_cr3_l", 20 ] ], "x": [ 20, 20 ], "y": [ 12, 12 ] },
         {
-          "chunks": [ [ "dx4_cr1_r", 20 ], [ "dx4_cr2_r", 20 ], [ "dx4_cr3_r", 20 ] ],
+          "chunks": [ [ "dx4_cr1_r", 30 ], [ "dx4_cr2_r", 30 ], [ "dx4_cr3_r", 30 ] ],
           "x": [ 24, 24 ],
           "y": [ 12, 12 ]
         },
-        {
-          "chunks": [ [ "d_office_glass_al", 20 ], [ "d_office_al", 20 ], [ "d_office_slide_al", 20 ], [ "d_office_crowded_al", 20 ] ],
-          "x": [ 2, 2 ],
-          "y": [ 1, 1 ]
-        },
+
+        { "chunks": [ [ "d_newsroom_al", 100 ] ], "x": [ 2, 2 ], "y": [ 1, 1 ] },
         {
           "chunks": [ [ "dx5_register_ol", 20 ], [ "dx5_office1_ol", 10 ], [ "dx5_office2_ol", 10 ], [ "dx5_sofas_ol", 20 ] ],
           "x": [ 4, 4 ],
@@ -616,7 +649,7 @@
         "///V::::::::::::::::::::::::::::::::::::::::V///",
         "///|::::::::::::::::::::::::::::::::::::::::|///",
         "///V::::::::::::::::::::::::::::::::::::::::V///",
-        "///V::::::::::::::|----------|::::::::::::::V///",
+        "///V::::::::::::::|--+----+--|::::::::::::::V///",
         "///V::::::::::::::|.::::::::.|::::::::::::::V///",
         "///|::::::::::::::|.::::::::.|::::::::::::::|///",
         "///V::::::::::::::..::::::::..::::::::::::::V///",
@@ -643,7 +676,7 @@
           "x": [ 24, 24 ],
           "y": [ 12, 12 ]
         },
-        { "chunks": [ [ "d_office_private_al", 90 ], [ "d_office_al", 10 ] ], "x": [ 2, 2 ], "y": [ 1, 1 ] },
+        { "chunks": [ [ "d_newsroom_al", 100 ] ], "x": [ 2, 2 ], "y": [ 1, 1 ] },
         {
           "chunks": [ [ "dx5_register_ol", 20 ], [ "dx5_office1_ol", 10 ], [ "dx5_office2_ol", 10 ], [ "dx5_sofas_ol", 20 ] ],
           "x": [ 4, 4 ],
