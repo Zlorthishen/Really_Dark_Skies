@@ -18,6 +18,39 @@
   {
     "//1": "-----------------------------------------------------------------------------------------------------------------------",
     "type": "item_group",
+    "id": "DKZ_guns_caseless_pistols",
+    "//": "Assorted factory crafted caseless weapons.",
+    "items": [
+      { "item": "needlepistol", "prob": 25, "charges-min": 50, "charges-max": 50 },
+      { "item": "rm97_pistol", "prob": 15, "charges-min": 2, "charges-max": 2 },
+      { "item": "rm98_pistol", "prob": 15, "charges-min": 3, "charges-max": 3 },
+      { "item": "rm99_pistol", "prob": 25, "charges-min": 5, "charges-max": 5 },
+      { "item": "rm101_pistol", "prob": 25, "charges-min": 1, "charges-max": 1 },
+      { "item": "rm101plus_pistol", "prob": 25, "charges-min": 1, "charges-max": 1 },
+      { "item": "rm103a_pistol", "prob": 15, "charges-min": 10, "charges-max": 10 }	  
+    ]
+  },
+  {
+    "//1": "-----------------------------------------------------------------------------------------------------------------------",
+    "type": "item_group",
+    "id": "DKZ_guns_caseless_rifles",
+    "//": "Assorted factory crafted caseless weapons.",
+    "items": [
+      { "item": "rm120c", "prob": 10, "charges-min": 5, "charges-max": 5 },
+      { "item": "rm20", "prob": 30, "charges-min": 20, "charges-max": 20 },
+      { "item": "rm11b_sniper_rifle", "prob": 45, "charges-min": 10, "charges-max": 10 },
+      { "item": "rm51_assault_rifle", "prob": 40, "charges-min": 50, "charges-max": 50 },
+      { "item": "rm88_battle_rifle", "prob": 40, "charges-min": 50, "charges-max": 50 },
+      { "item": "rm298", "prob": 10, "charges-min": 100, "charges-max": 100 },
+      { "item": "needle_rifle", "prob": 25, "charges-min": 50, "charges-max": 50 },
+      { "item": "rm614_lmg", "prob": 10, "charges-min": 100, "charges-max": 100 },
+      { "item": "needle_lmg", "prob": 15, "charges-min": 250, "charges-max": 500 },
+      { "item": "needle_hmg", "prob": 5, "charges-min": 250, "charges-max": 500 }
+    ]
+  },
+  {
+    "//1": "-----------------------------------------------------------------------------------------------------------------------",
+    "type": "item_group",
     "id": "DKZ_armor_chitin_arm",
     "//": "Chitinous arm armor.",
     "items": [ { "item": "armguard_chitin", "prob": 95 }, { "item": "armguard_acidchitin", "prob": 15 } ]
