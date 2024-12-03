@@ -159,7 +159,14 @@
   },
   {
     "type": "overmap_terrain",
-    "id": "sky_marshal_farm_7_hayloft",
+    "id": "sky_marshal_farm_7a_hayloft",
+    "copy-from": "generic_rural_building",
+    "name": "horse stable hayloft",
+    "mondensity": 0
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "sky_marshal_farm_7b_hayloft",
     "copy-from": "generic_rural_building",
     "name": "horse stable hayloft",
     "mondensity": 0

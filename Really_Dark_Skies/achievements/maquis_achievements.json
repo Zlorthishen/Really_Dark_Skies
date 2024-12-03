@@ -3,7 +3,7 @@
     "id": "achievement_dkz_RANDYS_FIXED_GENERATOR",
     "type": "achievement",
     "name": { "str": "Power Overwhelming." },
-    "description": "<color_light_blue>[Really Dark Skies]</color> Help Randy Erikson fix the broken generator at the refugee center.",
+    "description": "<color_light_blue>[Really Dark Skies]</color> Help Randy Erikson fix the secret generator at the refugee center.",
     "requirements": [ { "event_statistic": "num_avatar_dkz_RANDYS_FIXED_GENERATOR", "is": ">=", "target": 1 } ]
   },
   {
