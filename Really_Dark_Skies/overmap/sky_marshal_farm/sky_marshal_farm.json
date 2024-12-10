@@ -397,8 +397,10 @@
       },
       "mapping": { "`": { "monster": [ { "monster": "mon_fish_blinky", "chance": 90 } ] } },
       "place_signs": [
-        { "signage": "Please do not disturb the fish", "x": 37, "y": 17 },
-        { "signage": "Please do not disturb the fish", "x": 27, "y": 13 }
+        { "signage": "Please do not disturb the fish", "x": 29, "y": 24 },
+        { "signage": "Please do not disturb the fish", "x": 36, "y": 25 },
+        { "signage": "Please do not disturb the fish", "x": 38, "y": 17 },
+        { "signage": "Please do not disturb the fish", "x": 30, "y": 15 }
       ],
       "place_monster": [
         { "monster": "mon_chicken", "x": [ 40, 44 ], "y": [ 48, 52 ], "repeat": [ 5, 5 ], "chance": 100 },
@@ -935,8 +937,7 @@
     "method": "json",
     "om_terrain": [ "sky_marshal_farm_radio_tower" ],
     "object": {
-      "faction_owner": [ { "id": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],
-      "predecessor_mapgen": "forest",
+      "faction_owner": [ { "id": "maquis", "x": [ 0, 23 ], "y": [ 0, 23 ] } ],  
       "rows": [
         "                        ",
         "       -----------      ",
@@ -964,6 +965,7 @@
         "                ;;;;;   "
       ],
       "terrain": {
+		" ": [ [ "t_region_groundcover", 50 ], [ "t_dirt", 35 ] , [ "t_region_tree", 5 ] , [ "t_region_shrub", 10 ] ],		  
         "#": "t_concrete_wall",
         "R": "t_radio_tower",
         ";": "t_dirt",
@@ -973,6 +975,7 @@
         "x": "t_floor",
         "C": "t_floor",
         "q": "t_floor",
+        "r": "t_floor",
         "Q": "t_floor",
         "2": "t_chaingate_c",
         "-": "t_chainfence_h",
