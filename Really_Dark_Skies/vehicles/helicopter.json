@@ -217,7 +217,7 @@
       { "x": -2, "y": 3, "part": "door_sliding" },
       { "x": -2, "y": 2, "part": "trunk_floor" },
       { "x": -2, "y": 0, "part": "trunk_floor" },
-      { "x": -3, "y": 1, "part": "minifreezer" },
+      { "x": -3, "y": 1, "part": "minifridge" },
       { "x": -4, "y": 0, "part": "stowboard_sw" },
       { "x": -4, "y": 1, "part": "board_horizontal" },
       { "x": -4, "y": 2, "part": "stowboard_se" },
