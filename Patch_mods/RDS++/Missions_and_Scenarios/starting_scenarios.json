@@ -1,0 +1,30 @@
+[
+  {
+    "type": "start_location",
+    "id": "s_loc_dkz_skymarshal_hq",
+    "name": "Morlock Lair",
+    "terrain": [ "sky_marshal_farm_13" ]
+  },
+  {
+    "type": "scenario",
+    "id": "skymarshal_power_fantasy",
+    "name": "The Sky Marshal",
+    "points": 666,
+    "description": "[REDACTED].",
+    "start_name": "Sky Marshal HQ",
+    "allowed_locs": [ "s_loc_dkz_skymarshal_hq" ],
+    "professions": [
+      "bionic_maquis_combat",
+      "bionic_maquis_mega_man",
+      "bionic_maquis_soldier",
+      "bionic_maquis_technican",
+      "bionic_maquis_scientist",
+      "bionic_maquis_medic",
+      "dkz_maid_model_c",
+      "dkz_maid_model_d",
+      "dkz_maid_model_e"
+    ],
+    "forced_traits": [ "DKZ_LEADER" ],
+    "flags": [ "LONE_START" ]
+  }
+]
