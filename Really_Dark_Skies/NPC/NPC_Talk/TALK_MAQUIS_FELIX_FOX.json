@@ -1,0 +1,54 @@
+[
+  {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
+    "id": "TALK_MAQUIS_FELIX_FOX_ROOT",
+    "type": "talk_topic",
+    "dynamic_line": [ "What's up dude?.", "Hey how's it going man?.", "Hey, what is going on?", "What's up?"],
+    "responses": [
+      { "text": "Let's trade.", "topic": "TALK_MAQUIS_FELIX_FOX_TRADE" },
+      { "text": "What are you doing here?", "topic": "TALK_MAQUIS_FELIX_FOX_DOING" },
+      { "text": "Are you in charge of the Maquis?", "topic": "TALK_MAQUIS_FELIX_FOX_LEADERSHIP" },
+
+      { "text": "About that mission…", "topic": "TALK_MISSION_INQUIRE", "condition": "has_assigned_mission" },
+      { "text": "See you later.", "topic": "TALK_DONE" }
+    ]
+  },
+  {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
+    "id": "TALK_MAQUIS_FELIX_FOX_LEADERSHIP",
+    "type": "talk_topic",
+    "dynamic_line": {
+      "u_has_var": "MrEriksonExists",
+      "type": "knowledge",
+      "context": "flag",
+      "value": "yes",
+      "yes": "No man, that sounds like too much work.  I'm just the point man here on the farm.  It takes a lot to keep this place going even before the world ended.  The Chad is in charge of everything but he is at Barter Tower.",
+      "no": "No man, that sounds like too much work.  There is some fed based out of a strange sky-scraper they call 'Barter Tower'."
+    },
+    "responses": [ { "text": "I have another question.", "topic": "TALK_MAQUIS_FELIX_FOX_ROOT" }, { "text": "Ok, I have to go now.", "topic": "TALK_DONE" } ]
+  },
+  {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
+    "id": "TALK_MAQUIS_FELIX_FOX_DOING",
+    "type": "talk_topic",
+    "dynamic_line": [
+      "Protecting my homestead from zombies, aliens and Canadians.  Or at least two of those!",
+      "I'm keeping my little territory here sovereign against alien invaders!"
+    ],
+    "responses": [
+      { "text": "Let's trade.", "topic": "TALK_MAQUIS_FELIX_FOX_TRADE" },
+      { "text": "Are you in charge of the Maquis?", "topic": "TALK_MAQUIS_FELIX_FOX_LEADERSHIP" },
+      { "text": "Ok, good bye.", "topic": "TALK_DONE" }
+    ]
+  },
+  {
+    "//": "-----------------------------------------------------------------------------------------------------------------------",
+    "id": "TALK_MAQUIS_FELIX_FOX_TRADE",
+    "type": "talk_topic",
+    "dynamic_line": [
+      "No. I'm good, I have everything I need.  Maybe someone else might sell you something.",
+      "I do not have anything for sale, man.  There are merchants around somewhere."
+    ],
+    "responses": [ { "text": "I have another question.", "topic": "TALK_MAQUIS_FELIX_FOX_ROOT" }, { "text": "Ok, I have to go now.", "topic": "TALK_DONE" } ]
+  }
+]

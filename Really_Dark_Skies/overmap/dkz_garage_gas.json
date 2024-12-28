@@ -1,0 +1,167 @@
+[
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ [ "dkz_garage_gas_1", "dkz_garage_gas_2", "dkz_garage_gas_3" ] ],
+    "weight": 250,
+    "object": {
+      "fill_ter": "t_thconc_floor",
+      "rows": [
+        "ss____________________`_____________________`____________s.............'",
+        "ss_______________________________________________________s..............",
+        "ss_______________________________________________________s..............",
+        "ss_______________________________________________________s..............",
+        "ss______________________________________________________ss..............",
+        "ss__________________ssssssssssssss__________s__________sss..............",
+        "ss________I________ssssssssssssllse________sss________esssss............",
+        "ss________&________sss|-www-www-|--========---========---|sssss.........",
+        "ss________I________ssswrrrr rrrr| e                   e  |-+-|ss........",
+        "ss________s________sssw         [                       r|   |ss........",
+        "ss________s________ssD|r cc     [           I           r|  S|ss........",
+        "ss________s________sss[      cc |                       r|t R|ss........",
+        "ss________I________sss[      6  |r                      c|---|ss........",
+        "ss________&________ssD|r     c  |r          I           c|t S|ss........",
+        "_s________I________sssw      c r|r                       +  Ṟ|s.........",
+        "___________________sssw rrr  c r|r                       |---|s.........",
+        "___________________sss| rrr  |+-|-+|        I            +sssss.........",
+        "___________________sssw      |     |                     w..............",
+        "___________________sssw      | z z |                     w..............",
+        "___________________sss|[[[[[[| z z |-++-|   I            |..............",
+        "___________________sss|rrrrrr| z z |    |                |..............",
+        "____________________ss|      + z z |  y |rrcccrrrrcccrrrr|..............",
+        "___________________...|------------|----|--www----www----|4.............",
+        "_ss....................................................................."
+      ],
+      "terrain": {
+        "+": "t_door_c",
+        "-": "t_wall_w",
+        "|": "t_wall_w",
+        ".": [ [ "t_grass", 3 ], [ "t_dirt", 5 ], ["t_grass_long", 11 ]] ,
+        "'": "t_dirt",
+        " ": "t_thconc_floor",
+        "Z": "t_thconc_floor",
+        "y": "t_thconc_floor",
+        "x": "t_thconc_floor",
+        "6": "t_console_broken",
+        "=": "t_door_metal_locked",
+        "I": "t_column",
+        "[": "t_door_glass_c",
+        "_": "t_pavement",
+        "`": "t_pavement",
+        "e": "t_gates_mech_control",
+        "l": "t_sidewalk",
+        "s": "t_sidewalk",
+        "&": "t_sidewalk",
+        "D": "t_sidewalk",
+        "4": "t_gutter_downspout",
+        "w": [ [ "t_window_boarded", 3 ], [ "t_window_boarded_noglass", 5 ]]
+      },
+      "furniture": {
+        "'": "f_street_light",
+        "`": "f_street_light",
+        "P": "f_indoor_plant",
+        "D": "f_trashcan",
+        "R": "f_trashcan",
+        "Ṟ": "f_trashcan",
+        "c": "f_counter",
+        "h": "f_chair",
+        "k": "f_desk",
+        "l": "f_vending_c",
+        "o": "f_bookcase",
+        "r": "f_rack",
+        "z": "f_crate_c",
+        "S": "f_sink"
+      },
+      "gaspumps": { "&": {  } },
+      "toilets": { "t": {  } },
+      "place_vendingmachines": [ { "item_group": "vending_food", "x": 31, "y": 6 }, { "item_group": "vending_drink", "x": 32, "y": 6 } ]
+	  
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ [ "dkz_garage_gas_roof_1", "dkz_garage_gas_roof_2", "dkz_garage_gas_roof_3" ] ],
+    "object": {
+      "fill_ter": "t_flat_roof",
+      "rows": [
+        "                                                                        ",
+        "                                                                        ",
+        "                                                                        ",
+        "                                                                        ",
+        "                                                                        ",
+        "                                                                        ",
+        "         ...                                                            ",
+        "         ...          ------------------------------------              ",
+        "         ...          -..................................-----          ",
+        "         ...          -...:..................................-          ",
+        "         ...          -......................................-          ",
+        "         ...          -....................................=.-          ",
+        "         ...          -......................................-          ",
+        "         ...          -....................................=.-          ",
+        "         ...          -......................................-          ",
+        "         ...          -..................................-----          ",
+        "                      -..................................-              ",
+        "                      -..................................-              ",
+        "                      -...........................&......-              ",
+        "                      -..................................-              ",
+        "                      -..................................-              ",
+        "                      -..................................5              ",
+        "                      ------------------------------------              ",
+        "                                                                        "
+      ],
+      "palettes": [ "roof_palette" ],
+      "place_nested": [
+        {
+          "chunks": [
+            [ "roof_2x2_utilities_b", 15 ],
+            [ "roof_2x2_utilities_c", 5 ],
+            [ "roof_2x2_utilities_d", 10 ],
+            [ "roof_2x2_utilities", 10 ]
+          ],
+          "x": [ 24, 46 ],
+          "y": [ 10, 15 ],
+          "repeat": 2
+        }
+      ]
+    }
+  },
+  {
+    "type": "overmap_terrain",
+    "id": "dkz_garage_gas_1",
+    "copy-from": "generic_city_building",
+    "name": "garage - gas station",
+    "color": "light_blue",
+    "extend": { "flags": [ "SOURCE_FUEL", "SOURCE_VEHICLES" ] }
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "dkz_garage_gas_2", "dkz_garage_gas_3" ],
+    "copy-from": "generic_city_building",
+    "name": "garage",
+    "sym": "O",
+    "color": "white",
+    "extend": { "flags": [ "SOURCE_FUEL", "SOURCE_VEHICLES" ] }
+  },
+  {
+    "type": "overmap_terrain",
+    "id": [ "dkz_garage_gas_roof_1", "dkz_garage_gas_roof_2", "dkz_garage_gas_roof_3" ],
+    "copy-from": "generic_city_building",
+    "name": "garage roof",
+    "sym": "O",
+    "color": "white"
+  },
+  {
+    "type": "city_building",
+    "id": "dkz_garage_gas_mech",
+    "locations": [ "land" ],
+    "overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "dkz_garage_gas_1_north" },
+      { "point": [ 0, 0, 1 ], "overmap": "dkz_garage_gas_roof_1_north" },
+      { "point": [ 1, 0, 0 ], "overmap": "dkz_garage_gas_2_north" },
+      { "point": [ 1, 0, 1 ], "overmap": "dkz_garage_gas_roof_2_north" },
+      { "point": [ 2, 0, 0 ], "overmap": "dkz_garage_gas_3_north" },
+      { "point": [ 2, 0, 1 ], "overmap": "dkz_garage_gas_roof_3_north" }
+    ]
+  }
+]

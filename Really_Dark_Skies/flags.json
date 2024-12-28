@@ -1,0 +1,14 @@
+[
+  {
+    "id": "dkz_xeno-plated",
+    "type": "json_flag",
+    "context": [ "ARMOR", "TOOL_ARMOR" ],
+    "info": "This gear has been altered by adding the xeniod prismatic metal into the clothing."
+  },
+  {
+    "id": "dkz_xeno-weave",
+    "type": "json_flag",
+    "context": [ "ARMOR", "TOOL_ARMOR" ],
+    "info": "This gear has been altered by adding the xeniod chromogenic weave into the clothing."
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "name": "GROUP_BIOCRYSTAL_OUTGROUTH",
+    "type": "monstergroup",
+    "default": "mon_null",
+    "monsters": [
+      { "monster": "dkz_mon_stray", "freq": 15, "cost_multiplier": 5, "pack_size": [ 1, 2 ] },
+      { "monster": "dkz_mon_crystal_mite", "freq": 10, "cost_multiplier": 6 },
+      { "monster": "dkz_mon_stray_wretch", "freq": 15, "cost_multiplier": 6, "pack_size": [ 1, 2 ] },
+      { "monster": "dkz_mon_stray_wretch_tough", "freq": 15, "cost_multiplier": 7, "pack_size": [ 1, 2 ] },
+      { "monster": "dkz_mon_stray_creepler", "freq": 13, "cost_multiplier": 7, "pack_size": [ 1, 3 ] }
+    ]
+  },
+  {
+    "name": "GROUP_BIOCRYSTAL_WALLS",
+    "type": "monstergroup",
+    "default": "dkz_mon_crystal_sprout",
+    "monsters": [
+	  { "monster": "dkz_mon_crystal_shriek", "freq": 60, "cost_multiplier": 0 },
+      { "monster": "dkz_mon_crystal_sprout", "freq": 25, "cost_multiplier": 0 },
+      { "monster": "dkz_mon_crystal_wall", "freq": 13, "cost_multiplier": 0 },	
+      { "monster": "dkz_mon_crystal_hive", "freq": 2, "cost_multiplier": 0 }	
+    ]
+  },
+  {
+    "name": "GROUP_BIOCRYSTAL_MASTER",
+    "type": "monstergroup",
+    "default": "dkz_mon_crystal_hive",
+    "monsters": [
+      { "monster": "dkz_mon_stray_wretchmother", "freq": 80, "cost_multiplier": 0 },
+      { "monster": "dkz_mon_stray_titan", "freq": 8, "cost_multiplier": 0 },
+      { "monster": "dkz_mon_stray_goliath", "freq": 12, "cost_multiplier": 0, "pack_size": [ 1, 2 ] }
+    ]
+  }
+]
