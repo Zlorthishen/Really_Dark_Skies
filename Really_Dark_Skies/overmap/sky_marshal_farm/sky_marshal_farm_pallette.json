@@ -43,7 +43,6 @@
       "9": [ "t_region_tree", "t_region_tree_fruit", "t_region_tree_nut" ]
     },
     "furniture": {
-      "@": "f_bunkbed",
       "Ø": "f_bed",
       "B": "f_bathtub",
       "D": "f_trashcan",
