@@ -3,19 +3,30 @@
     "id": "dkz_xenofauna1",
     "type": "harvest",
     "entries": [
-      { "drop": "alien_meat", "type": "flesh", "mass_ratio": 0.23 },
-      { "drop": "alien_fat", "type": "flesh", "mass_ratio": 0.1 },
-      { "drop": "alien_offal", "type": "offal", "mass_ratio": 0.05 }
+      { "drop": "raw_alien_leather", "type": "skin", "mass_ratio": 0.01 },
+      { "drop": "alien_meat", "type": "flesh", "mass_ratio": 0.17 },
+      { "drop": "alien_meat_scrap", "type": "flesh", "mass_ratio": 0.01 },
+      { "drop": "alien_fat", "type": "flesh", "mass_ratio": 0.05 },
+      { "drop": "alien_offal", "type": "offal", "mass_ratio": 0.01 },
+      { "drop": "alien_lung", "type": "flesh", "mass_ratio": 0.0025 },
+      { "drop": "alien_liver", "type": "offal", "mass_ratio": 0.005 },
+      { "drop": "alien_brain", "type": "flesh", "mass_ratio": 0.002 },
+      { "drop": "alien_kidney", "type": "offal", "mass_ratio": 0.003 }
     ]
   },
   {
     "id": "dkz_xenofauna2",
     "type": "harvest",
     "entries": [
-      { "drop": "raw_alien_leather", "type": "skin", "mass_ratio": 0.03 },
-      { "drop": "alien_meat", "type": "flesh", "mass_ratio": 0.23 },
-      { "drop": "alien_fat", "type": "flesh", "mass_ratio": 0.1 },
-      { "drop": "alien_offal", "type": "offal", "mass_ratio": 0.05 }
+      { "drop": "raw_alien_leather", "type": "skin", "mass_ratio": 0.025 },
+      { "drop": "alien_meat", "type": "flesh", "mass_ratio": 0.17 },
+      { "drop": "alien_meat_scrap", "type": "flesh", "mass_ratio": 0.01 },
+      { "drop": "alien_fat", "type": "flesh", "mass_ratio": 0.05 },
+      { "drop": "alien_offal", "type": "offal", "mass_ratio": 0.01 },
+      { "drop": "alien_lung", "type": "flesh", "mass_ratio": 0.0035 },
+      { "drop": "alien_liver", "type": "offal", "mass_ratio": 0.005 },
+      { "drop": "alien_brain", "type": "flesh", "mass_ratio": 0.005 },
+      { "drop": "alien_kidney", "type": "offal", "mass_ratio": 0.003 }
     ]
   },
   {
