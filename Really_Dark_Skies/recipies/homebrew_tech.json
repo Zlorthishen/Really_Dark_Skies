@@ -144,6 +144,6 @@
       { "id": "SAW_M", "level": 1 }
     ],
     "tools": [ [ [ "forge", 50 ] ] ],
-    "components": [ [ [ "dkz_xenoid_mask_salvaged", 1 ] ], [ [ "sheet_kevlar", 1 ] ], [ [ "steel_chunk", 1 ] ], [ [ "w_paint", 3 ] ] ]
+    "components": [ [ [ "dkz_xenoid_mask_salvaged", 1 ] ], [ [ "kevlar_plate", 1 ] ], [ [ "steel_chunk", 1 ] ], [ [ "w_paint", 3 ] ] ]
   }
 ]
