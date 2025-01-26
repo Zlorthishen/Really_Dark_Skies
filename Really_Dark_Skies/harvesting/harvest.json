@@ -11,7 +11,8 @@
       { "drop": "alien_lung", "type": "flesh", "mass_ratio": 0.0025 },
       { "drop": "alien_liver", "type": "offal", "mass_ratio": 0.005 },
       { "drop": "alien_brain", "type": "flesh", "mass_ratio": 0.002 },
-      { "drop": "alien_kidney", "type": "offal", "mass_ratio": 0.003 }
+      { "drop": "alien_kidney", "type": "offal", "mass_ratio": 0.003 },
+      { "drop": "scute_piece", "type": "skin", "mass_ratio": 0.02 }
     ]
   },
   {
@@ -26,7 +27,8 @@
       { "drop": "alien_lung", "type": "flesh", "mass_ratio": 0.0035 },
       { "drop": "alien_liver", "type": "offal", "mass_ratio": 0.005 },
       { "drop": "alien_brain", "type": "flesh", "mass_ratio": 0.005 },
-      { "drop": "alien_kidney", "type": "offal", "mass_ratio": 0.003 }
+      { "drop": "alien_kidney", "type": "offal", "mass_ratio": 0.003 },
+      { "drop": "scute_piece", "type": "skin", "mass_ratio": 0.03 }
     ]
   },
   {
