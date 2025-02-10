@@ -1,4 +1,5 @@
 [
+[
   {
     "type": "scenario",
     "copy-from": "dkz_combatpatrol",
@@ -158,7 +159,7 @@
     "skills": [
       { "level": 2, "name": "firstaid" },
       { "level": 5, "name": "gun" },
-      { "level": 5, "name": "pistol" },
+      { "level": 5, "name": "rifle" },
       { "level": 5, "name": "melee" }
     ],
     "items": { "both": [ "gkb_chi_powarmor", "gkb_chi_powarmor_helmet" ] }
