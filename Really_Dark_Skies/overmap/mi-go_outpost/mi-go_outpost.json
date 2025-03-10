@@ -1685,6 +1685,6 @@
     "occurrences": [ 30, 50 ],
     "rotate": false,
     "spawns": { "group": "GROUP_MI-GO_BASE_COMMON", "population": [ 8, 10 ], "radius": [ 1, 4 ] },
-    "flags": [ "MI-GO", "UNIQUE" ]
+    "flags": [ "MI-GO", "UNIQUE", "GLOBALLY_UNIQUE" ]
   }
 ]
