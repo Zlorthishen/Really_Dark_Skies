@@ -38,7 +38,6 @@
       "SMELLS",
       "STUMBLES",
       "POISON",
-      "FILTHY",
       "BASHES",
       "GROUP_BASH",
       "PUSH_MON",
@@ -95,7 +94,6 @@
       "GROUP_BASH",
       "POISON",
       "PUSH_MON",
-      "FILTHY",
       "REVIVES",
       "PATH_AVOID_DANGER_1",
       "ARTHROPOD_BLOOD"
@@ -149,7 +147,6 @@
       "GROUP_BASH",
       "POISON",
       "PUSH_MON",
-      "FILTHY",
       "REVIVES",
       "PATH_AVOID_DANGER_1",
       "ARTHROPOD_BLOOD"
@@ -203,7 +200,6 @@
       "NO_BREATHE",
       "REVIVES",
       "PUSH_MON",
-      "FILTHY",
       "REVIVES",
       "PATH_AVOID_DANGER_1",
       "ARTHROPOD_BLOOD"
@@ -253,7 +249,6 @@
       "STUMBLES",
       "WARM",
       "POISON",
-      "FILTHY",
       "REVIVES",
       "PATH_AVOID_DANGER_1",
       "ARTHROPOD_BLOOD"
@@ -301,7 +296,6 @@
       "STUMBLES",
       "POISON",
       "BILE_BLOOD",
-      "FILTHY",
       "BASHES",
       "GROUP_BASH",
       "PUSH_MON",
@@ -356,7 +350,6 @@
       "STUMBLES",
       "POISON",
       "BILE_BLOOD",
-      "FILTHY",
       "BASHES",
       "GROUP_BASH",
       "PUSH_MON",
@@ -409,7 +402,6 @@
       "POISON",
       "ELECTRIC",
       "PUSH_MON",
-      "FILTHY",
       "REVIVES",
       "PATH_AVOID_DANGER_1",
       "ARTHROPOD_BLOOD"
@@ -461,7 +453,6 @@
       "POISON",
       "ELECTRIC",
       "PUSH_MON",
-      "FILTHY",
       "REVIVES",
       "PATH_AVOID_DANGER_1",
       "ARTHROPOD_BLOOD"
@@ -520,7 +511,6 @@
       "POISON",
       "PUSH_MON",
       "PATH_AVOID_FIRE",
-      "FILTHY",
       "REVIVES",
       "PATH_AVOID_DANGER_1",
       "ARTHROPOD_BLOOD"
@@ -578,7 +568,6 @@
       "PUSH_MON",
       "PATH_AVOID_FALL",
       "PATH_AVOID_FIRE",
-      "FILTHY",
       "REVIVES",
       "PATH_AVOID_DANGER_1",
       "ARTHROPOD_BLOOD"
@@ -635,7 +624,6 @@
       "POISON",
       "PUSH_MON",
       "PATH_AVOID_DANGER_1",
-      "FILTHY",
       "REVIVES",
       "ARTHROPOD_BLOOD"
     ]
@@ -689,7 +677,6 @@
       "GROUP_BASH",
       "POISON",
       "PUSH_MON",
-      "FILTHY",
       "REVIVES",
       "PATH_AVOID_DANGER_1",
       "ARTHROPOD_BLOOD"
@@ -745,7 +732,6 @@
       "GROUP_BASH",
       "POISON",
       "PUSH_MON",
-      "FILTHY",
       "REVIVES",
       "PATH_AVOID_DANGER_1",
       "ARTHROPOD_BLOOD"
@@ -802,7 +788,6 @@
       "POISON",
       "PUSH_MON",
       "PUSH_VEH",
-      "FILTHY",
       "REVIVES",
       "PATH_AVOID_DANGER_1",
       "ARTHROPOD_BLOOD"
@@ -851,7 +836,6 @@
       "WARM",
       "GUILT",
       "POISON",
-      "FILTHY",
       "REVIVES",
       "PATH_AVOID_DANGER_1",
       "ARTHROPOD_BLOOD"
@@ -898,7 +882,6 @@
       "WARM",
       "POISON",
       "HIT_AND_RUN",
-      "FILTHY",
       "PATH_AVOID_FIRE",
       "PATH_AVOID_FALL",
       "REVIVES",
@@ -954,7 +937,6 @@
       "WARM",
       "POISON",
       "CLIMBS",
-      "FILTHY",
       "PATH_AVOID_FIRE",
       "PATH_AVOID_FALL",
       "REVIVES",
@@ -1008,7 +990,6 @@
       "WARM",
       "POISON",
       "CLIMBS",
-      "FILTHY",
       "PATH_AVOID_FIRE",
       "PATH_AVOID_FALL",
       "REVIVES",
@@ -1057,7 +1038,6 @@
       "WARM",
       "POISON",
       "CLIMBS",
-      "FILTHY",
       "PATH_AVOID_FIRE",
       "PATH_AVOID_FALL",
       "REVIVES",
@@ -1109,7 +1089,6 @@
       "BASHES",
       "POISON",
       "ELECTRIC",
-      "FILTHY",
       "REVIVES",
       "PATH_AVOID_DANGER_1",
       "ARTHROPOD_BLOOD"
@@ -1167,7 +1146,6 @@
       "WARM",
       "POISON",
       "CLIMBS",
-      "FILTHY",
       "REVIVES",
       "PATH_AVOID_DANGER_1",
       "ARTHROPOD_BLOOD"
